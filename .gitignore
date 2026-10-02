@@ -1,0 +1,36 @@
+# Segredos (nunca commitar)
+.env
+.env.*
+!.env.example
+
+# Dependências e builds
+node_modules/
+.pnpm-store/
+.next/
+dist/
+build/
+out/
+*.tsbuildinfo
+
+# Testes
+coverage/
+playwright-report/
+test-results/
+
+# Dados locais gerados
+backups/
+infra/nginx/certs/
+services/trails/data/raw/
+services/ai/.model-cache/
+
+# Logs e sistema
+*.log
+npm-debug.log*
+pnpm-debug.log*
+.DS_Store
+Thumbs.db
+
+# Editores (configurações pessoais)
+.idea/
+.vscode/*
+!.vscode/extensions.json
