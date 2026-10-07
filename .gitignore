@@ -11,6 +11,7 @@ dist/
 build/
 out/
 *.tsbuildinfo
+prisma.config.ts
 
 # Testes
 coverage/
@@ -22,6 +23,7 @@ backups/
 infra/nginx/certs/
 services/trails/data/raw/
 services/ai/.model-cache/
+postgres_data/
 
 # Logs e sistema
 *.log
