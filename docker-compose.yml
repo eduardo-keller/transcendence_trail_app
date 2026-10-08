@@ -28,7 +28,7 @@ services:
       - "3000:3000"
     environment:
       NODE_ENV: development
-      DATABASE_URL: postgresql://${POSTGRES_USER:-postgres}:${POSTGRES_PASSWORD:-postgres_password@postgres:5432/${POSTGRES_DB:-myapp_db}?schema=public}
+      DATABASE_URL: postgresql://${POSTGRES_USER:-postgres}:${POSTGRES_PASSWORD:-postgres_password}@postgres:5432/${POSTGRES_DB:-myapp_db}?schema=public
       WATCHPACK_POLLING: "true"
     volumes:
       - .:/app
