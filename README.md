@@ -165,3 +165,16 @@ Base: as seções "O que aprendi" das suas PRs + docs/LEARNING.md §5 (lições 
 - Dados de mapa e trilhas © [OpenStreetMap contributors](https://www.openstreetmap.org/copyright), sob a licença ODbL. O catálogo derivado incluído neste repositório também está sob ODbL.
 - Dados de elevação: Copernicus DEM GLO-90, via [Open-Meteo](https://open-meteo.com/).
 - Trechos da Wikipedia usados no assistente: CC BY-SA, com a fonte citada em cada resposta.
+
+
+
+### Nota
+---
+Quando eu faco um ajuste no schema do prisma eu tenho que executar dentro do container do prisma
+```shell
+npx prisma migrate dev --name <descricao>
+```
+- Abaixo um exemplo que estou utilizando para o `better-auth`
+```shell
+npx prisma migrate dev --name add-better-auth
+```
