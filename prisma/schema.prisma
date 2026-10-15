@@ -1,9 +1,3 @@
-// This is your Prisma schema file,
-// learn more about it in the docs: https://pris.ly/d/prisma-schema
-
-// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
-// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
-
 generator client {
   provider = "prisma-client-js"
 }
@@ -13,7 +7,130 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
+model Activity {
+  id        String   @id
+  title     String
+  distance  Float
+  duration  Int
+  polyline  String?
+  userId    String
+  trailId   String?
+  createdAt DateTime @default(now())
+  Trail     Trail?   @relation(fields: [trailId], references: [id])
+  User      User     @relation(fields: [userId], references: [id])
+}
+
+model Badge {
+  id          String      @id
+  name        String
+  description String
+  iconUrl     String
+  UserBadge   UserBadge[]
+}
+
+model Community {
+  id              String            @id
+  name            String            @unique
+  description     String?
+  image           String?
+  createdAt       DateTime          @default(now())
+  CommunityMember CommunityMember[]
+  Event           Event[]
+  Post            Post[]
+}
+
+model CommunityMember {
+  id          String    @id
+  userId      String
+  communityId String
+  role        Role      @default(MEMBER)
+  Community   Community @relation(fields: [communityId], references: [id])
+  User        User      @relation(fields: [userId], references: [id])
+}
+
+model Event {
+  id               String             @id
+  title            String
+  description      String
+  date             DateTime
+  communityId      String
+  organizerId      String
+  Community        Community          @relation(fields: [communityId], references: [id])
+  User             User               @relation(fields: [organizerId], references: [id])
+  EventParticipant EventParticipant[]
+}
+
+model EventParticipant {
+  id      String @id
+  eventId String
+  userId  String
+  Event   Event  @relation(fields: [eventId], references: [id])
+  User    User   @relation(fields: [userId], references: [id])
+}
+
+model Notification {
+  id        String   @id
+  userId    String
+  message   String
+  isRead    Boolean  @default(false)
+  createdAt DateTime @default(now())
+  User      User     @relation(fields: [userId], references: [id])
+}
+
+model Post {
+  id          String     @id
+  content     String
+  mediaUrl    String?
+  userId      String
+  communityId String?
+  createdAt   DateTime   @default(now())
+  Community   Community? @relation(fields: [communityId], references: [id])
+  User        User       @relation(fields: [userId], references: [id])
+}
+
+model Trail {
+  id            String     @id
+  title         String
+  description   String?
+  distance      Float
+  elevationGain Float
+  routeGeoJSON  Json
+  authorId      String
+  createdAt     DateTime   @default(now())
+  Activity      Activity[]
+  User          User       @relation(fields: [authorId], references: [id])
+}
+
 model User {
-  id      Int    @id
-  Name    String
+  id                 String             @id
+  name               String?
+  email              String             @unique
+  password           String?
+  image              String?
+  isTwoFactorEnabled Boolean            @default(false)
+  secretTwoFactor    String?
+  createdAt          DateTime           @default(now())
+  Activity           Activity[]
+  CommunityMember    CommunityMember[]
+  Event              Event[]
+  EventParticipant   EventParticipant[]
+  Notification       Notification[]
+  Post               Post[]
+  Trail              Trail[]
+  UserBadge          UserBadge[]
+}
+
+model UserBadge {
+  id       String   @id
+  userId   String
+  badgeId  String
+  earnedAt DateTime @default(now())
+  Badge    Badge    @relation(fields: [badgeId], references: [id])
+  User     User     @relation(fields: [userId], references: [id])
+}
+
+enum Role {
+  ADMIN
+  MODERATOR
+  MEMBER
 }
