@@ -3,8 +3,27 @@ import { prismaAdapter } from 'better-auth/adapters/prisma';
 import { nextCookies } from 'better-auth/next-js';
 import { prisma } from './db';
 
+// BETTER_AUTH_SECRET e BETTER_AUTH_URL são lidos do ambiente pelo próprio Better Auth
+// (o entrypoint do container exporta o segredo a partir do Docker secret).
 export const auth = betterAuth({
 	database: prismaAdapter(prisma, { provider: 'postgresql' }),
-	emailAndPassword: { enabled: true },
+	emailAndPassword: {
+		enabled: true,
+		minPasswordLength: 8,
+	},
+	// Contado por IP e por rota. Sem isso ligado, dá para testar senhas sem limite.
+	rateLimit: {
+		// O padrão do Better Auth é ligar só em produção; o container roda `next dev`.
+		enabled: true,
+		storage: 'memory', // zera quando o container reinicia
+		window: 60, // segundos
+		max: 100, // demais rotas de /api/auth
+		customRules: {
+			'/sign-in/email': { window: 60, max: 5 },
+			'/sign-up/email': { window: 60, max: 3 },
+		},
+	},
+	// nextCookies() precisa ser o último plugin: ele grava os cookies quando
+	// o login acontece dentro de uma Server Action.
 	plugins: [nextCookies()],
 });
