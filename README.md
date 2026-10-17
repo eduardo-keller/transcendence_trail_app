@@ -170,11 +170,18 @@ Base: as seções "O que aprendi" das suas PRs + docs/LEARNING.md §5 (lições 
 
 ### Nota
 ---
-Quando eu faco um ajuste no schema do prisma eu tenho que executar dentro do container do prisma
-```shell
-npx prisma migrate dev --name <descricao>
-```
-- Abaixo um exemplo que estou utilizando para o `better-auth`
-```shell
-npx prisma migrate dev --name add-better-auth
-```
+|Comando|Acao|
+|---|---|
+|make fclean && make          | - sobe do zero|
+|make logs                    | - deve mostrar migrate deploy + "Ready" do Next|
+|make migrate name=teste      | - a migration deve aparecer em apps/web/prisma/migrations, com dono rzt|
+|make npm args="install zod"  | - o container percebe o lock novo no próximo restart|
+|make studio                  | - http://localhost:5555|
+|git status                   | - nenhum secret, .env ou data/postgres na lista|
+
+#### Fluxo para aplicacao de alteracoes no DB
+Atualizacao:
+  Edite o `schema.prisma` > Rode o `make migrade name=<descricao>` > Faca commit do schema junto com a pasta `prisma/migrations`
+
+Aplicar as atualizacoes:
+  make up

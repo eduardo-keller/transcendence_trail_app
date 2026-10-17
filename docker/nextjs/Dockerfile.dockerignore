@@ -1,0 +1,37 @@
+# Dependências e builds (a imagem instala e gera os seus próprios)
+**/node_modules
+.next
+out
+dist
+build
+*.tsbuildinfo
+
+# Git e CI
+.git
+.github
+.gitignore
+
+# Segredos: nunca entram na imagem
+.env
+.env.*
+
+# Documentação
+docs
+
+# Dados locais, logs e testes
+postgres_data
+backups
+coverage
+playwright-report
+test-results
+*.log
+
+# Editor e sistema
+.idea
+.vscode
+.DS_Store
+Thumbs.db
+
+data
+docker/secrets
+apps/web/.env*

@@ -11,7 +11,6 @@ dist/
 build/
 out/
 *.tsbuildinfo
-prisma.config.ts
 
 # Testes
 coverage/
@@ -36,3 +35,10 @@ Thumbs.db
 .idea/
 .vscode/*
 !.vscode/extensions.json
+
+# Secrets
+**/secrets/*
+!**/secrets/.gitkeep
+
+# Dados do Postgres (bind mount)
+data/postgres/

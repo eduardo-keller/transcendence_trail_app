@@ -1,0 +1,66 @@
+services:
+  postgres:
+    build:
+      context: ..
+      dockerfile: docker/postgres/Dockerfile
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:?define POSTGRES_USER no .env}
+      POSTGRES_DB: ${POSTGRES_DB:?defina POSTGRES_DB no .env}
+    secrets: [db_password]
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL","pg_isready -h 127.0.0.1 -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 5s
+      retries: 10
+
+  nextjs:
+    build:
+      context: ..
+      dockerfile: docker/nextjs/Dockerfile
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:?}
+      POSTGRES_DB: ${POSTGRES_DB:?}
+      BETTER_AUTH_URL: ${BETTER_AUTH_URL:?}
+      WATCHPACK_POLLING: "true"
+    secrets: [db_password, better_auth_secret]
+    ports:
+      - "3000:3000"
+    volumes:
+      - ../apps/web:/app
+      - /apps/node_modules
+      - /apps/.next
+    depends_on:
+      postgres: { condition: service_healthy }
+
+  prisma-studio:
+    build:
+      context: ..
+      dockerfile: docker/nextjs/Dockerfile
+    command: ["sh","-c","socat TCP-LISTEN:5556,fork,reuseaddr TCP:127.0.0.1:5555 & exec npx prisma studio --port 5555 --browser none"]
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:?}
+      POSTGRES_DB: ${POSTGRES_DB:?}
+      BETTER_AUTH_URL: ${BETTER_AUTH_URL:?}
+    secrets: [db_password, better_auth_secret]
+    ports:
+      - "5555:5556"
+    volumes:
+      - ../apps/web:/app
+      - /app/node_modules
+    depends_on:
+      postgres: { condition: service_healthy }
+
+secrets:
+  db_password:
+    file: ./secrets/db_password.txt
+  better_auth_secret:
+    file: ./secrets/better_auth_secret.txt
+
+volumes:
+  postgres_data:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: ../data/postgres
