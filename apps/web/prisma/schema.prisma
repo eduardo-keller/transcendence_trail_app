@@ -6,130 +6,225 @@ datasource db {
   provider = "postgresql"
 }
 
-model Activity {
-  id        String   @id
-  title     String
-  distance  Float
-  duration  Int
-  polyline  String?
-  userId    String
-  trailId   String?
-  createdAt DateTime @default(now())
-  Trail     Trail?   @relation(fields: [trailId], references: [id])
-  User      User     @relation(fields: [userId], references: [id])
-}
-
-model Badge {
-  id          String      @id
-  name        String
-  description String
-  iconUrl     String
-  UserBadge   UserBadge[]
-}
-
-model Community {
-  id              String            @id
-  name            String            @unique
-  description     String?
-  image           String?
-  createdAt       DateTime          @default(now())
-  CommunityMember CommunityMember[]
-  Event           Event[]
-  Post            Post[]
-}
-
-model CommunityMember {
-  id          String    @id
-  userId      String
-  communityId String
-  role        Role      @default(MEMBER)
-  Community   Community @relation(fields: [communityId], references: [id])
-  User        User      @relation(fields: [userId], references: [id])
-}
-
-model Event {
-  id               String             @id
-  title            String
-  description      String
-  date             DateTime
-  communityId      String
-  organizerId      String
-  Community        Community          @relation(fields: [communityId], references: [id])
-  User             User               @relation(fields: [organizerId], references: [id])
-  EventParticipant EventParticipant[]
-}
-
-model EventParticipant {
-  id      String @id
-  eventId String
-  userId  String
-  Event   Event  @relation(fields: [eventId], references: [id])
-  User    User   @relation(fields: [userId], references: [id])
-}
-
-model Notification {
-  id        String   @id
-  userId    String
-  message   String
-  isRead    Boolean  @default(false)
-  createdAt DateTime @default(now())
-  User      User     @relation(fields: [userId], references: [id])
-}
-
-model Post {
-  id          String     @id
-  content     String
-  mediaUrl    String?
-  userId      String
-  communityId String?
-  createdAt   DateTime   @default(now())
-  Community   Community? @relation(fields: [communityId], references: [id])
-  User        User       @relation(fields: [userId], references: [id])
-}
-
-model Trail {
-  id            String     @id
-  title         String
-  description   String?
-  distance      Float
-  elevationGain Float
-  routeGeoJSON  Json
-  authorId      String
-  createdAt     DateTime   @default(now())
-  Activity      Activity[]
-  User          User       @relation(fields: [authorId], references: [id])
-}
-
-model User {
-  id                 String             @id
-  name               String?
-  email              String             @unique
-  password           String?
-  image              String?
-  isTwoFactorEnabled Boolean            @default(false)
-  secretTwoFactor    String?
-  createdAt          DateTime           @default(now())
-  Activity           Activity[]
-  CommunityMember    CommunityMember[]
-  Event              Event[]
-  EventParticipant   EventParticipant[]
-  Notification       Notification[]
-  Post               Post[]
-  Trail              Trail[]
-  UserBadge          UserBadge[]
-}
-
-model UserBadge {
-  id       String   @id
-  userId   String
-  badgeId  String
-  earnedAt DateTime @default(now())
-  Badge    Badge    @relation(fields: [badgeId], references: [id])
-  User     User     @relation(fields: [userId], references: [id])
-}
-
 enum Role {
   ADMIN
   MODERATOR
   MEMBER
+}
+
+enum Difficulty {
+  EASY
+  MODERATE
+  HARD
+}
+
+enum Visibility {
+  PUBLIC
+  PRIVATE
+}
+
+// ---------- better-auth core ----------
+
+model User {
+  id            String   @id
+  name          String
+  email         String   @unique
+  emailVerified Boolean  @default(false)
+  image         String?
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @default(now()) @updatedAt
+
+  sessions        Session[]
+  accounts        Account[]
+  trails          Trail[]
+  activities      Activity[]
+  communities     CommunityMember[]
+  organizedEvents Event[]
+  eventsJoined    EventParticipant[]
+  notifications   Notification[]
+  posts           Post[]
+  badges          UserBadge[]
+}
+
+model Session {
+  id        String   @id
+  expiresAt DateTime
+  token     String   @unique
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  ipAddress String?
+  userAgent String?
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+}
+
+model Account {
+  id                    String    @id
+  accountId             String
+  providerId            String
+  userId                String
+  user                  User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  accessToken           String?
+  refreshToken          String?
+  idToken               String?
+  accessTokenExpiresAt  DateTime?
+  refreshTokenExpiresAt DateTime?
+  scope                 String?
+  password              String?
+  createdAt             DateTime  @default(now())
+  updatedAt             DateTime  @updatedAt
+
+  @@index([userId])
+}
+
+model Verification {
+  id         String   @id
+  identifier String
+  value      String
+  expiresAt  DateTime
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @default(now()) @updatedAt
+
+  @@index([identifier])
+}
+
+// ---------- trails ----------
+
+model Trail {
+  id            String     @id @default(cuid())
+  title         String
+  description   String?
+  distance      Float // meters
+  elevationGain Float // meters
+  difficulty    Difficulty @default(MODERATE)
+  visibility    Visibility @default(PUBLIC)
+  routeGeoJSON  Json
+  minLat        Float
+  minLon        Float
+  maxLat        Float
+  maxLon        Float
+  authorId      String
+  author        User       @relation(fields: [authorId], references: [id], onDelete: Cascade)
+  activities    Activity[]
+  createdAt     DateTime   @default(now())
+  updatedAt     DateTime   @default(now()) @updatedAt
+
+  @@index([authorId])
+}
+
+model Activity {
+  id        String   @id @default(cuid())
+  title     String
+  distance  Float // meters
+  duration  Int // seconds
+  polyline  String?
+  startedAt DateTime @default(now())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  trailId   String?
+  trail     Trail?   @relation(fields: [trailId], references: [id], onDelete: SetNull)
+  createdAt DateTime @default(now())
+
+  @@index([userId])
+  @@index([trailId])
+}
+
+// ---------- social ----------
+
+model Community {
+  id          String            @id @default(cuid())
+  name        String            @unique
+  description String?
+  image       String?
+  createdAt   DateTime          @default(now())
+  members     CommunityMember[]
+  events      Event[]
+  posts       Post[]
+}
+
+model CommunityMember {
+  id          String    @id @default(cuid())
+  role        Role      @default(MEMBER)
+  userId      String
+  user        User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  communityId String
+  community   Community @relation(fields: [communityId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, communityId])
+  @@index([communityId])
+}
+
+model Event {
+  id           String             @id @default(cuid())
+  title        String
+  description  String
+  date         DateTime
+  communityId  String
+  community    Community          @relation(fields: [communityId], references: [id], onDelete: Cascade)
+  organizerId  String
+  organizer    User               @relation(fields: [organizerId], references: [id], onDelete: Cascade)
+  participants EventParticipant[]
+
+  @@index([communityId])
+  @@index([organizerId])
+}
+
+model EventParticipant {
+  id      String @id @default(cuid())
+  eventId String
+  event   Event  @relation(fields: [eventId], references: [id], onDelete: Cascade)
+  userId  String
+  user    User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([eventId, userId])
+  @@index([userId])
+}
+
+model Post {
+  id          String     @id @default(cuid())
+  content     String
+  mediaUrl    String?
+  createdAt   DateTime   @default(now())
+  userId      String
+  user        User       @relation(fields: [userId], references: [id], onDelete: Cascade)
+  communityId String?
+  community   Community? @relation(fields: [communityId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@index([communityId])
+}
+
+model Notification {
+  id        String   @id @default(cuid())
+  message   String
+  isRead    Boolean  @default(false)
+  createdAt DateTime @default(now())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, isRead])
+}
+
+// ---------- gamification ----------
+
+model Badge {
+  id          String      @id @default(cuid())
+  name        String      @unique
+  description String
+  iconUrl     String
+  userBadges  UserBadge[]
+}
+
+model UserBadge {
+  id       String   @id @default(cuid())
+  earnedAt DateTime @default(now())
+  userId   String
+  user     User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  badgeId  String
+  badge    Badge    @relation(fields: [badgeId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, badgeId])
+  @@index([badgeId])
 }
