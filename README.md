@@ -12,15 +12,16 @@ README EXIGIDO PELO SUBJECT (capítulo VI) E AVALIADO.
 
 ## Description
 
-**Trilhas SP** é uma plataforma de trilhas para São Paulo e cidades do entorno, inspirada no Wikiloc. Os dados vêm do OpenStreetMap: o usuário descobre trilhas, vê percurso, distância, desnível e perfil de elevação, registra as trilhas que fez, conversa com amigos em tempo real, participa de comunidades e tira dúvidas com um assistente de IA que conhece as trilhas da região.
+**Trilhas SP** é uma plataforma de trilhas para São Paulo e cidades do entorno, inspirada no Wikiloc. O usuário descobre trilhas (um catálogo inicial do OpenStreetMap e trilhas publicadas por outros usuários), vê percurso, distância e desnível, publica as próprias trilhas, registra as atividades que fez, conversa com amigos em tempo real, participa de comunidades e de eventos (saídas em grupo), ganha emblemas e tira dúvidas com um assistente de IA que conhece as trilhas da região.
 
 **Funcionalidades principais:**
-- Catálogo de trilhas do OpenStreetMap com mapa, busca avançada (filtros, ordenação e paginação) e página de detalhe com perfil de elevação.
+- Catálogo de trilhas (OpenStreetMap + publicadas pelos usuários, públicas ou privadas) com mapa, busca avançada (filtros, ordenação e paginação) e página de detalhe.
+- Registro de atividades, ranking por km e emblemas.
 - Perfis, avatar, amigos com status online e chat 1:1 em tempo real.
-- Comunidades públicas e privadas, com posts, comentários e anexos.
+- Comunidades com papéis, posts com mídia, comentários e eventos.
 - Notificações em tempo real para as ações do usuário.
 - Assistente de IA: perguntas sobre trilhas com fontes (RAG) e planejador de trilha com streaming (LLM).
-- Arquitetura de microsserviços com monitoramento (Prometheus e Grafana), status page e backups automáticos.
+- Arquitetura de microsserviços (`web` + `realtime` + `ai`) com monitoramento (Prometheus e Grafana), status page e backups automáticos.
 
 <!-- Atualizado por: PO. Quando: ao fechar o M2 (revisar a lista). -->
 
@@ -121,7 +122,7 @@ Fonte: o campo "Uso de IA nesta PR" de cada PR. O PM consolida no M3.
 | Frontend | Next.js 16 (React 19, App Router) | Em uso (`apps/web`) | Framework full-stack escolhido pelo time |
 | Frontend | Tailwind CSS 4, shadcn/ui, Leaflet, Recharts | Tailwind instalado, ainda não configurado; o resto planejado | Componentes acessíveis; mapas simples de integrar ([ADR-0008](docs/adr/0008-frontend-mapas.md)) |
 | Backend | Next.js (Route Handlers, Server Actions) | Em uso | [ADR-0001](docs/adr/0001-arquitetura-servicos.md) |
-| Backend | Serviços Fastify (TypeScript) | Planejado | [ADR-0001](docs/adr/0001-arquitetura-servicos.md), [ADR-0002](docs/adr/0002-monorepo-typescript.md) |
+| Backend | Serviços Fastify (TypeScript): `realtime` e `ai` | Planejado | [ADR-0001](docs/adr/0001-arquitetura-servicos.md), [ADR-0002](docs/adr/0002-monorepo-typescript.md) |
 | Banco | PostgreSQL 18 + PostGIS + pgvector, via Prisma 7 (`@prisma/adapter-pg`) | Em uso (um banco, um schema Prisma) | [ADR-0003](docs/adr/0003-banco-de-dados.md) |
 | Tempo real | Socket.IO + Redis pub/sub | Planejado | [ADR-0005](docs/adr/0005-comunicacao.md) |
 | Autenticação | Better Auth (e-mail e senha, adapter Prisma) | Configurado, ainda sem rotas | [ADR-0004](docs/adr/0004-autenticacao.md) |
@@ -134,7 +135,7 @@ Fonte: o campo "Uso de IA nesta PR" de cada PR. O PM consolida no M3.
 
 <!-- Atualizado por: Tech Lead. Fonte da verdade: apps/web/prisma/schema.prisma. Atualize o diagrama quando mudar uma relação. -->
 
-Hoje há **um banco** (`POSTGRES_DB`, padrão `trails`) e **um schema Prisma**: [`apps/web/prisma/schema.prisma`](apps/web/prisma/schema.prisma). A separação em um banco por serviço ([ADR-0003](docs/adr/0003-banco-de-dados.md)) ainda não foi feita.
+O `web` usa o banco principal (`POSTGRES_DB`, padrão `trails`) com **um schema Prisma**: [`apps/web/prisma/schema.prisma`](apps/web/prisma/schema.prisma). Os serviços `realtime` e `ai` terão bancos próprios no mesmo servidor quando existirem ([ADR-0003](docs/adr/0003-banco-de-dados.md)).
 
 ```mermaid
 erDiagram

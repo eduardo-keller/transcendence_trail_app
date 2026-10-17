@@ -1,7 +1,7 @@
 # ADR-0003: PostgreSQL com um servidor e um banco por serviço; Prisma; PostGIS e pgvector
 
-- **Status:** Proposta
-- **Data:** 2026-10-01
+- **Status:** Proposta (banco principal implementado)
+- **Data:** 2026-10-01 (revista em 2026-10-17 para refletir o código)
 - **Decisores:** time (aceitar no kickoff)
 - **Frentes afetadas:** todas
 
@@ -9,42 +9,40 @@
 
 - O time escolheu PostgreSQL e o módulo de ORM.
 - Microsserviços pedem isolamento de dados entre serviços.
-- Trilhas são dados geoespaciais (linhas, distâncias, "perto de mim"). O RAG precisa de busca vetorial.
-- As máquinas têm memória limitada (cerca de 15 containers).
+- Trilhas são dados geográficos (percursos, "perto de mim", área do mapa). O RAG precisa de busca vetorial.
+- As máquinas têm memória limitada.
 
 ## Decisão
 
-- **Um container PostgreSQL** com **quatro bancos** (`web`, `realtime`, `trails`, `ai`) e **um usuário por banco**, com permissão só no próprio banco. Um script de init cria bancos, usuários e extensões.
-- Imagem própria (Alpine + PostgreSQL 18 + PostGIS + **pgvector**, em `docker/postgres/`).
-- Extensões: `postgis` e `pg_trgm` em `trails`; `vector` em `ai`; `pg_trgm` em `web` (busca de comunidades).
-- **Prisma** como ORM em todos os serviços com banco. No `web`, o schema é dividido em vários arquivos, um por domínio (recurso estável desde o Prisma 6.7; no Prisma 7 é configurado em `prisma.config.ts`).
-- Tipos espaciais e vetoriais declarados como `Unsupported(...)` e consultados com `$queryRaw` (template tag, seguro). Nunca `$queryRawUnsafe` com entrada do usuário.
+- **Um container PostgreSQL** (imagem própria em `docker/postgres/`: Alpine + PostgreSQL 18 + PostGIS + pgvector) com **um banco por serviço**:
+  - **principal** (`POSTGRES_DB`, padrão `trails`), do `web`: **existe**. O entrypoint cria o banco e as extensões `postgis` e `vector` na primeira subida.
+  - `realtime` e `ai`: criados quando os serviços existirem, cada um com um usuário com permissão só no próprio banco (hoje há um usuário só, `POSTGRES_USER`).
+- Senha do banco como **Docker secret** (`docker/secrets/db_password.txt`), nunca no `.env`.
+- **Prisma 7** como ORM em todos os serviços com banco, com `prisma.config.ts` e o driver adapter `@prisma/adapter-pg`. No `web`, hoje um único `schema.prisma` dividido por comentários; se os conflitos aumentarem, dividir em vários arquivos (suporte nativo do Prisma).
+- **Trilhas sem tipo espacial no schema:** o percurso fica em `routeGeoJSON` (JSON) e a área em colunas `minLat`, `minLon`, `maxLat`, `maxLon`. A busca por área é feita com Prisma puro. O PostGIS fica disponível para a ingestão do OSM e para consultas especiais com `$queryRaw` (template tag, seguro). Nunca `$queryRawUnsafe` com entrada do usuário.
+- **Vetores (banco `ai`):** `Unsupported("vector(384)")` no schema e `$queryRaw` nas buscas.
 - Migrations aplicadas no start do container (`prisma migrate deploy`).
-
-## Estado da implementação (2026-10-17)
-
-- A imagem e o entrypoint (`docker/postgres/tools/entrypoint.sh`) existem: `initdb` na primeira subida, senha via Docker secret, **um** banco (`POSTGRES_DB`, padrão `trails`) com `postgis` e `vector`.
-- **Ainda não implementado:** os quatro bancos, os usuários por banco e o `pg_trgm`.
-- O Prisma está em `apps/web`, com **um** arquivo `schema.prisma` que contém também entidades de outros serviços (`Trail`, `Notification`). Precisa ser dividido quando os serviços existirem, ou esta ADR revista. Ver [STATUS.md](../STATUS.md#divergências-entre-docs-e-código).
 
 ## Alternativas consideradas
 
 | Alternativa | Prós | Contras |
 |---|---|---|
-| Um banco compartilhado entre serviços | Joins fáceis | Acoplamento; enfraquece a defesa do módulo de microsserviços |
-| Um container Postgres por serviço | Isolamento máximo | ~4× a memória; mais backups e exporters |
+| Um banco compartilhado entre todos os serviços | Joins fáceis | Acoplamento; enfraquece a defesa do módulo de microsserviços |
+| Um container Postgres por serviço | Isolamento máximo | Multiplica a memória, os backups e os exporters |
+| Geometria PostGIS no schema (`Unsupported("geometry")`) | Consultas espaciais completas e índice GiST | Toda leitura e escrita de trilha vira SQL puro; o bbox resolve a busca por área que precisamos |
 | Drizzle ORM | Mais próximo do SQL; leve | Menos material de aprendizado; Prisma é mais pedido e tem schema muito legível (bom para o requisito de "schema claro") |
 | Banco vetorial dedicado (Qdrant, Chroma) | Recursos avançados | Mais um container; o pgvector resolve o volume que teremos |
 
 ## Consequências
 
-**Positivas:** isolamento defendível com custo de memória baixo; uma ferramenta de backup; PostGIS e pgvector no mesmo motor que o time já conhece.
+**Positivas:** isolamento defendível com custo de memória baixo; uma ferramenta de backup; o schema de trilhas é 100% Prisma; PostGIS e pgvector no mesmo motor.
 
-**Negativas:** sem joins entre serviços (usar API ou snapshot); SQL puro nas partes espaciais e vetoriais (é preciso explicar o motivo na avaliação).
+**Negativas:** sem joins entre serviços (usar API); filtros espaciais mais elaborados (raio exato, interseção com o percurso e não só com o retângulo) exigem `$queryRaw` com `ST_GeomFromGeoJSON`.
 
 ## 💡 Para aprender
 
 - Database-per-service e consistência eventual.
-- PostGIS: `geometry` × `geography`, SRID 4326, índices GiST. Workshop: <https://postgis.net/workshops/postgis-intro/>
+- Bounding box e por que ele é um filtro barato e aproximado.
+- PostGIS: `geometry` × `geography`, SRID 4326. Workshop: <https://postgis.net/workshops/postgis-intro/>
 - pgvector: distância de cosseno, índice HNSW. <https://github.com/pgvector/pgvector>
-- Prisma: migrations, `Unsupported`, `$queryRaw`. <https://www.prisma.io/docs>
+- Prisma: migrations, `Unsupported`, `$queryRaw`, driver adapters. <https://www.prisma.io/docs>

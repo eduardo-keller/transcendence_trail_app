@@ -1,6 +1,6 @@
 # Status do projeto
 
-> Última atualização: 2026-10-17 — auditoria docs × código: status de F1/F2, M0 atrasado, divergências registradas.
+> Última atualização: 2026-10-17 — docs alinhados ao código (divergências resolvidas a favor do schema atual); status de F1/F2; M0 atrasado.
 >
 > **Como atualizar:** cada dono atualiza a linha da sua frente e dos seus módulos **no PR** que muda o estado. O PM revisa o documento inteiro na reunião semanal.
 > **Tarefas individuais não ficam aqui**, ficam no GitHub Projects (motivo em [PROCESS.md](PROCESS.md#onde-fica-cada-informação)). Este arquivo é a visão macro: frentes, módulos, marcos, bloqueios.
@@ -24,8 +24,8 @@ Exigidos pelo subject e documentados no README.
 |---|---|---|---|---|---|---|
 | [F1 Plataforma & Observabilidade](frentes/plataforma/README.md) | *a definir* | | Microsserviços, Monitoramento, Health/Backups | 🟡 | M0 | Compose com `postgres` + `nextjs`, Makefile e secrets prontos; faltam nginx/HTTPS, Redis, `service-kit`, CI |
 | [F2 Identidade & Comunidades](frentes/identidade/README.md) | *a definir* | | Ger. de usuários, Upload | 🟡 | M0 | Better Auth configurado e tabelas criadas; faltam a rota `/api/auth/[...all]`, cadastro e login funcionando. Auth é caminho crítico |
-| [F3 Social em Tempo Real](frentes/social/README.md) | *a definir* | | Tempo real, Interação, Notificações | ⬜ | M0 | `Notification` já existe no schema do `web` (ver divergências) |
-| [F4 Trilhas & Mapas](frentes/trilhas/README.md) | *a definir* | | Busca avançada | ⬜ | M0 | `Trail` e `Activity` já existem no schema do `web` (ver divergências); spike do OSM não iniciado |
+| [F3 Social em Tempo Real](frentes/social/README.md) | *a definir* | | Tempo real, Interação, Notificações | ⬜ | M0 | `Notification` já existe no schema do `web`; `realtime` e Redis não existem |
+| [F4 Trilhas & Mapas](frentes/trilhas/README.md) | *a definir* | | Busca avançada | ⬜ | M0 | `Trail`, `Activity`, `Badge` e `UserBadge` já existem no schema do `web`; spike do OSM não iniciado |
 | [F5 Assistente IA](frentes/ia/README.md) | *a definir* | | LLM, RAG | ⬜ | M0 | Depende da ADR-0007 |
 
 ## Módulos
@@ -54,7 +54,7 @@ Datas propostas; confirme no kickoff. Detalhes em [ROADMAP.md](ROADMAP.md).
 
 | Marco | Data alvo | Status | Critério de saída (resumo) |
 |---|---|---|---|
-| M0 Esqueleto andando | 2026-10-11 | 🟡 atrasado | `make` sobe `postgres` + `nextjs` (HTTP, porta 3000). Faltam HTTPS, login, `trails`, socket e IA. | `make` sobe tudo com HTTPS; login funciona; lista de trilhas vem do `trails`; socket conecta; IA faz streaming de "olá" |
+| M0 Esqueleto andando | 2026-10-11 | 🟡 atrasado | `make` sobe tudo com HTTPS; login funciona; `/trilhas` lista trilhas do seed; socket conecta; IA faz streaming de "olá". **Hoje:** `make` sobe `postgres` + `nextjs` em HTTP (3000); faltam HTTPS, login, seed, socket e IA |
 | M1 Núcleo navegável | 2026-10-25 | ⬜ | Páginas principais com dados reais; perfil, amigos, chat básico, detalhe de trilha |
 | M2 Funcionalidades completas | 2026-11-08 | ⬜ | Todos os 14 módulos funcionando (pelo menos 🟡 avançado); feature freeze de escopo |
 | M3 Release candidate | 2026-11-22 | ⬜ | Todos os módulos 🟢; console limpo; README completo; DR testado |
@@ -72,15 +72,9 @@ Encontrou um doc que não bate com o código e não é da sua frente? Registre a
 
 | Data | Onde | O que o doc diz × o que o código faz | Quem resolve |
 |---|---|---|---|
-| 2026-10-17 | [ARCHITECTURE §5](ARCHITECTURE.md#5-dados), [ADR-0001](adr/0001-arquitetura-servicos.md), [ADR-0003](adr/0003-banco-de-dados.md) | Um banco por serviço; `Trail` no banco `trails`, `Notification` no `realtime` × um banco só, com `Trail`, `Activity` e `Notification` no schema do `web`. Manter assim enfraquece a defesa do módulo de microsserviços | Tech Lead |
-| 2026-10-17 | [PRODUCT §4](PRODUCT.md#4-escopo-priorizado-moscow), [F4](frentes/trilhas/README.md) | Catálogo vem do OSM; trilha criada por usuário é "Could" × `Trail.authorId` obrigatório e `Trail.visibility`: toda trilha pertence a um usuário | PO + F4 |
-| 2026-10-17 | [F4 §4](frentes/trilhas/README.md#4-desenho) | Geometria PostGIS (`MultiLineString`), slug, elevação, tipo, município × `routeGeoJSON` (JSON) + bounding box em `Float`, sem slug | F4 + Tech Lead |
-| 2026-10-17 | [F4 §4](frentes/trilhas/README.md#4-desenho) | `TrailCompletion` (data, nota, GPX, snapshot de distância e desnível) × `Activity` (título, distância, duração, `polyline`, trilha opcional) | F4 |
-| 2026-10-17 | [PRODUCT §5](PRODUCT.md#5-regras-de-produto), [F2 §4](frentes/identidade/README.md#4-desenho) | Papéis `owner`/`moderator`/`member`; comunidade pública ou privada; entrada por solicitação (`Membership.status`) × enum `ADMIN`/`MODERATOR`/`MEMBER`, sem visibilidade nem status de entrada | PO + F2 |
-| 2026-10-17 | [F2 §4](frentes/identidade/README.md#4-desenho), [ADR-0009](adr/0009-armazenamento-arquivos.md) | Post sempre em comunidade, anexos via `File` com controle de acesso, `Comment` × `Post.communityId` opcional, `Post.mediaUrl` (URL solta), sem `Comment` | F2 |
-| 2026-10-17 | [F2 §4](frentes/identidade/README.md#4-desenho) | `User` com `username`, `bio`, `city`, `avatarFileId` × `User` do Better Auth sem esses campos (`image` é uma string) | F2 |
-| 2026-10-17 | [F3 §4](frentes/social/README.md#4-desenho) | `Notification` com `kind`, `actorId`, `entityType`, `link`, `readAt` × `message` + `isRead` | F3 |
-| 2026-10-17 | [PRODUCT §3–4](PRODUCT.md#3-páginas), [MODULES §3](MODULES.md#3-módulos-reserva) | Gamificação é módulo reserva (só depois do M2); não há eventos de comunidade no escopo × `Badge`/`UserBadge` e `Event`/`EventParticipant` já no schema | PO |
+| | | | |
+
+> 2026-10-17: as nove divergências encontradas na auditoria (banco único, trilhas com autor, `Activity`, papéis, `Post.mediaUrl`, `User` do Better Auth, `Notification`, eventos e emblemas) foram resolvidas **atualizando os docs ao código**. Ver as seções "Decisões" de [F2](frentes/identidade/README.md#10-decisões), [F3](frentes/social/README.md#10-decisões) e [F4](frentes/trilhas/README.md#10-decisões) e as ADRs 0001 e 0003 revistas.
 
 ## Decisões pendentes (kickoff)
 
@@ -89,7 +83,8 @@ Encontrou um doc que não bate com o código e não é da sua frente? Registre a
 - [ ] Nome do projeto
 - [ ] Confirmar as datas dos marcos (início e data provável da avaliação)
 - [ ] Provedor de LLM e orçamento ([ADR-0007](adr/0007-provedor-llm-embeddings.md))
-- [ ] Aceitar ou ajustar as ADRs 0001–0009
+- [ ] Aceitar ou ajustar as ADRs 0001–0009 (0001, 0003, 0005, 0006 foram revistas em 2026-10-17 para acompanhar o código)
+- [ ] Conta do sistema como autora das trilhas importadas do OSM ([F4](frentes/trilhas/README.md))
 - [x] Criar o repositório no GitHub (`eduardo-keller/transcendence_trail_app`)
 - [ ] Criar o Project board, as labels e a proteção da `main`
 - [ ] Criar o servidor no Discord com os canais de [PROCESS.md](PROCESS.md#comunicação)

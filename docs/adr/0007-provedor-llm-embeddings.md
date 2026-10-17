@@ -3,7 +3,7 @@
 - **Status:** **Pendente**: decidir no kickoff (depende de orçamento e das contas que o time tiver)
 - **Data:** 2026-10-01
 - **Decisores:** time; F5 conduz
-- **Frentes afetadas:** F5 (implementa), F1 (segredos, métricas)
+- **Frentes afetadas:** F5 (implementa), F1 (segredos como Docker secrets, métricas)
 
 ## Contexto
 

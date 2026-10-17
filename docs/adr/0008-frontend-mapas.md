@@ -8,7 +8,7 @@
 ## Contexto
 
 - O subject exige uma solução de estilo (framework CSS ou similar), frontend responsivo e acessível, e console sem erros.
-- O produto depende de mapas (lista + mapa, percurso da trilha) e de um gráfico de perfil de elevação.
+- O produto depende de mapas (lista + mapa, percurso da trilha a partir de `Trail.routeGeoJSON`) e de gráficos (estatísticas de atividades; perfil de elevação quando o campo existir).
 
 ## Decisão
 
@@ -18,7 +18,7 @@
   - padrão: OpenStreetMap (respeitando a [política de uso](https://operations.osmfoundation.org/policies/tiles/): atribuição visível, sem pré-carregamento ou uso offline);
   - alternativa topográfica, boa para trilhas: OpenTopoMap;
   - se houver bloqueio ou erro (que sujaria o console), trocar o provedor pela variável.
-- **Gráficos:** Recharts (perfil de elevação, gráficos simples).
+- **Gráficos:** Recharts (estatísticas do perfil, perfil de elevação, gráficos simples).
 - **Ícones:** lucide-react (padrão do shadcn).
 
 ## Alternativas consideradas

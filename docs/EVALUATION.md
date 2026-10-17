@@ -31,7 +31,7 @@ O subject é claro: **se a parte obrigatória falhar, o projeto é rejeitado**, 
 
 O subject avisa que **páginas inadequadas reprovam o projeto**. Conteúdo específico do nosso produto:
 
-**Política de Privacidade:** quais dados coletamos (e-mail, nome, username, bio, cidade, avatar, arquivos, mensagens, trilhas realizadas, GPX); para quê; base legal (LGPD); onde ficam armazenados; cookies (só o de sessão); **dados enviados a terceiros** (perguntas ao provedor de LLM; tiles do mapa carregados de servidores externos); quem vê o quê (perfil público, GPX privado, comunidades privadas); retenção e backups; direitos do titular (acesso, correção, exclusão da conta) e como exercê-los; contato.
+**Política de Privacidade:** quais dados coletamos (e-mail, nome, avatar, perfil, arquivos, mensagens, posts, trilhas publicadas, atividades com percurso, participação em eventos, emblemas); para quê; base legal (LGPD); onde ficam armazenados; cookies (só o de sessão); **dados enviados a terceiros** (perguntas ao provedor de LLM; tiles do mapa carregados de servidores externos); quem vê o quê (perfil público, trilhas privadas, percurso das atividades só para o dono); retenção e backups; direitos do titular (acesso, correção, exclusão da conta) e como exercê-los; contato.
 
 **Termos de Uso:** quem pode usar; regras de conteúdo (comunidades, chat, uploads proibidos); moderação; **aviso de segurança** (informações de trilha podem estar imprecisas, a atividade envolve riscos e a responsabilidade é do usuário); **IA** (respostas podem conter erros); **atribuições e licenças** (OSM/ODbL, Copernicus/Open-Meteo, Wikipedia/CC BY-SA); limitação de responsabilidade; encerramento de conta; projeto acadêmico da 42.
 
@@ -69,14 +69,14 @@ Ordem pensada para contar uma história e passar por todos os módulos. Quem apr
 | 2 | HTTPS (aviso do certificado explicado); rodapé → Privacidade e Termos | Obrigatório | seção 2 |
 | 3 | Cadastro com erros de validação (front e back) → login | Obrigatório, Ger. de usuários | [F2 §9](frentes/identidade/README.md#9-como-demonstrar) |
 | 4 | Home → busca de trilhas com filtros, ordenação, paginação e mapa | Busca, Frameworks | [F4 §9](frentes/trilhas/README.md#9-como-demonstrar) |
-| 5 | Detalhe da trilha → marcar como realizada → notificação | Notificações | F4 |
+| 5 | Detalhe da trilha → registrar atividade → emblema e notificação; publicar trilha privada por GPX | Notificações, Upload | F4 |
 | 6 | Assistente: perguntar (RAG, fontes) e planejar (streaming, parar, rate limit) | RAG, LLM | [F5 §9](frentes/ia/README.md#9-como-demonstrar) |
 | 7 | Segundo usuário: amizade, online, chat ao vivo, queda e volta do `realtime` | Interação, Tempo real, Ger. de usuários | [F3 §9](frentes/social/README.md#9-como-demonstrar) |
 | 8 | Perfil: editar, avatar com progresso, arquivo inválido recusado, excluir | Ger. de usuários, Upload | F2 |
-| 9 | Comunidade privada: pedido, aprovação, post com anexo, feed ao vivo, acesso negado | Notificações, Tempo real, Upload | F2, F3 |
+| 9 | Comunidade: entrar, papéis, evento com participantes, post com mídia, feed ao vivo, ação negada a um `MEMBER` | Notificações, Tempo real, Upload | F2, F3 |
 | 10 | Grafana: dashboards; parar um serviço → alerta + status page degradada + app funcionando | Monitoramento, Microsserviços, Health | F1 |
 | 11 | Backup → apagar dado → restaurar | Health/Backups | F1 |
-| 12 | Tour do código: contratos, schema Prisma, uma Server Action, uma query PostGIS | ORM, Frameworks | — |
+| 12 | Tour do código: contratos, `schema.prisma`, uma Server Action, a busca de trilhas por bounding box | ORM, Frameworks | — |
 
 ## 6. Perguntas prováveis
 
@@ -87,9 +87,9 @@ Treine as respostas em voz alta.
 - Mostre commits seus. Explique uma PR sua.
 
 **Técnicas**
-- Por que essa divisão de microsserviços? Por que o `web` faz tanta coisa?
+- Por que essa divisão de microsserviços? Por que o `web` faz tanta coisa (inclusive trilhas e notificações)?
 - Como a senha é armazenada? Por que não usar só SHA-256?
-- O que acontece se dois usuários se pedirem amizade ao mesmo tempo?
+- O que acontece se dois usuários se pedirem amizade ao mesmo tempo? E se alguém clicar duas vezes em "participar" de um evento?
 - Como a mensagem chega ao outro usuário? E se ele estiver offline?
 - Como vocês garantem que todas as ações geram notificação?
 - O que é um embedding? Por que o RAG reduz alucinação? Qual a diferença entre o módulo de LLM e o de RAG?
@@ -101,7 +101,7 @@ Treine as respostas em voz alta.
 **Modificação ao vivo** (o subject avisa que pode acontecer). Exemplos para treinar:
 - Adicionar um campo "telefone de emergência" ao perfil (schema → migration → formulário → validação).
 - Mudar o rate limit do assistente de 10 para 5 por minuto.
-- Adicionar o filtro "superfície" na busca de trilhas.
+- Adicionar um filtro novo na busca de trilhas (ex.: só trilhas com atividades registradas).
 - Mudar o texto de uma notificação ou criar uma notificação para uma ação nova.
 - Mudar a cor de um componente ou a ordem padrão da busca.
 - Adicionar uma nova regra de alerta no Prometheus.

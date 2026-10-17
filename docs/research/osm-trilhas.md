@@ -1,6 +1,6 @@
 # Pesquisa: trilhas do OpenStreetMap na região de São Paulo
 
-> Última atualização: 2026-10-01 — pesquisa inicial feita durante o planejamento.
+> Última atualização: 2026-10-17 — pipeline apontando para `apps/web/scripts/` e para os campos de `Trail`. Pesquisa feita em 2026-10-01.
 > Próximo passo: **spike da F4 no Sprint 0** (seção 8).
 
 ## 1. Valeu pesquisar agora?
@@ -76,7 +76,7 @@ Exemplos de trilhas montadas por agrupamento de nome (comprimento somado):
 
 ## 4. Pipeline de ingestão recomendado
 
-Script CLI no serviço `trails` (ex.: `npm run ingest` dentro de `services/trails`), rodado **pelo time**, não pelo container em produção:
+Script CLI em `apps/web/scripts/` (ex.: `make npm args="run ingest"`), rodado **pelo time**, não pelo container em produção. O resultado é carregado na tabela `Trail` do `web` ([ADR-0006](../adr/0006-dados-de-trilhas-osm.md)):
 
 ```
 1. Baixar        Overpass (retry + backoff, User-Agent identificando o projeto) → cache JSON bruto em data/raw/ (no .gitignore)
@@ -91,7 +91,8 @@ Script CLI no serviço `trails` (ex.: `npm run ingest` dentro de `services/trail
                  município (polígonos admin_level=8 + ST_Intersects), parque (protected_area), POIs próximos
 7. Elevar        amostrar um ponto a cada 25–50 m → Open-Meteo em lotes de 100 → perfil, desnível, mín./máx.
 8. Classificar   dificuldade (seção 6)
-9. Exportar      seed/trails.geojson.gz (versionado) + log da execução (IngestionRun)
+9. Exportar      apps/web/prisma/seed/trails.geojson.gz (versionado): título, descrição, distância, desnível,
+                 dificuldade, GeoJSON simplificado e bounding box (campos de `Trail`) + log da execução
 ```
 
 Agrupamento por nome e proximidade no PostGIS (ideia, a validar no spike):
@@ -131,7 +132,7 @@ Bibliotecas úteis em TypeScript: `osmtogeojson` (resposta do Overpass para GeoJ
 2. Obter a elevação de cada ponto.
 3. **Suavizar** (média móvel de ~5 pontos), porque o DEM tem ruído.
 4. Somar só as subidas e descidas acima de um **limiar** (histerese de ~3–5 m).
-5. Guardar: `elevationGainM`, `elevationLossM`, `minEleM`, `maxEleM` e o perfil `[[distM, eleM], …]` (≤ 200 pontos, para o gráfico).
+5. Guardar: o desnível positivo em `Trail.elevationGain`. Desnível negativo, mínimo, máximo e o perfil `[[distM, eleM], …]` (≤ 200 pontos, para o gráfico) exigem campos novos em `Trail`.
 
 > 💡 **Por que suavizar?** Somar toda micro-variação de um DEM de 90 m infla o desnível (cada "degrau" do ruído conta como subida). O limiar ignora oscilações pequenas. O resultado é uma **estimativa**: a UI deve dizer isso.
 
@@ -142,7 +143,7 @@ Bibliotecas úteis em TypeScript: `osmtogeojson` (resposta do Overpass para GeoJ
 1. Se houver `sac_scale`: `hiking` → fácil; `mountain_hiking` → moderada; `demanding_mountain_hiking` ou acima → difícil.
 2. Senão, "esforço equivalente": `esforço = distância_km + desnível_positivo_m / 100`.
    - ≤ 6 → **fácil** · ≤ 14 → **moderada** · > 14 → **difícil**.
-3. Guardar `difficultySource` (`osm` ou `calculated`) e explicar o critério na página da trilha.
+3. Gravar em `Trail.difficulty` (`EASY`/`MODERATE`/`HARD`) e explicar o critério na página da trilha.
 
 ## 7. Mapas, tiles e licenças
 

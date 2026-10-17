@@ -1,6 +1,6 @@
 # ADR-0004: Autenticação com Better Auth (sessão em cookie)
 
-- **Status:** Proposta
+- **Status:** Proposta (configurado no `web`)
 - **Data:** 2026-10-01
 - **Decisores:** time (aceitar no kickoff)
 - **Frentes afetadas:** todas (F2 implementa)
@@ -14,11 +14,13 @@
 
 ## Decisão
 
-- **Better Auth** no `web`, com adapter Prisma, e-mail e senha (hash scrypt com salt, feito pela biblioteca) e **sessões guardadas no banco**, identificadas por cookie `HttpOnly`, `Secure`, `SameSite=Lax`.
+- **Better Auth** no `web` (`apps/web/src/lib/auth.ts`), com adapter Prisma, e-mail e senha (hash scrypt com salt, feito pela biblioteca, guardado em `Account.password`), plugin `nextCookies()` (para Server Actions) e **sessões guardadas no banco** (`Session`), identificadas por cookie `HttpOnly`, `Secure` (com HTTPS), `SameSite=Lax`.
+- `BETTER_AUTH_SECRET` como Docker secret (`docker/secrets/better_auth_secret.txt`); `BETTER_AUTH_URL` no `docker/.env`.
+- Rotas: Route Handler `app/api/auth/[...all]/route.ts` (a criar); páginas `/login` (existe, sem lógica) e `/cadastro`.
 - Rate limit de login habilitado.
 - Helpers `getSession()` e `requireUser()` no `web`, como única porta de entrada para "quem é o usuário".
 - **realtime:** no handshake do socket, repassa o cookie para o endpoint de sessão do `web` e guarda o `userId` no socket.
-- **Serviços internos** (`trails`, `ai`): recebem `x-user-id` do `web` junto com `x-internal-token`.
+- **Serviços internos** (`ai`): recebem `x-user-id` do `web` junto com `x-internal-token`.
 
 ## Alternativas consideradas
 

@@ -1,6 +1,6 @@
 # Módulos da avaliação
 
-> Última atualização: 2026-10-01 — lista inicial (substitui o antigo `modulos_escolhidos.md`).
+> Última atualização: 2026-10-17 — alinhado ao código: microsserviços `web` + `realtime` + `ai`; busca e notificações no `web`; emblemas já no schema.
 > Donos: PO (visão geral) + dono de cada frente (status e evidências). O status vivo de cada módulo está em [STATUS.md](STATUS.md#módulos).
 
 Regras do subject que guiam este documento:
@@ -38,20 +38,20 @@ Formato de cada módulo: **Requisito** (do subject) → **Como atendemos** → *
 
 ### 1–2. Frameworks: Next.js (frontend + backend)
 - **Como atendemos:** `apps/web` com App Router (React) para a UI; Route Handlers, Server Actions e Server Components com acesso ao banco para o backend.
-- **Critérios:** [ ] páginas em React/Next.js · [ ] lógica de backend real no Next.js (auth, perfis, amigos, comunidades, arquivos) · [ ] README explica o que é frontend e o que é backend no Next.js.
+- **Critérios:** [ ] páginas em React/Next.js · [ ] lógica de backend real no Next.js (auth, perfis, amigos, trilhas, atividades, comunidades, notificações, arquivos) · [ ] README explica o que é frontend e o que é backend no Next.js.
 - **Demonstrar:** mostrar uma Server Action (ex.: criar comentário) e um Route Handler (ex.: upload) no código.
 - **Risco:** baixo.
 
 ### 3. ORM: Prisma
-- **Como atendemos:** Prisma em todos os serviços com banco; schemas versionados; migrations.
+- **Como atendemos:** Prisma 7 em todos os serviços com banco (hoje: `apps/web/prisma/schema.prisma`, com 2 migrations aplicadas no start do container); schemas versionados; migrations.
 - **Critérios:** [ ] todo acesso a dados via Prisma, exceto consultas espaciais e vetoriais (`$queryRaw` com justificativa) · [ ] migrations versionadas · [ ] schema claro com relações (exigência da parte obrigatória).
-- **Demonstrar:** arquivos `.prisma`, uma migration, uma query com relações.
-- **Risco:** baixo. Explicar por que há SQL puro para PostGIS e pgvector (o ORM não suporta esses tipos).
+- **Demonstrar:** o `schema.prisma`, uma migration, uma query com relações (ex.: trilha com autor e atividades).
+- **Risco:** baixo. Explicar por que trilhas guardam GeoJSON + bounding box (busca por área em Prisma puro) e por que o pgvector exige `$queryRaw`.
 
 ### 4. Gerenciamento padrão de usuários (Major)
 - **Requisito:** atualizar informações do perfil; upload de avatar com padrão se não houver; adicionar amigos e ver o status online; página de perfil com as informações.
 - **Como atendemos:** F2 (edição de perfil, avatar via sistema de upload, avatar padrão gerado), F3 (amizades, presença via `realtime`).
-- **Critérios:** [ ] editar nome, bio e cidade com validação front e back · [ ] avatar com preview; usuário sem avatar exibe um padrão · [ ] enviar, aceitar, recusar e remover amizade · [ ] status online/offline dos amigos **atualiza em tempo real** e funciona com várias abas abertas · [ ] página `/u/[username]` com informações e estatísticas.
+- **Critérios:** [ ] editar nome, bio e cidade com validação front e back · [ ] avatar com preview; usuário sem avatar exibe um padrão · [ ] enviar, aceitar, recusar e remover amizade · [ ] status online/offline dos amigos **atualiza em tempo real** e funciona com várias abas abertas · [ ] página `/u/[id]` com informações e estatísticas.
 - **Demonstrar:** dois navegadores (normal e anônimo); fechar a aba de um → o outro vê "offline".
 - **Risco:** médio. Presença com várias abas e reconexão.
 
@@ -71,28 +71,28 @@ Formato de cada módulo: **Requisito** (do subject) → **Como atendemos** → *
 
 ### 7. Backend em microsserviços (Major)
 - **Requisito:** serviços pouco acoplados com interfaces claras; REST ou filas de mensagens; responsabilidade única por serviço.
-- **Como atendemos:** `web` (domínio principal + BFF), `realtime`, `trails`, `ai`; cada um com container e banco próprios; contratos em `packages/contracts`; REST interno + eventos via Redis pub/sub.
+- **Como atendemos:** `web` (domínio + BFF), `realtime`, `ai`; cada um com container e banco próprios; contratos em `packages/contracts`; REST interno + eventos via Redis pub/sub. Hoje só o `web` existe.
 - **Critérios:** [ ] cada serviço tem responsabilidade única documentada · [ ] nenhum serviço acessa o banco de outro (usuários de banco separados) · [ ] contratos versionados e documentados · [ ] comunicação via REST **e** mensagens · [ ] falha de um serviço não derruba os outros (degradação controlada).
 - **Demonstrar:** diagrama da [ARCHITECTURE.md](ARCHITECTURE.md); `docker compose stop ai` → o app continua funcionando, o assistente mostra "indisponível" e a status page fica "degradado".
 - **Risco:** **alto (interpretação).** Um avaliador pode ver o `web` como "monólito". Defesa: [ADR-0001](adr/0001-arquitetura-servicos.md), banco por serviço, contratos e demo de isolamento de falha. A camada de margem existe por isso.
 
 ### 8. Busca avançada (Minor)
 - **Requisito:** busca com filtros, ordenação e paginação.
-- **Como atendemos:** busca de trilhas no `trails`, com texto (trigram), dificuldade, faixa de distância, faixa de desnível, tipo (circular/linear), município, raio a partir de um ponto e área visível do mapa; ordenação por relevância, distância, desnível, nome e proximidade; paginação com total. Busca de comunidades mais simples.
+- **Como atendemos:** busca de trilhas no `web` (`GET /api/trails` e Server Components), com texto, dificuldade, faixa de distância, faixa de desnível, área visível do mapa e "perto de mim" (bounding box), autor; ordenação por distância, desnível, título e data; paginação com total; respeita a visibilidade das trilhas. Busca de comunidades mais simples.
 - **Critérios:** [ ] ao menos 4 filtros combináveis · [ ] ao menos 3 ordenações · [ ] paginação com total e navegação · [ ] estado na URL (compartilhável, funciona com voltar/avançar) · [ ] validação dos parâmetros no back · [ ] estado vazio amigável.
 - **Demonstrar:** combinar filtros, trocar a ordenação, ir para a página 2, copiar a URL para outra aba.
 - **Risco:** baixo.
 
 ### 9. Upload e gestão de arquivos (Minor)
 - **Requisito:** vários tipos de arquivo; validação no cliente e no servidor (tipo, tamanho, formato); armazenamento seguro com controle de acesso; preview; indicador de progresso; exclusão.
-- **Como atendemos:** sistema genérico de arquivos no `web`: imagens (JPEG, PNG, WebP), PDF e GPX; usado por avatar, anexos de posts e GPX de trilhas realizadas.
+- **Como atendemos:** sistema genérico de arquivos no `web`: imagens (JPEG, PNG, WebP), PDF e GPX; usado por avatar, mídia de posts e GPX de trilhas e atividades.
 - **Critérios:** [ ] validação no cliente (`accept`, tamanho) e no servidor (magic bytes, tamanho, GPX com XML válido) · [ ] arquivos fora da pasta pública, com nome aleatório · [ ] download só com permissão (dono, público ou membro da comunidade) · [ ] preview de imagem, PDF e GPX (trilha no mapa) · [ ] barra de progresso real (XHR) · [ ] excluir remove o arquivo e o registro · [ ] EXIF removido das imagens.
 - **Demonstrar:** upload de imagem grande com barra de progresso; tentar enviar `.exe` renomeado para `.png` → recusado; anexo de comunidade privada inacessível para quem não é membro.
 - **Risco:** médio (segurança).
 
 ### 10. Sistema de notificações (Minor)
 - **Requisito:** sistema completo de notificações para **todas** as ações de criação, atualização e exclusão.
-- **Como atendemos:** produtores publicam `notification.requested`; o `realtime` persiste e entrega em tempo real; há um sino com contador e uma página de notificações. A **matriz de notificações** em [frentes/social/README.md](frentes/social/README.md#matriz-de-notificações) lista cada ação CRUD e quem é notificado.
+- **Como atendemos:** cada ação chama o helper `notify()` do `web`, que grava em `Notification` (já no schema) e publica `notification.created`; o `realtime` entrega em tempo real; há um sino com contador e uma página de notificações. A **matriz de notificações** em [frentes/social/README.md](frentes/social/README.md#matriz-de-notificações) lista cada ação CRUD e quem é notificado.
 - **Critérios:** [ ] toda ação CRUD da matriz gera notificação (testado item a item) · [ ] persistida (aparece depois de recarregar) · [ ] chega em tempo real · [ ] marcar como lida, individualmente e todas · [ ] contador de não lidas · [ ] quem fez a ação recebe feedback imediato (toast).
 - **Demonstrar:** percorrer a matriz com dois usuários.
 - **Risco:** **médio/alto (escopo).** "Todas" é amplo; a matriz precisa existir desde o primeiro dia e o checklist de PR cobra isso.
@@ -133,8 +133,8 @@ Só começam **depois do marco M2** (núcleo completo), se sobrar tempo. Ordenad
 |---|---|---|---|---|
 | OAuth 2.0 remoto (42 e/ou GitHub) | Minor | 1 | Baixo | O Better Auth tem provedores prontos; login com a conta da 42 é um bom toque local |
 | 2FA (TOTP) | Minor | 1 | Baixo | Plugin pronto no Better Auth |
-| Sistema de organizações | Major | 2 | Baixo/médio | As **comunidades já são organizações**: criar, editar e excluir; adicionar e remover membros; ações dentro delas. Faltaria o dono adicionar e remover membros diretamente |
-| Gamificação | Minor | 1 | Médio | Emblemas, XP e leaderboard a partir das trilhas realizadas (já previsto como "futuramente") |
+| Sistema de organizações | Major | 2 | Baixo/médio | As **comunidades já são organizações**: criar, editar e excluir; membros com papéis (`ADMIN`/`MODERATOR`/`MEMBER`); ações dentro delas (posts, eventos). Faltaria o `ADMIN` adicionar e remover membros diretamente |
+| Gamificação | Minor | 1 | Médio | Os emblemas já estão no schema (`Badge`, `UserBadge`); faltam regras, XP e leaderboard a partir das atividades |
 
 ## 4. Matriz módulo × frente
 
@@ -144,7 +144,7 @@ Só começam **depois do marco M2** (núcleo completo), se sobrar tempo. Ordenad
 | Gerenciamento de usuários | | ● perfil, avatar | ● amigos, online | | |
 | Interação entre usuários | | ○ perfil | ● chat, amigos | | |
 | Tempo real | | | ● | ○ | |
-| Microsserviços | ● | ○ | ○ realtime | ○ trails | ○ ai |
+| Microsserviços | ● | ○ | ○ realtime | | ○ ai |
 | Busca avançada | | ○ comunidades | | ● | |
 | Upload de arquivos | | ● | | ○ GPX | |
 | Notificações | | ○ produz | ● | ○ produz | |

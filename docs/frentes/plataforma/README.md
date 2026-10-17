@@ -1,6 +1,6 @@
 # F1: Plataforma & Observabilidade
 
-> Última atualização: 2026-10-17 — estado atual, caminhos (`docker/`) e ferramentas (npm, Biome) alinhados ao código.
+> Última atualização: 2026-10-17 — estado atual, caminhos (`docker/`) e ferramentas (npm, Biome) alinhados ao código; serviços satélites previstos: `realtime` e `ai`.
 
 | | |
 |---|---|
@@ -19,7 +19,7 @@ Ser o **chão** sobre o qual as outras frentes constroem: o repositório, os con
 **Dentro:**
 - Monorepo com npm ([ADR-0002](../../adr/0002-monorepo-typescript.md)), Biome (lint e formatação), TypeScript, Vitest.
 - `packages/service-kit`: base Fastify (logger pino, tratamento de erros no formato padrão, validação zod, `/health`, `/ready`, `/metrics`, verificação de `x-internal-token`, propagação de `x-request-id`, encerramento gracioso).
-- Template de serviço (uma pasta para copiar) usado por F3, F4 e F5.
+- Template de serviço (uma pasta para copiar) usado por F3 (`realtime`) e F5 (`ai`).
 - `docker/docker-compose.yml`, Dockerfiles (multi-stage para a avaliação), `Makefile`, `docker/.env.example`, geração de segredos (Docker secrets em `docker/secrets/`).
 - nginx: TLS autoassinado gerado automaticamente, 80 → 443, roteamento, upgrade de WebSocket, SSE sem buffer, headers de segurança, `client_max_body_size`, bloqueio de `/api/internal/*` e `/api/metrics`.
 - Postgres (imagem com PostGIS + pgvector), script de init (bancos, usuários, extensões); Redis.
@@ -45,12 +45,13 @@ Os critérios dos módulos 7, 13 e 14 estão em [MODULES.md](../../MODULES.md#7-
 | Container | Imagem | Rede | Volume | Observação |
 |---|---|---|---|---|
 | nginx | nginx | public + internal | certs | Única porta publicada (8443, 8080 → redirect) |
-| web | build `apps/web` | internal | uploads | `depends_on` postgres, redis |
-| realtime, trails, ai | build `services/*` | internal | ai: cache do modelo | |
-| postgres | build `docker/postgres` (Alpine + PostgreSQL 18 + PostGIS + pgvector) | internal | `data/postgres` (bind) | entrypoint faz `initdb`; alvo: criar 4 bancos e 4 usuários (hoje cria 1 banco) |
+| nextjs (web) | build `docker/nextjs` | internal | código montado em dev; uploads | `depends_on` postgres (existe), redis |
+| realtime, ai | build `services/*` | internal | ai: cache do modelo | |
+| prisma-studio | build `docker/nextjs` | internal | código montado | Existe; profile `tools` (`make studio`), porta 5555; fora da avaliação |
+| postgres | build `docker/postgres` (Alpine + PostgreSQL 18 + PostGIS + pgvector) | internal | `data/postgres` (bind) | entrypoint faz `initdb` e cria o banco principal; alvo: também os bancos `realtime` e `ai`, um usuário por banco |
 | redis | redis | internal | — | |
 | prometheus | prom/prometheus | internal | prometheus-data | retenção de 7 dias |
-| alertmanager | prom/alertmanager | internal | — | webhook do Discord via `.env` |
+| alertmanager | prom/alertmanager | internal | — | webhook do Discord como Docker secret |
 | grafana | grafana/grafana | internal | grafana-data | `/grafana/` via nginx; sem anônimo |
 | node-exporter, cadvisor, postgres-exporter, redis-exporter, nginx-exporter | oficiais | internal | — | cAdvisor pode precisar de ajuste no WSL2 ou Docker Desktop |
 | backup | build `docker/backup` | internal | backups, uploads (somente leitura) | cron com `pg_dump` |
@@ -61,7 +62,7 @@ Use um **profile** `observability` para poder desligar Prometheus, Grafana e exp
 - `http_requests_total{service,method,route,status}`
 - `http_request_duration_seconds{service,method,route}` (histograma)
 - Métricas padrão do processo Node (CPU, memória, event loop)
-- Cada frente adiciona as suas (ex.: `realtime_connected_clients`, `ai_tokens_total`, `trails_search_duration_seconds`)
+- Cada frente adiciona as suas (ex.: `realtime_connected_clients`, `ai_tokens_total`, `trails_search_duration_seconds` no `web`)
 
 ### Dashboards (provisionados em `docker/grafana/`)
 1. **Serviços (RED):** taxa de requisições, erros e latência p50/p95 por serviço e rota.
@@ -91,7 +92,7 @@ Use um **profile** `observability` para poder desligar Prometheus, Grafana e exp
 | Fornece para | O quê | Quando |
 |---|---|---|
 | Todas | compose + Postgres + Redis + nginx com TLS | Sprint 0, dias 1–2 |
-| F3, F4, F5 | `service-kit` + template de serviço | Sprint 0, dias 2–3 |
+| F3, F5 | `service-kit` + template de serviço | Sprint 0, dias 2–3 |
 | Todas | CI | Sprint 0 |
 | Todas | `/metrics` e `/health` automáticos | junto com o `service-kit` |
 
@@ -122,7 +123,7 @@ Estudo: [Docker Compose](https://docs.docker.com/compose/) · [Prometheus](https
 - [x] Estrutura `apps/` + `docker/`; npm + Biome em `apps/web`
 - [ ] Vitest e script de typecheck
 - [x] `docker/postgres`: imagem com PostGIS + pgvector e entrypoint de init
-- [ ] Init com 4 bancos, 4 usuários e extensões por banco
+- [ ] Init com os bancos `realtime` e `ai`, um usuário por banco e extensões por banco
 - [x] `docker/docker-compose.yml` com `postgres`, `nextjs` e `prisma-studio` (profile `tools`)
 - [ ] Redis, nginx, serviços satélites, redes `public`/`internal`
 - [ ] nginx: TLS autoassinado automático, rotas, WebSocket, SSE, headers, bloqueios

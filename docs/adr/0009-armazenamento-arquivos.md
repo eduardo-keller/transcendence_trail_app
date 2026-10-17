@@ -3,7 +3,7 @@
 - **Status:** Proposta
 - **Data:** 2026-10-01
 - **Decisores:** time (aceitar no kickoff)
-- **Frentes afetadas:** F2 (implementa), F4 (GPX), F1 (volume e backup)
+- **Frentes afetadas:** F2 (implementa), F4 (GPX de trilhas e atividades), F1 (volume e backup)
 
 ## Contexto
 
@@ -12,8 +12,8 @@
 
 ## Decisão
 
-- Arquivos num **volume Docker** (`uploads`) montado só no `web`, **fora** de qualquer pasta servida estaticamente.
-- Nome no disco: UUID aleatório (nunca o nome enviado pelo usuário, o que evita path traversal e colisões). Metadados no banco (`File`: dono, tipo, MIME, tamanho, nome original, contexto e visibilidade).
+- Arquivos num **volume Docker** (`uploads`) montado só no container `nextjs`, **fora** de qualquer pasta servida estaticamente (nunca em `apps/web/public/`).
+- Nome no disco: UUID aleatório (nunca o nome enviado pelo usuário, o que evita path traversal e colisões). Metadados no banco (modelo `File`, a criar: dono, tipo, MIME, tamanho, nome original, contexto e visibilidade). Os campos de URL que já existem no schema (`User.image`, `Post.mediaUrl`, `Community.image`) guardam `/api/files/:id`.
 - **Download só por rota autenticada** (`GET /api/files/:id`), que verifica a permissão (dono, arquivo público como avatar, ou membro da comunidade) e responde com `Content-Type` correto, `Content-Disposition` e `X-Content-Type-Options: nosniff`.
 - **Validação no servidor** pelo conteúdo (magic bytes), não pela extensão; limites de tamanho por tipo; imagens reprocessadas (remove EXIF com GPS e gera miniatura); GPX validado como XML GPX.
 - **Progresso:** upload via `XMLHttpRequest` (`upload.onprogress`), já que o `fetch` não informa progresso de envio.

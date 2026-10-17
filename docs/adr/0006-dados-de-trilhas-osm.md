@@ -1,7 +1,7 @@
 # ADR-0006: Dados de trilhas com ingestão offline do OSM e seed versionado
 
 - **Status:** Proposta
-- **Data:** 2026-10-01
+- **Data:** 2026-10-01 (revista em 2026-10-17: o catálogo é carregado na tabela `Trail` do `web`)
 - **Decisores:** time (aceitar no kickoff)
 - **Frentes afetadas:** F4 (implementa), F5 (consome para o RAG)
 
@@ -15,11 +15,11 @@ Pesquisa em [research/osm-trilhas.md](../research/osm-trilhas.md). Pontos princi
 
 ## Decisão
 
-1. **Ingestão offline** por script do serviço `trails` (CLI): Overpass com retry e backoff e cache da resposta bruta. Plano B: extrato da Geofabrik (`sudeste-latest.osm.pbf`) recortado com osmium.
-2. **Processamento no PostGIS:** carregar as vias em tabela de staging; agrupar por nome e proximidade (`ST_ClusterDBSCAN`); unir (`ST_LineMerge`); calcular comprimento (`geography`); simplificar para exibição.
+1. **Ingestão offline** por script CLI em `apps/web/scripts/`, rodado pelo time: Overpass com retry e backoff e cache da resposta bruta. Plano B: extrato da Geofabrik (`sudeste-latest.osm.pbf`) recortado com osmium.
+2. **Processamento no PostGIS** (extensão já criada no banco): carregar as vias em tabela de staging; agrupar por nome e proximidade (`ST_ClusterDBSCAN`); unir (`ST_LineMerge`); calcular comprimento (`geography`); simplificar para exibição; exportar como GeoJSON + bounding box.
 3. **Elevação** via Open-Meteo Elevation API (Copernicus DEM GLO-90, até 100 pontos por chamada, sem chave para uso não comercial), com amostragem ao longo da trilha, suavização e limiar para o desnível.
 4. **Dificuldade calculada** a partir de distância e desnível (com `sac_scale` quando existir).
-5. **Seed versionado no repo** (`services/trails/seed/`, GeoJSON comprimido). O container carrega o seed se o banco estiver vazio. **Nenhuma dependência do Overpass ou do Open-Meteo em runtime.**
+5. **Seed versionado no repo** (`apps/web/prisma/seed/`, GeoJSON comprimido), carregado em `Trail` (`title`, `description`, `distance`, `elevationGain`, `difficulty`, `routeGeoJSON`, `minLat`…`maxLon`, `visibility = PUBLIC`) com uma conta do sistema como `authorId`. O seed roda se não houver trilhas do sistema. **Nenhuma dependência do Overpass ou do Open-Meteo em runtime.**
 6. Atribuição "© OpenStreetMap contributors" no mapa, no rodapé, nos Termos e no README; Copernicus e Open-Meteo na página da trilha e no README.
 
 ## Alternativas consideradas
@@ -28,7 +28,7 @@ Pesquisa em [research/osm-trilhas.md](../research/osm-trilhas.md). Pontos princi
 |---|---|---|
 | Consultar o Overpass em tempo real | Dados sempre atuais | Instável (504), lento, limitado; arrisca o dia da avaliação |
 | Raspar Wikiloc ou AllTrails | Muitas trilhas | Proibido pelos termos de uso; antiético |
-| Só trilhas enviadas por usuários (GPX) | Modelo do Wikiloc | Catálogo vazio no início |
+| Só trilhas enviadas por usuários (GPX) | Modelo do Wikiloc (também suportado: `Trail` tem autor) | Catálogo vazio no início |
 | Tiles DEM locais (Copernicus GLO-30 + `geotiff`) | Offline, 30 m de resolução | Mais trabalho; fica como plano B se a Open-Meteo falhar |
 
 ## Consequências

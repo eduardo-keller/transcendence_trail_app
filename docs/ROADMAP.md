@@ -1,6 +1,6 @@
 # Roadmap
 
-> Última atualização: 2026-10-17 — nomes de arquivos e ferramentas alinhados ao código. O M0 está atrasado: ver [STATUS.md](STATUS.md#marcos).
+> Última atualização: 2026-10-17 — alinhado ao código (trilhas, atividades e notificações no `web`; satélites `realtime` e `ai`). O M0 está atrasado: ver [STATUS.md](STATUS.md#marcos).
 > Dono: PM. O status atual dos marcos está em [STATUS.md](STATUS.md#marcos).
 
 ## 1. Estratégia
@@ -23,14 +23,14 @@ Datas propostas (semana 1 começa na segunda, 2026-10-05).
 | Quem | Entregas |
 |---|---|
 | Todos | Kickoff (decisões pendentes de [STATUS.md](STATUS.md#decisões-pendentes-kickoff)); ambiente de dev funcionando; primeiro commit de cada um |
-| Tech Lead | `packages/contracts` v0 (envelope de evento, `notification.requested`, erros padrão); layout base (header, footer com Privacidade e Termos, navegação) com Tailwind e shadcn/ui; revisão das ADRs |
+| Tech Lead | `packages/contracts` v0 (envelope de evento, `notification.created`, erros padrão); layout base (header, footer com Privacidade e Termos, navegação) com Tailwind e shadcn/ui; revisão das ADRs |
 | F1 Plataforma | Estrutura `apps/` + `docker/` (npm, Biome); `docker/docker-compose.yml` com Postgres (PostGIS + pgvector), Redis e nginx com TLS; `service-kit` + template de serviço Fastify; Makefile; CI (lint, typecheck, testes) |
-| F2 Identidade | Better Auth (cadastro, login, logout); `getSession()`/`requireUser()`; seed com usuários de teste |
+| F2 Identidade | Better Auth (cadastro, login, logout): já configurado, falta a rota e as páginas; `getSession()`/`requireUser()`; seed com usuários de teste |
 | F3 Social | `realtime` a partir do template; auth no handshake; sala `user:<id>`; prova de conceito de presença |
-| F4 Trilhas | **Spike OSM** (2–3 dias): script de ingestão v0 → seed com 20–50 trilhas; `trails` com `GET /v1/trails` |
+| F4 Trilhas | **Spike OSM** (2–3 dias): script de ingestão v0 → seed com 20–50 trilhas carregado em `Trail`; `/trilhas` listando do banco |
 | F5 IA | ADR-0007 decidida; `ai` a partir do template; provedor `mock` + provedor real; streaming de "olá" até o navegador via `web` |
 
-**Critério de saída M0:** em uma máquina limpa, `make` → `https://localhost:8443` abre a Home; cadastro e login funcionam; `/trilhas` lista trilhas vindas do serviço `trails`; o navegador logado conecta no socket; uma página de teste mostra texto da IA em streaming. Tudo passa pelo nginx com HTTPS.
+**Critério de saída M0:** em uma máquina limpa, `make` → `https://localhost:8443` abre a Home; cadastro e login funcionam; `/trilhas` lista trilhas do seed; o navegador logado conecta no socket; uma página de teste mostra texto da IA em streaming. Tudo passa pelo nginx com HTTPS.
 
 ### Fase 1: Núcleo · Semanas 2–3 (12–25/10) → **M1 Núcleo navegável**
 
@@ -39,7 +39,7 @@ Datas propostas (semana 1 começa na segunda, 2026-10-05).
 | F1 | Prometheus + exporters + `/metrics` em todos os serviços; primeiro dashboard; healthchecks no compose; guia de setup |
 | F2 | Perfil (ver e editar); API de upload v1 (imagens) + avatar com padrão; Privacidade e Termos v1 (com o PO) |
 | F3 | Amizades (pedir, aceitar, recusar, remover, listar); status online em tempo real; chat 1:1 (enviar, receber, histórico) |
-| F4 | Ingestão completa (agrupamento de vias, elevação, dificuldade) + seed versionado; `/trilhas` (cards + mapa); `/trilhas/[slug]` (mapa, estatísticas, perfil de elevação) |
+| F4 | Ingestão completa (agrupamento de vias, elevação, dificuldade) + seed versionado; `/trilhas` (cards + mapa); `/trilhas/[id]` (mapa, estatísticas); `GET /api/internal/trails/export` |
 | F5 | Planejador (LLM) com streaming, rate limit e tratamento de erro; pipeline RAG v0 (indexa trilhas e guias) |
 
 **Critério de saída M1:** as 5 páginas principais navegáveis com dados reais; dois usuários conseguem virar amigos e conversar.
@@ -49,9 +49,9 @@ Datas propostas (semana 1 começa na segunda, 2026-10-05).
 | Frente | Entregas |
 |---|---|
 | F1 | Regras de alerta + Alertmanager → Discord; Grafana seguro e com 3 dashboards; backups automáticos + `make restore`; status page |
-| F2 | Comunidades (CRUD, pública/privada, entrada e aprovação, papéis, posts, comentários, busca); upload completo (PDF, GPX, preview, progresso, exclusão, controle de acesso) |
-| F3 | Notificações (consumidor, persistência, sino, página, marcar como lida); matriz de notificações completa; feed de comunidade ao vivo; reconexão com ressincronização; indicador de digitação |
-| F4 | Busca avançada completa; trilhas realizadas (com GPX opcional) + estatísticas no perfil + ranking; Home final |
+| F2 | Comunidades (CRUD, papéis `ADMIN`/`MODERATOR`/`MEMBER`, posts, comentários, eventos, busca); upload completo (PDF, GPX, preview, progresso, exclusão, controle de acesso) |
+| F3 | Notificações (`notify()` no `web`, entrega pelo `realtime`, sino, página, marcar como lida); matriz de notificações completa; feed de comunidade ao vivo; reconexão com ressincronização; indicador de digitação |
+| F4 | Busca avançada completa; publicar trilha por GPX; atividades + estatísticas no perfil + ranking + emblemas; Home final |
 | F5 | RAG completo (Wikipedia + POIs, ≥ 2.000 trechos, fontes citadas, "não sei"); conjunto de avaliação de 20 perguntas; UI `/assistente` com duas abas; atalhos na página da trilha |
 
 **Critério de saída M2:** todos os 14 módulos demonstráveis de ponta a ponta, mesmo com arestas. A partir daqui, **sem escopo novo** (módulos reserva só se o M2 fechar antes do prazo).
@@ -81,11 +81,10 @@ Trabalho transversal, dividido na reunião de planejamento:
 
 ```mermaid
 flowchart TD
-  INFRA["F1: monorepo + compose + nginx/TLS + Postgres/Redis"] --> KIT["F1: service-kit + template de serviço"]
+  INFRA["F1: compose + nginx/TLS + Postgres/Redis"] --> KIT["F1: service-kit + template de serviço"]
   INFRA --> AUTH["F2: Better Auth + requireUser()"]
   CONTR["Tech Lead: contracts v0"] --> RT
   KIT --> RT["F3: realtime + auth no handshake"]
-  KIT --> TRS["F4: serviço trails"]
   KIT --> AIS["F5: serviço ai + streaming"]
   KIT --> MON["F1: Prometheus/Grafana"]
   KIT --> HLT["F1: health + status + backups"]
@@ -100,12 +99,12 @@ flowchart TD
   RT --> NOTIF["F3: notificações"]
   AUTH --> COM["F2: comunidades"]
   UPL --> COM
-  OSM["F4: ingestão OSM + seed"] --> TRS
-  TRS --> SRCH["F4: busca avançada"]
-  TRS --> DET["F4: detalhe + elevação"]
-  DET --> COMP["F4: trilhas realizadas + ranking"]
+  OSM["F4: ingestão OSM + seed em Trail"] --> SRCH["F4: busca avançada"]
+  OSM --> DET["F4: detalhe da trilha"]
+  DET --> COMP["F4: atividades + ranking + emblemas"]
   AUTH --> COMP
-  TRS --> RAG["F5: RAG"]
+  UPL --> PUB["F4: publicar trilha (GPX)"]
+  OSM --> RAG["F5: RAG"]
   AIS --> RAG
   AIS --> LLM["F5: planejador LLM"]
   NOTIF --> ALL["Notificações em todas as ações CRUD"]
@@ -119,9 +118,9 @@ flowchart TD
 O caminho crítico é a sequência que, se atrasar, atrasa o projeto inteiro:
 
 1. **Infra base (F1) → Auth (F2):** todo mundo precisa de "usuário logado". F2 deve entregar `requireUser()` até o dia 3 da semana 1.
-2. **Template de serviço (F1):** F3, F4 e F5 precisam dele para criar seus serviços. F1 entrega até o dia 2–3.
-3. **Dados de trilhas (F4):** alimentam busca, detalhe, trilhas realizadas e RAG. O seed v0 do spike desbloqueia os outros; o seed final sai na semana 3.
-4. **Consumidor de notificações (F3) → notificações em todas as ações:** o maior volume de integração fica no final. Por isso produtores publicam eventos desde o início.
+2. **Template de serviço (F1):** F3 e F5 precisam dele para criar seus serviços. F1 entrega até o dia 2–3.
+3. **Dados de trilhas (F4):** alimentam busca, detalhe, atividades e RAG. O seed v0 do spike desbloqueia os outros; o seed final sai na semana 3.
+4. **Helper `notify()` (F3) → notificações em todas as ações:** o maior volume de integração fica no final. Por isso o helper sai cedo e cada ação já o chama, mesmo antes da entrega em tempo real.
 
 O PM acompanha esses quatro itens na daily.
 
@@ -131,9 +130,9 @@ O PM acompanha esses quatro itens na daily.
 |---|---|
 | Tela de login | Usuários do seed (`alice`, `bruno`, `carla`… com senha conhecida em dev) |
 | `requireUser()` | Primeiro PR da F2 no dia 1–2: a assinatura da função já fica estável, mesmo que a implementação evolua |
-| Consumidor de eventos (F3) | Publique assim mesmo: pub/sub sem assinante não faz nada. Para depurar, use `redis-cli SUBSCRIBE events:notifications` |
-| Dados reais do OSM | Seed v0 do spike (20–50 trilhas reais) ou fixture com 5 trilhas falsas |
-| Sistema de upload | Avatar padrão gerado; criar o campo `avatarFileId` no schema logo no início (hoje o `User` só tem `image`) |
+| Entrega em tempo real (F3) | Grave a `Notification` e publique assim mesmo: pub/sub sem assinante não faz nada. Para depurar, use `redis-cli SUBSCRIBE events:notifications` |
+| Dados reais do OSM | Seed v0 do spike (20–50 trilhas reais) ou fixture com 5 trilhas falsas em `Trail` |
+| Sistema de upload | Avatar padrão gerado quando `User.image` está vazio |
 | Chave do LLM / custo | `LLM_PROVIDER=mock`, que devolve texto fixo em streaming |
 | Contrato de outra frente | Programe contra o schema zod em `packages/contracts`; mock nos testes |
 | Componentes de UI | shadcn/ui base + layout do Tech Lead; páginas com skeleton/loading |
@@ -141,7 +140,7 @@ O PM acompanha esses quatro itens na daily.
 
 E para reduzir conflitos de merge:
 - Rotas do Next.js agrupadas por frente: `app/(trilhas)`, `app/(social)`, `app/(comunidades)`, `app/(conta)`, `app/(ia)`.
-- Schema Prisma em vários arquivos, um por domínio.
+- Schema Prisma: hoje um arquivo, dividido por seções comentadas; dividir em vários arquivos se os conflitos aumentarem.
 - Arquivos compartilhados (`components/ui`, `docker/docker-compose.yml`, `packages/contracts`, layout): PRs pequenos e revisão do dono (CODEOWNERS).
 
 ## 6. Se atrasar: ordem de corte
@@ -149,7 +148,7 @@ E para reduzir conflitos de merge:
 Corte de cima para baixo, **sem tocar no núcleo nem na parte obrigatória**:
 
 1. Módulos reserva (nem começar).
-2. GPX em trilhas realizadas (o upload já é provado por avatar e anexos).
+2. Publicar trilha por GPX (o upload já é provado por avatar e mídia de posts).
 3. Extras do planejador (previsão do tempo, exportar o plano).
 4. Histórico de uptime na status page.
 5. Indicador de digitação e confirmação de leitura no chat.

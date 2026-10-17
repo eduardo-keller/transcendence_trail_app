@@ -1,88 +1,99 @@
 # F2: Identidade & Comunidades
 
-> Última atualização: 2026-10-17 — estado atual e schema existente.
+> Última atualização: 2026-10-17 — alinhado ao código: Better Auth configurado, modelos do schema atual (`CommunityMember` com `Role`, `Event`, `Post.mediaUrl`), rota `/login`.
 
 | | |
 |---|---|
 | **Dono** | *a definir* |
 | **Apoio** | *a definir* |
-| **Módulos** | Gerenciamento padrão de usuários (2, com a F3), Upload de arquivos (1); parte obrigatória: cadastro e login seguros; produto: Comunidades |
+| **Módulos** | Gerenciamento padrão de usuários (2, com a F3), Upload de arquivos (1); parte obrigatória: cadastro e login seguros; produto: Comunidades e eventos |
 | **Status** | 🟡 em andamento |
 | **Planos** | [planos/](planos/) |
 
 ## 1. Objetivo
 
-Tudo o que diz respeito a **quem é o usuário e o que ele guarda**: cadastro, login, sessão, perfil, avatar, o sistema de arquivos e as comunidades. A autenticação está no **caminho crítico** do projeto: as outras frentes precisam de `requireUser()` nos primeiros dias.
+Tudo o que diz respeito a **quem é o usuário e o que ele guarda**: cadastro, login, sessão, perfil, avatar, o sistema de arquivos, as comunidades e seus eventos. A autenticação está no **caminho crítico** do projeto: as outras frentes precisam de `requireUser()` nos primeiros dias.
 
 ## 2. Escopo
 
 **Dentro:**
 - **Auth (Better Auth, [ADR-0004](../../adr/0004-autenticacao.md)):** cadastro, login, logout; validação; rate limit de login; helpers `getSession()` e `requireUser()`; endpoints internos de sessão e de dados de usuário para o `realtime`.
-- **Perfil:** página pública `/u/[username]` (dados, avatar, estatísticas que a F4 fornece, amigos que a F3 fornece); edição em `/config/perfil` (nome, username, bio, cidade, avatar).
-- **Avatar padrão:** gerado (iniciais com cor derivada do ID) quando não há upload.
-- **Sistema de arquivos ([ADR-0009](../../adr/0009-armazenamento-arquivos.md)):** API genérica de upload, download e exclusão usada por avatar, anexos de posts e GPX de trilhas realizadas (F4). Página `/config/arquivos`.
-- **Comunidades:** criar, editar e excluir; pública ou privada; entrar, sair, solicitar entrada e aprovar; papéis (`owner`, `moderator`, `member`); posts (texto + anexos + trilha opcional); comentários; "minhas comunidades"; busca de comunidades com paginação.
-- Publicação de eventos (`notification.requested`, `community.activity`, `user.profile.updated`) para cada ação, conforme a [matriz](../social/README.md#matriz-de-notificações).
+- **Perfil:** página pública `/u/[id]` (dados, avatar, estatísticas e emblemas que a F4 fornece, amigos que a F3 fornece); edição em `/config/perfil`.
+- **Avatar padrão:** gerado (iniciais com cor derivada do ID) quando `User.image` está vazio.
+- **Sistema de arquivos ([ADR-0009](../../adr/0009-armazenamento-arquivos.md)):** API genérica de upload, download e exclusão usada por avatar, mídia de posts e GPX (trilhas e atividades da F4). Página `/config/arquivos`.
+- **Comunidades:** criar, editar e excluir; entrar e sair; papéis `ADMIN`/`MODERATOR`/`MEMBER`; posts com mídia; comentários; "minhas comunidades"; busca de comunidades com paginação. Comunidades privadas (visibilidade + entrada por solicitação) quando os campos forem criados.
+- **Eventos de comunidade:** criar, editar e excluir saídas; participar e desistir.
+- Notificações de cada ação, conforme a [matriz](../social/README.md#matriz-de-notificações).
 - Seed de dev: usuários `alice`, `bruno`, `carla`, `diego`, `eva` com senha conhecida; seed de demo para a avaliação.
 
-**Fora:** amizades e presença (F3); trilhas realizadas e estatísticas (F4); OAuth e 2FA (módulos reserva, só depois do M2).
+**Fora:** amizades e presença (F3); trilhas, atividades e emblemas (F4); OAuth e 2FA (módulos reserva, só depois do M2).
 
 ## 3. Critérios de aceite
 
 Os critérios dos módulos 4 e 9 estão em [MODULES.md](../../MODULES.md#4-gerenciamento-padrão-de-usuários-major). Além deles:
-- [ ] Cadastro com e-mail, username e senha (mínimo de 8 caracteres), validado no front e no back; e-mail e username únicos com erro amigável.
-- [ ] Senha nunca aparece em log nem em resposta; sessão em cookie `HttpOnly` e `Secure`.
-- [ ] Rotas protegidas redirecionam para `/entrar` (página) ou respondem 401 (API) **sem gerar erro no console** no fluxo normal.
-- [ ] Comunidade privada: não-membros veem só nome, descrição e o botão "solicitar entrada". Posts, membros e anexos ficam bloqueados **no servidor**.
-- [ ] Toda ação CRUD desta frente publica a notificação prevista na matriz.
+- [ ] Cadastro com nome, e-mail e senha (mínimo de 8 caracteres), validado no front e no back; e-mail único com erro amigável.
+- [ ] Senha nunca aparece em log nem em resposta; sessão em cookie `HttpOnly` (e `Secure` com HTTPS).
+- [ ] Rotas protegidas redirecionam para `/login` (página) ou respondem 401 (API) **sem gerar erro no console** no fluxo normal.
+- [ ] Só `ADMIN` edita ou exclui a comunidade e muda papéis; checado **no servidor**.
+- [ ] Toda ação CRUD desta frente gera a notificação prevista na matriz.
 
 ## 4. Desenho
 
-### Dados (banco `web`)
+### Dados (banco principal, `apps/web/prisma/schema.prisma`, seções `better-auth core` e `social`)
 
-**Hoje:** um único `apps/web/prisma/schema.prisma`, seções `better-auth core` e `social`. Os modelos existentes (`User`, `Session`, `Account`, `Verification`, `Community`, `CommunityMember`, `Post`) diferem da tabela abaixo; as diferenças estão em [STATUS.md](../../STATUS.md#divergências-entre-docs-e-código). **Alvo:** arquivos `auth.prisma`, `files.prisma` e `communities.prisma`.
+**Existe:**
 
-| Modelo | Campos principais | Observações |
+| Modelo | Campos | Observações |
 |---|---|---|
-| User | id, email (único), username (único), name, bio, city, avatarFileId?, createdAt | + tabelas do Better Auth (Session, Account, Verification) |
-| File | id, ownerId, kind (`avatar`/`post_attachment`/`gpx`/`document`), mime, sizeBytes, originalName, storageKey, visibility (`public`/`private`/`community`), communityId?, createdAt | `storageKey` = UUID no disco |
-| Community | id, slug (único), name, description, visibility (`public`/`private`), ownerId, coverFileId?, createdAt, updatedAt | |
-| Membership | communityId, userId, role (`owner`/`moderator`/`member`), status (`active`/`pending`), createdAt | PK composta (communityId, userId) |
-| Post | id, communityId, authorId, body, trailId?, createdAt, updatedAt | `trailId` é referência ao serviço `trails` (sem FK) |
-| PostAttachment | postId, fileId | |
-| Comment | id, postId, authorId, body, createdAt, updatedAt | |
+| User | id, name, email (único), emailVerified, image?, createdAt, updatedAt | Formato do Better Auth. `image` guarda a URL do avatar |
+| Session, Account, Verification | Formato do Better Auth | A senha (hash) fica em `Account.password`; `Session.token` único |
+| Community | id, name (único), description?, image?, createdAt | |
+| CommunityMember | id, role (`ADMIN`/`MODERATOR`/`MEMBER`, padrão `MEMBER`), userId, communityId | `UNIQUE(userId, communityId)` |
+| Event | id, title, description, date, communityId, organizerId | Saída organizada por uma comunidade |
+| EventParticipant | id, eventId, userId | `UNIQUE(eventId, userId)` |
+| Post | id, content, mediaUrl?, createdAt, userId, communityId? | Sem `communityId` = post no perfil |
+
+**A criar (com migration, quando a funcionalidade chegar):**
+
+| Modelo / campo | Para quê |
+|---|---|
+| `User.username`, `User.bio`, `User.city` | Perfil completo (Better Auth aceita campos extras via `additionalFields`) |
+| `File` (ownerId, kind, mime, sizeBytes, originalName, storageKey, visibility, createdAt) | Sistema de arquivos; `User.image` e `Post.mediaUrl` passam a apontar para `/api/files/:id` |
+| `Comment` (postId, authorId, content, createdAt, updatedAt) | Comentários |
+| `Community.visibility`, `CommunityMember.status` (`ACTIVE`/`PENDING`) | Comunidades privadas com entrada por solicitação |
+| `Post.updatedAt` | Saber se um post foi editado |
 
 ### API e ações (no `web`)
 
 | Ação | Tipo | Quem pode |
 |---|---|---|
-| Cadastro, login, logout | Better Auth | Qualquer um |
+| Cadastro, login, logout | Better Auth (`app/api/auth/[...all]/route.ts`, a criar) | Qualquer um |
 | Atualizar perfil | Server Action | O próprio usuário |
 | `POST /api/files` (multipart) | Route Handler (precisa de XHR para o progresso) | Logado; limites por `kind` |
 | `GET /api/files/:id` | Route Handler | Conforme `visibility` e associação à comunidade |
 | `DELETE /api/files/:id` | Route Handler | Dono |
-| CRUD de comunidade, membros, posts, comentários | Server Actions | Conforme o papel (tabela abaixo) |
+| CRUD de comunidade, membros, posts, comentários, eventos | Server Actions | Conforme o papel (tabela abaixo) |
 | Endpoints `/api/internal/users/*` | Route Handler interno | Só serviços (`x-internal-token`) |
 
 Permissões em comunidades:
 
-| Ação | owner | moderator | member | não-membro (pública) | não-membro (privada) |
-|---|---|---|---|---|---|
-| Ver posts e membros | ✔ | ✔ | ✔ | ✔ | ✘ |
-| Postar e comentar | ✔ | ✔ | ✔ | ✘ (precisa entrar) | ✘ |
-| Editar ou excluir o próprio post ou comentário | ✔ | ✔ | ✔ | — | — |
-| Excluir post de outro | ✔ | ✔ | ✘ | — | — |
-| Aprovar entrada | ✔ | ✔ | ✘ | — | — |
-| Promover a moderador, remover membro | ✔ | ✘ | ✘ | — | — |
-| Editar ou excluir a comunidade | ✔ | ✘ | ✘ | — | — |
+| Ação | ADMIN | MODERATOR | MEMBER | não-membro |
+|---|---|---|---|---|
+| Ver posts, membros e eventos | ✔ | ✔ | ✔ | ✔ (✘ se a comunidade for privada, quando existir) |
+| Postar, comentar, participar de evento | ✔ | ✔ | ✔ | ✘ (precisa entrar) |
+| Editar ou excluir o próprio post ou comentário | ✔ | ✔ | ✔ | — |
+| Excluir post de outro | ✔ | ✔ | ✘ | — |
+| Criar, editar ou excluir evento | ✔ | ✔ | ✘ (o organizador edita o próprio) | — |
+| Mudar papéis, remover membro | ✔ | ✘ | ✘ | — |
+| Editar ou excluir a comunidade | ✔ | ✘ | ✘ | — |
 
 ### Upload: limites e validação
 
 | kind | Tipos aceitos | Tamanho máximo | Processamento | Preview |
 |---|---|---|---|---|
 | avatar | JPEG, PNG, WebP | 5 MB | Reencodar para WebP 256×256, remover EXIF | Imagem |
-| post_attachment | JPEG, PNG, WebP, PDF, GPX | 10 MB | Imagens: reencodar + miniatura, remover EXIF | Imagem, PDF (visualizador do navegador), GPX (trilha num mini-mapa) |
-| gpx | GPX | 5 MB | Validar XML e o namespace GPX; extrair a geometria | Mapa |
+| post_media | JPEG, PNG, WebP, PDF | 10 MB | Imagens: reencodar + miniatura, remover EXIF | Imagem, PDF (visualizador do navegador) |
+| gpx | GPX | 5 MB | Validar XML e o namespace GPX; converter para GeoJSON (F4) | Mapa |
 
 O tipo é detectado pelo **conteúdo** (magic bytes) com uma biblioteca como `file-type`. A extensão e o `Content-Type` enviados pelo navegador não são confiáveis.
 
@@ -91,83 +102,86 @@ O tipo é detectado pelo **conteúdo** (magic bytes) com uma biblioteca como `fi
 | Fornece para | O quê | Quando |
 |---|---|---|
 | **Todas** | `getSession()`, `requireUser()`, seed de usuários | **Sprint 0, dias 1–3 (caminho crítico)** |
-| F3 | Endpoints internos de sessão e de usuários; `Friendship` vive no banco `web` (o schema é da F3) | M0–M1 |
+| F3 | Endpoints internos de sessão e de usuários; `Friendship` vive no banco principal (o schema é da F3) | M0–M1 |
 | F4 | API de upload para GPX | M2 |
 | F1 | Layout para a `/status` | M2 |
 
 | Consome de | O quê | Enquanto não estiver pronto |
 |---|---|---|
 | F1 | Infra, layout base | — |
-| F3 | Notificações (publicar evento) | Publique assim mesmo (pub/sub sem assinante não faz nada) |
-| F4 | Estatísticas do perfil, cards de trilha nos posts | Placeholder "em breve" atrás de feature flag |
+| F3 | Entrega de notificações em tempo real | Gravar a `Notification` assim mesmo |
+| F4 | Estatísticas e emblemas do perfil | Placeholder "em breve" atrás de feature flag |
 
 ## 6. Conceitos-chave
 
-> 💡 **Hash de senha com salt.** Nunca guardamos a senha, só um hash feito com um algoritmo **lento de propósito** (scrypt, bcrypt, argon2), para dificultar ataques de força bruta. O **salt** é um valor aleatório por usuário, misturado à senha antes do hash: duas pessoas com a mesma senha têm hashes diferentes, e tabelas pré-computadas (rainbow tables) não servem.
+> 💡 **Hash de senha com salt.** Nunca guardamos a senha, só um hash feito com um algoritmo **lento de propósito** (scrypt, bcrypt, argon2), para dificultar ataques de força bruta. O **salt** é um valor aleatório por usuário, misturado à senha antes do hash: duas pessoas com a mesma senha têm hashes diferentes, e tabelas pré-computadas (rainbow tables) não servem. No Better Auth, o hash fica em `Account.password`.
 
-> 💡 **Sessão em cookie.** Depois do login, o servidor cria uma sessão no banco e manda um cookie com o identificador. `HttpOnly` impede que JavaScript leia o cookie (protege contra XSS), `Secure` só envia por HTTPS e `SameSite=Lax` não envia em requisições de outros sites (ajuda contra CSRF). Logout apaga a sessão no banco.
+> 💡 **Sessão em cookie.** Depois do login, o servidor cria uma sessão no banco (`Session`) e manda um cookie com o token. `HttpOnly` impede que JavaScript leia o cookie (protege contra XSS), `Secure` só envia por HTTPS e `SameSite=Lax` não envia em requisições de outros sites (ajuda contra CSRF). Logout apaga a sessão no banco.
 
 > 💡 **Autorização no servidor.** Esconder um botão não é segurança. Toda Server Action e Route Handler precisa checar "este usuário pode fazer isso com este recurso?". Um padrão útil é uma função `assertCanX(user, resource)` por tipo de ação, que é fácil de testar.
 
 > 💡 **Upload seguro.** Valide pelo conteúdo, limite o tamanho, salve com nome aleatório fora da pasta pública, sirva por uma rota que checa permissão, use `X-Content-Type-Options: nosniff` e remova metadados EXIF (fotos de celular costumam carregar as coordenadas GPS de onde foram tiradas).
 
-> 💡 **Server Actions.** Funções que rodam no servidor e são chamadas direto de formulários e componentes. O Next.js cuida da serialização e da proteção básica de origem. Mesmo assim, valide a entrada com zod e cheque a autorização dentro da action.
+> 💡 **Server Actions.** Funções que rodam no servidor e são chamadas direto de formulários e componentes (como a action `login` de `src/app/login/page.tsx`). O Next.js cuida da serialização e da proteção básica de origem. Mesmo assim, valide a entrada com zod e cheque a autorização dentro da action.
 
 Estudo: [Better Auth](https://www.better-auth.com/docs) · [Next.js: Server Actions e Route Handlers](https://nextjs.org/docs) · [OWASP File Upload Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/File_Upload_Cheat_Sheet.html) · [OWASP Password Storage](https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html)
 
 ## 7. Backlog inicial (sementes para issues)
 
 **M0**
-- [ ] Better Auth + Prisma: cadastro, login, logout (e-mail e senha)
+- [x] Better Auth + adapter Prisma + tabelas (`src/lib/auth.ts`, migration `better_auth_and_cleanup`)
+- [ ] Route Handler `app/api/auth/[...all]/route.ts` + cliente de auth
+- [ ] `/login` autenticando de verdade e `/cadastro`, com validação no front e no back
 - [ ] `getSession()` / `requireUser()` + proteção de rotas
-- [ ] Páginas `/cadastro` e `/entrar` com validação no front e no back
 - [ ] Seed de usuários de dev
 
 **M1**
 - [ ] Modelo `File` + `POST/GET/DELETE /api/files` (imagens) + armazenamento no volume
 - [ ] Avatar: upload com progresso + avatar padrão gerado
-- [ ] Perfil público `/u/[username]` + edição `/config/perfil`
+- [ ] Campos de perfil (`username`, `bio`, `city`) + perfil público `/u/[id]` + edição `/config/perfil`
 - [ ] Endpoints internos para o `realtime` (sessão, `users/batch`)
 - [ ] Privacidade e Termos v1 (conteúdo com o PO)
 
 **M2**
 - [ ] Upload completo: PDF, GPX, previews, página "Meus arquivos", exclusão, controle de acesso
-- [ ] Comunidades: CRUD + visibilidade + papéis
-- [ ] Entrar, sair, solicitar e aprovar entrada
-- [ ] Posts (com anexos) + comentários
-- [ ] Busca de comunidades (nome, visibilidade, paginação)
-- [ ] Eventos de notificação de todas as ações desta frente
+- [ ] Comunidades: CRUD + papéis + entrar e sair
+- [ ] Posts (com mídia) + `Comment`
+- [ ] Eventos: CRUD + participar
+- [ ] Busca de comunidades (nome, paginação)
+- [ ] Comunidades privadas (`visibility`, `status` de membro), se o tempo permitir
+- [ ] Notificações de todas as ações desta frente
 
 **M3**
-- [ ] Testes de autorização (comunidade privada, arquivos)
+- [ ] Testes de autorização (papéis, arquivos)
 - [ ] Testes de upload malicioso (extensão falsa, tamanho, SVG com script)
 - [ ] Seed de demo para a avaliação
 
 ## 8. Riscos específicos
 
 - **Atraso na auth bloqueia todo mundo:** priorize; entregue a assinatura de `requireUser()` primeiro.
-- **API do Better Auth muda entre versões:** consulte a doc da versão instalada.
-- **Vazamento em comunidade privada:** cada query de post, membro ou anexo precisa do filtro de permissão; escreva testes.
+- **API do Better Auth muda entre versões:** consulte a doc da versão instalada (1.7).
+- **Vazamento entre comunidades:** cada query de post, membro, evento ou anexo precisa do filtro de permissão; escreva testes.
 - **Body size:** ajuste o limite no nginx (e nas Server Actions, se usar upload por action).
 
 ## 9. Como demonstrar
 
-1. Cadastro com erro de validação (front) → corrigir → erro do back (e-mail já usado) → sucesso.
+1. Cadastro com erro de validação (front) → corrigir → erro do back (e-mail já usado) → sucesso → login.
 2. Editar o perfil; enviar um avatar grande e ver a barra de progresso; ver o avatar padrão num usuário novo.
 3. Enviar um `.exe` renomeado para `.png` → recusado pelo servidor.
-4. Criar uma comunidade privada; o outro usuário solicita entrada; aprovar; postar com anexo PDF; o não-membro tenta abrir a URL do anexo → 403.
+4. Criar uma comunidade (vira `ADMIN`); outro usuário entra; promover a `MODERATOR`; criar um evento e o outro participa; postar com mídia; um `MEMBER` tenta excluir post alheio → recusado.
 
 ## 10. Decisões
 
 | Data | Decisão | Motivo |
 |---|---|---|
-| | | |
+| 2026-10-17 | Papéis `ADMIN`/`MODERATOR`/`MEMBER` (enum `Role`), sem dono único | Modelo do schema atual |
+| 2026-10-17 | Login em `/login` | Rota já criada no código |
+| 2026-10-17 | Comunidades têm eventos (`Event`, `EventParticipant`) | Modelo do schema atual |
 
 ## 11. Estado atual
 
 (2026-10-17)
 - `apps/web/src/lib/auth.ts`: Better Auth com adapter Prisma, e-mail e senha e o plugin `nextCookies()`. O segredo vem do Docker secret `better_auth_secret`.
-- Tabelas do Better Auth criadas (migration `20261017161143_better_auth_and_cleanup`).
+- Tabelas do Better Auth e de comunidades, eventos e posts criadas (migrations `20261017005754_init` e `20261017161143_better_auth_and_cleanup`).
 - `/login`: formulário com uma Server Action que só confere os tipos dos campos; ainda não autentica.
-- Faltam: o Route Handler `app/api/auth/[...all]/route.ts`, o cliente de auth, `/cadastro`, `getSession()`/`requireUser()`, seed de usuários, perfil, arquivos e comunidades.
-- O plano usa `/entrar` para o login; o código usa `/login`. Decidir um dos dois.
+- Faltam: o Route Handler do Better Auth, o cliente de auth, `/cadastro`, `getSession()`/`requireUser()`, seed, perfil, arquivos e as telas de comunidades.

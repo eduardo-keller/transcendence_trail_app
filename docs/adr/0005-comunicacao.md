@@ -1,7 +1,7 @@
 # ADR-0005: REST interno + Redis pub/sub + Socket.IO
 
 - **Status:** Proposta
-- **Data:** 2026-10-01
+- **Data:** 2026-10-01 (revista em 2026-10-17: notificações gravadas pelo `web`, conforme o schema)
 - **Decisores:** time (aceitar no kickoff)
 - **Frentes afetadas:** todas
 
@@ -13,8 +13,8 @@
 
 ## Decisão
 
-1. **REST interno (síncrono)** entre serviços, JSON, autenticado por `x-internal-token`. Para quando quem chama **precisa da resposta** (ex.: buscar trilhas).
-2. **Redis pub/sub (assíncrono)** para eventos de domínio com envelope padrão. Para quando quem produz está **avisando que algo aconteceu** (ex.: `notification.requested`).
+1. **REST interno (síncrono)** entre serviços, JSON, autenticado por `x-internal-token`. Para quando quem chama **precisa da resposta** (ex.: o `ai` buscar as trilhas para indexar; o `realtime` pedir ao `web` para criar uma notificação de chat).
+2. **Redis pub/sub (assíncrono)** para eventos de domínio com envelope padrão. Para quando quem produz está **avisando que algo aconteceu** (ex.: `notification.created`, depois de gravar a `Notification` no banco principal).
 3. **Socket.IO** entre navegador e `realtime`: salas por usuário e por comunidade, ack, reconexão automática.
 4. **SSE** (Server-Sent Events) para streaming de respostas de IA (`ai` → `web` → navegador).
 5. O Redis também guarda contadores de rate limit e o conjunto de usuários online.
@@ -33,7 +33,7 @@
 
 **Positivas:** produtores desacoplados de consumidores; o Redis faz três papéis com um container só; o Socket.IO resolve reconexão e salas.
 
-**Negativas:** o pub/sub entrega **no máximo uma vez**: se o `realtime` estiver reiniciando, os eventos daquele instante se perdem. Mitigação: o dado importante está no banco, e o cliente ressincroniza ao reconectar (`sync:since`).
+**Negativas:** o pub/sub entrega **no máximo uma vez**: se o `realtime` estiver reiniciando, os eventos daquele instante se perdem. Mitigação: a notificação já está gravada no banco principal antes do evento, e o cliente ressincroniza ao reconectar (`sync:since`).
 
 ## 💡 Para aprender
 

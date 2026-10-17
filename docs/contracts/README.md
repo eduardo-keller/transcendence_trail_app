@@ -1,6 +1,6 @@
 # Contratos entre serviços
 
-> Última atualização: 2026-10-17 — `GET /api/health` do `web` implementado; o resto continua planejado. `packages/contracts` ainda não existe.
+> Última atualização: 2026-10-17 — alinhado ao código: rotas de trilhas no `web` (não há serviço `trails`); notificações gravadas pelo `web` (`notification.created`). Só `GET /api/health` está implementado. `packages/contracts` ainda não existe.
 > Donos: Tech Lead + dono de cada serviço produtor.
 
 Um **contrato** é o acordo sobre como dois serviços conversam: rota, formato de entrada e saída, erros, eventos. É o que permite que cinco pessoas trabalhem em paralelo: cada uma programa contra o contrato, sem esperar a implementação da outra.
@@ -9,7 +9,7 @@ Um **contrato** é o acordo sobre como dois serviços conversam: rota, formato d
 
 ## 1. Onde fica a verdade
 
-- **Código:** `packages/contracts` (schemas zod + tipos TypeScript inferidos). Produtor e consumidor importam o **mesmo** schema, então uma mudança incompatível vira erro de compilação.
+- **Código:** `packages/contracts` (schemas zod + tipos TypeScript inferidos), a criar junto com o primeiro serviço satélite. Produtor e consumidor importam o **mesmo** schema, então uma mudança incompatível vira erro de compilação.
 - **Este documento:** o **catálogo** (o que existe, quem produz, quem consome, status). Ele não repete o payload campo a campo; para isso, aponta para o schema.
 
 ## 2. Regras para mudar um contrato
@@ -23,29 +23,42 @@ Um **contrato** é o acordo sobre como dois serviços conversam: rota, formato d
 
 | Item | Convenção |
 |---|---|
-| Base URL | `http://<serviço>:<porta>` na rede interna (`trails:4002`, `ai:4003`, `realtime:4001`, `web:3000`) |
+| Base URL | `http://<serviço>:<porta>` na rede interna (`ai:4003`, `realtime:4001`, `nextjs:3000`) |
 | Prefixo | Serviços satélites: `/v1/...`. No `web`: `/api/internal/...` (bloqueado no nginx para acesso externo) |
-| Autenticação | Header `x-internal-token: $INTERNAL_API_TOKEN`; sem ele, 401 |
+| Autenticação | Header `x-internal-token` (segredo compartilhado, Docker secret); sem ele, 401 |
 | Usuário | Header `x-user-id` (preenchido pelo `web` após validar a sessão) |
 | Correlação | Header `x-request-id` propagado |
-| Corpo | JSON; datas em ISO 8601 UTC |
+| Corpo | JSON; datas em ISO 8601 UTC; distâncias em metros, durações em segundos |
 | Erro | `{ "error": { "code": "SNAKE_UPPER", "message": "texto", "details": {} } }` com o status HTTP correto |
 | Paginação | `?page=&pageSize=` → `{ items, page, pageSize, total }` |
 | Timeout do cliente | 5 s (streams de IA: 60 s) |
 | Streaming | Server-Sent Events (`text/event-stream`), eventos `token`, `sources`, `error`, `done` |
 
-## 4. Endpoints internos (catálogo)
+## 4. Endpoints (catálogo)
 
 Status: 📝 planejado · 🟡 em implementação · ✅ implementado. **O plano de cada frente pode ajustar estas rotas**: atualize aqui quando isso acontecer.
 
-### trails (F4)
+### web: rotas públicas (consumidas pelo navegador)
+| Método e rota | Uso | Dono | Status |
+|---|---|---|---|
+| `GET /api/health` | Saúde do `web`: devolve `{ ok: true, trails: <número de trilhas> }` (consulta o banco) | F1 | ✅ (provisório: vira `/health` + `/ready`) |
+| `/api/auth/*` | Rotas do Better Auth (cadastro, login, logout, sessão) | F2 | 📝 |
+| `GET /api/trails` | Busca de trilhas com filtros, ordenação e paginação (parâmetros em [frentes/trilhas](../frentes/trilhas/README.md#api)) | F4 | 📝 |
+| `GET /api/trails/:id` | Detalhe com `routeGeoJSON` | F4 | 📝 |
+| `POST /api/files`, `GET` e `DELETE /api/files/:id` | Upload, download e exclusão de arquivos | F2 | 📝 |
+| `POST /api/assistant/ask`, `POST /api/assistant/plan` | Repassa para o `ai` em SSE | F5 | 📝 |
+
+O resto das escritas (trilhas, atividades, comunidades, eventos, posts, perfil, notificações) são **Server Actions**, sem contrato HTTP público.
+
+### web: rotas internas
 | Método e rota | Uso | Consumidores | Status |
 |---|---|---|---|
-| `GET /v1/trails` | Busca com filtros, ordenação e paginação (parâmetros em [frentes/trilhas](../frentes/trilhas/README.md#api)) | web | 📝 |
-| `GET /v1/trails/:idOrSlug` | Detalhe com geometria simplificada (GeoJSON) e perfil de elevação | web | 📝 |
-| `GET /v1/trails/batch?ids=` | Resumo de várias trilhas (perfil, ranking) | web | 📝 |
-| `GET /v1/trails/:id/gpx` | Exportar a trilha em GPX | web | 📝 |
-| `GET /v1/trails/export` | Todas as trilhas em texto e metadados para indexação | ai | 📝 |
+| Endpoint de sessão do Better Auth (repasse do cookie) | Validar a sessão no handshake do socket | realtime | 📝 |
+| `GET /api/internal/users/batch?ids=` | Nome e avatar para exibir no chat | realtime | 📝 |
+| `GET /api/internal/users/:id/friends` | IDs dos amigos (fan-out de presença) | realtime | 📝 |
+| `GET /api/internal/friendships/check?a=&b=` | São amigos? (autorizar o chat) | realtime | 📝 |
+| `POST /api/internal/notifications` | Criar notificação (ex.: nova mensagem de chat) | realtime | 📝 |
+| `GET /api/internal/trails/export` | Trilhas **públicas** em texto e metadados para indexação | ai | 📝 |
 
 ### ai (F5)
 | Método e rota | Uso | Consumidores | Status |
@@ -59,38 +72,29 @@ Status: 📝 planejado · 🟡 em implementação · ✅ implementado. **O plano
 |---|---|---|---|
 | `GET /v1/conversations` | Conversas do usuário com contagem de não lidas | web | 📝 |
 | `GET /v1/conversations/:id/messages` | Histórico paginado | web | 📝 |
-| `GET /v1/notifications` | Notificações paginadas | web | 📝 |
-| `POST /v1/notifications/read` | Marcar como lidas (`ids` ou `all`) | web | 📝 |
 | `GET /v1/presence?userIds=` | Quem está online | web | 📝 |
 
-### web (F2/F3), rotas internas
-| Método e rota | Uso | Consumidores | Status |
-|---|---|---|---|
-| Endpoint de sessão do Better Auth (repasse do cookie) | Validar a sessão no handshake do socket | realtime | 📝 |
-| `GET /api/internal/users/batch?ids=` | Nome, username e avatar para exibir no chat e nas notificações | realtime | 📝 |
-| `GET /api/internal/users/:id/friends` | IDs dos amigos (fan-out de presença) | realtime | 📝 |
-| `GET /api/internal/friendships/check?a=&b=` | São amigos? (autorizar o chat) | realtime | 📝 |
-| `GET /api/health` | Saúde do `web`: devolve `{ ok: true, trails: <número de trilhas> }` (consulta o banco) | compose, status page | ✅ (provisório: vira `/health` + `/ready` no padrão abaixo) |
+As notificações (listar, marcar como lida) ficam no `web`, que é dono da tabela `Notification`.
 
-Todos os serviços também expõem `GET /health`, `GET /ready` e `GET /metrics` (via `service-kit`), consumidos pelo compose, pelo Prometheus e pela status page.
+Os serviços satélites também expõem `GET /health`, `GET /ready` e `GET /metrics` (via `service-kit`), consumidos pelo compose, pelo Prometheus e pela status page.
 
 ## 5. Eventos (Redis pub/sub)
 
 Envelope comum (`EventEnvelope` em `packages/contracts`):
 ```ts
 { id: string; type: string; version: number; occurredAt: string;
-  producer: "web" | "realtime" | "trails" | "ai"; actorId?: string; payload: unknown }
+  producer: "web" | "realtime" | "ai"; actorId?: string; payload: unknown }
 ```
 
 | Tipo | Canal | Produtor(es) | Consumidor(es) | Payload (resumo) | Status |
 |---|---|---|---|---|---|
-| `notification.requested` | `events:notifications` | web, realtime, trails | realtime | `recipientIds[]`, `kind`, `entity {type,id}`, `data` (texto e link) | 📝 |
-| `community.activity` | `events:community` | web | realtime | `communityId`, `action` (post/comment created/updated/deleted), `entityId` | 📝 |
+| `notification.created` | `events:notifications` | web | realtime | `items: [{ notificationId, userId, message, createdAt }]` (já gravadas em `Notification`) | 📝 |
+| `community.activity` | `events:community` | web | realtime | `communityId`, `action` (post, evento ou membro: created/updated/deleted), `entityId` | 📝 |
 | `friendship.changed` | `events:social` | web | realtime | `userIds [a,b]`, `status` (requested/accepted/removed) | 📝 |
 | `user.profile.updated` | `events:social` | web | realtime | `userId` (invalida o cache de nome e avatar) | 📝 |
-| `trail.catalog.updated` | `events:trails` | trails | ai | `ingestionRunId`, `trailCount` (dispara a reindexação do RAG) | 📝 |
+| `trail.catalog.updated` | `events:trails` | web | ai | `trailIds` alterados ou `full: true` (dispara a reindexação do RAG) | 📝 |
 
-**Notificações:** quem produz o evento decide **quem** é notificado (`recipientIds`), porque é quem conhece o domínio (ex.: só o `web` sabe quem é membro de uma comunidade). O `realtime` apenas persiste e entrega. A lista de ações e destinatários é a [matriz de notificações](../frentes/social/README.md#matriz-de-notificações).
+**Notificações:** quem executa a ação decide **quem** é notificado, porque é quem conhece o domínio (ex.: só o `web` sabe quem é membro de uma comunidade). O `web` grava as `Notification` e publica o evento; o `realtime` apenas entrega. A lista de ações e destinatários é a [matriz de notificações](../frentes/social/README.md#matriz-de-notificações).
 
 ## 6. Eventos de socket (navegador ↔ realtime)
 
@@ -103,7 +107,7 @@ Salas: `user:<userId>` (tudo que é pessoal) e `community:<communityId>` (feed a
 | `chat:typing` | ambos | `conversationId`, `isTyping` | Não persistido | 📝 |
 | `chat:read` | cliente → servidor | `conversationId`, `lastReadMessageId` | | 📝 |
 | `presence:changed` | servidor → cliente | `userId`, `online` | Só para amigos | 📝 |
-| `notification:new` | servidor → cliente | notificação | | 📝 |
+| `notification:new` | servidor → cliente | `{ id, message, isRead, createdAt }` | | 📝 |
 | `community:join` / `community:leave` | cliente → servidor | `communityId` | O servidor confere a permissão | 📝 |
 | `community:activity` | servidor → cliente | igual ao evento `community.activity` | | 📝 |
-| `sync:since` | cliente → servidor (com ack) | `since` (timestamp) | Na reconexão: devolve as mensagens e notificações perdidas | 📝 |
+| `sync:since` | cliente → servidor (com ack) | `since` (timestamp) | Na reconexão: devolve as mensagens perdidas (as notificações o cliente relê do `web`) | 📝 |

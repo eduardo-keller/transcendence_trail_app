@@ -18,13 +18,13 @@ Estamos fazendo este projeto **para aprender**, mas com prazo. Este documento aj
 
 Na avaliação, qualquer membro pode ser perguntado sobre qualquer parte. Cada pessoa deve conseguir explicar, sem consultar:
 
-- [ ] A arquitetura: os 4 serviços, o que cada um faz e por que existem separados.
-- [ ] O caminho de uma requisição: navegador → nginx (HTTPS) → web → serviço interno → banco.
+- [ ] A arquitetura: o `web` e os serviços `realtime` e `ai`, o que cada um faz e por que existem separados.
+- [ ] O caminho de uma requisição: navegador → nginx (HTTPS) → web → (serviço interno) → banco. Hoje: navegador → `nextjs` (3000) → Postgres.
 - [ ] Como funciona o login e por que a senha é segura (hash com salt, sessão em cookie).
 - [ ] Como uma mensagem de chat chega ao outro usuário (WebSocket, salas).
-- [ ] Como uma notificação é criada e entregue (evento → Redis → realtime → banco + socket).
+- [ ] Como uma notificação é criada e entregue (`web` grava `Notification` → evento no Redis → `realtime` → socket).
 - [ ] O que é RAG e como o assistente encontra os trechos (embeddings, busca vetorial).
-- [ ] De onde vêm os dados de trilha e como o desnível é calculado.
+- [ ] De onde vêm os dados de trilha (seed do OSM e GPX dos usuários), como o desnível é calculado e como a busca por área usa o bounding box.
 - [ ] O que o Prometheus coleta e como um alerta dispara.
 - [ ] Como subir o projeto e como restaurar um backup.
 - [ ] Como o time se organizou (papéis, rituais, git, PRs).
@@ -38,7 +38,7 @@ Formato: o que é, em 1–3 linhas, e onde aparece no projeto. Explicações mai
 - **BFF (Backend for Frontend):** a camada que o navegador enxerga e que orquestra os serviços internos. → o `web`
 - **Proxy reverso:** servidor que recebe as requisições e repassa para os serviços certos. → nginx
 - **Database-per-service:** cada serviço é dono do seu banco; os outros só acessam por API. → [ARCHITECTURE §5](ARCHITECTURE.md#5-dados)
-- **Consistência eventual:** dados copiados entre serviços (snapshots, eventos) podem ficar diferentes por um instante. → snapshot em `TrailCompletion`
+- **Consistência eventual:** dados copiados entre serviços (cópias, eventos) podem ficar diferentes por um instante. → cache de nome e avatar no `realtime`
 - **Contrato / contract-first:** a interface entre serviços é acordada antes de implementar. → [contracts](contracts/README.md)
 - **Pub/sub:** quem publica não conhece quem assina; o broker (Redis) distribui. → eventos
 - **Síncrono × assíncrono:** esperar a resposta (REST) × avisar e seguir (evento).
@@ -81,7 +81,8 @@ Formato: o que é, em 1–3 linhas, e onde aparece no projeto. Explicações mai
 - **OSM: node, way, relation, tags:** → [pesquisa](research/osm-trilhas.md#2-conceitos-como-o-osm-organiza-os-dados)
 - **GeoJSON:** formato JSON de geometrias, com coordenadas em [lng, lat].
 - **SRID 4326 (WGS 84):** latitude e longitude em graus.
-- **geometry × geography:** plano × esfera. → [F4](frentes/trilhas/README.md#6-conceitos-chave)
+- **Bounding box:** retângulo mínimo que contém uma geometria; filtro barato por área. → [F4](frentes/trilhas/README.md#6-conceitos-chave)
+- **geometry × geography:** plano × esfera (PostGIS, usado na ingestão). → [research](research/osm-trilhas.md)
 - **DEM:** grade de altitudes do terreno (ex.: Copernicus de 90 m).
 - **Tiles:** pequenas imagens (raster) ou dados (vetoriais) que compõem o mapa.
 - **ODbL:** licença dos dados do OSM (atribuição + compartilhar derivados pela mesma licença).
@@ -121,7 +122,7 @@ Leitura **mínima** antes de começar (≈ 1–2 h) e "para aprofundar" quando s
 | F1 Plataforma | [Docker: get started](https://docs.docker.com/get-started/) · [Compose](https://docs.docker.com/compose/) · [Prometheus: overview](https://prometheus.io/docs/introduction/overview/) | [Grafana provisioning](https://grafana.com/docs/grafana/latest/administration/provisioning/) · [nginx WebSocket](https://nginx.org/en/docs/http/websocket.html) · [Google SRE: Monitoring](https://sre.google/sre-book/monitoring-distributed-systems/) |
 | F2 Identidade | [Better Auth](https://www.better-auth.com/docs) · [Prisma: relações](https://www.prisma.io/docs) | [OWASP: autenticação](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html) · [OWASP: file upload](https://cheatsheetseries.owasp.org/cheatsheets/File_Upload_Cheat_Sheet.html) |
 | F3 Social | [Socket.IO: tutorial + rooms](https://socket.io/docs/v4/) · [Fastify](https://fastify.dev/docs/latest/) | [MDN: WebSockets](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API) · Redis pub/sub |
-| F4 Trilhas | [PostGIS workshop, capítulos 1–15](https://postgis.net/workshops/postgis-intro/) · [OSM Map Features](https://wiki.openstreetmap.org/wiki/Map_features) · [React Leaflet](https://react-leaflet.js.org) | [Overpass QL](https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL) · [Turf.js](https://turfjs.org) |
+| F4 Trilhas | [OSM Map Features](https://wiki.openstreetmap.org/wiki/Map_features) · [React Leaflet](https://react-leaflet.js.org) · [Turf.js](https://turfjs.org) | [PostGIS workshop, capítulos 1–15](https://postgis.net/workshops/postgis-intro/) · [Overpass QL](https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL) |
 | F5 IA | Documentação do SDK do provedor escolhido (streaming) · [pgvector](https://github.com/pgvector/pgvector) | [MDN: SSE](https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events) · [Transformers.js](https://huggingface.co/docs/transformers.js) · avaliação de RAG |
 
 ## 5. Lições aprendidas

@@ -1,6 +1,6 @@
 # Pontos críticos e riscos
 
-> Última atualização: 2026-10-17 — R10 e R21 sem referências a arquivos apagados; R11 com o estado atual.
+> Última atualização: 2026-10-17 — alinhado ao código: dois serviços satélites (`realtime`, `ai`), trilhas e notificações no `web`, Docker secrets.
 > Donos: PM (acompanhamento) + Tech Lead (riscos técnicos). Revisar na reunião semanal: algum risco mudou? Surgiu algum novo?
 
 Escala: **P** = probabilidade, **I** = impacto (A alto, M médio, B baixo).
@@ -21,24 +21,24 @@ Os riscos que mais podem custar nota ou tempo, em ordem:
 | ID | Risco | P | I | Mitigação | Dono |
 |---|---|---|---|---|---|
 | R1 | Erros ou warnings no console do Chrome | A | A | Teste Playwright que falha com qualquer erro de console; item no checklist de PR; Leaflet só no cliente; socket só conecta logado; nenhum fetch "esperado" com 401/404 | Tech Lead |
-| R2 | Avaliador não aceita a arquitetura como microsserviços | M | A | ADR-0001; banco e usuário de banco por serviço; contratos documentados; demo de isolamento de falha; margem de 7 pts | F1 |
-| R3 | Cobertura do OSM pequena (só 10 relações de trilha na região) | A | M | Montar trilhas agrupando vias nomeadas; retângulo configurável; POIs; não fingir cobertura (ver [pesquisa](research/osm-trilhas.md)) | F4 |
+| R2 | Avaliador não aceita a arquitetura como microsserviços (só `realtime` e `ai` fora do `web`) | M | A | ADR-0001; banco e usuário de banco por serviço; contratos documentados; demo de isolamento de falha; margem de 7 pts; se preciso, um terceiro serviço em nova ADR | F1 |
+| R3 | Cobertura do OSM pequena (só 10 relações de trilha na região) | A | M | Montar trilhas agrupando vias nomeadas; retângulo configurável; trilhas publicadas por usuários; não fingir cobertura (ver [pesquisa](research/osm-trilhas.md)) | F4 |
 | R4 | Desnível impreciso (DEM de 90 m) | A | B | Suavização + limiar; exibir "estimado"; validar 5 trilhas conhecidas manualmente | F4 |
 | R5 | Serviços externos instáveis na avaliação (Overpass com 504, tiles, Open-Meteo, LLM) | M | A | Dados do OSM e elevação **pré-processados e versionados** (nada em runtime); provedor de tiles alternativo configurável; chave de LLM com saldo; status page mostra "degradado" | F4, F5 |
 | R6 | Custo ou cota do LLM estoura | M | M | Rate limit por usuário e teto global diário; `mock` em dev e CI; modelo mais barato em dev (decisão do time); métrica de tokens no Grafana | F5 |
-| R7 | Notificações não cobrem todas as ações CRUD | A | M | Matriz de notificações desde o dia 1; helper `publishEvent()`; checklist de PR; conferência item a item na fase 3 | F3 |
+| R7 | Notificações não cobrem todas as ações CRUD | A | M | Matriz de notificações desde o dia 1; helper `notify()` no `web`; checklist de PR; conferência item a item na fase 3 | F3 |
 | R8 | Auth atrasa e bloqueia todo mundo | M | A | F2 prioriza `requireUser()` no dia 1–3; seed de usuários; o PM acompanha na daily | F2 |
 | R9 | WebSocket atrás de nginx com HTTPS e auth no handshake | M | M | Faz parte do critério do M0; config de upgrade no nginx; teste com o cookie real | F1, F3 |
-| R10 | Conflitos de schema e migrations Prisma entre 5 pessoas | A | M | Banco por serviço; schema em vários arquivos (hoje é um só); uma migration por PR; se a `main` ganhou outra migration, rebase + apagar a migration local + `make migrate` de novo ([ARCHITECTURE §5.3](ARCHITECTURE.md#53-prisma-e-migrations)) | Tech Lead |
+| R10 | Conflitos de schema e migrations Prisma entre 5 pessoas | A | M | Um schema por serviço; no `web`, seções por frente no `schema.prisma` (dividir em arquivos se precisar); uma migration por PR; se a `main` ganhou outra migration, rebase + apagar a migration local + `make migrate` de novo ([ARCHITECTURE §5.3](ARCHITECTURE.md#53-prisma-e-migrations)) | Tech Lead |
 | R11 | Build Docker do monorepo e "comando único" quebrando | M | A | `make` já sobe `postgres` + `nextjs`; falta CI construindo as imagens; teste semanal em máquina limpa | F1 |
 | R12 | Membro não consegue explicar código gerado por IA | M | A | Seção "O que aprendi" na PR (escrita pela pessoa); aula relâmpago semanal; rodízio nos ensaios; partes centrais escritas por humanos | PM |
 | R13 | Documentação defasada | A | M | Docs curtos; checklist de PR; auditoria semanal com prompt pronto; seção "Divergências" | PM |
 | R14 | RAG e LLM vistos como o mesmo módulo, ou dataset "pequeno" | M | A | Duas funcionalidades, telas e endpoints distintos; ≥ 2.000 trechos com contagem visível; justificativa no README | F5 |
 | R15 | Escopo cresce (gamificação, extras) e atrasa o núcleo | M | M | MoSCoW em [PRODUCT.md](PRODUCT.md#4-escopo-priorizado-moscow); feature freeze no M2; reservas só depois do M2 | PO |
-| R16 | Porta HTTP exposta ou serviço sem TLS | B | A | Só o nginx publica portas; 80 → 443; checklist de segurança | F1 |
-| R17 | Vazamento de privacidade (EXIF com GPS, GPX, comunidade privada) | M | A | Reencodar imagens; GPX privado por padrão; checagem de permissão em toda leitura; testes de autorização | F2 |
+| R16 | Porta HTTP exposta ou serviço sem TLS | A (hoje 3000 e 5555 em HTTP) | A | nginx com TLS no M0; só o nginx publica portas; 80 → 443; `prisma-studio` só no profile `tools`; checklist de segurança | F1 |
+| R17 | Vazamento de privacidade (EXIF com GPS, percurso das atividades, trilhas `PRIVATE`) | M | A | Reencodar imagens; percurso de atividade visível só para o dono; filtro de visibilidade em toda query de trilha; testes de autorização | F2, F4 |
 | R18 | Race conditions com vários usuários (requisito obrigatório) | M | A | `UNIQUE` + transações + idempotência; teste com 3+ navegadores | Todos |
-| R19 | Máquinas sem recursos (~15 containers; WSL2; máquinas da 42) | M | M | Limites de memória; observabilidade em profile opcional no dev; medir RAM no M0 | F1 |
+| R19 | Máquinas sem recursos (~14 containers no alvo; WSL2; máquinas da 42) | M | M | Limites de memória; observabilidade em profile opcional no dev; medir RAM no M0 | F1 |
 | R20 | Histórico do git sem commits de alguém, ou squash total na entrega | B | A | Todos commitam desde a semana 1; push do histórico **completo** para o repositório da 42 | PM |
 | R21 | Mudanças de API nas libs (Next.js 16, Prisma 7, Better Auth) confundem pessoas e agentes | M | M | Fixar versões (ver `apps/web/package.json`); consultar a doc da versão instalada, não a de tutoriais antigos | Tech Lead |
 
@@ -56,7 +56,7 @@ Causas comuns neste stack:
 Mitigação automática: um teste Playwright que navega por todas as páginas (logado e deslogado) e falha com qualquer `console.error`/`console.warn` ou requisição com falha.
 
 ### R2: Defesa da arquitetura de microsserviços
-Prepare para a avaliação: diagrama, tabela de responsabilidades, por que cada fronteira existe, um banco por serviço, contratos, comunicação síncrona e assíncrona, demo de falha isolada. Saiba responder: "por que o `web` faz tanta coisa?" O `web` é o BFF e o domínio principal; separar identidade, comunidades e arquivos em mais serviços aumentaria a complexidade sem benefício real para este projeto. A divisão segue fronteiras técnicas (processo de longa duração, processamento geoespacial, custo e dependências de IA). Ver [ADR-0001](adr/0001-arquitetura-servicos.md).
+Prepare para a avaliação: diagrama, tabela de responsabilidades, por que cada fronteira existe, um banco por serviço, contratos, comunicação síncrona e assíncrona, demo de falha isolada. Saiba responder: "por que o `web` faz tanta coisa?" O `web` é o BFF e o domínio principal; separar identidade, comunidades e arquivos em mais serviços aumentaria a complexidade sem benefício real para este projeto. A divisão segue fronteiras técnicas (processo de longa duração para o WebSocket; custo, limites e dependências da IA). Trilhas ficaram no `web` porque dependem de usuários (autor, visibilidade, atividades). Ver [ADR-0001](adr/0001-arquitetura-servicos.md).
 
 ### R3: Dados de trilhas
 Resultado da pesquisa de 2026-10-01: só 10 relações `route=hiking` na região, mas 64 grupos de vias nomeadas com 1 km ou mais. O plano completo está em [research/osm-trilhas.md](research/osm-trilhas.md). Seja honesto no produto: "trilhas mapeadas no OpenStreetMap", com um link para contribuir com o OSM.

@@ -1,6 +1,6 @@
 # F5: Assistente IA
 
-> Última atualização: 2026-10-17 — estado atual. Provedor de LLM pendente ([ADR-0007](../../adr/0007-provedor-llm-embeddings.md)).
+> Última atualização: 2026-10-17 — trilhas exportadas pelo `web` (não há serviço `trails`); corpus com os campos que existem em `Trail`. Provedor de LLM pendente ([ADR-0007](../../adr/0007-provedor-llm-embeddings.md)).
 
 | | |
 |---|---|
@@ -35,8 +35,8 @@ Manter as duas **visivelmente separadas** é o que defende os 4 pontos na avalia
 - **Rate limit** por usuário (ex.: 10/min e 50/dia por funcionalidade) + **teto global diário** de gasto, no Redis. Resposta 429 com `Retry-After`, e a UI mostra quanto falta.
 - **Pipeline de RAG:** fontes → normalização → chunking → embeddings (modelo local) → pgvector (índice HNSW) → recuperação top-k (+ filtro por trilha quando a pergunta vem da página da trilha) → prompt com regras → resposta com citações.
 - **Corpus** (meta: ≥ 2.000 trechos):
-  1. Trilhas do catálogo (um documento por trilha, gerado a partir dos dados: nome, município, parque, distância, desnível, dificuldade, superfície, POIs próximos).
-  2. POIs (picos, cachoeiras, mirantes).
+  1. Trilhas **públicas** do catálogo (um documento por trilha, gerado a partir de `Trail`: título, descrição, distância, desnível, dificuldade, autor; município e parque se a F4 adicionar esses campos).
+  2. POIs (picos, cachoeiras, mirantes) extraídos do OSM na ingestão da F4, se ela os exportar.
   3. Artigos da Wikipedia em português sobre parques, serras e picos da região (via tags `wikidata`/`wikipedia` do OSM + lista curada), com atribuição CC BY-SA.
   4. Guias curados pelo time em `services/ai/corpus/*.md` (segurança em trilhas, equipamentos, clima, primeiros socorros básicos, regras de parques), escritos pelo time ou de fontes com licença compatível.
 - **Reindexação** ao receber `trail.catalog.updated` e por comando manual.
@@ -44,7 +44,7 @@ Manter as duas **visivelmente separadas** é o que defende os 4 pontos na avalia
 - **Log de uso** (`AiRequest`) + métricas (`ai_requests_total{feature,outcome}`, `ai_tokens_total`, `ai_rate_limited_total`, latência até o primeiro token).
 - **UI** `/assistente` (duas abas) + atalhos na página da trilha. Markdown renderizado com sanitização.
 
-**Fora:** geração de imagens; chat com memória longa; usar conteúdo de comunidades privadas no corpus (privacidade).
+**Fora:** geração de imagens; chat com memória longa; usar trilhas privadas, atividades ou conteúdo de comunidades no corpus (privacidade).
 
 ## 3. Critérios de aceite
 
@@ -58,12 +58,12 @@ Os critérios dos módulos 11 e 12 estão em [MODULES.md](../../MODULES.md#11-in
 
 ## 4. Desenho
 
-### Dados (banco `ai`)
+### Dados (banco `ai`, a criar)
 
 | Modelo | Campos | Observações |
 |---|---|---|
 | Document | id, source (`trail`/`poi`/`wikipedia`/`guide`), sourceId, title, url?, license, contentHash, updatedAt | `contentHash` evita reindexar o que não mudou |
-| Chunk | id, documentId, ordinal, content, tokenCount, embedding `vector(384)`, metadata (jsonb: trailId, município…) | Índice HNSW (cosseno) em `embedding` |
+| Chunk | id, documentId, ordinal, content, tokenCount, embedding `vector(384)`, metadata (jsonb: trailId…) | Índice HNSW (cosseno) em `embedding` |
 | AiRequest | id, userId, feature (`planner`/`rag`), provider, model, inputTokens, outputTokens, latencyMs, ttftMs, status, errorCode?, createdAt | Auditoria, métricas e base do teto de gasto |
 
 ### Prompt do RAG (esqueleto)
@@ -80,9 +80,9 @@ Os critérios dos módulos 11 e 12 estão em [MODULES.md](../../MODULES.md#11-in
 
 | Consome de | O quê | Enquanto não estiver pronto |
 |---|---|---|
-| F1 | Template de serviço, pgvector, Redis, nginx com SSE sem buffer | — |
+| F1 | Template de serviço, banco `ai` com pgvector (a extensão já existe na imagem), Redis, nginx com SSE sem buffer | — |
 | F2 | Sessão no `web` (o BFF repassa `x-user-id`) | Seed de usuários |
-| F4 | `GET /v1/trails/export`, evento `trail.catalog.updated` | Seed v0 do spike; guias e Wikipedia já dão volume |
+| F4 | `GET /api/internal/trails/export` (no `web`), evento `trail.catalog.updated` | Seed v0 do spike; guias e Wikipedia já dão volume |
 | Time | Decisão da [ADR-0007](../../adr/0007-provedor-llm-embeddings.md) (provedor e orçamento) | Provedor `mock` |
 
 | Fornece para | O quê |
