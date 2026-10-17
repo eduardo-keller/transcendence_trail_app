@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Farroupilha</name>
+    <trkseg>
+      <trkpt lat="-23.468015" lon="-46.318840"><ele>768.2</ele></trkpt>
+      <trkpt lat="-23.467993" lon="-46.318110"><ele>779.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

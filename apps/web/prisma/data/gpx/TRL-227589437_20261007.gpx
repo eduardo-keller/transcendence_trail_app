@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Piracema</name>
+    <trkseg>
+      <trkpt lat="-23.616034" lon="-46.896776"><ele>806.3</ele></trkpt>
+      <trkpt lat="-23.615858" lon="-46.897043"><ele>803.7</ele></trkpt>
+      <trkpt lat="-23.615736" lon="-46.897195"><ele>798.4</ele></trkpt>
+      <trkpt lat="-23.615560" lon="-46.897372"><ele>791.3</ele></trkpt>
+      <trkpt lat="-23.615431" lon="-46.897484"><ele>791.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

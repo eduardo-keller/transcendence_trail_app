@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela do Campo</name>
+    <trkseg>
+      <trkpt lat="-23.692198" lon="-46.782621"><ele>838.6</ele></trkpt>
+      <trkpt lat="-23.692163" lon="-46.782564"><ele>838.6</ele></trkpt>
+      <trkpt lat="-23.692121" lon="-46.782541"><ele>838.6</ele></trkpt>
+      <trkpt lat="-23.692048" lon="-46.782533"><ele>836.0</ele></trkpt>
+      <trkpt lat="-23.691941" lon="-46.782552"><ele>836.0</ele></trkpt>
+      <trkpt lat="-23.691812" lon="-46.782594"><ele>836.0</ele></trkpt>
+      <trkpt lat="-23.691522" lon="-46.782832"><ele>834.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

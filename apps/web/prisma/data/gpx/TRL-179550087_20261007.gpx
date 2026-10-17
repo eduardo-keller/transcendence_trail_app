@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passarela Arlindo Antônio Gianotto</name>
+    <trkseg>
+      <trkpt lat="-23.696663" lon="-46.552505"><ele>757.7</ele></trkpt>
+      <trkpt lat="-23.696796" lon="-46.552469"><ele>757.7</ele></trkpt>
+      <trkpt lat="-23.696796" lon="-46.552469"><ele>757.7</ele></trkpt>
+      <trkpt lat="-23.696892" lon="-46.552443"><ele>757.6</ele></trkpt>
+      <trkpt lat="-23.696892" lon="-46.552443"><ele>757.6</ele></trkpt>
+      <trkpt lat="-23.696900" lon="-46.552476"><ele>757.6</ele></trkpt>
+      <trkpt lat="-23.696670" lon="-46.552537"><ele>757.7</ele></trkpt>
+      <trkpt lat="-23.696670" lon="-46.552537"><ele>757.7</ele></trkpt>
+      <trkpt lat="-23.696729" lon="-46.552797"><ele>755.6</ele></trkpt>
+      <trkpt lat="-23.696948" lon="-46.552739"><ele>758.5</ele></trkpt>
+      <trkpt lat="-23.696956" lon="-46.552775"><ele>758.5</ele></trkpt>
+      <trkpt lat="-23.696846" lon="-46.552804"><ele>758.5</ele></trkpt>
+      <trkpt lat="-23.696846" lon="-46.552804"><ele>758.5</ele></trkpt>
+      <trkpt lat="-23.696737" lon="-46.552833"><ele>755.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

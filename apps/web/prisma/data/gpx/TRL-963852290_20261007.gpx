@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Esmeralda do Brasil</name>
+    <trkseg>
+      <trkpt lat="-23.454207" lon="-46.710633"><ele>837.9</ele></trkpt>
+      <trkpt lat="-23.453989" lon="-46.710906"><ele>824.5</ele></trkpt>
+      <trkpt lat="-23.453888" lon="-46.711032"><ele>814.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

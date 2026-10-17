@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Acesso para a trilha Mata Dentro</name>
+    <trkseg>
+      <trkpt lat="-23.732362" lon="-46.924266"><ele>949.2</ele></trkpt>
+      <trkpt lat="-23.731907" lon="-46.924710"><ele>952.7</ele></trkpt>
+      <trkpt lat="-23.731445" lon="-46.924925"><ele>957.9</ele></trkpt>
+      <trkpt lat="-23.731023" lon="-46.925150"><ele>962.9</ele></trkpt>
+      <trkpt lat="-23.730846" lon="-46.925494"><ele>961.1</ele></trkpt>
+      <trkpt lat="-23.730757" lon="-46.926116"><ele>964.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

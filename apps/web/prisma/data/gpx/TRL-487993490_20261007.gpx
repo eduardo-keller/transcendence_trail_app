@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Cabreúva Vermelha</name>
+    <trkseg>
+      <trkpt lat="-23.623670" lon="-46.416096"><ele>849.3</ele></trkpt>
+      <trkpt lat="-23.623176" lon="-46.416103"><ele>833.7</ele></trkpt>
+      <trkpt lat="-23.623138" lon="-46.416094"><ele>833.7</ele></trkpt>
+      <trkpt lat="-23.623104" lon="-46.416072"><ele>833.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

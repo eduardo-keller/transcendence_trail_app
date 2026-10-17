@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Francisco Alarico Bérgamo</name>
+    <trkseg>
+      <trkpt lat="-23.520487" lon="-46.454788"><ele>740.3</ele></trkpt>
+      <trkpt lat="-23.520506" lon="-46.454731"><ele>740.3</ele></trkpt>
+      <trkpt lat="-23.520711" lon="-46.454232"><ele>742.4</ele></trkpt>
+      <trkpt lat="-23.520741" lon="-46.454145"><ele>742.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

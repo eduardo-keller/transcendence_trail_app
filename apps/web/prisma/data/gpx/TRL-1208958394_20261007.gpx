@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Casimiro de Abreu</name>
+    <trkseg>
+      <trkpt lat="-23.654794" lon="-46.552247"><ele>775.8</ele></trkpt>
+      <trkpt lat="-23.654585" lon="-46.551909"><ele>779.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

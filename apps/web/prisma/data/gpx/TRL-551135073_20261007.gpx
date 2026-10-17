@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Chico Vicente</name>
+    <trkseg>
+      <trkpt lat="-23.622377" lon="-46.750449"><ele>807.3</ele></trkpt>
+      <trkpt lat="-23.622331" lon="-46.750485"><ele>801.7</ele></trkpt>
+      <trkpt lat="-23.622294" lon="-46.750463"><ele>801.7</ele></trkpt>
+      <trkpt lat="-23.622221" lon="-46.750452"><ele>801.7</ele></trkpt>
+      <trkpt lat="-23.622109" lon="-46.750468"><ele>801.7</ele></trkpt>
+      <trkpt lat="-23.622058" lon="-46.750490"><ele>796.5</ele></trkpt>
+      <trkpt lat="-23.621986" lon="-46.750554"><ele>796.5</ele></trkpt>
+      <trkpt lat="-23.621928" lon="-46.750607"><ele>796.5</ele></trkpt>
+      <trkpt lat="-23.621737" lon="-46.750740"><ele>790.4</ele></trkpt>
+      <trkpt lat="-23.621718" lon="-46.750747"><ele>790.4</ele></trkpt>
+      <trkpt lat="-23.621694" lon="-46.750748"><ele>790.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

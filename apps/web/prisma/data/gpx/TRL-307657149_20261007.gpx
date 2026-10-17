@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Trilha do Macaco</name>
+    <trkseg>
+      <trkpt lat="-23.405030" lon="-46.586683"><ele>842.9</ele></trkpt>
+      <trkpt lat="-23.405400" lon="-46.586849"><ele>846.5</ele></trkpt>
+      <trkpt lat="-23.405715" lon="-46.587013"><ele>844.7</ele></trkpt>
+      <trkpt lat="-23.405927" lon="-46.587334"><ele>846.7</ele></trkpt>
+      <trkpt lat="-23.406041" lon="-46.587457"><ele>847.2</ele></trkpt>
+      <trkpt lat="-23.406174" lon="-46.587470"><ele>847.2</ele></trkpt>
+      <trkpt lat="-23.406269" lon="-46.587637"><ele>853.1</ele></trkpt>
+      <trkpt lat="-23.406265" lon="-46.587703"><ele>849.1</ele></trkpt>
+      <trkpt lat="-23.406407" lon="-46.587728"><ele>849.1</ele></trkpt>
+      <trkpt lat="-23.406458" lon="-46.587842"><ele>849.1</ele></trkpt>
+      <trkpt lat="-23.406830" lon="-46.588059"><ele>856.2</ele></trkpt>
+      <trkpt lat="-23.406781" lon="-46.588149"><ele>852.9</ele></trkpt>
+      <trkpt lat="-23.406998" lon="-46.588258"><ele>850.7</ele></trkpt>
+      <trkpt lat="-23.407055" lon="-46.588329"><ele>850.7</ele></trkpt>
+      <trkpt lat="-23.407007" lon="-46.588390"><ele>850.7</ele></trkpt>
+      <trkpt lat="-23.407035" lon="-46.588457"><ele>850.7</ele></trkpt>
+      <trkpt lat="-23.407115" lon="-46.588537"><ele>854.2</ele></trkpt>
+      <trkpt lat="-23.407515" lon="-46.588557"><ele>859.5</ele></trkpt>
+      <trkpt lat="-23.407708" lon="-46.588699"><ele>869.4</ele></trkpt>
+      <trkpt lat="-23.407922" lon="-46.588695"><ele>878.8</ele></trkpt>
+      <trkpt lat="-23.407889" lon="-46.588753"><ele>859.9</ele></trkpt>
+      <trkpt lat="-23.408111" lon="-46.588794"><ele>867.5</ele></trkpt>
+      <trkpt lat="-23.408097" lon="-46.588854"><ele>867.5</ele></trkpt>
+      <trkpt lat="-23.408150" lon="-46.588926"><ele>867.5</ele></trkpt>
+      <trkpt lat="-23.408040" lon="-46.589074"><ele>860.2</ele></trkpt>
+      <trkpt lat="-23.407999" lon="-46.589033"><ele>860.2</ele></trkpt>
+      <trkpt lat="-23.408027" lon="-46.588993"><ele>867.5</ele></trkpt>
+      <trkpt lat="-23.407982" lon="-46.588980"><ele>867.5</ele></trkpt>
+      <trkpt lat="-23.408023" lon="-46.588889"><ele>867.5</ele></trkpt>
+      <trkpt lat="-23.407890" lon="-46.588931"><ele>859.9</ele></trkpt>
+      <trkpt lat="-23.407893" lon="-46.588876"><ele>859.9</ele></trkpt>
+      <trkpt lat="-23.407805" lon="-46.588826"><ele>859.9</ele></trkpt>
+      <trkpt lat="-23.407292" lon="-46.588907"><ele>862.8</ele></trkpt>
+      <trkpt lat="-23.407251" lon="-46.588880"><ele>862.8</ele></trkpt>
+      <trkpt lat="-23.407277" lon="-46.588771"><ele>862.8</ele></trkpt>
+      <trkpt lat="-23.407233" lon="-46.588721"><ele>854.2</ele></trkpt>
+      <trkpt lat="-23.407012" lon="-46.588831"><ele>866.0</ele></trkpt>
+      <trkpt lat="-23.407072" lon="-46.588732"><ele>853.2</ele></trkpt>
+      <trkpt lat="-23.406928" lon="-46.588602"><ele>853.2</ele></trkpt>
+      <trkpt lat="-23.406917" lon="-46.588409"><ele>850.7</ele></trkpt>
+      <trkpt lat="-23.406821" lon="-46.588414"><ele>850.7</ele></trkpt>
+      <trkpt lat="-23.406699" lon="-46.588334"><ele>857.3</ele></trkpt>
+      <trkpt lat="-23.406601" lon="-46.588153"><ele>852.9</ele></trkpt>
+      <trkpt lat="-23.406391" lon="-46.588060"><ele>853.4</ele></trkpt>
+      <trkpt lat="-23.406369" lon="-46.587930"><ele>853.4</ele></trkpt>
+      <trkpt lat="-23.406239" lon="-46.587928"><ele>862.2</ele></trkpt>
+      <trkpt lat="-23.406200" lon="-46.587722"><ele>850.2</ele></trkpt>
+      <trkpt lat="-23.406108" lon="-46.587686"><ele>850.2</ele></trkpt>
+      <trkpt lat="-23.406091" lon="-46.587561"><ele>847.2</ele></trkpt>
+      <trkpt lat="-23.406017" lon="-46.587507"><ele>847.2</ele></trkpt>
+      <trkpt lat="-23.405927" lon="-46.587334"><ele>846.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

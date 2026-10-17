@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Tomio Kataguiri</name>
+    <trkseg>
+      <trkpt lat="-23.532301" lon="-46.357340"><ele>751.4</ele></trkpt>
+      <trkpt lat="-23.532244" lon="-46.357422"><ele>749.8</ele></trkpt>
+      <trkpt lat="-23.532197" lon="-46.357498"><ele>749.8</ele></trkpt>
+      <trkpt lat="-23.532106" lon="-46.357654"><ele>749.6</ele></trkpt>
+      <trkpt lat="-23.532055" lon="-46.357740"><ele>753.6</ele></trkpt>
+      <trkpt lat="-23.532013" lon="-46.357807"><ele>753.6</ele></trkpt>
+      <trkpt lat="-23.531972" lon="-46.357877"><ele>753.6</ele></trkpt>
+      <trkpt lat="-23.531940" lon="-46.357934"><ele>752.0</ele></trkpt>
+      <trkpt lat="-23.531893" lon="-46.358013"><ele>752.0</ele></trkpt>
+      <trkpt lat="-23.531845" lon="-46.358133"><ele>752.0</ele></trkpt>
+      <trkpt lat="-23.531810" lon="-46.358234"><ele>752.0</ele></trkpt>
+      <trkpt lat="-23.531789" lon="-46.358335"><ele>754.8</ele></trkpt>
+      <trkpt lat="-23.531777" lon="-46.358403"><ele>754.8</ele></trkpt>
+      <trkpt lat="-23.531781" lon="-46.358492"><ele>753.6</ele></trkpt>
+      <trkpt lat="-23.531812" lon="-46.358603"><ele>753.3</ele></trkpt>
+      <trkpt lat="-23.531909" lon="-46.358766"><ele>755.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

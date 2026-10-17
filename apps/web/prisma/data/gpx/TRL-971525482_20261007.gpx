@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Marte</name>
+    <trkseg>
+      <trkpt lat="-23.533640" lon="-46.896437"><ele>756.0</ele></trkpt>
+      <trkpt lat="-23.533472" lon="-46.896743"><ele>750.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

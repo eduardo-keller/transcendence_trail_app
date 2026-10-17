@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Antônio Manuel Fernandes</name>
+    <trkseg>
+      <trkpt lat="-23.653768" lon="-46.771490"><ele>809.5</ele></trkpt>
+      <trkpt lat="-23.653489" lon="-46.771346"><ele>812.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

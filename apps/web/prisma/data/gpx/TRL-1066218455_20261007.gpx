@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Itália</name>
+    <trkseg>
+      <trkpt lat="-23.681054" lon="-46.744685"><ele>759.3</ele></trkpt>
+      <trkpt lat="-23.681102" lon="-46.744649"><ele>759.3</ele></trkpt>
+      <trkpt lat="-23.681282" lon="-46.744724"><ele>762.7</ele></trkpt>
+      <trkpt lat="-23.681431" lon="-46.744807"><ele>762.7</ele></trkpt>
+      <trkpt lat="-23.681478" lon="-46.744833"><ele>762.7</ele></trkpt>
+      <trkpt lat="-23.681572" lon="-46.744884"><ele>761.1</ele></trkpt>
+      <trkpt lat="-23.681654" lon="-46.744928"><ele>761.1</ele></trkpt>
+      <trkpt lat="-23.681705" lon="-46.744979"><ele>761.1</ele></trkpt>
+      <trkpt lat="-23.681478" lon="-46.744833"><ele>762.7</ele></trkpt>
+      <trkpt lat="-23.681524" lon="-46.744712"><ele>762.7</ele></trkpt>
+      <trkpt lat="-23.681614" lon="-46.744478"><ele>775.4</ele></trkpt>
+      <trkpt lat="-23.681553" lon="-46.744440"><ele>775.4</ele></trkpt>
+      <trkpt lat="-23.681509" lon="-46.744391"><ele>769.1</ele></trkpt>
+      <trkpt lat="-23.681463" lon="-46.744380"><ele>769.1</ele></trkpt>
+      <trkpt lat="-23.681359" lon="-46.744369"><ele>769.1</ele></trkpt>
+      <trkpt lat="-23.681432" lon="-46.744542"><ele>769.1</ele></trkpt>
+      <trkpt lat="-23.681457" lon="-46.744552"><ele>769.1</ele></trkpt>
+      <trkpt lat="-23.681439" lon="-46.744614"><ele>762.7</ele></trkpt>
+      <trkpt lat="-23.681469" lon="-46.744635"><ele>762.7</ele></trkpt>
+      <trkpt lat="-23.681455" lon="-46.744678"><ele>762.7</ele></trkpt>
+      <trkpt lat="-23.681524" lon="-46.744712"><ele>762.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

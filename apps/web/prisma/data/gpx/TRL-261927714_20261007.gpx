@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela I</name>
+    <trkseg>
+      <trkpt lat="-23.495812" lon="-46.281622"><ele>794.1</ele></trkpt>
+      <trkpt lat="-23.496043" lon="-46.281041"><ele>798.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

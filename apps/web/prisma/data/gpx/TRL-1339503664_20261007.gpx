@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Nossa Senhora Aparecida</name>
+    <trkseg>
+      <trkpt lat="-23.543694" lon="-46.906620"><ele>797.4</ele></trkpt>
+      <trkpt lat="-23.543627" lon="-46.906574"><ele>797.4</ele></trkpt>
+      <trkpt lat="-23.543552" lon="-46.906560"><ele>797.4</ele></trkpt>
+      <trkpt lat="-23.543474" lon="-46.906582"><ele>797.4</ele></trkpt>
+      <trkpt lat="-23.543242" lon="-46.906605"><ele>795.9</ele></trkpt>
+      <trkpt lat="-23.543111" lon="-46.906569"><ele>793.1</ele></trkpt>
+      <trkpt lat="-23.543029" lon="-46.906573"><ele>793.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

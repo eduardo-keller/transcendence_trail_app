@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua José Nasser Filho</name>
+    <trkseg>
+      <trkpt lat="-23.411801" lon="-46.321417"><ele>755.0</ele></trkpt>
+      <trkpt lat="-23.411964" lon="-46.321291"><ele>755.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

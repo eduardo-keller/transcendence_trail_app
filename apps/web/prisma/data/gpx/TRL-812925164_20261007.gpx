@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Nove</name>
+    <trkseg>
+      <trkpt lat="-23.409362" lon="-46.900687"><ele>729.6</ele></trkpt>
+      <trkpt lat="-23.409403" lon="-46.901035"><ele>738.5</ele></trkpt>
+      <trkpt lat="-23.409437" lon="-46.901048"><ele>738.5</ele></trkpt>
+      <trkpt lat="-23.409446" lon="-46.901147"><ele>738.5</ele></trkpt>
+      <trkpt lat="-23.409393" lon="-46.901158"><ele>738.5</ele></trkpt>
+      <trkpt lat="-23.409382" lon="-46.901259"><ele>746.6</ele></trkpt>
+      <trkpt lat="-23.409392" lon="-46.901422"><ele>746.6</ele></trkpt>
+      <trkpt lat="-23.409392" lon="-46.901581"><ele>752.5</ele></trkpt>
+      <trkpt lat="-23.409396" lon="-46.901737"><ele>752.5</ele></trkpt>
+      <trkpt lat="-23.409413" lon="-46.901843"><ele>752.7</ele></trkpt>
+      <trkpt lat="-23.409438" lon="-46.901904"><ele>752.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

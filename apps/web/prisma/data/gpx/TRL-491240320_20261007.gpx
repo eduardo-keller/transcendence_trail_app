@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Z</name>
+    <trkseg>
+      <trkpt lat="-23.453762" lon="-46.588602"><ele>767.8</ele></trkpt>
+      <trkpt lat="-23.453682" lon="-46.588620"><ele>765.4</ele></trkpt>
+      <trkpt lat="-23.453617" lon="-46.588635"><ele>765.4</ele></trkpt>
+      <trkpt lat="-23.453498" lon="-46.588670"><ele>765.4</ele></trkpt>
+      <trkpt lat="-23.453353" lon="-46.588704"><ele>763.5</ele></trkpt>
+      <trkpt lat="-23.453129" lon="-46.588774"><ele>754.3</ele></trkpt>
+      <trkpt lat="-23.452860" lon="-46.588853"><ele>747.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

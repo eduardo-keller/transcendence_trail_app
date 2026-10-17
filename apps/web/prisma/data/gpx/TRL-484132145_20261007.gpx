@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Vinte e Seis</name>
+    <trkseg>
+      <trkpt lat="-23.454337" lon="-46.702179"><ele>820.0</ele></trkpt>
+      <trkpt lat="-23.454400" lon="-46.702355"><ele>820.0</ele></trkpt>
+      <trkpt lat="-23.454412" lon="-46.702398"><ele>817.8</ele></trkpt>
+      <trkpt lat="-23.454414" lon="-46.702408"><ele>817.8</ele></trkpt>
+      <trkpt lat="-23.454446" lon="-46.702531"><ele>817.8</ele></trkpt>
+      <trkpt lat="-23.454459" lon="-46.702580"><ele>817.8</ele></trkpt>
+      <trkpt lat="-23.454343" lon="-46.702791"><ele>820.0</ele></trkpt>
+      <trkpt lat="-23.454338" lon="-46.702822"><ele>820.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

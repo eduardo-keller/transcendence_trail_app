@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua 21 de Fevereiro</name>
+    <trkseg>
+      <trkpt lat="-23.699203" lon="-46.499738"><ele>799.9</ele></trkpt>
+      <trkpt lat="-23.699195" lon="-46.499607"><ele>799.9</ele></trkpt>
+      <trkpt lat="-23.699174" lon="-46.499445"><ele>801.3</ele></trkpt>
+      <trkpt lat="-23.699142" lon="-46.499266"><ele>804.8</ele></trkpt>
+      <trkpt lat="-23.699143" lon="-46.499249"><ele>804.8</ele></trkpt>
+      <trkpt lat="-23.699150" lon="-46.499234"><ele>804.8</ele></trkpt>
+      <trkpt lat="-23.699158" lon="-46.499229"><ele>804.8</ele></trkpt>
+      <trkpt lat="-23.699191" lon="-46.499228"><ele>804.8</ele></trkpt>
+      <trkpt lat="-23.699246" lon="-46.499232"><ele>804.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

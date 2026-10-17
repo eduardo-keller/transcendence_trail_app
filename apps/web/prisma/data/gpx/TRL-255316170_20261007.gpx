@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Henrique Leitão</name>
+    <trkseg>
+      <trkpt lat="-23.506118" lon="-46.592813"><ele>752.0</ele></trkpt>
+      <trkpt lat="-23.505289" lon="-46.592635"><ele>758.7</ele></trkpt>
+      <trkpt lat="-23.505210" lon="-46.592612"><ele>758.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

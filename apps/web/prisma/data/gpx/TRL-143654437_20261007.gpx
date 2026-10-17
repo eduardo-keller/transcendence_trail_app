@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Trilha da Aranha</name>
+    <trkseg>
+      <trkpt lat="-23.348859" lon="-46.607525"><ele>761.0</ele></trkpt>
+      <trkpt lat="-23.349378" lon="-46.607469"><ele>781.8</ele></trkpt>
+      <trkpt lat="-23.349998" lon="-46.607040"><ele>793.4</ele></trkpt>
+      <trkpt lat="-23.351190" lon="-46.606568"><ele>819.9</ele></trkpt>
+      <trkpt lat="-23.352136" lon="-46.606353"><ele>836.5</ele></trkpt>
+      <trkpt lat="-23.353564" lon="-46.605592"><ele>863.6</ele></trkpt>
+      <trkpt lat="-23.354184" lon="-46.605527"><ele>872.5</ele></trkpt>
+      <trkpt lat="-23.354460" lon="-46.605130"><ele>880.4</ele></trkpt>
+      <trkpt lat="-23.356204" lon="-46.605055"><ele>919.3</ele></trkpt>
+      <trkpt lat="-23.356755" lon="-46.605088"><ele>927.5</ele></trkpt>
+      <trkpt lat="-23.357189" lon="-46.604819"><ele>925.8</ele></trkpt>
+      <trkpt lat="-23.357405" lon="-46.604176"><ele>927.5</ele></trkpt>
+      <trkpt lat="-23.358252" lon="-46.603682"><ele>921.9</ele></trkpt>
+      <trkpt lat="-23.358489" lon="-46.603800"><ele>912.6</ele></trkpt>
+      <trkpt lat="-23.358814" lon="-46.603779"><ele>919.9</ele></trkpt>
+      <trkpt lat="-23.359099" lon="-46.603371"><ele>914.6</ele></trkpt>
+      <trkpt lat="-23.359237" lon="-46.602641"><ele>912.4</ele></trkpt>
+      <trkpt lat="-23.359661" lon="-46.601826"><ele>922.6</ele></trkpt>
+      <trkpt lat="-23.359874" lon="-46.600721"><ele>928.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

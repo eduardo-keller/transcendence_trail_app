@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Calçada partilhada Avenida São Luís</name>
+    <trkseg>
+      <trkpt lat="-23.545100" lon="-46.643158"><ele>757.0</ele></trkpt>
+      <trkpt lat="-23.545242" lon="-46.643140"><ele>764.8</ele></trkpt>
+      <trkpt lat="-23.545714" lon="-46.643039"><ele>776.0</ele></trkpt>
+      <trkpt lat="-23.546602" lon="-46.642846"><ele>763.1</ele></trkpt>
+      <trkpt lat="-23.546786" lon="-46.642797"><ele>763.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

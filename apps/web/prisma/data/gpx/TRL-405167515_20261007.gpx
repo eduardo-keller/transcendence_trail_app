@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa da Viela 4</name>
+    <trkseg>
+      <trkpt lat="-23.567554" lon="-46.758520"><ele>744.3</ele></trkpt>
+      <trkpt lat="-23.567569" lon="-46.758546"><ele>744.3</ele></trkpt>
+      <trkpt lat="-23.567642" lon="-46.758649"><ele>740.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

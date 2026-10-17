@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Pero G da Silveira</name>
+    <trkseg>
+      <trkpt lat="-23.734346" lon="-46.626581"><ele>786.0</ele></trkpt>
+      <trkpt lat="-23.734366" lon="-46.626501"><ele>785.9</ele></trkpt>
+      <trkpt lat="-23.734398" lon="-46.626422"><ele>785.9</ele></trkpt>
+      <trkpt lat="-23.734426" lon="-46.626371"><ele>785.9</ele></trkpt>
+      <trkpt lat="-23.734459" lon="-46.626307"><ele>785.9</ele></trkpt>
+      <trkpt lat="-23.734491" lon="-46.626237"><ele>786.6</ele></trkpt>
+      <trkpt lat="-23.734501" lon="-46.626144"><ele>786.6</ele></trkpt>
+      <trkpt lat="-23.734513" lon="-46.625758"><ele>787.7</ele></trkpt>
+      <trkpt lat="-23.734508" lon="-46.625529"><ele>788.3</ele></trkpt>
+      <trkpt lat="-23.734500" lon="-46.625441"><ele>788.3</ele></trkpt>
+      <trkpt lat="-23.734453" lon="-46.625230"><ele>792.1</ele></trkpt>
+      <trkpt lat="-23.734388" lon="-46.625104"><ele>799.0</ele></trkpt>
+      <trkpt lat="-23.734310" lon="-46.625015"><ele>799.0</ele></trkpt>
+      <trkpt lat="-23.734230" lon="-46.624960"><ele>794.5</ele></trkpt>
+      <trkpt lat="-23.734177" lon="-46.624933"><ele>794.5</ele></trkpt>
+      <trkpt lat="-23.734116" lon="-46.624901"><ele>794.5</ele></trkpt>
+      <trkpt lat="-23.734056" lon="-46.624871"><ele>794.5</ele></trkpt>
+      <trkpt lat="-23.733914" lon="-46.624840"><ele>793.6</ele></trkpt>
+      <trkpt lat="-23.733724" lon="-46.624858"><ele>793.5</ele></trkpt>
+      <trkpt lat="-23.733505" lon="-46.624965"><ele>788.0</ele></trkpt>
+      <trkpt lat="-23.733386" lon="-46.625054"><ele>791.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

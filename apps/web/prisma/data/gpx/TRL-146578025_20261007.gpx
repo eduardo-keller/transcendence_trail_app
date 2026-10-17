@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela G</name>
+    <trkseg>
+      <trkpt lat="-23.636525" lon="-46.785000"><ele>789.0</ele></trkpt>
+      <trkpt lat="-23.636659" lon="-46.785126"><ele>786.6</ele></trkpt>
+      <trkpt lat="-23.636828" lon="-46.785280"><ele>779.8</ele></trkpt>
+      <trkpt lat="-23.637002" lon="-46.785416"><ele>779.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Inês Sorma</name>
+    <trkseg>
+      <trkpt lat="-23.485794" lon="-46.578508"><ele>756.8</ele></trkpt>
+      <trkpt lat="-23.485815" lon="-46.578550"><ele>756.8</ele></trkpt>
+      <trkpt lat="-23.485820" lon="-46.578562"><ele>756.8</ele></trkpt>
+      <trkpt lat="-23.485979" lon="-46.578887"><ele>762.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

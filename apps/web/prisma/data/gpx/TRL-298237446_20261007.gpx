@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Várzea da Palma</name>
+    <trkseg>
+      <trkpt lat="-23.453294" lon="-46.512098"><ele>754.3</ele></trkpt>
+      <trkpt lat="-23.453051" lon="-46.511387"><ele>768.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

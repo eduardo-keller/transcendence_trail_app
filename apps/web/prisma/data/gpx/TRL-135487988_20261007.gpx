@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passagem Fernando da Silva Martinez</name>
+    <trkseg>
+      <trkpt lat="-23.689957" lon="-46.586639"><ele>775.5</ele></trkpt>
+      <trkpt lat="-23.689965" lon="-46.586823"><ele>775.0</ele></trkpt>
+      <trkpt lat="-23.689973" lon="-46.586897"><ele>775.0</ele></trkpt>
+      <trkpt lat="-23.689986" lon="-46.586964"><ele>775.0</ele></trkpt>
+      <trkpt lat="-23.690106" lon="-46.587326"><ele>773.8</ele></trkpt>
+      <trkpt lat="-23.690199" lon="-46.587598"><ele>776.0</ele></trkpt>
+      <trkpt lat="-23.690213" lon="-46.587656"><ele>778.8</ele></trkpt>
+      <trkpt lat="-23.690217" lon="-46.587705"><ele>778.8</ele></trkpt>
+      <trkpt lat="-23.690219" lon="-46.587754"><ele>778.8</ele></trkpt>
+      <trkpt lat="-23.690213" lon="-46.587938"><ele>780.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

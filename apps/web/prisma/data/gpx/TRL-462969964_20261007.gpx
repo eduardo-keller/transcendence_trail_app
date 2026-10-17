@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela de Pedestres Maria de Alanie</name>
+    <trkseg>
+      <trkpt lat="-23.451869" lon="-46.688333"><ele>763.0</ele></trkpt>
+      <trkpt lat="-23.451888" lon="-46.688357"><ele>763.0</ele></trkpt>
+      <trkpt lat="-23.451920" lon="-46.688336"><ele>763.0</ele></trkpt>
+      <trkpt lat="-23.451957" lon="-46.688317"><ele>763.0</ele></trkpt>
+      <trkpt lat="-23.451999" lon="-46.688324"><ele>763.0</ele></trkpt>
+      <trkpt lat="-23.452053" lon="-46.688324"><ele>763.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

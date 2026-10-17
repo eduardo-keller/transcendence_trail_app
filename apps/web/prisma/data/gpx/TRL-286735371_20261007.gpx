@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Ártico</name>
+    <trkseg>
+      <trkpt lat="-23.687660" lon="-46.559303"><ele>765.4</ele></trkpt>
+      <trkpt lat="-23.687814" lon="-46.558723"><ele>773.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

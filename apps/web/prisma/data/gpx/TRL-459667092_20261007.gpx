@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Pinhal</name>
+    <trkseg>
+      <trkpt lat="-23.417840" lon="-46.495401"><ele>768.1</ele></trkpt>
+      <trkpt lat="-23.417709" lon="-46.495975"><ele>782.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

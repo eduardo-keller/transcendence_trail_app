@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Flamengo</name>
+    <trkseg>
+      <trkpt lat="-23.741703" lon="-46.797948"><ele>789.6</ele></trkpt>
+      <trkpt lat="-23.741719" lon="-46.797733"><ele>786.7</ele></trkpt>
+      <trkpt lat="-23.741857" lon="-46.797411"><ele>780.7</ele></trkpt>
+      <trkpt lat="-23.741819" lon="-46.797360"><ele>778.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

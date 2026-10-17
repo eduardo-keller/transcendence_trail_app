@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Dolival de Moraes</name>
+    <trkseg>
+      <trkpt lat="-23.598941" lon="-46.760573"><ele>781.3</ele></trkpt>
+      <trkpt lat="-23.598934" lon="-46.760662"><ele>781.3</ele></trkpt>
+      <trkpt lat="-23.598926" lon="-46.760731"><ele>779.8</ele></trkpt>
+      <trkpt lat="-23.598926" lon="-46.760776"><ele>779.8</ele></trkpt>
+      <trkpt lat="-23.598929" lon="-46.760826"><ele>779.8</ele></trkpt>
+      <trkpt lat="-23.598935" lon="-46.760881"><ele>779.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

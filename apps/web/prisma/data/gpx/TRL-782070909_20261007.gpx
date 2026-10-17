@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Adalgisa de Abreu Ramalho</name>
+    <trkseg>
+      <trkpt lat="-23.643532" lon="-46.747587"><ele>742.8</ele></trkpt>
+      <trkpt lat="-23.643165" lon="-46.747214"><ele>744.7</ele></trkpt>
+      <trkpt lat="-23.642865" lon="-46.747043"><ele>742.7</ele></trkpt>
+      <trkpt lat="-23.642797" lon="-46.747003"><ele>742.7</ele></trkpt>
+      <trkpt lat="-23.642612" lon="-46.746944"><ele>743.5</ele></trkpt>
+      <trkpt lat="-23.642372" lon="-46.746892"><ele>743.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

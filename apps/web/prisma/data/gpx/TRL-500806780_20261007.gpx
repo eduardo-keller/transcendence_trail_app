@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Praça Jardim Alegre</name>
+    <trkseg>
+      <trkpt lat="-23.520640" lon="-46.608201"><ele>724.2</ele></trkpt>
+      <trkpt lat="-23.520960" lon="-46.608370"><ele>724.8</ele></trkpt>
+      <trkpt lat="-23.520989" lon="-46.608320"><ele>724.5</ele></trkpt>
+      <trkpt lat="-23.521012" lon="-46.608280"><ele>724.5</ele></trkpt>
+      <trkpt lat="-23.521032" lon="-46.608299"><ele>724.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

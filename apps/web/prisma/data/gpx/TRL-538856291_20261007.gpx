@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Beco D'Água</name>
+    <trkseg>
+      <trkpt lat="-23.748665" lon="-46.705646"><ele>787.4</ele></trkpt>
+      <trkpt lat="-23.748797" lon="-46.705742"><ele>788.0</ele></trkpt>
+      <trkpt lat="-23.748909" lon="-46.705833"><ele>788.0</ele></trkpt>
+      <trkpt lat="-23.749076" lon="-46.705973"><ele>783.5</ele></trkpt>
+      <trkpt lat="-23.749181" lon="-46.705984"><ele>783.5</ele></trkpt>
+      <trkpt lat="-23.749353" lon="-46.706102"><ele>777.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

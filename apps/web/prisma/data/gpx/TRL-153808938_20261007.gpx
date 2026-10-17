@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Campo Belo do Sul</name>
+    <trkseg>
+      <trkpt lat="-23.468081" lon="-46.593511"><ele>751.4</ele></trkpt>
+      <trkpt lat="-23.468120" lon="-46.593551"><ele>751.4</ele></trkpt>
+      <trkpt lat="-23.468333" lon="-46.593781"><ele>754.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

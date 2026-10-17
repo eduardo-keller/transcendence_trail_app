@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Magnólia</name>
+    <trkseg>
+      <trkpt lat="-23.607981" lon="-46.515379"><ele>773.5</ele></trkpt>
+      <trkpt lat="-23.607969" lon="-46.515355"><ele>773.5</ele></trkpt>
+      <trkpt lat="-23.607939" lon="-46.515330"><ele>773.5</ele></trkpt>
+      <trkpt lat="-23.607896" lon="-46.515306"><ele>774.4</ele></trkpt>
+      <trkpt lat="-23.607829" lon="-46.515276"><ele>774.4</ele></trkpt>
+      <trkpt lat="-23.607757" lon="-46.515243"><ele>774.4</ele></trkpt>
+      <trkpt lat="-23.607981" lon="-46.515379"><ele>773.5</ele></trkpt>
+      <trkpt lat="-23.608031" lon="-46.515358"><ele>773.5</ele></trkpt>
+      <trkpt lat="-23.608053" lon="-46.515356"><ele>773.5</ele></trkpt>
+      <trkpt lat="-23.608095" lon="-46.515360"><ele>773.5</ele></trkpt>
+      <trkpt lat="-23.608124" lon="-46.515361"><ele>773.5</ele></trkpt>
+      <trkpt lat="-23.608181" lon="-46.515357"><ele>773.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

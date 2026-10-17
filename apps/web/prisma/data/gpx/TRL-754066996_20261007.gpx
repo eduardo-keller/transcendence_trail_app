@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Praça Comunitária</name>
+    <trkseg>
+      <trkpt lat="-23.615140" lon="-46.693680"><ele>726.6</ele></trkpt>
+      <trkpt lat="-23.615237" lon="-46.693764"><ele>728.9</ele></trkpt>
+      <trkpt lat="-23.615285" lon="-46.693805"><ele>728.9</ele></trkpt>
+      <trkpt lat="-23.615253" lon="-46.693849"><ele>728.9</ele></trkpt>
+      <trkpt lat="-23.615217" lon="-46.693890"><ele>728.9</ele></trkpt>
+      <trkpt lat="-23.615181" lon="-46.693935"><ele>728.9</ele></trkpt>
+      <trkpt lat="-23.615013" lon="-46.693824"><ele>726.1</ele></trkpt>
+      <trkpt lat="-23.615140" lon="-46.693680"><ele>726.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

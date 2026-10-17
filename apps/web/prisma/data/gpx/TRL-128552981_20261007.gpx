@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Alagoinhas</name>
+    <trkseg>
+      <trkpt lat="-23.575174" lon="-46.569274"><ele>778.2</ele></trkpt>
+      <trkpt lat="-23.575227" lon="-46.569241"><ele>778.2</ele></trkpt>
+      <trkpt lat="-23.575376" lon="-46.569066"><ele>778.2</ele></trkpt>
+      <trkpt lat="-23.575853" lon="-46.568679"><ele>772.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

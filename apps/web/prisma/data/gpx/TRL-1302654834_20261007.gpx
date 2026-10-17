@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Galeria Califórnia</name>
+    <trkseg>
+      <trkpt lat="-23.544061" lon="-46.641353"><ele>769.8</ele></trkpt>
+      <trkpt lat="-23.544127" lon="-46.641414"><ele>769.8</ele></trkpt>
+      <trkpt lat="-23.544461" lon="-46.641739"><ele>777.7</ele></trkpt>
+      <trkpt lat="-23.544764" lon="-46.641410"><ele>774.4</ele></trkpt>
+      <trkpt lat="-23.544698" lon="-46.641325"><ele>774.4</ele></trkpt>
+      <trkpt lat="-23.544781" lon="-46.641256"><ele>774.4</ele></trkpt>
+      <trkpt lat="-23.544825" lon="-46.641221"><ele>768.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

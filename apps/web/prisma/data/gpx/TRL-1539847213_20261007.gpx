@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Melindrosa</name>
+    <trkseg>
+      <trkpt lat="-23.707572" lon="-46.516668"><ele>823.8</ele></trkpt>
+      <trkpt lat="-23.707802" lon="-46.516528"><ele>815.6</ele></trkpt>
+      <trkpt lat="-23.707911" lon="-46.516442"><ele>813.1</ele></trkpt>
+      <trkpt lat="-23.707860" lon="-46.516253"><ele>813.1</ele></trkpt>
+      <trkpt lat="-23.707902" lon="-46.516235"><ele>812.1</ele></trkpt>
+      <trkpt lat="-23.707934" lon="-46.516095"><ele>806.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

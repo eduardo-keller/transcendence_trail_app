@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa da Virgem</name>
+    <trkseg>
+      <trkpt lat="-23.769176" lon="-46.706738"><ele>773.5</ele></trkpt>
+      <trkpt lat="-23.769216" lon="-46.706920"><ele>770.7</ele></trkpt>
+      <trkpt lat="-23.769234" lon="-46.707123"><ele>768.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

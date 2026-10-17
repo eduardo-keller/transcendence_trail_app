@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Corredor do CRUSP</name>
+    <trkseg>
+      <trkpt lat="-23.560318" lon="-46.721850"><ele>728.2</ele></trkpt>
+      <trkpt lat="-23.559946" lon="-46.721640"><ele>727.4</ele></trkpt>
+      <trkpt lat="-23.559717" lon="-46.721508"><ele>729.4</ele></trkpt>
+      <trkpt lat="-23.559704" lon="-46.721500"><ele>729.4</ele></trkpt>
+      <trkpt lat="-23.559635" lon="-46.721461"><ele>729.4</ele></trkpt>
+      <trkpt lat="-23.559593" lon="-46.721436"><ele>729.4</ele></trkpt>
+      <trkpt lat="-23.559536" lon="-46.721404"><ele>730.9</ele></trkpt>
+      <trkpt lat="-23.559410" lon="-46.721331"><ele>730.9</ele></trkpt>
+      <trkpt lat="-23.559391" lon="-46.721320"><ele>730.9</ele></trkpt>
+      <trkpt lat="-23.559323" lon="-46.721281"><ele>730.9</ele></trkpt>
+      <trkpt lat="-23.559231" lon="-46.721228"><ele>729.6</ele></trkpt>
+      <trkpt lat="-23.559100" lon="-46.721153"><ele>729.6</ele></trkpt>
+      <trkpt lat="-23.559081" lon="-46.721142"><ele>729.6</ele></trkpt>
+      <trkpt lat="-23.559012" lon="-46.721102"><ele>730.8</ele></trkpt>
+      <trkpt lat="-23.559000" lon="-46.721095"><ele>730.8</ele></trkpt>
+      <trkpt lat="-23.558867" lon="-46.721018"><ele>730.8</ele></trkpt>
+      <trkpt lat="-23.558770" lon="-46.720962"><ele>728.7</ele></trkpt>
+      <trkpt lat="-23.558702" lon="-46.720923"><ele>724.6</ele></trkpt>
+      <trkpt lat="-23.558630" lon="-46.720882"><ele>724.6</ele></trkpt>
+      <trkpt lat="-23.558460" lon="-46.720783"><ele>728.4</ele></trkpt>
+      <trkpt lat="-23.558391" lon="-46.720743"><ele>728.4</ele></trkpt>
+      <trkpt lat="-23.558379" lon="-46.720737"><ele>728.4</ele></trkpt>
+      <trkpt lat="-23.558266" lon="-46.720672"><ele>726.8</ele></trkpt>
+      <trkpt lat="-23.558209" lon="-46.720639"><ele>726.8</ele></trkpt>
+      <trkpt lat="-23.558148" lon="-46.720603"><ele>730.1</ele></trkpt>
+      <trkpt lat="-23.558080" lon="-46.720565"><ele>730.1</ele></trkpt>
+      <trkpt lat="-23.557952" lon="-46.720490"><ele>730.1</ele></trkpt>
+      <trkpt lat="-23.557837" lon="-46.720424"><ele>730.1</ele></trkpt>
+      <trkpt lat="-23.557769" lon="-46.720385"><ele>733.6</ele></trkpt>
+      <trkpt lat="-23.557741" lon="-46.720369"><ele>733.6</ele></trkpt>
+      <trkpt lat="-23.557585" lon="-46.720279"><ele>726.9</ele></trkpt>
+      <trkpt lat="-23.557498" lon="-46.720229"><ele>726.9</ele></trkpt>
+      <trkpt lat="-23.557462" lon="-46.720208"><ele>726.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

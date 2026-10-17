@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passarela CPTM</name>
+    <trkseg>
+      <trkpt lat="-23.653227" lon="-46.527441"><ele>748.7</ele></trkpt>
+      <trkpt lat="-23.653056" lon="-46.527601"><ele>745.7</ele></trkpt>
+      <trkpt lat="-23.653087" lon="-46.527638"><ele>745.7</ele></trkpt>
+      <trkpt lat="-23.653343" lon="-46.527318"><ele>746.1</ele></trkpt>
+      <trkpt lat="-23.653343" lon="-46.527318"><ele>746.1</ele></trkpt>
+      <trkpt lat="-23.653278" lon="-46.527259"><ele>746.1</ele></trkpt>
+      <trkpt lat="-23.653185" lon="-46.527174"><ele>745.2</ele></trkpt>
+      <trkpt lat="-23.652906" lon="-46.526920"><ele>745.7</ele></trkpt>
+      <trkpt lat="-23.652906" lon="-46.526920"><ele>745.7</ele></trkpt>
+      <trkpt lat="-23.652853" lon="-46.526989"><ele>745.7</ele></trkpt>
+      <trkpt lat="-23.652633" lon="-46.527273"><ele>747.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

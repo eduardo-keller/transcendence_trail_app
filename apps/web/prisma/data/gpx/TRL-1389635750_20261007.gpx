@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Trilha do Jequitibá</name>
+    <trkseg>
+      <trkpt lat="-23.580026" lon="-46.727427"><ele>805.0</ele></trkpt>
+      <trkpt lat="-23.580152" lon="-46.727423"><ele>804.9</ele></trkpt>
+      <trkpt lat="-23.580250" lon="-46.727528"><ele>804.9</ele></trkpt>
+      <trkpt lat="-23.580256" lon="-46.727767"><ele>806.3</ele></trkpt>
+      <trkpt lat="-23.580156" lon="-46.727922"><ele>803.0</ele></trkpt>
+      <trkpt lat="-23.580091" lon="-46.728032"><ele>802.7</ele></trkpt>
+      <trkpt lat="-23.580046" lon="-46.728103"><ele>802.7</ele></trkpt>
+      <trkpt lat="-23.580050" lon="-46.728130"><ele>802.7</ele></trkpt>
+      <trkpt lat="-23.580185" lon="-46.728226"><ele>798.8</ele></trkpt>
+      <trkpt lat="-23.580298" lon="-46.728263"><ele>798.8</ele></trkpt>
+      <trkpt lat="-23.580466" lon="-46.728228"><ele>792.3</ele></trkpt>
+      <trkpt lat="-23.580597" lon="-46.728102"><ele>797.1</ele></trkpt>
+      <trkpt lat="-23.580678" lon="-46.727965"><ele>797.1</ele></trkpt>
+      <trkpt lat="-23.580689" lon="-46.727877"><ele>800.1</ele></trkpt>
+      <trkpt lat="-23.580678" lon="-46.727677"><ele>800.1</ele></trkpt>
+      <trkpt lat="-23.580721" lon="-46.727538"><ele>793.5</ele></trkpt>
+      <trkpt lat="-23.580753" lon="-46.727437"><ele>793.5</ele></trkpt>
+      <trkpt lat="-23.580800" lon="-46.727324"><ele>792.9</ele></trkpt>
+      <trkpt lat="-23.580777" lon="-46.727189"><ele>792.9</ele></trkpt>
+      <trkpt lat="-23.580717" lon="-46.727103"><ele>792.9</ele></trkpt>
+      <trkpt lat="-23.580374" lon="-46.727079"><ele>786.2</ele></trkpt>
+      <trkpt lat="-23.580159" lon="-46.727077"><ele>786.2</ele></trkpt>
+      <trkpt lat="-23.579960" lon="-46.727129"><ele>798.5</ele></trkpt>
+      <trkpt lat="-23.579875" lon="-46.727258"><ele>798.5</ele></trkpt>
+      <trkpt lat="-23.579854" lon="-46.727376"><ele>799.0</ele></trkpt>
+      <trkpt lat="-23.579874" lon="-46.727470"><ele>805.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

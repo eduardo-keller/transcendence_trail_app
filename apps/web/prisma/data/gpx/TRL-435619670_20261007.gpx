@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Anjos da Meia Noite</name>
+    <trkseg>
+      <trkpt lat="-23.490678" lon="-46.601229"><ele>786.0</ele></trkpt>
+      <trkpt lat="-23.490692" lon="-46.601454"><ele>785.7</ele></trkpt>
+      <trkpt lat="-23.490693" lon="-46.601460"><ele>785.7</ele></trkpt>
+      <trkpt lat="-23.490696" lon="-46.601464"><ele>785.5</ele></trkpt>
+      <trkpt lat="-23.490704" lon="-46.601467"><ele>785.5</ele></trkpt>
+      <trkpt lat="-23.491181" lon="-46.601410"><ele>785.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

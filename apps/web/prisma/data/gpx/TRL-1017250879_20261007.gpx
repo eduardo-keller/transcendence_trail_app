@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Trilha do Túnel (difícil)</name>
+    <trkseg>
+      <trkpt lat="-23.753100" lon="-46.927993"><ele>963.3</ele></trkpt>
+      <trkpt lat="-23.753366" lon="-46.926940"><ele>946.2</ele></trkpt>
+      <trkpt lat="-23.753750" lon="-46.926220"><ele>923.7</ele></trkpt>
+      <trkpt lat="-23.754032" lon="-46.925753"><ele>915.3</ele></trkpt>
+      <trkpt lat="-23.754434" lon="-46.925277"><ele>896.0</ele></trkpt>
+      <trkpt lat="-23.754810" lon="-46.924969"><ele>886.9</ele></trkpt>
+      <trkpt lat="-23.755118" lon="-46.924978"><ele>880.8</ele></trkpt>
+      <trkpt lat="-23.755178" lon="-46.925436"><ele>888.4</ele></trkpt>
+      <trkpt lat="-23.755075" lon="-46.925978"><ele>889.7</ele></trkpt>
+      <trkpt lat="-23.754819" lon="-46.926631"><ele>895.1</ele></trkpt>
+      <trkpt lat="-23.754879" lon="-46.927323"><ele>893.8</ele></trkpt>
+      <trkpt lat="-23.754836" lon="-46.928266"><ele>914.8</ele></trkpt>
+      <trkpt lat="-23.754998" lon="-46.928593"><ele>906.0</ele></trkpt>
+      <trkpt lat="-23.755537" lon="-46.929405"><ele>936.5</ele></trkpt>
+      <trkpt lat="-23.755841" lon="-46.929852"><ele>951.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

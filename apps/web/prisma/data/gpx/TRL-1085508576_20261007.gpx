@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Galeria ITA</name>
+    <trkseg>
+      <trkpt lat="-23.545022" lon="-46.640044"><ele>756.8</ele></trkpt>
+      <trkpt lat="-23.544895" lon="-46.639922"><ele>756.8</ele></trkpt>
+      <trkpt lat="-23.544924" lon="-46.639884"><ele>756.8</ele></trkpt>
+      <trkpt lat="-23.544463" lon="-46.639446"><ele>760.0</ele></trkpt>
+      <trkpt lat="-23.544463" lon="-46.639446"><ele>760.0</ele></trkpt>
+      <trkpt lat="-23.544407" lon="-46.639517"><ele>760.0</ele></trkpt>
+      <trkpt lat="-23.544867" lon="-46.639953"><ele>756.8</ele></trkpt>
+      <trkpt lat="-23.544895" lon="-46.639922"><ele>756.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

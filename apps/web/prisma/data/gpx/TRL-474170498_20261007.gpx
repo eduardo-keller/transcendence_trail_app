@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela São Jorge</name>
+    <trkseg>
+      <trkpt lat="-23.543053" lon="-46.907658"><ele>779.5</ele></trkpt>
+      <trkpt lat="-23.543165" lon="-46.907508"><ele>776.1</ele></trkpt>
+      <trkpt lat="-23.543236" lon="-46.907486"><ele>781.3</ele></trkpt>
+      <trkpt lat="-23.543298" lon="-46.907511"><ele>781.3</ele></trkpt>
+      <trkpt lat="-23.543696" lon="-46.907567"><ele>787.3</ele></trkpt>
+      <trkpt lat="-23.543738" lon="-46.907500"><ele>787.3</ele></trkpt>
+      <trkpt lat="-23.543775" lon="-46.907449"><ele>791.1</ele></trkpt>
+      <trkpt lat="-23.543925" lon="-46.907471"><ele>791.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

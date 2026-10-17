@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Giovana Soares</name>
+    <trkseg>
+      <trkpt lat="-23.563458" lon="-46.762036"><ele>753.9</ele></trkpt>
+      <trkpt lat="-23.563348" lon="-46.762088"><ele>754.2</ele></trkpt>
+      <trkpt lat="-23.563311" lon="-46.762158"><ele>754.2</ele></trkpt>
+      <trkpt lat="-23.563259" lon="-46.762279"><ele>754.2</ele></trkpt>
+      <trkpt lat="-23.563235" lon="-46.762435"><ele>761.0</ele></trkpt>
+      <trkpt lat="-23.563186" lon="-46.762576"><ele>764.6</ele></trkpt>
+      <trkpt lat="-23.563092" lon="-46.762651"><ele>764.3</ele></trkpt>
+      <trkpt lat="-23.562979" lon="-46.762714"><ele>764.3</ele></trkpt>
+      <trkpt lat="-23.562920" lon="-46.762748"><ele>764.3</ele></trkpt>
+      <trkpt lat="-23.561588" lon="-46.764041"><ele>787.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

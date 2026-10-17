@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viale Presbítero José Cardoso dos Anjos</name>
+    <trkseg>
+      <trkpt lat="-23.498980" lon="-46.797519"><ele>749.4</ele></trkpt>
+      <trkpt lat="-23.499160" lon="-46.797619"><ele>746.0</ele></trkpt>
+      <trkpt lat="-23.499407" lon="-46.797761"><ele>742.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Maria Lúcia Pettit</name>
+    <trkseg>
+      <trkpt lat="-23.482083" lon="-46.495635"><ele>728.3</ele></trkpt>
+      <trkpt lat="-23.482108" lon="-46.495695"><ele>729.9</ele></trkpt>
+      <trkpt lat="-23.482108" lon="-46.495695"><ele>729.9</ele></trkpt>
+      <trkpt lat="-23.482122" lon="-46.495725"><ele>729.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

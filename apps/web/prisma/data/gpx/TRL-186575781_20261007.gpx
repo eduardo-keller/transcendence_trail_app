@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela 12</name>
+    <trkseg>
+      <trkpt lat="-23.746202" lon="-46.398051"><ele>773.6</ele></trkpt>
+      <trkpt lat="-23.746047" lon="-46.398438"><ele>768.9</ele></trkpt>
+      <trkpt lat="-23.746025" lon="-46.398494"><ele>768.3</ele></trkpt>
+      <trkpt lat="-23.745896" lon="-46.398812"><ele>781.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

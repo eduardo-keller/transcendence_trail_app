@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Delmiro Gouveia</name>
+    <trkseg>
+      <trkpt lat="-23.664362" lon="-46.525464"><ele>774.9</ele></trkpt>
+      <trkpt lat="-23.664391" lon="-46.525492"><ele>774.9</ele></trkpt>
+      <trkpt lat="-23.664405" lon="-46.525506"><ele>774.9</ele></trkpt>
+      <trkpt lat="-23.664570" lon="-46.525670"><ele>774.9</ele></trkpt>
+      <trkpt lat="-23.664482" lon="-46.525771"><ele>776.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

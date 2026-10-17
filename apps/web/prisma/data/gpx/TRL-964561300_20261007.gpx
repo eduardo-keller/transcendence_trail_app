@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Silvério da Cunha</name>
+    <trkseg>
+      <trkpt lat="-23.446189" lon="-46.799652"><ele>807.0</ele></trkpt>
+      <trkpt lat="-23.446113" lon="-46.800028"><ele>814.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

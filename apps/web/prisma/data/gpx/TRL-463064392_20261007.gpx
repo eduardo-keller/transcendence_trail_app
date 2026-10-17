@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Amanaira</name>
+    <trkseg>
+      <trkpt lat="-23.512579" lon="-46.552165"><ele>732.1</ele></trkpt>
+      <trkpt lat="-23.512576" lon="-46.552149"><ele>732.1</ele></trkpt>
+      <trkpt lat="-23.512455" lon="-46.551686"><ele>735.2</ele></trkpt>
+      <trkpt lat="-23.512446" lon="-46.551655"><ele>735.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

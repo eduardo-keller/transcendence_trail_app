@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Horácio Miguel de Nascimento</name>
+    <trkseg>
+      <trkpt lat="-23.748332" lon="-46.613639"><ele>763.4</ele></trkpt>
+      <trkpt lat="-23.748250" lon="-46.613632"><ele>763.4</ele></trkpt>
+      <trkpt lat="-23.748203" lon="-46.613646"><ele>763.4</ele></trkpt>
+      <trkpt lat="-23.748157" lon="-46.613689"><ele>770.8</ele></trkpt>
+      <trkpt lat="-23.748049" lon="-46.613780"><ele>770.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

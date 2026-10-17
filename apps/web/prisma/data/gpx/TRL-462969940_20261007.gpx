@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa das Orquídeas</name>
+    <trkseg>
+      <trkpt lat="-23.449739" lon="-46.691826"><ele>781.5</ele></trkpt>
+      <trkpt lat="-23.449790" lon="-46.691627"><ele>773.5</ele></trkpt>
+      <trkpt lat="-23.449821" lon="-46.691527"><ele>767.1</ele></trkpt>
+      <trkpt lat="-23.449900" lon="-46.691274"><ele>758.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

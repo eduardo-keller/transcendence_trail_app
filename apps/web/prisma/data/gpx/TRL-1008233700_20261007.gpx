@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Renata</name>
+    <trkseg>
+      <trkpt lat="-23.550833" lon="-47.034351"><ele>821.2</ele></trkpt>
+      <trkpt lat="-23.550541" lon="-47.034220"><ele>822.6</ele></trkpt>
+      <trkpt lat="-23.550450" lon="-47.034177"><ele>822.6</ele></trkpt>
+      <trkpt lat="-23.550409" lon="-47.034215"><ele>822.3</ele></trkpt>
+      <trkpt lat="-23.550329" lon="-47.034394"><ele>828.7</ele></trkpt>
+      <trkpt lat="-23.550088" lon="-47.034614"><ele>841.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

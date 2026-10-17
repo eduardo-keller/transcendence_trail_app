@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Seis</name>
+    <trkseg>
+      <trkpt lat="-23.734147" lon="-46.705179"><ele>793.0</ele></trkpt>
+      <trkpt lat="-23.734139" lon="-46.705257"><ele>793.0</ele></trkpt>
+      <trkpt lat="-23.734110" lon="-46.705404"><ele>793.0</ele></trkpt>
+      <trkpt lat="-23.734047" lon="-46.705475"><ele>784.7</ele></trkpt>
+      <trkpt lat="-23.734031" lon="-46.705514"><ele>784.7</ele></trkpt>
+      <trkpt lat="-23.733962" lon="-46.705603"><ele>791.5</ele></trkpt>
+      <trkpt lat="-23.733950" lon="-46.705635"><ele>791.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

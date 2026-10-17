@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Quatro</name>
+    <trkseg>
+      <trkpt lat="-23.762836" lon="-46.726763"><ele>741.9</ele></trkpt>
+      <trkpt lat="-23.763091" lon="-46.727776"><ele>741.6</ele></trkpt>
+      <trkpt lat="-23.763167" lon="-46.728080"><ele>742.8</ele></trkpt>
+      <trkpt lat="-23.763191" lon="-46.728240"><ele>745.1</ele></trkpt>
+      <trkpt lat="-23.763093" lon="-46.728403"><ele>745.1</ele></trkpt>
+      <trkpt lat="-23.762971" lon="-46.728645"><ele>747.1</ele></trkpt>
+      <trkpt lat="-23.762908" lon="-46.728788"><ele>743.1</ele></trkpt>
+      <trkpt lat="-23.762870" lon="-46.728904"><ele>743.1</ele></trkpt>
+      <trkpt lat="-23.762841" lon="-46.729074"><ele>744.3</ele></trkpt>
+      <trkpt lat="-23.762839" lon="-46.729284"><ele>744.3</ele></trkpt>
+      <trkpt lat="-23.762871" lon="-46.729456"><ele>743.7</ele></trkpt>
+      <trkpt lat="-23.762947" lon="-46.729634"><ele>746.5</ele></trkpt>
+      <trkpt lat="-23.763046" lon="-46.729760"><ele>746.5</ele></trkpt>
+      <trkpt lat="-23.763172" lon="-46.729926"><ele>746.3</ele></trkpt>
+      <trkpt lat="-23.763197" lon="-46.730035"><ele>749.7</ele></trkpt>
+      <trkpt lat="-23.763199" lon="-46.730207"><ele>749.0</ele></trkpt>
+      <trkpt lat="-23.763186" lon="-46.730336"><ele>746.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

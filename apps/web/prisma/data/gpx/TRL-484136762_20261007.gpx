@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Aurélio Brasil Ribeiro</name>
+    <trkseg>
+      <trkpt lat="-23.456671" lon="-46.701809"><ele>819.8</ele></trkpt>
+      <trkpt lat="-23.456726" lon="-46.701837"><ele>819.8</ele></trkpt>
+      <trkpt lat="-23.456801" lon="-46.701851"><ele>819.8</ele></trkpt>
+      <trkpt lat="-23.456901" lon="-46.701862"><ele>830.2</ele></trkpt>
+      <trkpt lat="-23.456928" lon="-46.701829"><ele>830.2</ele></trkpt>
+      <trkpt lat="-23.456978" lon="-46.701710"><ele>825.9</ele></trkpt>
+      <trkpt lat="-23.456980" lon="-46.701585"><ele>825.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

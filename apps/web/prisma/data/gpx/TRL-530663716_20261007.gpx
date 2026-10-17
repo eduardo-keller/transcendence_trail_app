@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela General</name>
+    <trkseg>
+      <trkpt lat="-23.646224" lon="-46.774200"><ele>821.6</ele></trkpt>
+      <trkpt lat="-23.646186" lon="-46.774402"><ele>812.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

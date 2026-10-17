@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Parada Ponte Freguesia do Ó</name>
+    <trkseg>
+      <trkpt lat="-23.506008" lon="-46.688959"><ele>725.4</ele></trkpt>
+      <trkpt lat="-23.506227" lon="-46.689011"><ele>725.4</ele></trkpt>
+      <trkpt lat="-23.506487" lon="-46.689073"><ele>722.5</ele></trkpt>
+      <trkpt lat="-23.506968" lon="-46.689187"><ele>723.0</ele></trkpt>
+      <trkpt lat="-23.507127" lon="-46.689224"><ele>723.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

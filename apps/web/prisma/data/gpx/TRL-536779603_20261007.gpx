@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Rua Vinte</name>
+    <trkseg>
+      <trkpt lat="-23.277854" lon="-46.734612"><ele>851.1</ele></trkpt>
+      <trkpt lat="-23.277960" lon="-46.734576"><ele>844.5</ele></trkpt>
+      <trkpt lat="-23.278032" lon="-46.734573"><ele>844.5</ele></trkpt>
+      <trkpt lat="-23.278147" lon="-46.734558"><ele>844.5</ele></trkpt>
+      <trkpt lat="-23.278205" lon="-46.734543"><ele>832.9</ele></trkpt>
+      <trkpt lat="-23.278234" lon="-46.734527"><ele>832.9</ele></trkpt>
+      <trkpt lat="-23.278274" lon="-46.734476"><ele>832.9</ele></trkpt>
+      <trkpt lat="-23.278291" lon="-46.734347"><ele>832.9</ele></trkpt>
+      <trkpt lat="-23.278262" lon="-46.733990"><ele>828.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

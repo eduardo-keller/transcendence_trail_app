@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Alvares de Azevedo</name>
+    <trkseg>
+      <trkpt lat="-23.519212" lon="-46.364825"><ele>774.3</ele></trkpt>
+      <trkpt lat="-23.519192" lon="-46.364779"><ele>774.3</ele></trkpt>
+      <trkpt lat="-23.519138" lon="-46.364579"><ele>769.1</ele></trkpt>
+      <trkpt lat="-23.519092" lon="-46.364428"><ele>769.1</ele></trkpt>
+      <trkpt lat="-23.518932" lon="-46.364127"><ele>767.6</ele></trkpt>
+      <trkpt lat="-23.518879" lon="-46.364055"><ele>767.6</ele></trkpt>
+      <trkpt lat="-23.518827" lon="-46.364001"><ele>772.2</ele></trkpt>
+      <trkpt lat="-23.518706" lon="-46.363864"><ele>773.6</ele></trkpt>
+      <trkpt lat="-23.518664" lon="-46.363809"><ele>773.6</ele></trkpt>
+      <trkpt lat="-23.518626" lon="-46.363749"><ele>775.7</ele></trkpt>
+      <trkpt lat="-23.518596" lon="-46.363650"><ele>775.7</ele></trkpt>
+      <trkpt lat="-23.518572" lon="-46.363569"><ele>775.7</ele></trkpt>
+      <trkpt lat="-23.518543" lon="-46.363511"><ele>775.7</ele></trkpt>
+      <trkpt lat="-23.518507" lon="-46.363446"><ele>779.7</ele></trkpt>
+      <trkpt lat="-23.518457" lon="-46.363366"><ele>780.4</ele></trkpt>
+      <trkpt lat="-23.518436" lon="-46.363336"><ele>780.4</ele></trkpt>
+      <trkpt lat="-23.518411" lon="-46.363305"><ele>780.4</ele></trkpt>
+      <trkpt lat="-23.518382" lon="-46.363273"><ele>780.4</ele></trkpt>
+      <trkpt lat="-23.518362" lon="-46.363251"><ele>780.4</ele></trkpt>
+      <trkpt lat="-23.518338" lon="-46.363232"><ele>780.4</ele></trkpt>
+      <trkpt lat="-23.518321" lon="-46.363216"><ele>780.4</ele></trkpt>
+      <trkpt lat="-23.518303" lon="-46.363202"><ele>780.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Entrada para o Bondinho do Monte Serrat</name>
+    <trkseg>
+      <trkpt lat="-23.939678" lon="-46.329814"><ele>152.0</ele></trkpt>
+      <trkpt lat="-23.939549" lon="-46.329969"><ele>155.3</ele></trkpt>
+      <trkpt lat="-23.939384" lon="-46.330223"><ele>155.8</ele></trkpt>
+      <trkpt lat="-23.939361" lon="-46.330207"><ele>155.8</ele></trkpt>
+      <trkpt lat="-23.939318" lon="-46.330177"><ele>155.8</ele></trkpt>
+      <trkpt lat="-23.939235" lon="-46.330285"><ele>156.9</ele></trkpt>
+      <trkpt lat="-23.939197" lon="-46.330253"><ele>156.9</ele></trkpt>
+      <trkpt lat="-23.939137" lon="-46.330330"><ele>156.9</ele></trkpt>
+      <trkpt lat="-23.939137" lon="-46.330330"><ele>156.9</ele></trkpt>
+      <trkpt lat="-23.939107" lon="-46.330378"><ele>156.9</ele></trkpt>
+      <trkpt lat="-23.939076" lon="-46.330354"><ele>156.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

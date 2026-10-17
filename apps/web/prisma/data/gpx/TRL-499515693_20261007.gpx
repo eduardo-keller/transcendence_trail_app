@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Alambique</name>
+    <trkseg>
+      <trkpt lat="-23.487432" lon="-46.588953"><ele>767.4</ele></trkpt>
+      <trkpt lat="-23.487312" lon="-46.589094"><ele>769.4</ele></trkpt>
+      <trkpt lat="-23.487160" lon="-46.589275"><ele>769.4</ele></trkpt>
+      <trkpt lat="-23.487312" lon="-46.589094"><ele>769.4</ele></trkpt>
+      <trkpt lat="-23.487562" lon="-46.589345"><ele>766.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

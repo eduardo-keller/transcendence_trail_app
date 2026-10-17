@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Bom Jardim de Goiás</name>
+    <trkseg>
+      <trkpt lat="-23.629622" lon="-46.622524"><ele>765.9</ele></trkpt>
+      <trkpt lat="-23.629783" lon="-46.622236"><ele>765.2</ele></trkpt>
+      <trkpt lat="-23.629885" lon="-46.622067"><ele>767.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

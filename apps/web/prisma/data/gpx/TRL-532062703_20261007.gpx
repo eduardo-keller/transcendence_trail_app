@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Duzentos e Dez</name>
+    <trkseg>
+      <trkpt lat="-23.272726" lon="-46.760632"><ele>904.6</ele></trkpt>
+      <trkpt lat="-23.272619" lon="-46.760207"><ele>901.7</ele></trkpt>
+      <trkpt lat="-23.272619" lon="-46.760135"><ele>890.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

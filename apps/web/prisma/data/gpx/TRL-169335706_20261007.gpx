@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Horácio Mendes Campos</name>
+    <trkseg>
+      <trkpt lat="-23.409194" lon="-46.746204"><ele>796.6</ele></trkpt>
+      <trkpt lat="-23.409121" lon="-46.746145"><ele>796.6</ele></trkpt>
+      <trkpt lat="-23.409096" lon="-46.746125"><ele>796.6</ele></trkpt>
+      <trkpt lat="-23.409033" lon="-46.746076"><ele>796.6</ele></trkpt>
+      <trkpt lat="-23.409021" lon="-46.746066"><ele>805.4</ele></trkpt>
+      <trkpt lat="-23.408991" lon="-46.746044"><ele>805.4</ele></trkpt>
+      <trkpt lat="-23.408975" lon="-46.746033"><ele>805.4</ele></trkpt>
+      <trkpt lat="-23.408956" lon="-46.746019"><ele>805.4</ele></trkpt>
+      <trkpt lat="-23.408931" lon="-46.746000"><ele>805.4</ele></trkpt>
+      <trkpt lat="-23.408920" lon="-46.745993"><ele>805.4</ele></trkpt>
+      <trkpt lat="-23.408909" lon="-46.745985"><ele>805.4</ele></trkpt>
+      <trkpt lat="-23.408895" lon="-46.745975"><ele>805.4</ele></trkpt>
+      <trkpt lat="-23.408850" lon="-46.745942"><ele>807.9</ele></trkpt>
+      <trkpt lat="-23.408828" lon="-46.745925"><ele>807.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Acesso ao Aterro Sanitário</name>
+    <trkseg>
+      <trkpt lat="-23.435327" lon="-46.286309"><ele>686.4</ele></trkpt>
+      <trkpt lat="-23.435444" lon="-46.286543"><ele>687.6</ele></trkpt>
+      <trkpt lat="-23.435491" lon="-46.286735"><ele>687.6</ele></trkpt>
+      <trkpt lat="-23.435506" lon="-46.286819"><ele>688.5</ele></trkpt>
+      <trkpt lat="-23.435503" lon="-46.286923"><ele>688.5</ele></trkpt>
+      <trkpt lat="-23.435481" lon="-46.287041"><ele>688.5</ele></trkpt>
+      <trkpt lat="-23.435440" lon="-46.287148"><ele>690.6</ele></trkpt>
+      <trkpt lat="-23.435341" lon="-46.287293"><ele>688.0</ele></trkpt>
+      <trkpt lat="-23.435290" lon="-46.287401"><ele>690.2</ele></trkpt>
+      <trkpt lat="-23.435257" lon="-46.287518"><ele>690.2</ele></trkpt>
+      <trkpt lat="-23.435256" lon="-46.287629"><ele>690.2</ele></trkpt>
+      <trkpt lat="-23.435267" lon="-46.287747"><ele>693.1</ele></trkpt>
+      <trkpt lat="-23.435311" lon="-46.287884"><ele>693.1</ele></trkpt>
+      <trkpt lat="-23.435375" lon="-46.288025"><ele>694.0</ele></trkpt>
+      <trkpt lat="-23.435502" lon="-46.288252"><ele>700.9</ele></trkpt>
+      <trkpt lat="-23.435545" lon="-46.288421"><ele>700.9</ele></trkpt>
+      <trkpt lat="-23.435543" lon="-46.288765"><ele>706.9</ele></trkpt>
+      <trkpt lat="-23.435530" lon="-46.288921"><ele>706.9</ele></trkpt>
+      <trkpt lat="-23.435502" lon="-46.289133"><ele>711.8</ele></trkpt>
+      <trkpt lat="-23.435487" lon="-46.289302"><ele>711.8</ele></trkpt>
+      <trkpt lat="-23.435508" lon="-46.289455"><ele>716.0</ele></trkpt>
+      <trkpt lat="-23.435549" lon="-46.289590"><ele>717.7</ele></trkpt>
+      <trkpt lat="-23.435598" lon="-46.289689"><ele>717.7</ele></trkpt>
+      <trkpt lat="-23.435668" lon="-46.289770"><ele>717.7</ele></trkpt>
+      <trkpt lat="-23.435783" lon="-46.289860"><ele>723.5</ele></trkpt>
+      <trkpt lat="-23.435982" lon="-46.290038"><ele>728.1</ele></trkpt>
+      <trkpt lat="-23.436111" lon="-46.290184"><ele>726.3</ele></trkpt>
+      <trkpt lat="-23.436282" lon="-46.290454"><ele>733.5</ele></trkpt>
+      <trkpt lat="-23.436410" lon="-46.290717"><ele>733.5</ele></trkpt>
+      <trkpt lat="-23.436655" lon="-46.291294"><ele>738.9</ele></trkpt>
+      <trkpt lat="-23.436772" lon="-46.291531"><ele>736.0</ele></trkpt>
+      <trkpt lat="-23.436846" lon="-46.291674"><ele>742.5</ele></trkpt>
+      <trkpt lat="-23.436958" lon="-46.291834"><ele>739.2</ele></trkpt>
+      <trkpt lat="-23.437119" lon="-46.292025"><ele>745.3</ele></trkpt>
+      <trkpt lat="-23.437523" lon="-46.292410"><ele>746.1</ele></trkpt>
+      <trkpt lat="-23.437746" lon="-46.292625"><ele>750.2</ele></trkpt>
+      <trkpt lat="-23.437915" lon="-46.292807"><ele>747.6</ele></trkpt>
+      <trkpt lat="-23.438023" lon="-46.292960"><ele>752.0</ele></trkpt>
+      <trkpt lat="-23.438085" lon="-46.293084"><ele>752.0</ele></trkpt>
+      <trkpt lat="-23.438149" lon="-46.293245"><ele>753.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Antônio Bicudo</name>
+    <trkseg>
+      <trkpt lat="-23.406612" lon="-46.901724"><ele>752.7</ele></trkpt>
+      <trkpt lat="-23.406646" lon="-46.901488"><ele>748.0</ele></trkpt>
+      <trkpt lat="-23.406649" lon="-46.901447"><ele>748.0</ele></trkpt>
+      <trkpt lat="-23.406638" lon="-46.901360"><ele>748.0</ele></trkpt>
+      <trkpt lat="-23.406625" lon="-46.901297"><ele>748.0</ele></trkpt>
+      <trkpt lat="-23.406609" lon="-46.901258"><ele>748.0</ele></trkpt>
+      <trkpt lat="-23.406599" lon="-46.901229"><ele>740.5</ele></trkpt>
+      <trkpt lat="-23.406595" lon="-46.901205"><ele>740.5</ele></trkpt>
+      <trkpt lat="-23.406594" lon="-46.901177"><ele>740.5</ele></trkpt>
+      <trkpt lat="-23.406597" lon="-46.901152"><ele>740.5</ele></trkpt>
+      <trkpt lat="-23.406604" lon="-46.901128"><ele>740.5</ele></trkpt>
+      <trkpt lat="-23.406616" lon="-46.901109"><ele>740.5</ele></trkpt>
+      <trkpt lat="-23.406634" lon="-46.901085"><ele>740.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

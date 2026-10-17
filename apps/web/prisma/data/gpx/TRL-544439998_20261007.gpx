@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Via de Pedestre Girolamo Mei</name>
+    <trkseg>
+      <trkpt lat="-23.745037" lon="-46.709601"><ele>754.6</ele></trkpt>
+      <trkpt lat="-23.745298" lon="-46.709637"><ele>757.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

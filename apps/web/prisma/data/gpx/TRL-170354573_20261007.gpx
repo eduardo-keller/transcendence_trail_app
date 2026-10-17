@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Hebrom</name>
+    <trkseg>
+      <trkpt lat="-23.444199" lon="-46.720907"><ele>842.5</ele></trkpt>
+      <trkpt lat="-23.444244" lon="-46.720746"><ele>842.5</ele></trkpt>
+      <trkpt lat="-23.444283" lon="-46.720625"><ele>840.9</ele></trkpt>
+      <trkpt lat="-23.444410" lon="-46.720231"><ele>835.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

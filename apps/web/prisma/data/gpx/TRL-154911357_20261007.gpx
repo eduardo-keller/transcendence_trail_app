@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Tacuite</name>
+    <trkseg>
+      <trkpt lat="-23.505759" lon="-46.512878"><ele>779.6</ele></trkpt>
+      <trkpt lat="-23.505709" lon="-46.512829"><ele>779.6</ele></trkpt>
+      <trkpt lat="-23.505495" lon="-46.512850"><ele>782.7</ele></trkpt>
+      <trkpt lat="-23.505450" lon="-46.512852"><ele>782.7</ele></trkpt>
+      <trkpt lat="-23.505420" lon="-46.512849"><ele>782.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

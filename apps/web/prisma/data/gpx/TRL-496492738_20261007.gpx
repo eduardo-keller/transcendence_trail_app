@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Luíz Moreira Ramos</name>
+    <trkseg>
+      <trkpt lat="-23.504808" lon="-46.809511"><ele>733.3</ele></trkpt>
+      <trkpt lat="-23.504634" lon="-46.809292"><ele>736.5</ele></trkpt>
+      <trkpt lat="-23.504579" lon="-46.809236"><ele>738.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

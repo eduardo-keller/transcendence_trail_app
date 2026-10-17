@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Calêndula</name>
+    <trkseg>
+      <trkpt lat="-23.175061" lon="-46.573700"><ele>783.6</ele></trkpt>
+      <trkpt lat="-23.175112" lon="-46.573093"><ele>780.6</ele></trkpt>
+      <trkpt lat="-23.175131" lon="-46.572794"><ele>784.6</ele></trkpt>
+      <trkpt lat="-23.175217" lon="-46.572302"><ele>795.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

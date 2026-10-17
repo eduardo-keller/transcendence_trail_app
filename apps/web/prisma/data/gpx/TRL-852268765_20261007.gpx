@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Alameda dos Periquitos</name>
+    <trkseg>
+      <trkpt lat="-23.599189" lon="-47.070070"><ele>917.2</ele></trkpt>
+      <trkpt lat="-23.600325" lon="-47.069868"><ele>923.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

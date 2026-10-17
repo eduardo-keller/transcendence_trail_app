@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua 16</name>
+    <trkseg>
+      <trkpt lat="-23.549912" lon="-46.656893"><ele>802.3</ele></trkpt>
+      <trkpt lat="-23.550161" lon="-46.656714"><ele>806.1</ele></trkpt>
+      <trkpt lat="-23.550401" lon="-46.656542"><ele>806.1</ele></trkpt>
+      <trkpt lat="-23.550430" lon="-46.656522"><ele>813.4</ele></trkpt>
+      <trkpt lat="-23.550630" lon="-46.656379"><ele>813.4</ele></trkpt>
+      <trkpt lat="-23.550953" lon="-46.656148"><ele>813.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

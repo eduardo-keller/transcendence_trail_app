@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Agostinho Cameroni</name>
+    <trkseg>
+      <trkpt lat="-23.538043" lon="-46.473130"><ele>799.6</ele></trkpt>
+      <trkpt lat="-23.537524" lon="-46.473051"><ele>806.1</ele></trkpt>
+      <trkpt lat="-23.537360" lon="-46.473026"><ele>810.9</ele></trkpt>
+      <trkpt lat="-23.536907" lon="-46.472963"><ele>815.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

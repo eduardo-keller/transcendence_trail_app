@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Dois</name>
+    <trkseg>
+      <trkpt lat="-23.747019" lon="-46.392827"><ele>768.0</ele></trkpt>
+      <trkpt lat="-23.746847" lon="-46.392562"><ele>768.1</ele></trkpt>
+      <trkpt lat="-23.746764" lon="-46.392625"><ele>763.7</ele></trkpt>
+      <trkpt lat="-23.746555" lon="-46.392341"><ele>763.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

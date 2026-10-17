@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela de Pedestres Ludovic Balbi</name>
+    <trkseg>
+      <trkpt lat="-23.452892" lon="-46.692118"><ele>757.0</ele></trkpt>
+      <trkpt lat="-23.452768" lon="-46.691799"><ele>756.3</ele></trkpt>
+      <trkpt lat="-23.452743" lon="-46.691757"><ele>756.3</ele></trkpt>
+      <trkpt lat="-23.452682" lon="-46.691708"><ele>756.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

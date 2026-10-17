@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Rita de Cássia</name>
+    <trkseg>
+      <trkpt lat="-23.607974" lon="-46.596367"><ele>758.8</ele></trkpt>
+      <trkpt lat="-23.607955" lon="-46.596343"><ele>758.8</ele></trkpt>
+      <trkpt lat="-23.607949" lon="-46.596321"><ele>758.8</ele></trkpt>
+      <trkpt lat="-23.608064" lon="-46.595879"><ele>767.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Sarabatana</name>
+    <trkseg>
+      <trkpt lat="-23.576901" lon="-46.702235"><ele>729.8</ele></trkpt>
+      <trkpt lat="-23.576936" lon="-46.702364"><ele>727.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

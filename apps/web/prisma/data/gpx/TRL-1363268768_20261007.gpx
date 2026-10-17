@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Avenida Salgado Filho</name>
+    <trkseg>
+      <trkpt lat="-23.938699" lon="-46.396198"><ele>3.9</ele></trkpt>
+      <trkpt lat="-23.938755" lon="-46.396237"><ele>5.0</ele></trkpt>
+      <trkpt lat="-23.938699" lon="-46.396198"><ele>3.9</ele></trkpt>
+      <trkpt lat="-23.938754" lon="-46.396162"><ele>5.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

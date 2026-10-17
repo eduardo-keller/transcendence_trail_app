@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passagem Vinte e Três</name>
+    <trkseg>
+      <trkpt lat="-23.444012" lon="-46.576155"><ele>810.5</ele></trkpt>
+      <trkpt lat="-23.443935" lon="-46.576288"><ele>806.2</ele></trkpt>
+      <trkpt lat="-23.443911" lon="-46.576340"><ele>806.2</ele></trkpt>
+      <trkpt lat="-23.443904" lon="-46.576368"><ele>806.2</ele></trkpt>
+      <trkpt lat="-23.443903" lon="-46.576411"><ele>806.2</ele></trkpt>
+      <trkpt lat="-23.443913" lon="-46.576460"><ele>806.2</ele></trkpt>
+      <trkpt lat="-23.444016" lon="-46.576662"><ele>809.7</ele></trkpt>
+      <trkpt lat="-23.444030" lon="-46.576678"><ele>791.2</ele></trkpt>
+      <trkpt lat="-23.444044" lon="-46.576688"><ele>791.2</ele></trkpt>
+      <trkpt lat="-23.444060" lon="-46.576687"><ele>791.2</ele></trkpt>
+      <trkpt lat="-23.443852" lon="-46.576613"><ele>809.7</ele></trkpt>
+      <trkpt lat="-23.443853" lon="-46.576528"><ele>806.2</ele></trkpt>
+      <trkpt lat="-23.443854" lon="-46.576462"><ele>806.2</ele></trkpt>
+      <trkpt lat="-23.443855" lon="-46.576413"><ele>806.2</ele></trkpt>
+      <trkpt lat="-23.443905" lon="-46.576310"><ele>806.2</ele></trkpt>
+      <trkpt lat="-23.443935" lon="-46.576288"><ele>806.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

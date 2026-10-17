@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Bela Vista</name>
+    <trkseg>
+      <trkpt lat="-23.436653" lon="-46.383973"><ele>789.4</ele></trkpt>
+      <trkpt lat="-23.436486" lon="-46.383584"><ele>786.5</ele></trkpt>
+      <trkpt lat="-23.436484" lon="-46.383517"><ele>786.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

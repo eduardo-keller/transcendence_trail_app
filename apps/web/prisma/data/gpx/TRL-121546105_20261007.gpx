@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Celebes</name>
+    <trkseg>
+      <trkpt lat="-23.671847" lon="-46.684309"><ele>770.1</ele></trkpt>
+      <trkpt lat="-23.672189" lon="-46.684266"><ele>769.8</ele></trkpt>
+      <trkpt lat="-23.672161" lon="-46.683922"><ele>772.5</ele></trkpt>
+      <trkpt lat="-23.672097" lon="-46.683930"><ele>772.5</ele></trkpt>
+      <trkpt lat="-23.672082" lon="-46.683771"><ele>775.5</ele></trkpt>
+      <trkpt lat="-23.672084" lon="-46.683708"><ele>775.5</ele></trkpt>
+      <trkpt lat="-23.672120" lon="-46.683638"><ele>775.5</ele></trkpt>
+      <trkpt lat="-23.672126" lon="-46.683490"><ele>775.5</ele></trkpt>
+      <trkpt lat="-23.672097" lon="-46.683188"><ele>779.8</ele></trkpt>
+      <trkpt lat="-23.672070" lon="-46.682928"><ele>782.6</ele></trkpt>
+      <trkpt lat="-23.671968" lon="-46.682703"><ele>782.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

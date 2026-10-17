@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Canindé</name>
+    <trkseg>
+      <trkpt lat="-23.671879" lon="-46.601584"><ele>769.7</ele></trkpt>
+      <trkpt lat="-23.671966" lon="-46.601377"><ele>771.8</ele></trkpt>
+      <trkpt lat="-23.672266" lon="-46.600736"><ele>777.7</ele></trkpt>
+      <trkpt lat="-23.672403" lon="-46.600443"><ele>783.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Calçada Francisco de Medeiros Jordão</name>
+    <trkseg>
+      <trkpt lat="-23.495767" lon="-46.586496"><ele>792.9</ele></trkpt>
+      <trkpt lat="-23.495776" lon="-46.586485"><ele>792.9</ele></trkpt>
+      <trkpt lat="-23.495808" lon="-46.586446"><ele>792.9</ele></trkpt>
+      <trkpt lat="-23.496134" lon="-46.586035"><ele>793.9</ele></trkpt>
+      <trkpt lat="-23.496136" lon="-46.586033"><ele>793.9</ele></trkpt>
+      <trkpt lat="-23.496143" lon="-46.586024"><ele>793.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Pirapozinho</name>
+    <trkseg>
+      <trkpt lat="-23.297124" lon="-46.876893"><ele>887.2</ele></trkpt>
+      <trkpt lat="-23.297216" lon="-46.876907"><ele>887.2</ele></trkpt>
+      <trkpt lat="-23.297405" lon="-46.876910"><ele>887.7</ele></trkpt>
+      <trkpt lat="-23.297480" lon="-46.876902"><ele>887.7</ele></trkpt>
+      <trkpt lat="-23.297674" lon="-46.876887"><ele>885.4</ele></trkpt>
+      <trkpt lat="-23.297870" lon="-46.876883"><ele>885.4</ele></trkpt>
+      <trkpt lat="-23.297977" lon="-46.876886"><ele>882.7</ele></trkpt>
+      <trkpt lat="-23.298146" lon="-46.876881"><ele>882.7</ele></trkpt>
+      <trkpt lat="-23.298319" lon="-46.876888"><ele>881.6</ele></trkpt>
+      <trkpt lat="-23.298847" lon="-46.876939"><ele>883.2</ele></trkpt>
+      <trkpt lat="-23.299486" lon="-46.877189"><ele>874.6</ele></trkpt>
+      <trkpt lat="-23.299624" lon="-46.877257"><ele>871.7</ele></trkpt>
+      <trkpt lat="-23.299675" lon="-46.877343"><ele>871.7</ele></trkpt>
+      <trkpt lat="-23.299670" lon="-46.878240"><ele>866.0</ele></trkpt>
+      <trkpt lat="-23.299697" lon="-46.878600"><ele>871.3</ele></trkpt>
+      <trkpt lat="-23.299724" lon="-46.878744"><ele>871.3</ele></trkpt>
+      <trkpt lat="-23.299784" lon="-46.878783"><ele>876.2</ele></trkpt>
+      <trkpt lat="-23.300280" lon="-46.878873"><ele>874.9</ele></trkpt>
+      <trkpt lat="-23.300822" lon="-46.878860"><ele>879.0</ele></trkpt>
+      <trkpt lat="-23.301922" lon="-46.878975"><ele>878.4</ele></trkpt>
+      <trkpt lat="-23.301966" lon="-46.878979"><ele>878.4</ele></trkpt>
+      <trkpt lat="-23.302188" lon="-46.878939"><ele>875.0</ele></trkpt>
+      <trkpt lat="-23.302437" lon="-46.878775"><ele>867.7</ele></trkpt>
+      <trkpt lat="-23.303164" lon="-46.877610"><ele>866.8</ele></trkpt>
+      <trkpt lat="-23.303588" lon="-46.877483"><ele>864.2</ele></trkpt>
+      <trkpt lat="-23.303673" lon="-46.877235"><ele>861.4</ele></trkpt>
+      <trkpt lat="-23.303671" lon="-46.875892"><ele>840.2</ele></trkpt>
+      <trkpt lat="-23.303192" lon="-46.875067"><ele>833.0</ele></trkpt>
+      <trkpt lat="-23.303069" lon="-46.874642"><ele>829.0</ele></trkpt>
+      <trkpt lat="-23.302909" lon="-46.874269"><ele>817.5</ele></trkpt>
+      <trkpt lat="-23.303010" lon="-46.872486"><ele>785.5</ele></trkpt>
+      <trkpt lat="-23.303508" lon="-46.872002"><ele>772.6</ele></trkpt>
+      <trkpt lat="-23.303392" lon="-46.871477"><ele>773.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

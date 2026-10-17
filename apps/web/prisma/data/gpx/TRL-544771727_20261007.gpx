@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Frei José da Natividade</name>
+    <trkseg>
+      <trkpt lat="-23.537862" lon="-46.412999"><ele>768.6</ele></trkpt>
+      <trkpt lat="-23.537656" lon="-46.412875"><ele>766.0</ele></trkpt>
+      <trkpt lat="-23.537053" lon="-46.412495"><ele>772.0</ele></trkpt>
+      <trkpt lat="-23.537005" lon="-46.412474"><ele>772.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

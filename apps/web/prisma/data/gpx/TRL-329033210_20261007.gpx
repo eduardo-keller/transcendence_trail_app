@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Principal</name>
+    <trkseg>
+      <trkpt lat="-23.542365" lon="-46.629733"><ele>726.3</ele></trkpt>
+      <trkpt lat="-23.542248" lon="-46.629681"><ele>737.3</ele></trkpt>
+      <trkpt lat="-23.542228" lon="-46.629672"><ele>737.3</ele></trkpt>
+      <trkpt lat="-23.542168" lon="-46.629646"><ele>737.3</ele></trkpt>
+      <trkpt lat="-23.542111" lon="-46.629621"><ele>737.3</ele></trkpt>
+      <trkpt lat="-23.542056" lon="-46.629597"><ele>739.5</ele></trkpt>
+      <trkpt lat="-23.541971" lon="-46.629560"><ele>735.8</ele></trkpt>
+      <trkpt lat="-23.541884" lon="-46.629521"><ele>735.8</ele></trkpt>
+      <trkpt lat="-23.541818" lon="-46.629492"><ele>735.8</ele></trkpt>
+      <trkpt lat="-23.541734" lon="-46.629455"><ele>739.0</ele></trkpt>
+      <trkpt lat="-23.541651" lon="-46.629419"><ele>739.0</ele></trkpt>
+      <trkpt lat="-23.541595" lon="-46.629394"><ele>739.0</ele></trkpt>
+      <trkpt lat="-23.541513" lon="-46.629358"><ele>737.2</ele></trkpt>
+      <trkpt lat="-23.541433" lon="-46.629323"><ele>737.2</ele></trkpt>
+      <trkpt lat="-23.541428" lon="-46.629321"><ele>737.2</ele></trkpt>
+      <trkpt lat="-23.541372" lon="-46.629296"><ele>738.3</ele></trkpt>
+      <trkpt lat="-23.541298" lon="-46.629264"><ele>738.3</ele></trkpt>
+      <trkpt lat="-23.541245" lon="-46.629241"><ele>728.4</ele></trkpt>
+      <trkpt lat="-23.541241" lon="-46.629239"><ele>728.4</ele></trkpt>
+      <trkpt lat="-23.541091" lon="-46.629172"><ele>728.4</ele></trkpt>
+      <trkpt lat="-23.541053" lon="-46.629154"><ele>728.4</ele></trkpt>
+      <trkpt lat="-23.540969" lon="-46.629115"><ele>724.6</ele></trkpt>
+      <trkpt lat="-23.540882" lon="-46.629074"><ele>724.6</ele></trkpt>
+      <trkpt lat="-23.540867" lon="-46.629067"><ele>724.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

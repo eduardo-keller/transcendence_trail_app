@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passarela Pedro Callegaro</name>
+    <trkseg>
+      <trkpt lat="-23.652427" lon="-46.580163"><ele>777.0</ele></trkpt>
+      <trkpt lat="-23.652522" lon="-46.580139"><ele>777.0</ele></trkpt>
+      <trkpt lat="-23.652708" lon="-46.580035"><ele>776.2</ele></trkpt>
+      <trkpt lat="-23.652708" lon="-46.580035"><ele>776.2</ele></trkpt>
+      <trkpt lat="-23.652691" lon="-46.579998"><ele>776.2</ele></trkpt>
+      <trkpt lat="-23.652506" lon="-46.580107"><ele>776.6</ele></trkpt>
+      <trkpt lat="-23.652506" lon="-46.580107"><ele>776.6</ele></trkpt>
+      <trkpt lat="-23.652110" lon="-46.579274"><ele>775.4</ele></trkpt>
+      <trkpt lat="-23.652110" lon="-46.579274"><ele>775.4</ele></trkpt>
+      <trkpt lat="-23.651885" lon="-46.579398"><ele>778.1</ele></trkpt>
+      <trkpt lat="-23.651868" lon="-46.579358"><ele>778.1</ele></trkpt>
+      <trkpt lat="-23.651840" lon="-46.579321"><ele>778.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Celeste Martins</name>
+    <trkseg>
+      <trkpt lat="-23.829968" lon="-46.813722"><ele>761.2</ele></trkpt>
+      <trkpt lat="-23.829135" lon="-46.814269"><ele>762.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

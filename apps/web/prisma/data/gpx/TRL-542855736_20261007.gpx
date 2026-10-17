@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Avenida Cavaleiros de São Lázaro</name>
+    <trkseg>
+      <trkpt lat="-23.748167" lon="-46.715350"><ele>747.7</ele></trkpt>
+      <trkpt lat="-23.747975" lon="-46.716134"><ele>746.3</ele></trkpt>
+      <trkpt lat="-23.747955" lon="-46.716207"><ele>746.3</ele></trkpt>
+      <trkpt lat="-23.747888" lon="-46.716387"><ele>745.6</ele></trkpt>
+      <trkpt lat="-23.747836" lon="-46.716560"><ele>747.2</ele></trkpt>
+      <trkpt lat="-23.747768" lon="-46.716685"><ele>747.2</ele></trkpt>
+      <trkpt lat="-23.747691" lon="-46.716745"><ele>747.2</ele></trkpt>
+      <trkpt lat="-23.747424" lon="-46.716871"><ele>748.8</ele></trkpt>
+      <trkpt lat="-23.747119" lon="-46.716972"><ele>745.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passagem Paramaribo</name>
+    <trkseg>
+      <trkpt lat="-23.674525" lon="-46.610410"><ele>775.0</ele></trkpt>
+      <trkpt lat="-23.674581" lon="-46.610655"><ele>780.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela 25 de Maio</name>
+    <trkseg>
+      <trkpt lat="-23.612909" lon="-46.589583"><ele>769.5</ele></trkpt>
+      <trkpt lat="-23.612793" lon="-46.589499"><ele>769.5</ele></trkpt>
+      <trkpt lat="-23.612630" lon="-46.589446"><ele>769.7</ele></trkpt>
+      <trkpt lat="-23.612707" lon="-46.589146"><ele>767.2</ele></trkpt>
+      <trkpt lat="-23.612753" lon="-46.589009"><ele>764.1</ele></trkpt>
+      <trkpt lat="-23.612818" lon="-46.588831"><ele>764.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

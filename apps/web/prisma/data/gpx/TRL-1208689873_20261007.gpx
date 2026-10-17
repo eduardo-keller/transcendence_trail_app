@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Panambi</name>
+    <trkseg>
+      <trkpt lat="-23.658401" lon="-46.547931"><ele>781.4</ele></trkpt>
+      <trkpt lat="-23.658248" lon="-46.547720"><ele>786.9</ele></trkpt>
+      <trkpt lat="-23.658214" lon="-46.547698"><ele>786.9</ele></trkpt>
+      <trkpt lat="-23.658174" lon="-46.547712"><ele>786.8</ele></trkpt>
+      <trkpt lat="-23.658022" lon="-46.547825"><ele>786.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

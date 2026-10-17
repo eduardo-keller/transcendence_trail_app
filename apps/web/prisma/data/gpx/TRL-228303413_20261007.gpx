@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passarela Frederico Maia</name>
+    <trkseg>
+      <trkpt lat="-23.555793" lon="-46.622494"><ele>728.3</ele></trkpt>
+      <trkpt lat="-23.555815" lon="-46.622475"><ele>728.3</ele></trkpt>
+      <trkpt lat="-23.555823" lon="-46.622451"><ele>728.3</ele></trkpt>
+      <trkpt lat="-23.555808" lon="-46.622430"><ele>728.3</ele></trkpt>
+      <trkpt lat="-23.555778" lon="-46.622434"><ele>728.3</ele></trkpt>
+      <trkpt lat="-23.555758" lon="-46.622455"><ele>728.3</ele></trkpt>
+      <trkpt lat="-23.555764" lon="-46.622489"><ele>728.3</ele></trkpt>
+      <trkpt lat="-23.555781" lon="-46.622508"><ele>728.3</ele></trkpt>
+      <trkpt lat="-23.555801" lon="-46.622513"><ele>728.3</ele></trkpt>
+      <trkpt lat="-23.555829" lon="-46.622499"><ele>728.3</ele></trkpt>
+      <trkpt lat="-23.555844" lon="-46.622475"><ele>728.3</ele></trkpt>
+      <trkpt lat="-23.555841" lon="-46.622445"><ele>728.3</ele></trkpt>
+      <trkpt lat="-23.555827" lon="-46.622423"><ele>728.3</ele></trkpt>
+      <trkpt lat="-23.555788" lon="-46.622411"><ele>728.3</ele></trkpt>
+      <trkpt lat="-23.555737" lon="-46.622438"><ele>728.3</ele></trkpt>
+      <trkpt lat="-23.555721" lon="-46.622459"><ele>728.3</ele></trkpt>
+      <trkpt lat="-23.555721" lon="-46.622476"><ele>728.3</ele></trkpt>
+      <trkpt lat="-23.555722" lon="-46.622506"><ele>728.3</ele></trkpt>
+      <trkpt lat="-23.555722" lon="-46.622506"><ele>728.3</ele></trkpt>
+      <trkpt lat="-23.556235" lon="-46.623197"><ele>728.3</ele></trkpt>
+      <trkpt lat="-23.556263" lon="-46.623258"><ele>727.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

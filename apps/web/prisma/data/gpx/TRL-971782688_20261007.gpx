@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Subida da Caveira</name>
+    <trkseg>
+      <trkpt lat="-23.355593" lon="-46.909657"><ele>950.7</ele></trkpt>
+      <trkpt lat="-23.355881" lon="-46.909377"><ele>941.1</ele></trkpt>
+      <trkpt lat="-23.355944" lon="-46.909275"><ele>931.9</ele></trkpt>
+      <trkpt lat="-23.356010" lon="-46.909158"><ele>926.5</ele></trkpt>
+      <trkpt lat="-23.356114" lon="-46.909025"><ele>918.6</ele></trkpt>
+      <trkpt lat="-23.356196" lon="-46.908869"><ele>918.6</ele></trkpt>
+      <trkpt lat="-23.356286" lon="-46.908727"><ele>904.4</ele></trkpt>
+      <trkpt lat="-23.356323" lon="-46.908514"><ele>904.4</ele></trkpt>
+      <trkpt lat="-23.356430" lon="-46.908147"><ele>897.2</ele></trkpt>
+      <trkpt lat="-23.356361" lon="-46.907981"><ele>897.2</ele></trkpt>
+      <trkpt lat="-23.356431" lon="-46.907792"><ele>893.1</ele></trkpt>
+      <trkpt lat="-23.356424" lon="-46.907643"><ele>893.1</ele></trkpt>
+      <trkpt lat="-23.356471" lon="-46.907422"><ele>888.6</ele></trkpt>
+      <trkpt lat="-23.356487" lon="-46.907222"><ele>884.7</ele></trkpt>
+      <trkpt lat="-23.356576" lon="-46.906933"><ele>883.9</ele></trkpt>
+      <trkpt lat="-23.356800" lon="-46.906680"><ele>882.1</ele></trkpt>
+      <trkpt lat="-23.356999" lon="-46.906351"><ele>881.2</ele></trkpt>
+      <trkpt lat="-23.357051" lon="-46.906198"><ele>874.9</ele></trkpt>
+      <trkpt lat="-23.357102" lon="-46.905696"><ele>866.7</ele></trkpt>
+      <trkpt lat="-23.357013" lon="-46.905398"><ele>864.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

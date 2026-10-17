@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa da Glória</name>
+    <trkseg>
+      <trkpt lat="-23.446752" lon="-46.691557"><ele>814.4</ele></trkpt>
+      <trkpt lat="-23.446821" lon="-46.691319"><ele>797.8</ele></trkpt>
+      <trkpt lat="-23.446863" lon="-46.691164"><ele>786.2</ele></trkpt>
+      <trkpt lat="-23.446905" lon="-46.691031"><ele>786.2</ele></trkpt>
+      <trkpt lat="-23.446918" lon="-46.690988"><ele>786.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

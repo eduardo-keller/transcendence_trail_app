@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Embu</name>
+    <trkseg>
+      <trkpt lat="-23.386524" lon="-46.737747"><ele>781.8</ele></trkpt>
+      <trkpt lat="-23.386441" lon="-46.737439"><ele>775.9</ele></trkpt>
+      <trkpt lat="-23.386412" lon="-46.737321"><ele>764.2</ele></trkpt>
+      <trkpt lat="-23.386376" lon="-46.737175"><ele>764.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

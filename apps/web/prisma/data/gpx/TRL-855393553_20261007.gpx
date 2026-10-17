@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Avenida Teodoro Cocher</name>
+    <trkseg>
+      <trkpt lat="-23.761291" lon="-46.677582"><ele>758.8</ele></trkpt>
+      <trkpt lat="-23.761287" lon="-46.677645"><ele>759.5</ele></trkpt>
+      <trkpt lat="-23.761289" lon="-46.677698"><ele>759.5</ele></trkpt>
+      <trkpt lat="-23.761295" lon="-46.677777"><ele>759.5</ele></trkpt>
+      <trkpt lat="-23.761312" lon="-46.677902"><ele>759.5</ele></trkpt>
+      <trkpt lat="-23.761326" lon="-46.678011"><ele>760.4</ele></trkpt>
+      <trkpt lat="-23.761351" lon="-46.678249"><ele>762.8</ele></trkpt>
+      <trkpt lat="-23.761378" lon="-46.678422"><ele>762.8</ele></trkpt>
+      <trkpt lat="-23.761391" lon="-46.678498"><ele>765.7</ele></trkpt>
+      <trkpt lat="-23.761407" lon="-46.678590"><ele>765.7</ele></trkpt>
+      <trkpt lat="-23.761411" lon="-46.678619"><ele>765.7</ele></trkpt>
+      <trkpt lat="-23.761421" lon="-46.678656"><ele>765.7</ele></trkpt>
+      <trkpt lat="-23.761430" lon="-46.678690"><ele>765.7</ele></trkpt>
+      <trkpt lat="-23.761448" lon="-46.678733"><ele>765.7</ele></trkpt>
+      <trkpt lat="-23.761503" lon="-46.678843"><ele>769.3</ele></trkpt>
+      <trkpt lat="-23.761531" lon="-46.678897"><ele>765.5</ele></trkpt>
+      <trkpt lat="-23.761565" lon="-46.678952"><ele>765.5</ele></trkpt>
+      <trkpt lat="-23.761594" lon="-46.678994"><ele>765.5</ele></trkpt>
+      <trkpt lat="-23.761634" lon="-46.679064"><ele>770.2</ele></trkpt>
+      <trkpt lat="-23.761652" lon="-46.679097"><ele>770.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

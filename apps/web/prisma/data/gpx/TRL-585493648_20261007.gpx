@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Via de Pedestre Manuel Berzu</name>
+    <trkseg>
+      <trkpt lat="-23.732940" lon="-46.713699"><ele>750.5</ele></trkpt>
+      <trkpt lat="-23.732925" lon="-46.713691"><ele>750.5</ele></trkpt>
+      <trkpt lat="-23.732905" lon="-46.713679"><ele>748.9</ele></trkpt>
+      <trkpt lat="-23.732889" lon="-46.713661"><ele>748.9</ele></trkpt>
+      <trkpt lat="-23.732871" lon="-46.713620"><ele>748.9</ele></trkpt>
+      <trkpt lat="-23.732842" lon="-46.713552"><ele>748.9</ele></trkpt>
+      <trkpt lat="-23.732814" lon="-46.713501"><ele>748.9</ele></trkpt>
+      <trkpt lat="-23.732781" lon="-46.713454"><ele>746.6</ele></trkpt>
+      <trkpt lat="-23.732744" lon="-46.713425"><ele>746.6</ele></trkpt>
+      <trkpt lat="-23.732675" lon="-46.713384"><ele>746.6</ele></trkpt>
+      <trkpt lat="-23.732610" lon="-46.713345"><ele>746.2</ele></trkpt>
+      <trkpt lat="-23.732510" lon="-46.713276"><ele>746.2</ele></trkpt>
+      <trkpt lat="-23.732435" lon="-46.713224"><ele>746.2</ele></trkpt>
+      <trkpt lat="-23.732406" lon="-46.713190"><ele>746.0</ele></trkpt>
+      <trkpt lat="-23.732370" lon="-46.713120"><ele>746.0</ele></trkpt>
+      <trkpt lat="-23.732347" lon="-46.713068"><ele>746.4</ele></trkpt>
+      <trkpt lat="-23.732321" lon="-46.713028"><ele>746.4</ele></trkpt>
+      <trkpt lat="-23.732284" lon="-46.712972"><ele>746.4</ele></trkpt>
+      <trkpt lat="-23.732262" lon="-46.712925"><ele>746.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

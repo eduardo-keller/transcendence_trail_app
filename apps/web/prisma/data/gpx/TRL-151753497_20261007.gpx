@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Quinze</name>
+    <trkseg>
+      <trkpt lat="-23.624692" lon="-46.473198"><ele>803.6</ele></trkpt>
+      <trkpt lat="-23.624178" lon="-46.473003"><ele>809.9</ele></trkpt>
+      <trkpt lat="-23.623667" lon="-46.472803"><ele>816.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

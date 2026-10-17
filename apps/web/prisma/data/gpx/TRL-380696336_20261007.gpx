@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Antônio Gomes dos Santos</name>
+    <trkseg>
+      <trkpt lat="-23.280871" lon="-46.737901"><ele>803.4</ele></trkpt>
+      <trkpt lat="-23.280569" lon="-46.738447"><ele>815.9</ele></trkpt>
+      <trkpt lat="-23.280484" lon="-46.738687"><ele>820.0</ele></trkpt>
+      <trkpt lat="-23.280450" lon="-46.738804"><ele>826.7</ele></trkpt>
+      <trkpt lat="-23.280527" lon="-46.739204"><ele>833.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

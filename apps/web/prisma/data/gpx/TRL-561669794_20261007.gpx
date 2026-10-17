@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Teodosio de Andrade</name>
+    <trkseg>
+      <trkpt lat="-23.466332" lon="-46.720731"><ele>761.6</ele></trkpt>
+      <trkpt lat="-23.466228" lon="-46.720750"><ele>762.5</ele></trkpt>
+      <trkpt lat="-23.466206" lon="-46.720748"><ele>762.5</ele></trkpt>
+      <trkpt lat="-23.466163" lon="-46.720748"><ele>762.5</ele></trkpt>
+      <trkpt lat="-23.466111" lon="-46.720763"><ele>762.5</ele></trkpt>
+      <trkpt lat="-23.466049" lon="-46.720830"><ele>762.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

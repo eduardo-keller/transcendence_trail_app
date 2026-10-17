@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passagem 3</name>
+    <trkseg>
+      <trkpt lat="-23.529712" lon="-46.473180"><ele>814.2</ele></trkpt>
+      <trkpt lat="-23.529598" lon="-46.472458"><ele>810.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

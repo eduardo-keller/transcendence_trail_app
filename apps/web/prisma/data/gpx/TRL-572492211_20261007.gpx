@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Vinte</name>
+    <trkseg>
+      <trkpt lat="-23.431251" lon="-46.310870"><ele>777.1</ele></trkpt>
+      <trkpt lat="-23.431314" lon="-46.310974"><ele>776.9</ele></trkpt>
+      <trkpt lat="-23.431378" lon="-46.311093"><ele>776.9</ele></trkpt>
+      <trkpt lat="-23.431378" lon="-46.311093"><ele>776.9</ele></trkpt>
+      <trkpt lat="-23.431412" lon="-46.311008"><ele>776.9</ele></trkpt>
+      <trkpt lat="-23.431433" lon="-46.310976"><ele>776.9</ele></trkpt>
+      <trkpt lat="-23.431462" lon="-46.310950"><ele>777.1</ele></trkpt>
+      <trkpt lat="-23.431521" lon="-46.310905"><ele>777.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

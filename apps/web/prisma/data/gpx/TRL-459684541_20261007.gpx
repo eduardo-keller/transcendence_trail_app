@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Catarina Guilherme Serrano</name>
+    <trkseg>
+      <trkpt lat="-23.414306" lon="-46.512469"><ele>811.0</ele></trkpt>
+      <trkpt lat="-23.414316" lon="-46.511840"><ele>806.0</ele></trkpt>
+      <trkpt lat="-23.414323" lon="-46.511228"><ele>796.8</ele></trkpt>
+      <trkpt lat="-23.414334" lon="-46.510585"><ele>787.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>trilha Antonina</name>
+    <trkseg>
+      <trkpt lat="-23.313092" lon="-46.556956"><ele>761.4</ele></trkpt>
+      <trkpt lat="-23.312711" lon="-46.556269"><ele>769.6</ele></trkpt>
+      <trkpt lat="-23.312072" lon="-46.555437"><ele>760.4</ele></trkpt>
+      <trkpt lat="-23.311902" lon="-46.555307"><ele>758.6</ele></trkpt>
+      <trkpt lat="-23.311653" lon="-46.555147"><ele>758.1</ele></trkpt>
+      <trkpt lat="-23.311460" lon="-46.555012"><ele>756.9</ele></trkpt>
+      <trkpt lat="-23.311138" lon="-46.554857"><ele>759.0</ele></trkpt>
+      <trkpt lat="-23.310951" lon="-46.554753"><ele>758.5</ele></trkpt>
+      <trkpt lat="-23.310821" lon="-46.554537"><ele>763.9</ele></trkpt>
+      <trkpt lat="-23.310487" lon="-46.553915"><ele>761.2</ele></trkpt>
+      <trkpt lat="-23.310163" lon="-46.553302"><ele>766.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

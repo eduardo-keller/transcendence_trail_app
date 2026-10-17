@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Praça Itapecericanos</name>
+    <trkseg>
+      <trkpt lat="-23.710108" lon="-46.852693"><ele>816.1</ele></trkpt>
+      <trkpt lat="-23.712963" lon="-46.852933"><ele>833.2</ele></trkpt>
+      <trkpt lat="-23.712983" lon="-46.852813"><ele>830.4</ele></trkpt>
+      <trkpt lat="-23.712893" lon="-46.852832"><ele>827.5</ele></trkpt>
+      <trkpt lat="-23.712315" lon="-46.852783"><ele>824.6</ele></trkpt>
+      <trkpt lat="-23.710109" lon="-46.852624"><ele>815.1</ele></trkpt>
+      <trkpt lat="-23.710108" lon="-46.852693"><ele>816.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

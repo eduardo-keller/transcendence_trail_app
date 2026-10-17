@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Romualdo dos Santos Maico</name>
+    <trkseg>
+      <trkpt lat="-23.961107" lon="-46.279544"><ele>5.3</ele></trkpt>
+      <trkpt lat="-23.961023" lon="-46.279556"><ele>5.3</ele></trkpt>
+      <trkpt lat="-23.961023" lon="-46.279556"><ele>5.3</ele></trkpt>
+      <trkpt lat="-23.961006" lon="-46.279558"><ele>5.3</ele></trkpt>
+      <trkpt lat="-23.961107" lon="-46.279544"><ele>5.3</ele></trkpt>
+      <trkpt lat="-23.961117" lon="-46.279542"><ele>5.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

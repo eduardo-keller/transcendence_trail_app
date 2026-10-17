@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Angelina</name>
+    <trkseg>
+      <trkpt lat="-23.735135" lon="-46.706491"><ele>769.8</ele></trkpt>
+      <trkpt lat="-23.735002" lon="-46.706644"><ele>772.6</ele></trkpt>
+      <trkpt lat="-23.735049" lon="-46.706704"><ele>772.6</ele></trkpt>
+      <trkpt lat="-23.735089" lon="-46.706739"><ele>772.6</ele></trkpt>
+      <trkpt lat="-23.735129" lon="-46.706765"><ele>772.6</ele></trkpt>
+      <trkpt lat="-23.735150" lon="-46.706793"><ele>766.0</ele></trkpt>
+      <trkpt lat="-23.735190" lon="-46.706854"><ele>765.7</ele></trkpt>
+      <trkpt lat="-23.735199" lon="-46.706872"><ele>765.7</ele></trkpt>
+      <trkpt lat="-23.735204" lon="-46.706881"><ele>765.7</ele></trkpt>
+      <trkpt lat="-23.735213" lon="-46.706911"><ele>765.7</ele></trkpt>
+      <trkpt lat="-23.735214" lon="-46.706932"><ele>765.7</ele></trkpt>
+      <trkpt lat="-23.735211" lon="-46.706961"><ele>765.7</ele></trkpt>
+      <trkpt lat="-23.735123" lon="-46.707041"><ele>775.0</ele></trkpt>
+      <trkpt lat="-23.735025" lon="-46.707120"><ele>770.0</ele></trkpt>
+      <trkpt lat="-23.734891" lon="-46.706960"><ele>775.0</ele></trkpt>
+      <trkpt lat="-23.734973" lon="-46.706870"><ele>775.0</ele></trkpt>
+      <trkpt lat="-23.735089" lon="-46.706739"><ele>772.6</ele></trkpt>
+      <trkpt lat="-23.735199" lon="-46.706872"><ele>765.7</ele></trkpt>
+      <trkpt lat="-23.735261" lon="-46.706812"><ele>765.7</ele></trkpt>
+      <trkpt lat="-23.735342" lon="-46.706722"><ele>766.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

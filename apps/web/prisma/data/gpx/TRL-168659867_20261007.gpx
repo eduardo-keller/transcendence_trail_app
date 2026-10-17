@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Cerejeira</name>
+    <trkseg>
+      <trkpt lat="-23.736429" lon="-46.360430"><ele>786.7</ele></trkpt>
+      <trkpt lat="-23.736437" lon="-46.360540"><ele>786.7</ele></trkpt>
+      <trkpt lat="-23.736463" lon="-46.360679"><ele>786.7</ele></trkpt>
+      <trkpt lat="-23.736541" lon="-46.360839"><ele>793.3</ele></trkpt>
+      <trkpt lat="-23.736610" lon="-46.360927"><ele>793.3</ele></trkpt>
+      <trkpt lat="-23.736722" lon="-46.361005"><ele>793.5</ele></trkpt>
+      <trkpt lat="-23.737117" lon="-46.361157"><ele>796.5</ele></trkpt>
+      <trkpt lat="-23.737332" lon="-46.361265"><ele>790.1</ele></trkpt>
+      <trkpt lat="-23.737456" lon="-46.361355"><ele>794.0</ele></trkpt>
+      <trkpt lat="-23.737598" lon="-46.361500"><ele>794.0</ele></trkpt>
+      <trkpt lat="-23.737827" lon="-46.361804"><ele>794.5</ele></trkpt>
+      <trkpt lat="-23.737904" lon="-46.361881"><ele>797.3</ele></trkpt>
+      <trkpt lat="-23.738019" lon="-46.361925"><ele>796.1</ele></trkpt>
+      <trkpt lat="-23.738114" lon="-46.361913"><ele>796.1</ele></trkpt>
+      <trkpt lat="-23.738209" lon="-46.361853"><ele>790.1</ele></trkpt>
+      <trkpt lat="-23.738339" lon="-46.361742"><ele>791.2</ele></trkpt>
+      <trkpt lat="-23.738442" lon="-46.361691"><ele>791.2</ele></trkpt>
+      <trkpt lat="-23.738557" lon="-46.361669"><ele>788.4</ele></trkpt>
+      <trkpt lat="-23.738683" lon="-46.361693"><ele>788.4</ele></trkpt>
+      <trkpt lat="-23.738816" lon="-46.361763"><ele>789.3</ele></trkpt>
+      <trkpt lat="-23.738989" lon="-46.361886"><ele>782.9</ele></trkpt>
+      <trkpt lat="-23.739109" lon="-46.362002"><ele>785.7</ele></trkpt>
+      <trkpt lat="-23.739211" lon="-46.362138"><ele>779.1</ele></trkpt>
+      <trkpt lat="-23.739333" lon="-46.362315"><ele>780.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

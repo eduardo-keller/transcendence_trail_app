@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa da Percussão</name>
+    <trkseg>
+      <trkpt lat="-23.498689" lon="-46.588070"><ele>798.7</ele></trkpt>
+      <trkpt lat="-23.498819" lon="-46.588029"><ele>795.3</ele></trkpt>
+      <trkpt lat="-23.499059" lon="-46.587699"><ele>790.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

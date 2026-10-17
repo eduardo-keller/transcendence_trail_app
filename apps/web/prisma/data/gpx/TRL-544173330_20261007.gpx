@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Luigi Russolo</name>
+    <trkseg>
+      <trkpt lat="-23.734760" lon="-46.706798"><ele>777.7</ele></trkpt>
+      <trkpt lat="-23.734824" lon="-46.706643"><ele>777.7</ele></trkpt>
+      <trkpt lat="-23.734851" lon="-46.706571"><ele>777.7</ele></trkpt>
+      <trkpt lat="-23.734848" lon="-46.706507"><ele>774.6</ele></trkpt>
+      <trkpt lat="-23.734923" lon="-46.706438"><ele>769.8</ele></trkpt>
+      <trkpt lat="-23.735006" lon="-46.706344"><ele>769.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

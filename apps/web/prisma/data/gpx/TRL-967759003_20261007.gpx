@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Estrada Jardim da Serra</name>
+    <trkseg>
+      <trkpt lat="-23.348201" lon="-46.599500"><ele>833.1</ele></trkpt>
+      <trkpt lat="-23.348202" lon="-46.599366"><ele>833.1</ele></trkpt>
+      <trkpt lat="-23.348208" lon="-46.599266"><ele>836.3</ele></trkpt>
+      <trkpt lat="-23.348207" lon="-46.599180"><ele>836.3</ele></trkpt>
+      <trkpt lat="-23.348186" lon="-46.599122"><ele>826.4</ele></trkpt>
+      <trkpt lat="-23.348150" lon="-46.599071"><ele>826.4</ele></trkpt>
+      <trkpt lat="-23.348080" lon="-46.599010"><ele>832.2</ele></trkpt>
+      <trkpt lat="-23.348002" lon="-46.598957"><ele>832.2</ele></trkpt>
+      <trkpt lat="-23.347898" lon="-46.598894"><ele>826.3</ele></trkpt>
+      <trkpt lat="-23.347831" lon="-46.598851"><ele>826.3</ele></trkpt>
+      <trkpt lat="-23.347787" lon="-46.598806"><ele>826.3</ele></trkpt>
+      <trkpt lat="-23.347762" lon="-46.598743"><ele>833.5</ele></trkpt>
+      <trkpt lat="-23.347745" lon="-46.598662"><ele>833.5</ele></trkpt>
+      <trkpt lat="-23.347741" lon="-46.598546"><ele>833.5</ele></trkpt>
+      <trkpt lat="-23.347729" lon="-46.598465"><ele>841.0</ele></trkpt>
+      <trkpt lat="-23.347712" lon="-46.598401"><ele>841.0</ele></trkpt>
+      <trkpt lat="-23.347675" lon="-46.598335"><ele>841.0</ele></trkpt>
+      <trkpt lat="-23.347601" lon="-46.598277"><ele>837.3</ele></trkpt>
+      <trkpt lat="-23.347472" lon="-46.598192"><ele>849.4</ele></trkpt>
+      <trkpt lat="-23.347382" lon="-46.598115"><ele>849.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

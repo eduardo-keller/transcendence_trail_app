@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Oswaldo de Assis</name>
+    <trkseg>
+      <trkpt lat="-23.826639" lon="-46.837510"><ele>772.5</ele></trkpt>
+      <trkpt lat="-23.826303" lon="-46.837486"><ele>769.9</ele></trkpt>
+      <trkpt lat="-23.826245" lon="-46.837482"><ele>764.5</ele></trkpt>
+      <trkpt lat="-23.826192" lon="-46.837462"><ele>764.5</ele></trkpt>
+      <trkpt lat="-23.826112" lon="-46.837405"><ele>764.5</ele></trkpt>
+      <trkpt lat="-23.825979" lon="-46.837319"><ele>764.4</ele></trkpt>
+      <trkpt lat="-23.825859" lon="-46.837265"><ele>761.1</ele></trkpt>
+      <trkpt lat="-23.825737" lon="-46.837256"><ele>761.1</ele></trkpt>
+      <trkpt lat="-23.825455" lon="-46.837287"><ele>761.3</ele></trkpt>
+      <trkpt lat="-23.825180" lon="-46.837367"><ele>757.4</ele></trkpt>
+      <trkpt lat="-23.824955" lon="-46.837449"><ele>754.1</ele></trkpt>
+      <trkpt lat="-23.824840" lon="-46.837483"><ele>749.4</ele></trkpt>
+      <trkpt lat="-23.824730" lon="-46.837506"><ele>749.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

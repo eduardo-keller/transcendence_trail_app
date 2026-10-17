@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Avenida Miraí</name>
+    <trkseg>
+      <trkpt lat="-23.497095" lon="-46.417475"><ele>743.0</ele></trkpt>
+      <trkpt lat="-23.497176" lon="-46.417438"><ele>743.0</ele></trkpt>
+      <trkpt lat="-23.497339" lon="-46.417369"><ele>743.0</ele></trkpt>
+      <trkpt lat="-23.497498" lon="-46.417305"><ele>745.6</ele></trkpt>
+      <trkpt lat="-23.497650" lon="-46.417242"><ele>743.3</ele></trkpt>
+      <trkpt lat="-23.497777" lon="-46.417195"><ele>743.3</ele></trkpt>
+      <trkpt lat="-23.497939" lon="-46.417144"><ele>742.8</ele></trkpt>
+      <trkpt lat="-23.498088" lon="-46.417093"><ele>742.8</ele></trkpt>
+      <trkpt lat="-23.498280" lon="-46.417012"><ele>745.2</ele></trkpt>
+      <trkpt lat="-23.498342" lon="-46.416981"><ele>745.2</ele></trkpt>
+      <trkpt lat="-23.498414" lon="-46.416911"><ele>745.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

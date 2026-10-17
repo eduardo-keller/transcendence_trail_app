@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Caminho Padre Cícero</name>
+    <trkseg>
+      <trkpt lat="-23.924903" lon="-46.402093"><ele>3.8</ele></trkpt>
+      <trkpt lat="-23.924645" lon="-46.402570"><ele>3.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

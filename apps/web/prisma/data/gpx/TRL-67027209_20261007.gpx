@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Trinta e Nove</name>
+    <trkseg>
+      <trkpt lat="-23.746654" lon="-46.682940"><ele>752.4</ele></trkpt>
+      <trkpt lat="-23.746225" lon="-46.682392"><ele>770.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Trilha Da Cachoeira (A/B/C)</name>
+    <trkseg>
+      <trkpt lat="-23.984006" lon="-46.515146"><ele>38.6</ele></trkpt>
+      <trkpt lat="-23.983963" lon="-46.515111"><ele>27.3</ele></trkpt>
+      <trkpt lat="-23.983917" lon="-46.515057"><ele>27.3</ele></trkpt>
+      <trkpt lat="-23.983872" lon="-46.515034"><ele>27.3</ele></trkpt>
+      <trkpt lat="-23.983829" lon="-46.515021"><ele>27.3</ele></trkpt>
+      <trkpt lat="-23.983786" lon="-46.514994"><ele>27.3</ele></trkpt>
+      <trkpt lat="-23.983756" lon="-46.514960"><ele>27.3</ele></trkpt>
+      <trkpt lat="-23.983733" lon="-46.514910"><ele>26.2</ele></trkpt>
+      <trkpt lat="-23.983711" lon="-46.514876"><ele>26.2</ele></trkpt>
+      <trkpt lat="-23.983677" lon="-46.514851"><ele>20.8</ele></trkpt>
+      <trkpt lat="-23.983611" lon="-46.514822"><ele>20.8</ele></trkpt>
+      <trkpt lat="-23.983566" lon="-46.514777"><ele>20.8</ele></trkpt>
+      <trkpt lat="-23.983492" lon="-46.514670"><ele>20.8</ele></trkpt>
+      <trkpt lat="-23.983421" lon="-46.514576"><ele>23.3</ele></trkpt>
+      <trkpt lat="-23.983344" lon="-46.514423"><ele>23.3</ele></trkpt>
+      <trkpt lat="-23.983308" lon="-46.514285"><ele>24.0</ele></trkpt>
+      <trkpt lat="-23.983261" lon="-46.514050"><ele>24.0</ele></trkpt>
+      <trkpt lat="-23.983215" lon="-46.513841"><ele>21.7</ele></trkpt>
+      <trkpt lat="-23.983192" lon="-46.513795"><ele>20.5</ele></trkpt>
+      <trkpt lat="-23.983161" lon="-46.513766"><ele>20.5</ele></trkpt>
+      <trkpt lat="-23.983119" lon="-46.513756"><ele>20.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

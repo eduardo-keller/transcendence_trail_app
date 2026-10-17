@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua 3</name>
+    <trkseg>
+      <trkpt lat="-23.582660" lon="-46.810401"><ele>786.6</ele></trkpt>
+      <trkpt lat="-23.582371" lon="-46.809866"><ele>783.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

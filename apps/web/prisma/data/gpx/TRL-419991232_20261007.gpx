@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Estrada Lavorato</name>
+    <trkseg>
+      <trkpt lat="-23.639166" lon="-46.828072"><ele>773.1</ele></trkpt>
+      <trkpt lat="-23.639379" lon="-46.827907"><ele>777.4</ele></trkpt>
+      <trkpt lat="-23.639651" lon="-46.827647"><ele>773.2</ele></trkpt>
+      <trkpt lat="-23.639938" lon="-46.827314"><ele>779.9</ele></trkpt>
+      <trkpt lat="-23.640162" lon="-46.827003"><ele>779.8</ele></trkpt>
+      <trkpt lat="-23.640271" lon="-46.826818"><ele>779.8</ele></trkpt>
+      <trkpt lat="-23.640337" lon="-46.826627"><ele>785.2</ele></trkpt>
+      <trkpt lat="-23.640395" lon="-46.826346"><ele>789.6</ele></trkpt>
+      <trkpt lat="-23.640445" lon="-46.826209"><ele>791.3</ele></trkpt>
+      <trkpt lat="-23.640518" lon="-46.826111"><ele>791.3</ele></trkpt>
+      <trkpt lat="-23.640777" lon="-46.825937"><ele>796.4</ele></trkpt>
+      <trkpt lat="-23.640826" lon="-46.825916"><ele>796.4</ele></trkpt>
+      <trkpt lat="-23.640872" lon="-46.825908"><ele>796.4</ele></trkpt>
+      <trkpt lat="-23.641287" lon="-46.825940"><ele>801.7</ele></trkpt>
+      <trkpt lat="-23.641372" lon="-46.825935"><ele>801.7</ele></trkpt>
+      <trkpt lat="-23.641567" lon="-46.825871"><ele>802.9</ele></trkpt>
+      <trkpt lat="-23.641698" lon="-46.825829"><ele>802.9</ele></trkpt>
+      <trkpt lat="-23.641750" lon="-46.825815"><ele>802.9</ele></trkpt>
+      <trkpt lat="-23.641791" lon="-46.825819"><ele>802.9</ele></trkpt>
+      <trkpt lat="-23.641822" lon="-46.825835"><ele>795.3</ele></trkpt>
+      <trkpt lat="-23.642537" lon="-46.826508"><ele>786.9</ele></trkpt>
+      <trkpt lat="-23.644511" lon="-46.828060"><ele>779.2</ele></trkpt>
+      <trkpt lat="-23.644511" lon="-46.828060"><ele>779.2</ele></trkpt>
+      <trkpt lat="-23.645799" lon="-46.829091"><ele>766.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

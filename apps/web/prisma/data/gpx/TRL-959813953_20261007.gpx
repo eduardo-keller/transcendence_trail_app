@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua José Cain</name>
+    <trkseg>
+      <trkpt lat="-23.044226" lon="-47.002909"><ele>692.8</ele></trkpt>
+      <trkpt lat="-23.044485" lon="-47.002836"><ele>690.1</ele></trkpt>
+      <trkpt lat="-23.044654" lon="-47.002779"><ele>688.0</ele></trkpt>
+      <trkpt lat="-23.044838" lon="-47.002738"><ele>688.0</ele></trkpt>
+      <trkpt lat="-23.044948" lon="-47.002738"><ele>684.2</ele></trkpt>
+      <trkpt lat="-23.045030" lon="-47.002762"><ele>684.2</ele></trkpt>
+      <trkpt lat="-23.045116" lon="-47.002810"><ele>684.2</ele></trkpt>
+      <trkpt lat="-23.045194" lon="-47.002854"><ele>682.6</ele></trkpt>
+      <trkpt lat="-23.045471" lon="-47.003009"><ele>679.9</ele></trkpt>
+      <trkpt lat="-23.045791" lon="-47.003274"><ele>676.1</ele></trkpt>
+      <trkpt lat="-23.045991" lon="-47.003361"><ele>676.1</ele></trkpt>
+      <trkpt lat="-23.046105" lon="-47.003406"><ele>676.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Geraldo Eduardo de Freitas</name>
+    <trkseg>
+      <trkpt lat="-23.685902" lon="-46.461648"><ele>786.7</ele></trkpt>
+      <trkpt lat="-23.686008" lon="-46.461592"><ele>788.2</ele></trkpt>
+      <trkpt lat="-23.686121" lon="-46.461534"><ele>788.2</ele></trkpt>
+      <trkpt lat="-23.686223" lon="-46.461481"><ele>788.0</ele></trkpt>
+      <trkpt lat="-23.686223" lon="-46.461407"><ele>788.0</ele></trkpt>
+      <trkpt lat="-23.686245" lon="-46.461300"><ele>788.0</ele></trkpt>
+      <trkpt lat="-23.686308" lon="-46.461250"><ele>791.0</ele></trkpt>
+      <trkpt lat="-23.686308" lon="-46.461250"><ele>791.0</ele></trkpt>
+      <trkpt lat="-23.686412" lon="-46.461210"><ele>791.0</ele></trkpt>
+      <trkpt lat="-23.686522" lon="-46.461136"><ele>791.0</ele></trkpt>
+      <trkpt lat="-23.686776" lon="-46.461028"><ele>790.7</ele></trkpt>
+      <trkpt lat="-23.686944" lon="-46.460915"><ele>792.6</ele></trkpt>
+      <trkpt lat="-23.687217" lon="-46.460622"><ele>795.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

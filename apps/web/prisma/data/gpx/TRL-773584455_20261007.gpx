@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Kanji Miyasaka</name>
+    <trkseg>
+      <trkpt lat="-23.691541" lon="-46.366159"><ele>774.0</ele></trkpt>
+      <trkpt lat="-23.690235" lon="-46.365085"><ele>771.7</ele></trkpt>
+      <trkpt lat="-23.688973" lon="-46.364204"><ele>770.1</ele></trkpt>
+      <trkpt lat="-23.688264" lon="-46.363774"><ele>770.1</ele></trkpt>
+      <trkpt lat="-23.688191" lon="-46.363764"><ele>769.7</ele></trkpt>
+      <trkpt lat="-23.688128" lon="-46.363781"><ele>769.7</ele></trkpt>
+      <trkpt lat="-23.688077" lon="-46.363827"><ele>769.7</ele></trkpt>
+      <trkpt lat="-23.687940" lon="-46.364043"><ele>770.1</ele></trkpt>
+      <trkpt lat="-23.687771" lon="-46.364318"><ele>771.7</ele></trkpt>
+      <trkpt lat="-23.687726" lon="-46.364375"><ele>771.7</ele></trkpt>
+      <trkpt lat="-23.687686" lon="-46.364404"><ele>771.7</ele></trkpt>
+      <trkpt lat="-23.687623" lon="-46.364423"><ele>771.3</ele></trkpt>
+      <trkpt lat="-23.687623" lon="-46.364423"><ele>771.3</ele></trkpt>
+      <trkpt lat="-23.687532" lon="-46.364438"><ele>771.3</ele></trkpt>
+      <trkpt lat="-23.687532" lon="-46.364438"><ele>771.3</ele></trkpt>
+      <trkpt lat="-23.686977" lon="-46.364530"><ele>779.5</ele></trkpt>
+      <trkpt lat="-23.686949" lon="-46.364540"><ele>779.5</ele></trkpt>
+      <trkpt lat="-23.686925" lon="-46.364561"><ele>779.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

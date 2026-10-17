@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>viela</name>
+    <trkseg>
+      <trkpt lat="-23.604954" lon="-46.909918"><ele>803.4</ele></trkpt>
+      <trkpt lat="-23.604877" lon="-46.909530"><ele>799.8</ele></trkpt>
+      <trkpt lat="-23.604823" lon="-46.909407"><ele>804.7</ele></trkpt>
+      <trkpt lat="-23.604950" lon="-46.909263"><ele>786.2</ele></trkpt>
+      <trkpt lat="-23.605013" lon="-46.909111"><ele>786.2</ele></trkpt>
+      <trkpt lat="-23.605011" lon="-46.909065"><ele>786.2</ele></trkpt>
+      <trkpt lat="-23.605004" lon="-46.908919"><ele>783.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

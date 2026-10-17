@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Praça Simon Bolivar Almeida Santos</name>
+    <trkseg>
+      <trkpt lat="-23.499694" lon="-46.510224"><ele>753.6</ele></trkpt>
+      <trkpt lat="-23.499661" lon="-46.510143"><ele>753.6</ele></trkpt>
+      <trkpt lat="-23.499584" lon="-46.509960"><ele>751.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Amataxiro</name>
+    <trkseg>
+      <trkpt lat="-23.583182" lon="-46.525634"><ele>764.5</ele></trkpt>
+      <trkpt lat="-23.583232" lon="-46.525573"><ele>762.4</ele></trkpt>
+      <trkpt lat="-23.583253" lon="-46.525540"><ele>762.4</ele></trkpt>
+      <trkpt lat="-23.583277" lon="-46.525477"><ele>762.4</ele></trkpt>
+      <trkpt lat="-23.583302" lon="-46.525382"><ele>761.9</ele></trkpt>
+      <trkpt lat="-23.583305" lon="-46.525331"><ele>761.9</ele></trkpt>
+      <trkpt lat="-23.583302" lon="-46.525283"><ele>761.9</ele></trkpt>
+      <trkpt lat="-23.583294" lon="-46.525253"><ele>761.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

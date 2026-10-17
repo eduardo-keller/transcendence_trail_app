@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa do Paraíba</name>
+    <trkseg>
+      <trkpt lat="-23.446210" lon="-46.689095"><ele>816.5</ele></trkpt>
+      <trkpt lat="-23.446199" lon="-46.689027"><ele>820.1</ele></trkpt>
+      <trkpt lat="-23.446199" lon="-46.689001"><ele>820.1</ele></trkpt>
+      <trkpt lat="-23.446212" lon="-46.688986"><ele>820.1</ele></trkpt>
+      <trkpt lat="-23.446215" lon="-46.688975"><ele>820.1</ele></trkpt>
+      <trkpt lat="-23.446216" lon="-46.688964"><ele>820.1</ele></trkpt>
+      <trkpt lat="-23.446212" lon="-46.688932"><ele>820.1</ele></trkpt>
+      <trkpt lat="-23.446204" lon="-46.688887"><ele>820.1</ele></trkpt>
+      <trkpt lat="-23.446195" lon="-46.688835"><ele>820.1</ele></trkpt>
+      <trkpt lat="-23.446205" lon="-46.688790"><ele>820.1</ele></trkpt>
+      <trkpt lat="-23.446227" lon="-46.688776"><ele>820.1</ele></trkpt>
+      <trkpt lat="-23.446281" lon="-46.688770"><ele>827.3</ele></trkpt>
+      <trkpt lat="-23.446323" lon="-46.688750"><ele>827.3</ele></trkpt>
+      <trkpt lat="-23.446371" lon="-46.688731"><ele>827.2</ele></trkpt>
+      <trkpt lat="-23.446440" lon="-46.688721"><ele>827.2</ele></trkpt>
+      <trkpt lat="-23.446475" lon="-46.688712"><ele>827.2</ele></trkpt>
+      <trkpt lat="-23.446609" lon="-46.688677"><ele>829.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

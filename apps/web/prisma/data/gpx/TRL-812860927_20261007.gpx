@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Cinco</name>
+    <trkseg>
+      <trkpt lat="-23.409362" lon="-46.900687"><ele>729.6</ele></trkpt>
+      <trkpt lat="-23.409377" lon="-46.900494"><ele>729.6</ele></trkpt>
+      <trkpt lat="-23.409401" lon="-46.900448"><ele>729.6</ele></trkpt>
+      <trkpt lat="-23.409471" lon="-46.900454"><ele>729.6</ele></trkpt>
+      <trkpt lat="-23.409540" lon="-46.900416"><ele>726.7</ele></trkpt>
+      <trkpt lat="-23.409548" lon="-46.900382"><ele>726.7</ele></trkpt>
+      <trkpt lat="-23.409567" lon="-46.900307"><ele>726.7</ele></trkpt>
+      <trkpt lat="-23.409569" lon="-46.900159"><ele>726.7</ele></trkpt>
+      <trkpt lat="-23.409521" lon="-46.900057"><ele>725.9</ele></trkpt>
+      <trkpt lat="-23.409518" lon="-46.900019"><ele>725.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

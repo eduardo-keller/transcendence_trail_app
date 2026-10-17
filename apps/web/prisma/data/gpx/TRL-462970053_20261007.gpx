@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Shalon</name>
+    <trkseg>
+      <trkpt lat="-23.446106" lon="-46.689358"><ele>815.8</ele></trkpt>
+      <trkpt lat="-23.446221" lon="-46.689335"><ele>815.8</ele></trkpt>
+      <trkpt lat="-23.446254" lon="-46.689326"><ele>824.3</ele></trkpt>
+      <trkpt lat="-23.446329" lon="-46.689311"><ele>824.3</ele></trkpt>
+      <trkpt lat="-23.446343" lon="-46.689320"><ele>824.3</ele></trkpt>
+      <trkpt lat="-23.446360" lon="-46.689336"><ele>824.3</ele></trkpt>
+      <trkpt lat="-23.446372" lon="-46.689360"><ele>824.3</ele></trkpt>
+      <trkpt lat="-23.446373" lon="-46.689477"><ele>824.3</ele></trkpt>
+      <trkpt lat="-23.446385" lon="-46.689546"><ele>824.3</ele></trkpt>
+      <trkpt lat="-23.446392" lon="-46.689633"><ele>821.9</ele></trkpt>
+      <trkpt lat="-23.446400" lon="-46.689673"><ele>821.9</ele></trkpt>
+      <trkpt lat="-23.446423" lon="-46.689702"><ele>821.9</ele></trkpt>
+      <trkpt lat="-23.446467" lon="-46.689719"><ele>821.9</ele></trkpt>
+      <trkpt lat="-23.446557" lon="-46.689741"><ele>822.0</ele></trkpt>
+      <trkpt lat="-23.446648" lon="-46.689772"><ele>822.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

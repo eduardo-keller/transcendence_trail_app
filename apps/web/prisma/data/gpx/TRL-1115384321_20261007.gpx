@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Estrada Marcelo Delubio</name>
+    <trkseg>
+      <trkpt lat="-23.430123" lon="-46.608215"><ele>905.4</ele></trkpt>
+      <trkpt lat="-23.430239" lon="-46.608470"><ele>908.3</ele></trkpt>
+      <trkpt lat="-23.430342" lon="-46.608569"><ele>917.2</ele></trkpt>
+      <trkpt lat="-23.430588" lon="-46.608652"><ele>921.9</ele></trkpt>
+      <trkpt lat="-23.430735" lon="-46.608745"><ele>923.7</ele></trkpt>
+      <trkpt lat="-23.430734" lon="-46.611196"><ele>942.3</ele></trkpt>
+      <trkpt lat="-23.430734" lon="-46.613824"><ele>973.5</ele></trkpt>
+      <trkpt lat="-23.430801" lon="-46.614135"><ele>979.3</ele></trkpt>
+      <trkpt lat="-23.430921" lon="-46.614345"><ele>986.9</ele></trkpt>
+      <trkpt lat="-23.431046" lon="-46.615132"><ele>1000.5</ele></trkpt>
+      <trkpt lat="-23.431072" lon="-46.615381"><ele>1006.3</ele></trkpt>
+      <trkpt lat="-23.431285" lon="-46.616061"><ele>1028.8</ele></trkpt>
+      <trkpt lat="-23.431389" lon="-46.616616"><ele>1039.4</ele></trkpt>
+      <trkpt lat="-23.431362" lon="-46.616944"><ele>1047.2</ele></trkpt>
+      <trkpt lat="-23.431305" lon="-46.617216"><ele>1056.0</ele></trkpt>
+      <trkpt lat="-23.431217" lon="-46.617318"><ele>1055.9</ele></trkpt>
+      <trkpt lat="-23.430578" lon="-46.617488"><ele>1051.9</ele></trkpt>
+      <trkpt lat="-23.430245" lon="-46.617658"><ele>1064.3</ele></trkpt>
+      <trkpt lat="-23.429908" lon="-46.617680"><ele>1069.4</ele></trkpt>
+      <trkpt lat="-23.429393" lon="-46.617992"><ele>1078.6</ele></trkpt>
+      <trkpt lat="-23.429139" lon="-46.618054"><ele>1075.6</ele></trkpt>
+      <trkpt lat="-23.428422" lon="-46.618450"><ele>1071.8</ele></trkpt>
+      <trkpt lat="-23.427975" lon="-46.618632"><ele>1075.0</ele></trkpt>
+      <trkpt lat="-23.427460" lon="-46.618807"><ele>1084.5</ele></trkpt>
+      <trkpt lat="-23.427040" lon="-46.618971"><ele>1069.9</ele></trkpt>
+      <trkpt lat="-23.426795" lon="-46.619135"><ele>1081.3</ele></trkpt>
+      <trkpt lat="-23.425990" lon="-46.619447"><ele>1091.7</ele></trkpt>
+      <trkpt lat="-23.425564" lon="-46.619662"><ele>1103.5</ele></trkpt>
+      <trkpt lat="-23.425315" lon="-46.619758"><ele>1108.6</ele></trkpt>
+      <trkpt lat="-23.424566" lon="-46.620002"><ele>1126.5</ele></trkpt>
+      <trkpt lat="-23.424336" lon="-46.620095"><ele>1126.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

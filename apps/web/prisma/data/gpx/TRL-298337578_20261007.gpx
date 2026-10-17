@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Peçanha</name>
+    <trkseg>
+      <trkpt lat="-23.458947" lon="-46.509233"><ele>772.8</ele></trkpt>
+      <trkpt lat="-23.459011" lon="-46.508624"><ele>771.8</ele></trkpt>
+      <trkpt lat="-23.459085" lon="-46.508022"><ele>771.9</ele></trkpt>
+      <trkpt lat="-23.459099" lon="-46.507923"><ele>771.9</ele></trkpt>
+      <trkpt lat="-23.459122" lon="-46.507695"><ele>771.4</ele></trkpt>
+      <trkpt lat="-23.459157" lon="-46.507424"><ele>771.1</ele></trkpt>
+      <trkpt lat="-23.459221" lon="-46.506822"><ele>766.2</ele></trkpt>
+      <trkpt lat="-23.459273" lon="-46.506830"><ele>766.2</ele></trkpt>
+      <trkpt lat="-23.459342" lon="-46.506241"><ele>759.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Anezia de Paula Dias</name>
+    <trkseg>
+      <trkpt lat="-23.451748" lon="-46.683012"><ele>764.1</ele></trkpt>
+      <trkpt lat="-23.451640" lon="-46.682845"><ele>760.3</ele></trkpt>
+      <trkpt lat="-23.451587" lon="-46.682784"><ele>760.3</ele></trkpt>
+      <trkpt lat="-23.451558" lon="-46.682749"><ele>760.3</ele></trkpt>
+      <trkpt lat="-23.451489" lon="-46.682679"><ele>754.6</ele></trkpt>
+      <trkpt lat="-23.451361" lon="-46.682558"><ele>753.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

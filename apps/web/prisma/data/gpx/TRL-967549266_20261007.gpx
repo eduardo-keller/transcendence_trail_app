@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Tiziu</name>
+    <trkseg>
+      <trkpt lat="-23.327018" lon="-46.695329"><ele>829.7</ele></trkpt>
+      <trkpt lat="-23.327036" lon="-46.695369"><ele>829.7</ele></trkpt>
+      <trkpt lat="-23.327051" lon="-46.695378"><ele>829.7</ele></trkpt>
+      <trkpt lat="-23.327068" lon="-46.695378"><ele>829.7</ele></trkpt>
+      <trkpt lat="-23.327098" lon="-46.695366"><ele>829.7</ele></trkpt>
+      <trkpt lat="-23.327506" lon="-46.695129"><ele>827.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

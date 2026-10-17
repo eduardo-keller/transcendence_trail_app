@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Mateus Orefice</name>
+    <trkseg>
+      <trkpt lat="-23.462523" lon="-46.593857"><ele>774.6</ele></trkpt>
+      <trkpt lat="-23.462617" lon="-46.593858"><ele>774.6</ele></trkpt>
+      <trkpt lat="-23.462677" lon="-46.593857"><ele>773.0</ele></trkpt>
+      <trkpt lat="-23.462751" lon="-46.593861"><ele>773.0</ele></trkpt>
+      <trkpt lat="-23.462791" lon="-46.593868"><ele>773.0</ele></trkpt>
+      <trkpt lat="-23.462847" lon="-46.593887"><ele>773.0</ele></trkpt>
+      <trkpt lat="-23.462901" lon="-46.593900"><ele>773.0</ele></trkpt>
+      <trkpt lat="-23.462969" lon="-46.593910"><ele>775.2</ele></trkpt>
+      <trkpt lat="-23.463029" lon="-46.593919"><ele>775.2</ele></trkpt>
+      <trkpt lat="-23.463070" lon="-46.593922"><ele>775.2</ele></trkpt>
+      <trkpt lat="-23.463105" lon="-46.593923"><ele>775.2</ele></trkpt>
+      <trkpt lat="-23.463142" lon="-46.593920"><ele>775.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

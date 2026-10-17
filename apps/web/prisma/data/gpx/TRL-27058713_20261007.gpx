@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua José de Assis Alvarenga</name>
+    <trkseg>
+      <trkpt lat="-23.635792" lon="-46.459102"><ele>843.2</ele></trkpt>
+      <trkpt lat="-23.635747" lon="-46.459012"><ele>846.3</ele></trkpt>
+      <trkpt lat="-23.635680" lon="-46.458962"><ele>845.7</ele></trkpt>
+      <trkpt lat="-23.635581" lon="-46.458897"><ele>845.7</ele></trkpt>
+      <trkpt lat="-23.635492" lon="-46.458831"><ele>845.7</ele></trkpt>
+      <trkpt lat="-23.635440" lon="-46.458806"><ele>845.7</ele></trkpt>
+      <trkpt lat="-23.635390" lon="-46.458782"><ele>844.6</ele></trkpt>
+      <trkpt lat="-23.635343" lon="-46.458760"><ele>844.6</ele></trkpt>
+      <trkpt lat="-23.635284" lon="-46.458723"><ele>849.7</ele></trkpt>
+      <trkpt lat="-23.635241" lon="-46.458679"><ele>849.7</ele></trkpt>
+      <trkpt lat="-23.635193" lon="-46.458634"><ele>849.7</ele></trkpt>
+      <trkpt lat="-23.635153" lon="-46.458602"><ele>849.7</ele></trkpt>
+      <trkpt lat="-23.635096" lon="-46.458572"><ele>845.6</ele></trkpt>
+      <trkpt lat="-23.635009" lon="-46.458529"><ele>845.6</ele></trkpt>
+      <trkpt lat="-23.634989" lon="-46.458485"><ele>845.6</ele></trkpt>
+      <trkpt lat="-23.634960" lon="-46.458447"><ele>851.0</ele></trkpt>
+      <trkpt lat="-23.634917" lon="-46.458414"><ele>851.0</ele></trkpt>
+      <trkpt lat="-23.634804" lon="-46.458343"><ele>847.4</ele></trkpt>
+      <trkpt lat="-23.634622" lon="-46.458241"><ele>847.4</ele></trkpt>
+      <trkpt lat="-23.634556" lon="-46.458207"><ele>844.2</ele></trkpt>
+      <trkpt lat="-23.634417" lon="-46.458106"><ele>847.0</ele></trkpt>
+      <trkpt lat="-23.634368" lon="-46.458078"><ele>847.0</ele></trkpt>
+      <trkpt lat="-23.634339" lon="-46.458075"><ele>847.0</ele></trkpt>
+      <trkpt lat="-23.634314" lon="-46.458077"><ele>847.0</ele></trkpt>
+      <trkpt lat="-23.634287" lon="-46.458080"><ele>844.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

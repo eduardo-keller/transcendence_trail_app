@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Praça Doutor Hélio Siqueira</name>
+    <trkseg>
+      <trkpt lat="-23.652199" lon="-46.683631"><ele>792.7</ele></trkpt>
+      <trkpt lat="-23.652256" lon="-46.683540"><ele>792.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

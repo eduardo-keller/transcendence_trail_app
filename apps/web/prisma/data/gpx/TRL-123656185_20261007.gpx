@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Antonieta</name>
+    <trkseg>
+      <trkpt lat="-23.690640" lon="-46.637081"><ele>803.5</ele></trkpt>
+      <trkpt lat="-23.690464" lon="-46.636836"><ele>803.5</ele></trkpt>
+      <trkpt lat="-23.690381" lon="-46.636730"><ele>809.8</ele></trkpt>
+      <trkpt lat="-23.690291" lon="-46.636533"><ele>809.8</ele></trkpt>
+      <trkpt lat="-23.690297" lon="-46.636425"><ele>810.0</ele></trkpt>
+      <trkpt lat="-23.690310" lon="-46.636267"><ele>810.0</ele></trkpt>
+      <trkpt lat="-23.690278" lon="-46.636136"><ele>817.5</ele></trkpt>
+      <trkpt lat="-23.690238" lon="-46.636086"><ele>817.5</ele></trkpt>
+      <trkpt lat="-23.690182" lon="-46.636116"><ele>817.5</ele></trkpt>
+      <trkpt lat="-23.690112" lon="-46.636110"><ele>825.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

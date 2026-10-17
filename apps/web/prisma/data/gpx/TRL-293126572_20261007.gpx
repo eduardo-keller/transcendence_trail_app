@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua João Demião de Oliveira</name>
+    <trkseg>
+      <trkpt lat="-23.727540" lon="-46.526881"><ele>851.9</ele></trkpt>
+      <trkpt lat="-23.727464" lon="-46.526812"><ele>851.9</ele></trkpt>
+      <trkpt lat="-23.727404" lon="-46.526722"><ele>848.0</ele></trkpt>
+      <trkpt lat="-23.727316" lon="-46.526643"><ele>839.6</ele></trkpt>
+      <trkpt lat="-23.727203" lon="-46.526539"><ele>839.6</ele></trkpt>
+      <trkpt lat="-23.727173" lon="-46.526507"><ele>836.1</ele></trkpt>
+      <trkpt lat="-23.726993" lon="-46.526459"><ele>829.1</ele></trkpt>
+      <trkpt lat="-23.726805" lon="-46.526431"><ele>825.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

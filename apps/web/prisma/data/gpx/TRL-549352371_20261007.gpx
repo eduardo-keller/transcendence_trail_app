@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Três</name>
+    <trkseg>
+      <trkpt lat="-23.764429" lon="-46.730706"><ele>760.9</ele></trkpt>
+      <trkpt lat="-23.764625" lon="-46.730584"><ele>762.4</ele></trkpt>
+      <trkpt lat="-23.764775" lon="-46.730511"><ele>762.4</ele></trkpt>
+      <trkpt lat="-23.764904" lon="-46.730476"><ele>763.9</ele></trkpt>
+      <trkpt lat="-23.765076" lon="-46.730480"><ele>763.9</ele></trkpt>
+      <trkpt lat="-23.765351" lon="-46.730511"><ele>767.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

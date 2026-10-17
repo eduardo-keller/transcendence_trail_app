@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Avenida Luiz Ferreira da Silva</name>
+    <trkseg>
+      <trkpt lat="-23.575234" lon="-46.557152"><ele>782.3</ele></trkpt>
+      <trkpt lat="-23.575118" lon="-46.557654"><ele>788.9</ele></trkpt>
+      <trkpt lat="-23.574962" lon="-46.558290"><ele>789.5</ele></trkpt>
+      <trkpt lat="-23.574646" lon="-46.559644"><ele>789.9</ele></trkpt>
+      <trkpt lat="-23.574184" lon="-46.561521"><ele>791.2</ele></trkpt>
+      <trkpt lat="-23.574088" lon="-46.561938"><ele>786.7</ele></trkpt>
+      <trkpt lat="-23.573990" lon="-46.562361"><ele>793.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

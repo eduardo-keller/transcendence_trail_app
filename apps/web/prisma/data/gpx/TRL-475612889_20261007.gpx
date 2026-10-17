@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Via de Pedestres Cachoeira das Araras</name>
+    <trkseg>
+      <trkpt lat="-23.457333" lon="-46.662696"><ele>815.0</ele></trkpt>
+      <trkpt lat="-23.457311" lon="-46.662730"><ele>815.0</ele></trkpt>
+      <trkpt lat="-23.457199" lon="-46.662792"><ele>815.0</ele></trkpt>
+      <trkpt lat="-23.457145" lon="-46.662818"><ele>815.0</ele></trkpt>
+      <trkpt lat="-23.457145" lon="-46.662818"><ele>815.0</ele></trkpt>
+      <trkpt lat="-23.457054" lon="-46.662855"><ele>811.8</ele></trkpt>
+      <trkpt lat="-23.456965" lon="-46.662866"><ele>811.8</ele></trkpt>
+      <trkpt lat="-23.456902" lon="-46.662881"><ele>811.8</ele></trkpt>
+      <trkpt lat="-23.456848" lon="-46.662899"><ele>811.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

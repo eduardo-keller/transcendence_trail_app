@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Via de Pedestre Chão de Esmeraldas</name>
+    <trkseg>
+      <trkpt lat="-23.480408" lon="-46.570797"><ele>736.7</ele></trkpt>
+      <trkpt lat="-23.480588" lon="-46.571190"><ele>738.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Via de Pedestre Lantana</name>
+    <trkseg>
+      <trkpt lat="-23.483163" lon="-46.573899"><ele>741.5</ele></trkpt>
+      <trkpt lat="-23.483137" lon="-46.573847"><ele>741.5</ele></trkpt>
+      <trkpt lat="-23.483014" lon="-46.573601"><ele>742.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

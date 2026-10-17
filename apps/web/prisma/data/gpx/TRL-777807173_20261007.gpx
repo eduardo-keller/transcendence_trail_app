@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Herculano Cornélio dos Santos</name>
+    <trkseg>
+      <trkpt lat="-23.651968" lon="-46.435544"><ele>829.5</ele></trkpt>
+      <trkpt lat="-23.651199" lon="-46.435725"><ele>859.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

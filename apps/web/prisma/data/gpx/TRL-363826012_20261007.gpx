@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passagem da Vitória</name>
+    <trkseg>
+      <trkpt lat="-23.449587" lon="-46.690494"><ele>753.2</ele></trkpt>
+      <trkpt lat="-23.449529" lon="-46.690489"><ele>753.5</ele></trkpt>
+      <trkpt lat="-23.449424" lon="-46.690497"><ele>753.5</ele></trkpt>
+      <trkpt lat="-23.449358" lon="-46.690493"><ele>753.5</ele></trkpt>
+      <trkpt lat="-23.449201" lon="-46.690535"><ele>758.2</ele></trkpt>
+      <trkpt lat="-23.449007" lon="-46.690653"><ele>768.9</ele></trkpt>
+      <trkpt lat="-23.448988" lon="-46.690658"><ele>768.9</ele></trkpt>
+      <trkpt lat="-23.448694" lon="-46.690742"><ele>765.4</ele></trkpt>
+      <trkpt lat="-23.448568" lon="-46.690763"><ele>765.4</ele></trkpt>
+      <trkpt lat="-23.448383" lon="-46.690837"><ele>770.0</ele></trkpt>
+      <trkpt lat="-23.448317" lon="-46.690845"><ele>770.0</ele></trkpt>
+      <trkpt lat="-23.448235" lon="-46.690849"><ele>770.0</ele></trkpt>
+      <trkpt lat="-23.448166" lon="-46.690844"><ele>770.6</ele></trkpt>
+      <trkpt lat="-23.448100" lon="-46.690818"><ele>770.6</ele></trkpt>
+      <trkpt lat="-23.448044" lon="-46.690803"><ele>770.6</ele></trkpt>
+      <trkpt lat="-23.448009" lon="-46.690801"><ele>770.6</ele></trkpt>
+      <trkpt lat="-23.447897" lon="-46.690822"><ele>771.9</ele></trkpt>
+      <trkpt lat="-23.447786" lon="-46.690825"><ele>771.9</ele></trkpt>
+      <trkpt lat="-23.447732" lon="-46.690814"><ele>771.9</ele></trkpt>
+      <trkpt lat="-23.447658" lon="-46.690782"><ele>771.9</ele></trkpt>
+      <trkpt lat="-23.447551" lon="-46.690739"><ele>774.1</ele></trkpt>
+      <trkpt lat="-23.447513" lon="-46.690689"><ele>777.6</ele></trkpt>
+      <trkpt lat="-23.447503" lon="-46.690672"><ele>777.6</ele></trkpt>
+      <trkpt lat="-23.447491" lon="-46.690645"><ele>777.6</ele></trkpt>
+      <trkpt lat="-23.447449" lon="-46.690653"><ele>777.6</ele></trkpt>
+      <trkpt lat="-23.447392" lon="-46.690664"><ele>777.6</ele></trkpt>
+      <trkpt lat="-23.447353" lon="-46.690688"><ele>779.3</ele></trkpt>
+      <trkpt lat="-23.447363" lon="-46.690733"><ele>774.1</ele></trkpt>
+      <trkpt lat="-23.447363" lon="-46.690733"><ele>774.1</ele></trkpt>
+      <trkpt lat="-23.447274" lon="-46.690736"><ele>773.8</ele></trkpt>
+      <trkpt lat="-23.447181" lon="-46.690893"><ele>773.8</ele></trkpt>
+      <trkpt lat="-23.447049" lon="-46.690952"><ele>782.2</ele></trkpt>
+      <trkpt lat="-23.446948" lon="-46.691031"><ele>786.2</ele></trkpt>
+      <trkpt lat="-23.446905" lon="-46.691031"><ele>786.2</ele></trkpt>
+      <trkpt lat="-23.446856" lon="-46.691028"><ele>786.2</ele></trkpt>
+      <trkpt lat="-23.446844" lon="-46.691031"><ele>786.2</ele></trkpt>
+      <trkpt lat="-23.446830" lon="-46.691047"><ele>786.2</ele></trkpt>
+      <trkpt lat="-23.446763" lon="-46.691170"><ele>792.8</ele></trkpt>
+      <trkpt lat="-23.446748" lon="-46.691173"><ele>792.8</ele></trkpt>
+      <trkpt lat="-23.446739" lon="-46.691170"><ele>792.8</ele></trkpt>
+      <trkpt lat="-23.446682" lon="-46.691130"><ele>792.8</ele></trkpt>
+      <trkpt lat="-23.446578" lon="-46.691066"><ele>792.8</ele></trkpt>
+      <trkpt lat="-23.446445" lon="-46.690935"><ele>808.7</ele></trkpt>
+      <trkpt lat="-23.446234" lon="-46.690818"><ele>811.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

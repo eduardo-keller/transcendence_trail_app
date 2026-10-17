@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passarela Cicillo Matarazzo</name>
+    <trkseg>
+      <trkpt lat="-23.588873" lon="-46.651727"><ele>765.6</ele></trkpt>
+      <trkpt lat="-23.588879" lon="-46.651676"><ele>765.6</ele></trkpt>
+      <trkpt lat="-23.588879" lon="-46.651676"><ele>765.6</ele></trkpt>
+      <trkpt lat="-23.588901" lon="-46.651489"><ele>769.0</ele></trkpt>
+      <trkpt lat="-23.588953" lon="-46.651298"><ele>769.0</ele></trkpt>
+      <trkpt lat="-23.589078" lon="-46.651216"><ele>766.9</ele></trkpt>
+      <trkpt lat="-23.589589" lon="-46.652445"><ele>759.1</ele></trkpt>
+      <trkpt lat="-23.589595" lon="-46.652490"><ele>759.1</ele></trkpt>
+      <trkpt lat="-23.589580" lon="-46.652536"><ele>759.5</ele></trkpt>
+      <trkpt lat="-23.589549" lon="-46.652564"><ele>759.5</ele></trkpt>
+      <trkpt lat="-23.589510" lon="-46.652580"><ele>759.5</ele></trkpt>
+      <trkpt lat="-23.589433" lon="-46.652567"><ele>759.5</ele></trkpt>
+      <trkpt lat="-23.589313" lon="-46.652529"><ele>759.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

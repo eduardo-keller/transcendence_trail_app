@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Benedito Rodrigues</name>
+    <trkseg>
+      <trkpt lat="-23.488123" lon="-46.277298"><ele>757.3</ele></trkpt>
+      <trkpt lat="-23.487351" lon="-46.277312"><ele>754.0</ele></trkpt>
+      <trkpt lat="-23.486996" lon="-46.277312"><ele>753.1</ele></trkpt>
+      <trkpt lat="-23.486497" lon="-46.277308"><ele>752.6</ele></trkpt>
+      <trkpt lat="-23.486244" lon="-46.277310"><ele>753.7</ele></trkpt>
+      <trkpt lat="-23.486024" lon="-46.277305"><ele>753.7</ele></trkpt>
+      <trkpt lat="-23.485938" lon="-46.277297"><ele>758.5</ele></trkpt>
+      <trkpt lat="-23.485875" lon="-46.277275"><ele>758.5</ele></trkpt>
+      <trkpt lat="-23.485808" lon="-46.277241"><ele>758.5</ele></trkpt>
+      <trkpt lat="-23.485695" lon="-46.277161"><ele>758.5</ele></trkpt>
+      <trkpt lat="-23.485607" lon="-46.277104"><ele>763.5</ele></trkpt>
+      <trkpt lat="-23.485510" lon="-46.277014"><ele>758.3</ele></trkpt>
+      <trkpt lat="-23.485443" lon="-46.276997"><ele>758.3</ele></trkpt>
+      <trkpt lat="-23.485274" lon="-46.276990"><ele>759.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

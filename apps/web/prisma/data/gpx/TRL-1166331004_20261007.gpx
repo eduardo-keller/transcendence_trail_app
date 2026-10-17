@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Toquio</name>
+    <trkseg>
+      <trkpt lat="-23.681474" lon="-46.612113"><ele>802.8</ele></trkpt>
+      <trkpt lat="-23.681596" lon="-46.612006"><ele>794.7</ele></trkpt>
+      <trkpt lat="-23.681692" lon="-46.611919"><ele>794.7</ele></trkpt>
+      <trkpt lat="-23.681894" lon="-46.611806"><ele>790.4</ele></trkpt>
+      <trkpt lat="-23.681940" lon="-46.611786"><ele>790.4</ele></trkpt>
+      <trkpt lat="-23.682063" lon="-46.611733"><ele>790.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

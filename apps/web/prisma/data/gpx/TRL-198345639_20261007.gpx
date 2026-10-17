@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela João Carçola</name>
+    <trkseg>
+      <trkpt lat="-23.633896" lon="-46.478986"><ele>818.5</ele></trkpt>
+      <trkpt lat="-23.633589" lon="-46.478391"><ele>812.8</ele></trkpt>
+      <trkpt lat="-23.633298" lon="-46.477824"><ele>808.4</ele></trkpt>
+      <trkpt lat="-23.633005" lon="-46.477255"><ele>804.7</ele></trkpt>
+      <trkpt lat="-23.632741" lon="-46.476740"><ele>795.2</ele></trkpt>
+      <trkpt lat="-23.632436" lon="-46.476146"><ele>786.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

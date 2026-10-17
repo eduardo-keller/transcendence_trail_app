@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Doutor Manoel de Paiva Ramos</name>
+    <trkseg>
+      <trkpt lat="-23.561244" lon="-46.758158"><ele>758.7</ele></trkpt>
+      <trkpt lat="-23.561373" lon="-46.758312"><ele>759.4</ele></trkpt>
+      <trkpt lat="-23.561442" lon="-46.758357"><ele>759.4</ele></trkpt>
+      <trkpt lat="-23.561505" lon="-46.758365"><ele>759.4</ele></trkpt>
+      <trkpt lat="-23.561550" lon="-46.758369"><ele>757.2</ele></trkpt>
+      <trkpt lat="-23.561596" lon="-46.758350"><ele>757.2</ele></trkpt>
+      <trkpt lat="-23.561650" lon="-46.758297"><ele>757.2</ele></trkpt>
+      <trkpt lat="-23.561704" lon="-46.758209"><ele>757.2</ele></trkpt>
+      <trkpt lat="-23.561808" lon="-46.757956"><ele>752.2</ele></trkpt>
+      <trkpt lat="-23.561902" lon="-46.757769"><ele>753.7</ele></trkpt>
+      <trkpt lat="-23.561930" lon="-46.757728"><ele>753.7</ele></trkpt>
+      <trkpt lat="-23.561957" lon="-46.757705"><ele>753.7</ele></trkpt>
+      <trkpt lat="-23.562222" lon="-46.757513"><ele>748.0</ele></trkpt>
+      <trkpt lat="-23.562286" lon="-46.757407"><ele>748.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

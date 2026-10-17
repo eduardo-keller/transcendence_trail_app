@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Piracema</name>
+    <trkseg>
+      <trkpt lat="-23.656668" lon="-46.547733"><ele>792.9</ele></trkpt>
+      <trkpt lat="-23.656424" lon="-46.547785"><ele>794.7</ele></trkpt>
+      <trkpt lat="-23.656389" lon="-46.547790"><ele>794.7</ele></trkpt>
+      <trkpt lat="-23.656394" lon="-46.547826"><ele>794.7</ele></trkpt>
+      <trkpt lat="-23.656149" lon="-46.547861"><ele>793.2</ele></trkpt>
+      <trkpt lat="-23.656117" lon="-46.547849"><ele>793.2</ele></trkpt>
+      <trkpt lat="-23.655748" lon="-46.547933"><ele>791.1</ele></trkpt>
+      <trkpt lat="-23.655803" lon="-46.548180"><ele>791.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

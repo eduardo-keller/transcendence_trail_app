@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Trilha da vaca louca</name>
+    <trkseg>
+      <trkpt lat="-23.378063" lon="-46.594876"><ele>936.9</ele></trkpt>
+      <trkpt lat="-23.377118" lon="-46.596338"><ele>951.4</ele></trkpt>
+      <trkpt lat="-23.376522" lon="-46.597186"><ele>956.3</ele></trkpt>
+      <trkpt lat="-23.375700" lon="-46.597465"><ele>957.3</ele></trkpt>
+      <trkpt lat="-23.375247" lon="-46.597524"><ele>958.5</ele></trkpt>
+      <trkpt lat="-23.374493" lon="-46.597717"><ele>958.8</ele></trkpt>
+      <trkpt lat="-23.373883" lon="-46.598318"><ele>967.9</ele></trkpt>
+      <trkpt lat="-23.373597" lon="-46.598977"><ele>970.5</ele></trkpt>
+      <trkpt lat="-23.373233" lon="-46.599181"><ele>966.8</ele></trkpt>
+      <trkpt lat="-23.373110" lon="-46.599299"><ele>964.1</ele></trkpt>
+      <trkpt lat="-23.372671" lon="-46.599133"><ele>962.1</ele></trkpt>
+      <trkpt lat="-23.372455" lon="-46.599122"><ele>959.8</ele></trkpt>
+      <trkpt lat="-23.372302" lon="-46.598972"><ele>948.5</ele></trkpt>
+      <trkpt lat="-23.372041" lon="-46.599053"><ele>943.4</ele></trkpt>
+      <trkpt lat="-23.371598" lon="-46.599600"><ele>935.1</ele></trkpt>
+      <trkpt lat="-23.371381" lon="-46.599621"><ele>929.2</ele></trkpt>
+      <trkpt lat="-23.370928" lon="-46.599584"><ele>922.4</ele></trkpt>
+      <trkpt lat="-23.370652" lon="-46.599664"><ele>917.7</ele></trkpt>
+      <trkpt lat="-23.370480" lon="-46.599659"><ele>917.7</ele></trkpt>
+      <trkpt lat="-23.370303" lon="-46.599916"><ele>908.0</ele></trkpt>
+      <trkpt lat="-23.370224" lon="-46.599315"><ele>906.3</ele></trkpt>
+      <trkpt lat="-23.370111" lon="-46.599154"><ele>899.2</ele></trkpt>
+      <trkpt lat="-23.369983" lon="-46.599219"><ele>899.2</ele></trkpt>
+      <trkpt lat="-23.370057" lon="-46.599514"><ele>893.4</ele></trkpt>
+      <trkpt lat="-23.369485" lon="-46.599889"><ele>883.3</ele></trkpt>
+      <trkpt lat="-23.369185" lon="-46.599900"><ele>880.8</ele></trkpt>
+      <trkpt lat="-23.368018" lon="-46.599492"><ele>861.3</ele></trkpt>
+      <trkpt lat="-23.367663" lon="-46.599251"><ele>853.7</ele></trkpt>
+      <trkpt lat="-23.366979" lon="-46.599337"><ele>841.0</ele></trkpt>
+      <trkpt lat="-23.366565" lon="-46.599648"><ele>831.9</ele></trkpt>
+      <trkpt lat="-23.366260" lon="-46.599975"><ele>822.2</ele></trkpt>
+      <trkpt lat="-23.365892" lon="-46.600073"><ele>809.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

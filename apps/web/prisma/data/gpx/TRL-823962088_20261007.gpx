@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Pista de Caminhada Vila Rizieri</name>
+    <trkseg>
+      <trkpt lat="-23.634033" lon="-46.591443"><ele>777.1</ele></trkpt>
+      <trkpt lat="-23.634017" lon="-46.591411"><ele>773.5</ele></trkpt>
+      <trkpt lat="-23.634010" lon="-46.591380"><ele>773.5</ele></trkpt>
+      <trkpt lat="-23.634013" lon="-46.591360"><ele>773.5</ele></trkpt>
+      <trkpt lat="-23.634031" lon="-46.591348"><ele>777.1</ele></trkpt>
+      <trkpt lat="-23.634076" lon="-46.591345"><ele>777.1</ele></trkpt>
+      <trkpt lat="-23.634109" lon="-46.591317"><ele>777.1</ele></trkpt>
+      <trkpt lat="-23.634124" lon="-46.591306"><ele>777.1</ele></trkpt>
+      <trkpt lat="-23.634148" lon="-46.591298"><ele>777.1</ele></trkpt>
+      <trkpt lat="-23.634163" lon="-46.591293"><ele>777.1</ele></trkpt>
+      <trkpt lat="-23.634194" lon="-46.591285"><ele>777.1</ele></trkpt>
+      <trkpt lat="-23.634222" lon="-46.591276"><ele>777.1</ele></trkpt>
+      <trkpt lat="-23.634292" lon="-46.591239"><ele>774.3</ele></trkpt>
+      <trkpt lat="-23.634304" lon="-46.591243"><ele>774.3</ele></trkpt>
+      <trkpt lat="-23.634303" lon="-46.591257"><ele>777.1</ele></trkpt>
+      <trkpt lat="-23.634239" lon="-46.591296"><ele>777.1</ele></trkpt>
+      <trkpt lat="-23.634218" lon="-46.591308"><ele>777.1</ele></trkpt>
+      <trkpt lat="-23.634196" lon="-46.591328"><ele>777.1</ele></trkpt>
+      <trkpt lat="-23.634168" lon="-46.591367"><ele>777.1</ele></trkpt>
+      <trkpt lat="-23.634136" lon="-46.591384"><ele>777.1</ele></trkpt>
+      <trkpt lat="-23.634090" lon="-46.591408"><ele>777.1</ele></trkpt>
+      <trkpt lat="-23.634065" lon="-46.591430"><ele>777.1</ele></trkpt>
+      <trkpt lat="-23.634033" lon="-46.591443"><ele>777.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

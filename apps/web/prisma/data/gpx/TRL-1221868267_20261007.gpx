@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Praça Cardeal Arcoverde</name>
+    <trkseg>
+      <trkpt lat="-23.614232" lon="-46.571952"><ele>746.7</ele></trkpt>
+      <trkpt lat="-23.613535" lon="-46.571784"><ele>747.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

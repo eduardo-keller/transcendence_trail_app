@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Águas da Prata</name>
+    <trkseg>
+      <trkpt lat="-23.415331" lon="-46.496117"><ele>780.2</ele></trkpt>
+      <trkpt lat="-23.415147" lon="-46.496686"><ele>772.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

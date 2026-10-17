@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Trio do Marchetti</name>
+    <trkseg>
+      <trkpt lat="-23.206050" lon="-46.770484"><ele>768.6</ele></trkpt>
+      <trkpt lat="-23.205845" lon="-46.770228"><ele>769.8</ele></trkpt>
+      <trkpt lat="-23.205625" lon="-46.770080"><ele>768.0</ele></trkpt>
+      <trkpt lat="-23.205398" lon="-46.770016"><ele>771.3</ele></trkpt>
+      <trkpt lat="-23.205033" lon="-46.770112"><ele>778.4</ele></trkpt>
+      <trkpt lat="-23.204649" lon="-46.770220"><ele>792.5</ele></trkpt>
+      <trkpt lat="-23.204304" lon="-46.770359"><ele>807.5</ele></trkpt>
+      <trkpt lat="-23.204156" lon="-46.770402"><ele>807.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

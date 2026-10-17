@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Zeferino Barbosa de Souza</name>
+    <trkseg>
+      <trkpt lat="-23.396222" lon="-46.321874"><ele>785.6</ele></trkpt>
+      <trkpt lat="-23.395940" lon="-46.321685"><ele>783.7</ele></trkpt>
+      <trkpt lat="-23.395860" lon="-46.321629"><ele>783.7</ele></trkpt>
+      <trkpt lat="-23.395682" lon="-46.321487"><ele>785.3</ele></trkpt>
+      <trkpt lat="-23.395502" lon="-46.321346"><ele>785.3</ele></trkpt>
+      <trkpt lat="-23.395400" lon="-46.321242"><ele>783.4</ele></trkpt>
+      <trkpt lat="-23.394847" lon="-46.320801"><ele>784.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

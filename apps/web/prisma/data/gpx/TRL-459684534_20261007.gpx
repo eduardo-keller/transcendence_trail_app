@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Castelo</name>
+    <trkseg>
+      <trkpt lat="-23.418574" lon="-46.506546"><ele>780.8</ele></trkpt>
+      <trkpt lat="-23.418417" lon="-46.506069"><ele>790.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

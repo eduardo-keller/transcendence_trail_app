@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela União I</name>
+    <trkseg>
+      <trkpt lat="-23.605905" lon="-46.729683"><ele>763.7</ele></trkpt>
+      <trkpt lat="-23.605847" lon="-46.729579"><ele>765.4</ele></trkpt>
+      <trkpt lat="-23.605845" lon="-46.729533"><ele>765.4</ele></trkpt>
+      <trkpt lat="-23.605845" lon="-46.729509"><ele>765.4</ele></trkpt>
+      <trkpt lat="-23.605874" lon="-46.729434"><ele>765.4</ele></trkpt>
+      <trkpt lat="-23.605913" lon="-46.729365"><ele>765.4</ele></trkpt>
+      <trkpt lat="-23.605945" lon="-46.729308"><ele>765.4</ele></trkpt>
+      <trkpt lat="-23.605990" lon="-46.729115"><ele>766.5</ele></trkpt>
+      <trkpt lat="-23.606036" lon="-46.729117"><ele>766.5</ele></trkpt>
+      <trkpt lat="-23.606120" lon="-46.729021"><ele>768.9</ele></trkpt>
+      <trkpt lat="-23.606123" lon="-46.728998"><ele>768.9</ele></trkpt>
+      <trkpt lat="-23.606127" lon="-46.728962"><ele>768.9</ele></trkpt>
+      <trkpt lat="-23.606197" lon="-46.728930"><ele>768.9</ele></trkpt>
+      <trkpt lat="-23.606216" lon="-46.728921"><ele>768.9</ele></trkpt>
+      <trkpt lat="-23.606410" lon="-46.728901"><ele>766.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

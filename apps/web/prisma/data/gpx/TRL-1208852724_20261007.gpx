@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua 30</name>
+    <trkseg>
+      <trkpt lat="-23.549715" lon="-46.656529"><ele>799.9</ele></trkpt>
+      <trkpt lat="-23.549966" lon="-46.656358"><ele>802.9</ele></trkpt>
+      <trkpt lat="-23.550209" lon="-46.656193"><ele>810.6</ele></trkpt>
+      <trkpt lat="-23.550238" lon="-46.656173"><ele>810.6</ele></trkpt>
+      <trkpt lat="-23.550446" lon="-46.656031"><ele>812.9</ele></trkpt>
+      <trkpt lat="-23.550774" lon="-46.655808"><ele>808.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

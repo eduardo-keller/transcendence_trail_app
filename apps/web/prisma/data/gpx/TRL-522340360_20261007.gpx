@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Estrada Nuremberg</name>
+    <trkseg>
+      <trkpt lat="-23.671848" lon="-46.820228"><ele>820.2</ele></trkpt>
+      <trkpt lat="-23.671327" lon="-46.819748"><ele>820.7</ele></trkpt>
+      <trkpt lat="-23.670625" lon="-46.818574"><ele>804.9</ele></trkpt>
+      <trkpt lat="-23.670307" lon="-46.818636"><ele>804.8</ele></trkpt>
+      <trkpt lat="-23.669930" lon="-46.818166"><ele>800.5</ele></trkpt>
+      <trkpt lat="-23.669795" lon="-46.817957"><ele>799.1</ele></trkpt>
+      <trkpt lat="-23.669596" lon="-46.817575"><ele>800.3</ele></trkpt>
+      <trkpt lat="-23.669489" lon="-46.817346"><ele>795.5</ele></trkpt>
+      <trkpt lat="-23.669320" lon="-46.817135"><ele>795.5</ele></trkpt>
+      <trkpt lat="-23.669141" lon="-46.816947"><ele>787.8</ele></trkpt>
+      <trkpt lat="-23.669063" lon="-46.816308"><ele>796.3</ele></trkpt>
+      <trkpt lat="-23.668897" lon="-46.815705"><ele>804.9</ele></trkpt>
+      <trkpt lat="-23.668336" lon="-46.815138"><ele>818.4</ele></trkpt>
+      <trkpt lat="-23.668028" lon="-46.814535"><ele>824.1</ele></trkpt>
+      <trkpt lat="-23.667897" lon="-46.813654"><ele>829.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

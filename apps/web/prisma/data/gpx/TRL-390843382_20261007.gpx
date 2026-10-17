@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Estrada Bernardino Marques da Silva</name>
+    <trkseg>
+      <trkpt lat="-23.454736" lon="-46.921892"><ele>781.2</ele></trkpt>
+      <trkpt lat="-23.454498" lon="-46.921632"><ele>777.9</ele></trkpt>
+      <trkpt lat="-23.454401" lon="-46.921479"><ele>777.7</ele></trkpt>
+      <trkpt lat="-23.454349" lon="-46.921299"><ele>777.7</ele></trkpt>
+      <trkpt lat="-23.454398" lon="-46.921106"><ele>779.3</ele></trkpt>
+      <trkpt lat="-23.454438" lon="-46.920955"><ele>777.8</ele></trkpt>
+      <trkpt lat="-23.454600" lon="-46.920474"><ele>767.1</ele></trkpt>
+      <trkpt lat="-23.454764" lon="-46.920114"><ele>767.0</ele></trkpt>
+      <trkpt lat="-23.454877" lon="-46.919870"><ele>758.3</ele></trkpt>
+      <trkpt lat="-23.454919" lon="-46.919743"><ele>756.1</ele></trkpt>
+      <trkpt lat="-23.454940" lon="-46.919640"><ele>756.1</ele></trkpt>
+      <trkpt lat="-23.454951" lon="-46.919527"><ele>752.4</ele></trkpt>
+      <trkpt lat="-23.454941" lon="-46.919322"><ele>752.4</ele></trkpt>
+      <trkpt lat="-23.454928" lon="-46.919198"><ele>747.3</ele></trkpt>
+      <trkpt lat="-23.454924" lon="-46.919156"><ele>747.3</ele></trkpt>
+      <trkpt lat="-23.454916" lon="-46.919108"><ele>747.3</ele></trkpt>
+      <trkpt lat="-23.454908" lon="-46.919064"><ele>747.3</ele></trkpt>
+      <trkpt lat="-23.454898" lon="-46.918988"><ele>744.1</ele></trkpt>
+      <trkpt lat="-23.454887" lon="-46.918950"><ele>744.1</ele></trkpt>
+      <trkpt lat="-23.454873" lon="-46.918906"><ele>744.1</ele></trkpt>
+      <trkpt lat="-23.454849" lon="-46.918852"><ele>749.2</ele></trkpt>
+      <trkpt lat="-23.454833" lon="-46.918821"><ele>749.2</ele></trkpt>
+      <trkpt lat="-23.454811" lon="-46.918779"><ele>749.2</ele></trkpt>
+      <trkpt lat="-23.454789" lon="-46.918743"><ele>745.4</ele></trkpt>
+      <trkpt lat="-23.454771" lon="-46.918704"><ele>745.4</ele></trkpt>
+      <trkpt lat="-23.454756" lon="-46.918649"><ele>745.4</ele></trkpt>
+      <trkpt lat="-23.454710" lon="-46.918459"><ele>739.6</ele></trkpt>
+      <trkpt lat="-23.454678" lon="-46.918345"><ele>739.6</ele></trkpt>
+      <trkpt lat="-23.454622" lon="-46.918144"><ele>737.2</ele></trkpt>
+      <trkpt lat="-23.454596" lon="-46.918014"><ele>737.2</ele></trkpt>
+      <trkpt lat="-23.454569" lon="-46.917816"><ele>741.1</ele></trkpt>
+      <trkpt lat="-23.454566" lon="-46.917743"><ele>741.1</ele></trkpt>
+      <trkpt lat="-23.454566" lon="-46.917663"><ele>741.1</ele></trkpt>
+      <trkpt lat="-23.454568" lon="-46.917619"><ele>740.6</ele></trkpt>
+      <trkpt lat="-23.454578" lon="-46.917585"><ele>740.6</ele></trkpt>
+      <trkpt lat="-23.454594" lon="-46.917542"><ele>735.3</ele></trkpt>
+      <trkpt lat="-23.454606" lon="-46.917472"><ele>735.3</ele></trkpt>
+      <trkpt lat="-23.454600" lon="-46.917392"><ele>735.3</ele></trkpt>
+      <trkpt lat="-23.454585" lon="-46.917325"><ele>739.8</ele></trkpt>
+      <trkpt lat="-23.454546" lon="-46.917257"><ele>737.0</ele></trkpt>
+      <trkpt lat="-23.454477" lon="-46.917167"><ele>737.0</ele></trkpt>
+      <trkpt lat="-23.454449" lon="-46.917137"><ele>737.0</ele></trkpt>
+      <trkpt lat="-23.454320" lon="-46.917003"><ele>736.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

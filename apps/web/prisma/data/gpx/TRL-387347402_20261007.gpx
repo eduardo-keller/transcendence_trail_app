@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Anselmo Caparica</name>
+    <trkseg>
+      <trkpt lat="-23.516715" lon="-46.417853"><ele>761.8</ele></trkpt>
+      <trkpt lat="-23.516747" lon="-46.417909"><ele>761.8</ele></trkpt>
+      <trkpt lat="-23.516807" lon="-46.418011"><ele>765.5</ele></trkpt>
+      <trkpt lat="-23.516877" lon="-46.418129"><ele>765.5</ele></trkpt>
+      <trkpt lat="-23.516889" lon="-46.418137"><ele>765.5</ele></trkpt>
+      <trkpt lat="-23.516927" lon="-46.418202"><ele>769.2</ele></trkpt>
+      <trkpt lat="-23.516948" lon="-46.418243"><ele>769.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

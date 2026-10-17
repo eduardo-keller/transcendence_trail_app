@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Circuito das Árvores</name>
+    <trkseg>
+      <trkpt lat="-23.548170" lon="-46.722397"><ele>737.9</ele></trkpt>
+      <trkpt lat="-23.548139" lon="-46.722445"><ele>737.9</ele></trkpt>
+      <trkpt lat="-23.548029" lon="-46.722477"><ele>737.9</ele></trkpt>
+      <trkpt lat="-23.547917" lon="-46.722471"><ele>737.9</ele></trkpt>
+      <trkpt lat="-23.547859" lon="-46.722455"><ele>738.3</ele></trkpt>
+      <trkpt lat="-23.547782" lon="-46.722360"><ele>741.1</ele></trkpt>
+      <trkpt lat="-23.547671" lon="-46.722230"><ele>741.1</ele></trkpt>
+      <trkpt lat="-23.547609" lon="-46.722184"><ele>741.8</ele></trkpt>
+      <trkpt lat="-23.547536" lon="-46.722170"><ele>741.8</ele></trkpt>
+      <trkpt lat="-23.547440" lon="-46.722146"><ele>741.8</ele></trkpt>
+      <trkpt lat="-23.547382" lon="-46.722149"><ele>741.8</ele></trkpt>
+      <trkpt lat="-23.547358" lon="-46.722173"><ele>740.5</ele></trkpt>
+      <trkpt lat="-23.547337" lon="-46.722215"><ele>740.5</ele></trkpt>
+      <trkpt lat="-23.547320" lon="-46.722271"><ele>740.5</ele></trkpt>
+      <trkpt lat="-23.547304" lon="-46.722331"><ele>740.5</ele></trkpt>
+      <trkpt lat="-23.547292" lon="-46.722377"><ele>734.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

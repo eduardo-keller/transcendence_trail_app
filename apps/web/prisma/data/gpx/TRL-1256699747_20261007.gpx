@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Estacionamento Condomínio Pitangueira 2</name>
+    <trkseg>
+      <trkpt lat="-23.610777" lon="-46.767175"><ele>790.1</ele></trkpt>
+      <trkpt lat="-23.610920" lon="-46.767302"><ele>790.1</ele></trkpt>
+      <trkpt lat="-23.611002" lon="-46.767435"><ele>784.2</ele></trkpt>
+      <trkpt lat="-23.611095" lon="-46.767419"><ele>784.2</ele></trkpt>
+      <trkpt lat="-23.611208" lon="-46.767339"><ele>789.3</ele></trkpt>
+      <trkpt lat="-23.611327" lon="-46.767213"><ele>787.9</ele></trkpt>
+      <trkpt lat="-23.611332" lon="-46.767099"><ele>787.9</ele></trkpt>
+      <trkpt lat="-23.611276" lon="-46.766979"><ele>794.6</ele></trkpt>
+      <trkpt lat="-23.611253" lon="-46.766926"><ele>794.6</ele></trkpt>
+      <trkpt lat="-23.611258" lon="-46.766818"><ele>794.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

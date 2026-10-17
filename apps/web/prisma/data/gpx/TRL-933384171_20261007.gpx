@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passarela Marcelo Fromer</name>
+    <trkseg>
+      <trkpt lat="-23.591763" lon="-46.686120"><ele>726.7</ele></trkpt>
+      <trkpt lat="-23.591394" lon="-46.685622"><ele>728.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

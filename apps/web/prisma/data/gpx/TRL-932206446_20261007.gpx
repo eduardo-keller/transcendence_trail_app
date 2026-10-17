@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Estrada de Servidão</name>
+    <trkseg>
+      <trkpt lat="-23.347510" lon="-46.452809"><ele>946.3</ele></trkpt>
+      <trkpt lat="-23.347554" lon="-46.452690"><ele>946.3</ele></trkpt>
+      <trkpt lat="-23.347843" lon="-46.452355"><ele>953.3</ele></trkpt>
+      <trkpt lat="-23.348000" lon="-46.452034"><ele>956.8</ele></trkpt>
+      <trkpt lat="-23.348450" lon="-46.451228"><ele>968.7</ele></trkpt>
+      <trkpt lat="-23.348450" lon="-46.451228"><ele>968.7</ele></trkpt>
+      <trkpt lat="-23.348225" lon="-46.451086"><ele>968.7</ele></trkpt>
+      <trkpt lat="-23.347999" lon="-46.450954"><ele>972.9</ele></trkpt>
+      <trkpt lat="-23.347349" lon="-46.450740"><ele>974.3</ele></trkpt>
+      <trkpt lat="-23.346776" lon="-46.450486"><ele>984.4</ele></trkpt>
+      <trkpt lat="-23.346340" lon="-46.450205"><ele>987.8</ele></trkpt>
+      <trkpt lat="-23.345984" lon="-46.449789"><ele>998.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

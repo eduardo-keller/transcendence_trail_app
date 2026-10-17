@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Boulevard Bispa Keyla Ferreira</name>
+    <trkseg>
+      <trkpt lat="-23.532456" lon="-46.904030"><ele>735.8</ele></trkpt>
+      <trkpt lat="-23.532354" lon="-46.903994"><ele>735.6</ele></trkpt>
+      <trkpt lat="-23.531630" lon="-46.903738"><ele>736.4</ele></trkpt>
+      <trkpt lat="-23.531518" lon="-46.903699"><ele>734.4</ele></trkpt>
+      <trkpt lat="-23.530761" lon="-46.903431"><ele>734.4</ele></trkpt>
+      <trkpt lat="-23.530677" lon="-46.903392"><ele>733.0</ele></trkpt>
+      <trkpt lat="-23.530636" lon="-46.903364"><ele>733.0</ele></trkpt>
+      <trkpt lat="-23.530585" lon="-46.903329"><ele>733.0</ele></trkpt>
+      <trkpt lat="-23.530557" lon="-46.903302"><ele>733.0</ele></trkpt>
+      <trkpt lat="-23.530536" lon="-46.903281"><ele>733.0</ele></trkpt>
+      <trkpt lat="-23.530477" lon="-46.903175"><ele>733.7</ele></trkpt>
+      <trkpt lat="-23.530457" lon="-46.903153"><ele>733.7</ele></trkpt>
+      <trkpt lat="-23.530427" lon="-46.903156"><ele>733.7</ele></trkpt>
+      <trkpt lat="-23.530417" lon="-46.903180"><ele>733.7</ele></trkpt>
+      <trkpt lat="-23.530428" lon="-46.903207"><ele>733.0</ele></trkpt>
+      <trkpt lat="-23.530495" lon="-46.903258"><ele>733.0</ele></trkpt>
+      <trkpt lat="-23.530536" lon="-46.903281"><ele>733.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

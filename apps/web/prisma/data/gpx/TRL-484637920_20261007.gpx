@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Ana Latorre</name>
+    <trkseg>
+      <trkpt lat="-23.454871" lon="-46.705403"><ele>844.8</ele></trkpt>
+      <trkpt lat="-23.454881" lon="-46.705413"><ele>844.8</ele></trkpt>
+      <trkpt lat="-23.454906" lon="-46.705452"><ele>852.5</ele></trkpt>
+      <trkpt lat="-23.454917" lon="-46.705488"><ele>852.5</ele></trkpt>
+      <trkpt lat="-23.454938" lon="-46.705573"><ele>852.5</ele></trkpt>
+      <trkpt lat="-23.454954" lon="-46.705671"><ele>852.5</ele></trkpt>
+      <trkpt lat="-23.455001" lon="-46.705883"><ele>858.0</ele></trkpt>
+      <trkpt lat="-23.455035" lon="-46.705992"><ele>860.4</ele></trkpt>
+      <trkpt lat="-23.455047" lon="-46.706046"><ele>860.4</ele></trkpt>
+      <trkpt lat="-23.455063" lon="-46.706095"><ele>860.4</ele></trkpt>
+      <trkpt lat="-23.455090" lon="-46.706191"><ele>860.4</ele></trkpt>
+      <trkpt lat="-23.455101" lon="-46.706238"><ele>860.4</ele></trkpt>
+      <trkpt lat="-23.455110" lon="-46.706290"><ele>862.1</ele></trkpt>
+      <trkpt lat="-23.455124" lon="-46.706335"><ele>862.1</ele></trkpt>
+      <trkpt lat="-23.455145" lon="-46.706448"><ele>862.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passagem Boa Vista</name>
+    <trkseg>
+      <trkpt lat="-23.668553" lon="-46.601152"><ele>784.8</ele></trkpt>
+      <trkpt lat="-23.668489" lon="-46.600998"><ele>784.8</ele></trkpt>
+      <trkpt lat="-23.668399" lon="-46.600818"><ele>779.2</ele></trkpt>
+      <trkpt lat="-23.668357" lon="-46.600751"><ele>779.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Cruzamento Calipal</name>
+    <trkseg>
+      <trkpt lat="-23.546679" lon="-46.759667"><ele>775.8</ele></trkpt>
+      <trkpt lat="-23.546713" lon="-46.759708"><ele>775.8</ele></trkpt>
+      <trkpt lat="-23.546742" lon="-46.759734"><ele>775.8</ele></trkpt>
+      <trkpt lat="-23.546791" lon="-46.759759"><ele>775.8</ele></trkpt>
+      <trkpt lat="-23.546834" lon="-46.759805"><ele>777.3</ele></trkpt>
+      <trkpt lat="-23.546888" lon="-46.759869"><ele>775.6</ele></trkpt>
+      <trkpt lat="-23.546917" lon="-46.759976"><ele>775.6</ele></trkpt>
+      <trkpt lat="-23.546967" lon="-46.760058"><ele>775.6</ele></trkpt>
+      <trkpt lat="-23.547038" lon="-46.760109"><ele>775.6</ele></trkpt>
+      <trkpt lat="-23.547088" lon="-46.760147"><ele>772.0</ele></trkpt>
+      <trkpt lat="-23.547164" lon="-46.760178"><ele>772.0</ele></trkpt>
+      <trkpt lat="-23.547231" lon="-46.760267"><ele>772.0</ele></trkpt>
+      <trkpt lat="-23.547276" lon="-46.760318"><ele>772.0</ele></trkpt>
+      <trkpt lat="-23.547330" lon="-46.760371"><ele>772.0</ele></trkpt>
+      <trkpt lat="-23.547359" lon="-46.760415"><ele>772.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

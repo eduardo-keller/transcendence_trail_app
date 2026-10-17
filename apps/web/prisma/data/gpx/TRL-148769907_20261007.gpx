@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Manoel Antônio de Souza</name>
+    <trkseg>
+      <trkpt lat="-23.679490" lon="-46.467719"><ele>766.7</ele></trkpt>
+      <trkpt lat="-23.679618" lon="-46.467174"><ele>771.2</ele></trkpt>
+      <trkpt lat="-23.679648" lon="-46.466994"><ele>769.7</ele></trkpt>
+      <trkpt lat="-23.679803" lon="-46.466619"><ele>769.9</ele></trkpt>
+      <trkpt lat="-23.679868" lon="-46.466187"><ele>769.5</ele></trkpt>
+      <trkpt lat="-23.679889" lon="-46.465814"><ele>771.5</ele></trkpt>
+      <trkpt lat="-23.679871" lon="-46.465645"><ele>773.2</ele></trkpt>
+      <trkpt lat="-23.679817" lon="-46.465492"><ele>773.1</ele></trkpt>
+      <trkpt lat="-23.679799" lon="-46.465210"><ele>773.7</ele></trkpt>
+      <trkpt lat="-23.679774" lon="-46.464947"><ele>773.2</ele></trkpt>
+      <trkpt lat="-23.679759" lon="-46.464746"><ele>773.8</ele></trkpt>
+      <trkpt lat="-23.679759" lon="-46.464746"><ele>773.8</ele></trkpt>
+      <trkpt lat="-23.679743" lon="-46.464603"><ele>773.8</ele></trkpt>
+      <trkpt lat="-23.679693" lon="-46.464334"><ele>775.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

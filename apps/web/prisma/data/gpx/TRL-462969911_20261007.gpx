@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa das Estrelas</name>
+    <trkseg>
+      <trkpt lat="-23.445578" lon="-46.691966"><ele>791.0</ele></trkpt>
+      <trkpt lat="-23.445599" lon="-46.691969"><ele>791.0</ele></trkpt>
+      <trkpt lat="-23.445622" lon="-46.691975"><ele>791.0</ele></trkpt>
+      <trkpt lat="-23.445640" lon="-46.691973"><ele>791.0</ele></trkpt>
+      <trkpt lat="-23.445704" lon="-46.691972"><ele>803.9</ele></trkpt>
+      <trkpt lat="-23.445746" lon="-46.691938"><ele>803.9</ele></trkpt>
+      <trkpt lat="-23.445753" lon="-46.691913"><ele>803.9</ele></trkpt>
+      <trkpt lat="-23.445819" lon="-46.691914"><ele>803.9</ele></trkpt>
+      <trkpt lat="-23.445861" lon="-46.691913"><ele>803.9</ele></trkpt>
+      <trkpt lat="-23.445870" lon="-46.691911"><ele>803.9</ele></trkpt>
+      <trkpt lat="-23.445950" lon="-46.691888"><ele>803.9</ele></trkpt>
+      <trkpt lat="-23.446051" lon="-46.691883"><ele>813.6</ele></trkpt>
+      <trkpt lat="-23.446173" lon="-46.691877"><ele>813.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

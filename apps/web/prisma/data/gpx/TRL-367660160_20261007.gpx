@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua do Calcadao</name>
+    <trkseg>
+      <trkpt lat="-23.982645" lon="-46.228381"><ele>4.8</ele></trkpt>
+      <trkpt lat="-23.981674" lon="-46.228598"><ele>7.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

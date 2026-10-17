@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Quatro</name>
+    <trkseg>
+      <trkpt lat="-23.740335" lon="-46.689751"><ele>793.1</ele></trkpt>
+      <trkpt lat="-23.740074" lon="-46.689864"><ele>789.0</ele></trkpt>
+      <trkpt lat="-23.739917" lon="-46.689930"><ele>789.0</ele></trkpt>
+      <trkpt lat="-23.739888" lon="-46.689942"><ele>789.0</ele></trkpt>
+      <trkpt lat="-23.739862" lon="-46.689953"><ele>789.0</ele></trkpt>
+      <trkpt lat="-23.739453" lon="-46.690128"><ele>782.9</ele></trkpt>
+      <trkpt lat="-23.739426" lon="-46.690141"><ele>785.4</ele></trkpt>
+      <trkpt lat="-23.738980" lon="-46.690335"><ele>785.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

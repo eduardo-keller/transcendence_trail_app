@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela 7</name>
+    <trkseg>
+      <trkpt lat="-23.757930" lon="-46.604461"><ele>763.3</ele></trkpt>
+      <trkpt lat="-23.757990" lon="-46.604245"><ele>757.5</ele></trkpt>
+      <trkpt lat="-23.758023" lon="-46.604173"><ele>757.5</ele></trkpt>
+      <trkpt lat="-23.758113" lon="-46.603840"><ele>754.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

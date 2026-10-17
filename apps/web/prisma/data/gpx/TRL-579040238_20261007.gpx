@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Amandau</name>
+    <trkseg>
+      <trkpt lat="-23.488749" lon="-46.608997"><ele>740.5</ele></trkpt>
+      <trkpt lat="-23.488699" lon="-46.609109"><ele>740.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

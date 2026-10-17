@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Via de Pedestres Ilha de Cabo Frio</name>
+    <trkseg>
+      <trkpt lat="-23.457118" lon="-46.662919"><ele>817.4</ele></trkpt>
+      <trkpt lat="-23.457122" lon="-46.662972"><ele>817.4</ele></trkpt>
+      <trkpt lat="-23.457118" lon="-46.662996"><ele>817.4</ele></trkpt>
+      <trkpt lat="-23.457098" lon="-46.663122"><ele>817.4</ele></trkpt>
+      <trkpt lat="-23.457072" lon="-46.663233"><ele>810.6</ele></trkpt>
+      <trkpt lat="-23.457083" lon="-46.663238"><ele>810.6</ele></trkpt>
+      <trkpt lat="-23.457043" lon="-46.663364"><ele>810.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

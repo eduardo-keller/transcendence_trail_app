@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Galeria Copan</name>
+    <trkseg>
+      <trkpt lat="-23.546777" lon="-46.645006"><ele>764.3</ele></trkpt>
+      <trkpt lat="-23.546806" lon="-46.644930"><ele>762.1</ele></trkpt>
+      <trkpt lat="-23.546674" lon="-46.644884"><ele>764.3</ele></trkpt>
+      <trkpt lat="-23.546616" lon="-46.644832"><ele>769.4</ele></trkpt>
+      <trkpt lat="-23.546566" lon="-46.644751"><ele>769.4</ele></trkpt>
+      <trkpt lat="-23.546554" lon="-46.644679"><ele>769.4</ele></trkpt>
+      <trkpt lat="-23.546552" lon="-46.644574"><ele>767.5</ele></trkpt>
+      <trkpt lat="-23.546563" lon="-46.644490"><ele>767.5</ele></trkpt>
+      <trkpt lat="-23.546574" lon="-46.644396"><ele>767.5</ele></trkpt>
+      <trkpt lat="-23.546574" lon="-46.644317"><ele>767.5</ele></trkpt>
+      <trkpt lat="-23.546560" lon="-46.644257"><ele>768.9</ele></trkpt>
+      <trkpt lat="-23.546516" lon="-46.644179"><ele>774.2</ele></trkpt>
+      <trkpt lat="-23.546512" lon="-46.644171"><ele>774.2</ele></trkpt>
+      <trkpt lat="-23.546447" lon="-46.644093"><ele>774.2</ele></trkpt>
+      <trkpt lat="-23.546384" lon="-46.644042"><ele>774.2</ele></trkpt>
+      <trkpt lat="-23.546358" lon="-46.644013"><ele>786.0</ele></trkpt>
+      <trkpt lat="-23.546319" lon="-46.643970"><ele>786.0</ele></trkpt>
+      <trkpt lat="-23.546242" lon="-46.643888"><ele>786.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

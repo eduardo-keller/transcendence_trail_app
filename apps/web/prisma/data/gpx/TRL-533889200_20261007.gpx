@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Tirana</name>
+    <trkseg>
+      <trkpt lat="-23.398591" lon="-46.625805"><ele>1077.2</ele></trkpt>
+      <trkpt lat="-23.398544" lon="-46.625935"><ele>1077.2</ele></trkpt>
+      <trkpt lat="-23.398468" lon="-46.626065"><ele>1066.3</ele></trkpt>
+      <trkpt lat="-23.398180" lon="-46.626398"><ele>1055.8</ele></trkpt>
+      <trkpt lat="-23.398128" lon="-46.626456"><ele>1055.8</ele></trkpt>
+      <trkpt lat="-23.398087" lon="-46.626488"><ele>1055.8</ele></trkpt>
+      <trkpt lat="-23.397975" lon="-46.626530"><ele>1048.2</ele></trkpt>
+      <trkpt lat="-23.397913" lon="-46.626545"><ele>1038.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

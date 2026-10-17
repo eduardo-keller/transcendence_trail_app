@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passarela Tainá Teixeira da Silva</name>
+    <trkseg>
+      <trkpt lat="-23.656410" lon="-46.549319"><ele>773.1</ele></trkpt>
+      <trkpt lat="-23.656571" lon="-46.549426"><ele>770.0</ele></trkpt>
+      <trkpt lat="-23.656583" lon="-46.549406"><ele>770.0</ele></trkpt>
+      <trkpt lat="-23.656416" lon="-46.549295"><ele>774.3</ele></trkpt>
+      <trkpt lat="-23.656403" lon="-46.549319"><ele>773.1</ele></trkpt>
+      <trkpt lat="-23.656569" lon="-46.549429"><ele>770.0</ele></trkpt>
+      <trkpt lat="-23.656569" lon="-46.549429"><ele>770.0</ele></trkpt>
+      <trkpt lat="-23.656387" lon="-46.549770"><ele>772.6</ele></trkpt>
+      <trkpt lat="-23.656387" lon="-46.549770"><ele>772.6</ele></trkpt>
+      <trkpt lat="-23.656185" lon="-46.549642"><ele>778.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

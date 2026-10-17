@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua dos Sócios</name>
+    <trkseg>
+      <trkpt lat="-23.617778" lon="-46.590524"><ele>773.8</ele></trkpt>
+      <trkpt lat="-23.617766" lon="-46.590433"><ele>773.8</ele></trkpt>
+      <trkpt lat="-23.617759" lon="-46.590343"><ele>771.6</ele></trkpt>
+      <trkpt lat="-23.617740" lon="-46.590241"><ele>771.6</ele></trkpt>
+      <trkpt lat="-23.617690" lon="-46.590058"><ele>765.9</ele></trkpt>
+      <trkpt lat="-23.617627" lon="-46.589857"><ele>765.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

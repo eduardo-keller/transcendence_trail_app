@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Modesto Tavares de Lima</name>
+    <trkseg>
+      <trkpt lat="-23.566951" lon="-46.708797"><ele>722.9</ele></trkpt>
+      <trkpt lat="-23.566816" lon="-46.708727"><ele>722.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

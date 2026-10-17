@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Rosa do Povo</name>
+    <trkseg>
+      <trkpt lat="-23.474902" lon="-46.694355"><ele>784.5</ele></trkpt>
+      <trkpt lat="-23.474984" lon="-46.694241"><ele>782.9</ele></trkpt>
+      <trkpt lat="-23.475110" lon="-46.694164"><ele>782.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

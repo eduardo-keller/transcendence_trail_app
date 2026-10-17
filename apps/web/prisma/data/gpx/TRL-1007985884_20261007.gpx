@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua E</name>
+    <trkseg>
+      <trkpt lat="-23.610013" lon="-47.053580"><ele>876.0</ele></trkpt>
+      <trkpt lat="-23.611028" lon="-47.055688"><ele>875.1</ele></trkpt>
+      <trkpt lat="-23.611134" lon="-47.055874"><ele>876.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

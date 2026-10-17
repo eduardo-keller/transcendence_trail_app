@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa do Futuro</name>
+    <trkseg>
+      <trkpt lat="-23.446423" lon="-46.690548"><ele>813.6</ele></trkpt>
+      <trkpt lat="-23.446621" lon="-46.690657"><ele>803.1</ele></trkpt>
+      <trkpt lat="-23.446686" lon="-46.690697"><ele>794.5</ele></trkpt>
+      <trkpt lat="-23.446759" lon="-46.690735"><ele>794.5</ele></trkpt>
+      <trkpt lat="-23.446866" lon="-46.690783"><ele>782.2</ele></trkpt>
+      <trkpt lat="-23.446948" lon="-46.690827"><ele>782.2</ele></trkpt>
+      <trkpt lat="-23.446955" lon="-46.690834"><ele>782.2</ele></trkpt>
+      <trkpt lat="-23.446958" lon="-46.690844"><ele>782.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

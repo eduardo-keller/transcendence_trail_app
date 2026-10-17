@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua do Tucuxi</name>
+    <trkseg>
+      <trkpt lat="-23.539663" lon="-46.473675"><ele>785.6</ele></trkpt>
+      <trkpt lat="-23.539660" lon="-46.473608"><ele>785.6</ele></trkpt>
+      <trkpt lat="-23.539629" lon="-46.473544"><ele>785.6</ele></trkpt>
+      <trkpt lat="-23.539578" lon="-46.473455"><ele>783.6</ele></trkpt>
+      <trkpt lat="-23.539537" lon="-46.473368"><ele>783.6</ele></trkpt>
+      <trkpt lat="-23.539502" lon="-46.473270"><ele>783.6</ele></trkpt>
+      <trkpt lat="-23.539501" lon="-46.473220"><ele>783.6</ele></trkpt>
+      <trkpt lat="-23.539516" lon="-46.473151"><ele>782.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

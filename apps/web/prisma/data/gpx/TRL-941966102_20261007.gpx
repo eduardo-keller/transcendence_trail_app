@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Diretora Maria Cleusa</name>
+    <trkseg>
+      <trkpt lat="-23.709825" lon="-46.529973"><ele>774.5</ele></trkpt>
+      <trkpt lat="-23.709876" lon="-46.529892"><ele>775.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

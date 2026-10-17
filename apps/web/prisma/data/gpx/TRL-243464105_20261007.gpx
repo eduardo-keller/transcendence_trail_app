@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passarela Capitão João</name>
+    <trkseg>
+      <trkpt lat="-23.678756" lon="-46.454198"><ele>780.5</ele></trkpt>
+      <trkpt lat="-23.678700" lon="-46.453686"><ele>777.8</ele></trkpt>
+      <trkpt lat="-23.678743" lon="-46.453302"><ele>778.2</ele></trkpt>
+      <trkpt lat="-23.678694" lon="-46.453090"><ele>780.7</ele></trkpt>
+      <trkpt lat="-23.678648" lon="-46.453084"><ele>780.7</ele></trkpt>
+      <trkpt lat="-23.678690" lon="-46.453357"><ele>778.2</ele></trkpt>
+      <trkpt lat="-23.678629" lon="-46.453184"><ele>780.7</ele></trkpt>
+      <trkpt lat="-23.678642" lon="-46.453450"><ele>778.2</ele></trkpt>
+      <trkpt lat="-23.678644" lon="-46.453694"><ele>777.8</ele></trkpt>
+      <trkpt lat="-23.678698" lon="-46.454085"><ele>781.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

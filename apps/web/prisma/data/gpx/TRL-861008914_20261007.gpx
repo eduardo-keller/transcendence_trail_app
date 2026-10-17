@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Futsal</name>
+    <trkseg>
+      <trkpt lat="-23.672657" lon="-46.790131"><ele>788.8</ele></trkpt>
+      <trkpt lat="-23.672581" lon="-46.790097"><ele>795.1</ele></trkpt>
+      <trkpt lat="-23.672513" lon="-46.790020"><ele>795.1</ele></trkpt>
+      <trkpt lat="-23.672449" lon="-46.789961"><ele>795.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

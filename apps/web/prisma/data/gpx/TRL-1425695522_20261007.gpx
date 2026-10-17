@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua João Correa</name>
+    <trkseg>
+      <trkpt lat="-23.609351" lon="-46.424426"><ele>792.6</ele></trkpt>
+      <trkpt lat="-23.609419" lon="-46.424246"><ele>798.4</ele></trkpt>
+      <trkpt lat="-23.609430" lon="-46.424181"><ele>798.4</ele></trkpt>
+      <trkpt lat="-23.609414" lon="-46.424108"><ele>798.4</ele></trkpt>
+      <trkpt lat="-23.609368" lon="-46.424032"><ele>798.4</ele></trkpt>
+      <trkpt lat="-23.609123" lon="-46.423771"><ele>804.4</ele></trkpt>
+      <trkpt lat="-23.609086" lon="-46.423696"><ele>811.3</ele></trkpt>
+      <trkpt lat="-23.609081" lon="-46.423613"><ele>811.3</ele></trkpt>
+      <trkpt lat="-23.609089" lon="-46.423487"><ele>811.3</ele></trkpt>
+      <trkpt lat="-23.609102" lon="-46.423396"><ele>814.1</ele></trkpt>
+      <trkpt lat="-23.609179" lon="-46.423203"><ele>814.1</ele></trkpt>
+      <trkpt lat="-23.609378" lon="-46.422497"><ele>824.8</ele></trkpt>
+      <trkpt lat="-23.609438" lon="-46.422349"><ele>823.0</ele></trkpt>
+      <trkpt lat="-23.609492" lon="-46.422258"><ele>823.0</ele></trkpt>
+      <trkpt lat="-23.609506" lon="-46.422239"><ele>823.0</ele></trkpt>
+      <trkpt lat="-23.609580" lon="-46.422139"><ele>823.0</ele></trkpt>
+      <trkpt lat="-23.609978" lon="-46.421734"><ele>829.8</ele></trkpt>
+      <trkpt lat="-23.610270" lon="-46.421321"><ele>835.1</ele></trkpt>
+      <trkpt lat="-23.610409" lon="-46.421123"><ele>834.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

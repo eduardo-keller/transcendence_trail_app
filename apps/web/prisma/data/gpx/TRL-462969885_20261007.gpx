@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Amanacaia</name>
+    <trkseg>
+      <trkpt lat="-23.452891" lon="-46.683931"><ele>797.0</ele></trkpt>
+      <trkpt lat="-23.452856" lon="-46.683940"><ele>797.0</ele></trkpt>
+      <trkpt lat="-23.452739" lon="-46.683981"><ele>797.0</ele></trkpt>
+      <trkpt lat="-23.452736" lon="-46.683982"><ele>797.0</ele></trkpt>
+      <trkpt lat="-23.452761" lon="-46.684069"><ele>800.1</ele></trkpt>
+      <trkpt lat="-23.452771" lon="-46.684146"><ele>800.1</ele></trkpt>
+      <trkpt lat="-23.452773" lon="-46.684202"><ele>800.1</ele></trkpt>
+      <trkpt lat="-23.452993" lon="-46.684204"><ele>806.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

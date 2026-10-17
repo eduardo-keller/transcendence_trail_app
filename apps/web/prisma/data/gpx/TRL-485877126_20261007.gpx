@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Via de Pedestre Tiago Sadolet</name>
+    <trkseg>
+      <trkpt lat="-23.482813" lon="-46.571276"><ele>740.1</ele></trkpt>
+      <trkpt lat="-23.483011" lon="-46.571697"><ele>739.9</ele></trkpt>
+      <trkpt lat="-23.483020" lon="-46.571715"><ele>739.9</ele></trkpt>
+      <trkpt lat="-23.483034" lon="-46.571748"><ele>739.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Antônio Lopes Machado</name>
+    <trkseg>
+      <trkpt lat="-23.656332" lon="-46.790051"><ele>787.6</ele></trkpt>
+      <trkpt lat="-23.656462" lon="-46.790175"><ele>785.6</ele></trkpt>
+      <trkpt lat="-23.656646" lon="-46.790368"><ele>777.6</ele></trkpt>
+      <trkpt lat="-23.656660" lon="-46.790383"><ele>777.6</ele></trkpt>
+      <trkpt lat="-23.656667" lon="-46.790396"><ele>777.6</ele></trkpt>
+      <trkpt lat="-23.656671" lon="-46.790407"><ele>777.6</ele></trkpt>
+      <trkpt lat="-23.656673" lon="-46.790420"><ele>774.9</ele></trkpt>
+      <trkpt lat="-23.656671" lon="-46.790433"><ele>774.9</ele></trkpt>
+      <trkpt lat="-23.656658" lon="-46.790455"><ele>774.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Caminho Doze</name>
+    <trkseg>
+      <trkpt lat="-23.550290" lon="-46.483682"><ele>814.5</ele></trkpt>
+      <trkpt lat="-23.550309" lon="-46.483443"><ele>815.6</ele></trkpt>
+      <trkpt lat="-23.550334" lon="-46.483306"><ele>815.6</ele></trkpt>
+      <trkpt lat="-23.550353" lon="-46.483245"><ele>815.6</ele></trkpt>
+      <trkpt lat="-23.550401" lon="-46.483128"><ele>819.7</ele></trkpt>
+      <trkpt lat="-23.550683" lon="-46.482474"><ele>822.0</ele></trkpt>
+      <trkpt lat="-23.550283" lon="-46.481972"><ele>821.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

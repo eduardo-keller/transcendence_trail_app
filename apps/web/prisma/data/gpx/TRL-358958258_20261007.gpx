@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Luciano de Castro</name>
+    <trkseg>
+      <trkpt lat="-23.934313" lon="-46.345041"><ele>12.1</ele></trkpt>
+      <trkpt lat="-23.934257" lon="-46.345047"><ele>12.4</ele></trkpt>
+      <trkpt lat="-23.933853" lon="-46.345224"><ele>5.2</ele></trkpt>
+      <trkpt lat="-23.933803" lon="-46.345246"><ele>5.2</ele></trkpt>
+      <trkpt lat="-23.933423" lon="-46.345419"><ele>5.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

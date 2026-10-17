@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Avenida Vicente José de Carvalho</name>
+    <trkseg>
+      <trkpt lat="-23.458978" lon="-46.634118"><ele>785.7</ele></trkpt>
+      <trkpt lat="-23.458975" lon="-46.634128"><ele>785.7</ele></trkpt>
+      <trkpt lat="-23.458963" lon="-46.634181"><ele>785.7</ele></trkpt>
+      <trkpt lat="-23.458943" lon="-46.634240"><ele>785.7</ele></trkpt>
+      <trkpt lat="-23.458822" lon="-46.634487"><ele>788.5</ele></trkpt>
+      <trkpt lat="-23.458727" lon="-46.634840"><ele>777.3</ele></trkpt>
+      <trkpt lat="-23.458727" lon="-46.634840"><ele>777.3</ele></trkpt>
+      <trkpt lat="-23.458813" lon="-46.634965"><ele>789.5</ele></trkpt>
+      <trkpt lat="-23.458872" lon="-46.635035"><ele>789.5</ele></trkpt>
+      <trkpt lat="-23.458921" lon="-46.635088"><ele>789.5</ele></trkpt>
+      <trkpt lat="-23.458675" lon="-46.635067"><ele>775.5</ele></trkpt>
+      <trkpt lat="-23.458722" lon="-46.634860"><ele>777.3</ele></trkpt>
+      <trkpt lat="-23.458727" lon="-46.634840"><ele>777.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

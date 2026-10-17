@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Estrada São José do Rio Pardo</name>
+    <trkseg>
+      <trkpt lat="-23.445303" lon="-46.375226"><ele>805.2</ele></trkpt>
+      <trkpt lat="-23.445402" lon="-46.375236"><ele>805.2</ele></trkpt>
+      <trkpt lat="-23.445451" lon="-46.375233"><ele>805.2</ele></trkpt>
+      <trkpt lat="-23.445591" lon="-46.375165"><ele>805.2</ele></trkpt>
+      <trkpt lat="-23.445697" lon="-46.375088"><ele>808.1</ele></trkpt>
+      <trkpt lat="-23.445827" lon="-46.374961"><ele>808.1</ele></trkpt>
+      <trkpt lat="-23.445879" lon="-46.374902"><ele>808.1</ele></trkpt>
+      <trkpt lat="-23.446180" lon="-46.374568"><ele>808.1</ele></trkpt>
+      <trkpt lat="-23.446305" lon="-46.374377"><ele>806.4</ele></trkpt>
+      <trkpt lat="-23.446412" lon="-46.374176"><ele>802.3</ele></trkpt>
+      <trkpt lat="-23.446573" lon="-46.373866"><ele>798.0</ele></trkpt>
+      <trkpt lat="-23.446707" lon="-46.373661"><ele>796.4</ele></trkpt>
+      <trkpt lat="-23.446854" lon="-46.373484"><ele>797.3</ele></trkpt>
+      <trkpt lat="-23.446987" lon="-46.373349"><ele>795.5</ele></trkpt>
+      <trkpt lat="-23.447155" lon="-46.373221"><ele>795.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

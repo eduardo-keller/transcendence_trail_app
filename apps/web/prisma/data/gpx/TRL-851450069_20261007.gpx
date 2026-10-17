@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Pires Rodovalho</name>
+    <trkseg>
+      <trkpt lat="-23.634686" lon="-46.466627"><ele>830.2</ele></trkpt>
+      <trkpt lat="-23.634701" lon="-46.466498"><ele>824.7</ele></trkpt>
+      <trkpt lat="-23.634720" lon="-46.466363"><ele>824.7</ele></trkpt>
+      <trkpt lat="-23.634743" lon="-46.466192"><ele>819.8</ele></trkpt>
+      <trkpt lat="-23.634760" lon="-46.466107"><ele>819.8</ele></trkpt>
+      <trkpt lat="-23.634793" lon="-46.466028"><ele>819.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

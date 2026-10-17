@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Santo Dias</name>
+    <trkseg>
+      <trkpt lat="-23.665927" lon="-46.761661"><ele>763.8</ele></trkpt>
+      <trkpt lat="-23.665662" lon="-46.761566"><ele>761.2</ele></trkpt>
+      <trkpt lat="-23.665433" lon="-46.761447"><ele>765.1</ele></trkpt>
+      <trkpt lat="-23.665189" lon="-46.761325"><ele>762.5</ele></trkpt>
+      <trkpt lat="-23.665021" lon="-46.761225"><ele>764.8</ele></trkpt>
+      <trkpt lat="-23.664830" lon="-46.761110"><ele>761.9</ele></trkpt>
+      <trkpt lat="-23.664697" lon="-46.761039"><ele>761.9</ele></trkpt>
+      <trkpt lat="-23.664469" lon="-46.760858"><ele>763.4</ele></trkpt>
+      <trkpt lat="-23.664322" lon="-46.760720"><ele>763.4</ele></trkpt>
+      <trkpt lat="-23.664204" lon="-46.760572"><ele>762.1</ele></trkpt>
+      <trkpt lat="-23.664109" lon="-46.760391"><ele>764.2</ele></trkpt>
+      <trkpt lat="-23.664051" lon="-46.760292"><ele>764.2</ele></trkpt>
+      <trkpt lat="-23.663997" lon="-46.760180"><ele>758.9</ele></trkpt>
+      <trkpt lat="-23.663949" lon="-46.760102"><ele>762.0</ele></trkpt>
+      <trkpt lat="-23.663919" lon="-46.760107"><ele>762.0</ele></trkpt>
+      <trkpt lat="-23.663886" lon="-46.760054"><ele>762.0</ele></trkpt>
+      <trkpt lat="-23.663855" lon="-46.759972"><ele>762.0</ele></trkpt>
+      <trkpt lat="-23.663840" lon="-46.759921"><ele>762.0</ele></trkpt>
+      <trkpt lat="-23.663836" lon="-46.759884"><ele>762.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

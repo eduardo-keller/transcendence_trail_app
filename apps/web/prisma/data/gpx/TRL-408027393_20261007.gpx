@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Estrada da Boa Vista</name>
+    <trkseg>
+      <trkpt lat="-23.599811" lon="-46.959775"><ele>914.5</ele></trkpt>
+      <trkpt lat="-23.599531" lon="-46.959646"><ele>924.8</ele></trkpt>
+      <trkpt lat="-23.598992" lon="-46.959450"><ele>932.4</ele></trkpt>
+      <trkpt lat="-23.598847" lon="-46.959421"><ele>932.4</ele></trkpt>
+      <trkpt lat="-23.598451" lon="-46.959370"><ele>942.3</ele></trkpt>
+      <trkpt lat="-23.597638" lon="-46.959271"><ele>944.0</ele></trkpt>
+      <trkpt lat="-23.596989" lon="-46.959226"><ele>947.5</ele></trkpt>
+      <trkpt lat="-23.596570" lon="-46.959226"><ele>947.6</ele></trkpt>
+      <trkpt lat="-23.596388" lon="-46.959233"><ele>947.1</ele></trkpt>
+      <trkpt lat="-23.596231" lon="-46.959301"><ele>944.0</ele></trkpt>
+      <trkpt lat="-23.596114" lon="-46.959430"><ele>951.4</ele></trkpt>
+      <trkpt lat="-23.596045" lon="-46.959524"><ele>951.4</ele></trkpt>
+      <trkpt lat="-23.596022" lon="-46.959602"><ele>954.6</ele></trkpt>
+      <trkpt lat="-23.596019" lon="-46.959740"><ele>954.6</ele></trkpt>
+      <trkpt lat="-23.596043" lon="-46.959810"><ele>954.6</ele></trkpt>
+      <trkpt lat="-23.596142" lon="-46.959928"><ele>955.4</ele></trkpt>
+      <trkpt lat="-23.596386" lon="-46.960204"><ele>959.0</ele></trkpt>
+      <trkpt lat="-23.596473" lon="-46.960293"><ele>959.0</ele></trkpt>
+      <trkpt lat="-23.596491" lon="-46.960337"><ele>959.0</ele></trkpt>
+      <trkpt lat="-23.596491" lon="-46.960419"><ele>958.7</ele></trkpt>
+      <trkpt lat="-23.596477" lon="-46.960494"><ele>958.7</ele></trkpt>
+      <trkpt lat="-23.596402" lon="-46.960681"><ele>958.7</ele></trkpt>
+      <trkpt lat="-23.596317" lon="-46.960836"><ele>963.6</ele></trkpt>
+      <trkpt lat="-23.596295" lon="-46.961593"><ele>967.9</ele></trkpt>
+      <trkpt lat="-23.596253" lon="-46.961800"><ele>967.9</ele></trkpt>
+      <trkpt lat="-23.596043" lon="-46.962723"><ele>972.3</ele></trkpt>
+      <trkpt lat="-23.595905" lon="-46.963052"><ele>969.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

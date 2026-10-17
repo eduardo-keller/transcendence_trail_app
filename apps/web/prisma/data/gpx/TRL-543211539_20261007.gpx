@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Avenida Ponta do Sol</name>
+    <trkseg>
+      <trkpt lat="-23.723355" lon="-46.712199"><ele>739.7</ele></trkpt>
+      <trkpt lat="-23.723236" lon="-46.712301"><ele>739.7</ele></trkpt>
+      <trkpt lat="-23.723197" lon="-46.712334"><ele>739.7</ele></trkpt>
+      <trkpt lat="-23.723155" lon="-46.712370"><ele>739.1</ele></trkpt>
+      <trkpt lat="-23.723098" lon="-46.712421"><ele>739.1</ele></trkpt>
+      <trkpt lat="-23.723070" lon="-46.712434"><ele>739.1</ele></trkpt>
+      <trkpt lat="-23.723049" lon="-46.712440"><ele>739.1</ele></trkpt>
+      <trkpt lat="-23.723020" lon="-46.712440"><ele>739.1</ele></trkpt>
+      <trkpt lat="-23.723000" lon="-46.712438"><ele>739.1</ele></trkpt>
+      <trkpt lat="-23.722979" lon="-46.712437"><ele>739.1</ele></trkpt>
+      <trkpt lat="-23.722969" lon="-46.712439"><ele>739.1</ele></trkpt>
+      <trkpt lat="-23.722955" lon="-46.712450"><ele>739.1</ele></trkpt>
+      <trkpt lat="-23.722940" lon="-46.712472"><ele>739.1</ele></trkpt>
+      <trkpt lat="-23.722885" lon="-46.712666"><ele>739.8</ele></trkpt>
+      <trkpt lat="-23.722881" lon="-46.712691"><ele>739.8</ele></trkpt>
+      <trkpt lat="-23.722882" lon="-46.712714"><ele>739.8</ele></trkpt>
+      <trkpt lat="-23.722884" lon="-46.712738"><ele>739.8</ele></trkpt>
+      <trkpt lat="-23.722887" lon="-46.712764"><ele>739.8</ele></trkpt>
+      <trkpt lat="-23.722886" lon="-46.712784"><ele>739.8</ele></trkpt>
+      <trkpt lat="-23.722867" lon="-46.712846"><ele>739.8</ele></trkpt>
+      <trkpt lat="-23.722857" lon="-46.712865"><ele>739.8</ele></trkpt>
+      <trkpt lat="-23.722841" lon="-46.712886"><ele>739.8</ele></trkpt>
+      <trkpt lat="-23.722789" lon="-46.712931"><ele>739.7</ele></trkpt>
+      <trkpt lat="-23.722690" lon="-46.713009"><ele>739.7</ele></trkpt>
+      <trkpt lat="-23.722652" lon="-46.713054"><ele>739.7</ele></trkpt>
+      <trkpt lat="-23.722615" lon="-46.713128"><ele>741.9</ele></trkpt>
+      <trkpt lat="-23.722587" lon="-46.713215"><ele>740.6</ele></trkpt>
+      <trkpt lat="-23.722556" lon="-46.713335"><ele>740.6</ele></trkpt>
+      <trkpt lat="-23.722515" lon="-46.713511"><ele>738.8</ele></trkpt>
+      <trkpt lat="-23.722505" lon="-46.713553"><ele>738.8</ele></trkpt>
+      <trkpt lat="-23.722489" lon="-46.713588"><ele>738.8</ele></trkpt>
+      <trkpt lat="-23.722435" lon="-46.713643"><ele>738.8</ele></trkpt>
+      <trkpt lat="-23.722371" lon="-46.713707"><ele>738.8</ele></trkpt>
+      <trkpt lat="-23.722334" lon="-46.713757"><ele>743.4</ele></trkpt>
+      <trkpt lat="-23.722309" lon="-46.713811"><ele>743.4</ele></trkpt>
+      <trkpt lat="-23.722199" lon="-46.714081"><ele>741.1</ele></trkpt>
+      <trkpt lat="-23.722155" lon="-46.714168"><ele>741.1</ele></trkpt>
+      <trkpt lat="-23.722115" lon="-46.714230"><ele>741.1</ele></trkpt>
+      <trkpt lat="-23.722066" lon="-46.714280"><ele>742.2</ele></trkpt>
+      <trkpt lat="-23.722017" lon="-46.714311"><ele>738.5</ele></trkpt>
+      <trkpt lat="-23.721942" lon="-46.714326"><ele>738.5</ele></trkpt>
+      <trkpt lat="-23.721836" lon="-46.714339"><ele>738.5</ele></trkpt>
+      <trkpt lat="-23.721733" lon="-46.714338"><ele>737.9</ele></trkpt>
+      <trkpt lat="-23.721327" lon="-46.714309"><ele>737.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

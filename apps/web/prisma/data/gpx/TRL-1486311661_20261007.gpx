@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Túnel de Acesso ao Aeroporto de Congonhas</name>
+    <trkseg>
+      <trkpt lat="-23.627202" lon="-46.661874"><ele>783.2</ele></trkpt>
+      <trkpt lat="-23.627209" lon="-46.661851"><ele>783.2</ele></trkpt>
+      <trkpt lat="-23.627183" lon="-46.661842"><ele>783.2</ele></trkpt>
+      <trkpt lat="-23.627183" lon="-46.661842"><ele>783.2</ele></trkpt>
+      <trkpt lat="-23.627187" lon="-46.661827"><ele>783.2</ele></trkpt>
+      <trkpt lat="-23.627129" lon="-46.661807"><ele>783.2</ele></trkpt>
+      <trkpt lat="-23.627126" lon="-46.661822"><ele>783.2</ele></trkpt>
+      <trkpt lat="-23.627077" lon="-46.661807"><ele>781.1</ele></trkpt>
+      <trkpt lat="-23.626014" lon="-46.661518"><ele>781.1</ele></trkpt>
+      <trkpt lat="-23.626089" lon="-46.660759"><ele>793.3</ele></trkpt>
+      <trkpt lat="-23.626090" lon="-46.660701"><ele>793.3</ele></trkpt>
+      <trkpt lat="-23.626092" lon="-46.660634"><ele>791.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

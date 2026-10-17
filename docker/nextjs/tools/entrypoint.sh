@@ -12,4 +12,6 @@ fi
 
 npx prisma generate
 npx prisma migrate deploy
+# Banco novo: carrega o catálogo de trilhas do OSM (não bloqueia a subida se falhar)
+node prisma/import-trails.mts --if-empty || echo "aviso: importação das trilhas falhou (rode make import-trails)"
 exec "$@"

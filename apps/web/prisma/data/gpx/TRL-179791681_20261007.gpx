@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passarela Doutora Justina Infância Rodrigues Pinchiari</name>
+    <trkseg>
+      <trkpt lat="-23.664719" lon="-46.523121"><ele>766.9</ele></trkpt>
+      <trkpt lat="-23.664743" lon="-46.523098"><ele>766.9</ele></trkpt>
+      <trkpt lat="-23.664754" lon="-46.523083"><ele>766.9</ele></trkpt>
+      <trkpt lat="-23.664756" lon="-46.523064"><ele>766.9</ele></trkpt>
+      <trkpt lat="-23.664752" lon="-46.523046"><ele>766.9</ele></trkpt>
+      <trkpt lat="-23.664742" lon="-46.523030"><ele>766.9</ele></trkpt>
+      <trkpt lat="-23.664727" lon="-46.523021"><ele>766.9</ele></trkpt>
+      <trkpt lat="-23.664710" lon="-46.523018"><ele>766.9</ele></trkpt>
+      <trkpt lat="-23.664693" lon="-46.523022"><ele>766.9</ele></trkpt>
+      <trkpt lat="-23.664674" lon="-46.523031"><ele>766.9</ele></trkpt>
+      <trkpt lat="-23.664549" lon="-46.523093"><ele>767.2</ele></trkpt>
+      <trkpt lat="-23.664532" lon="-46.523106"><ele>767.2</ele></trkpt>
+      <trkpt lat="-23.664521" lon="-46.523123"><ele>767.2</ele></trkpt>
+      <trkpt lat="-23.664518" lon="-46.523142"><ele>767.2</ele></trkpt>
+      <trkpt lat="-23.664523" lon="-46.523160"><ele>767.2</ele></trkpt>
+      <trkpt lat="-23.664533" lon="-46.523176"><ele>767.2</ele></trkpt>
+      <trkpt lat="-23.664533" lon="-46.523176"><ele>767.2</ele></trkpt>
+      <trkpt lat="-23.665166" lon="-46.523823"><ele>771.3</ele></trkpt>
+      <trkpt lat="-23.665166" lon="-46.523823"><ele>771.3</ele></trkpt>
+      <trkpt lat="-23.665173" lon="-46.523830"><ele>771.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

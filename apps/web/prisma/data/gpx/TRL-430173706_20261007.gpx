@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Cesário Pereto</name>
+    <trkseg>
+      <trkpt lat="-23.504366" lon="-46.524683"><ele>770.1</ele></trkpt>
+      <trkpt lat="-23.504356" lon="-46.524730"><ele>770.1</ele></trkpt>
+      <trkpt lat="-23.504245" lon="-46.525307"><ele>762.4</ele></trkpt>
+      <trkpt lat="-23.504236" lon="-46.525354"><ele>762.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

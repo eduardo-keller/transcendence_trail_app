@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Caminho da Crista</name>
+    <trkseg>
+      <trkpt lat="-23.428789" lon="-46.652246"><ele>1047.9</ele></trkpt>
+      <trkpt lat="-23.429007" lon="-46.651638"><ele>1064.8</ele></trkpt>
+      <trkpt lat="-23.428660" lon="-46.651233"><ele>1066.0</ele></trkpt>
+      <trkpt lat="-23.428487" lon="-46.650881"><ele>1070.0</ele></trkpt>
+      <trkpt lat="-23.428772" lon="-46.650525"><ele>1066.9</ele></trkpt>
+      <trkpt lat="-23.428949" lon="-46.650159"><ele>1066.7</ele></trkpt>
+      <trkpt lat="-23.429157" lon="-46.650095"><ele>1060.0</ele></trkpt>
+      <trkpt lat="-23.429215" lon="-46.649353"><ele>1054.8</ele></trkpt>
+      <trkpt lat="-23.429437" lon="-46.648774"><ele>1044.0</ele></trkpt>
+      <trkpt lat="-23.429131" lon="-46.647082"><ele>1059.9</ele></trkpt>
+      <trkpt lat="-23.429293" lon="-46.646858"><ele>1059.9</ele></trkpt>
+      <trkpt lat="-23.429133" lon="-46.646540"><ele>1056.5</ele></trkpt>
+      <trkpt lat="-23.428956" lon="-46.646513"><ele>1058.6</ele></trkpt>
+      <trkpt lat="-23.428919" lon="-46.645973"><ele>1059.5</ele></trkpt>
+      <trkpt lat="-23.428671" lon="-46.645676"><ele>1062.1</ele></trkpt>
+      <trkpt lat="-23.428540" lon="-46.645111"><ele>1055.7</ele></trkpt>
+      <trkpt lat="-23.428017" lon="-46.644761"><ele>1059.0</ele></trkpt>
+      <trkpt lat="-23.428009" lon="-46.644375"><ele>1055.8</ele></trkpt>
+      <trkpt lat="-23.428277" lon="-46.643850"><ele>1053.3</ele></trkpt>
+      <trkpt lat="-23.428250" lon="-46.643377"><ele>1051.7</ele></trkpt>
+      <trkpt lat="-23.427703" lon="-46.643038"><ele>1051.3</ele></trkpt>
+      <trkpt lat="-23.427367" lon="-46.642131"><ele>1044.6</ele></trkpt>
+      <trkpt lat="-23.427507" lon="-46.641391"><ele>1045.8</ele></trkpt>
+      <trkpt lat="-23.427940" lon="-46.641218"><ele>1042.5</ele></trkpt>
+      <trkpt lat="-23.427151" lon="-46.639561"><ele>1079.2</ele></trkpt>
+      <trkpt lat="-23.427310" lon="-46.638966"><ele>1075.4</ele></trkpt>
+      <trkpt lat="-23.427168" lon="-46.638164"><ele>1071.7</ele></trkpt>
+      <trkpt lat="-23.427866" lon="-46.637120"><ele>1064.1</ele></trkpt>
+      <trkpt lat="-23.427867" lon="-46.636639"><ele>1063.7</ele></trkpt>
+      <trkpt lat="-23.427777" lon="-46.636463"><ele>1066.9</ele></trkpt>
+      <trkpt lat="-23.427736" lon="-46.636229"><ele>1072.3</ele></trkpt>
+      <trkpt lat="-23.427725" lon="-46.636009"><ele>1072.3</ele></trkpt>
+      <trkpt lat="-23.427650" lon="-46.635565"><ele>1080.3</ele></trkpt>
+      <trkpt lat="-23.427861" lon="-46.635015"><ele>1079.0</ele></trkpt>
+      <trkpt lat="-23.428529" lon="-46.634756"><ele>1087.6</ele></trkpt>
+      <trkpt lat="-23.428721" lon="-46.634353"><ele>1089.7</ele></trkpt>
+      <trkpt lat="-23.428569" lon="-46.633837"><ele>1083.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

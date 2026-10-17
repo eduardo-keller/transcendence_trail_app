@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Augusta de Jesus Iebra</name>
+    <trkseg>
+      <trkpt lat="-23.535799" lon="-46.461756"><ele>769.2</ele></trkpt>
+      <trkpt lat="-23.535881" lon="-46.461461"><ele>766.5</ele></trkpt>
+      <trkpt lat="-23.535966" lon="-46.461176"><ele>761.4</ele></trkpt>
+      <trkpt lat="-23.536023" lon="-46.461017"><ele>765.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

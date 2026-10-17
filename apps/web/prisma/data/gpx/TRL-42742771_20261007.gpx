@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Judite Santos Rosatti</name>
+    <trkseg>
+      <trkpt lat="-23.698190" lon="-46.713844"><ele>743.7</ele></trkpt>
+      <trkpt lat="-23.698198" lon="-46.713915"><ele>743.4</ele></trkpt>
+      <trkpt lat="-23.698207" lon="-46.714160"><ele>742.5</ele></trkpt>
+      <trkpt lat="-23.698204" lon="-46.714366"><ele>741.0</ele></trkpt>
+      <trkpt lat="-23.698189" lon="-46.714736"><ele>741.8</ele></trkpt>
+      <trkpt lat="-23.698187" lon="-46.714911"><ele>742.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

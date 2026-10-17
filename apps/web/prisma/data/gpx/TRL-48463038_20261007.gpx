@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Ponte sobre o Rio Casqueiro SP 148 - Interditada pelo DER</name>
+    <trkseg>
+      <trkpt lat="-23.926275" lon="-46.396648"><ele>3.9</ele></trkpt>
+      <trkpt lat="-23.925722" lon="-46.396154"><ele>0.0</ele></trkpt>
+      <trkpt lat="-23.925156" lon="-46.395664"><ele>0.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Galeria Augusta</name>
+    <trkseg>
+      <trkpt lat="-23.556496" lon="-46.659342"><ele>823.1</ele></trkpt>
+      <trkpt lat="-23.556447" lon="-46.659290"><ele>823.0</ele></trkpt>
+      <trkpt lat="-23.556744" lon="-46.658957"><ele>817.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

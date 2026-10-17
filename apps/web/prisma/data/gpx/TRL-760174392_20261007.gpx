@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Dias Adorno</name>
+    <trkseg>
+      <trkpt lat="-23.665212" lon="-46.519210"><ele>759.3</ele></trkpt>
+      <trkpt lat="-23.665229" lon="-46.519257"><ele>759.3</ele></trkpt>
+      <trkpt lat="-23.665239" lon="-46.519285"><ele>759.3</ele></trkpt>
+      <trkpt lat="-23.665347" lon="-46.519583"><ele>761.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

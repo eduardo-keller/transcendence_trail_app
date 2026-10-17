@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Via de Pedestre Ciranda Sem fim</name>
+    <trkseg>
+      <trkpt lat="-23.494125" lon="-46.624949"><ele>768.7</ele></trkpt>
+      <trkpt lat="-23.494280" lon="-46.625283"><ele>776.7</ele></trkpt>
+      <trkpt lat="-23.494263" lon="-46.625925"><ele>787.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

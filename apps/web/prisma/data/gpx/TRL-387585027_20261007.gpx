@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Teotônio</name>
+    <trkseg>
+      <trkpt lat="-23.558522" lon="-46.389690"><ele>818.6</ele></trkpt>
+      <trkpt lat="-23.558620" lon="-46.389501"><ele>820.6</ele></trkpt>
+      <trkpt lat="-23.558697" lon="-46.389400"><ele>820.6</ele></trkpt>
+      <trkpt lat="-23.558858" lon="-46.389079"><ele>819.3</ele></trkpt>
+      <trkpt lat="-23.558989" lon="-46.388843"><ele>820.8</ele></trkpt>
+      <trkpt lat="-23.559087" lon="-46.388609"><ele>813.8</ele></trkpt>
+      <trkpt lat="-23.559164" lon="-46.388446"><ele>820.4</ele></trkpt>
+      <trkpt lat="-23.559241" lon="-46.388329"><ele>820.4</ele></trkpt>
+      <trkpt lat="-23.559592" lon="-46.388156"><ele>823.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

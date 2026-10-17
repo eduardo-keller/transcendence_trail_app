@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Via de Pedestre Antônio Lussin</name>
+    <trkseg>
+      <trkpt lat="-23.632947" lon="-46.602267"><ele>783.0</ele></trkpt>
+      <trkpt lat="-23.632879" lon="-46.602338"><ele>780.3</ele></trkpt>
+      <trkpt lat="-23.632785" lon="-46.602478"><ele>784.4</ele></trkpt>
+      <trkpt lat="-23.632755" lon="-46.602526"><ele>784.4</ele></trkpt>
+      <trkpt lat="-23.632666" lon="-46.602752"><ele>786.4</ele></trkpt>
+      <trkpt lat="-23.632639" lon="-46.602817"><ele>786.4</ele></trkpt>
+      <trkpt lat="-23.632603" lon="-46.602932"><ele>788.1</ele></trkpt>
+      <trkpt lat="-23.632691" lon="-46.602957"><ele>786.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

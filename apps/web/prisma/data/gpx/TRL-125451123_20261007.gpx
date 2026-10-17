@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Ladeira da Preguiça</name>
+    <trkseg>
+      <trkpt lat="-23.588653" lon="-46.656414"><ele>757.1</ele></trkpt>
+      <trkpt lat="-23.588742" lon="-46.656377"><ele>757.1</ele></trkpt>
+      <trkpt lat="-23.588814" lon="-46.656353"><ele>758.4</ele></trkpt>
+      <trkpt lat="-23.588878" lon="-46.656342"><ele>758.4</ele></trkpt>
+      <trkpt lat="-23.588976" lon="-46.656331"><ele>758.4</ele></trkpt>
+      <trkpt lat="-23.589171" lon="-46.656348"><ele>760.1</ele></trkpt>
+      <trkpt lat="-23.589322" lon="-46.656378"><ele>764.5</ele></trkpt>
+      <trkpt lat="-23.589406" lon="-46.656409"><ele>764.5</ele></trkpt>
+      <trkpt lat="-23.589514" lon="-46.656461"><ele>764.5</ele></trkpt>
+      <trkpt lat="-23.589514" lon="-46.656461"><ele>764.5</ele></trkpt>
+      <trkpt lat="-23.589579" lon="-46.656530"><ele>761.4</ele></trkpt>
+      <trkpt lat="-23.589579" lon="-46.656530"><ele>761.4</ele></trkpt>
+      <trkpt lat="-23.589659" lon="-46.656615"><ele>759.7</ele></trkpt>
+      <trkpt lat="-23.589735" lon="-46.656718"><ele>759.7</ele></trkpt>
+      <trkpt lat="-23.589735" lon="-46.656718"><ele>759.7</ele></trkpt>
+      <trkpt lat="-23.589767" lon="-46.656781"><ele>759.7</ele></trkpt>
+      <trkpt lat="-23.590158" lon="-46.657535"><ele>752.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

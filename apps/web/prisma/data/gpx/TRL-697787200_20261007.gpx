@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Caminho da Norinda</name>
+    <trkseg>
+      <trkpt lat="-23.780213" lon="-46.302141"><ele>825.5</ele></trkpt>
+      <trkpt lat="-23.779881" lon="-46.302328"><ele>818.0</ele></trkpt>
+      <trkpt lat="-23.779798" lon="-46.302334"><ele>811.8</ele></trkpt>
+      <trkpt lat="-23.779716" lon="-46.302245"><ele>811.8</ele></trkpt>
+      <trkpt lat="-23.779695" lon="-46.302175"><ele>811.8</ele></trkpt>
+      <trkpt lat="-23.779687" lon="-46.302096"><ele>811.8</ele></trkpt>
+      <trkpt lat="-23.779687" lon="-46.302096"><ele>811.8</ele></trkpt>
+      <trkpt lat="-23.779695" lon="-46.302049"><ele>810.3</ele></trkpt>
+      <trkpt lat="-23.779695" lon="-46.302049"><ele>810.3</ele></trkpt>
+      <trkpt lat="-23.779724" lon="-46.301972"><ele>810.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

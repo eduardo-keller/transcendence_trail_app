@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Miguel de Siqueira</name>
+    <trkseg>
+      <trkpt lat="-23.486901" lon="-46.485820"><ele>740.6</ele></trkpt>
+      <trkpt lat="-23.486947" lon="-46.485817"><ele>740.6</ele></trkpt>
+      <trkpt lat="-23.486981" lon="-46.485811"><ele>740.6</ele></trkpt>
+      <trkpt lat="-23.487062" lon="-46.485813"><ele>740.6</ele></trkpt>
+      <trkpt lat="-23.487159" lon="-46.485843"><ele>743.5</ele></trkpt>
+      <trkpt lat="-23.487335" lon="-46.485973"><ele>742.6</ele></trkpt>
+      <trkpt lat="-23.487487" lon="-46.486035"><ele>743.4</ele></trkpt>
+      <trkpt lat="-23.487624" lon="-46.486035"><ele>743.4</ele></trkpt>
+      <trkpt lat="-23.487747" lon="-46.486019"><ele>744.7</ele></trkpt>
+      <trkpt lat="-23.487889" lon="-46.486029"><ele>744.7</ele></trkpt>
+      <trkpt lat="-23.488036" lon="-46.486055"><ele>746.5</ele></trkpt>
+      <trkpt lat="-23.488178" lon="-46.486138"><ele>746.5</ele></trkpt>
+      <trkpt lat="-23.488311" lon="-46.486174"><ele>750.6</ele></trkpt>
+      <trkpt lat="-23.488433" lon="-46.486169"><ele>750.6</ele></trkpt>
+      <trkpt lat="-23.488779" lon="-46.486133"><ele>755.0</ele></trkpt>
+      <trkpt lat="-23.488926" lon="-46.486127"><ele>755.0</ele></trkpt>
+      <trkpt lat="-23.489082" lon="-46.486195"><ele>757.5</ele></trkpt>
+      <trkpt lat="-23.489243" lon="-46.486226"><ele>757.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

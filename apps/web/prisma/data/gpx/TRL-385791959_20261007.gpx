@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Equari</name>
+    <trkseg>
+      <trkpt lat="-23.460284" lon="-46.602296"><ele>755.0</ele></trkpt>
+      <trkpt lat="-23.460299" lon="-46.602261"><ele>755.0</ele></trkpt>
+      <trkpt lat="-23.460604" lon="-46.601526"><ele>758.2</ele></trkpt>
+      <trkpt lat="-23.460650" lon="-46.601507"><ele>758.2</ele></trkpt>
+      <trkpt lat="-23.460653" lon="-46.601467"><ele>758.2</ele></trkpt>
+      <trkpt lat="-23.460630" lon="-46.601334"><ele>758.2</ele></trkpt>
+      <trkpt lat="-23.460613" lon="-46.601199"><ele>761.9</ele></trkpt>
+      <trkpt lat="-23.460593" lon="-46.601100"><ele>761.9</ele></trkpt>
+      <trkpt lat="-23.460589" lon="-46.601068"><ele>761.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

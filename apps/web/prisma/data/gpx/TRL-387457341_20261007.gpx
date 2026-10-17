@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua das Orquídeas</name>
+    <trkseg>
+      <trkpt lat="-23.638228" lon="-46.443039"><ele>866.7</ele></trkpt>
+      <trkpt lat="-23.638160" lon="-46.443272"><ele>851.8</ele></trkpt>
+      <trkpt lat="-23.637979" lon="-46.443635"><ele>845.2</ele></trkpt>
+      <trkpt lat="-23.637881" lon="-46.443838"><ele>836.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

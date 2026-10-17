@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela O</name>
+    <trkseg>
+      <trkpt lat="-23.451803" lon="-46.413226"><ele>780.9</ele></trkpt>
+      <trkpt lat="-23.452123" lon="-46.412972"><ele>790.9</ele></trkpt>
+      <trkpt lat="-23.452123" lon="-46.412972"><ele>790.9</ele></trkpt>
+      <trkpt lat="-23.452604" lon="-46.412585"><ele>799.4</ele></trkpt>
+      <trkpt lat="-23.452604" lon="-46.412585"><ele>799.4</ele></trkpt>
+      <trkpt lat="-23.453085" lon="-46.412221"><ele>798.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

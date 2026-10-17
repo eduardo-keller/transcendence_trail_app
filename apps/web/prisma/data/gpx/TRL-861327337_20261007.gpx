@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua da Mina</name>
+    <trkseg>
+      <trkpt lat="-23.654956" lon="-46.729983"><ele>771.7</ele></trkpt>
+      <trkpt lat="-23.654896" lon="-46.730163"><ele>781.4</ele></trkpt>
+      <trkpt lat="-23.654805" lon="-46.730459"><ele>788.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

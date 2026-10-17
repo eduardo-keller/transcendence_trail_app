@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passarela Palmeiras Arrancada Heróica 1942</name>
+    <trkseg>
+      <trkpt lat="-23.528063" lon="-46.674150"><ele>735.9</ele></trkpt>
+      <trkpt lat="-23.528044" lon="-46.674183"><ele>735.9</ele></trkpt>
+      <trkpt lat="-23.528019" lon="-46.674221"><ele>735.9</ele></trkpt>
+      <trkpt lat="-23.527997" lon="-46.674242"><ele>735.9</ele></trkpt>
+      <trkpt lat="-23.527955" lon="-46.674274"><ele>735.9</ele></trkpt>
+      <trkpt lat="-23.527925" lon="-46.674292"><ele>735.9</ele></trkpt>
+      <trkpt lat="-23.527833" lon="-46.674341"><ele>734.5</ele></trkpt>
+      <trkpt lat="-23.527797" lon="-46.674361"><ele>734.5</ele></trkpt>
+      <trkpt lat="-23.527784" lon="-46.674367"><ele>734.5</ele></trkpt>
+      <trkpt lat="-23.527561" lon="-46.674480"><ele>742.4</ele></trkpt>
+      <trkpt lat="-23.527543" lon="-46.674482"><ele>742.4</ele></trkpt>
+      <trkpt lat="-23.527527" lon="-46.674479"><ele>742.4</ele></trkpt>
+      <trkpt lat="-23.527514" lon="-46.674466"><ele>742.4</ele></trkpt>
+      <trkpt lat="-23.527507" lon="-46.674441"><ele>742.4</ele></trkpt>
+      <trkpt lat="-23.527505" lon="-46.674413"><ele>742.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

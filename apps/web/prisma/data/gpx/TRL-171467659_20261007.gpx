@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Luiz Demetrio de Araújo</name>
+    <trkseg>
+      <trkpt lat="-23.962997" lon="-46.251746"><ele>3.9</ele></trkpt>
+      <trkpt lat="-23.963031" lon="-46.251862"><ele>2.7</ele></trkpt>
+      <trkpt lat="-23.963081" lon="-46.252045"><ele>2.7</ele></trkpt>
+      <trkpt lat="-23.963207" lon="-46.252390"><ele>4.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

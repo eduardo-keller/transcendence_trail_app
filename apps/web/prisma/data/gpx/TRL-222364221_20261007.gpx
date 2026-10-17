@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Gerânio</name>
+    <trkseg>
+      <trkpt lat="-23.449249" lon="-46.356941"><ele>760.0</ele></trkpt>
+      <trkpt lat="-23.449192" lon="-46.357024"><ele>760.0</ele></trkpt>
+      <trkpt lat="-23.449180" lon="-46.357085"><ele>759.7</ele></trkpt>
+      <trkpt lat="-23.449178" lon="-46.357161"><ele>759.7</ele></trkpt>
+      <trkpt lat="-23.449186" lon="-46.357243"><ele>759.7</ele></trkpt>
+      <trkpt lat="-23.449213" lon="-46.357310"><ele>759.7</ele></trkpt>
+      <trkpt lat="-23.449262" lon="-46.357360"><ele>759.7</ele></trkpt>
+      <trkpt lat="-23.449305" lon="-46.357432"><ele>764.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Praça Euclides de Araujo Costa</name>
+    <trkseg>
+      <trkpt lat="-23.523763" lon="-46.717309"><ele>748.1</ele></trkpt>
+      <trkpt lat="-23.523645" lon="-46.716793"><ele>745.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

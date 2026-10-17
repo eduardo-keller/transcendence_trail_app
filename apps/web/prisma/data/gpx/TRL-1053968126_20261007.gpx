@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Campo Formoso</name>
+    <trkseg>
+      <trkpt lat="-23.430723" lon="-47.063086"><ele>719.5</ele></trkpt>
+      <trkpt lat="-23.430711" lon="-47.063038"><ele>719.5</ele></trkpt>
+      <trkpt lat="-23.430667" lon="-47.063016"><ele>719.2</ele></trkpt>
+      <trkpt lat="-23.430531" lon="-47.062976"><ele>719.2</ele></trkpt>
+      <trkpt lat="-23.430436" lon="-47.062970"><ele>719.2</ele></trkpt>
+      <trkpt lat="-23.430343" lon="-47.062965"><ele>716.0</ele></trkpt>
+      <trkpt lat="-23.430145" lon="-47.062945"><ele>716.0</ele></trkpt>
+      <trkpt lat="-23.430106" lon="-47.062908"><ele>710.5</ele></trkpt>
+      <trkpt lat="-23.430049" lon="-47.062890"><ele>710.5</ele></trkpt>
+      <trkpt lat="-23.429894" lon="-47.062868"><ele>710.5</ele></trkpt>
+      <trkpt lat="-23.429742" lon="-47.062860"><ele>708.4</ele></trkpt>
+      <trkpt lat="-23.429629" lon="-47.062896"><ele>708.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Cupira</name>
+    <trkseg>
+      <trkpt lat="-23.453168" lon="-46.514774"><ele>761.6</ele></trkpt>
+      <trkpt lat="-23.452685" lon="-46.514226"><ele>751.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

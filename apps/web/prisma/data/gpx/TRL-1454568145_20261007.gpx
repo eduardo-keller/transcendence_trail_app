@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Incorporadora Hibridy</name>
+    <trkseg>
+      <trkpt lat="-23.603043" lon="-46.593741"><ele>757.7</ele></trkpt>
+      <trkpt lat="-23.602915" lon="-46.593796"><ele>753.2</ele></trkpt>
+      <trkpt lat="-23.602932" lon="-46.593850"><ele>758.2</ele></trkpt>
+      <trkpt lat="-23.602796" lon="-46.593878"><ele>753.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

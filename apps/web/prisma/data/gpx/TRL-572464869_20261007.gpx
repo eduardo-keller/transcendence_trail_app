@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Israel</name>
+    <trkseg>
+      <trkpt lat="-23.709486" lon="-46.798007"><ele>826.2</ele></trkpt>
+      <trkpt lat="-23.709145" lon="-46.798091"><ele>820.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

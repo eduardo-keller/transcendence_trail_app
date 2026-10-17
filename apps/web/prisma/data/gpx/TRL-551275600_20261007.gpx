@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Clipperton</name>
+    <trkseg>
+      <trkpt lat="-23.627472" lon="-46.722561"><ele>763.6</ele></trkpt>
+      <trkpt lat="-23.627422" lon="-46.722005"><ele>756.8</ele></trkpt>
+      <trkpt lat="-23.627444" lon="-46.721884"><ele>756.8</ele></trkpt>
+      <trkpt lat="-23.627437" lon="-46.721759"><ele>757.2</ele></trkpt>
+      <trkpt lat="-23.627480" lon="-46.721587"><ele>757.2</ele></trkpt>
+      <trkpt lat="-23.627394" lon="-46.721414"><ele>752.9</ele></trkpt>
+      <trkpt lat="-23.627236" lon="-46.721193"><ele>751.6</ele></trkpt>
+      <trkpt lat="-23.627077" lon="-46.720965"><ele>751.0</ele></trkpt>
+      <trkpt lat="-23.626934" lon="-46.720610"><ele>741.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

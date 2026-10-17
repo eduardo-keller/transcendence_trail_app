@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela São Paulo</name>
+    <trkseg>
+      <trkpt lat="-23.505109" lon="-46.516968"><ele>788.2</ele></trkpt>
+      <trkpt lat="-23.505080" lon="-46.517042"><ele>788.2</ele></trkpt>
+      <trkpt lat="-23.505083" lon="-46.517059"><ele>788.2</ele></trkpt>
+      <trkpt lat="-23.505045" lon="-46.517183"><ele>784.6</ele></trkpt>
+      <trkpt lat="-23.505028" lon="-46.517219"><ele>784.6</ele></trkpt>
+      <trkpt lat="-23.504998" lon="-46.517289"><ele>784.6</ele></trkpt>
+      <trkpt lat="-23.504951" lon="-46.517406"><ele>780.8</ele></trkpt>
+      <trkpt lat="-23.504935" lon="-46.517477"><ele>780.8</ele></trkpt>
+      <trkpt lat="-23.504908" lon="-46.517536"><ele>780.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

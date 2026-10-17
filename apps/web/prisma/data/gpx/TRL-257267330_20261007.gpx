@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Richard Bate</name>
+    <trkseg>
+      <trkpt lat="-23.477739" lon="-46.577001"><ele>746.5</ele></trkpt>
+      <trkpt lat="-23.477894" lon="-46.577497"><ele>747.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

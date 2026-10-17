@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Hani Ward</name>
+    <trkseg>
+      <trkpt lat="-23.689170" lon="-46.791354"><ele>796.5</ele></trkpt>
+      <trkpt lat="-23.688848" lon="-46.791427"><ele>790.7</ele></trkpt>
+      <trkpt lat="-23.688434" lon="-46.791532"><ele>798.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

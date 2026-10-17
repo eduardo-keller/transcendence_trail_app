@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Trilha Jaceguava Interparques</name>
+    <trkseg>
+      <trkpt lat="-23.788375" lon="-46.766278"><ele>758.2</ele></trkpt>
+      <trkpt lat="-23.787172" lon="-46.767245"><ele>749.7</ele></trkpt>
+      <trkpt lat="-23.786701" lon="-46.767358"><ele>759.4</ele></trkpt>
+      <trkpt lat="-23.786448" lon="-46.767568"><ele>768.1</ele></trkpt>
+      <trkpt lat="-23.786220" lon="-46.767606"><ele>778.9</ele></trkpt>
+      <trkpt lat="-23.786155" lon="-46.767792"><ele>779.2</ele></trkpt>
+      <trkpt lat="-23.785735" lon="-46.768117"><ele>787.6</ele></trkpt>
+      <trkpt lat="-23.785641" lon="-46.768004"><ele>795.7</ele></trkpt>
+      <trkpt lat="-23.785434" lon="-46.767639"><ele>798.3</ele></trkpt>
+      <trkpt lat="-23.785047" lon="-46.767734"><ele>799.8</ele></trkpt>
+      <trkpt lat="-23.782896" lon="-46.768823"><ele>808.1</ele></trkpt>
+      <trkpt lat="-23.782586" lon="-46.768682"><ele>807.0</ele></trkpt>
+      <trkpt lat="-23.779561" lon="-46.769630"><ele>801.2</ele></trkpt>
+      <trkpt lat="-23.780325" lon="-46.770955"><ele>793.2</ele></trkpt>
+      <trkpt lat="-23.780430" lon="-46.771141"><ele>794.4</ele></trkpt>
+      <trkpt lat="-23.780346" lon="-46.771350"><ele>793.5</ele></trkpt>
+      <trkpt lat="-23.780355" lon="-46.771577"><ele>796.4</ele></trkpt>
+      <trkpt lat="-23.781271" lon="-46.772842"><ele>800.1</ele></trkpt>
+      <trkpt lat="-23.781106" lon="-46.773127"><ele>793.5</ele></trkpt>
+      <trkpt lat="-23.780765" lon="-46.773456"><ele>784.9</ele></trkpt>
+      <trkpt lat="-23.780456" lon="-46.773537"><ele>778.5</ele></trkpt>
+      <trkpt lat="-23.780331" lon="-46.773418"><ele>782.0</ele></trkpt>
+      <trkpt lat="-23.780206" lon="-46.773403"><ele>782.0</ele></trkpt>
+      <trkpt lat="-23.780036" lon="-46.773679"><ele>773.5</ele></trkpt>
+      <trkpt lat="-23.779793" lon="-46.774180"><ele>762.2</ele></trkpt>
+      <trkpt lat="-23.779614" lon="-46.774328"><ele>757.9</ele></trkpt>
+      <trkpt lat="-23.778454" lon="-46.774642"><ele>754.4</ele></trkpt>
+      <trkpt lat="-23.778142" lon="-46.774798"><ele>753.7</ele></trkpt>
+      <trkpt lat="-23.777775" lon="-46.775129"><ele>748.8</ele></trkpt>
+      <trkpt lat="-23.777612" lon="-46.775472"><ele>747.3</ele></trkpt>
+      <trkpt lat="-23.777580" lon="-46.775818"><ele>747.6</ele></trkpt>
+      <trkpt lat="-23.777390" lon="-46.776012"><ele>749.5</ele></trkpt>
+      <trkpt lat="-23.777092" lon="-46.776179"><ele>748.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

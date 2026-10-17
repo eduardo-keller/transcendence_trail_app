@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Via de pedrestre Ribalta</name>
+    <trkseg>
+      <trkpt lat="-23.485189" lon="-46.577544"><ele>749.4</ele></trkpt>
+      <trkpt lat="-23.485166" lon="-46.577513"><ele>749.4</ele></trkpt>
+      <trkpt lat="-23.484987" lon="-46.577126"><ele>749.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

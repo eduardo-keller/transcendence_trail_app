@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Felipe Pedrell</name>
+    <trkseg>
+      <trkpt lat="-23.745781" lon="-46.697493"><ele>792.2</ele></trkpt>
+      <trkpt lat="-23.745565" lon="-46.697595"><ele>786.1</ele></trkpt>
+      <trkpt lat="-23.745486" lon="-46.697622"><ele>786.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

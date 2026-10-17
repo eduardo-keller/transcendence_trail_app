@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Apiaí</name>
+    <trkseg>
+      <trkpt lat="-23.532649" lon="-46.853541"><ele>762.4</ele></trkpt>
+      <trkpt lat="-23.532626" lon="-46.854220"><ele>774.3</ele></trkpt>
+      <trkpt lat="-23.532640" lon="-46.855062"><ele>784.2</ele></trkpt>
+      <trkpt lat="-23.532784" lon="-46.855241"><ele>785.5</ele></trkpt>
+      <trkpt lat="-23.533287" lon="-46.855716"><ele>780.5</ele></trkpt>
+      <trkpt lat="-23.533738" lon="-46.856064"><ele>771.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

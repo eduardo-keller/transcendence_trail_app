@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Dunas</name>
+    <trkseg>
+      <trkpt lat="-23.723844" lon="-46.610142"><ele>809.2</ele></trkpt>
+      <trkpt lat="-23.723297" lon="-46.610200"><ele>800.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

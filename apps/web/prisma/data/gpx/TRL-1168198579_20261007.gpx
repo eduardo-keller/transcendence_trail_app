@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Brasil</name>
+    <trkseg>
+      <trkpt lat="-23.641194" lon="-46.602342"><ele>755.9</ele></trkpt>
+      <trkpt lat="-23.641036" lon="-46.602411"><ele>759.8</ele></trkpt>
+      <trkpt lat="-23.640758" lon="-46.602532"><ele>767.2</ele></trkpt>
+      <trkpt lat="-23.640350" lon="-46.602708"><ele>769.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

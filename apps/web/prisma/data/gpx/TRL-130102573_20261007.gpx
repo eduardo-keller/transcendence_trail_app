@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Boa Viagem</name>
+    <trkseg>
+      <trkpt lat="-23.672195" lon="-46.600339"><ele>787.5</ele></trkpt>
+      <trkpt lat="-23.672020" lon="-46.600719"><ele>775.3</ele></trkpt>
+      <trkpt lat="-23.671757" lon="-46.601294"><ele>770.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

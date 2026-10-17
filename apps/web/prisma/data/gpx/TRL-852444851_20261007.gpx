@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela de Passagem</name>
+    <trkseg>
+      <trkpt lat="-23.430807" lon="-46.551315"><ele>820.1</ele></trkpt>
+      <trkpt lat="-23.430535" lon="-46.551287"><ele>827.7</ele></trkpt>
+      <trkpt lat="-23.430227" lon="-46.551256"><ele>834.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

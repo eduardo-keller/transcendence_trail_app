@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passagem Leandro</name>
+    <trkseg>
+      <trkpt lat="-23.690927" lon="-46.597652"><ele>778.9</ele></trkpt>
+      <trkpt lat="-23.691360" lon="-46.597759"><ele>791.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

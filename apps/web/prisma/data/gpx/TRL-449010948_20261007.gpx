@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passagem Santa Ceia</name>
+    <trkseg>
+      <trkpt lat="-23.669161" lon="-46.621375"><ele>793.6</ele></trkpt>
+      <trkpt lat="-23.669062" lon="-46.621241"><ele>789.7</ele></trkpt>
+      <trkpt lat="-23.668545" lon="-46.620479"><ele>789.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

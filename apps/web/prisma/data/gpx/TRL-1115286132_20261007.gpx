@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Trilha dos Bernardineli</name>
+    <trkseg>
+      <trkpt lat="-23.406606" lon="-46.808094"><ele>781.6</ele></trkpt>
+      <trkpt lat="-23.406806" lon="-46.807953"><ele>787.7</ele></trkpt>
+      <trkpt lat="-23.406979" lon="-46.807670"><ele>787.0</ele></trkpt>
+      <trkpt lat="-23.407116" lon="-46.807245"><ele>800.6</ele></trkpt>
+      <trkpt lat="-23.407297" lon="-46.806820"><ele>796.5</ele></trkpt>
+      <trkpt lat="-23.407514" lon="-46.806489"><ele>803.8</ele></trkpt>
+      <trkpt lat="-23.407658" lon="-46.806229"><ele>808.2</ele></trkpt>
+      <trkpt lat="-23.407752" lon="-46.806284"><ele>812.3</ele></trkpt>
+      <trkpt lat="-23.407889" lon="-46.806639"><ele>811.9</ele></trkpt>
+      <trkpt lat="-23.407990" lon="-46.806773"><ele>817.4</ele></trkpt>
+      <trkpt lat="-23.408164" lon="-46.806773"><ele>817.4</ele></trkpt>
+      <trkpt lat="-23.408525" lon="-46.806348"><ele>825.7</ele></trkpt>
+      <trkpt lat="-23.408705" lon="-46.805985"><ele>824.9</ele></trkpt>
+      <trkpt lat="-23.408640" lon="-46.805387"><ele>828.0</ele></trkpt>
+      <trkpt lat="-23.408539" lon="-46.804844"><ele>835.6</ele></trkpt>
+      <trkpt lat="-23.408619" lon="-46.804522"><ele>838.9</ele></trkpt>
+      <trkpt lat="-23.408871" lon="-46.804034"><ele>840.2</ele></trkpt>
+      <trkpt lat="-23.409204" lon="-46.803577"><ele>834.2</ele></trkpt>
+      <trkpt lat="-23.409651" lon="-46.802562"><ele>830.8</ele></trkpt>
+      <trkpt lat="-23.409817" lon="-46.802349"><ele>833.1</ele></trkpt>
+      <trkpt lat="-23.410106" lon="-46.802082"><ele>834.8</ele></trkpt>
+      <trkpt lat="-23.410677" lon="-46.801799"><ele>833.3</ele></trkpt>
+      <trkpt lat="-23.411233" lon="-46.801468"><ele>821.4</ele></trkpt>
+      <trkpt lat="-23.411486" lon="-46.801271"><ele>814.7</ele></trkpt>
+      <trkpt lat="-23.411544" lon="-46.801059"><ele>808.7</ele></trkpt>
+      <trkpt lat="-23.411522" lon="-46.800823"><ele>813.6</ele></trkpt>
+      <trkpt lat="-23.411500" lon="-46.800618"><ele>814.1</ele></trkpt>
+      <trkpt lat="-23.411544" lon="-46.800288"><ele>809.7</ele></trkpt>
+      <trkpt lat="-23.411818" lon="-46.799926"><ele>807.8</ele></trkpt>
+      <trkpt lat="-23.412822" lon="-46.798352"><ele>802.3</ele></trkpt>
+      <trkpt lat="-23.413313" lon="-46.797541"><ele>801.7</ele></trkpt>
+      <trkpt lat="-23.413573" lon="-46.797084"><ele>807.0</ele></trkpt>
+      <trkpt lat="-23.413826" lon="-46.796486"><ele>799.3</ele></trkpt>
+      <trkpt lat="-23.413992" lon="-46.796077"><ele>799.4</ele></trkpt>
+      <trkpt lat="-23.414043" lon="-46.795605"><ele>801.7</ele></trkpt>
+      <trkpt lat="-23.413912" lon="-46.795062"><ele>805.9</ele></trkpt>
+      <trkpt lat="-23.413710" lon="-46.794637"><ele>802.1</ele></trkpt>
+      <trkpt lat="-23.413725" lon="-46.794440"><ele>798.4</ele></trkpt>
+      <trkpt lat="-23.413862" lon="-46.794157"><ele>790.8</ele></trkpt>
+      <trkpt lat="-23.414396" lon="-46.793590"><ele>791.0</ele></trkpt>
+      <trkpt lat="-23.414952" lon="-46.793039"><ele>804.9</ele></trkpt>
+      <trkpt lat="-23.415667" lon="-46.791874"><ele>811.4</ele></trkpt>
+      <trkpt lat="-23.415956" lon="-46.791410"><ele>810.3</ele></trkpt>
+      <trkpt lat="-23.416150" lon="-46.790927"><ele>813.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

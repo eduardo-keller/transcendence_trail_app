@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Antiga Rua Jair Gobbi</name>
+    <trkseg>
+      <trkpt lat="-23.148460" lon="-46.820422"><ele>752.2</ele></trkpt>
+      <trkpt lat="-23.148517" lon="-46.820298"><ele>747.4</ele></trkpt>
+      <trkpt lat="-23.148874" lon="-46.819218"><ele>749.7</ele></trkpt>
+      <trkpt lat="-23.149130" lon="-46.818295"><ele>760.7</ele></trkpt>
+      <trkpt lat="-23.149555" lon="-46.816935"><ele>771.9</ele></trkpt>
+      <trkpt lat="-23.149815" lon="-46.816102"><ele>786.1</ele></trkpt>
+      <trkpt lat="-23.150063" lon="-46.815251"><ele>791.9</ele></trkpt>
+      <trkpt lat="-23.150460" lon="-46.814015"><ele>800.5</ele></trkpt>
+      <trkpt lat="-23.150662" lon="-46.813624"><ele>803.9</ele></trkpt>
+      <trkpt lat="-23.151387" lon="-46.812505"><ele>814.3</ele></trkpt>
+      <trkpt lat="-23.151437" lon="-46.812389"><ele>814.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Via de Pedestre Melcha</name>
+    <trkseg>
+      <trkpt lat="-23.481325" lon="-46.570293"><ele>735.2</ele></trkpt>
+      <trkpt lat="-23.481136" lon="-46.569882"><ele>735.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

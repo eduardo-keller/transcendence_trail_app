@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passarela Elio Esteves</name>
+    <trkseg>
+      <trkpt lat="-23.564080" lon="-46.610835"><ele>732.6</ele></trkpt>
+      <trkpt lat="-23.564122" lon="-46.610844"><ele>732.6</ele></trkpt>
+      <trkpt lat="-23.564147" lon="-46.610836"><ele>732.6</ele></trkpt>
+      <trkpt lat="-23.564166" lon="-46.610811"><ele>732.6</ele></trkpt>
+      <trkpt lat="-23.564164" lon="-46.610779"><ele>732.6</ele></trkpt>
+      <trkpt lat="-23.564149" lon="-46.610755"><ele>732.6</ele></trkpt>
+      <trkpt lat="-23.564112" lon="-46.610752"><ele>732.6</ele></trkpt>
+      <trkpt lat="-23.564093" lon="-46.610768"><ele>732.6</ele></trkpt>
+      <trkpt lat="-23.564068" lon="-46.610747"><ele>732.6</ele></trkpt>
+      <trkpt lat="-23.563987" lon="-46.610865"><ele>734.1</ele></trkpt>
+      <trkpt lat="-23.563977" lon="-46.610929"><ele>734.1</ele></trkpt>
+      <trkpt lat="-23.563985" lon="-46.610999"><ele>732.7</ele></trkpt>
+      <trkpt lat="-23.564506" lon="-46.612120"><ele>732.2</ele></trkpt>
+      <trkpt lat="-23.564538" lon="-46.612104"><ele>732.2</ele></trkpt>
+      <trkpt lat="-23.564557" lon="-46.612126"><ele>732.2</ele></trkpt>
+      <trkpt lat="-23.564577" lon="-46.612131"><ele>732.2</ele></trkpt>
+      <trkpt lat="-23.564597" lon="-46.612115"><ele>733.1</ele></trkpt>
+      <trkpt lat="-23.564611" lon="-46.612085"><ele>733.1</ele></trkpt>
+      <trkpt lat="-23.564607" lon="-46.612056"><ele>732.5</ele></trkpt>
+      <trkpt lat="-23.564584" lon="-46.612035"><ele>732.5</ele></trkpt>
+      <trkpt lat="-23.564571" lon="-46.612031"><ele>731.1</ele></trkpt>
+      <trkpt lat="-23.564557" lon="-46.612032"><ele>731.1</ele></trkpt>
+      <trkpt lat="-23.564539" lon="-46.612040"><ele>731.1</ele></trkpt>
+      <trkpt lat="-23.564525" lon="-46.612056"><ele>731.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Pitagoras</name>
+    <trkseg>
+      <trkpt lat="-23.769311" lon="-46.455772"><ele>776.9</ele></trkpt>
+      <trkpt lat="-23.769206" lon="-46.455874"><ele>776.9</ele></trkpt>
+      <trkpt lat="-23.769036" lon="-46.456007"><ele>787.0</ele></trkpt>
+      <trkpt lat="-23.768883" lon="-46.456104"><ele>783.9</ele></trkpt>
+      <trkpt lat="-23.768600" lon="-46.456242"><ele>782.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

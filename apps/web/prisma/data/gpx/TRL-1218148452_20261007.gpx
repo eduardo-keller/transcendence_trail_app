@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela 10</name>
+    <trkseg>
+      <trkpt lat="-23.699636" lon="-46.496107"><ele>822.3</ele></trkpt>
+      <trkpt lat="-23.699542" lon="-46.496104"><ele>834.6</ele></trkpt>
+      <trkpt lat="-23.699452" lon="-46.496097"><ele>834.6</ele></trkpt>
+      <trkpt lat="-23.699371" lon="-46.496080"><ele>834.6</ele></trkpt>
+      <trkpt lat="-23.699208" lon="-46.496023"><ele>843.7</ele></trkpt>
+      <trkpt lat="-23.699069" lon="-46.495989"><ele>843.7</ele></trkpt>
+      <trkpt lat="-23.699027" lon="-46.495900"><ele>847.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

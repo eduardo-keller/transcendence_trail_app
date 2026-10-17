@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Maria Cândida Viadana</name>
+    <trkseg>
+      <trkpt lat="-23.529397" lon="-46.711257"><ele>775.1</ele></trkpt>
+      <trkpt lat="-23.529383" lon="-46.711289"><ele>775.1</ele></trkpt>
+      <trkpt lat="-23.529214" lon="-46.711672"><ele>773.1</ele></trkpt>
+      <trkpt lat="-23.528966" lon="-46.712015"><ele>773.4</ele></trkpt>
+      <trkpt lat="-23.528892" lon="-46.712119"><ele>772.7</ele></trkpt>
+      <trkpt lat="-23.528580" lon="-46.712551"><ele>767.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

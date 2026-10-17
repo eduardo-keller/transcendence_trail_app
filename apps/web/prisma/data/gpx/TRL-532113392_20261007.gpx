@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Ednaldo Correia Ferreira</name>
+    <trkseg>
+      <trkpt lat="-23.263206" lon="-46.745053"><ele>857.6</ele></trkpt>
+      <trkpt lat="-23.263198" lon="-46.744398"><ele>866.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

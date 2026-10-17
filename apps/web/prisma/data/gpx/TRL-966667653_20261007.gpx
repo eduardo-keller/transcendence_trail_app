@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Estrada Terceira Divisão</name>
+    <trkseg>
+      <trkpt lat="-23.611157" lon="-46.433349"><ele>843.8</ele></trkpt>
+      <trkpt lat="-23.610642" lon="-46.432777"><ele>826.6</ele></trkpt>
+      <trkpt lat="-23.610070" lon="-46.432190"><ele>819.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

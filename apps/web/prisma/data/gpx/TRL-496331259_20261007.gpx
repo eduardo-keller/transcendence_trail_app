@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Praça Aparados da Serra</name>
+    <trkseg>
+      <trkpt lat="-23.457765" lon="-46.575567"><ele>779.2</ele></trkpt>
+      <trkpt lat="-23.457783" lon="-46.575544"><ele>779.2</ele></trkpt>
+      <trkpt lat="-23.457923" lon="-46.575488"><ele>764.7</ele></trkpt>
+      <trkpt lat="-23.458070" lon="-46.575447"><ele>764.7</ele></trkpt>
+      <trkpt lat="-23.458359" lon="-46.575370"><ele>742.1</ele></trkpt>
+      <trkpt lat="-23.458359" lon="-46.575370"><ele>742.1</ele></trkpt>
+      <trkpt lat="-23.458475" lon="-46.575340"><ele>738.2</ele></trkpt>
+      <trkpt lat="-23.458568" lon="-46.575316"><ele>738.2</ele></trkpt>
+      <trkpt lat="-23.458584" lon="-46.575301"><ele>738.2</ele></trkpt>
+      <trkpt lat="-23.458633" lon="-46.575280"><ele>738.2</ele></trkpt>
+      <trkpt lat="-23.458686" lon="-46.575263"><ele>738.2</ele></trkpt>
+      <trkpt lat="-23.458693" lon="-46.575259"><ele>738.2</ele></trkpt>
+      <trkpt lat="-23.458728" lon="-46.575280"><ele>738.2</ele></trkpt>
+      <trkpt lat="-23.458693" lon="-46.575259"><ele>738.2</ele></trkpt>
+      <trkpt lat="-23.458693" lon="-46.575257"><ele>738.2</ele></trkpt>
+      <trkpt lat="-23.458683" lon="-46.575211"><ele>738.2</ele></trkpt>
+      <trkpt lat="-23.458674" lon="-46.575154"><ele>738.2</ele></trkpt>
+      <trkpt lat="-23.458662" lon="-46.575095"><ele>737.1</ele></trkpt>
+      <trkpt lat="-23.458652" lon="-46.575028"><ele>737.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

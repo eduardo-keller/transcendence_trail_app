@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Trilha Da Terceira Cachoeira (C)</name>
+    <trkseg>
+      <trkpt lat="-23.982022" lon="-46.516590"><ele>48.5</ele></trkpt>
+      <trkpt lat="-23.982051" lon="-46.516481"><ele>51.6</ele></trkpt>
+      <trkpt lat="-23.982071" lon="-46.516462"><ele>51.6</ele></trkpt>
+      <trkpt lat="-23.982116" lon="-46.516439"><ele>43.8</ele></trkpt>
+      <trkpt lat="-23.982184" lon="-46.516399"><ele>43.8</ele></trkpt>
+      <trkpt lat="-23.982226" lon="-46.516365"><ele>43.8</ele></trkpt>
+      <trkpt lat="-23.982252" lon="-46.516346"><ele>43.8</ele></trkpt>
+      <trkpt lat="-23.982276" lon="-46.516336"><ele>43.8</ele></trkpt>
+      <trkpt lat="-23.982321" lon="-46.516310"><ele>43.8</ele></trkpt>
+      <trkpt lat="-23.982376" lon="-46.516271"><ele>36.5</ele></trkpt>
+      <trkpt lat="-23.982410" lon="-46.516237"><ele>39.8</ele></trkpt>
+      <trkpt lat="-23.982426" lon="-46.516202"><ele>39.8</ele></trkpt>
+      <trkpt lat="-23.982439" lon="-46.516137"><ele>39.8</ele></trkpt>
+      <trkpt lat="-23.982439" lon="-46.516137"><ele>39.8</ele></trkpt>
+      <trkpt lat="-23.982447" lon="-46.516090"><ele>39.8</ele></trkpt>
+      <trkpt lat="-23.982460" lon="-46.516063"><ele>39.8</ele></trkpt>
+      <trkpt lat="-23.982495" lon="-46.516015"><ele>39.8</ele></trkpt>
+      <trkpt lat="-23.982626" lon="-46.515816"><ele>38.9</ele></trkpt>
+      <trkpt lat="-23.982722" lon="-46.515673"><ele>26.6</ele></trkpt>
+      <trkpt lat="-23.982722" lon="-46.515673"><ele>26.6</ele></trkpt>
+      <trkpt lat="-23.982717" lon="-46.515653"><ele>26.6</ele></trkpt>
+      <trkpt lat="-23.982698" lon="-46.515636"><ele>26.6</ele></trkpt>
+      <trkpt lat="-23.982684" lon="-46.515625"><ele>26.6</ele></trkpt>
+      <trkpt lat="-23.982674" lon="-46.515600"><ele>26.6</ele></trkpt>
+      <trkpt lat="-23.982675" lon="-46.515568"><ele>26.6</ele></trkpt>
+      <trkpt lat="-23.982699" lon="-46.515536"><ele>26.6</ele></trkpt>
+      <trkpt lat="-23.982716" lon="-46.515523"><ele>26.6</ele></trkpt>
+      <trkpt lat="-23.982726" lon="-46.515508"><ele>26.6</ele></trkpt>
+      <trkpt lat="-23.982726" lon="-46.515475"><ele>26.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

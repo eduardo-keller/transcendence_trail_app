@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passarela Cotia Pará</name>
+    <trkseg>
+      <trkpt lat="-23.902920" lon="-46.426611"><ele>3.7</ele></trkpt>
+      <trkpt lat="-23.902669" lon="-46.426705"><ele>3.8</ele></trkpt>
+      <trkpt lat="-23.902655" lon="-46.426684"><ele>3.8</ele></trkpt>
+      <trkpt lat="-23.902665" lon="-46.426662"><ele>3.8</ele></trkpt>
+      <trkpt lat="-23.902866" lon="-46.426592"><ele>3.8</ele></trkpt>
+      <trkpt lat="-23.902866" lon="-46.426592"><ele>3.8</ele></trkpt>
+      <trkpt lat="-23.902738" lon="-46.426249"><ele>4.8</ele></trkpt>
+      <trkpt lat="-23.902738" lon="-46.426249"><ele>4.8</ele></trkpt>
+      <trkpt lat="-23.902956" lon="-46.426171"><ele>3.2</ele></trkpt>
+      <trkpt lat="-23.902966" lon="-46.426144"><ele>3.2</ele></trkpt>
+      <trkpt lat="-23.902942" lon="-46.426133"><ele>3.2</ele></trkpt>
+      <trkpt lat="-23.902758" lon="-46.426200"><ele>4.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

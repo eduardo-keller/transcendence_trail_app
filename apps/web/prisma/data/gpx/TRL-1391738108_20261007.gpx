@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>foot</name>
+    <trkseg>
+      <trkpt lat="-23.582422" lon="-46.638016"><ele>812.7</ele></trkpt>
+      <trkpt lat="-23.582413" lon="-46.638052"><ele>812.7</ele></trkpt>
+      <trkpt lat="-23.582412" lon="-46.638063"><ele>812.7</ele></trkpt>
+      <trkpt lat="-23.582405" lon="-46.638102"><ele>812.7</ele></trkpt>
+      <trkpt lat="-23.582439" lon="-46.638110"><ele>812.7</ele></trkpt>
+      <trkpt lat="-23.582465" lon="-46.638114"><ele>812.7</ele></trkpt>
+      <trkpt lat="-23.582491" lon="-46.638116"><ele>812.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

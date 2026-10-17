@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Maria Loprete</name>
+    <trkseg>
+      <trkpt lat="-23.456932" lon="-46.514729"><ele>761.7</ele></trkpt>
+      <trkpt lat="-23.456960" lon="-46.514719"><ele>761.7</ele></trkpt>
+      <trkpt lat="-23.456970" lon="-46.514705"><ele>761.7</ele></trkpt>
+      <trkpt lat="-23.456971" lon="-46.514674"><ele>761.7</ele></trkpt>
+      <trkpt lat="-23.456949" lon="-46.514532"><ele>759.5</ele></trkpt>
+      <trkpt lat="-23.456920" lon="-46.514399"><ele>759.5</ele></trkpt>
+      <trkpt lat="-23.456867" lon="-46.514187"><ele>757.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

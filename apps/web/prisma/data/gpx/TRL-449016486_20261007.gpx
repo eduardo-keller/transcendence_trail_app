@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passagem Avestil Cipriano Pereira</name>
+    <trkseg>
+      <trkpt lat="-23.689992" lon="-46.599353"><ele>772.8</ele></trkpt>
+      <trkpt lat="-23.689974" lon="-46.599112"><ele>771.9</ele></trkpt>
+      <trkpt lat="-23.689974" lon="-46.598876"><ele>776.9</ele></trkpt>
+      <trkpt lat="-23.689983" lon="-46.598832"><ele>776.9</ele></trkpt>
+      <trkpt lat="-23.690025" lon="-46.598640"><ele>777.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

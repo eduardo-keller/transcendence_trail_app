@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua D</name>
+    <trkseg>
+      <trkpt lat="-23.405721" lon="-46.743221"><ele>767.2</ele></trkpt>
+      <trkpt lat="-23.406089" lon="-46.743205"><ele>776.2</ele></trkpt>
+      <trkpt lat="-23.406100" lon="-46.743206"><ele>776.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Grande</name>
+    <trkseg>
+      <trkpt lat="-23.934417" lon="-46.343257"><ele>96.7</ele></trkpt>
+      <trkpt lat="-23.934383" lon="-46.343202"><ele>96.7</ele></trkpt>
+      <trkpt lat="-23.934337" lon="-46.343098"><ele>111.1</ele></trkpt>
+      <trkpt lat="-23.934324" lon="-46.343015"><ele>111.1</ele></trkpt>
+      <trkpt lat="-23.934310" lon="-46.342942"><ele>111.1</ele></trkpt>
+      <trkpt lat="-23.934298" lon="-46.342896"><ele>113.1</ele></trkpt>
+      <trkpt lat="-23.934273" lon="-46.342817"><ele>113.1</ele></trkpt>
+      <trkpt lat="-23.934245" lon="-46.342787"><ele>113.1</ele></trkpt>
+      <trkpt lat="-23.934226" lon="-46.342777"><ele>113.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

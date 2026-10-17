@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua dos Picharros</name>
+    <trkseg>
+      <trkpt lat="-23.757363" lon="-46.671059"><ele>765.2</ele></trkpt>
+      <trkpt lat="-23.757336" lon="-46.670899"><ele>768.6</ele></trkpt>
+      <trkpt lat="-23.757336" lon="-46.670757"><ele>768.6</ele></trkpt>
+      <trkpt lat="-23.757345" lon="-46.670688"><ele>768.6</ele></trkpt>
+      <trkpt lat="-23.757370" lon="-46.670631"><ele>768.3</ele></trkpt>
+      <trkpt lat="-23.757402" lon="-46.670598"><ele>768.3</ele></trkpt>
+      <trkpt lat="-23.757435" lon="-46.670549"><ele>768.3</ele></trkpt>
+      <trkpt lat="-23.757471" lon="-46.670476"><ele>768.3</ele></trkpt>
+      <trkpt lat="-23.757497" lon="-46.670428"><ele>768.3</ele></trkpt>
+      <trkpt lat="-23.757536" lon="-46.670399"><ele>770.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

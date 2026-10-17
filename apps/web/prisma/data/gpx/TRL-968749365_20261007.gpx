@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Santana dos Montes</name>
+    <trkseg>
+      <trkpt lat="-23.456385" lon="-46.660750"><ele>784.3</ele></trkpt>
+      <trkpt lat="-23.456347" lon="-46.660842"><ele>784.3</ele></trkpt>
+      <trkpt lat="-23.456175" lon="-46.661256"><ele>792.0</ele></trkpt>
+      <trkpt lat="-23.456140" lon="-46.661337"><ele>792.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

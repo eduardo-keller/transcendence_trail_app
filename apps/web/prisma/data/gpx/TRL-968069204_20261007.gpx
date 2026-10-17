@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Mairiporã</name>
+    <trkseg>
+      <trkpt lat="-23.444920" lon="-46.531351"><ele>781.8</ele></trkpt>
+      <trkpt lat="-23.444980" lon="-46.530774"><ele>778.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

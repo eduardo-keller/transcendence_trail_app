@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Mezanino da Estação Franco da Rocha</name>
+    <trkseg>
+      <trkpt lat="-23.329376" lon="-46.726334"><ele>725.9</ele></trkpt>
+      <trkpt lat="-23.329521" lon="-46.726025"><ele>728.7</ele></trkpt>
+      <trkpt lat="-23.329540" lon="-46.725983"><ele>728.7</ele></trkpt>
+      <trkpt lat="-23.329547" lon="-46.725968"><ele>728.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

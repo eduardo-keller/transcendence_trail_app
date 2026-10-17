@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Vicenzo</name>
+    <trkseg>
+      <trkpt lat="-23.822865" lon="-46.705630"><ele>807.0</ele></trkpt>
+      <trkpt lat="-23.822781" lon="-46.705547"><ele>807.0</ele></trkpt>
+      <trkpt lat="-23.822675" lon="-46.705501"><ele>807.0</ele></trkpt>
+      <trkpt lat="-23.822537" lon="-46.705455"><ele>802.5</ele></trkpt>
+      <trkpt lat="-23.822449" lon="-46.705416"><ele>800.2</ele></trkpt>
+      <trkpt lat="-23.822382" lon="-46.705359"><ele>800.2</ele></trkpt>
+      <trkpt lat="-23.822317" lon="-46.705244"><ele>800.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

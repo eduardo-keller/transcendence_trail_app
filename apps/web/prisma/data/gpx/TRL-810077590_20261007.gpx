@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passagem Claudinho</name>
+    <trkseg>
+      <trkpt lat="-23.691022" lon="-46.597402"><ele>782.5</ele></trkpt>
+      <trkpt lat="-23.691139" lon="-46.597457"><ele>782.5</ele></trkpt>
+      <trkpt lat="-23.691148" lon="-46.597456"><ele>782.5</ele></trkpt>
+      <trkpt lat="-23.691154" lon="-46.597451"><ele>782.5</ele></trkpt>
+      <trkpt lat="-23.691166" lon="-46.597426"><ele>782.5</ele></trkpt>
+      <trkpt lat="-23.691173" lon="-46.597424"><ele>782.5</ele></trkpt>
+      <trkpt lat="-23.691183" lon="-46.597424"><ele>782.5</ele></trkpt>
+      <trkpt lat="-23.691297" lon="-46.597457"><ele>791.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

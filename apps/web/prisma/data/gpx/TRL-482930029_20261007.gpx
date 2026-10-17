@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Estrada Vicinal Quinze</name>
+    <trkseg>
+      <trkpt lat="-23.689894" lon="-46.813469"><ele>808.5</ele></trkpt>
+      <trkpt lat="-23.691522" lon="-46.813010"><ele>815.9</ele></trkpt>
+      <trkpt lat="-23.691623" lon="-46.812770"><ele>801.5</ele></trkpt>
+      <trkpt lat="-23.691638" lon="-46.812510"><ele>801.2</ele></trkpt>
+      <trkpt lat="-23.691532" lon="-46.812284"><ele>800.8</ele></trkpt>
+      <trkpt lat="-23.691148" lon="-46.811992"><ele>814.6</ele></trkpt>
+      <trkpt lat="-23.692101" lon="-46.811655"><ele>786.7</ele></trkpt>
+      <trkpt lat="-23.692474" lon="-46.811323"><ele>789.6</ele></trkpt>
+      <trkpt lat="-23.692576" lon="-46.811166"><ele>788.0</ele></trkpt>
+      <trkpt lat="-23.692601" lon="-46.810972"><ele>788.3</ele></trkpt>
+      <trkpt lat="-23.692614" lon="-46.810772"><ele>788.3</ele></trkpt>
+      <trkpt lat="-23.692285" lon="-46.809800"><ele>790.6</ele></trkpt>
+      <trkpt lat="-23.692189" lon="-46.809699"><ele>790.6</ele></trkpt>
+      <trkpt lat="-23.692129" lon="-46.809574"><ele>793.0</ele></trkpt>
+      <trkpt lat="-23.691865" lon="-46.808570"><ele>790.1</ele></trkpt>
+      <trkpt lat="-23.691836" lon="-46.808365"><ele>790.9</ele></trkpt>
+      <trkpt lat="-23.691878" lon="-46.808122"><ele>790.9</ele></trkpt>
+      <trkpt lat="-23.691902" lon="-46.806752"><ele>792.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

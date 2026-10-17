@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Via de Pedestre Maculele</name>
+    <trkseg>
+      <trkpt lat="-23.481586" lon="-46.573628"><ele>741.0</ele></trkpt>
+      <trkpt lat="-23.481477" lon="-46.573369"><ele>742.2</ele></trkpt>
+      <trkpt lat="-23.481457" lon="-46.573322"><ele>742.2</ele></trkpt>
+      <trkpt lat="-23.481436" lon="-46.573268"><ele>742.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Sao Lucas</name>
+    <trkseg>
+      <trkpt lat="-23.567672" lon="-46.800871"><ele>795.2</ele></trkpt>
+      <trkpt lat="-23.567717" lon="-46.800512"><ele>789.2</ele></trkpt>
+      <trkpt lat="-23.567796" lon="-46.800059"><ele>780.8</ele></trkpt>
+      <trkpt lat="-23.567817" lon="-46.799842"><ele>772.8</ele></trkpt>
+      <trkpt lat="-23.567885" lon="-46.799416"><ele>770.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

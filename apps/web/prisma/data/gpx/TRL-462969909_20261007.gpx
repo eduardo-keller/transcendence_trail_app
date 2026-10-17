@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa dos Eucalíptos</name>
+    <trkseg>
+      <trkpt lat="-23.450263" lon="-46.691457"><ele>755.1</ele></trkpt>
+      <trkpt lat="-23.450273" lon="-46.691486"><ele>755.1</ele></trkpt>
+      <trkpt lat="-23.450272" lon="-46.691491"><ele>755.1</ele></trkpt>
+      <trkpt lat="-23.450272" lon="-46.691497"><ele>755.1</ele></trkpt>
+      <trkpt lat="-23.450278" lon="-46.691556"><ele>755.0</ele></trkpt>
+      <trkpt lat="-23.450289" lon="-46.691657"><ele>755.0</ele></trkpt>
+      <trkpt lat="-23.450299" lon="-46.691752"><ele>755.0</ele></trkpt>
+      <trkpt lat="-23.450303" lon="-46.691810"><ele>753.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

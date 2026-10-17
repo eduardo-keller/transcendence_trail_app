@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Hamilton</name>
+    <trkseg>
+      <trkpt lat="-23.683696" lon="-46.745062"><ele>771.3</ele></trkpt>
+      <trkpt lat="-23.683694" lon="-46.745051"><ele>771.3</ele></trkpt>
+      <trkpt lat="-23.683694" lon="-46.745051"><ele>771.3</ele></trkpt>
+      <trkpt lat="-23.683673" lon="-46.744899"><ele>771.3</ele></trkpt>
+      <trkpt lat="-23.683741" lon="-46.744889"><ele>771.3</ele></trkpt>
+      <trkpt lat="-23.683846" lon="-46.744864"><ele>775.2</ele></trkpt>
+      <trkpt lat="-23.683867" lon="-46.744858"><ele>784.2</ele></trkpt>
+      <trkpt lat="-23.683940" lon="-46.744819"><ele>784.2</ele></trkpt>
+      <trkpt lat="-23.684018" lon="-46.744777"><ele>784.2</ele></trkpt>
+      <trkpt lat="-23.684018" lon="-46.744777"><ele>784.2</ele></trkpt>
+      <trkpt lat="-23.684040" lon="-46.744765"><ele>780.0</ele></trkpt>
+      <trkpt lat="-23.684214" lon="-46.744643"><ele>780.0</ele></trkpt>
+      <trkpt lat="-23.684293" lon="-46.744559"><ele>786.6</ele></trkpt>
+      <trkpt lat="-23.684471" lon="-46.744402"><ele>787.2</ele></trkpt>
+      <trkpt lat="-23.684492" lon="-46.744384"><ele>787.2</ele></trkpt>
+      <trkpt lat="-23.684606" lon="-46.744323"><ele>791.5</ele></trkpt>
+      <trkpt lat="-23.684742" lon="-46.744280"><ele>796.1</ele></trkpt>
+      <trkpt lat="-23.684746" lon="-46.744282"><ele>796.1</ele></trkpt>
+      <trkpt lat="-23.684784" lon="-46.744267"><ele>796.1</ele></trkpt>
+      <trkpt lat="-23.684882" lon="-46.744228"><ele>795.8</ele></trkpt>
+      <trkpt lat="-23.684971" lon="-46.744196"><ele>795.8</ele></trkpt>
+      <trkpt lat="-23.685098" lon="-46.744181"><ele>795.8</ele></trkpt>
+      <trkpt lat="-23.685262" lon="-46.744185"><ele>795.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Trezentos e Vinte Nove</name>
+    <trkseg>
+      <trkpt lat="-23.450712" lon="-46.688887"><ele>756.2</ele></trkpt>
+      <trkpt lat="-23.450626" lon="-46.688858"><ele>753.7</ele></trkpt>
+      <trkpt lat="-23.450376" lon="-46.688771"><ele>754.7</ele></trkpt>
+      <trkpt lat="-23.450338" lon="-46.688770"><ele>754.7</ele></trkpt>
+      <trkpt lat="-23.450217" lon="-46.688804"><ele>754.7</ele></trkpt>
+      <trkpt lat="-23.449990" lon="-46.688873"><ele>753.9</ele></trkpt>
+      <trkpt lat="-23.449951" lon="-46.688890"><ele>753.9</ele></trkpt>
+      <trkpt lat="-23.449938" lon="-46.688902"><ele>753.9</ele></trkpt>
+      <trkpt lat="-23.449933" lon="-46.688913"><ele>753.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Caminho do Papa</name>
+    <trkseg>
+      <trkpt lat="-23.899041" lon="-46.441651"><ele>3.1</ele></trkpt>
+      <trkpt lat="-23.898079" lon="-46.441601"><ele>5.7</ele></trkpt>
+      <trkpt lat="-23.898058" lon="-46.441604"><ele>5.7</ele></trkpt>
+      <trkpt lat="-23.898047" lon="-46.441715"><ele>5.7</ele></trkpt>
+      <trkpt lat="-23.897837" lon="-46.441712"><ele>5.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

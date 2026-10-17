@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Shopping Center Grandes Galleria</name>
+    <trkseg>
+      <trkpt lat="-23.543439" lon="-46.638552"><ele>745.1</ele></trkpt>
+      <trkpt lat="-23.543471" lon="-46.638573"><ele>745.1</ele></trkpt>
+      <trkpt lat="-23.543471" lon="-46.638573"><ele>745.1</ele></trkpt>
+      <trkpt lat="-23.543941" lon="-46.638879"><ele>765.7</ele></trkpt>
+      <trkpt lat="-23.544098" lon="-46.638967"><ele>763.2</ele></trkpt>
+      <trkpt lat="-23.544458" lon="-46.639266"><ele>761.9</ele></trkpt>
+      <trkpt lat="-23.544458" lon="-46.639266"><ele>761.9</ele></trkpt>
+      <trkpt lat="-23.544467" lon="-46.639274"><ele>761.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

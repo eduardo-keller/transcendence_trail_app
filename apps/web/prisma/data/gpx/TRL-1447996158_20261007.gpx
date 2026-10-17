@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Santo Antônio - Vila Heliopolis</name>
+    <trkseg>
+      <trkpt lat="-23.614238" lon="-46.593351"><ele>778.4</ele></trkpt>
+      <trkpt lat="-23.614682" lon="-46.593166"><ele>782.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

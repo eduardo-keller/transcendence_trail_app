@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Estrada Marginal Direita</name>
+    <trkseg>
+      <trkpt lat="-23.270094" lon="-46.497794"><ele>780.3</ele></trkpt>
+      <trkpt lat="-23.270176" lon="-46.498124"><ele>775.3</ele></trkpt>
+      <trkpt lat="-23.270306" lon="-46.498387"><ele>777.3</ele></trkpt>
+      <trkpt lat="-23.270494" lon="-46.498719"><ele>778.1</ele></trkpt>
+      <trkpt lat="-23.271233" lon="-46.499795"><ele>787.4</ele></trkpt>
+      <trkpt lat="-23.271371" lon="-46.499934"><ele>782.4</ele></trkpt>
+      <trkpt lat="-23.271649" lon="-46.500127"><ele>775.4</ele></trkpt>
+      <trkpt lat="-23.271952" lon="-46.500398"><ele>776.7</ele></trkpt>
+      <trkpt lat="-23.272083" lon="-46.500602"><ele>788.3</ele></trkpt>
+      <trkpt lat="-23.272209" lon="-46.500943"><ele>778.2</ele></trkpt>
+      <trkpt lat="-23.272248" lon="-46.501718"><ele>781.9</ele></trkpt>
+      <trkpt lat="-23.272485" lon="-46.502477"><ele>777.4</ele></trkpt>
+      <trkpt lat="-23.272435" lon="-46.502928"><ele>774.9</ele></trkpt>
+      <trkpt lat="-23.272144" lon="-46.503469"><ele>776.8</ele></trkpt>
+      <trkpt lat="-23.272048" lon="-46.503872"><ele>788.0</ele></trkpt>
+      <trkpt lat="-23.272073" lon="-46.504185"><ele>794.0</ele></trkpt>
+      <trkpt lat="-23.272830" lon="-46.506372"><ele>782.6</ele></trkpt>
+      <trkpt lat="-23.273283" lon="-46.507005"><ele>781.7</ele></trkpt>
+      <trkpt lat="-23.273933" lon="-46.507283"><ele>786.0</ele></trkpt>
+      <trkpt lat="-23.275579" lon="-46.507391"><ele>773.8</ele></trkpt>
+      <trkpt lat="-23.276314" lon="-46.507841"><ele>775.8</ele></trkpt>
+      <trkpt lat="-23.276681" lon="-46.508045"><ele>776.2</ele></trkpt>
+      <trkpt lat="-23.277053" lon="-46.508276"><ele>783.6</ele></trkpt>
+      <trkpt lat="-23.277186" lon="-46.508474"><ele>776.8</ele></trkpt>
+      <trkpt lat="-23.277181" lon="-46.508678"><ele>776.8</ele></trkpt>
+      <trkpt lat="-23.277067" lon="-46.508968"><ele>788.5</ele></trkpt>
+      <trkpt lat="-23.275727" lon="-46.510985"><ele>773.8</ele></trkpt>
+      <trkpt lat="-23.275559" lon="-46.511532"><ele>779.5</ele></trkpt>
+      <trkpt lat="-23.275983" lon="-46.512541"><ele>771.9</ele></trkpt>
+      <trkpt lat="-23.275835" lon="-46.513377"><ele>777.8</ele></trkpt>
+      <trkpt lat="-23.276111" lon="-46.514772"><ele>802.7</ele></trkpt>
+      <trkpt lat="-23.275956" lon="-46.515786"><ele>811.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

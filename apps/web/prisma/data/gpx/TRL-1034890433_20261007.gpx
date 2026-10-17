@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Ciclovia Parque das Bicicletas</name>
+    <trkseg>
+      <trkpt lat="-23.597757" lon="-46.656500"><ele>756.3</ele></trkpt>
+      <trkpt lat="-23.597774" lon="-46.656533"><ele>758.3</ele></trkpt>
+      <trkpt lat="-23.597792" lon="-46.656566"><ele>758.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

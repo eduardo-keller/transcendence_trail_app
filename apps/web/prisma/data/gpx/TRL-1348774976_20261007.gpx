@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Acesso dos Hidrográficos</name>
+    <trkseg>
+      <trkpt lat="-23.720476" lon="-46.388929"><ele>783.8</ele></trkpt>
+      <trkpt lat="-23.720725" lon="-46.388990"><ele>785.5</ele></trkpt>
+      <trkpt lat="-23.720818" lon="-46.388950"><ele>785.5</ele></trkpt>
+      <trkpt lat="-23.720919" lon="-46.388846"><ele>785.5</ele></trkpt>
+      <trkpt lat="-23.720989" lon="-46.388680"><ele>779.9</ele></trkpt>
+      <trkpt lat="-23.721068" lon="-46.388606"><ele>779.9</ele></trkpt>
+      <trkpt lat="-23.721142" lon="-46.388584"><ele>779.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

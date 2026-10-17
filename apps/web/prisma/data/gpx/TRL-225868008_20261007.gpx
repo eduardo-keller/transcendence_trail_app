@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Manoel dos Santos Frade</name>
+    <trkseg>
+      <trkpt lat="-23.865309" lon="-46.785929"><ele>806.8</ele></trkpt>
+      <trkpt lat="-23.865429" lon="-46.786225"><ele>809.9</ele></trkpt>
+      <trkpt lat="-23.865557" lon="-46.786713"><ele>806.5</ele></trkpt>
+      <trkpt lat="-23.865645" lon="-46.786890"><ele>804.2</ele></trkpt>
+      <trkpt lat="-23.865748" lon="-46.787030"><ele>806.0</ele></trkpt>
+      <trkpt lat="-23.865893" lon="-46.787151"><ele>801.0</ele></trkpt>
+      <trkpt lat="-23.865996" lon="-46.787236"><ele>799.4</ele></trkpt>
+      <trkpt lat="-23.866704" lon="-46.787753"><ele>783.6</ele></trkpt>
+      <trkpt lat="-23.867059" lon="-46.787989"><ele>773.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

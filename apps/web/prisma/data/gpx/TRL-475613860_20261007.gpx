@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Via de Pedestres Serra do Bom Sucesso</name>
+    <trkseg>
+      <trkpt lat="-23.456150" lon="-46.663269"><ele>790.7</ele></trkpt>
+      <trkpt lat="-23.456135" lon="-46.663219"><ele>790.7</ele></trkpt>
+      <trkpt lat="-23.456109" lon="-46.663173"><ele>783.0</ele></trkpt>
+      <trkpt lat="-23.456100" lon="-46.663132"><ele>783.0</ele></trkpt>
+      <trkpt lat="-23.456116" lon="-46.663090"><ele>783.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

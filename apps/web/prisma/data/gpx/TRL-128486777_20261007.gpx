@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Cristiano Pio</name>
+    <trkseg>
+      <trkpt lat="-23.495861" lon="-46.691891"><ele>730.4</ele></trkpt>
+      <trkpt lat="-23.495864" lon="-46.691760"><ele>732.9</ele></trkpt>
+      <trkpt lat="-23.495860" lon="-46.691071"><ele>740.5</ele></trkpt>
+      <trkpt lat="-23.496112" lon="-46.691065"><ele>742.4</ele></trkpt>
+      <trkpt lat="-23.496152" lon="-46.691079"><ele>742.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

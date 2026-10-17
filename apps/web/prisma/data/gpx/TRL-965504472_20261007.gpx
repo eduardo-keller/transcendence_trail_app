@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Marechal Hermes da Fonseca</name>
+    <trkseg>
+      <trkpt lat="-23.485193" lon="-46.886636"><ele>784.6</ele></trkpt>
+      <trkpt lat="-23.485506" lon="-46.886772"><ele>790.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

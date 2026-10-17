@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Delmiro Gomes Inácio</name>
+    <trkseg>
+      <trkpt lat="-23.914914" lon="-46.694987"><ele>802.8</ele></trkpt>
+      <trkpt lat="-23.914371" lon="-46.695407"><ele>794.3</ele></trkpt>
+      <trkpt lat="-23.914274" lon="-46.695526"><ele>790.9</ele></trkpt>
+      <trkpt lat="-23.914161" lon="-46.695769"><ele>793.5</ele></trkpt>
+      <trkpt lat="-23.914056" lon="-46.695916"><ele>793.5</ele></trkpt>
+      <trkpt lat="-23.913782" lon="-46.696178"><ele>793.7</ele></trkpt>
+      <trkpt lat="-23.913517" lon="-46.696370"><ele>795.6</ele></trkpt>
+      <trkpt lat="-23.913423" lon="-46.696413"><ele>796.6</ele></trkpt>
+      <trkpt lat="-23.913278" lon="-46.696453"><ele>796.6</ele></trkpt>
+      <trkpt lat="-23.913193" lon="-46.696485"><ele>793.1</ele></trkpt>
+      <trkpt lat="-23.913160" lon="-46.696514"><ele>793.1</ele></trkpt>
+      <trkpt lat="-23.913120" lon="-46.696571"><ele>793.6</ele></trkpt>
+      <trkpt lat="-23.913038" lon="-46.696691"><ele>793.6</ele></trkpt>
+      <trkpt lat="-23.912975" lon="-46.696778"><ele>793.6</ele></trkpt>
+      <trkpt lat="-23.912906" lon="-46.696833"><ele>788.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

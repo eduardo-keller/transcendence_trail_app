@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Loureiro</name>
+    <trkseg>
+      <trkpt lat="-23.553467" lon="-46.505675"><ele>790.4</ele></trkpt>
+      <trkpt lat="-23.552959" lon="-46.505380"><ele>795.3</ele></trkpt>
+      <trkpt lat="-23.552926" lon="-46.505336"><ele>795.3</ele></trkpt>
+      <trkpt lat="-23.552900" lon="-46.505280"><ele>795.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

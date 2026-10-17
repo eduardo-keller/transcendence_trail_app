@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Avenida Goiás</name>
+    <trkseg>
+      <trkpt lat="-23.609747" lon="-46.775990"><ele>746.3</ele></trkpt>
+      <trkpt lat="-23.609589" lon="-46.775919"><ele>746.7</ele></trkpt>
+      <trkpt lat="-23.609462" lon="-46.775850"><ele>746.7</ele></trkpt>
+      <trkpt lat="-23.609365" lon="-46.775795"><ele>746.7</ele></trkpt>
+      <trkpt lat="-23.609287" lon="-46.775730"><ele>747.1</ele></trkpt>
+      <trkpt lat="-23.609223" lon="-46.775659"><ele>747.0</ele></trkpt>
+      <trkpt lat="-23.609185" lon="-46.775577"><ele>747.0</ele></trkpt>
+      <trkpt lat="-23.609147" lon="-46.775468"><ele>747.0</ele></trkpt>
+      <trkpt lat="-23.609121" lon="-46.775345"><ele>747.5</ele></trkpt>
+      <trkpt lat="-23.609101" lon="-46.775205"><ele>747.5</ele></trkpt>
+      <trkpt lat="-23.609096" lon="-46.775044"><ele>746.9</ele></trkpt>
+      <trkpt lat="-23.609081" lon="-46.774767"><ele>747.5</ele></trkpt>
+      <trkpt lat="-23.609089" lon="-46.774572"><ele>747.4</ele></trkpt>
+      <trkpt lat="-23.609087" lon="-46.774464"><ele>747.4</ele></trkpt>
+      <trkpt lat="-23.609094" lon="-46.774428"><ele>747.4</ele></trkpt>
+      <trkpt lat="-23.609109" lon="-46.774380"><ele>747.4</ele></trkpt>
+      <trkpt lat="-23.609109" lon="-46.774380"><ele>747.4</ele></trkpt>
+      <trkpt lat="-23.609046" lon="-46.773961"><ele>748.8</ele></trkpt>
+      <trkpt lat="-23.609029" lon="-46.773890"><ele>748.8</ele></trkpt>
+      <trkpt lat="-23.608992" lon="-46.773817"><ele>747.4</ele></trkpt>
+      <trkpt lat="-23.608754" lon="-46.773568"><ele>748.7</ele></trkpt>
+      <trkpt lat="-23.608568" lon="-46.773343"><ele>747.9</ele></trkpt>
+      <trkpt lat="-23.608498" lon="-46.773222"><ele>747.9</ele></trkpt>
+      <trkpt lat="-23.608473" lon="-46.773116"><ele>748.2</ele></trkpt>
+      <trkpt lat="-23.608450" lon="-46.772870"><ele>747.0</ele></trkpt>
+      <trkpt lat="-23.608457" lon="-46.772753"><ele>747.0</ele></trkpt>
+      <trkpt lat="-23.608438" lon="-46.772251"><ele>750.3</ele></trkpt>
+      <trkpt lat="-23.608401" lon="-46.770891"><ele>748.2</ele></trkpt>
+      <trkpt lat="-23.608386" lon="-46.770198"><ele>746.0</ele></trkpt>
+    </trkseg>
+    <trkseg>
+      <trkpt lat="-23.609262" lon="-46.774332"><ele>747.4</ele></trkpt>
+      <trkpt lat="-23.609179" lon="-46.774348"><ele>747.4</ele></trkpt>
+      <trkpt lat="-23.609140" lon="-46.774357"><ele>747.4</ele></trkpt>
+      <trkpt lat="-23.609109" lon="-46.774380"><ele>747.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

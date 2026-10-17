@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela do Independência</name>
+    <trkseg>
+      <trkpt lat="-23.161948" lon="-47.039226"><ele>711.7</ele></trkpt>
+      <trkpt lat="-23.161653" lon="-47.039290"><ele>712.5</ele></trkpt>
+      <trkpt lat="-23.161494" lon="-47.039317"><ele>707.6</ele></trkpt>
+      <trkpt lat="-23.161265" lon="-47.039383"><ele>707.6</ele></trkpt>
+      <trkpt lat="-23.161000" lon="-47.039491"><ele>708.7</ele></trkpt>
+      <trkpt lat="-23.160788" lon="-47.039563"><ele>706.6</ele></trkpt>
+      <trkpt lat="-23.160537" lon="-47.039637"><ele>703.0</ele></trkpt>
+      <trkpt lat="-23.160305" lon="-47.039762"><ele>704.0</ele></trkpt>
+      <trkpt lat="-23.160149" lon="-47.039836"><ele>704.0</ele></trkpt>
+      <trkpt lat="-23.159975" lon="-47.039952"><ele>702.0</ele></trkpt>
+      <trkpt lat="-23.159887" lon="-47.040003"><ele>702.0</ele></trkpt>
+      <trkpt lat="-23.159661" lon="-47.040089"><ele>700.7</ele></trkpt>
+      <trkpt lat="-23.159554" lon="-47.040081"><ele>699.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

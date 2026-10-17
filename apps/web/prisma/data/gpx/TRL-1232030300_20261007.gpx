@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Mirante Estaiada</name>
+    <trkseg>
+      <trkpt lat="-23.610081" lon="-46.699351"><ele>720.0</ele></trkpt>
+      <trkpt lat="-23.610040" lon="-46.699343"><ele>720.0</ele></trkpt>
+      <trkpt lat="-23.610053" lon="-46.699269"><ele>720.0</ele></trkpt>
+      <trkpt lat="-23.610135" lon="-46.699285"><ele>720.0</ele></trkpt>
+      <trkpt lat="-23.610123" lon="-46.699359"><ele>720.0</ele></trkpt>
+      <trkpt lat="-23.610081" lon="-46.699351"><ele>720.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

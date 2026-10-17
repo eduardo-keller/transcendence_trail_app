@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Luz Divina</name>
+    <trkseg>
+      <trkpt lat="-23.322132" lon="-46.214458"><ele>669.7</ele></trkpt>
+      <trkpt lat="-23.321932" lon="-46.214301"><ele>660.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

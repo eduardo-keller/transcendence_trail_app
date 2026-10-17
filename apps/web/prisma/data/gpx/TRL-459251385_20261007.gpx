@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Joima</name>
+    <trkseg>
+      <trkpt lat="-23.437786" lon="-46.419927"><ele>765.9</ele></trkpt>
+      <trkpt lat="-23.437270" lon="-46.420192"><ele>775.8</ele></trkpt>
+      <trkpt lat="-23.436769" lon="-46.420416"><ele>781.9</ele></trkpt>
+      <trkpt lat="-23.436356" lon="-46.420599"><ele>781.6</ele></trkpt>
+      <trkpt lat="-23.436271" lon="-46.420651"><ele>781.6</ele></trkpt>
+      <trkpt lat="-23.435778" lon="-46.420902"><ele>786.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Via de Pedestres Serra do Bueno</name>
+    <trkseg>
+      <trkpt lat="-23.455797" lon="-46.663304"><ele>784.6</ele></trkpt>
+      <trkpt lat="-23.455950" lon="-46.663225"><ele>784.6</ele></trkpt>
+      <trkpt lat="-23.455936" lon="-46.663172"><ele>778.3</ele></trkpt>
+      <trkpt lat="-23.455928" lon="-46.663136"><ele>778.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

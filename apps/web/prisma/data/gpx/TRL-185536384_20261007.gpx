@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Primavera</name>
+    <trkseg>
+      <trkpt lat="-23.520681" lon="-46.852958"><ele>759.1</ele></trkpt>
+      <trkpt lat="-23.520964" lon="-46.853111"><ele>754.9</ele></trkpt>
+      <trkpt lat="-23.521081" lon="-46.853380"><ele>744.7</ele></trkpt>
+      <trkpt lat="-23.521369" lon="-46.853535"><ele>734.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

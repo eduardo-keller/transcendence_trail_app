@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa 27</name>
+    <trkseg>
+      <trkpt lat="-23.687997" lon="-46.662835"><ele>751.2</ele></trkpt>
+      <trkpt lat="-23.688255" lon="-46.662991"><ele>748.6</ele></trkpt>
+      <trkpt lat="-23.688353" lon="-46.663039"><ele>748.6</ele></trkpt>
+      <trkpt lat="-23.688417" lon="-46.663053"><ele>748.6</ele></trkpt>
+      <trkpt lat="-23.688468" lon="-46.663047"><ele>748.6</ele></trkpt>
+      <trkpt lat="-23.688529" lon="-46.663029"><ele>750.0</ele></trkpt>
+      <trkpt lat="-23.688589" lon="-46.662999"><ele>750.0</ele></trkpt>
+      <trkpt lat="-23.688630" lon="-46.662966"><ele>750.0</ele></trkpt>
+      <trkpt lat="-23.688678" lon="-46.662923"><ele>750.0</ele></trkpt>
+      <trkpt lat="-23.688720" lon="-46.662867"><ele>753.0</ele></trkpt>
+      <trkpt lat="-23.688758" lon="-46.662808"><ele>749.0</ele></trkpt>
+      <trkpt lat="-23.688791" lon="-46.662754"><ele>749.0</ele></trkpt>
+      <trkpt lat="-23.688809" lon="-46.662734"><ele>749.0</ele></trkpt>
+      <trkpt lat="-23.688823" lon="-46.662727"><ele>749.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

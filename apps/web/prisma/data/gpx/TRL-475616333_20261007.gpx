@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Mar da Arábia</name>
+    <trkseg>
+      <trkpt lat="-23.453571" lon="-46.672069"><ele>759.4</ele></trkpt>
+      <trkpt lat="-23.453613" lon="-46.672051"><ele>759.4</ele></trkpt>
+      <trkpt lat="-23.453788" lon="-46.671980"><ele>769.1</ele></trkpt>
+      <trkpt lat="-23.453948" lon="-46.671924"><ele>769.1</ele></trkpt>
+      <trkpt lat="-23.454115" lon="-46.672071"><ele>775.8</ele></trkpt>
+      <trkpt lat="-23.454194" lon="-46.672139"><ele>776.2</ele></trkpt>
+      <trkpt lat="-23.454211" lon="-46.672170"><ele>776.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

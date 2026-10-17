@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Trilha de caminhada</name>
+    <trkseg>
+      <trkpt lat="-23.561147" lon="-46.716238"><ele>726.3</ele></trkpt>
+      <trkpt lat="-23.561047" lon="-46.716817"><ele>727.7</ele></trkpt>
+      <trkpt lat="-23.560989" lon="-46.717151"><ele>729.4</ele></trkpt>
+      <trkpt lat="-23.560919" lon="-46.717219"><ele>729.2</ele></trkpt>
+      <trkpt lat="-23.560821" lon="-46.717257"><ele>729.2</ele></trkpt>
+      <trkpt lat="-23.560668" lon="-46.718120"><ele>725.7</ele></trkpt>
+      <trkpt lat="-23.560349" lon="-46.718040"><ele>729.0</ele></trkpt>
+      <trkpt lat="-23.560265" lon="-46.718340"><ele>729.0</ele></trkpt>
+      <trkpt lat="-23.560034" lon="-46.718298"><ele>724.0</ele></trkpt>
+      <trkpt lat="-23.559946" lon="-46.718780"><ele>726.0</ele></trkpt>
+      <trkpt lat="-23.559705" lon="-46.718984"><ele>724.1</ele></trkpt>
+      <trkpt lat="-23.559311" lon="-46.719022"><ele>723.6</ele></trkpt>
+      <trkpt lat="-23.558923" lon="-46.718931"><ele>724.7</ele></trkpt>
+      <trkpt lat="-23.558620" lon="-46.718821"><ele>725.2</ele></trkpt>
+      <trkpt lat="-23.558454" lon="-46.718634"><ele>725.4</ele></trkpt>
+      <trkpt lat="-23.558550" lon="-46.717952"><ele>723.5</ele></trkpt>
+      <trkpt lat="-23.558588" lon="-46.717656"><ele>728.1</ele></trkpt>
+      <trkpt lat="-23.558620" lon="-46.717407"><ele>733.2</ele></trkpt>
+      <trkpt lat="-23.558696" lon="-46.717039"><ele>733.3</ele></trkpt>
+      <trkpt lat="-23.558903" lon="-46.716555"><ele>727.9</ele></trkpt>
+      <trkpt lat="-23.559074" lon="-46.716115"><ele>726.7</ele></trkpt>
+      <trkpt lat="-23.559263" lon="-46.715864"><ele>728.9</ele></trkpt>
+      <trkpt lat="-23.561147" lon="-46.716238"><ele>726.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

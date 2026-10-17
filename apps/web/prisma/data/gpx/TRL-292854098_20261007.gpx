@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Eixo Monumental</name>
+    <trkseg>
+      <trkpt lat="-23.579714" lon="-46.610262"><ele>738.3</ele></trkpt>
+      <trkpt lat="-23.580086" lon="-46.610229"><ele>738.0</ele></trkpt>
+      <trkpt lat="-23.580577" lon="-46.610185"><ele>737.5</ele></trkpt>
+      <trkpt lat="-23.580925" lon="-46.610154"><ele>742.9</ele></trkpt>
+      <trkpt lat="-23.581242" lon="-46.610125"><ele>749.3</ele></trkpt>
+      <trkpt lat="-23.581805" lon="-46.610075"><ele>751.1</ele></trkpt>
+      <trkpt lat="-23.581998" lon="-46.610058"><ele>753.1</ele></trkpt>
+      <trkpt lat="-23.582577" lon="-46.610005"><ele>756.9</ele></trkpt>
+      <trkpt lat="-23.583303" lon="-46.609941"><ele>758.0</ele></trkpt>
+      <trkpt lat="-23.583473" lon="-46.609925"><ele>760.8</ele></trkpt>
+      <trkpt lat="-23.583473" lon="-46.609925"><ele>760.8</ele></trkpt>
+      <trkpt lat="-23.583631" lon="-46.609914"><ele>760.8</ele></trkpt>
+      <trkpt lat="-23.583631" lon="-46.609914"><ele>760.8</ele></trkpt>
+      <trkpt lat="-23.583646" lon="-46.609915"><ele>760.8</ele></trkpt>
+      <trkpt lat="-23.583697" lon="-46.609908"><ele>760.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Estrada Particular</name>
+    <trkseg>
+      <trkpt lat="-23.182245" lon="-46.935820"><ele>718.1</ele></trkpt>
+      <trkpt lat="-23.182263" lon="-46.935370"><ele>721.8</ele></trkpt>
+      <trkpt lat="-23.182239" lon="-46.935164"><ele>721.8</ele></trkpt>
+      <trkpt lat="-23.182168" lon="-46.935045"><ele>722.9</ele></trkpt>
+      <trkpt lat="-23.181567" lon="-46.935243"><ele>726.6</ele></trkpt>
+      <trkpt lat="-23.181034" lon="-46.935430"><ele>730.3</ele></trkpt>
+      <trkpt lat="-23.180945" lon="-46.936750"><ele>714.7</ele></trkpt>
+      <trkpt lat="-23.180954" lon="-46.938243"><ele>710.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

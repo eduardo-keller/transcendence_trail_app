@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Califórnia</name>
+    <trkseg>
+      <trkpt lat="-23.592899" lon="-46.512030"><ele>786.3</ele></trkpt>
+      <trkpt lat="-23.592835" lon="-46.511945"><ele>786.3</ele></trkpt>
+      <trkpt lat="-23.592800" lon="-46.511889"><ele>786.3</ele></trkpt>
+      <trkpt lat="-23.592753" lon="-46.511769"><ele>784.9</ele></trkpt>
+      <trkpt lat="-23.592681" lon="-46.511567"><ele>784.9</ele></trkpt>
+      <trkpt lat="-23.592625" lon="-46.511441"><ele>779.7</ele></trkpt>
+      <trkpt lat="-23.592577" lon="-46.511360"><ele>779.7</ele></trkpt>
+      <trkpt lat="-23.592491" lon="-46.511218"><ele>777.3</ele></trkpt>
+      <trkpt lat="-23.592466" lon="-46.511150"><ele>777.3</ele></trkpt>
+      <trkpt lat="-23.592442" lon="-46.511043"><ele>777.3</ele></trkpt>
+      <trkpt lat="-23.592398" lon="-46.510865"><ele>776.9</ele></trkpt>
+      <trkpt lat="-23.592357" lon="-46.510770"><ele>776.5</ele></trkpt>
+      <trkpt lat="-23.592289" lon="-46.510662"><ele>774.5</ele></trkpt>
+      <trkpt lat="-23.592225" lon="-46.510598"><ele>774.5</ele></trkpt>
+      <trkpt lat="-23.592184" lon="-46.510570"><ele>774.5</ele></trkpt>
+      <trkpt lat="-23.592154" lon="-46.510563"><ele>774.5</ele></trkpt>
+      <trkpt lat="-23.592117" lon="-46.510546"><ele>774.5</ele></trkpt>
+      <trkpt lat="-23.592091" lon="-46.510507"><ele>774.5</ele></trkpt>
+      <trkpt lat="-23.592071" lon="-46.510470"><ele>777.1</ele></trkpt>
+      <trkpt lat="-23.592054" lon="-46.510400"><ele>774.8</ele></trkpt>
+      <trkpt lat="-23.592010" lon="-46.510296"><ele>774.8</ele></trkpt>
+      <trkpt lat="-23.592019" lon="-46.510206"><ele>774.8</ele></trkpt>
+      <trkpt lat="-23.591960" lon="-46.510039"><ele>772.8</ele></trkpt>
+      <trkpt lat="-23.591872" lon="-46.509770"><ele>770.7</ele></trkpt>
+      <trkpt lat="-23.591849" lon="-46.509699"><ele>770.7</ele></trkpt>
+      <trkpt lat="-23.591790" lon="-46.509621"><ele>773.7</ele></trkpt>
+      <trkpt lat="-23.591716" lon="-46.509555"><ele>770.9</ele></trkpt>
+      <trkpt lat="-23.591649" lon="-46.509475"><ele>770.9</ele></trkpt>
+      <trkpt lat="-23.591592" lon="-46.509367"><ele>770.9</ele></trkpt>
+      <trkpt lat="-23.591539" lon="-46.509250"><ele>770.3</ele></trkpt>
+      <trkpt lat="-23.591453" lon="-46.509042"><ele>770.1</ele></trkpt>
+      <trkpt lat="-23.591420" lon="-46.508974"><ele>767.1</ele></trkpt>
+      <trkpt lat="-23.591387" lon="-46.508918"><ele>767.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

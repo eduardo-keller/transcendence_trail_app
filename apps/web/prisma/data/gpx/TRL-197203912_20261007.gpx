@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Platina</name>
+    <trkseg>
+      <trkpt lat="-23.551449" lon="-46.841777"><ele>798.8</ele></trkpt>
+      <trkpt lat="-23.551526" lon="-46.841967"><ele>802.3</ele></trkpt>
+      <trkpt lat="-23.551661" lon="-46.842241"><ele>811.6</ele></trkpt>
+      <trkpt lat="-23.551888" lon="-46.842687"><ele>821.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

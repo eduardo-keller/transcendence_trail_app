@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Ibiúna</name>
+    <trkseg>
+      <trkpt lat="-23.532315" lon="-46.828980"><ele>776.4</ele></trkpt>
+      <trkpt lat="-23.532476" lon="-46.829653"><ele>776.3</ele></trkpt>
+      <trkpt lat="-23.532481" lon="-46.829679"><ele>776.3</ele></trkpt>
+      <trkpt lat="-23.532569" lon="-46.830040"><ele>776.2</ele></trkpt>
+      <trkpt lat="-23.532582" lon="-46.830129"><ele>776.2</ele></trkpt>
+      <trkpt lat="-23.532653" lon="-46.830495"><ele>760.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

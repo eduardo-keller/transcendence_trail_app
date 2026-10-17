@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Diamantina</name>
+    <trkseg>
+      <trkpt lat="-23.355455" lon="-46.746403"><ele>785.0</ele></trkpt>
+      <trkpt lat="-23.355714" lon="-46.745762"><ele>768.4</ele></trkpt>
+      <trkpt lat="-23.355955" lon="-46.745083"><ele>746.6</ele></trkpt>
+      <trkpt lat="-23.356180" lon="-46.744538"><ele>729.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Avenida Tércio Augusto Garcia</name>
+    <trkseg>
+      <trkpt lat="-23.938124" lon="-46.389811"><ele>4.8</ele></trkpt>
+      <trkpt lat="-23.938180" lon="-46.389933"><ele>3.3</ele></trkpt>
+      <trkpt lat="-23.938202" lon="-46.390052"><ele>3.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

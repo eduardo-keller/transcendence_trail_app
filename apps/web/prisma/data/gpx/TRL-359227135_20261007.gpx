@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Antenor Loureiro</name>
+    <trkseg>
+      <trkpt lat="-23.934960" lon="-46.337319"><ele>36.9</ele></trkpt>
+      <trkpt lat="-23.935211" lon="-46.337411"><ele>52.0</ele></trkpt>
+      <trkpt lat="-23.935031" lon="-46.337454"><ele>47.9</ele></trkpt>
+      <trkpt lat="-23.934959" lon="-46.337649"><ele>63.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

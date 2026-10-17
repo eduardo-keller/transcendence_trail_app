@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Hilda Cicarine</name>
+    <trkseg>
+      <trkpt lat="-23.450957" lon="-46.594650"><ele>770.5</ele></trkpt>
+      <trkpt lat="-23.450949" lon="-46.594602"><ele>770.5</ele></trkpt>
+      <trkpt lat="-23.450923" lon="-46.594519"><ele>767.2</ele></trkpt>
+      <trkpt lat="-23.450876" lon="-46.594407"><ele>767.2</ele></trkpt>
+      <trkpt lat="-23.450874" lon="-46.594380"><ele>767.2</ele></trkpt>
+      <trkpt lat="-23.450884" lon="-46.594362"><ele>767.2</ele></trkpt>
+      <trkpt lat="-23.450902" lon="-46.594345"><ele>767.2</ele></trkpt>
+      <trkpt lat="-23.451170" lon="-46.594241"><ele>760.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

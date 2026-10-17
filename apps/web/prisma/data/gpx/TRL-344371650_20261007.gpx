@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Paulista</name>
+    <trkseg>
+      <trkpt lat="-23.555913" lon="-46.661385"><ele>832.3</ele></trkpt>
+      <trkpt lat="-23.555849" lon="-46.661448"><ele>832.3</ele></trkpt>
+      <trkpt lat="-23.555536" lon="-46.661760"><ele>835.2</ele></trkpt>
+      <trkpt lat="-23.555536" lon="-46.661760"><ele>835.2</ele></trkpt>
+      <trkpt lat="-23.555262" lon="-46.662043"><ele>831.1</ele></trkpt>
+      <trkpt lat="-23.555221" lon="-46.662084"><ele>828.2</ele></trkpt>
+      <trkpt lat="-23.555262" lon="-46.662043"><ele>831.1</ele></trkpt>
+      <trkpt lat="-23.555243" lon="-46.662019"><ele>831.1</ele></trkpt>
+      <trkpt lat="-23.555069" lon="-46.662190"><ele>823.7</ele></trkpt>
+      <trkpt lat="-23.555069" lon="-46.662190"><ele>823.7</ele></trkpt>
+      <trkpt lat="-23.555195" lon="-46.662339"><ele>828.2</ele></trkpt>
+      <trkpt lat="-23.555294" lon="-46.662455"><ele>824.6</ele></trkpt>
+      <trkpt lat="-23.555353" lon="-46.662401"><ele>824.6</ele></trkpt>
+      <trkpt lat="-23.555511" lon="-46.662597"><ele>823.5</ele></trkpt>
+      <trkpt lat="-23.555619" lon="-46.662491"><ele>823.5</ele></trkpt>
+      <trkpt lat="-23.555855" lon="-46.662764"><ele>814.6</ele></trkpt>
+    </trkseg>
+    <trkseg>
+      <trkpt lat="-23.554911" lon="-46.662253"><ele>823.7</ele></trkpt>
+      <trkpt lat="-23.555031" lon="-46.662146"><ele>823.7</ele></trkpt>
+      <trkpt lat="-23.555069" lon="-46.662190"><ele>823.7</ele></trkpt>
+      <trkpt lat="-23.555193" lon="-46.662113"><ele>828.2</ele></trkpt>
+      <trkpt lat="-23.555221" lon="-46.662084"><ele>828.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

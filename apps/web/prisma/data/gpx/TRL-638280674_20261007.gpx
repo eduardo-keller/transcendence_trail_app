@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Via de Pedestre de Tambaba</name>
+    <trkseg>
+      <trkpt lat="-23.616446" lon="-46.493288"><ele>849.4</ele></trkpt>
+      <trkpt lat="-23.616478" lon="-46.493324"><ele>849.4</ele></trkpt>
+      <trkpt lat="-23.616511" lon="-46.493367"><ele>849.4</ele></trkpt>
+      <trkpt lat="-23.616555" lon="-46.493447"><ele>847.6</ele></trkpt>
+      <trkpt lat="-23.616585" lon="-46.493516"><ele>848.1</ele></trkpt>
+      <trkpt lat="-23.616643" lon="-46.493711"><ele>848.1</ele></trkpt>
+      <trkpt lat="-23.616666" lon="-46.493801"><ele>850.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

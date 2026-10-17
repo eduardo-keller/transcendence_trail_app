@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua dos Ferroviários</name>
+    <trkseg>
+      <trkpt lat="-23.653955" lon="-46.525559"><ele>745.5</ele></trkpt>
+      <trkpt lat="-23.654149" lon="-46.525222"><ele>745.7</ele></trkpt>
+      <trkpt lat="-23.654363" lon="-46.524836"><ele>745.1</ele></trkpt>
+      <trkpt lat="-23.654411" lon="-46.524740"><ele>745.1</ele></trkpt>
+      <trkpt lat="-23.654491" lon="-46.524550"><ele>744.7</ele></trkpt>
+      <trkpt lat="-23.654542" lon="-46.524420"><ele>744.7</ele></trkpt>
+      <trkpt lat="-23.654627" lon="-46.524140"><ele>744.9</ele></trkpt>
+      <trkpt lat="-23.654665" lon="-46.523981"><ele>744.8</ele></trkpt>
+      <trkpt lat="-23.654695" lon="-46.523898"><ele>744.8</ele></trkpt>
+      <trkpt lat="-23.654728" lon="-46.523838"><ele>744.8</ele></trkpt>
+      <trkpt lat="-23.654767" lon="-46.523792"><ele>744.8</ele></trkpt>
+      <trkpt lat="-23.654823" lon="-46.523738"><ele>745.4</ele></trkpt>
+      <trkpt lat="-23.654852" lon="-46.523699"><ele>745.4</ele></trkpt>
+      <trkpt lat="-23.654872" lon="-46.523654"><ele>745.3</ele></trkpt>
+      <trkpt lat="-23.655151" lon="-46.522953"><ele>745.6</ele></trkpt>
+      <trkpt lat="-23.655201" lon="-46.522833"><ele>745.4</ele></trkpt>
+      <trkpt lat="-23.655422" lon="-46.522395"><ele>746.3</ele></trkpt>
+      <trkpt lat="-23.655460" lon="-46.522312"><ele>745.9</ele></trkpt>
+      <trkpt lat="-23.655677" lon="-46.521780"><ele>746.6</ele></trkpt>
+      <trkpt lat="-23.655846" lon="-46.521370"><ele>746.9</ele></trkpt>
+      <trkpt lat="-23.655884" lon="-46.521258"><ele>746.9</ele></trkpt>
+      <trkpt lat="-23.655908" lon="-46.521197"><ele>748.3</ele></trkpt>
+      <trkpt lat="-23.655975" lon="-46.521062"><ele>746.8</ele></trkpt>
+      <trkpt lat="-23.656059" lon="-46.520921"><ele>747.5</ele></trkpt>
+      <trkpt lat="-23.656086" lon="-46.520861"><ele>747.5</ele></trkpt>
+      <trkpt lat="-23.656268" lon="-46.520481"><ele>750.1</ele></trkpt>
+      <trkpt lat="-23.656376" lon="-46.520189"><ele>747.8</ele></trkpt>
+      <trkpt lat="-23.656471" lon="-46.519937"><ele>747.3</ele></trkpt>
+      <trkpt lat="-23.656688" lon="-46.519205"><ele>747.7</ele></trkpt>
+      <trkpt lat="-23.656714" lon="-46.519069"><ele>747.7</ele></trkpt>
+      <trkpt lat="-23.656724" lon="-46.518956"><ele>748.3</ele></trkpt>
+      <trkpt lat="-23.656722" lon="-46.518871"><ele>748.3</ele></trkpt>
+      <trkpt lat="-23.656727" lon="-46.518779"><ele>748.3</ele></trkpt>
+      <trkpt lat="-23.656739" lon="-46.518727"><ele>749.5</ele></trkpt>
+      <trkpt lat="-23.656898" lon="-46.518059"><ele>748.9</ele></trkpt>
+      <trkpt lat="-23.656911" lon="-46.518014"><ele>748.9</ele></trkpt>
+      <trkpt lat="-23.656989" lon="-46.517829"><ele>748.9</ele></trkpt>
+      <trkpt lat="-23.657015" lon="-46.517761"><ele>748.9</ele></trkpt>
+      <trkpt lat="-23.657051" lon="-46.517626"><ele>750.8</ele></trkpt>
+      <trkpt lat="-23.657153" lon="-46.517230"><ele>749.0</ele></trkpt>
+      <trkpt lat="-23.657525" lon="-46.515794"><ele>748.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

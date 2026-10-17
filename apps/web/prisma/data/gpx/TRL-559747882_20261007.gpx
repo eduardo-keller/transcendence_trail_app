@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Trilha para o Lago</name>
+    <trkseg>
+      <trkpt lat="-23.562065" lon="-46.728042"><ele>735.3</ele></trkpt>
+      <trkpt lat="-23.561995" lon="-46.728194"><ele>735.3</ele></trkpt>
+      <trkpt lat="-23.562354" lon="-46.728465"><ele>740.8</ele></trkpt>
+      <trkpt lat="-23.562445" lon="-46.728645"><ele>759.6</ele></trkpt>
+      <trkpt lat="-23.562551" lon="-46.728645"><ele>759.6</ele></trkpt>
+      <trkpt lat="-23.562618" lon="-46.728534"><ele>759.6</ele></trkpt>
+      <trkpt lat="-23.562632" lon="-46.728435"><ele>749.5</ele></trkpt>
+      <trkpt lat="-23.562642" lon="-46.728334"><ele>753.9</ele></trkpt>
+      <trkpt lat="-23.562631" lon="-46.728280"><ele>749.5</ele></trkpt>
+      <trkpt lat="-23.562618" lon="-46.728134"><ele>740.2</ele></trkpt>
+      <trkpt lat="-23.562610" lon="-46.728049"><ele>740.2</ele></trkpt>
+      <trkpt lat="-23.562655" lon="-46.728054"><ele>745.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

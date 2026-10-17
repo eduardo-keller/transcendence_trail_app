@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Estrada Martin Luther King</name>
+    <trkseg>
+      <trkpt lat="-23.399998" lon="-46.470934"><ele>762.0</ele></trkpt>
+      <trkpt lat="-23.399983" lon="-46.470795"><ele>762.0</ele></trkpt>
+      <trkpt lat="-23.399976" lon="-46.470650"><ele>767.6</ele></trkpt>
+      <trkpt lat="-23.399983" lon="-46.470567"><ele>767.6</ele></trkpt>
+      <trkpt lat="-23.400004" lon="-46.470504"><ele>767.6</ele></trkpt>
+      <trkpt lat="-23.400030" lon="-46.470438"><ele>767.6</ele></trkpt>
+      <trkpt lat="-23.400045" lon="-46.470355"><ele>772.1</ele></trkpt>
+      <trkpt lat="-23.400067" lon="-46.469767"><ele>777.5</ele></trkpt>
+      <trkpt lat="-23.400060" lon="-46.469416"><ele>777.7</ele></trkpt>
+      <trkpt lat="-23.400045" lon="-46.469196"><ele>779.9</ele></trkpt>
+      <trkpt lat="-23.399964" lon="-46.468949"><ele>780.7</ele></trkpt>
+      <trkpt lat="-23.399879" lon="-46.468676"><ele>783.0</ele></trkpt>
+      <trkpt lat="-23.399805" lon="-46.468412"><ele>785.4</ele></trkpt>
+      <trkpt lat="-23.399738" lon="-46.468138"><ele>783.5</ele></trkpt>
+      <trkpt lat="-23.399624" lon="-46.467745"><ele>782.4</ele></trkpt>
+      <trkpt lat="-23.399347" lon="-46.466912"><ele>790.4</ele></trkpt>
+      <trkpt lat="-23.399223" lon="-46.466614"><ele>791.4</ele></trkpt>
+      <trkpt lat="-23.399029" lon="-46.466230"><ele>793.8</ele></trkpt>
+      <trkpt lat="-23.397946" lon="-46.464008"><ele>779.2</ele></trkpt>
+      <trkpt lat="-23.397904" lon="-46.463937"><ele>772.0</ele></trkpt>
+      <trkpt lat="-23.397875" lon="-46.463903"><ele>772.0</ele></trkpt>
+      <trkpt lat="-23.397847" lon="-46.463890"><ele>772.0</ele></trkpt>
+      <trkpt lat="-23.397809" lon="-46.463896"><ele>772.0</ele></trkpt>
+      <trkpt lat="-23.397757" lon="-46.463926"><ele>772.0</ele></trkpt>
+      <trkpt lat="-23.397740" lon="-46.463982"><ele>772.0</ele></trkpt>
+      <trkpt lat="-23.397744" lon="-46.464042"><ele>773.1</ele></trkpt>
+      <trkpt lat="-23.397759" lon="-46.464119"><ele>773.1</ele></trkpt>
+      <trkpt lat="-23.397786" lon="-46.464183"><ele>773.1</ele></trkpt>
+      <trkpt lat="-23.397832" lon="-46.464285"><ele>773.1</ele></trkpt>
+      <trkpt lat="-23.397893" lon="-46.464427"><ele>771.8</ele></trkpt>
+      <trkpt lat="-23.398000" lon="-46.464669"><ele>776.3</ele></trkpt>
+      <trkpt lat="-23.398243" lon="-46.465214"><ele>774.3</ele></trkpt>
+      <trkpt lat="-23.398436" lon="-46.465661"><ele>773.7</ele></trkpt>
+      <trkpt lat="-23.398524" lon="-46.465906"><ele>781.5</ele></trkpt>
+      <trkpt lat="-23.398596" lon="-46.466146"><ele>788.3</ele></trkpt>
+      <trkpt lat="-23.398716" lon="-46.466436"><ele>792.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

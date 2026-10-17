@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>João Caetano Pinto</name>
+    <trkseg>
+      <trkpt lat="-23.655974" lon="-46.578260"><ele>774.4</ele></trkpt>
+      <trkpt lat="-23.655757" lon="-46.578367"><ele>774.1</ele></trkpt>
+      <trkpt lat="-23.655738" lon="-46.578330"><ele>774.1</ele></trkpt>
+      <trkpt lat="-23.655949" lon="-46.578212"><ele>774.1</ele></trkpt>
+      <trkpt lat="-23.655949" lon="-46.578212"><ele>774.1</ele></trkpt>
+      <trkpt lat="-23.655539" lon="-46.577326"><ele>772.3</ele></trkpt>
+      <trkpt lat="-23.655539" lon="-46.577326"><ele>772.3</ele></trkpt>
+      <trkpt lat="-23.655308" lon="-46.577449"><ele>772.5</ele></trkpt>
+      <trkpt lat="-23.655288" lon="-46.577423"><ele>772.5</ele></trkpt>
+      <trkpt lat="-23.655576" lon="-46.577252"><ele>772.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua João Julião Moreira</name>
+    <trkseg>
+      <trkpt lat="-23.236122" lon="-46.766623"><ele>777.3</ele></trkpt>
+      <trkpt lat="-23.236082" lon="-46.766583"><ele>777.3</ele></trkpt>
+      <trkpt lat="-23.236059" lon="-46.766542"><ele>777.3</ele></trkpt>
+      <trkpt lat="-23.236041" lon="-46.766482"><ele>780.7</ele></trkpt>
+      <trkpt lat="-23.236029" lon="-46.766407"><ele>780.7</ele></trkpt>
+      <trkpt lat="-23.236024" lon="-46.766328"><ele>780.7</ele></trkpt>
+      <trkpt lat="-23.236032" lon="-46.766230"><ele>782.8</ele></trkpt>
+      <trkpt lat="-23.236034" lon="-46.766166"><ele>782.8</ele></trkpt>
+      <trkpt lat="-23.236026" lon="-46.766092"><ele>782.8</ele></trkpt>
+      <trkpt lat="-23.235989" lon="-46.765935"><ele>779.7</ele></trkpt>
+      <trkpt lat="-23.235952" lon="-46.765814"><ele>779.4</ele></trkpt>
+      <trkpt lat="-23.235857" lon="-46.765487"><ele>777.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

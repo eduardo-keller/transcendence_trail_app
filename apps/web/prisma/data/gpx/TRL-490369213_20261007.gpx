@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Japoré</name>
+    <trkseg>
+      <trkpt lat="-23.451841" lon="-46.621122"><ele>806.8</ele></trkpt>
+      <trkpt lat="-23.451793" lon="-46.621122"><ele>812.2</ele></trkpt>
+      <trkpt lat="-23.451597" lon="-46.621121"><ele>812.2</ele></trkpt>
+      <trkpt lat="-23.451322" lon="-46.621129"><ele>824.6</ele></trkpt>
+      <trkpt lat="-23.451255" lon="-46.621234"><ele>824.6</ele></trkpt>
+      <trkpt lat="-23.451203" lon="-46.621336"><ele>824.3</ele></trkpt>
+      <trkpt lat="-23.451164" lon="-46.621515"><ele>824.3</ele></trkpt>
+      <trkpt lat="-23.451156" lon="-46.621686"><ele>815.9</ele></trkpt>
+      <trkpt lat="-23.451155" lon="-46.621702"><ele>815.9</ele></trkpt>
+      <trkpt lat="-23.451163" lon="-46.621762"><ele>815.9</ele></trkpt>
+      <trkpt lat="-23.451183" lon="-46.621838"><ele>816.9</ele></trkpt>
+      <trkpt lat="-23.451254" lon="-46.621999"><ele>807.5</ele></trkpt>
+      <trkpt lat="-23.451358" lon="-46.622224"><ele>816.3</ele></trkpt>
+      <trkpt lat="-23.451379" lon="-46.622259"><ele>816.3</ele></trkpt>
+      <trkpt lat="-23.451407" lon="-46.622310"><ele>816.3</ele></trkpt>
+      <trkpt lat="-23.451678" lon="-46.622783"><ele>828.4</ele></trkpt>
+      <trkpt lat="-23.451705" lon="-46.622838"><ele>828.4</ele></trkpt>
+      <trkpt lat="-23.451713" lon="-46.622862"><ele>828.4</ele></trkpt>
+      <trkpt lat="-23.451730" lon="-46.622910"><ele>828.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela B andolim</name>
+    <trkseg>
+      <trkpt lat="-23.448281" lon="-46.511210"><ele>775.5</ele></trkpt>
+      <trkpt lat="-23.448274" lon="-46.510623"><ele>776.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

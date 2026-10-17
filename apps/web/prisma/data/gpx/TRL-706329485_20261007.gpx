@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passarela Sandro Anderson da Silva</name>
+    <trkseg>
+      <trkpt lat="-23.660179" lon="-46.529465"><ele>757.9</ele></trkpt>
+      <trkpt lat="-23.660272" lon="-46.529532"><ele>757.9</ele></trkpt>
+      <trkpt lat="-23.660258" lon="-46.529555"><ele>757.9</ele></trkpt>
+      <trkpt lat="-23.660148" lon="-46.529493"><ele>757.9</ele></trkpt>
+      <trkpt lat="-23.660148" lon="-46.529493"><ele>757.9</ele></trkpt>
+      <trkpt lat="-23.659954" lon="-46.529900"><ele>754.4</ele></trkpt>
+      <trkpt lat="-23.659954" lon="-46.529900"><ele>754.4</ele></trkpt>
+      <trkpt lat="-23.659875" lon="-46.530069"><ele>754.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

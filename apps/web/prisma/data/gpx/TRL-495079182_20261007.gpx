@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Othelo Melecsevics</name>
+    <trkseg>
+      <trkpt lat="-23.387806" lon="-46.323681"><ele>837.2</ele></trkpt>
+      <trkpt lat="-23.387819" lon="-46.323659"><ele>837.2</ele></trkpt>
+      <trkpt lat="-23.387838" lon="-46.323651"><ele>837.2</ele></trkpt>
+      <trkpt lat="-23.387859" lon="-46.323653"><ele>837.2</ele></trkpt>
+      <trkpt lat="-23.387949" lon="-46.323721"><ele>844.3</ele></trkpt>
+      <trkpt lat="-23.388078" lon="-46.323834"><ele>832.8</ele></trkpt>
+      <trkpt lat="-23.388206" lon="-46.323990"><ele>839.3</ele></trkpt>
+      <trkpt lat="-23.388273" lon="-46.324091"><ele>829.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

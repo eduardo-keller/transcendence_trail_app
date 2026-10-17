@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Galeria Olido</name>
+    <trkseg>
+      <trkpt lat="-23.543246" lon="-46.639251"><ele>756.0</ele></trkpt>
+      <trkpt lat="-23.543275" lon="-46.639205"><ele>756.0</ele></trkpt>
+      <trkpt lat="-23.543275" lon="-46.639205"><ele>756.0</ele></trkpt>
+      <trkpt lat="-23.543284" lon="-46.639193"><ele>756.0</ele></trkpt>
+      <trkpt lat="-23.543422" lon="-46.638962"><ele>751.6</ele></trkpt>
+      <trkpt lat="-23.543312" lon="-46.638848"><ele>751.6</ele></trkpt>
+      <trkpt lat="-23.543312" lon="-46.638848"><ele>751.6</ele></trkpt>
+      <trkpt lat="-23.543289" lon="-46.638824"><ele>751.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua B</name>
+    <trkseg>
+      <trkpt lat="-23.541153" lon="-46.629657"><ele>731.6</ele></trkpt>
+      <trkpt lat="-23.541233" lon="-46.629441"><ele>731.4</ele></trkpt>
+      <trkpt lat="-23.541298" lon="-46.629264"><ele>738.3</ele></trkpt>
+      <trkpt lat="-23.541389" lon="-46.629017"><ele>731.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

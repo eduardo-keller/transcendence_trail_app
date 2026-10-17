@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Lázaro Gonçalves</name>
+    <trkseg>
+      <trkpt lat="-23.571815" lon="-46.479546"><ele>801.4</ele></trkpt>
+      <trkpt lat="-23.571837" lon="-46.479487"><ele>801.4</ele></trkpt>
+      <trkpt lat="-23.571859" lon="-46.479433"><ele>801.4</ele></trkpt>
+      <trkpt lat="-23.571864" lon="-46.479402"><ele>801.4</ele></trkpt>
+      <trkpt lat="-23.571863" lon="-46.479373"><ele>801.4</ele></trkpt>
+      <trkpt lat="-23.571853" lon="-46.479330"><ele>801.4</ele></trkpt>
+      <trkpt lat="-23.571824" lon="-46.479267"><ele>802.3</ele></trkpt>
+      <trkpt lat="-23.571786" lon="-46.479203"><ele>806.4</ele></trkpt>
+      <trkpt lat="-23.571753" lon="-46.479159"><ele>806.4</ele></trkpt>
+      <trkpt lat="-23.571691" lon="-46.479106"><ele>806.4</ele></trkpt>
+      <trkpt lat="-23.571656" lon="-46.479073"><ele>806.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

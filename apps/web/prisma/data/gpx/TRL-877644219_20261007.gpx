@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Acesso a Viela Alphavill</name>
+    <trkseg>
+      <trkpt lat="-23.697245" lon="-46.780516"><ele>821.1</ele></trkpt>
+      <trkpt lat="-23.697322" lon="-46.780420"><ele>821.1</ele></trkpt>
+      <trkpt lat="-23.697413" lon="-46.780353"><ele>822.7</ele></trkpt>
+      <trkpt lat="-23.697462" lon="-46.780330"><ele>822.7</ele></trkpt>
+      <trkpt lat="-23.697504" lon="-46.780310"><ele>822.7</ele></trkpt>
+      <trkpt lat="-23.697619" lon="-46.780254"><ele>822.7</ele></trkpt>
+      <trkpt lat="-23.697744" lon="-46.780170"><ele>809.5</ele></trkpt>
+      <trkpt lat="-23.697782" lon="-46.780117"><ele>818.3</ele></trkpt>
+      <trkpt lat="-23.697833" lon="-46.780047"><ele>818.3</ele></trkpt>
+      <trkpt lat="-23.697911" lon="-46.779908"><ele>818.3</ele></trkpt>
+      <trkpt lat="-23.697928" lon="-46.779739"><ele>831.5</ele></trkpt>
+      <trkpt lat="-23.697925" lon="-46.779525"><ele>842.3</ele></trkpt>
+    </trkseg>
+    <trkseg>
+      <trkpt lat="-23.697538" lon="-46.781370"><ele>791.9</ele></trkpt>
+      <trkpt lat="-23.697521" lon="-46.781251"><ele>791.9</ele></trkpt>
+      <trkpt lat="-23.697548" lon="-46.781136"><ele>796.0</ele></trkpt>
+      <trkpt lat="-23.697619" lon="-46.781066"><ele>796.0</ele></trkpt>
+      <trkpt lat="-23.697668" lon="-46.780978"><ele>798.4</ele></trkpt>
+      <trkpt lat="-23.697685" lon="-46.780801"><ele>800.9</ele></trkpt>
+      <trkpt lat="-23.697462" lon="-46.780330"><ele>822.7</ele></trkpt>
+    </trkseg>
+    <trkseg>
+      <trkpt lat="-23.697685" lon="-46.780801"><ele>800.9</ele></trkpt>
+      <trkpt lat="-23.697926" lon="-46.780667"><ele>811.4</ele></trkpt>
+      <trkpt lat="-23.698005" lon="-46.780575"><ele>811.4</ele></trkpt>
+      <trkpt lat="-23.698010" lon="-46.780465"><ele>811.4</ele></trkpt>
+      <trkpt lat="-23.697997" lon="-46.780372"><ele>811.8</ele></trkpt>
+      <trkpt lat="-23.697936" lon="-46.780372"><ele>811.8</ele></trkpt>
+      <trkpt lat="-23.697782" lon="-46.780117"><ele>818.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

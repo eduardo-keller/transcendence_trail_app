@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Luiz Gonzaga</name>
+    <trkseg>
+      <trkpt lat="-23.442746" lon="-46.714795"><ele>853.4</ele></trkpt>
+      <trkpt lat="-23.442749" lon="-46.714716"><ele>853.4</ele></trkpt>
+      <trkpt lat="-23.442751" lon="-46.714711"><ele>853.4</ele></trkpt>
+      <trkpt lat="-23.442756" lon="-46.714708"><ele>853.4</ele></trkpt>
+      <trkpt lat="-23.442761" lon="-46.714707"><ele>853.4</ele></trkpt>
+      <trkpt lat="-23.442929" lon="-46.714712"><ele>858.1</ele></trkpt>
+      <trkpt lat="-23.442932" lon="-46.714714"><ele>858.1</ele></trkpt>
+      <trkpt lat="-23.442936" lon="-46.714717"><ele>858.1</ele></trkpt>
+      <trkpt lat="-23.442937" lon="-46.714722"><ele>858.1</ele></trkpt>
+      <trkpt lat="-23.442936" lon="-46.714801"><ele>858.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

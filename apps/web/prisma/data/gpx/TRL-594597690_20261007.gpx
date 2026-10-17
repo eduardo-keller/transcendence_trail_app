@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Jaguaribe</name>
+    <trkseg>
+      <trkpt lat="-23.606235" lon="-46.728675"><ele>776.3</ele></trkpt>
+      <trkpt lat="-23.606253" lon="-46.728621"><ele>772.1</ele></trkpt>
+      <trkpt lat="-23.606275" lon="-46.728578"><ele>772.1</ele></trkpt>
+      <trkpt lat="-23.606287" lon="-46.728468"><ele>777.1</ele></trkpt>
+      <trkpt lat="-23.606321" lon="-46.728463"><ele>777.1</ele></trkpt>
+      <trkpt lat="-23.606329" lon="-46.728369"><ele>777.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

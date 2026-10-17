@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Largo Dona Ana Rosa</name>
+    <trkseg>
+      <trkpt lat="-23.580780" lon="-46.639392"><ele>814.9</ele></trkpt>
+      <trkpt lat="-23.580705" lon="-46.639260"><ele>811.0</ele></trkpt>
+      <trkpt lat="-23.580621" lon="-46.639105"><ele>813.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

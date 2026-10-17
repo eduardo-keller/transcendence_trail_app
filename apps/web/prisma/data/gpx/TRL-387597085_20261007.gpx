@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Estrada do Iguatemi</name>
+    <trkseg>
+      <trkpt lat="-23.620265" lon="-46.391763"><ele>789.5</ele></trkpt>
+      <trkpt lat="-23.620253" lon="-46.391780"><ele>789.5</ele></trkpt>
+      <trkpt lat="-23.620238" lon="-46.391800"><ele>789.5</ele></trkpt>
+      <trkpt lat="-23.620223" lon="-46.391826"><ele>790.0</ele></trkpt>
+      <trkpt lat="-23.620193" lon="-46.391889"><ele>790.0</ele></trkpt>
+      <trkpt lat="-23.620156" lon="-46.392042"><ele>790.0</ele></trkpt>
+      <trkpt lat="-23.620106" lon="-46.392262"><ele>797.3</ele></trkpt>
+      <trkpt lat="-23.620069" lon="-46.392445"><ele>801.3</ele></trkpt>
+      <trkpt lat="-23.619877" lon="-46.392944"><ele>811.1</ele></trkpt>
+      <trkpt lat="-23.619816" lon="-46.393125"><ele>811.8</ele></trkpt>
+      <trkpt lat="-23.619783" lon="-46.393325"><ele>815.0</ele></trkpt>
+      <trkpt lat="-23.619751" lon="-46.393574"><ele>816.3</ele></trkpt>
+      <trkpt lat="-23.619736" lon="-46.393833"><ele>817.7</ele></trkpt>
+      <trkpt lat="-23.619718" lon="-46.393947"><ele>817.7</ele></trkpt>
+      <trkpt lat="-23.619684" lon="-46.394046"><ele>820.5</ele></trkpt>
+      <trkpt lat="-23.619646" lon="-46.394114"><ele>820.5</ele></trkpt>
+      <trkpt lat="-23.619537" lon="-46.394232"><ele>818.8</ele></trkpt>
+      <trkpt lat="-23.619470" lon="-46.394321"><ele>823.6</ele></trkpt>
+      <trkpt lat="-23.619423" lon="-46.394413"><ele>823.6</ele></trkpt>
+      <trkpt lat="-23.619388" lon="-46.394504"><ele>823.6</ele></trkpt>
+      <trkpt lat="-23.619249" lon="-46.394951"><ele>829.3</ele></trkpt>
+      <trkpt lat="-23.619190" lon="-46.395183"><ele>833.6</ele></trkpt>
+      <trkpt lat="-23.619136" lon="-46.395329"><ele>833.6</ele></trkpt>
+      <trkpt lat="-23.619056" lon="-46.395521"><ele>839.2</ele></trkpt>
+      <trkpt lat="-23.618950" lon="-46.395750"><ele>842.9</ele></trkpt>
+      <trkpt lat="-23.618879" lon="-46.395910"><ele>842.9</ele></trkpt>
+      <trkpt lat="-23.618817" lon="-46.396110"><ele>850.0</ele></trkpt>
+      <trkpt lat="-23.618646" lon="-46.396786"><ele>861.4</ele></trkpt>
+      <trkpt lat="-23.618579" lon="-46.397041"><ele>867.7</ele></trkpt>
+      <trkpt lat="-23.618555" lon="-46.397225"><ele>876.0</ele></trkpt>
+      <trkpt lat="-23.618545" lon="-46.397362"><ele>881.2</ele></trkpt>
+      <trkpt lat="-23.618545" lon="-46.397547"><ele>881.2</ele></trkpt>
+      <trkpt lat="-23.618491" lon="-46.397811"><ele>881.2</ele></trkpt>
+      <trkpt lat="-23.618480" lon="-46.397862"><ele>881.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

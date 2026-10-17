@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Trilha de caminhada do Parque do Cordeiro</name>
+    <trkseg>
+      <trkpt lat="-23.640311" lon="-46.677701"><ele>741.5</ele></trkpt>
+      <trkpt lat="-23.640283" lon="-46.677773"><ele>741.5</ele></trkpt>
+      <trkpt lat="-23.640183" lon="-46.677820"><ele>741.5</ele></trkpt>
+      <trkpt lat="-23.640128" lon="-46.677780"><ele>743.2</ele></trkpt>
+      <trkpt lat="-23.640066" lon="-46.677793"><ele>743.2</ele></trkpt>
+      <trkpt lat="-23.639978" lon="-46.677871"><ele>743.2</ele></trkpt>
+      <trkpt lat="-23.639802" lon="-46.677995"><ele>746.2</ele></trkpt>
+      <trkpt lat="-23.639741" lon="-46.678016"><ele>746.2</ele></trkpt>
+      <trkpt lat="-23.639656" lon="-46.678010"><ele>746.2</ele></trkpt>
+      <trkpt lat="-23.639605" lon="-46.677981"><ele>746.2</ele></trkpt>
+      <trkpt lat="-23.639503" lon="-46.677810"><ele>744.8</ele></trkpt>
+      <trkpt lat="-23.639442" lon="-46.677743"><ele>744.8</ele></trkpt>
+      <trkpt lat="-23.639238" lon="-46.677101"><ele>741.1</ele></trkpt>
+      <trkpt lat="-23.639249" lon="-46.677056"><ele>738.5</ele></trkpt>
+      <trkpt lat="-23.639284" lon="-46.677018"><ele>738.5</ele></trkpt>
+      <trkpt lat="-23.639657" lon="-46.676910"><ele>741.3</ele></trkpt>
+      <trkpt lat="-23.639736" lon="-46.676902"><ele>741.3</ele></trkpt>
+      <trkpt lat="-23.639769" lon="-46.676901"><ele>741.3</ele></trkpt>
+      <trkpt lat="-23.640174" lon="-46.677393"><ele>740.8</ele></trkpt>
+      <trkpt lat="-23.640207" lon="-46.677435"><ele>740.8</ele></trkpt>
+      <trkpt lat="-23.640248" lon="-46.677506"><ele>740.8</ele></trkpt>
+      <trkpt lat="-23.640291" lon="-46.677598"><ele>740.8</ele></trkpt>
+      <trkpt lat="-23.640311" lon="-46.677701"><ele>741.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

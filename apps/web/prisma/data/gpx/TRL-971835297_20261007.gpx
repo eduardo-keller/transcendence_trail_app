@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua João Batista Figueiredo</name>
+    <trkseg>
+      <trkpt lat="-23.180132" lon="-46.898750"><ele>729.4</ele></trkpt>
+      <trkpt lat="-23.180231" lon="-46.898714"><ele>727.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

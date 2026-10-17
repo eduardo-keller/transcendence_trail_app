@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Aracaú</name>
+    <trkseg>
+      <trkpt lat="-23.451487" lon="-46.449971"><ele>791.3</ele></trkpt>
+      <trkpt lat="-23.450975" lon="-46.449780"><ele>789.3</ele></trkpt>
+      <trkpt lat="-23.450427" lon="-46.449576"><ele>778.1</ele></trkpt>
+      <trkpt lat="-23.449909" lon="-46.449384"><ele>769.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

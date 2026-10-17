@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Zeferino Borges Barreto</name>
+    <trkseg>
+      <trkpt lat="-23.714060" lon="-46.713270"><ele>745.7</ele></trkpt>
+      <trkpt lat="-23.714341" lon="-46.712895"><ele>748.2</ele></trkpt>
+      <trkpt lat="-23.714518" lon="-46.712656"><ele>748.2</ele></trkpt>
+      <trkpt lat="-23.714551" lon="-46.712613"><ele>746.6</ele></trkpt>
+      <trkpt lat="-23.714881" lon="-46.712016"><ele>740.1</ele></trkpt>
+      <trkpt lat="-23.714923" lon="-46.711952"><ele>740.1</ele></trkpt>
+      <trkpt lat="-23.714995" lon="-46.711822"><ele>740.1</ele></trkpt>
+      <trkpt lat="-23.715033" lon="-46.711740"><ele>740.2</ele></trkpt>
+      <trkpt lat="-23.715046" lon="-46.711702"><ele>740.2</ele></trkpt>
+      <trkpt lat="-23.715060" lon="-46.711660"><ele>740.2</ele></trkpt>
+      <trkpt lat="-23.715093" lon="-46.711501"><ele>739.6</ele></trkpt>
+      <trkpt lat="-23.715097" lon="-46.711428"><ele>739.6</ele></trkpt>
+      <trkpt lat="-23.714952" lon="-46.710710"><ele>743.8</ele></trkpt>
+      <trkpt lat="-23.714899" lon="-46.710499"><ele>742.6</ele></trkpt>
+      <trkpt lat="-23.714609" lon="-46.709640"><ele>749.7</ele></trkpt>
+      <trkpt lat="-23.714581" lon="-46.709595"><ele>757.7</ele></trkpt>
+      <trkpt lat="-23.714547" lon="-46.709546"><ele>749.3</ele></trkpt>
+      <trkpt lat="-23.714523" lon="-46.709495"><ele>749.3</ele></trkpt>
+      <trkpt lat="-23.714430" lon="-46.709191"><ele>743.7</ele></trkpt>
+      <trkpt lat="-23.714427" lon="-46.709153"><ele>743.7</ele></trkpt>
+      <trkpt lat="-23.714430" lon="-46.709104"><ele>743.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

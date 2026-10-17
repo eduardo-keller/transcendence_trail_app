@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rampa</name>
+    <trkseg>
+      <trkpt lat="-23.712849" lon="-46.497234"><ele>798.1</ele></trkpt>
+      <trkpt lat="-23.712844" lon="-46.497118"><ele>798.1</ele></trkpt>
+      <trkpt lat="-23.712886" lon="-46.497116"><ele>798.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

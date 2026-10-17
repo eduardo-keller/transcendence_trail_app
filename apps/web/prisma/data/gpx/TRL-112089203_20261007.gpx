@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela santa Barbara</name>
+    <trkseg>
+      <trkpt lat="-23.616129" lon="-46.517694"><ele>752.2</ele></trkpt>
+      <trkpt lat="-23.616159" lon="-46.517717"><ele>752.2</ele></trkpt>
+      <trkpt lat="-23.616195" lon="-46.517747"><ele>752.2</ele></trkpt>
+      <trkpt lat="-23.616228" lon="-46.517777"><ele>752.2</ele></trkpt>
+      <trkpt lat="-23.616295" lon="-46.517850"><ele>751.7</ele></trkpt>
+      <trkpt lat="-23.616329" lon="-46.517888"><ele>751.7</ele></trkpt>
+      <trkpt lat="-23.616362" lon="-46.517933"><ele>750.1</ele></trkpt>
+      <trkpt lat="-23.616415" lon="-46.518012"><ele>750.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

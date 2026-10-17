@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Marcilio Dias do Amaral Junior</name>
+    <trkseg>
+      <trkpt lat="-23.501419" lon="-46.526758"><ele>737.4</ele></trkpt>
+      <trkpt lat="-23.501495" lon="-46.525837"><ele>738.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

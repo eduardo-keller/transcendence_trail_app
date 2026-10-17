@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Alameda dos Girassóis</name>
+    <trkseg>
+      <trkpt lat="-23.162654" lon="-47.086748"><ele>739.3</ele></trkpt>
+      <trkpt lat="-23.162412" lon="-47.087376"><ele>737.3</ele></trkpt>
+      <trkpt lat="-23.162345" lon="-47.087572"><ele>735.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

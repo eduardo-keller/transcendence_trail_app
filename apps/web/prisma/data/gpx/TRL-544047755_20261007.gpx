@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Santa Cecília</name>
+    <trkseg>
+      <trkpt lat="-23.735999" lon="-46.715489"><ele>770.6</ele></trkpt>
+      <trkpt lat="-23.735938" lon="-46.715679"><ele>770.3</ele></trkpt>
+      <trkpt lat="-23.735991" lon="-46.715783"><ele>772.6</ele></trkpt>
+      <trkpt lat="-23.736051" lon="-46.715877"><ele>772.6</ele></trkpt>
+      <trkpt lat="-23.736113" lon="-46.715977"><ele>778.9</ele></trkpt>
+      <trkpt lat="-23.736165" lon="-46.715949"><ele>772.6</ele></trkpt>
+      <trkpt lat="-23.736176" lon="-46.715943"><ele>772.6</ele></trkpt>
+      <trkpt lat="-23.736244" lon="-46.716089"><ele>778.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

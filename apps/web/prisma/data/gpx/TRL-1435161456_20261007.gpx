@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela da Alegria</name>
+    <trkseg>
+      <trkpt lat="-23.446035" lon="-46.405206"><ele>771.8</ele></trkpt>
+      <trkpt lat="-23.446057" lon="-46.405294"><ele>771.8</ele></trkpt>
+      <trkpt lat="-23.446080" lon="-46.405377"><ele>771.8</ele></trkpt>
+      <trkpt lat="-23.446112" lon="-46.405497"><ele>773.1</ele></trkpt>
+      <trkpt lat="-23.446115" lon="-46.405512"><ele>773.1</ele></trkpt>
+      <trkpt lat="-23.446145" lon="-46.405615"><ele>773.1</ele></trkpt>
+      <trkpt lat="-23.446161" lon="-46.405675"><ele>773.1</ele></trkpt>
+      <trkpt lat="-23.446200" lon="-46.405725"><ele>773.8</ele></trkpt>
+      <trkpt lat="-23.446249" lon="-46.405785"><ele>773.8</ele></trkpt>
+      <trkpt lat="-23.446324" lon="-46.405864"><ele>771.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

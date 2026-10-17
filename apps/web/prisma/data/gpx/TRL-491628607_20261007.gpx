@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Júlio Corneto</name>
+    <trkseg>
+      <trkpt lat="-23.363444" lon="-46.748015"><ele>726.5</ele></trkpt>
+      <trkpt lat="-23.363841" lon="-46.747462"><ele>739.1</ele></trkpt>
+      <trkpt lat="-23.364229" lon="-46.746865"><ele>748.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

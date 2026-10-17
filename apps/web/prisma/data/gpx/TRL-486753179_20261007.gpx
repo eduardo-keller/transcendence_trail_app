@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Fiorelli Peccicacco</name>
+    <trkseg>
+      <trkpt lat="-23.404718" lon="-46.749341"><ele>740.7</ele></trkpt>
+      <trkpt lat="-23.404711" lon="-46.749304"><ele>740.7</ele></trkpt>
+      <trkpt lat="-23.404534" lon="-46.748790"><ele>742.9</ele></trkpt>
+      <trkpt lat="-23.404483" lon="-46.748641"><ele>741.0</ele></trkpt>
+      <trkpt lat="-23.404431" lon="-46.748486"><ele>741.0</ele></trkpt>
+      <trkpt lat="-23.404344" lon="-46.748240"><ele>742.8</ele></trkpt>
+      <trkpt lat="-23.404329" lon="-46.748198"><ele>742.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

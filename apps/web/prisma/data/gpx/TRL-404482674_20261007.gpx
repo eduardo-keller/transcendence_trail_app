@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passarela Nelson Corazza</name>
+    <trkseg>
+      <trkpt lat="-23.642049" lon="-46.588600"><ele>752.0</ele></trkpt>
+      <trkpt lat="-23.642005" lon="-46.588563"><ele>752.0</ele></trkpt>
+      <trkpt lat="-23.642005" lon="-46.588563"><ele>752.0</ele></trkpt>
+      <trkpt lat="-23.641321" lon="-46.587986"><ele>745.9</ele></trkpt>
+      <trkpt lat="-23.641321" lon="-46.587986"><ele>745.9</ele></trkpt>
+      <trkpt lat="-23.641174" lon="-46.588193"><ele>748.2</ele></trkpt>
+      <trkpt lat="-23.641144" lon="-46.588168"><ele>748.2</ele></trkpt>
+      <trkpt lat="-23.641281" lon="-46.587974"><ele>745.9</ele></trkpt>
+      <trkpt lat="-23.641281" lon="-46.587974"><ele>745.9</ele></trkpt>
+      <trkpt lat="-23.641372" lon="-46.587847"><ele>746.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

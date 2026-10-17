@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Macaja</name>
+    <trkseg>
+      <trkpt lat="-23.465611" lon="-46.693827"><ele>763.7</ele></trkpt>
+      <trkpt lat="-23.465806" lon="-46.694019"><ele>760.8</ele></trkpt>
+      <trkpt lat="-23.465912" lon="-46.694128"><ele>760.0</ele></trkpt>
+      <trkpt lat="-23.465965" lon="-46.694195"><ele>760.0</ele></trkpt>
+      <trkpt lat="-23.466043" lon="-46.694315"><ele>758.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

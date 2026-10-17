@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela São Marcos</name>
+    <trkseg>
+      <trkpt lat="-23.738967" lon="-46.713085"><ele>774.3</ele></trkpt>
+      <trkpt lat="-23.738999" lon="-46.713116"><ele>774.3</ele></trkpt>
+      <trkpt lat="-23.739040" lon="-46.713159"><ele>780.1</ele></trkpt>
+      <trkpt lat="-23.739057" lon="-46.713180"><ele>780.1</ele></trkpt>
+      <trkpt lat="-23.739092" lon="-46.713227"><ele>782.5</ele></trkpt>
+      <trkpt lat="-23.739121" lon="-46.713269"><ele>782.5</ele></trkpt>
+      <trkpt lat="-23.739132" lon="-46.713284"><ele>782.5</ele></trkpt>
+      <trkpt lat="-23.739151" lon="-46.713317"><ele>782.5</ele></trkpt>
+      <trkpt lat="-23.739158" lon="-46.713332"><ele>782.5</ele></trkpt>
+      <trkpt lat="-23.739186" lon="-46.713406"><ele>782.5</ele></trkpt>
+      <trkpt lat="-23.739200" lon="-46.713453"><ele>782.5</ele></trkpt>
+      <trkpt lat="-23.739213" lon="-46.713494"><ele>788.2</ele></trkpt>
+      <trkpt lat="-23.739228" lon="-46.713548"><ele>788.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

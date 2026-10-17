@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Lira</name>
+    <trkseg>
+      <trkpt lat="-23.755413" lon="-46.677791"><ele>772.1</ele></trkpt>
+      <trkpt lat="-23.755458" lon="-46.677623"><ele>766.0</ele></trkpt>
+      <trkpt lat="-23.755492" lon="-46.677481"><ele>766.0</ele></trkpt>
+      <trkpt lat="-23.755442" lon="-46.677290"><ele>762.3</ele></trkpt>
+      <trkpt lat="-23.755432" lon="-46.677227"><ele>762.3</ele></trkpt>
+      <trkpt lat="-23.755364" lon="-46.677112"><ele>764.4</ele></trkpt>
+      <trkpt lat="-23.755329" lon="-46.677010"><ele>761.8</ele></trkpt>
+      <trkpt lat="-23.755320" lon="-46.676913"><ele>761.8</ele></trkpt>
+      <trkpt lat="-23.755349" lon="-46.676721"><ele>759.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Orlando Sardi</name>
+    <trkseg>
+      <trkpt lat="-23.488664" lon="-46.624147"><ele>793.5</ele></trkpt>
+      <trkpt lat="-23.488661" lon="-46.624261"><ele>793.5</ele></trkpt>
+      <trkpt lat="-23.488661" lon="-46.624261"><ele>793.5</ele></trkpt>
+      <trkpt lat="-23.488635" lon="-46.624422"><ele>788.6</ele></trkpt>
+      <trkpt lat="-23.488615" lon="-46.624504"><ele>788.6</ele></trkpt>
+      <trkpt lat="-23.488442" lon="-46.624929"><ele>778.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

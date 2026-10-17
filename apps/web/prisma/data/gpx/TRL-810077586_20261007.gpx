@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passagem Tião Carreiro</name>
+    <trkseg>
+      <trkpt lat="-23.691381" lon="-46.598034"><ele>789.9</ele></trkpt>
+      <trkpt lat="-23.691351" lon="-46.597962"><ele>789.9</ele></trkpt>
+      <trkpt lat="-23.691338" lon="-46.597919"><ele>789.9</ele></trkpt>
+      <trkpt lat="-23.691340" lon="-46.597858"><ele>791.1</ele></trkpt>
+      <trkpt lat="-23.691360" lon="-46.597759"><ele>791.1</ele></trkpt>
+      <trkpt lat="-23.691422" lon="-46.597584"><ele>791.9</ele></trkpt>
+      <trkpt lat="-23.691483" lon="-46.597423"><ele>791.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

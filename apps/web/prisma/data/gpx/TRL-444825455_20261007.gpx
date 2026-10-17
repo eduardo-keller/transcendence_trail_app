@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Estrada Sítio Humaitá</name>
+    <trkseg>
+      <trkpt lat="-23.654080" lon="-47.059189"><ele>907.9</ele></trkpt>
+      <trkpt lat="-23.653948" lon="-47.058714"><ele>901.3</ele></trkpt>
+      <trkpt lat="-23.653928" lon="-47.058477"><ele>901.3</ele></trkpt>
+      <trkpt lat="-23.653899" lon="-47.058157"><ele>897.8</ele></trkpt>
+      <trkpt lat="-23.653868" lon="-47.057376"><ele>894.3</ele></trkpt>
+      <trkpt lat="-23.653887" lon="-47.057266"><ele>892.3</ele></trkpt>
+      <trkpt lat="-23.653937" lon="-47.057166"><ele>892.3</ele></trkpt>
+      <trkpt lat="-23.654005" lon="-47.057109"><ele>892.3</ele></trkpt>
+      <trkpt lat="-23.654109" lon="-47.057076"><ele>886.9</ele></trkpt>
+      <trkpt lat="-23.654636" lon="-47.056948"><ele>885.1</ele></trkpt>
+      <trkpt lat="-23.654745" lon="-47.056919"><ele>885.1</ele></trkpt>
+      <trkpt lat="-23.654774" lon="-47.056906"><ele>885.1</ele></trkpt>
+      <trkpt lat="-23.654796" lon="-47.056882"><ele>885.1</ele></trkpt>
+      <trkpt lat="-23.654823" lon="-47.056819"><ele>885.1</ele></trkpt>
+      <trkpt lat="-23.654828" lon="-47.056781"><ele>883.1</ele></trkpt>
+      <trkpt lat="-23.654823" lon="-47.056746"><ele>883.1</ele></trkpt>
+      <trkpt lat="-23.654801" lon="-47.056681"><ele>883.1</ele></trkpt>
+      <trkpt lat="-23.654791" lon="-47.056672"><ele>883.1</ele></trkpt>
+      <trkpt lat="-23.654549" lon="-47.056460"><ele>883.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

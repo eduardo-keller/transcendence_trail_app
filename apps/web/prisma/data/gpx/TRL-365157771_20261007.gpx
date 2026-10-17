@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Acesso à Estação Lapa (Linha 8)</name>
+    <trkseg>
+      <trkpt lat="-23.520274" lon="-46.699129"><ele>730.1</ele></trkpt>
+      <trkpt lat="-23.520330" lon="-46.699154"><ele>730.1</ele></trkpt>
+      <trkpt lat="-23.520354" lon="-46.699165"><ele>730.1</ele></trkpt>
+      <trkpt lat="-23.520453" lon="-46.699098"><ele>730.2</ele></trkpt>
+      <trkpt lat="-23.520494" lon="-46.699095"><ele>730.2</ele></trkpt>
+      <trkpt lat="-23.520534" lon="-46.699111"><ele>730.2</ele></trkpt>
+      <trkpt lat="-23.520639" lon="-46.699163"><ele>730.2</ele></trkpt>
+      <trkpt lat="-23.520986" lon="-46.699349"><ele>734.9</ele></trkpt>
+      <trkpt lat="-23.521019" lon="-46.699401"><ele>734.9</ele></trkpt>
+      <trkpt lat="-23.521069" lon="-46.699432"><ele>734.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

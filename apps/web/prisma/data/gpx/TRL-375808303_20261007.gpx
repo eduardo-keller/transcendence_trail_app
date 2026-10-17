@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Praça Dirceu de Lima</name>
+    <trkseg>
+      <trkpt lat="-23.510972" lon="-46.657949"><ele>758.6</ele></trkpt>
+      <trkpt lat="-23.511006" lon="-46.657903"><ele>759.1</ele></trkpt>
+      <trkpt lat="-23.511018" lon="-46.657885"><ele>759.1</ele></trkpt>
+      <trkpt lat="-23.511029" lon="-46.657865"><ele>759.1</ele></trkpt>
+      <trkpt lat="-23.511037" lon="-46.657849"><ele>759.1</ele></trkpt>
+      <trkpt lat="-23.511043" lon="-46.657829"><ele>759.1</ele></trkpt>
+      <trkpt lat="-23.511049" lon="-46.657811"><ele>759.1</ele></trkpt>
+      <trkpt lat="-23.511054" lon="-46.657784"><ele>759.1</ele></trkpt>
+      <trkpt lat="-23.511074" lon="-46.657664"><ele>759.1</ele></trkpt>
+      <trkpt lat="-23.511079" lon="-46.657634"><ele>760.3</ele></trkpt>
+      <trkpt lat="-23.511102" lon="-46.657571"><ele>760.3</ele></trkpt>
+      <trkpt lat="-23.511130" lon="-46.657508"><ele>760.3</ele></trkpt>
+      <trkpt lat="-23.511155" lon="-46.657458"><ele>760.3</ele></trkpt>
+      <trkpt lat="-23.511173" lon="-46.657411"><ele>760.3</ele></trkpt>
+      <trkpt lat="-23.511202" lon="-46.657323"><ele>757.4</ele></trkpt>
+      <trkpt lat="-23.511173" lon="-46.657411"><ele>760.3</ele></trkpt>
+      <trkpt lat="-23.511081" lon="-46.657463"><ele>760.3</ele></trkpt>
+      <trkpt lat="-23.510735" lon="-46.657658"><ele>758.8</ele></trkpt>
+      <trkpt lat="-23.510724" lon="-46.657670"><ele>758.8</ele></trkpt>
+      <trkpt lat="-23.510724" lon="-46.657670"><ele>758.8</ele></trkpt>
+      <trkpt lat="-23.510730" lon="-46.657684"><ele>758.8</ele></trkpt>
+      <trkpt lat="-23.510789" lon="-46.657697"><ele>758.8</ele></trkpt>
+      <trkpt lat="-23.510918" lon="-46.657731"><ele>758.8</ele></trkpt>
+      <trkpt lat="-23.510993" lon="-46.657773"><ele>759.1</ele></trkpt>
+      <trkpt lat="-23.511043" lon="-46.657829"><ele>759.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Santana</name>
+    <trkseg>
+      <trkpt lat="-23.675132" lon="-46.600923"><ele>800.6</ele></trkpt>
+      <trkpt lat="-23.674915" lon="-46.600707"><ele>800.6</ele></trkpt>
+      <trkpt lat="-23.674068" lon="-46.601180"><ele>786.2</ele></trkpt>
+      <trkpt lat="-23.673757" lon="-46.601377"><ele>779.3</ele></trkpt>
+      <trkpt lat="-23.673747" lon="-46.601403"><ele>778.4</ele></trkpt>
+      <trkpt lat="-23.673500" lon="-46.601628"><ele>776.9</ele></trkpt>
+      <trkpt lat="-23.673351" lon="-46.601703"><ele>778.2</ele></trkpt>
+      <trkpt lat="-23.673076" lon="-46.601866"><ele>775.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Pedro de Toledo</name>
+    <trkseg>
+      <trkpt lat="-23.555374" lon="-46.832035"><ele>765.2</ele></trkpt>
+      <trkpt lat="-23.555622" lon="-46.831404"><ele>761.7</ele></trkpt>
+      <trkpt lat="-23.555786" lon="-46.830942"><ele>752.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

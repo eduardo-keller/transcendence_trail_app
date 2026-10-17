@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Argentina</name>
+    <trkseg>
+      <trkpt lat="-23.604436" lon="-46.778271"><ele>773.5</ele></trkpt>
+      <trkpt lat="-23.604446" lon="-46.778168"><ele>773.4</ele></trkpt>
+      <trkpt lat="-23.604470" lon="-46.778046"><ele>773.4</ele></trkpt>
+      <trkpt lat="-23.604550" lon="-46.777882"><ele>773.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

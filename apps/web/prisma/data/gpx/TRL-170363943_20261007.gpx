@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passarela Nakhle Elias Hamouche</name>
+    <trkseg>
+      <trkpt lat="-23.547034" lon="-46.629289"><ele>728.5</ele></trkpt>
+      <trkpt lat="-23.546839" lon="-46.629421"><ele>730.1</ele></trkpt>
+      <trkpt lat="-23.546839" lon="-46.629421"><ele>730.1</ele></trkpt>
+      <trkpt lat="-23.546436" lon="-46.629692"><ele>727.5</ele></trkpt>
+      <trkpt lat="-23.546123" lon="-46.629893"><ele>732.2</ele></trkpt>
+      <trkpt lat="-23.546030" lon="-46.629988"><ele>732.2</ele></trkpt>
+      <trkpt lat="-23.545962" lon="-46.630094"><ele>731.7</ele></trkpt>
+      <trkpt lat="-23.545956" lon="-46.630116"><ele>731.7</ele></trkpt>
+      <trkpt lat="-23.545929" lon="-46.630216"><ele>732.4</ele></trkpt>
+      <trkpt lat="-23.545930" lon="-46.630303"><ele>732.4</ele></trkpt>
+      <trkpt lat="-23.545942" lon="-46.630405"><ele>732.4</ele></trkpt>
+      <trkpt lat="-23.545982" lon="-46.630503"><ele>727.8</ele></trkpt>
+      <trkpt lat="-23.545995" lon="-46.630525"><ele>727.8</ele></trkpt>
+      <trkpt lat="-23.546112" lon="-46.630724"><ele>726.2</ele></trkpt>
+      <trkpt lat="-23.546212" lon="-46.630896"><ele>726.2</ele></trkpt>
+      <trkpt lat="-23.546333" lon="-46.631103"><ele>730.8</ele></trkpt>
+      <trkpt lat="-23.546375" lon="-46.631187"><ele>730.8</ele></trkpt>
+      <trkpt lat="-23.546393" lon="-46.631237"><ele>730.8</ele></trkpt>
+      <trkpt lat="-23.546406" lon="-46.631285"><ele>731.7</ele></trkpt>
+      <trkpt lat="-23.546410" lon="-46.631340"><ele>731.7</ele></trkpt>
+      <trkpt lat="-23.546411" lon="-46.631394"><ele>731.7</ele></trkpt>
+      <trkpt lat="-23.546408" lon="-46.631451"><ele>731.7</ele></trkpt>
+      <trkpt lat="-23.546376" lon="-46.631465"><ele>731.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

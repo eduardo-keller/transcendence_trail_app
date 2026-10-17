@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Primavera de Setembro</name>
+    <trkseg>
+      <trkpt lat="-23.453305" lon="-46.678533"><ele>806.5</ele></trkpt>
+      <trkpt lat="-23.453378" lon="-46.678502"><ele>806.5</ele></trkpt>
+      <trkpt lat="-23.453406" lon="-46.678491"><ele>806.5</ele></trkpt>
+      <trkpt lat="-23.453467" lon="-46.678471"><ele>799.9</ele></trkpt>
+      <trkpt lat="-23.453494" lon="-46.678457"><ele>803.4</ele></trkpt>
+      <trkpt lat="-23.453562" lon="-46.678419"><ele>803.4</ele></trkpt>
+      <trkpt lat="-23.453574" lon="-46.678410"><ele>803.4</ele></trkpt>
+      <trkpt lat="-23.453614" lon="-46.678370"><ele>803.4</ele></trkpt>
+      <trkpt lat="-23.453650" lon="-46.678334"><ele>803.4</ele></trkpt>
+      <trkpt lat="-23.453689" lon="-46.678281"><ele>803.4</ele></trkpt>
+      <trkpt lat="-23.453695" lon="-46.678269"><ele>803.4</ele></trkpt>
+      <trkpt lat="-23.453705" lon="-46.678251"><ele>803.4</ele></trkpt>
+      <trkpt lat="-23.453747" lon="-46.678203"><ele>803.4</ele></trkpt>
+      <trkpt lat="-23.453780" lon="-46.678178"><ele>801.8</ele></trkpt>
+      <trkpt lat="-23.453834" lon="-46.678142"><ele>801.8</ele></trkpt>
+      <trkpt lat="-23.453858" lon="-46.678128"><ele>801.8</ele></trkpt>
+      <trkpt lat="-23.453924" lon="-46.678096"><ele>801.8</ele></trkpt>
+      <trkpt lat="-23.453977" lon="-46.678075"><ele>801.8</ele></trkpt>
+      <trkpt lat="-23.454047" lon="-46.678033"><ele>806.5</ele></trkpt>
+      <trkpt lat="-23.454059" lon="-46.678023"><ele>806.5</ele></trkpt>
+      <trkpt lat="-23.454161" lon="-46.677926"><ele>806.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

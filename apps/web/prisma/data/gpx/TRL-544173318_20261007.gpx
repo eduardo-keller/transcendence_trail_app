@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Manoel Leal</name>
+    <trkseg>
+      <trkpt lat="-23.734316" lon="-46.705780"><ele>776.7</ele></trkpt>
+      <trkpt lat="-23.734129" lon="-46.705665"><ele>784.7</ele></trkpt>
+      <trkpt lat="-23.734028" lon="-46.705671"><ele>791.5</ele></trkpt>
+      <trkpt lat="-23.733982" lon="-46.705660"><ele>791.5</ele></trkpt>
+      <trkpt lat="-23.733950" lon="-46.705635"><ele>791.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

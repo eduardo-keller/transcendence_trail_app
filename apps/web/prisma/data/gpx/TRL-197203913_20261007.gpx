@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Vinte</name>
+    <trkseg>
+      <trkpt lat="-23.552712" lon="-46.841197"><ele>783.3</ele></trkpt>
+      <trkpt lat="-23.552517" lon="-46.841332"><ele>791.7</ele></trkpt>
+      <trkpt lat="-23.552264" lon="-46.841544"><ele>798.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

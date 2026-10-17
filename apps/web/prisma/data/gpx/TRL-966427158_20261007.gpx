@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Buriti Natal</name>
+    <trkseg>
+      <trkpt lat="-23.764006" lon="-46.704615"><ele>786.8</ele></trkpt>
+      <trkpt lat="-23.764086" lon="-46.704591"><ele>783.4</ele></trkpt>
+      <trkpt lat="-23.764158" lon="-46.704579"><ele>784.7</ele></trkpt>
+      <trkpt lat="-23.764232" lon="-46.704578"><ele>784.7</ele></trkpt>
+      <trkpt lat="-23.764297" lon="-46.704592"><ele>783.4</ele></trkpt>
+      <trkpt lat="-23.764344" lon="-46.704625"><ele>780.5</ele></trkpt>
+      <trkpt lat="-23.764505" lon="-46.704817"><ele>780.5</ele></trkpt>
+      <trkpt lat="-23.764540" lon="-46.704884"><ele>779.4</ele></trkpt>
+      <trkpt lat="-23.764557" lon="-46.704957"><ele>779.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

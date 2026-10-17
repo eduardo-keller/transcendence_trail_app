@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Avenida dos Guaritas</name>
+    <trkseg>
+      <trkpt lat="-23.412256" lon="-46.661307"><ele>974.1</ele></trkpt>
+      <trkpt lat="-23.412249" lon="-46.661111"><ele>972.8</ele></trkpt>
+      <trkpt lat="-23.412216" lon="-46.660987"><ele>972.8</ele></trkpt>
+      <trkpt lat="-23.412179" lon="-46.660942"><ele>974.7</ele></trkpt>
+      <trkpt lat="-23.412138" lon="-46.660910"><ele>974.7</ele></trkpt>
+      <trkpt lat="-23.411951" lon="-46.660878"><ele>973.9</ele></trkpt>
+      <trkpt lat="-23.411771" lon="-46.660840"><ele>969.6</ele></trkpt>
+      <trkpt lat="-23.411618" lon="-46.660767"><ele>969.6</ele></trkpt>
+      <trkpt lat="-23.411587" lon="-46.660734"><ele>969.6</ele></trkpt>
+      <trkpt lat="-23.411562" lon="-46.660684"><ele>971.7</ele></trkpt>
+      <trkpt lat="-23.411468" lon="-46.660460"><ele>964.2</ele></trkpt>
+      <trkpt lat="-23.411331" lon="-46.660181"><ele>963.8</ele></trkpt>
+      <trkpt lat="-23.411272" lon="-46.660084"><ele>963.3</ele></trkpt>
+      <trkpt lat="-23.411134" lon="-46.659894"><ele>957.5</ele></trkpt>
+      <trkpt lat="-23.411024" lon="-46.659713"><ele>956.3</ele></trkpt>
+      <trkpt lat="-23.411016" lon="-46.659687"><ele>956.3</ele></trkpt>
+      <trkpt lat="-23.411017" lon="-46.659662"><ele>956.3</ele></trkpt>
+      <trkpt lat="-23.411084" lon="-46.659450"><ele>953.0</ele></trkpt>
+      <trkpt lat="-23.411094" lon="-46.659440"><ele>953.0</ele></trkpt>
+      <trkpt lat="-23.411105" lon="-46.659437"><ele>953.0</ele></trkpt>
+      <trkpt lat="-23.411254" lon="-46.659432"><ele>952.4</ele></trkpt>
+      <trkpt lat="-23.411347" lon="-46.659434"><ele>952.4</ele></trkpt>
+      <trkpt lat="-23.411395" lon="-46.659429"><ele>952.4</ele></trkpt>
+      <trkpt lat="-23.411518" lon="-46.659376"><ele>952.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

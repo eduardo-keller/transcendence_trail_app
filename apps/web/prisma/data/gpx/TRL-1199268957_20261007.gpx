@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Trilha do Esquenta Braço</name>
+    <trkseg>
+      <trkpt lat="-23.727074" lon="-46.870205"><ele>824.2</ele></trkpt>
+      <trkpt lat="-23.727289" lon="-46.870180"><ele>822.3</ele></trkpt>
+      <trkpt lat="-23.727691" lon="-46.870298"><ele>829.7</ele></trkpt>
+      <trkpt lat="-23.728050" lon="-46.870432"><ele>834.8</ele></trkpt>
+      <trkpt lat="-23.728443" lon="-46.870545"><ele>835.2</ele></trkpt>
+      <trkpt lat="-23.729032" lon="-46.870663"><ele>843.3</ele></trkpt>
+      <trkpt lat="-23.729582" lon="-46.870802"><ele>847.4</ele></trkpt>
+      <trkpt lat="-23.730014" lon="-46.870904"><ele>835.2</ele></trkpt>
+      <trkpt lat="-23.730486" lon="-46.871070"><ele>820.7</ele></trkpt>
+      <trkpt lat="-23.730844" lon="-46.871178"><ele>812.3</ele></trkpt>
+      <trkpt lat="-23.731104" lon="-46.871140"><ele>804.3</ele></trkpt>
+      <trkpt lat="-23.731217" lon="-46.871145"><ele>804.3</ele></trkpt>
+      <trkpt lat="-23.731419" lon="-46.871178"><ele>805.8</ele></trkpt>
+      <trkpt lat="-23.731959" lon="-46.871011"><ele>817.0</ele></trkpt>
+      <trkpt lat="-23.732538" lon="-46.870850"><ele>825.4</ele></trkpt>
+      <trkpt lat="-23.733447" lon="-46.870775"><ele>836.6</ele></trkpt>
+      <trkpt lat="-23.734645" lon="-46.870486"><ele>850.1</ele></trkpt>
+      <trkpt lat="-23.735156" lon="-46.870368"><ele>851.7</ele></trkpt>
+      <trkpt lat="-23.735382" lon="-46.870250"><ele>851.7</ele></trkpt>
+      <trkpt lat="-23.735745" lon="-46.870191"><ele>848.3</ele></trkpt>
+      <trkpt lat="-23.736329" lon="-46.870169"><ele>836.5</ele></trkpt>
+      <trkpt lat="-23.736712" lon="-46.870164"><ele>828.6</ele></trkpt>
+      <trkpt lat="-23.737095" lon="-46.870040"><ele>815.6</ele></trkpt>
+      <trkpt lat="-23.737302" lon="-46.869971"><ele>815.6</ele></trkpt>
+      <trkpt lat="-23.737675" lon="-46.870040"><ele>806.3</ele></trkpt>
+      <trkpt lat="-23.738033" lon="-46.870019"><ele>811.8</ele></trkpt>
+      <trkpt lat="-23.738210" lon="-46.869965"><ele>823.4</ele></trkpt>
+      <trkpt lat="-23.738397" lon="-46.869788"><ele>818.1</ele></trkpt>
+      <trkpt lat="-23.738618" lon="-46.869482"><ele>821.8</ele></trkpt>
+      <trkpt lat="-23.738971" lon="-46.869091"><ele>824.8</ele></trkpt>
+      <trkpt lat="-23.739408" lon="-46.868651"><ele>827.5</ele></trkpt>
+      <trkpt lat="-23.739723" lon="-46.868394"><ele>828.7</ele></trkpt>
+      <trkpt lat="-23.740076" lon="-46.868163"><ele>819.6</ele></trkpt>
+      <trkpt lat="-23.740287" lon="-46.867852"><ele>825.8</ele></trkpt>
+      <trkpt lat="-23.740435" lon="-46.867562"><ele>838.4</ele></trkpt>
+      <trkpt lat="-23.740562" lon="-46.867262"><ele>837.1</ele></trkpt>
+      <trkpt lat="-23.740547" lon="-46.866997"><ele>835.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

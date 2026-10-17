@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Escadão da Felicidade</name>
+    <trkseg>
+      <trkpt lat="-23.448319" lon="-46.689733"><ele>812.5</ele></trkpt>
+      <trkpt lat="-23.448366" lon="-46.689858"><ele>812.5</ele></trkpt>
+      <trkpt lat="-23.448381" lon="-46.689899"><ele>805.7</ele></trkpt>
+      <trkpt lat="-23.448385" lon="-46.689915"><ele>805.7</ele></trkpt>
+      <trkpt lat="-23.448384" lon="-46.689922"><ele>805.7</ele></trkpt>
+      <trkpt lat="-23.448383" lon="-46.689929"><ele>805.7</ele></trkpt>
+      <trkpt lat="-23.448376" lon="-46.689937"><ele>805.7</ele></trkpt>
+      <trkpt lat="-23.448344" lon="-46.689950"><ele>805.7</ele></trkpt>
+      <trkpt lat="-23.448337" lon="-46.689957"><ele>805.7</ele></trkpt>
+      <trkpt lat="-23.448336" lon="-46.689963"><ele>805.7</ele></trkpt>
+      <trkpt lat="-23.448336" lon="-46.689969"><ele>805.7</ele></trkpt>
+      <trkpt lat="-23.448340" lon="-46.689982"><ele>805.7</ele></trkpt>
+      <trkpt lat="-23.448349" lon="-46.690020"><ele>805.7</ele></trkpt>
+      <trkpt lat="-23.448368" lon="-46.690088"><ele>805.7</ele></trkpt>
+      <trkpt lat="-23.448389" lon="-46.690151"><ele>794.7</ele></trkpt>
+      <trkpt lat="-23.448430" lon="-46.690226"><ele>794.7</ele></trkpt>
+      <trkpt lat="-23.448463" lon="-46.690311"><ele>794.7</ele></trkpt>
+      <trkpt lat="-23.448471" lon="-46.690381"><ele>794.7</ele></trkpt>
+      <trkpt lat="-23.448489" lon="-46.690518"><ele>777.7</ele></trkpt>
+      <trkpt lat="-23.448524" lon="-46.690639"><ele>777.7</ele></trkpt>
+      <trkpt lat="-23.448547" lon="-46.690713"><ele>765.4</ele></trkpt>
+      <trkpt lat="-23.448568" lon="-46.690763"><ele>765.4</ele></trkpt>
+      <trkpt lat="-23.448616" lon="-46.690837"><ele>765.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

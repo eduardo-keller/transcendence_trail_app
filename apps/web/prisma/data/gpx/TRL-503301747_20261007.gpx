@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Faixa Viva</name>
+    <trkseg>
+      <trkpt lat="-23.970471" lon="-46.302964"><ele>4.4</ele></trkpt>
+      <trkpt lat="-23.970428" lon="-46.302931"><ele>4.4</ele></trkpt>
+      <trkpt lat="-23.970352" lon="-46.302870"><ele>5.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

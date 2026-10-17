@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Benedito Henrique</name>
+    <trkseg>
+      <trkpt lat="-23.455705" lon="-46.589053"><ele>741.8</ele></trkpt>
+      <trkpt lat="-23.455769" lon="-46.588974"><ele>742.5</ele></trkpt>
+      <trkpt lat="-23.455842" lon="-46.588929"><ele>742.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

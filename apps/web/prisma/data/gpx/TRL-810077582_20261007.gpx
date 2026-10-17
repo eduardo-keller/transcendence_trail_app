@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passagem Platão</name>
+    <trkseg>
+      <trkpt lat="-23.691789" lon="-46.598693"><ele>778.8</ele></trkpt>
+      <trkpt lat="-23.692113" lon="-46.599328"><ele>800.1</ele></trkpt>
+      <trkpt lat="-23.692165" lon="-46.599440"><ele>800.1</ele></trkpt>
+      <trkpt lat="-23.692168" lon="-46.599442"><ele>800.1</ele></trkpt>
+      <trkpt lat="-23.692170" lon="-46.599442"><ele>800.1</ele></trkpt>
+      <trkpt lat="-23.692172" lon="-46.599442"><ele>800.1</ele></trkpt>
+      <trkpt lat="-23.692193" lon="-46.599420"><ele>800.1</ele></trkpt>
+      <trkpt lat="-23.692203" lon="-46.599396"><ele>800.1</ele></trkpt>
+      <trkpt lat="-23.692207" lon="-46.599388"><ele>800.1</ele></trkpt>
+      <trkpt lat="-23.692215" lon="-46.599380"><ele>800.1</ele></trkpt>
+      <trkpt lat="-23.692340" lon="-46.599331"><ele>800.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

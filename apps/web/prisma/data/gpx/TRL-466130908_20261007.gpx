@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Maripatari</name>
+    <trkseg>
+      <trkpt lat="-23.577791" lon="-46.489090"><ele>808.6</ele></trkpt>
+      <trkpt lat="-23.577525" lon="-46.489072"><ele>809.2</ele></trkpt>
+      <trkpt lat="-23.577409" lon="-46.489087"><ele>809.2</ele></trkpt>
+      <trkpt lat="-23.577311" lon="-46.489122"><ele>806.1</ele></trkpt>
+      <trkpt lat="-23.577237" lon="-46.489179"><ele>806.1</ele></trkpt>
+      <trkpt lat="-23.577177" lon="-46.489250"><ele>806.1</ele></trkpt>
+      <trkpt lat="-23.576591" lon="-46.490276"><ele>815.2</ele></trkpt>
+      <trkpt lat="-23.576577" lon="-46.490322"><ele>815.2</ele></trkpt>
+      <trkpt lat="-23.576581" lon="-46.490370"><ele>815.2</ele></trkpt>
+      <trkpt lat="-23.576606" lon="-46.490418"><ele>814.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

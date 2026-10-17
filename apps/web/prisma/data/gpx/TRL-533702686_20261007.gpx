@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Zequinha de Abreu</name>
+    <trkseg>
+      <trkpt lat="-23.277295" lon="-46.746298"><ele>817.9</ele></trkpt>
+      <trkpt lat="-23.277603" lon="-46.745936"><ele>799.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

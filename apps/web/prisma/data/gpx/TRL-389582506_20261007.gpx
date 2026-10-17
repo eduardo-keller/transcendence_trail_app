@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passarela Pelegrino Carmine de Lucca</name>
+    <trkseg>
+      <trkpt lat="-23.484462" lon="-46.992864"><ele>807.2</ele></trkpt>
+      <trkpt lat="-23.484118" lon="-46.993128"><ele>804.5</ele></trkpt>
+      <trkpt lat="-23.484131" lon="-46.993147"><ele>804.5</ele></trkpt>
+      <trkpt lat="-23.484469" lon="-46.992888"><ele>807.2</ele></trkpt>
+      <trkpt lat="-23.484765" lon="-46.993347"><ele>811.1</ele></trkpt>
+      <trkpt lat="-23.484627" lon="-46.993453"><ele>811.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

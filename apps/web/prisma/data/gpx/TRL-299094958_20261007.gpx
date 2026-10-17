@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Córrego</name>
+    <trkseg>
+      <trkpt lat="-23.472360" lon="-46.538995"><ele>750.8</ele></trkpt>
+      <trkpt lat="-23.472324" lon="-46.539027"><ele>750.8</ele></trkpt>
+      <trkpt lat="-23.472276" lon="-46.539069"><ele>749.1</ele></trkpt>
+      <trkpt lat="-23.472225" lon="-46.539115"><ele>749.1</ele></trkpt>
+      <trkpt lat="-23.472159" lon="-46.539178"><ele>749.1</ele></trkpt>
+      <trkpt lat="-23.472107" lon="-46.539223"><ele>749.1</ele></trkpt>
+      <trkpt lat="-23.472045" lon="-46.539295"><ele>752.5</ele></trkpt>
+      <trkpt lat="-23.471992" lon="-46.539368"><ele>751.4</ele></trkpt>
+      <trkpt lat="-23.471951" lon="-46.539442"><ele>751.4</ele></trkpt>
+      <trkpt lat="-23.471915" lon="-46.539522"><ele>751.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

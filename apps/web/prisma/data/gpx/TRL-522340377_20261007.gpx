@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Natalice</name>
+    <trkseg>
+      <trkpt lat="-23.657454" lon="-46.821960"><ele>768.1</ele></trkpt>
+      <trkpt lat="-23.657187" lon="-46.821567"><ele>772.1</ele></trkpt>
+      <trkpt lat="-23.657166" lon="-46.821485"><ele>766.2</ele></trkpt>
+      <trkpt lat="-23.657091" lon="-46.821367"><ele>766.2</ele></trkpt>
+      <trkpt lat="-23.656997" lon="-46.821303"><ele>768.5</ele></trkpt>
+      <trkpt lat="-23.656924" lon="-46.821252"><ele>768.5</ele></trkpt>
+      <trkpt lat="-23.656823" lon="-46.821128"><ele>766.9</ele></trkpt>
+      <trkpt lat="-23.656717" lon="-46.820999"><ele>768.7</ele></trkpt>
+      <trkpt lat="-23.656656" lon="-46.820924"><ele>767.3</ele></trkpt>
+      <trkpt lat="-23.656656" lon="-46.820924"><ele>767.3</ele></trkpt>
+      <trkpt lat="-23.656597" lon="-46.820831"><ele>767.3</ele></trkpt>
+      <trkpt lat="-23.656454" lon="-46.820742"><ele>768.9</ele></trkpt>
+      <trkpt lat="-23.656205" lon="-46.820476"><ele>769.0</ele></trkpt>
+      <trkpt lat="-23.655854" lon="-46.820062"><ele>769.8</ele></trkpt>
+      <trkpt lat="-23.655644" lon="-46.819385"><ele>769.2</ele></trkpt>
+    </trkseg>
+    <trkseg>
+      <trkpt lat="-23.656828" lon="-46.820647"><ele>773.5</ele></trkpt>
+      <trkpt lat="-23.656758" lon="-46.820726"><ele>767.3</ele></trkpt>
+      <trkpt lat="-23.656720" lon="-46.820783"><ele>767.3</ele></trkpt>
+      <trkpt lat="-23.656680" lon="-46.820854"><ele>767.3</ele></trkpt>
+      <trkpt lat="-23.656656" lon="-46.820924"><ele>767.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

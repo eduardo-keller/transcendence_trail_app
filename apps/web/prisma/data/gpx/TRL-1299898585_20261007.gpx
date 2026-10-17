@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua João Patrício Pereira</name>
+    <trkseg>
+      <trkpt lat="-23.486731" lon="-46.993867"><ele>800.7</ele></trkpt>
+      <trkpt lat="-23.486717" lon="-46.993504"><ele>803.2</ele></trkpt>
+      <trkpt lat="-23.486793" lon="-46.993206"><ele>806.9</ele></trkpt>
+      <trkpt lat="-23.486941" lon="-46.992923"><ele>810.8</ele></trkpt>
+      <trkpt lat="-23.486961" lon="-46.992665"><ele>816.1</ele></trkpt>
+      <trkpt lat="-23.487065" lon="-46.992507"><ele>824.2</ele></trkpt>
+      <trkpt lat="-23.487192" lon="-46.992445"><ele>822.3</ele></trkpt>
+      <trkpt lat="-23.487382" lon="-46.992439"><ele>827.2</ele></trkpt>
+      <trkpt lat="-23.487691" lon="-46.992535"><ele>831.9</ele></trkpt>
+      <trkpt lat="-23.487982" lon="-46.992450"><ele>833.7</ele></trkpt>
+      <trkpt lat="-23.488177" lon="-46.992379"><ele>833.7</ele></trkpt>
+      <trkpt lat="-23.488481" lon="-46.992360"><ele>836.8</ele></trkpt>
+      <trkpt lat="-23.488797" lon="-46.992383"><ele>848.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

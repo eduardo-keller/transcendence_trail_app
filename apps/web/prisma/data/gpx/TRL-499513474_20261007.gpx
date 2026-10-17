@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Via de Pedestre Emoção</name>
+    <trkseg>
+      <trkpt lat="-23.482250" lon="-46.580478"><ele>747.4</ele></trkpt>
+      <trkpt lat="-23.482276" lon="-46.580525"><ele>747.4</ele></trkpt>
+      <trkpt lat="-23.482289" lon="-46.580546"><ele>747.4</ele></trkpt>
+      <trkpt lat="-23.482388" lon="-46.580743"><ele>750.7</ele></trkpt>
+      <trkpt lat="-23.482399" lon="-46.580744"><ele>750.7</ele></trkpt>
+      <trkpt lat="-23.482435" lon="-46.580813"><ele>750.7</ele></trkpt>
+      <trkpt lat="-23.482382" lon="-46.580843"><ele>750.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

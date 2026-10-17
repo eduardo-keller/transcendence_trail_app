@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Elisa Tenorio</name>
+    <trkseg>
+      <trkpt lat="-23.490381" lon="-46.411618"><ele>734.1</ele></trkpt>
+      <trkpt lat="-23.490380" lon="-46.411654"><ele>734.1</ele></trkpt>
+      <trkpt lat="-23.490376" lon="-46.411794"><ele>734.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

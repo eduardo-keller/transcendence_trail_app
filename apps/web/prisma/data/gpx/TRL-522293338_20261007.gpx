@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa do Rio</name>
+    <trkseg>
+      <trkpt lat="-23.619384" lon="-46.697877"><ele>727.7</ele></trkpt>
+      <trkpt lat="-23.619527" lon="-46.697365"><ele>732.1</ele></trkpt>
+      <trkpt lat="-23.618987" lon="-46.697172"><ele>726.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

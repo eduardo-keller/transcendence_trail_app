@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passagem Miquéias</name>
+    <trkseg>
+      <trkpt lat="-23.699227" lon="-46.594387"><ele>783.3</ele></trkpt>
+      <trkpt lat="-23.699035" lon="-46.594868"><ele>793.8</ele></trkpt>
+      <trkpt lat="-23.698953" lon="-46.595073"><ele>804.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

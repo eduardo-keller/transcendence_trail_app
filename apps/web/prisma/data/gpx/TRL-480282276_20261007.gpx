@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Irenópolis</name>
+    <trkseg>
+      <trkpt lat="-23.439962" lon="-46.527829"><ele>786.3</ele></trkpt>
+      <trkpt lat="-23.440520" lon="-46.527763"><ele>782.8</ele></trkpt>
+      <trkpt lat="-23.441140" lon="-46.527696"><ele>776.4</ele></trkpt>
+      <trkpt lat="-23.441682" lon="-46.527659"><ele>768.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

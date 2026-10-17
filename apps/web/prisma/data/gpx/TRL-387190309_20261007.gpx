@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Euclides Teles</name>
+    <trkseg>
+      <trkpt lat="-23.525395" lon="-46.450355"><ele>769.1</ele></trkpt>
+      <trkpt lat="-23.525109" lon="-46.449907"><ele>773.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

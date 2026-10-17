@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Avenida Tarciso Mendes Lima</name>
+    <trkseg>
+      <trkpt lat="-23.494619" lon="-46.394000"><ele>734.7</ele></trkpt>
+      <trkpt lat="-23.493789" lon="-46.394292"><ele>734.5</ele></trkpt>
+      <trkpt lat="-23.493386" lon="-46.394431"><ele>734.2</ele></trkpt>
+      <trkpt lat="-23.493343" lon="-46.394447"><ele>734.2</ele></trkpt>
+      <trkpt lat="-23.493298" lon="-46.394466"><ele>734.2</ele></trkpt>
+      <trkpt lat="-23.493278" lon="-46.394471"><ele>734.2</ele></trkpt>
+      <trkpt lat="-23.493220" lon="-46.394491"><ele>734.2</ele></trkpt>
+      <trkpt lat="-23.493180" lon="-46.394503"><ele>734.3</ele></trkpt>
+      <trkpt lat="-23.493071" lon="-46.394541"><ele>734.3</ele></trkpt>
+      <trkpt lat="-23.493005" lon="-46.394574"><ele>734.3</ele></trkpt>
+      <trkpt lat="-23.492959" lon="-46.394589"><ele>734.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

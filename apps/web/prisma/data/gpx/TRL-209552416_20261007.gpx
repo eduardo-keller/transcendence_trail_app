@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Trilha do Bugio</name>
+    <trkseg>
+      <trkpt lat="-23.449074" lon="-46.635906"><ele>863.8</ele></trkpt>
+      <trkpt lat="-23.449157" lon="-46.635860"><ele>863.8</ele></trkpt>
+      <trkpt lat="-23.449135" lon="-46.635686"><ele>866.1</ele></trkpt>
+      <trkpt lat="-23.449254" lon="-46.635214"><ele>865.8</ele></trkpt>
+      <trkpt lat="-23.449656" lon="-46.635109"><ele>872.6</ele></trkpt>
+      <trkpt lat="-23.449667" lon="-46.635106"><ele>872.6</ele></trkpt>
+      <trkpt lat="-23.450083" lon="-46.635219"><ele>875.5</ele></trkpt>
+      <trkpt lat="-23.450376" lon="-46.635257"><ele>873.8</ele></trkpt>
+      <trkpt lat="-23.450740" lon="-46.635541"><ele>862.0</ele></trkpt>
+      <trkpt lat="-23.450848" lon="-46.635879"><ele>865.3</ele></trkpt>
+      <trkpt lat="-23.450984" lon="-46.636084"><ele>859.5</ele></trkpt>
+      <trkpt lat="-23.451076" lon="-46.636115"><ele>859.5</ele></trkpt>
+      <trkpt lat="-23.451111" lon="-46.636197"><ele>859.5</ele></trkpt>
+      <trkpt lat="-23.451092" lon="-46.636318"><ele>863.5</ele></trkpt>
+      <trkpt lat="-23.451071" lon="-46.636481"><ele>863.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

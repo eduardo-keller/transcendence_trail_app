@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Almadina</name>
+    <trkseg>
+      <trkpt lat="-23.422011" lon="-46.427168"><ele>751.4</ele></trkpt>
+      <trkpt lat="-23.421882" lon="-46.426592"><ele>750.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Georgina Silvestrine Guardengui</name>
+    <trkseg>
+      <trkpt lat="-23.536058" lon="-46.574808"><ele>750.7</ele></trkpt>
+      <trkpt lat="-23.536425" lon="-46.574817"><ele>750.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

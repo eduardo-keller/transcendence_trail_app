@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Una</name>
+    <trkseg>
+      <trkpt lat="-23.774862" lon="-46.598745"><ele>781.0</ele></trkpt>
+      <trkpt lat="-23.774670" lon="-46.598647"><ele>777.0</ele></trkpt>
+      <trkpt lat="-23.774510" lon="-46.598571"><ele>768.4</ele></trkpt>
+      <trkpt lat="-23.774395" lon="-46.598527"><ele>768.4</ele></trkpt>
+      <trkpt lat="-23.774262" lon="-46.598476"><ele>766.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

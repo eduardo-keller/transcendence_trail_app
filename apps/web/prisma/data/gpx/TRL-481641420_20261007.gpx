@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Palotina</name>
+    <trkseg>
+      <trkpt lat="-23.569735" lon="-46.841323"><ele>773.6</ele></trkpt>
+      <trkpt lat="-23.569610" lon="-46.841409"><ele>773.6</ele></trkpt>
+      <trkpt lat="-23.569506" lon="-46.841425"><ele>769.7</ele></trkpt>
+      <trkpt lat="-23.569332" lon="-46.841434"><ele>769.7</ele></trkpt>
+      <trkpt lat="-23.569270" lon="-46.841420"><ele>770.1</ele></trkpt>
+      <trkpt lat="-23.569214" lon="-46.841407"><ele>770.1</ele></trkpt>
+      <trkpt lat="-23.569172" lon="-46.841412"><ele>770.1</ele></trkpt>
+      <trkpt lat="-23.569120" lon="-46.841468"><ele>770.1</ele></trkpt>
+      <trkpt lat="-23.569086" lon="-46.841541"><ele>775.5</ele></trkpt>
+      <trkpt lat="-23.569061" lon="-46.841592"><ele>775.5</ele></trkpt>
+      <trkpt lat="-23.568655" lon="-46.841819"><ele>790.4</ele></trkpt>
+      <trkpt lat="-23.568555" lon="-46.841679"><ele>786.1</ele></trkpt>
+      <trkpt lat="-23.568614" lon="-46.841223"><ele>797.0</ele></trkpt>
+      <trkpt lat="-23.568593" lon="-46.841089"><ele>797.0</ele></trkpt>
+      <trkpt lat="-23.568474" lon="-46.841002"><ele>797.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

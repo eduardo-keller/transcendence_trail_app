@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Caminho Santa Vitória</name>
+    <trkseg>
+      <trkpt lat="-23.924777" lon="-46.405624"><ele>3.3</ele></trkpt>
+      <trkpt lat="-23.924451" lon="-46.405341"><ele>2.7</ele></trkpt>
+      <trkpt lat="-23.924546" lon="-46.405215"><ele>2.7</ele></trkpt>
+      <trkpt lat="-23.924678" lon="-46.405039"><ele>3.6</ele></trkpt>
+      <trkpt lat="-23.925007" lon="-46.405305"><ele>2.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

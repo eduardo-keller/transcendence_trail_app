@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Júlio Macedo</name>
+    <trkseg>
+      <trkpt lat="-23.550993" lon="-46.509657"><ele>768.2</ele></trkpt>
+      <trkpt lat="-23.550816" lon="-46.509657"><ele>772.4</ele></trkpt>
+      <trkpt lat="-23.550537" lon="-46.509657"><ele>778.8</ele></trkpt>
+      <trkpt lat="-23.550331" lon="-46.509654"><ele>780.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

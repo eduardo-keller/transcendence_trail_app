@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Clarice</name>
+    <trkseg>
+      <trkpt lat="-23.482096" lon="-46.571028"><ele>738.7</ele></trkpt>
+      <trkpt lat="-23.482067" lon="-46.570952"><ele>737.8</ele></trkpt>
+      <trkpt lat="-23.481947" lon="-46.570681"><ele>737.5</ele></trkpt>
+      <trkpt lat="-23.481906" lon="-46.570591"><ele>737.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

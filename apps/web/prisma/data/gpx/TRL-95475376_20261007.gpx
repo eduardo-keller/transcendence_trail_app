@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Mario Tarenghi</name>
+    <trkseg>
+      <trkpt lat="-23.602053" lon="-46.505499"><ele>787.3</ele></trkpt>
+      <trkpt lat="-23.602549" lon="-46.505332"><ele>792.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

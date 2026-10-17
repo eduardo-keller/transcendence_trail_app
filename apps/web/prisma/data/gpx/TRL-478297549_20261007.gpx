@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela América</name>
+    <trkseg>
+      <trkpt lat="-23.550894" lon="-46.961058"><ele>837.5</ele></trkpt>
+      <trkpt lat="-23.551084" lon="-46.961049"><ele>827.4</ele></trkpt>
+      <trkpt lat="-23.551315" lon="-46.961052"><ele>814.2</ele></trkpt>
+      <trkpt lat="-23.551458" lon="-46.961056"><ele>814.2</ele></trkpt>
+      <trkpt lat="-23.551684" lon="-46.961165"><ele>799.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

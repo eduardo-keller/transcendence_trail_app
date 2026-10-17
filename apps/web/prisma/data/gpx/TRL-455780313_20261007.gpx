@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Alvura</name>
+    <trkseg>
+      <trkpt lat="-23.499893" lon="-46.582592"><ele>759.4</ele></trkpt>
+      <trkpt lat="-23.499323" lon="-46.582974"><ele>776.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

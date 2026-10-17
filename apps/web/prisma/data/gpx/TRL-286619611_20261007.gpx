@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Estrada R2309</name>
+    <trkseg>
+      <trkpt lat="-23.798370" lon="-46.585886"><ele>771.3</ele></trkpt>
+      <trkpt lat="-23.797875" lon="-46.585626"><ele>763.7</ele></trkpt>
+      <trkpt lat="-23.797361" lon="-46.585442"><ele>763.6</ele></trkpt>
+      <trkpt lat="-23.797028" lon="-46.585410"><ele>752.9</ele></trkpt>
+      <trkpt lat="-23.796719" lon="-46.585487"><ele>759.6</ele></trkpt>
+      <trkpt lat="-23.796381" lon="-46.585652"><ele>754.0</ele></trkpt>
+      <trkpt lat="-23.796046" lon="-46.585892"><ele>757.3</ele></trkpt>
+      <trkpt lat="-23.795634" lon="-46.586270"><ele>756.2</ele></trkpt>
+      <trkpt lat="-23.795415" lon="-46.586652"><ele>753.5</ele></trkpt>
+      <trkpt lat="-23.795312" lon="-46.586942"><ele>756.2</ele></trkpt>
+      <trkpt lat="-23.795293" lon="-46.587179"><ele>755.7</ele></trkpt>
+      <trkpt lat="-23.795375" lon="-46.587865"><ele>752.8</ele></trkpt>
+      <trkpt lat="-23.795361" lon="-46.588161"><ele>752.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

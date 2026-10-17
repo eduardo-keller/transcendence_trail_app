@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Alameda das Hortencias</name>
+    <trkseg>
+      <trkpt lat="-23.160901" lon="-47.098032"><ele>672.1</ele></trkpt>
+      <trkpt lat="-23.161071" lon="-47.098252"><ele>672.7</ele></trkpt>
+      <trkpt lat="-23.161344" lon="-47.098288"><ele>676.2</ele></trkpt>
+      <trkpt lat="-23.161535" lon="-47.098295"><ele>672.9</ele></trkpt>
+      <trkpt lat="-23.161787" lon="-47.098184"><ele>681.3</ele></trkpt>
+      <trkpt lat="-23.161935" lon="-47.098061"><ele>678.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

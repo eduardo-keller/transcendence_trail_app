@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Canto da Cidade</name>
+    <trkseg>
+      <trkpt lat="-23.652023" lon="-46.494723"><ele>763.7</ele></trkpt>
+      <trkpt lat="-23.652292" lon="-46.494399"><ele>758.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa da Igrejinha</name>
+    <trkseg>
+      <trkpt lat="-23.801206" lon="-46.542332"><ele>799.4</ele></trkpt>
+      <trkpt lat="-23.801261" lon="-46.542308"><ele>796.8</ele></trkpt>
+      <trkpt lat="-23.801299" lon="-46.542278"><ele>796.8</ele></trkpt>
+      <trkpt lat="-23.801605" lon="-46.541966"><ele>791.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

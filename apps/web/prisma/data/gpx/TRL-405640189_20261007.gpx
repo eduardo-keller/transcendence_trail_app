@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Seul</name>
+    <trkseg>
+      <trkpt lat="-23.627884" lon="-46.541092"><ele>744.7</ele></trkpt>
+      <trkpt lat="-23.627967" lon="-46.541027"><ele>742.4</ele></trkpt>
+      <trkpt lat="-23.627999" lon="-46.540938"><ele>743.6</ele></trkpt>
+      <trkpt lat="-23.627976" lon="-46.540863"><ele>743.6</ele></trkpt>
+      <trkpt lat="-23.627972" lon="-46.540759"><ele>743.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

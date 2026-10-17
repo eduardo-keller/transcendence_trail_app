@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passagem Boa Esperanca</name>
+    <trkseg>
+      <trkpt lat="-23.668093" lon="-46.601065"><ele>783.0</ele></trkpt>
+      <trkpt lat="-23.668201" lon="-46.600926"><ele>779.2</ele></trkpt>
+      <trkpt lat="-23.668340" lon="-46.600771"><ele>779.2</ele></trkpt>
+      <trkpt lat="-23.668357" lon="-46.600751"><ele>779.2</ele></trkpt>
+      <trkpt lat="-23.668413" lon="-46.600688"><ele>774.5</ele></trkpt>
+      <trkpt lat="-23.668440" lon="-46.600597"><ele>774.5</ele></trkpt>
+      <trkpt lat="-23.668446" lon="-46.600580"><ele>774.5</ele></trkpt>
+      <trkpt lat="-23.668482" lon="-46.600454"><ele>776.5</ele></trkpt>
+      <trkpt lat="-23.668512" lon="-46.600294"><ele>770.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

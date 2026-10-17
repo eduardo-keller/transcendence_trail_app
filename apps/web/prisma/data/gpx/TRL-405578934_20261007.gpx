@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Praça Santo Agostinho</name>
+    <trkseg>
+      <trkpt lat="-23.568810" lon="-46.639598"><ele>805.7</ele></trkpt>
+      <trkpt lat="-23.568789" lon="-46.639597"><ele>805.7</ele></trkpt>
+      <trkpt lat="-23.568787" lon="-46.639646"><ele>805.7</ele></trkpt>
+      <trkpt lat="-23.568800" lon="-46.639647"><ele>805.7</ele></trkpt>
+      <trkpt lat="-23.568830" lon="-46.639649"><ele>805.7</ele></trkpt>
+      <trkpt lat="-23.568842" lon="-46.639650"><ele>805.7</ele></trkpt>
+      <trkpt lat="-23.568839" lon="-46.639694"><ele>805.7</ele></trkpt>
+      <trkpt lat="-23.568910" lon="-46.639737"><ele>805.7</ele></trkpt>
+      <trkpt lat="-23.568909" lon="-46.639788"><ele>805.7</ele></trkpt>
+      <trkpt lat="-23.568922" lon="-46.639605"><ele>805.7</ele></trkpt>
+      <trkpt lat="-23.568848" lon="-46.639601"><ele>805.7</ele></trkpt>
+      <trkpt lat="-23.568841" lon="-46.639600"><ele>805.7</ele></trkpt>
+      <trkpt lat="-23.568848" lon="-46.639601"><ele>805.7</ele></trkpt>
+      <trkpt lat="-23.568850" lon="-46.639579"><ele>811.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

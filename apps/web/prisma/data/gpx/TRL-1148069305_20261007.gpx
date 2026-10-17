@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela João Duarte Fonseca</name>
+    <trkseg>
+      <trkpt lat="-23.549188" lon="-46.785809"><ele>764.1</ele></trkpt>
+      <trkpt lat="-23.549642" lon="-46.785465"><ele>775.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

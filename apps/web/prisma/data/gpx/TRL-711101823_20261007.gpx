@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Princesa Isabel</name>
+    <trkseg>
+      <trkpt lat="-23.238635" lon="-46.751646"><ele>915.2</ele></trkpt>
+      <trkpt lat="-23.238562" lon="-46.751500"><ele>919.3</ele></trkpt>
+      <trkpt lat="-23.238550" lon="-46.751402"><ele>919.3</ele></trkpt>
+      <trkpt lat="-23.238546" lon="-46.751315"><ele>919.3</ele></trkpt>
+      <trkpt lat="-23.238486" lon="-46.751137"><ele>923.1</ele></trkpt>
+      <trkpt lat="-23.238273" lon="-46.750710"><ele>925.9</ele></trkpt>
+      <trkpt lat="-23.238094" lon="-46.750299"><ele>935.2</ele></trkpt>
+      <trkpt lat="-23.237496" lon="-46.750068"><ele>939.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

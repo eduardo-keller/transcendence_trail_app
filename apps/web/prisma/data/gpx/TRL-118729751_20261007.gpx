@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Alameda das Aroeitas</name>
+    <trkseg>
+      <trkpt lat="-23.412256" lon="-46.661307"><ele>974.1</ele></trkpt>
+      <trkpt lat="-23.412123" lon="-46.661371"><ele>974.1</ele></trkpt>
+      <trkpt lat="-23.412008" lon="-46.661447"><ele>976.6</ele></trkpt>
+      <trkpt lat="-23.411892" lon="-46.661543"><ele>979.7</ele></trkpt>
+      <trkpt lat="-23.411675" lon="-46.661790"><ele>973.4</ele></trkpt>
+      <trkpt lat="-23.411518" lon="-46.662079"><ele>968.6</ele></trkpt>
+      <trkpt lat="-23.411433" lon="-46.662284"><ele>971.2</ele></trkpt>
+      <trkpt lat="-23.411392" lon="-46.662440"><ele>974.0</ele></trkpt>
+      <trkpt lat="-23.411363" lon="-46.662644"><ele>976.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

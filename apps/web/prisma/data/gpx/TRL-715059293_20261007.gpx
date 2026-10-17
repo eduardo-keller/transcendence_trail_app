@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Galeria Atlântidas</name>
+    <trkseg>
+      <trkpt lat="-23.655392" lon="-46.527969"><ele>752.4</ele></trkpt>
+      <trkpt lat="-23.655368" lon="-46.527950"><ele>752.4</ele></trkpt>
+      <trkpt lat="-23.655348" lon="-46.527935"><ele>752.4</ele></trkpt>
+      <trkpt lat="-23.655348" lon="-46.527935"><ele>752.4</ele></trkpt>
+      <trkpt lat="-23.654752" lon="-46.527463"><ele>753.2</ele></trkpt>
+      <trkpt lat="-23.654752" lon="-46.527463"><ele>753.2</ele></trkpt>
+      <trkpt lat="-23.654734" lon="-46.527449"><ele>753.2</ele></trkpt>
+      <trkpt lat="-23.654693" lon="-46.527417"><ele>753.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

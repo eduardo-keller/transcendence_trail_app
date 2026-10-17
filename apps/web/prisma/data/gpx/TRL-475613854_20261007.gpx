@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Via de Pedestres Serra do Algodoeiro</name>
+    <trkseg>
+      <trkpt lat="-23.456009" lon="-46.663464"><ele>790.7</ele></trkpt>
+      <trkpt lat="-23.456018" lon="-46.663491"><ele>800.5</ele></trkpt>
+      <trkpt lat="-23.456059" lon="-46.663474"><ele>800.5</ele></trkpt>
+      <trkpt lat="-23.456073" lon="-46.663507"><ele>800.5</ele></trkpt>
+      <trkpt lat="-23.456082" lon="-46.663504"><ele>800.5</ele></trkpt>
+      <trkpt lat="-23.456092" lon="-46.663530"><ele>800.5</ele></trkpt>
+      <trkpt lat="-23.456103" lon="-46.663563"><ele>800.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

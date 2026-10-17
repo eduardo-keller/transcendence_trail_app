@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passagem MASP</name>
+    <trkseg>
+      <trkpt lat="-23.561934" lon="-46.655551"><ele>825.7</ele></trkpt>
+      <trkpt lat="-23.562006" lon="-46.655625"><ele>825.7</ele></trkpt>
+      <trkpt lat="-23.561692" lon="-46.656003"><ele>829.0</ele></trkpt>
+      <trkpt lat="-23.561676" lon="-46.655987"><ele>829.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

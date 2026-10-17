@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela D</name>
+    <trkseg>
+      <trkpt lat="-23.638661" lon="-46.789986"><ele>775.8</ele></trkpt>
+      <trkpt lat="-23.638431" lon="-46.790029"><ele>780.1</ele></trkpt>
+      <trkpt lat="-23.638274" lon="-46.790029"><ele>780.1</ele></trkpt>
+      <trkpt lat="-23.638128" lon="-46.790013"><ele>786.7</ele></trkpt>
+      <trkpt lat="-23.638015" lon="-46.789935"><ele>786.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

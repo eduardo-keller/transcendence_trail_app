@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passarela Salvador Gonzalez Rodrigues</name>
+    <trkseg>
+      <trkpt lat="-23.551733" lon="-46.621749"><ele>732.3</ele></trkpt>
+      <trkpt lat="-23.551842" lon="-46.621763"><ele>729.7</ele></trkpt>
+      <trkpt lat="-23.551843" lon="-46.621743"><ele>729.7</ele></trkpt>
+      <trkpt lat="-23.551712" lon="-46.621728"><ele>732.3</ele></trkpt>
+      <trkpt lat="-23.551709" lon="-46.621759"><ele>732.3</ele></trkpt>
+      <trkpt lat="-23.552377" lon="-46.621855"><ele>729.5</ele></trkpt>
+      <trkpt lat="-23.552361" lon="-46.622089"><ele>729.5</ele></trkpt>
+      <trkpt lat="-23.552335" lon="-46.622086"><ele>729.5</ele></trkpt>
+      <trkpt lat="-23.552354" lon="-46.621875"><ele>729.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

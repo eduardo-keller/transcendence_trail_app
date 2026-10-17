@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Nossa Sennora do Socorro</name>
+    <trkseg>
+      <trkpt lat="-23.418082" lon="-46.504840"><ele>780.0</ele></trkpt>
+      <trkpt lat="-23.418323" lon="-46.505488"><ele>791.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

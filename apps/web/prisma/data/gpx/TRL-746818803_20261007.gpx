@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Jorge Raimundo M. de Almeida</name>
+    <trkseg>
+      <trkpt lat="-23.581111" lon="-46.776642"><ele>760.9</ele></trkpt>
+      <trkpt lat="-23.580756" lon="-46.776539"><ele>765.8</ele></trkpt>
+      <trkpt lat="-23.580686" lon="-46.776541"><ele>776.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

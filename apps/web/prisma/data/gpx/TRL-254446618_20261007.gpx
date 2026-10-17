@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Humaíta</name>
+    <trkseg>
+      <trkpt lat="-23.755657" lon="-46.537693"><ele>786.3</ele></trkpt>
+      <trkpt lat="-23.755422" lon="-46.537914"><ele>786.3</ele></trkpt>
+      <trkpt lat="-23.755355" lon="-46.537965"><ele>793.5</ele></trkpt>
+      <trkpt lat="-23.755017" lon="-46.538158"><ele>790.5</ele></trkpt>
+      <trkpt lat="-23.754953" lon="-46.538208"><ele>800.6</ele></trkpt>
+      <trkpt lat="-23.754875" lon="-46.538317"><ele>800.6</ele></trkpt>
+      <trkpt lat="-23.754814" lon="-46.538510"><ele>806.9</ele></trkpt>
+      <trkpt lat="-23.754815" lon="-46.538676"><ele>806.9</ele></trkpt>
+      <trkpt lat="-23.754856" lon="-46.538801"><ele>808.6</ele></trkpt>
+      <trkpt lat="-23.754933" lon="-46.538917"><ele>808.4</ele></trkpt>
+      <trkpt lat="-23.755020" lon="-46.538990"><ele>808.4</ele></trkpt>
+      <trkpt lat="-23.755765" lon="-46.539237"><ele>804.1</ele></trkpt>
+      <trkpt lat="-23.755823" lon="-46.539270"><ele>804.1</ele></trkpt>
+      <trkpt lat="-23.755996" lon="-46.539409"><ele>796.1</ele></trkpt>
+      <trkpt lat="-23.756047" lon="-46.539475"><ele>796.1</ele></trkpt>
+      <trkpt lat="-23.756208" lon="-46.539765"><ele>790.7</ele></trkpt>
+      <trkpt lat="-23.756289" lon="-46.539887"><ele>787.5</ele></trkpt>
+      <trkpt lat="-23.756558" lon="-46.540183"><ele>785.4</ele></trkpt>
+      <trkpt lat="-23.756645" lon="-46.540255"><ele>785.4</ele></trkpt>
+      <trkpt lat="-23.756995" lon="-46.540516"><ele>783.4</ele></trkpt>
+      <trkpt lat="-23.757369" lon="-46.540763"><ele>785.9</ele></trkpt>
+      <trkpt lat="-23.757460" lon="-46.540851"><ele>785.9</ele></trkpt>
+      <trkpt lat="-23.757542" lon="-46.540973"><ele>780.2</ele></trkpt>
+      <trkpt lat="-23.757591" lon="-46.541064"><ele>780.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

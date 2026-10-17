@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela União 1</name>
+    <trkseg>
+      <trkpt lat="-23.606139" lon="-46.729552"><ele>764.4</ele></trkpt>
+      <trkpt lat="-23.606049" lon="-46.729404"><ele>764.4</ele></trkpt>
+      <trkpt lat="-23.605992" lon="-46.729442"><ele>764.4</ele></trkpt>
+      <trkpt lat="-23.605975" lon="-46.729380"><ele>764.4</ele></trkpt>
+      <trkpt lat="-23.605945" lon="-46.729410"><ele>765.4</ele></trkpt>
+      <trkpt lat="-23.605913" lon="-46.729365"><ele>765.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

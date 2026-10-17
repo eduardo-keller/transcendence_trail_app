@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Mário Marcondes Pereira</name>
+    <trkseg>
+      <trkpt lat="-23.683657" lon="-46.744737"><ele>783.8</ele></trkpt>
+      <trkpt lat="-23.683974" lon="-46.744663"><ele>784.2</ele></trkpt>
+      <trkpt lat="-23.684009" lon="-46.744638"><ele>784.2</ele></trkpt>
+      <trkpt lat="-23.684024" lon="-46.744607"><ele>784.2</ele></trkpt>
+      <trkpt lat="-23.684031" lon="-46.744575"><ele>786.6</ele></trkpt>
+      <trkpt lat="-23.684041" lon="-46.744538"><ele>786.6</ele></trkpt>
+      <trkpt lat="-23.684049" lon="-46.744508"><ele>786.6</ele></trkpt>
+      <trkpt lat="-23.684059" lon="-46.744464"><ele>786.6</ele></trkpt>
+      <trkpt lat="-23.684070" lon="-46.744429"><ele>786.6</ele></trkpt>
+      <trkpt lat="-23.684070" lon="-46.744397"><ele>786.6</ele></trkpt>
+      <trkpt lat="-23.684073" lon="-46.744367"><ele>786.6</ele></trkpt>
+      <trkpt lat="-23.684065" lon="-46.744326"><ele>786.6</ele></trkpt>
+      <trkpt lat="-23.684053" lon="-46.744267"><ele>792.6</ele></trkpt>
+      <trkpt lat="-23.683993" lon="-46.743982"><ele>795.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

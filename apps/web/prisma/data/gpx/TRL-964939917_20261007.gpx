@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Franca</name>
+    <trkseg>
+      <trkpt lat="-23.416563" lon="-46.849342"><ele>758.8</ele></trkpt>
+      <trkpt lat="-23.416591" lon="-46.849734"><ele>760.0</ele></trkpt>
+      <trkpt lat="-23.416609" lon="-46.850259"><ele>766.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

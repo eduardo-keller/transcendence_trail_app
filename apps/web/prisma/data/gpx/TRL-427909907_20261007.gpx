@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Estrada Municipal 15</name>
+    <trkseg>
+      <trkpt lat="-23.461457" lon="-46.842900"><ele>923.8</ele></trkpt>
+      <trkpt lat="-23.461730" lon="-46.842577"><ele>915.6</ele></trkpt>
+      <trkpt lat="-23.462000" lon="-46.842384"><ele>910.1</ele></trkpt>
+      <trkpt lat="-23.462261" lon="-46.842293"><ele>899.5</ele></trkpt>
+      <trkpt lat="-23.462586" lon="-46.841955"><ele>895.3</ele></trkpt>
+      <trkpt lat="-23.462827" lon="-46.841751"><ele>887.9</ele></trkpt>
+      <trkpt lat="-23.463152" lon="-46.841553"><ele>887.4</ele></trkpt>
+      <trkpt lat="-23.463609" lon="-46.841520"><ele>877.3</ele></trkpt>
+      <trkpt lat="-23.463959" lon="-46.841504"><ele>868.3</ele></trkpt>
+      <trkpt lat="-23.464224" lon="-46.841333"><ele>863.7</ele></trkpt>
+      <trkpt lat="-23.464574" lon="-46.841027"><ele>856.4</ele></trkpt>
+      <trkpt lat="-23.465210" lon="-46.840237"><ele>845.2</ele></trkpt>
+      <trkpt lat="-23.465752" lon="-46.839620"><ele>831.0</ele></trkpt>
+      <trkpt lat="-23.465864" lon="-46.839550"><ele>833.3</ele></trkpt>
+      <trkpt lat="-23.465977" lon="-46.839531"><ele>827.5</ele></trkpt>
+      <trkpt lat="-23.466081" lon="-46.839543"><ele>827.5</ele></trkpt>
+      <trkpt lat="-23.466386" lon="-46.839582"><ele>818.0</ele></trkpt>
+      <trkpt lat="-23.466499" lon="-46.839569"><ele>818.0</ele></trkpt>
+      <trkpt lat="-23.466617" lon="-46.839499"><ele>813.4</ele></trkpt>
+      <trkpt lat="-23.466711" lon="-46.839379"><ele>813.4</ele></trkpt>
+      <trkpt lat="-23.467279" lon="-46.838499"><ele>795.8</ele></trkpt>
+      <trkpt lat="-23.467487" lon="-46.838264"><ele>789.5</ele></trkpt>
+      <trkpt lat="-23.467727" lon="-46.838107"><ele>782.2</ele></trkpt>
+      <trkpt lat="-23.468240" lon="-46.837883"><ele>781.4</ele></trkpt>
+      <trkpt lat="-23.468579" lon="-46.837701"><ele>781.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

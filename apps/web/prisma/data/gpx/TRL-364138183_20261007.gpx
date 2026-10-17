@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Cabo PM Ana Helena Bueno de Paula</name>
+    <trkseg>
+      <trkpt lat="-23.713814" lon="-46.561095"><ele>788.1</ele></trkpt>
+      <trkpt lat="-23.713332" lon="-46.561085"><ele>782.1</ele></trkpt>
+      <trkpt lat="-23.713251" lon="-46.561078"><ele>782.1</ele></trkpt>
+      <trkpt lat="-23.713137" lon="-46.561067"><ele>781.3</ele></trkpt>
+      <trkpt lat="-23.713137" lon="-46.561067"><ele>781.3</ele></trkpt>
+      <trkpt lat="-23.713116" lon="-46.561065"><ele>781.3</ele></trkpt>
+      <trkpt lat="-23.713085" lon="-46.561074"><ele>781.3</ele></trkpt>
+      <trkpt lat="-23.713086" lon="-46.561475"><ele>783.2</ele></trkpt>
+      <trkpt lat="-23.713111" lon="-46.561512"><ele>783.2</ele></trkpt>
+      <trkpt lat="-23.713117" lon="-46.561747"><ele>788.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Taguaraçú de Minas</name>
+    <trkseg>
+      <trkpt lat="-23.450336" lon="-46.514984"><ele>758.6</ele></trkpt>
+      <trkpt lat="-23.450153" lon="-46.514714"><ele>756.4</ele></trkpt>
+      <trkpt lat="-23.450018" lon="-46.514515"><ele>749.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

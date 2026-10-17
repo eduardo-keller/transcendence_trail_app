@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Dez</name>
+    <trkseg>
+      <trkpt lat="-23.739279" lon="-46.712588"><ele>775.8</ele></trkpt>
+      <trkpt lat="-23.739367" lon="-46.712665"><ele>781.1</ele></trkpt>
+      <trkpt lat="-23.739375" lon="-46.712697"><ele>781.1</ele></trkpt>
+      <trkpt lat="-23.739379" lon="-46.712791"><ele>781.1</ele></trkpt>
+      <trkpt lat="-23.739379" lon="-46.712801"><ele>781.1</ele></trkpt>
+      <trkpt lat="-23.739394" lon="-46.712847"><ele>781.1</ele></trkpt>
+      <trkpt lat="-23.739424" lon="-46.712926"><ele>785.9</ele></trkpt>
+      <trkpt lat="-23.739431" lon="-46.712956"><ele>785.9</ele></trkpt>
+      <trkpt lat="-23.739430" lon="-46.712981"><ele>785.9</ele></trkpt>
+      <trkpt lat="-23.739429" lon="-46.713066"><ele>785.9</ele></trkpt>
+      <trkpt lat="-23.739427" lon="-46.713126"><ele>785.9</ele></trkpt>
+      <trkpt lat="-23.739481" lon="-46.713381"><ele>789.5</ele></trkpt>
+      <trkpt lat="-23.739520" lon="-46.713448"><ele>789.5</ele></trkpt>
+      <trkpt lat="-23.739573" lon="-46.713456"><ele>789.5</ele></trkpt>
+      <trkpt lat="-23.739628" lon="-46.713459"><ele>795.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

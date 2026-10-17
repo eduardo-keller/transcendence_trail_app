@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Katsuyo Kitauchi</name>
+    <trkseg>
+      <trkpt lat="-23.841020" lon="-46.674380"><ele>808.8</ele></trkpt>
+      <trkpt lat="-23.840936" lon="-46.674416"><ele>813.5</ele></trkpt>
+      <trkpt lat="-23.840873" lon="-46.674456"><ele>813.5</ele></trkpt>
+      <trkpt lat="-23.840814" lon="-46.674512"><ele>813.5</ele></trkpt>
+      <trkpt lat="-23.840740" lon="-46.674585"><ele>814.1</ele></trkpt>
+      <trkpt lat="-23.840648" lon="-46.674681"><ele>819.1</ele></trkpt>
+      <trkpt lat="-23.840523" lon="-46.674812"><ele>819.1</ele></trkpt>
+      <trkpt lat="-23.840439" lon="-46.674909"><ele>822.0</ele></trkpt>
+      <trkpt lat="-23.840395" lon="-46.674954"><ele>820.9</ele></trkpt>
+      <trkpt lat="-23.840330" lon="-46.675023"><ele>820.9</ele></trkpt>
+      <trkpt lat="-23.840288" lon="-46.675066"><ele>820.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Trilha Ecológica Tietê</name>
+    <trkseg>
+      <trkpt lat="-23.482725" lon="-46.874300"><ele>752.0</ele></trkpt>
+      <trkpt lat="-23.482822" lon="-46.874253"><ele>752.0</ele></trkpt>
+      <trkpt lat="-23.482854" lon="-46.874235"><ele>752.0</ele></trkpt>
+      <trkpt lat="-23.482905" lon="-46.874215"><ele>752.0</ele></trkpt>
+      <trkpt lat="-23.482934" lon="-46.874189"><ele>745.1</ele></trkpt>
+      <trkpt lat="-23.483009" lon="-46.874123"><ele>745.1</ele></trkpt>
+      <trkpt lat="-23.482969" lon="-46.874058"><ele>745.1</ele></trkpt>
+      <trkpt lat="-23.482904" lon="-46.874020"><ele>748.0</ele></trkpt>
+      <trkpt lat="-23.482840" lon="-46.873932"><ele>748.0</ele></trkpt>
+      <trkpt lat="-23.482738" lon="-46.873888"><ele>748.0</ele></trkpt>
+      <trkpt lat="-23.482650" lon="-46.873859"><ele>748.0</ele></trkpt>
+      <trkpt lat="-23.482587" lon="-46.873812"><ele>752.4</ele></trkpt>
+      <trkpt lat="-23.482512" lon="-46.873778"><ele>752.4</ele></trkpt>
+      <trkpt lat="-23.482464" lon="-46.873731"><ele>740.1</ele></trkpt>
+      <trkpt lat="-23.482363" lon="-46.873719"><ele>740.1</ele></trkpt>
+      <trkpt lat="-23.482275" lon="-46.873735"><ele>743.7</ele></trkpt>
+      <trkpt lat="-23.482162" lon="-46.873726"><ele>743.7</ele></trkpt>
+      <trkpt lat="-23.482089" lon="-46.873671"><ele>743.7</ele></trkpt>
+      <trkpt lat="-23.481983" lon="-46.873569"><ele>748.5</ele></trkpt>
+      <trkpt lat="-23.481895" lon="-46.873510"><ele>748.5</ele></trkpt>
+      <trkpt lat="-23.481815" lon="-46.873472"><ele>739.2</ele></trkpt>
+      <trkpt lat="-23.481712" lon="-46.873380"><ele>744.8</ele></trkpt>
+      <trkpt lat="-23.481596" lon="-46.873313"><ele>744.8</ele></trkpt>
+      <trkpt lat="-23.481486" lon="-46.873278"><ele>746.2</ele></trkpt>
+      <trkpt lat="-23.481416" lon="-46.873264"><ele>746.2</ele></trkpt>
+      <trkpt lat="-23.481330" lon="-46.873201"><ele>746.2</ele></trkpt>
+      <trkpt lat="-23.481365" lon="-46.873177"><ele>738.7</ele></trkpt>
+      <trkpt lat="-23.481433" lon="-46.873179"><ele>738.7</ele></trkpt>
+      <trkpt lat="-23.481494" lon="-46.873183"><ele>738.7</ele></trkpt>
+      <trkpt lat="-23.481565" lon="-46.873152"><ele>735.7</ele></trkpt>
+      <trkpt lat="-23.481605" lon="-46.873113"><ele>735.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

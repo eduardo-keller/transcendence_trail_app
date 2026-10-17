@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Antônio Porfírio Eliziário</name>
+    <trkseg>
+      <trkpt lat="-23.557120" lon="-47.097126"><ele>888.0</ele></trkpt>
+      <trkpt lat="-23.557012" lon="-47.096638"><ele>895.7</ele></trkpt>
+      <trkpt lat="-23.556940" lon="-47.096405"><ele>902.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

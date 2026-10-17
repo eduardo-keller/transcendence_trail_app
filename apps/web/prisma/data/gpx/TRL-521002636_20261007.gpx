@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Mauro Abrucezzi</name>
+    <trkseg>
+      <trkpt lat="-23.549994" lon="-46.854627"><ele>768.3</ele></trkpt>
+      <trkpt lat="-23.549571" lon="-46.854307"><ele>752.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

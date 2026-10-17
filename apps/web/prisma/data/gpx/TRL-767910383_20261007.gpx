@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Caminho da Gruta Paraíso</name>
+    <trkseg>
+      <trkpt lat="-23.650350" lon="-46.367001"><ele>800.5</ele></trkpt>
+      <trkpt lat="-23.649404" lon="-46.367458"><ele>795.3</ele></trkpt>
+      <trkpt lat="-23.649404" lon="-46.367458"><ele>795.3</ele></trkpt>
+      <trkpt lat="-23.649329" lon="-46.367493"><ele>795.3</ele></trkpt>
+      <trkpt lat="-23.649329" lon="-46.367493"><ele>795.3</ele></trkpt>
+      <trkpt lat="-23.647920" lon="-46.368153"><ele>803.6</ele></trkpt>
+      <trkpt lat="-23.647313" lon="-46.368060"><ele>821.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

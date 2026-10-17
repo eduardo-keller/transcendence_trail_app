@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Anísio Ramos</name>
+    <trkseg>
+      <trkpt lat="-23.675978" lon="-46.495416"><ele>766.9</ele></trkpt>
+      <trkpt lat="-23.675891" lon="-46.494904"><ele>771.0</ele></trkpt>
+      <trkpt lat="-23.675871" lon="-46.494866"><ele>771.0</ele></trkpt>
+      <trkpt lat="-23.675870" lon="-46.494751"><ele>772.6</ele></trkpt>
+      <trkpt lat="-23.675878" lon="-46.494686"><ele>772.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

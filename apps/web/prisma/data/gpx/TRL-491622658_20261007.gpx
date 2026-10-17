@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Cesário Pastro</name>
+    <trkseg>
+      <trkpt lat="-23.366422" lon="-46.738536"><ele>801.4</ele></trkpt>
+      <trkpt lat="-23.366118" lon="-46.738039"><ele>785.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Avenida Barão de Mauá</name>
+    <trkseg>
+      <trkpt lat="-23.666559" lon="-46.460521"><ele>766.2</ele></trkpt>
+      <trkpt lat="-23.666504" lon="-46.460115"><ele>765.4</ele></trkpt>
+      <trkpt lat="-23.666504" lon="-46.460115"><ele>765.4</ele></trkpt>
+      <trkpt lat="-23.666491" lon="-46.460020"><ele>765.4</ele></trkpt>
+      <trkpt lat="-23.666491" lon="-46.460020"><ele>765.4</ele></trkpt>
+      <trkpt lat="-23.666477" lon="-46.459924"><ele>765.4</ele></trkpt>
+      <trkpt lat="-23.666477" lon="-46.459924"><ele>765.4</ele></trkpt>
+      <trkpt lat="-23.666469" lon="-46.459770"><ele>768.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

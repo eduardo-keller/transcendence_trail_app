@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Via de Pedestres Serra do Caboclo</name>
+    <trkseg>
+      <trkpt lat="-23.455811" lon="-46.663342"><ele>784.6</ele></trkpt>
+      <trkpt lat="-23.455683" lon="-46.663391"><ele>778.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

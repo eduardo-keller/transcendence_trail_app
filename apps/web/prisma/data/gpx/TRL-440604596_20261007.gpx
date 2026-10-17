@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela José Francisco do Nascimento Filho</name>
+    <trkseg>
+      <trkpt lat="-23.446175" lon="-46.549212"><ele>783.5</ele></trkpt>
+      <trkpt lat="-23.446367" lon="-46.549255"><ele>786.3</ele></trkpt>
+      <trkpt lat="-23.446423" lon="-46.549256"><ele>786.3</ele></trkpt>
+      <trkpt lat="-23.446483" lon="-46.549247"><ele>786.3</ele></trkpt>
+      <trkpt lat="-23.446530" lon="-46.549231"><ele>790.2</ele></trkpt>
+      <trkpt lat="-23.446705" lon="-46.549171"><ele>790.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

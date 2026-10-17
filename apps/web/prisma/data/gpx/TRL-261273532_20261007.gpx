@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Via de Pedestre Barão de Folgosa</name>
+    <trkseg>
+      <trkpt lat="-23.479602" lon="-46.571241"><ele>737.3</ele></trkpt>
+      <trkpt lat="-23.479451" lon="-46.570932"><ele>736.2</ele></trkpt>
+      <trkpt lat="-23.479407" lon="-46.570844"><ele>736.2</ele></trkpt>
+      <trkpt lat="-23.479451" lon="-46.570932"><ele>736.2</ele></trkpt>
+      <trkpt lat="-23.479614" lon="-46.570838"><ele>738.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

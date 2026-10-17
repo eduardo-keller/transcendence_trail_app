@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa da Esperança</name>
+    <trkseg>
+      <trkpt lat="-23.453203" lon="-46.663502"><ele>759.4</ele></trkpt>
+      <trkpt lat="-23.453281" lon="-46.663472"><ele>759.4</ele></trkpt>
+      <trkpt lat="-23.453459" lon="-46.663406"><ele>757.9</ele></trkpt>
+      <trkpt lat="-23.453550" lon="-46.663376"><ele>758.8</ele></trkpt>
+      <trkpt lat="-23.453655" lon="-46.663368"><ele>758.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

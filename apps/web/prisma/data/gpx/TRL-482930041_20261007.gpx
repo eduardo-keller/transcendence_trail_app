@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Três</name>
+    <trkseg>
+      <trkpt lat="-23.683676" lon="-46.796076"><ele>814.1</ele></trkpt>
+      <trkpt lat="-23.683535" lon="-46.795979"><ele>814.1</ele></trkpt>
+      <trkpt lat="-23.683426" lon="-46.795864"><ele>818.8</ele></trkpt>
+      <trkpt lat="-23.683467" lon="-46.795632"><ele>823.6</ele></trkpt>
+      <trkpt lat="-23.683440" lon="-46.795429"><ele>823.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

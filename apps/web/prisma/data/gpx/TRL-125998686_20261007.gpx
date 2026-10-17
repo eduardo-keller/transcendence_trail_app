@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passarela Doutor José Granadeiro Guimarães</name>
+    <trkseg>
+      <trkpt lat="-23.615856" lon="-46.660775"><ele>769.8</ele></trkpt>
+      <trkpt lat="-23.615836" lon="-46.660750"><ele>769.8</ele></trkpt>
+      <trkpt lat="-23.615943" lon="-46.660617"><ele>768.9</ele></trkpt>
+      <trkpt lat="-23.616153" lon="-46.660357"><ele>767.8</ele></trkpt>
+      <trkpt lat="-23.616153" lon="-46.660357"><ele>767.8</ele></trkpt>
+      <trkpt lat="-23.616207" lon="-46.660291"><ele>767.8</ele></trkpt>
+      <trkpt lat="-23.616292" lon="-46.660370"><ele>771.1</ele></trkpt>
+      <trkpt lat="-23.616270" lon="-46.660398"><ele>771.1</ele></trkpt>
+      <trkpt lat="-23.616214" lon="-46.660348"><ele>767.8</ele></trkpt>
+      <trkpt lat="-23.616214" lon="-46.660348"><ele>767.8</ele></trkpt>
+      <trkpt lat="-23.616198" lon="-46.660335"><ele>767.8</ele></trkpt>
+      <trkpt lat="-23.616155" lon="-46.660388"><ele>767.8</ele></trkpt>
+      <trkpt lat="-23.615998" lon="-46.660621"><ele>766.5</ele></trkpt>
+      <trkpt lat="-23.615954" lon="-46.660667"><ele>768.9</ele></trkpt>
+      <trkpt lat="-23.615856" lon="-46.660775"><ele>769.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passagem Verde Grama</name>
+    <trkseg>
+      <trkpt lat="-23.691977" lon="-46.598614"><ele>780.0</ele></trkpt>
+      <trkpt lat="-23.691972" lon="-46.598454"><ele>783.8</ele></trkpt>
+      <trkpt lat="-23.691960" lon="-46.598287"><ele>783.8</ele></trkpt>
+      <trkpt lat="-23.691956" lon="-46.598211"><ele>783.8</ele></trkpt>
+      <trkpt lat="-23.691946" lon="-46.598168"><ele>789.2</ele></trkpt>
+      <trkpt lat="-23.691903" lon="-46.598052"><ele>789.2</ele></trkpt>
+      <trkpt lat="-23.691844" lon="-46.597952"><ele>789.2</ele></trkpt>
+      <trkpt lat="-23.691792" lon="-46.597880"><ele>795.4</ele></trkpt>
+      <trkpt lat="-23.691629" lon="-46.597724"><ele>795.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

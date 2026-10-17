@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela São Pedro</name>
+    <trkseg>
+      <trkpt lat="-23.542444" lon="-46.905235"><ele>810.0</ele></trkpt>
+      <trkpt lat="-23.542783" lon="-46.905150"><ele>820.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

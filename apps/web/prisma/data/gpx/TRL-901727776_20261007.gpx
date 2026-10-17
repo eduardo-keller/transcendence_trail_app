@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Doutor José Manoel de Figueiredo Neto</name>
+    <trkseg>
+      <trkpt lat="-23.496187" lon="-46.631098"><ele>768.3</ele></trkpt>
+      <trkpt lat="-23.496185" lon="-46.631068"><ele>768.3</ele></trkpt>
+      <trkpt lat="-23.496184" lon="-46.631038"><ele>768.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

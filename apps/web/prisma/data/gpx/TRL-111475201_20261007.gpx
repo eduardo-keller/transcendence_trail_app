@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Francesco Lúcio</name>
+    <trkseg>
+      <trkpt lat="-23.620380" lon="-46.492063"><ele>810.6</ele></trkpt>
+      <trkpt lat="-23.620380" lon="-46.492089"><ele>809.8</ele></trkpt>
+      <trkpt lat="-23.620241" lon="-46.492171"><ele>809.8</ele></trkpt>
+      <trkpt lat="-23.620130" lon="-46.492249"><ele>815.0</ele></trkpt>
+      <trkpt lat="-23.620060" lon="-46.492296"><ele>815.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

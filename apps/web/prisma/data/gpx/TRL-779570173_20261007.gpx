@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Avenida Vitaliano Rotellini</name>
+    <trkseg>
+      <trkpt lat="-23.599347" lon="-46.480352"><ele>780.4</ele></trkpt>
+      <trkpt lat="-23.599212" lon="-46.480307"><ele>778.7</ele></trkpt>
+      <trkpt lat="-23.598823" lon="-46.480181"><ele>776.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

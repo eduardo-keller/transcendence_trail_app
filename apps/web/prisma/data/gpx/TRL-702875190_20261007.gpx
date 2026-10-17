@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Alzira Ferraz Fernandes</name>
+    <trkseg>
+      <trkpt lat="-23.550542" lon="-46.903573"><ele>793.3</ele></trkpt>
+      <trkpt lat="-23.550545" lon="-46.903636"><ele>793.3</ele></trkpt>
+      <trkpt lat="-23.550530" lon="-46.903690"><ele>793.3</ele></trkpt>
+      <trkpt lat="-23.550486" lon="-46.903782"><ele>797.6</ele></trkpt>
+      <trkpt lat="-23.550489" lon="-46.903832"><ele>797.6</ele></trkpt>
+      <trkpt lat="-23.550514" lon="-46.903879"><ele>797.6</ele></trkpt>
+      <trkpt lat="-23.550561" lon="-46.903958"><ele>797.6</ele></trkpt>
+      <trkpt lat="-23.550583" lon="-46.903989"><ele>797.6</ele></trkpt>
+      <trkpt lat="-23.550598" lon="-46.903998"><ele>797.6</ele></trkpt>
+      <trkpt lat="-23.550615" lon="-46.903996"><ele>797.6</ele></trkpt>
+      <trkpt lat="-23.550655" lon="-46.903961"><ele>797.6</ele></trkpt>
+      <trkpt lat="-23.550671" lon="-46.903956"><ele>797.6</ele></trkpt>
+      <trkpt lat="-23.550683" lon="-46.903960"><ele>797.6</ele></trkpt>
+      <trkpt lat="-23.550692" lon="-46.903973"><ele>797.6</ele></trkpt>
+      <trkpt lat="-23.550697" lon="-46.903989"><ele>803.1</ele></trkpt>
+      <trkpt lat="-23.550909" lon="-46.905004"><ele>823.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

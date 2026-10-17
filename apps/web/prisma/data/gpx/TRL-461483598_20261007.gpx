@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Cassioneira</name>
+    <trkseg>
+      <trkpt lat="-23.577840" lon="-46.556949"><ele>765.4</ele></trkpt>
+      <trkpt lat="-23.578117" lon="-46.556988"><ele>763.3</ele></trkpt>
+      <trkpt lat="-23.578294" lon="-46.557017"><ele>760.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

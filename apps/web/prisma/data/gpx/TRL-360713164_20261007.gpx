@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua 7</name>
+    <trkseg>
+      <trkpt lat="-23.940697" lon="-46.348606"><ele>133.4</ele></trkpt>
+      <trkpt lat="-23.940676" lon="-46.348536"><ele>128.6</ele></trkpt>
+      <trkpt lat="-23.940636" lon="-46.348438"><ele>130.7</ele></trkpt>
+      <trkpt lat="-23.940607" lon="-46.348376"><ele>130.7</ele></trkpt>
+      <trkpt lat="-23.940563" lon="-46.348275"><ele>130.7</ele></trkpt>
+      <trkpt lat="-23.940535" lon="-46.348201"><ele>130.7</ele></trkpt>
+      <trkpt lat="-23.940484" lon="-46.348102"><ele>133.4</ele></trkpt>
+      <trkpt lat="-23.940455" lon="-46.348022"><ele>133.4</ele></trkpt>
+      <trkpt lat="-23.940429" lon="-46.347929"><ele>133.4</ele></trkpt>
+      <trkpt lat="-23.940404" lon="-46.347821"><ele>133.6</ele></trkpt>
+      <trkpt lat="-23.940385" lon="-46.347768"><ele>133.6</ele></trkpt>
+      <trkpt lat="-23.940348" lon="-46.347635"><ele>135.4</ele></trkpt>
+      <trkpt lat="-23.940325" lon="-46.347534"><ele>135.4</ele></trkpt>
+      <trkpt lat="-23.940304" lon="-46.347467"><ele>135.4</ele></trkpt>
+      <trkpt lat="-23.940268" lon="-46.347410"><ele>135.4</ele></trkpt>
+      <trkpt lat="-23.940215" lon="-46.347292"><ele>136.6</ele></trkpt>
+      <trkpt lat="-23.940144" lon="-46.347177"><ele>136.6</ele></trkpt>
+      <trkpt lat="-23.940074" lon="-46.347090"><ele>133.6</ele></trkpt>
+      <trkpt lat="-23.940016" lon="-46.346964"><ele>133.9</ele></trkpt>
+      <trkpt lat="-23.939953" lon="-46.346817"><ele>133.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

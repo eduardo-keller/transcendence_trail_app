@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Professor Alfredo Tianca Braga</name>
+    <trkseg>
+      <trkpt lat="-23.561272" lon="-46.744143"><ele>756.5</ele></trkpt>
+      <trkpt lat="-23.561388" lon="-46.744080"><ele>756.5</ele></trkpt>
+      <trkpt lat="-23.561553" lon="-46.743925"><ele>762.1</ele></trkpt>
+      <trkpt lat="-23.561612" lon="-46.743877"><ele>762.1</ele></trkpt>
+      <trkpt lat="-23.561708" lon="-46.743800"><ele>762.1</ele></trkpt>
+      <trkpt lat="-23.561935" lon="-46.743646"><ele>767.4</ele></trkpt>
+      <trkpt lat="-23.562129" lon="-46.743515"><ele>768.3</ele></trkpt>
+      <trkpt lat="-23.562181" lon="-46.743477"><ele>768.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

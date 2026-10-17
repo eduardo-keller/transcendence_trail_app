@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Via de Pedestres Serra Alegre</name>
+    <trkseg>
+      <trkpt lat="-23.456931" lon="-46.663962"><ele>820.9</ele></trkpt>
+      <trkpt lat="-23.456853" lon="-46.663797"><ele>820.9</ele></trkpt>
+      <trkpt lat="-23.456798" lon="-46.663698"><ele>804.5</ele></trkpt>
+      <trkpt lat="-23.456763" lon="-46.663622"><ele>804.5</ele></trkpt>
+      <trkpt lat="-23.456782" lon="-46.663609"><ele>804.5</ele></trkpt>
+      <trkpt lat="-23.456770" lon="-46.663588"><ele>804.5</ele></trkpt>
+      <trkpt lat="-23.456652" lon="-46.663384"><ele>797.1</ele></trkpt>
+      <trkpt lat="-23.456622" lon="-46.663353"><ele>797.1</ele></trkpt>
+      <trkpt lat="-23.456770" lon="-46.663588"><ele>804.5</ele></trkpt>
+      <trkpt lat="-23.456817" lon="-46.663565"><ele>815.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

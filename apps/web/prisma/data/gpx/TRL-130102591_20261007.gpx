@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passagem Pedestre Band G. Pais</name>
+    <trkseg>
+      <trkpt lat="-23.677210" lon="-46.598821"><ele>786.0</ele></trkpt>
+      <trkpt lat="-23.676948" lon="-46.598653"><ele>776.7</ele></trkpt>
+      <trkpt lat="-23.676870" lon="-46.598602"><ele>776.7</ele></trkpt>
+      <trkpt lat="-23.676787" lon="-46.598536"><ele>774.4</ele></trkpt>
+      <trkpt lat="-23.676631" lon="-46.598379"><ele>773.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

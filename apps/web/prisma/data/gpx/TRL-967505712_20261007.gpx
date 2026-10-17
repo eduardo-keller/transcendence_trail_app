@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Agnaldo Cursino</name>
+    <trkseg>
+      <trkpt lat="-23.511298" lon="-46.303302"><ele>737.9</ele></trkpt>
+      <trkpt lat="-23.511255" lon="-46.303192"><ele>737.8</ele></trkpt>
+      <trkpt lat="-23.511181" lon="-46.303012"><ele>739.2</ele></trkpt>
+      <trkpt lat="-23.511140" lon="-46.302902"><ele>738.5</ele></trkpt>
+      <trkpt lat="-23.511114" lon="-46.302810"><ele>738.5</ele></trkpt>
+      <trkpt lat="-23.511078" lon="-46.302670"><ele>738.5</ele></trkpt>
+      <trkpt lat="-23.511013" lon="-46.302430"><ele>739.1</ele></trkpt>
+      <trkpt lat="-23.511003" lon="-46.302384"><ele>739.1</ele></trkpt>
+      <trkpt lat="-23.510977" lon="-46.302273"><ele>738.9</ele></trkpt>
+      <trkpt lat="-23.510966" lon="-46.302199"><ele>741.0</ele></trkpt>
+      <trkpt lat="-23.510965" lon="-46.302107"><ele>741.0</ele></trkpt>
+      <trkpt lat="-23.510972" lon="-46.302005"><ele>741.5</ele></trkpt>
+      <trkpt lat="-23.511016" lon="-46.301738"><ele>738.9</ele></trkpt>
+      <trkpt lat="-23.511163" lon="-46.301268"><ele>740.3</ele></trkpt>
+      <trkpt lat="-23.511259" lon="-46.300971"><ele>740.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

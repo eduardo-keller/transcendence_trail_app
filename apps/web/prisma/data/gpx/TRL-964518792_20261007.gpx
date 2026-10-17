@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua das Gílias</name>
+    <trkseg>
+      <trkpt lat="-23.600183" lon="-46.573363"><ele>757.3</ele></trkpt>
+      <trkpt lat="-23.600154" lon="-46.573407"><ele>757.3</ele></trkpt>
+      <trkpt lat="-23.600125" lon="-46.573423"><ele>760.1</ele></trkpt>
+      <trkpt lat="-23.600099" lon="-46.573426"><ele>760.1</ele></trkpt>
+      <trkpt lat="-23.600032" lon="-46.573404"><ele>760.1</ele></trkpt>
+      <trkpt lat="-23.599551" lon="-46.573126"><ele>767.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

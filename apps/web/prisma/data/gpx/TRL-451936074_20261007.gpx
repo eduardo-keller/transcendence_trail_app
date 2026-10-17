@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Oito</name>
+    <trkseg>
+      <trkpt lat="-23.646043" lon="-46.597421"><ele>788.0</ele></trkpt>
+      <trkpt lat="-23.645922" lon="-46.598014"><ele>790.0</ele></trkpt>
+      <trkpt lat="-23.645819" lon="-46.598578"><ele>790.3</ele></trkpt>
+      <trkpt lat="-23.645742" lon="-46.599073"><ele>786.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

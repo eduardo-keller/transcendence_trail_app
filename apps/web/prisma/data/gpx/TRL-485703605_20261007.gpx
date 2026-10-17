@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Sebastião Pinto Magalhães</name>
+    <trkseg>
+      <trkpt lat="-23.568090" lon="-46.368274"><ele>794.9</ele></trkpt>
+      <trkpt lat="-23.568028" lon="-46.368373"><ele>794.9</ele></trkpt>
+      <trkpt lat="-23.568013" lon="-46.368456"><ele>794.9</ele></trkpt>
+      <trkpt lat="-23.568018" lon="-46.368523"><ele>797.7</ele></trkpt>
+      <trkpt lat="-23.568171" lon="-46.368860"><ele>805.3</ele></trkpt>
+      <trkpt lat="-23.568190" lon="-46.368975"><ele>805.3</ele></trkpt>
+      <trkpt lat="-23.568184" lon="-46.369068"><ele>811.3</ele></trkpt>
+      <trkpt lat="-23.568146" lon="-46.369242"><ele>811.3</ele></trkpt>
+      <trkpt lat="-23.568080" lon="-46.369450"><ele>814.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

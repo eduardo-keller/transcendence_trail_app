@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela 5</name>
+    <trkseg>
+      <trkpt lat="-23.747555" lon="-46.381140"><ele>786.4</ele></trkpt>
+      <trkpt lat="-23.747020" lon="-46.381621"><ele>770.7</ele></trkpt>
+      <trkpt lat="-23.746826" lon="-46.381819"><ele>771.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

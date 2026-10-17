@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Nova Sião</name>
+    <trkseg>
+      <trkpt lat="-23.715331" lon="-46.494551"><ele>872.8</ele></trkpt>
+      <trkpt lat="-23.715192" lon="-46.494496"><ele>872.8</ele></trkpt>
+      <trkpt lat="-23.715183" lon="-46.494487"><ele>872.8</ele></trkpt>
+      <trkpt lat="-23.715169" lon="-46.494455"><ele>872.8</ele></trkpt>
+      <trkpt lat="-23.715164" lon="-46.494444"><ele>872.8</ele></trkpt>
+      <trkpt lat="-23.715155" lon="-46.494433"><ele>872.8</ele></trkpt>
+      <trkpt lat="-23.715067" lon="-46.494358"><ele>862.6</ele></trkpt>
+      <trkpt lat="-23.714976" lon="-46.494245"><ele>869.4</ele></trkpt>
+      <trkpt lat="-23.714854" lon="-46.494118"><ele>861.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

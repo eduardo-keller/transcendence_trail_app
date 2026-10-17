@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Egídio dos Santos Barretos</name>
+    <trkseg>
+      <trkpt lat="-23.496949" lon="-46.791064"><ele>785.4</ele></trkpt>
+      <trkpt lat="-23.496628" lon="-46.790854"><ele>775.5</ele></trkpt>
+      <trkpt lat="-23.496626" lon="-46.790155"><ele>762.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Águas Claras</name>
+    <trkseg>
+      <trkpt lat="-23.651363" lon="-46.493382"><ele>756.3</ele></trkpt>
+      <trkpt lat="-23.651208" lon="-46.493417"><ele>758.4</ele></trkpt>
+      <trkpt lat="-23.651103" lon="-46.493423"><ele>758.4</ele></trkpt>
+      <trkpt lat="-23.651005" lon="-46.493403"><ele>758.4</ele></trkpt>
+      <trkpt lat="-23.650933" lon="-46.493370"><ele>764.5</ele></trkpt>
+      <trkpt lat="-23.650903" lon="-46.493348"><ele>764.5</ele></trkpt>
+      <trkpt lat="-23.650838" lon="-46.493300"><ele>764.5</ele></trkpt>
+      <trkpt lat="-23.650818" lon="-46.493286"><ele>764.5</ele></trkpt>
+      <trkpt lat="-23.650586" lon="-46.493140"><ele>774.5</ele></trkpt>
+      <trkpt lat="-23.650431" lon="-46.493074"><ele>774.5</ele></trkpt>
+      <trkpt lat="-23.650331" lon="-46.493066"><ele>778.5</ele></trkpt>
+      <trkpt lat="-23.650246" lon="-46.493077"><ele>778.5</ele></trkpt>
+      <trkpt lat="-23.650164" lon="-46.493108"><ele>778.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

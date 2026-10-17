@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Trio do Prefeito</name>
+    <trkseg>
+      <trkpt lat="-23.205005" lon="-46.781442"><ele>790.1</ele></trkpt>
+      <trkpt lat="-23.205026" lon="-46.781452"><ele>790.1</ele></trkpt>
+      <trkpt lat="-23.205049" lon="-46.781452"><ele>790.1</ele></trkpt>
+      <trkpt lat="-23.205072" lon="-46.781446"><ele>790.1</ele></trkpt>
+      <trkpt lat="-23.205136" lon="-46.781402"><ele>790.1</ele></trkpt>
+      <trkpt lat="-23.205174" lon="-46.781348"><ele>790.3</ele></trkpt>
+      <trkpt lat="-23.205202" lon="-46.781266"><ele>790.3</ele></trkpt>
+      <trkpt lat="-23.205259" lon="-46.781073"><ele>790.0</ele></trkpt>
+      <trkpt lat="-23.205281" lon="-46.780768"><ele>789.5</ele></trkpt>
+      <trkpt lat="-23.205288" lon="-46.780543"><ele>788.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

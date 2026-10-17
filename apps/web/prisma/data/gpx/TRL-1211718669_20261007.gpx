@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Guará</name>
+    <trkseg>
+      <trkpt lat="-23.692350" lon="-46.513924"><ele>786.4</ele></trkpt>
+      <trkpt lat="-23.692167" lon="-46.513970"><ele>786.4</ele></trkpt>
+      <trkpt lat="-23.691978" lon="-46.513835"><ele>790.3</ele></trkpt>
+      <trkpt lat="-23.691934" lon="-46.513838"><ele>790.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

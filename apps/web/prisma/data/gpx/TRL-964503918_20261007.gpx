@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Queiróz</name>
+    <trkseg>
+      <trkpt lat="-23.430687" lon="-46.318726"><ele>776.5</ele></trkpt>
+      <trkpt lat="-23.430746" lon="-46.318687"><ele>776.0</ele></trkpt>
+      <trkpt lat="-23.430865" lon="-46.318579"><ele>776.0</ele></trkpt>
+      <trkpt lat="-23.430930" lon="-46.318517"><ele>776.0</ele></trkpt>
+      <trkpt lat="-23.430978" lon="-46.318447"><ele>779.9</ele></trkpt>
+      <trkpt lat="-23.431037" lon="-46.318343"><ele>779.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

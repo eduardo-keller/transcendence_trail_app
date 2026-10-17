@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Cana capão das cobras</name>
+    <trkseg>
+      <trkpt lat="-23.495517" lon="-46.641757"><ele>759.4</ele></trkpt>
+      <trkpt lat="-23.495745" lon="-46.641678"><ele>761.7</ele></trkpt>
+      <trkpt lat="-23.495859" lon="-46.641631"><ele>761.7</ele></trkpt>
+      <trkpt lat="-23.495945" lon="-46.641589"><ele>761.7</ele></trkpt>
+      <trkpt lat="-23.496102" lon="-46.641496"><ele>763.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

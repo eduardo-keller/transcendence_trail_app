@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua dos Carregadores</name>
+    <trkseg>
+      <trkpt lat="-23.447099" lon="-46.692038"><ele>814.1</ele></trkpt>
+      <trkpt lat="-23.447099" lon="-46.692002"><ele>814.1</ele></trkpt>
+      <trkpt lat="-23.447113" lon="-46.691885"><ele>814.1</ele></trkpt>
+      <trkpt lat="-23.447140" lon="-46.691605"><ele>804.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

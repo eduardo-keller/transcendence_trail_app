@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa da Rua Catarina Cintra</name>
+    <trkseg>
+      <trkpt lat="-23.925225" lon="-47.071715"><ele>740.5</ele></trkpt>
+      <trkpt lat="-23.925299" lon="-47.071407"><ele>734.3</ele></trkpt>
+      <trkpt lat="-23.925378" lon="-47.071154"><ele>725.6</ele></trkpt>
+      <trkpt lat="-23.925481" lon="-47.071004"><ele>719.7</ele></trkpt>
+      <trkpt lat="-23.925594" lon="-47.070805"><ele>709.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

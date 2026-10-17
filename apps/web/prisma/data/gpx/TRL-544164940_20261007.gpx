@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Onze</name>
+    <trkseg>
+      <trkpt lat="-23.739379" lon="-46.712801"><ele>781.1</ele></trkpt>
+      <trkpt lat="-23.739368" lon="-46.712813"><ele>781.1</ele></trkpt>
+      <trkpt lat="-23.739349" lon="-46.712871"><ele>781.1</ele></trkpt>
+      <trkpt lat="-23.739342" lon="-46.712890"><ele>781.1</ele></trkpt>
+      <trkpt lat="-23.739306" lon="-46.712968"><ele>785.9</ele></trkpt>
+      <trkpt lat="-23.739272" lon="-46.713012"><ele>780.1</ele></trkpt>
+      <trkpt lat="-23.739236" lon="-46.713067"><ele>780.1</ele></trkpt>
+      <trkpt lat="-23.739221" lon="-46.713088"><ele>780.1</ele></trkpt>
+      <trkpt lat="-23.739178" lon="-46.713138"><ele>780.1</ele></trkpt>
+      <trkpt lat="-23.739092" lon="-46.713227"><ele>782.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

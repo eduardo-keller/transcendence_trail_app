@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa dos Lírios</name>
+    <trkseg>
+      <trkpt lat="-23.411855" lon="-46.750657"><ele>771.4</ele></trkpt>
+      <trkpt lat="-23.411776" lon="-46.750762"><ele>769.0</ele></trkpt>
+      <trkpt lat="-23.411758" lon="-46.750788"><ele>769.0</ele></trkpt>
+      <trkpt lat="-23.411727" lon="-46.750840"><ele>769.0</ele></trkpt>
+      <trkpt lat="-23.411708" lon="-46.750888"><ele>769.0</ele></trkpt>
+      <trkpt lat="-23.411685" lon="-46.750956"><ele>769.0</ele></trkpt>
+      <trkpt lat="-23.411665" lon="-46.751003"><ele>763.9</ele></trkpt>
+      <trkpt lat="-23.411637" lon="-46.751057"><ele>763.9</ele></trkpt>
+      <trkpt lat="-23.411582" lon="-46.751130"><ele>763.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

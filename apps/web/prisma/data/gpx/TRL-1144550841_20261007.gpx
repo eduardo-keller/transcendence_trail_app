@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Pet Parque Rudge Ramos</name>
+    <trkseg>
+      <trkpt lat="-23.666172" lon="-46.563243"><ele>768.3</ele></trkpt>
+      <trkpt lat="-23.666085" lon="-46.563146"><ele>763.9</ele></trkpt>
+      <trkpt lat="-23.665457" lon="-46.562453"><ele>760.9</ele></trkpt>
+      <trkpt lat="-23.665391" lon="-46.562380"><ele>760.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

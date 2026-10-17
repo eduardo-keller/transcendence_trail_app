@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Inga</name>
+    <trkseg>
+      <trkpt lat="-23.702179" lon="-46.421741"><ele>807.2</ele></trkpt>
+      <trkpt lat="-23.702313" lon="-46.421380"><ele>808.9</ele></trkpt>
+      <trkpt lat="-23.702457" lon="-46.421044"><ele>811.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

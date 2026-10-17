@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela do jequitibá</name>
+    <trkseg>
+      <trkpt lat="-23.703771" lon="-46.456603"><ele>813.2</ele></trkpt>
+      <trkpt lat="-23.703750" lon="-46.455986"><ele>822.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passarela Policial Militar Rodoviário Reginaldo José da Silva</name>
+    <trkseg>
+      <trkpt lat="-23.594006" lon="-46.838854"><ele>787.3</ele></trkpt>
+      <trkpt lat="-23.593910" lon="-46.838667"><ele>785.6</ele></trkpt>
+      <trkpt lat="-23.593941" lon="-46.838648"><ele>785.6</ele></trkpt>
+      <trkpt lat="-23.594036" lon="-46.838833"><ele>784.7</ele></trkpt>
+      <trkpt lat="-23.594293" lon="-46.838676"><ele>785.3</ele></trkpt>
+      <trkpt lat="-23.594166" lon="-46.838429"><ele>783.2</ele></trkpt>
+      <trkpt lat="-23.594189" lon="-46.838415"><ele>783.2</ele></trkpt>
+      <trkpt lat="-23.594361" lon="-46.838675"><ele>786.1</ele></trkpt>
+      <trkpt lat="-23.594361" lon="-46.838675"><ele>786.1</ele></trkpt>
+      <trkpt lat="-23.594471" lon="-46.838864"><ele>784.1</ele></trkpt>
+      <trkpt lat="-23.594557" lon="-46.838998"><ele>784.1</ele></trkpt>
+      <trkpt lat="-23.594584" lon="-46.839021"><ele>783.0</ele></trkpt>
+      <trkpt lat="-23.594621" lon="-46.839051"><ele>783.9</ele></trkpt>
+      <trkpt lat="-23.594651" lon="-46.839059"><ele>783.9</ele></trkpt>
+      <trkpt lat="-23.594745" lon="-46.839065"><ele>783.9</ele></trkpt>
+      <trkpt lat="-23.594745" lon="-46.839065"><ele>783.9</ele></trkpt>
+      <trkpt lat="-23.594762" lon="-46.839093"><ele>783.9</ele></trkpt>
+      <trkpt lat="-23.594850" lon="-46.839227"><ele>783.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

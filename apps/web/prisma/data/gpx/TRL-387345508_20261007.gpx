@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Auir</name>
+    <trkseg>
+      <trkpt lat="-23.531178" lon="-46.405053"><ele>790.0</ele></trkpt>
+      <trkpt lat="-23.531166" lon="-46.405087"><ele>790.0</ele></trkpt>
+      <trkpt lat="-23.531160" lon="-46.405131"><ele>790.0</ele></trkpt>
+      <trkpt lat="-23.531160" lon="-46.405172"><ele>793.2</ele></trkpt>
+      <trkpt lat="-23.531151" lon="-46.405217"><ele>793.2</ele></trkpt>
+      <trkpt lat="-23.530865" lon="-46.405612"><ele>799.5</ele></trkpt>
+      <trkpt lat="-23.530742" lon="-46.405783"><ele>804.7</ele></trkpt>
+      <trkpt lat="-23.530637" lon="-46.405953"><ele>804.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

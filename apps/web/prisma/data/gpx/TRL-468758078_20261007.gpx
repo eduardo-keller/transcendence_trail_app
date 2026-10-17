@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Leite Ribeiro</name>
+    <trkseg>
+      <trkpt lat="-23.468429" lon="-46.689428"><ele>756.5</ele></trkpt>
+      <trkpt lat="-23.468431" lon="-46.689316"><ele>756.5</ele></trkpt>
+      <trkpt lat="-23.468431" lon="-46.689175"><ele>762.2</ele></trkpt>
+      <trkpt lat="-23.468432" lon="-46.689084"><ele>762.2</ele></trkpt>
+      <trkpt lat="-23.468433" lon="-46.689019"><ele>769.5</ele></trkpt>
+      <trkpt lat="-23.468432" lon="-46.688964"><ele>769.5</ele></trkpt>
+      <trkpt lat="-23.468432" lon="-46.688920"><ele>769.5</ele></trkpt>
+      <trkpt lat="-23.468430" lon="-46.688845"><ele>769.5</ele></trkpt>
+      <trkpt lat="-23.468425" lon="-46.688815"><ele>769.5</ele></trkpt>
+      <trkpt lat="-23.468400" lon="-46.688775"><ele>769.5</ele></trkpt>
+      <trkpt lat="-23.468341" lon="-46.688732"><ele>773.9</ele></trkpt>
+      <trkpt lat="-23.468235" lon="-46.688677"><ele>773.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

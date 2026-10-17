@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passarela Professor Doutor Emílio Athié</name>
+    <trkseg>
+      <trkpt lat="-23.558002" lon="-46.667166"><ele>804.7</ele></trkpt>
+      <trkpt lat="-23.558158" lon="-46.667009"><ele>804.4</ele></trkpt>
+      <trkpt lat="-23.558200" lon="-46.667047"><ele>803.2</ele></trkpt>
+      <trkpt lat="-23.557829" lon="-46.667417"><ele>805.4</ele></trkpt>
+      <trkpt lat="-23.557816" lon="-46.667433"><ele>805.4</ele></trkpt>
+      <trkpt lat="-23.557538" lon="-46.667722"><ele>808.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Zacheu Antônio Domingues</name>
+    <trkseg>
+      <trkpt lat="-23.714513" lon="-46.855086"><ele>841.9</ele></trkpt>
+      <trkpt lat="-23.714494" lon="-46.854941"><ele>841.9</ele></trkpt>
+      <trkpt lat="-23.714315" lon="-46.854842"><ele>850.9</ele></trkpt>
+      <trkpt lat="-23.714136" lon="-46.854726"><ele>856.5</ele></trkpt>
+      <trkpt lat="-23.713981" lon="-46.854520"><ele>868.8</ele></trkpt>
+      <trkpt lat="-23.713814" lon="-46.854223"><ele>870.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

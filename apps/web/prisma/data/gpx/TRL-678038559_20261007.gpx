@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Ibotirama</name>
+    <trkseg>
+      <trkpt lat="-23.509241" lon="-46.504701"><ele>753.5</ele></trkpt>
+      <trkpt lat="-23.509237" lon="-46.504672"><ele>753.5</ele></trkpt>
+      <trkpt lat="-23.509122" lon="-46.503921"><ele>755.9</ele></trkpt>
+      <trkpt lat="-23.509114" lon="-46.503871"><ele>755.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

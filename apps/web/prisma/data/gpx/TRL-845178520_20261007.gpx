@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Mariano de Souza</name>
+    <trkseg>
+      <trkpt lat="-23.654177" lon="-46.452561"><ele>836.3</ele></trkpt>
+      <trkpt lat="-23.654205" lon="-46.452790"><ele>831.6</ele></trkpt>
+      <trkpt lat="-23.654235" lon="-46.452925"><ele>826.9</ele></trkpt>
+      <trkpt lat="-23.654269" lon="-46.453023"><ele>826.9</ele></trkpt>
+      <trkpt lat="-23.654384" lon="-46.453280"><ele>817.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Beira Rio</name>
+    <trkseg>
+      <trkpt lat="-23.449675" lon="-46.687719"><ele>752.6</ele></trkpt>
+      <trkpt lat="-23.449725" lon="-46.687816"><ele>752.6</ele></trkpt>
+      <trkpt lat="-23.449731" lon="-46.687865"><ele>752.6</ele></trkpt>
+      <trkpt lat="-23.449751" lon="-46.688041"><ele>754.6</ele></trkpt>
+      <trkpt lat="-23.449770" lon="-46.688301"><ele>758.2</ele></trkpt>
+      <trkpt lat="-23.449766" lon="-46.688483"><ele>756.6</ele></trkpt>
+      <trkpt lat="-23.449742" lon="-46.688635"><ele>756.6</ele></trkpt>
+      <trkpt lat="-23.449738" lon="-46.688768"><ele>756.2</ele></trkpt>
+      <trkpt lat="-23.449746" lon="-46.688944"><ele>756.2</ele></trkpt>
+      <trkpt lat="-23.449757" lon="-46.689121"><ele>754.1</ele></trkpt>
+      <trkpt lat="-23.449750" lon="-46.689258"><ele>754.1</ele></trkpt>
+      <trkpt lat="-23.449748" lon="-46.689300"><ele>754.1</ele></trkpt>
+      <trkpt lat="-23.449744" lon="-46.689367"><ele>756.1</ele></trkpt>
+      <trkpt lat="-23.449766" lon="-46.689466"><ele>756.1</ele></trkpt>
+      <trkpt lat="-23.449811" lon="-46.689653"><ele>759.2</ele></trkpt>
+      <trkpt lat="-23.449788" lon="-46.689858"><ele>759.2</ele></trkpt>
+      <trkpt lat="-23.449731" lon="-46.690086"><ele>755.6</ele></trkpt>
+      <trkpt lat="-23.449653" lon="-46.690235"><ele>753.1</ele></trkpt>
+      <trkpt lat="-23.449600" lon="-46.690435"><ele>753.2</ele></trkpt>
+      <trkpt lat="-23.449600" lon="-46.690435"><ele>753.2</ele></trkpt>
+      <trkpt lat="-23.449592" lon="-46.690469"><ele>753.2</ele></trkpt>
+      <trkpt lat="-23.449587" lon="-46.690494"><ele>753.2</ele></trkpt>
+      <trkpt lat="-23.449585" lon="-46.690510"><ele>753.2</ele></trkpt>
+      <trkpt lat="-23.449585" lon="-46.690510"><ele>753.2</ele></trkpt>
+      <trkpt lat="-23.449584" lon="-46.690524"><ele>753.2</ele></trkpt>
+      <trkpt lat="-23.449585" lon="-46.690561"><ele>753.2</ele></trkpt>
+      <trkpt lat="-23.449585" lon="-46.690561"><ele>753.2</ele></trkpt>
+      <trkpt lat="-23.449589" lon="-46.690617"><ele>753.2</ele></trkpt>
+      <trkpt lat="-23.449597" lon="-46.690710"><ele>753.7</ele></trkpt>
+      <trkpt lat="-23.449732" lon="-46.690899"><ele>753.7</ele></trkpt>
+      <trkpt lat="-23.449841" lon="-46.691004"><ele>760.2</ele></trkpt>
+      <trkpt lat="-23.449951" lon="-46.691074"><ele>755.0</ele></trkpt>
+      <trkpt lat="-23.450049" lon="-46.691090"><ele>755.0</ele></trkpt>
+      <trkpt lat="-23.450156" lon="-46.691128"><ele>753.4</ele></trkpt>
+      <trkpt lat="-23.450206" lon="-46.691134"><ele>753.4</ele></trkpt>
+      <trkpt lat="-23.450265" lon="-46.691144"><ele>753.4</ele></trkpt>
+      <trkpt lat="-23.450358" lon="-46.691191"><ele>753.4</ele></trkpt>
+      <trkpt lat="-23.450478" lon="-46.691245"><ele>753.1</ele></trkpt>
+      <trkpt lat="-23.450574" lon="-46.691292"><ele>754.0</ele></trkpt>
+      <trkpt lat="-23.450682" lon="-46.691430"><ele>754.0</ele></trkpt>
+      <trkpt lat="-23.450738" lon="-46.691536"><ele>754.3</ele></trkpt>
+      <trkpt lat="-23.450787" lon="-46.691607"><ele>754.3</ele></trkpt>
+      <trkpt lat="-23.450893" lon="-46.691754"><ele>754.3</ele></trkpt>
+      <trkpt lat="-23.450940" lon="-46.691824"><ele>754.6</ele></trkpt>
+      <trkpt lat="-23.450979" lon="-46.691858"><ele>753.1</ele></trkpt>
+      <trkpt lat="-23.451010" lon="-46.691900"><ele>753.1</ele></trkpt>
+      <trkpt lat="-23.451014" lon="-46.691934"><ele>753.1</ele></trkpt>
+      <trkpt lat="-23.451016" lon="-46.691944"><ele>753.1</ele></trkpt>
+      <trkpt lat="-23.451015" lon="-46.691997"><ele>753.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

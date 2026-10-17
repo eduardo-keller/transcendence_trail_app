@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Turim</name>
+    <trkseg>
+      <trkpt lat="-23.534339" lon="-46.847143"><ele>734.9</ele></trkpt>
+      <trkpt lat="-23.534318" lon="-46.847183"><ele>734.9</ele></trkpt>
+      <trkpt lat="-23.534307" lon="-46.847227"><ele>734.9</ele></trkpt>
+      <trkpt lat="-23.534303" lon="-46.847433"><ele>733.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

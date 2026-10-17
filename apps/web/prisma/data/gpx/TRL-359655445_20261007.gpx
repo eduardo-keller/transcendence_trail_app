@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Francisco José Santana</name>
+    <trkseg>
+      <trkpt lat="-23.183967" lon="-46.818264"><ele>814.7</ele></trkpt>
+      <trkpt lat="-23.183921" lon="-46.818154"><ele>814.5</ele></trkpt>
+      <trkpt lat="-23.183921" lon="-46.818154"><ele>814.5</ele></trkpt>
+      <trkpt lat="-23.183988" lon="-46.817302"><ele>805.3</ele></trkpt>
+      <trkpt lat="-23.184144" lon="-46.816138"><ele>797.5</ele></trkpt>
+      <trkpt lat="-23.184166" lon="-46.815973"><ele>797.5</ele></trkpt>
+      <trkpt lat="-23.184275" lon="-46.815079"><ele>804.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

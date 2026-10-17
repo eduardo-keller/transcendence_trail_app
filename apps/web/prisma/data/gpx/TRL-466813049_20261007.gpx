@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela do Rosário</name>
+    <trkseg>
+      <trkpt lat="-23.650169" lon="-46.444779"><ele>774.7</ele></trkpt>
+      <trkpt lat="-23.649817" lon="-46.444215"><ele>786.8</ele></trkpt>
+      <trkpt lat="-23.649763" lon="-46.444134"><ele>786.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

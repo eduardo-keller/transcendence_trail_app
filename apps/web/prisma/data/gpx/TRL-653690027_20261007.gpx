@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Natalino Pepi</name>
+    <trkseg>
+      <trkpt lat="-23.671457" lon="-46.474364"><ele>807.2</ele></trkpt>
+      <trkpt lat="-23.671956" lon="-46.473994"><ele>817.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

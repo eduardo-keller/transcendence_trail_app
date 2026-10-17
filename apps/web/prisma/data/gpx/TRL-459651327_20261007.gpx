@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Indaiatuba</name>
+    <trkseg>
+      <trkpt lat="-23.478090" lon="-46.399010"><ele>734.8</ele></trkpt>
+      <trkpt lat="-23.478159" lon="-46.399539"><ele>736.2</ele></trkpt>
+      <trkpt lat="-23.478257" lon="-46.400039"><ele>732.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

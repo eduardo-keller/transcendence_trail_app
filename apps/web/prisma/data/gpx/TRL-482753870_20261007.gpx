@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Chapadão</name>
+    <trkseg>
+      <trkpt lat="-23.682564" lon="-46.792074"><ele>796.0</ele></trkpt>
+      <trkpt lat="-23.682532" lon="-46.792195"><ele>797.0</ele></trkpt>
+      <trkpt lat="-23.682514" lon="-46.792314"><ele>797.0</ele></trkpt>
+      <trkpt lat="-23.682502" lon="-46.792446"><ele>801.8</ele></trkpt>
+      <trkpt lat="-23.682477" lon="-46.792593"><ele>801.8</ele></trkpt>
+      <trkpt lat="-23.682475" lon="-46.792703"><ele>810.4</ele></trkpt>
+      <trkpt lat="-23.682470" lon="-46.792872"><ele>810.4</ele></trkpt>
+      <trkpt lat="-23.682374" lon="-46.793454"><ele>823.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

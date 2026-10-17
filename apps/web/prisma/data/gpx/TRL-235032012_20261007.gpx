@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela sem nome</name>
+    <trkseg>
+      <trkpt lat="-23.486939" lon="-46.308992"><ele>770.9</ele></trkpt>
+      <trkpt lat="-23.487574" lon="-46.308909"><ele>778.1</ele></trkpt>
+      <trkpt lat="-23.488150" lon="-46.308830"><ele>777.2</ele></trkpt>
+      <trkpt lat="-23.488716" lon="-46.308761"><ele>768.3</ele></trkpt>
+      <trkpt lat="-23.489283" lon="-46.308690"><ele>757.1</ele></trkpt>
+      <trkpt lat="-23.489854" lon="-46.308613"><ele>753.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

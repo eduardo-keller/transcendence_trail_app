@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Genaro Manna</name>
+    <trkseg>
+      <trkpt lat="-23.722731" lon="-46.647399"><ele>787.7</ele></trkpt>
+      <trkpt lat="-23.722684" lon="-46.647494"><ele>787.7</ele></trkpt>
+      <trkpt lat="-23.722642" lon="-46.647558"><ele>787.7</ele></trkpt>
+      <trkpt lat="-23.722458" lon="-46.647713"><ele>783.9</ele></trkpt>
+      <trkpt lat="-23.722397" lon="-46.647755"><ele>783.9</ele></trkpt>
+      <trkpt lat="-23.722346" lon="-46.647781"><ele>782.4</ele></trkpt>
+      <trkpt lat="-23.722247" lon="-46.647818"><ele>782.4</ele></trkpt>
+      <trkpt lat="-23.722155" lon="-46.647857"><ele>782.4</ele></trkpt>
+      <trkpt lat="-23.722070" lon="-46.647906"><ele>782.8</ele></trkpt>
+      <trkpt lat="-23.722004" lon="-46.647956"><ele>777.1</ele></trkpt>
+      <trkpt lat="-23.721894" lon="-46.648060"><ele>777.1</ele></trkpt>
+      <trkpt lat="-23.721802" lon="-46.648154"><ele>779.3</ele></trkpt>
+      <trkpt lat="-23.721709" lon="-46.648266"><ele>774.4</ele></trkpt>
+      <trkpt lat="-23.721654" lon="-46.648326"><ele>774.4</ele></trkpt>
+      <trkpt lat="-23.721543" lon="-46.648417"><ele>774.4</ele></trkpt>
+      <trkpt lat="-23.721370" lon="-46.648526"><ele>767.4</ele></trkpt>
+      <trkpt lat="-23.720998" lon="-46.648708"><ele>765.7</ele></trkpt>
+      <trkpt lat="-23.720499" lon="-46.648891"><ele>763.5</ele></trkpt>
+      <trkpt lat="-23.720275" lon="-46.648967"><ele>765.4</ele></trkpt>
+      <trkpt lat="-23.720177" lon="-46.648977"><ele>765.4</ele></trkpt>
+      <trkpt lat="-23.720116" lon="-46.648931"><ele>764.4</ele></trkpt>
+      <trkpt lat="-23.720065" lon="-46.648832"><ele>764.4</ele></trkpt>
+      <trkpt lat="-23.720045" lon="-46.648688"><ele>766.4</ele></trkpt>
+      <trkpt lat="-23.720019" lon="-46.648534"><ele>766.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

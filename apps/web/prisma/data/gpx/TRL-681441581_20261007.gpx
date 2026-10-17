@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Praça Nereu Silva</name>
+    <trkseg>
+      <trkpt lat="-23.498879" lon="-46.424394"><ele>749.4</ele></trkpt>
+      <trkpt lat="-23.499022" lon="-46.424515"><ele>749.4</ele></trkpt>
+      <trkpt lat="-23.499107" lon="-46.424578"><ele>750.4</ele></trkpt>
+      <trkpt lat="-23.499192" lon="-46.424642"><ele>751.4</ele></trkpt>
+      <trkpt lat="-23.499231" lon="-46.424634"><ele>751.4</ele></trkpt>
+      <trkpt lat="-23.499195" lon="-46.424460"><ele>750.4</ele></trkpt>
+      <trkpt lat="-23.499172" lon="-46.424346"><ele>750.4</ele></trkpt>
+      <trkpt lat="-23.498879" lon="-46.424394"><ele>749.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Escadão dos Anjos</name>
+    <trkseg>
+      <trkpt lat="-23.447054" lon="-46.690754"><ele>782.2</ele></trkpt>
+      <trkpt lat="-23.446937" lon="-46.690616"><ele>789.1</ele></trkpt>
+      <trkpt lat="-23.446886" lon="-46.690553"><ele>789.1</ele></trkpt>
+      <trkpt lat="-23.446768" lon="-46.690423"><ele>803.1</ele></trkpt>
+      <trkpt lat="-23.446751" lon="-46.690387"><ele>811.3</ele></trkpt>
+      <trkpt lat="-23.446712" lon="-46.690331"><ele>811.3</ele></trkpt>
+      <trkpt lat="-23.446698" lon="-46.690310"><ele>811.3</ele></trkpt>
+      <trkpt lat="-23.446525" lon="-46.690208"><ele>816.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela N</name>
+    <trkseg>
+      <trkpt lat="-23.453337" lon="-46.586932"><ele>780.8</ele></trkpt>
+      <trkpt lat="-23.453264" lon="-46.586949"><ele>780.8</ele></trkpt>
+      <trkpt lat="-23.453190" lon="-46.586968"><ele>778.3</ele></trkpt>
+      <trkpt lat="-23.453032" lon="-46.587018"><ele>778.3</ele></trkpt>
+      <trkpt lat="-23.452897" lon="-46.587061"><ele>773.2</ele></trkpt>
+      <trkpt lat="-23.452818" lon="-46.587083"><ele>773.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

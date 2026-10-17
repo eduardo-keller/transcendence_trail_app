@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passagem Tomas Hobbes</name>
+    <trkseg>
+      <trkpt lat="-23.693262" lon="-46.599213"><ele>803.6</ele></trkpt>
+      <trkpt lat="-23.693142" lon="-46.598950"><ele>799.9</ele></trkpt>
+      <trkpt lat="-23.693000" lon="-46.598634"><ele>794.1</ele></trkpt>
+      <trkpt lat="-23.692914" lon="-46.598305"><ele>786.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

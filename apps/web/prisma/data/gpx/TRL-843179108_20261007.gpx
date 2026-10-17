@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Sargento Gonçalo Joaquim de Oliveira</name>
+    <trkseg>
+      <trkpt lat="-23.430010" lon="-46.557453"><ele>781.0</ele></trkpt>
+      <trkpt lat="-23.430053" lon="-46.557317"><ele>787.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

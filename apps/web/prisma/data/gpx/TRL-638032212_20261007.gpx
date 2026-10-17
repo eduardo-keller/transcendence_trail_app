@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Via de Pedestre das Paracuru</name>
+    <trkseg>
+      <trkpt lat="-23.619784" lon="-46.494731"><ele>805.9</ele></trkpt>
+      <trkpt lat="-23.619843" lon="-46.494248"><ele>816.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

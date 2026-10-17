@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Caminho Curto</name>
+    <trkseg>
+      <trkpt lat="-23.701748" lon="-46.408302"><ele>813.5</ele></trkpt>
+      <trkpt lat="-23.701922" lon="-46.408382"><ele>814.8</ele></trkpt>
+      <trkpt lat="-23.701978" lon="-46.408499"><ele>817.1</ele></trkpt>
+      <trkpt lat="-23.702127" lon="-46.408729"><ele>822.6</ele></trkpt>
+      <trkpt lat="-23.702305" lon="-46.408780"><ele>811.9</ele></trkpt>
+      <trkpt lat="-23.702583" lon="-46.408837"><ele>818.7</ele></trkpt>
+      <trkpt lat="-23.703015" lon="-46.408649"><ele>820.6</ele></trkpt>
+      <trkpt lat="-23.703351" lon="-46.408518"><ele>813.5</ele></trkpt>
+      <trkpt lat="-23.703906" lon="-46.408507"><ele>808.4</ele></trkpt>
+      <trkpt lat="-23.704911" lon="-46.408155"><ele>809.2</ele></trkpt>
+      <trkpt lat="-23.705114" lon="-46.407927"><ele>809.2</ele></trkpt>
+      <trkpt lat="-23.705572" lon="-46.406829"><ele>805.1</ele></trkpt>
+      <trkpt lat="-23.705736" lon="-46.406619"><ele>803.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

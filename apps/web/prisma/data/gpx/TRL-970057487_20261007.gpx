@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Basílio da Gama</name>
+    <trkseg>
+      <trkpt lat="-23.671098" lon="-46.624227"><ele>789.7</ele></trkpt>
+      <trkpt lat="-23.670977" lon="-46.624266"><ele>789.7</ele></trkpt>
+      <trkpt lat="-23.670879" lon="-46.624293"><ele>789.4</ele></trkpt>
+      <trkpt lat="-23.670483" lon="-46.625041"><ele>806.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

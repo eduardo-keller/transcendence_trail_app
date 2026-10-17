@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Oscar Alves de Oliveira</name>
+    <trkseg>
+      <trkpt lat="-23.724594" lon="-46.857738"><ele>841.2</ele></trkpt>
+      <trkpt lat="-23.724739" lon="-46.857962"><ele>837.0</ele></trkpt>
+      <trkpt lat="-23.724775" lon="-46.858057"><ele>837.0</ele></trkpt>
+      <trkpt lat="-23.724801" lon="-46.858187"><ele>837.0</ele></trkpt>
+      <trkpt lat="-23.724866" lon="-46.858340"><ele>827.3</ele></trkpt>
+      <trkpt lat="-23.724920" lon="-46.858424"><ele>827.3</ele></trkpt>
+      <trkpt lat="-23.724975" lon="-46.858639"><ele>820.7</ele></trkpt>
+      <trkpt lat="-23.725020" lon="-46.858889"><ele>815.4</ele></trkpt>
+      <trkpt lat="-23.724987" lon="-46.858994"><ele>815.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

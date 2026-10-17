@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Juniperos</name>
+    <trkseg>
+      <trkpt lat="-23.685558" lon="-46.777055"><ele>788.8</ele></trkpt>
+      <trkpt lat="-23.685568" lon="-46.776967"><ele>788.8</ele></trkpt>
+      <trkpt lat="-23.685582" lon="-46.776904"><ele>788.8</ele></trkpt>
+      <trkpt lat="-23.685602" lon="-46.776846"><ele>788.8</ele></trkpt>
+      <trkpt lat="-23.685647" lon="-46.776763"><ele>794.5</ele></trkpt>
+      <trkpt lat="-23.685705" lon="-46.776674"><ele>792.0</ele></trkpt>
+      <trkpt lat="-23.685755" lon="-46.776621"><ele>792.0</ele></trkpt>
+      <trkpt lat="-23.685804" lon="-46.776567"><ele>792.0</ele></trkpt>
+      <trkpt lat="-23.685861" lon="-46.776497"><ele>800.1</ele></trkpt>
+      <trkpt lat="-23.685868" lon="-46.776486"><ele>800.1</ele></trkpt>
+      <trkpt lat="-23.685908" lon="-46.776455"><ele>800.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

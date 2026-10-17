@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Avenida Hamilton</name>
+    <trkseg>
+      <trkpt lat="-23.684047" lon="-46.746316"><ele>797.5</ele></trkpt>
+      <trkpt lat="-23.683878" lon="-46.746257"><ele>787.5</ele></trkpt>
+      <trkpt lat="-23.683835" lon="-46.745590"><ele>776.9</ele></trkpt>
+      <trkpt lat="-23.683835" lon="-46.745590"><ele>776.9</ele></trkpt>
+      <trkpt lat="-23.683817" lon="-46.745274"><ele>775.5</ele></trkpt>
+      <trkpt lat="-23.683730" lon="-46.745071"><ele>771.3</ele></trkpt>
+      <trkpt lat="-23.683730" lon="-46.745071"><ele>771.3</ele></trkpt>
+      <trkpt lat="-23.683696" lon="-46.745062"><ele>771.3</ele></trkpt>
+      <trkpt lat="-23.683696" lon="-46.745062"><ele>771.3</ele></trkpt>
+      <trkpt lat="-23.683627" lon="-46.745046"><ele>771.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

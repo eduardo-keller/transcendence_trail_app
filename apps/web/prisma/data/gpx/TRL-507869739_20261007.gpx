@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Rubens de Souza</name>
+    <trkseg>
+      <trkpt lat="-23.351060" lon="-46.245249"><ele>732.6</ele></trkpt>
+      <trkpt lat="-23.351065" lon="-46.245157"><ele>732.6</ele></trkpt>
+      <trkpt lat="-23.351106" lon="-46.245075"><ele>735.7</ele></trkpt>
+      <trkpt lat="-23.351133" lon="-46.245033"><ele>735.7</ele></trkpt>
+      <trkpt lat="-23.351284" lon="-46.244871"><ele>732.3</ele></trkpt>
+      <trkpt lat="-23.351446" lon="-46.244735"><ele>732.4</ele></trkpt>
+      <trkpt lat="-23.351505" lon="-46.244631"><ele>732.4</ele></trkpt>
+      <trkpt lat="-23.351528" lon="-46.244511"><ele>726.6</ele></trkpt>
+      <trkpt lat="-23.351533" lon="-46.244436"><ele>726.6</ele></trkpt>
+      <trkpt lat="-23.351491" lon="-46.244121"><ele>726.3</ele></trkpt>
+      <trkpt lat="-23.351489" lon="-46.244017"><ele>725.7</ele></trkpt>
+      <trkpt lat="-23.351519" lon="-46.243535"><ele>727.5</ele></trkpt>
+      <trkpt lat="-23.351568" lon="-46.243023"><ele>722.8</ele></trkpt>
+      <trkpt lat="-23.351724" lon="-46.242256"><ele>717.5</ele></trkpt>
+      <trkpt lat="-23.351786" lon="-46.242123"><ele>717.5</ele></trkpt>
+      <trkpt lat="-23.351884" lon="-46.242012"><ele>720.5</ele></trkpt>
+      <trkpt lat="-23.352064" lon="-46.241875"><ele>720.5</ele></trkpt>
+      <trkpt lat="-23.352121" lon="-46.241866"><ele>725.1</ele></trkpt>
+      <trkpt lat="-23.352197" lon="-46.241872"><ele>725.1</ele></trkpt>
+      <trkpt lat="-23.352407" lon="-46.242043"><ele>727.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

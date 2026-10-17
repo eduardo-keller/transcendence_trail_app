@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua 37</name>
+    <trkseg>
+      <trkpt lat="-23.550117" lon="-46.657273"><ele>801.5</ele></trkpt>
+      <trkpt lat="-23.549912" lon="-46.656893"><ele>802.3</ele></trkpt>
+      <trkpt lat="-23.549810" lon="-46.656705"><ele>799.9</ele></trkpt>
+      <trkpt lat="-23.549715" lon="-46.656529"><ele>799.9</ele></trkpt>
+      <trkpt lat="-23.549617" lon="-46.656347"><ele>801.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

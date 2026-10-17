@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Bernardino Arzenti</name>
+    <trkseg>
+      <trkpt lat="-23.512460" lon="-46.464812"><ele>759.5</ele></trkpt>
+      <trkpt lat="-23.512496" lon="-46.464876"><ele>762.2</ele></trkpt>
+      <trkpt lat="-23.513032" lon="-46.465043"><ele>762.6</ele></trkpt>
+      <trkpt lat="-23.513063" lon="-46.465065"><ele>762.6</ele></trkpt>
+      <trkpt lat="-23.513143" lon="-46.465120"><ele>762.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

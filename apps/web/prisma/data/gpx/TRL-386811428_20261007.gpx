@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Pedro Voss</name>
+    <trkseg>
+      <trkpt lat="-23.560075" lon="-46.530249"><ele>776.3</ele></trkpt>
+      <trkpt lat="-23.560044" lon="-46.530309"><ele>776.3</ele></trkpt>
+      <trkpt lat="-23.559833" lon="-46.530699"><ele>782.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Irlanda</name>
+    <trkseg>
+      <trkpt lat="-23.634078" lon="-46.976671"><ele>849.0</ele></trkpt>
+      <trkpt lat="-23.633495" lon="-46.974474"><ele>825.1</ele></trkpt>
+      <trkpt lat="-23.633402" lon="-46.974168"><ele>812.3</ele></trkpt>
+      <trkpt lat="-23.633328" lon="-46.973964"><ele>804.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

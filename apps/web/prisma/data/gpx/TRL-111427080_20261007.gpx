@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Cesare Rincon</name>
+    <trkseg>
+      <trkpt lat="-23.619636" lon="-46.489858"><ele>791.8</ele></trkpt>
+      <trkpt lat="-23.619593" lon="-46.489869"><ele>796.3</ele></trkpt>
+      <trkpt lat="-23.619510" lon="-46.489905"><ele>795.4</ele></trkpt>
+      <trkpt lat="-23.619288" lon="-46.490085"><ele>790.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

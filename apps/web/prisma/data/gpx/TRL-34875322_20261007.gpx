@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Maria Olga Piva Menoncello</name>
+    <trkseg>
+      <trkpt lat="-23.525064" lon="-46.709285"><ele>744.5</ele></trkpt>
+      <trkpt lat="-23.525048" lon="-46.709202"><ele>744.5</ele></trkpt>
+      <trkpt lat="-23.525089" lon="-46.709193"><ele>744.5</ele></trkpt>
+      <trkpt lat="-23.525449" lon="-46.709112"><ele>749.0</ele></trkpt>
+      <trkpt lat="-23.525812" lon="-46.709032"><ele>751.7</ele></trkpt>
+      <trkpt lat="-23.525873" lon="-46.709018"><ele>751.0</ele></trkpt>
+      <trkpt lat="-23.525873" lon="-46.709018"><ele>751.0</ele></trkpt>
+      <trkpt lat="-23.525894" lon="-46.709014"><ele>751.0</ele></trkpt>
+      <trkpt lat="-23.525942" lon="-46.709003"><ele>751.0</ele></trkpt>
+      <trkpt lat="-23.526560" lon="-46.708866"><ele>753.7</ele></trkpt>
+      <trkpt lat="-23.526746" lon="-46.708824"><ele>753.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

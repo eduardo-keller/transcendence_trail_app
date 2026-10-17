@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Boulevard João Carlos Martins</name>
+    <trkseg>
+      <trkpt lat="-23.534552" lon="-46.638103"><ele>735.5</ele></trkpt>
+      <trkpt lat="-23.534588" lon="-46.637983"><ele>739.8</ele></trkpt>
+      <trkpt lat="-23.534723" lon="-46.637599"><ele>737.7</ele></trkpt>
+      <trkpt lat="-23.534826" lon="-46.637190"><ele>737.3</ele></trkpt>
+      <trkpt lat="-23.534930" lon="-46.636792"><ele>738.1</ele></trkpt>
+      <trkpt lat="-23.535098" lon="-46.636163"><ele>739.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

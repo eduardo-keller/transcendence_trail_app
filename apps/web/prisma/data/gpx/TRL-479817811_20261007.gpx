@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Dois de Julho</name>
+    <trkseg>
+      <trkpt lat="-23.618251" lon="-46.417864"><ele>869.8</ele></trkpt>
+      <trkpt lat="-23.618068" lon="-46.417791"><ele>856.8</ele></trkpt>
+      <trkpt lat="-23.617898" lon="-46.417710"><ele>850.3</ele></trkpt>
+      <trkpt lat="-23.617560" lon="-46.417548"><ele>854.2</ele></trkpt>
+      <trkpt lat="-23.616876" lon="-46.417232"><ele>836.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Cipó</name>
+    <trkseg>
+      <trkpt lat="-23.435185" lon="-46.435631"><ele>780.3</ele></trkpt>
+      <trkpt lat="-23.435756" lon="-46.435553"><ele>767.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

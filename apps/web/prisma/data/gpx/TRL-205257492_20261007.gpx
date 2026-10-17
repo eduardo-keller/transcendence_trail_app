@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Gerson Ferreira</name>
+    <trkseg>
+      <trkpt lat="-23.961858" lon="-46.282230"><ele>3.8</ele></trkpt>
+      <trkpt lat="-23.961748" lon="-46.282250"><ele>4.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

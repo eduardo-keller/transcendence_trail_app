@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Andres de Creta</name>
+    <trkseg>
+      <trkpt lat="-23.579225" lon="-46.504889"><ele>765.4</ele></trkpt>
+      <trkpt lat="-23.579512" lon="-46.504739"><ele>766.6</ele></trkpt>
+      <trkpt lat="-23.579603" lon="-46.504691"><ele>764.0</ele></trkpt>
+      <trkpt lat="-23.579753" lon="-46.504618"><ele>764.0</ele></trkpt>
+      <trkpt lat="-23.579914" lon="-46.504530"><ele>760.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

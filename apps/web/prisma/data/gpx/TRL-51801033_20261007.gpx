@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Tiburcio Rodrigues</name>
+    <trkseg>
+      <trkpt lat="-23.724741" lon="-46.690092"><ele>779.0</ele></trkpt>
+      <trkpt lat="-23.724731" lon="-46.690090"><ele>779.0</ele></trkpt>
+      <trkpt lat="-23.724642" lon="-46.690009"><ele>779.0</ele></trkpt>
+      <trkpt lat="-23.724614" lon="-46.689977"><ele>779.0</ele></trkpt>
+      <trkpt lat="-23.724548" lon="-46.689910"><ele>773.5</ele></trkpt>
+      <trkpt lat="-23.724506" lon="-46.689866"><ele>773.5</ele></trkpt>
+      <trkpt lat="-23.724370" lon="-46.689722"><ele>772.6</ele></trkpt>
+      <trkpt lat="-23.724344" lon="-46.689680"><ele>772.6</ele></trkpt>
+      <trkpt lat="-23.724307" lon="-46.689580"><ele>771.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

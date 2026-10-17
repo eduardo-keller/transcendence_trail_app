@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Júlio de Souza Dias</name>
+    <trkseg>
+      <trkpt lat="-23.657625" lon="-46.420657"><ele>816.1</ele></trkpt>
+      <trkpt lat="-23.657735" lon="-46.420566"><ele>818.2</ele></trkpt>
+      <trkpt lat="-23.658155" lon="-46.420320"><ele>831.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

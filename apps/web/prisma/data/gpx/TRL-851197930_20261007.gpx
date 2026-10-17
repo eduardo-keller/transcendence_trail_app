@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Camaratuba</name>
+    <trkseg>
+      <trkpt lat="-23.650234" lon="-46.493500"><ele>780.6</ele></trkpt>
+      <trkpt lat="-23.650351" lon="-46.493462"><ele>780.3</ele></trkpt>
+      <trkpt lat="-23.650346" lon="-46.493416"><ele>780.3</ele></trkpt>
+      <trkpt lat="-23.650445" lon="-46.493375"><ele>776.1</ele></trkpt>
+      <trkpt lat="-23.650583" lon="-46.493319"><ele>776.1</ele></trkpt>
+      <trkpt lat="-23.650671" lon="-46.493345"><ele>776.1</ele></trkpt>
+      <trkpt lat="-23.650727" lon="-46.493376"><ele>764.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

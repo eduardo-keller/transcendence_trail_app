@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passagem Jornalista José Trindade Celis</name>
+    <trkseg>
+      <trkpt lat="-23.527836" lon="-46.704911"><ele>735.4</ele></trkpt>
+      <trkpt lat="-23.527290" lon="-46.704718"><ele>738.3</ele></trkpt>
+      <trkpt lat="-23.527274" lon="-46.704709"><ele>738.3</ele></trkpt>
+      <trkpt lat="-23.526951" lon="-46.704434"><ele>736.3</ele></trkpt>
+      <trkpt lat="-23.526936" lon="-46.704431"><ele>736.3</ele></trkpt>
+      <trkpt lat="-23.526900" lon="-46.704414"><ele>736.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

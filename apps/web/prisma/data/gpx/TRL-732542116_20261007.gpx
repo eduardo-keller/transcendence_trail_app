@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rampa de acesso à Plataforma C</name>
+    <trkseg>
+      <trkpt lat="-23.652112" lon="-46.527119"><ele>749.6</ele></trkpt>
+      <trkpt lat="-23.652127" lon="-46.527136"><ele>749.6</ele></trkpt>
+      <trkpt lat="-23.651978" lon="-46.527299"><ele>750.5</ele></trkpt>
+      <trkpt lat="-23.651988" lon="-46.527310"><ele>750.5</ele></trkpt>
+      <trkpt lat="-23.652137" lon="-46.527147"><ele>749.6</ele></trkpt>
+      <trkpt lat="-23.652146" lon="-46.527157"><ele>749.6</ele></trkpt>
+      <trkpt lat="-23.651988" lon="-46.527330"><ele>750.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

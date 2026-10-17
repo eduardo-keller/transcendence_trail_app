@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Angelo Margarido</name>
+    <trkseg>
+      <trkpt lat="-23.616799" lon="-46.491929"><ele>836.9</ele></trkpt>
+      <trkpt lat="-23.616902" lon="-46.492329"><ele>836.4</ele></trkpt>
+      <trkpt lat="-23.616899" lon="-46.492357"><ele>836.4</ele></trkpt>
+      <trkpt lat="-23.616885" lon="-46.492367"><ele>839.4</ele></trkpt>
+      <trkpt lat="-23.616750" lon="-46.492423"><ele>840.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

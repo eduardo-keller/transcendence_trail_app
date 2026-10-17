@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela 30</name>
+    <trkseg>
+      <trkpt lat="-23.460653" lon="-46.280224"><ele>728.6</ele></trkpt>
+      <trkpt lat="-23.460552" lon="-46.280057"><ele>724.9</ele></trkpt>
+      <trkpt lat="-23.460468" lon="-46.279982"><ele>724.9</ele></trkpt>
+      <trkpt lat="-23.460429" lon="-46.279913"><ele>724.9</ele></trkpt>
+      <trkpt lat="-23.460345" lon="-46.279741"><ele>716.0</ele></trkpt>
+      <trkpt lat="-23.460222" lon="-46.279644"><ele>716.0</ele></trkpt>
+      <trkpt lat="-23.460035" lon="-46.279493"><ele>707.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

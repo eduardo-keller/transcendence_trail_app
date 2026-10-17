@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Osvaldo Soares de Castro</name>
+    <trkseg>
+      <trkpt lat="-23.558218" lon="-46.794646"><ele>783.4</ele></trkpt>
+      <trkpt lat="-23.558120" lon="-46.794089"><ele>768.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

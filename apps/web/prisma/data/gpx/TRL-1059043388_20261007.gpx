@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Lourdes</name>
+    <trkseg>
+      <trkpt lat="-23.417844" lon="-46.524335"><ele>837.5</ele></trkpt>
+      <trkpt lat="-23.417898" lon="-46.524626"><ele>837.2</ele></trkpt>
+      <trkpt lat="-23.418196" lon="-46.524477"><ele>830.1</ele></trkpt>
+      <trkpt lat="-23.418239" lon="-46.524612"><ele>825.8</ele></trkpt>
+      <trkpt lat="-23.418328" lon="-46.524569"><ele>830.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Estrada do Senhor Faustino</name>
+    <trkseg>
+      <trkpt lat="-23.688578" lon="-46.749833"><ele>772.0</ele></trkpt>
+      <trkpt lat="-23.688761" lon="-46.749796"><ele>772.5</ele></trkpt>
+      <trkpt lat="-23.688966" lon="-46.749713"><ele>772.5</ele></trkpt>
+      <trkpt lat="-23.688949" lon="-46.749617"><ele>772.5</ele></trkpt>
+      <trkpt lat="-23.688180" lon="-46.749083"><ele>778.1</ele></trkpt>
+      <trkpt lat="-23.688241" lon="-46.748605"><ele>778.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

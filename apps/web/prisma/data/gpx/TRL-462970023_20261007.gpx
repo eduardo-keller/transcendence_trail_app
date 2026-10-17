@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Monte das Oliveiras</name>
+    <trkseg>
+      <trkpt lat="-23.447348" lon="-46.690881"><ele>773.8</ele></trkpt>
+      <trkpt lat="-23.447363" lon="-46.690953"><ele>774.1</ele></trkpt>
+      <trkpt lat="-23.447346" lon="-46.691021"><ele>783.2</ele></trkpt>
+      <trkpt lat="-23.447337" lon="-46.691079"><ele>783.2</ele></trkpt>
+      <trkpt lat="-23.447336" lon="-46.691087"><ele>783.2</ele></trkpt>
+      <trkpt lat="-23.447338" lon="-46.691133"><ele>783.2</ele></trkpt>
+      <trkpt lat="-23.447337" lon="-46.691079"><ele>783.2</ele></trkpt>
+      <trkpt lat="-23.447293" lon="-46.691080"><ele>783.2</ele></trkpt>
+      <trkpt lat="-23.447236" lon="-46.691081"><ele>783.2</ele></trkpt>
+      <trkpt lat="-23.447241" lon="-46.691047"><ele>783.2</ele></trkpt>
+      <trkpt lat="-23.447236" lon="-46.691081"><ele>783.2</ele></trkpt>
+      <trkpt lat="-23.447233" lon="-46.691111"><ele>783.2</ele></trkpt>
+      <trkpt lat="-23.447225" lon="-46.691240"><ele>783.2</ele></trkpt>
+      <trkpt lat="-23.447227" lon="-46.691330"><ele>798.7</ele></trkpt>
+      <trkpt lat="-23.447227" lon="-46.691378"><ele>798.7</ele></trkpt>
+      <trkpt lat="-23.447219" lon="-46.691620"><ele>804.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

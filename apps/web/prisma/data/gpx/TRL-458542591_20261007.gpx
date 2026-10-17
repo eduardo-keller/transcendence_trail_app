@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Itú</name>
+    <trkseg>
+      <trkpt lat="-23.646244" lon="-46.606437"><ele>771.1</ele></trkpt>
+      <trkpt lat="-23.646164" lon="-46.605888"><ele>780.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

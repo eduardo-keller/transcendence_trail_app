@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Delmar Soares</name>
+    <trkseg>
+      <trkpt lat="-23.455641" lon="-46.644229"><ele>801.4</ele></trkpt>
+      <trkpt lat="-23.455360" lon="-46.644194"><ele>798.9</ele></trkpt>
+      <trkpt lat="-23.455185" lon="-46.644183"><ele>798.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

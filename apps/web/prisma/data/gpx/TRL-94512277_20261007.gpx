@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Galeria Central</name>
+    <trkseg>
+      <trkpt lat="-23.653823" lon="-46.528761"><ele>749.9</ele></trkpt>
+      <trkpt lat="-23.653864" lon="-46.528778"><ele>749.9</ele></trkpt>
+      <trkpt lat="-23.653875" lon="-46.528782"><ele>749.9</ele></trkpt>
+      <trkpt lat="-23.653894" lon="-46.528790"><ele>749.9</ele></trkpt>
+      <trkpt lat="-23.653894" lon="-46.528790"><ele>749.9</ele></trkpt>
+      <trkpt lat="-23.654300" lon="-46.528961"><ele>750.5</ele></trkpt>
+      <trkpt lat="-23.654320" lon="-46.528973"><ele>751.0</ele></trkpt>
+      <trkpt lat="-23.654336" lon="-46.528985"><ele>751.0</ele></trkpt>
+      <trkpt lat="-23.654402" lon="-46.529058"><ele>749.3</ele></trkpt>
+      <trkpt lat="-23.654425" lon="-46.529088"><ele>749.3</ele></trkpt>
+      <trkpt lat="-23.654453" lon="-46.529126"><ele>749.3</ele></trkpt>
+      <trkpt lat="-23.654453" lon="-46.529126"><ele>749.3</ele></trkpt>
+      <trkpt lat="-23.654467" lon="-46.529148"><ele>749.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

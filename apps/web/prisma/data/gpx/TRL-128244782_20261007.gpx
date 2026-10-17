@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua das Paisagens</name>
+    <trkseg>
+      <trkpt lat="-23.495110" lon="-46.696379"><ele>758.3</ele></trkpt>
+      <trkpt lat="-23.494723" lon="-46.696140"><ele>756.5</ele></trkpt>
+      <trkpt lat="-23.494692" lon="-46.696098"><ele>756.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

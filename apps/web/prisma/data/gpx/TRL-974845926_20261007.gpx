@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Calçada partilhada Viaduto Nove de Julho</name>
+    <trkseg>
+      <trkpt lat="-23.548015" lon="-46.642452"><ele>758.5</ele></trkpt>
+      <trkpt lat="-23.548103" lon="-46.642487"><ele>758.5</ele></trkpt>
+      <trkpt lat="-23.548894" lon="-46.642324"><ele>763.2</ele></trkpt>
+      <trkpt lat="-23.548894" lon="-46.642324"><ele>763.2</ele></trkpt>
+      <trkpt lat="-23.549393" lon="-46.642193"><ele>749.0</ele></trkpt>
+      <trkpt lat="-23.549859" lon="-46.642070"><ele>744.7</ele></trkpt>
+      <trkpt lat="-23.549859" lon="-46.642070"><ele>744.7</ele></trkpt>
+      <trkpt lat="-23.550164" lon="-46.642012"><ele>756.9</ele></trkpt>
+      <trkpt lat="-23.550473" lon="-46.641916"><ele>753.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

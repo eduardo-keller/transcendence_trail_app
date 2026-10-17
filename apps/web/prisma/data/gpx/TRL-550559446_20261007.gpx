@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Contagem</name>
+    <trkseg>
+      <trkpt lat="-23.417878" lon="-46.460002"><ele>755.5</ele></trkpt>
+      <trkpt lat="-23.418126" lon="-46.460569"><ele>754.1</ele></trkpt>
+      <trkpt lat="-23.418126" lon="-46.460569"><ele>754.1</ele></trkpt>
+      <trkpt lat="-23.418362" lon="-46.461091"><ele>750.9</ele></trkpt>
+      <trkpt lat="-23.418362" lon="-46.461091"><ele>750.9</ele></trkpt>
+      <trkpt lat="-23.418610" lon="-46.461646"><ele>749.5</ele></trkpt>
+      <trkpt lat="-23.418610" lon="-46.461646"><ele>749.5</ele></trkpt>
+      <trkpt lat="-23.418661" lon="-46.461758"><ele>749.5</ele></trkpt>
+      <trkpt lat="-23.418844" lon="-46.462172"><ele>750.3</ele></trkpt>
+      <trkpt lat="-23.418844" lon="-46.462172"><ele>750.3</ele></trkpt>
+      <trkpt lat="-23.419083" lon="-46.462695"><ele>749.8</ele></trkpt>
+      <trkpt lat="-23.419083" lon="-46.462695"><ele>749.8</ele></trkpt>
+      <trkpt lat="-23.419325" lon="-46.463233"><ele>749.1</ele></trkpt>
+      <trkpt lat="-23.419325" lon="-46.463233"><ele>749.1</ele></trkpt>
+      <trkpt lat="-23.419570" lon="-46.463778"><ele>748.4</ele></trkpt>
+      <trkpt lat="-23.419802" lon="-46.464304"><ele>747.8</ele></trkpt>
+      <trkpt lat="-23.420057" lon="-46.464857"><ele>745.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

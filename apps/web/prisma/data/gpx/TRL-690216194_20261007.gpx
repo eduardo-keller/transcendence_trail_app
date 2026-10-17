@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Caminho do Maremonti</name>
+    <trkseg>
+      <trkpt lat="-23.594705" lon="-46.681458"><ele>726.4</ele></trkpt>
+      <trkpt lat="-23.594680" lon="-46.681423"><ele>726.4</ele></trkpt>
+      <trkpt lat="-23.594671" lon="-46.681396"><ele>726.4</ele></trkpt>
+      <trkpt lat="-23.594662" lon="-46.681365"><ele>726.4</ele></trkpt>
+      <trkpt lat="-23.594651" lon="-46.681322"><ele>726.4</ele></trkpt>
+      <trkpt lat="-23.594645" lon="-46.681308"><ele>726.4</ele></trkpt>
+      <trkpt lat="-23.594628" lon="-46.681247"><ele>724.4</ele></trkpt>
+      <trkpt lat="-23.594623" lon="-46.681222"><ele>724.4</ele></trkpt>
+      <trkpt lat="-23.594584" lon="-46.681236"><ele>724.4</ele></trkpt>
+      <trkpt lat="-23.594554" lon="-46.681244"><ele>725.9</ele></trkpt>
+      <trkpt lat="-23.594539" lon="-46.681259"><ele>731.9</ele></trkpt>
+      <trkpt lat="-23.594540" lon="-46.681289"><ele>731.9</ele></trkpt>
+      <trkpt lat="-23.594547" lon="-46.681320"><ele>731.9</ele></trkpt>
+      <trkpt lat="-23.594566" lon="-46.681340"><ele>731.9</ele></trkpt>
+      <trkpt lat="-23.594579" lon="-46.681355"><ele>731.9</ele></trkpt>
+      <trkpt lat="-23.594570" lon="-46.681378"><ele>731.9</ele></trkpt>
+      <trkpt lat="-23.594573" lon="-46.681411"><ele>731.9</ele></trkpt>
+      <trkpt lat="-23.594586" lon="-46.681441"><ele>726.4</ele></trkpt>
+      <trkpt lat="-23.594599" lon="-46.681473"><ele>726.4</ele></trkpt>
+      <trkpt lat="-23.594609" lon="-46.681526"><ele>726.4</ele></trkpt>
+      <trkpt lat="-23.594633" lon="-46.681524"><ele>726.4</ele></trkpt>
+      <trkpt lat="-23.594654" lon="-46.681509"><ele>726.4</ele></trkpt>
+      <trkpt lat="-23.594675" lon="-46.681494"><ele>726.4</ele></trkpt>
+      <trkpt lat="-23.594684" lon="-46.681479"><ele>726.4</ele></trkpt>
+      <trkpt lat="-23.594696" lon="-46.681465"><ele>726.4</ele></trkpt>
+      <trkpt lat="-23.594705" lon="-46.681458"><ele>726.4</ele></trkpt>
+      <trkpt lat="-23.594705" lon="-46.681458"><ele>726.4</ele></trkpt>
+      <trkpt lat="-23.594737" lon="-46.681434"><ele>726.4</ele></trkpt>
+      <trkpt lat="-23.594868" lon="-46.681403"><ele>727.4</ele></trkpt>
+      <trkpt lat="-23.594868" lon="-46.681403"><ele>727.4</ele></trkpt>
+      <trkpt lat="-23.594705" lon="-46.681458"><ele>726.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

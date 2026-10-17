@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Saldado Elisio da Rocha Passos</name>
+    <trkseg>
+      <trkpt lat="-23.459960" lon="-46.531075"><ele>750.6</ele></trkpt>
+      <trkpt lat="-23.460001" lon="-46.531160"><ele>750.6</ele></trkpt>
+      <trkpt lat="-23.460001" lon="-46.531160"><ele>750.6</ele></trkpt>
+      <trkpt lat="-23.460249" lon="-46.531686"><ele>758.5</ele></trkpt>
+      <trkpt lat="-23.460249" lon="-46.531686"><ele>758.5</ele></trkpt>
+      <trkpt lat="-23.460306" lon="-46.531804"><ele>758.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

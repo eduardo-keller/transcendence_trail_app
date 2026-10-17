@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Orsano Ferreira dos Santos</name>
+    <trkseg>
+      <trkpt lat="-23.669930" lon="-46.478496"><ele>787.1</ele></trkpt>
+      <trkpt lat="-23.669645" lon="-46.477984"><ele>799.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

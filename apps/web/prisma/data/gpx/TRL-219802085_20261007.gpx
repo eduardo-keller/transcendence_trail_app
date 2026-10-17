@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Francisco Enande</name>
+    <trkseg>
+      <trkpt lat="-23.522419" lon="-46.346294"><ele>748.9</ele></trkpt>
+      <trkpt lat="-23.522502" lon="-46.346942"><ele>750.7</ele></trkpt>
+      <trkpt lat="-23.522546" lon="-46.347003"><ele>750.7</ele></trkpt>
+      <trkpt lat="-23.522570" lon="-46.347426"><ele>752.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

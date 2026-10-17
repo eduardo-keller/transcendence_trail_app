@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Largo dos Padeiros</name>
+    <trkseg>
+      <trkpt lat="-23.778514" lon="-46.302317"><ele>800.7</ele></trkpt>
+      <trkpt lat="-23.778516" lon="-46.302302"><ele>800.7</ele></trkpt>
+      <trkpt lat="-23.778520" lon="-46.302270"><ele>800.7</ele></trkpt>
+      <trkpt lat="-23.778754" lon="-46.302310"><ele>803.7</ele></trkpt>
+      <trkpt lat="-23.778752" lon="-46.302326"><ele>803.7</ele></trkpt>
+      <trkpt lat="-23.778749" lon="-46.302341"><ele>800.7</ele></trkpt>
+      <trkpt lat="-23.778749" lon="-46.302348"><ele>800.7</ele></trkpt>
+      <trkpt lat="-23.778765" lon="-46.302351"><ele>803.7</ele></trkpt>
+      <trkpt lat="-23.778781" lon="-46.302353"><ele>803.7</ele></trkpt>
+      <trkpt lat="-23.778811" lon="-46.302358"><ele>803.7</ele></trkpt>
+      <trkpt lat="-23.778860" lon="-46.302160"><ele>803.7</ele></trkpt>
+      <trkpt lat="-23.778865" lon="-46.302143"><ele>803.7</ele></trkpt>
+      <trkpt lat="-23.778879" lon="-46.302088"><ele>803.7</ele></trkpt>
+      <trkpt lat="-23.778864" lon="-46.302081"><ele>803.8</ele></trkpt>
+      <trkpt lat="-23.778848" lon="-46.302075"><ele>803.8</ele></trkpt>
+      <trkpt lat="-23.778831" lon="-46.302068"><ele>803.8</ele></trkpt>
+      <trkpt lat="-23.778795" lon="-46.302052"><ele>803.8</ele></trkpt>
+      <trkpt lat="-23.778596" lon="-46.302130"><ele>800.7</ele></trkpt>
+      <trkpt lat="-23.778440" lon="-46.302205"><ele>798.7</ele></trkpt>
+      <trkpt lat="-23.778436" lon="-46.302315"><ele>798.7</ele></trkpt>
+      <trkpt lat="-23.778514" lon="-46.302317"><ele>800.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

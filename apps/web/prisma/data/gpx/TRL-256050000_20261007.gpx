@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Balins</name>
+    <trkseg>
+      <trkpt lat="-23.482578" lon="-46.584899"><ele>745.2</ele></trkpt>
+      <trkpt lat="-23.482550" lon="-46.584933"><ele>745.2</ele></trkpt>
+      <trkpt lat="-23.482471" lon="-46.585059"><ele>745.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Nicolas Lacuna</name>
+    <trkseg>
+      <trkpt lat="-23.760134" lon="-46.665859"><ele>788.1</ele></trkpt>
+      <trkpt lat="-23.759724" lon="-46.666032"><ele>789.2</ele></trkpt>
+      <trkpt lat="-23.759532" lon="-46.666230"><ele>791.1</ele></trkpt>
+      <trkpt lat="-23.759473" lon="-46.666414"><ele>787.5</ele></trkpt>
+      <trkpt lat="-23.759500" lon="-46.666551"><ele>787.6</ele></trkpt>
+      <trkpt lat="-23.759730" lon="-46.666834"><ele>789.4</ele></trkpt>
+      <trkpt lat="-23.759759" lon="-46.666922"><ele>789.4</ele></trkpt>
+      <trkpt lat="-23.759747" lon="-46.667043"><ele>789.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

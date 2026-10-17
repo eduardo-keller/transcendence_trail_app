@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Japira</name>
+    <trkseg>
+      <trkpt lat="-23.430101" lon="-46.432994"><ele>780.1</ele></trkpt>
+      <trkpt lat="-23.429633" lon="-46.433292"><ele>775.9</ele></trkpt>
+      <trkpt lat="-23.429465" lon="-46.433394"><ele>772.0</ele></trkpt>
+      <trkpt lat="-23.429370" lon="-46.433452"><ele>772.0</ele></trkpt>
+      <trkpt lat="-23.429164" lon="-46.433578"><ele>766.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

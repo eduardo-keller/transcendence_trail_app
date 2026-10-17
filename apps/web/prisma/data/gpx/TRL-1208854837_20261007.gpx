@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua 39</name>
+    <trkseg>
+      <trkpt lat="-23.549018" lon="-46.655691"><ele>799.7</ele></trkpt>
+      <trkpt lat="-23.549443" lon="-46.656465"><ele>799.8</ele></trkpt>
+      <trkpt lat="-23.549639" lon="-46.656823"><ele>799.4</ele></trkpt>
+      <trkpt lat="-23.549954" lon="-46.657401"><ele>799.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela José Rufino de Santana</name>
+    <trkseg>
+      <trkpt lat="-23.718444" lon="-46.856794"><ele>855.3</ele></trkpt>
+      <trkpt lat="-23.718380" lon="-46.856245"><ele>837.5</ele></trkpt>
+      <trkpt lat="-23.718363" lon="-46.856167"><ele>837.5</ele></trkpt>
+      <trkpt lat="-23.718240" lon="-46.855752"><ele>835.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

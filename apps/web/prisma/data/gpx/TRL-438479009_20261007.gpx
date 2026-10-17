@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Alameda do Sistema Solar</name>
+    <trkseg>
+      <trkpt lat="-23.649494" lon="-46.623058"><ele>789.4</ele></trkpt>
+      <trkpt lat="-23.649690" lon="-46.622988"><ele>788.9</ele></trkpt>
+      <trkpt lat="-23.649841" lon="-46.622902"><ele>786.4</ele></trkpt>
+      <trkpt lat="-23.649920" lon="-46.622844"><ele>790.9</ele></trkpt>
+      <trkpt lat="-23.649992" lon="-46.622785"><ele>790.9</ele></trkpt>
+      <trkpt lat="-23.650190" lon="-46.622637"><ele>797.6</ele></trkpt>
+      <trkpt lat="-23.650264" lon="-46.622601"><ele>797.6</ele></trkpt>
+      <trkpt lat="-23.650394" lon="-46.622555"><ele>797.6</ele></trkpt>
+      <trkpt lat="-23.650509" lon="-46.622558"><ele>797.4</ele></trkpt>
+      <trkpt lat="-23.650544" lon="-46.622557"><ele>797.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

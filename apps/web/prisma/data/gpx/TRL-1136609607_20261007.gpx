@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Gustavo Gomez</name>
+    <trkseg>
+      <trkpt lat="-23.641389" lon="-46.602255"><ele>753.4</ele></trkpt>
+      <trkpt lat="-23.641658" lon="-46.602820"><ele>754.8</ele></trkpt>
+      <trkpt lat="-23.641758" lon="-46.603025"><ele>759.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Estrada da Pedra do Elefante</name>
+    <trkseg>
+      <trkpt lat="-23.646104" lon="-46.371121"><ele>859.8</ele></trkpt>
+      <trkpt lat="-23.645167" lon="-46.370233"><ele>880.9</ele></trkpt>
+      <trkpt lat="-23.644648" lon="-46.369733"><ele>904.6</ele></trkpt>
+      <trkpt lat="-23.644426" lon="-46.369570"><ele>915.0</ele></trkpt>
+      <trkpt lat="-23.644100" lon="-46.369517"><ele>920.5</ele></trkpt>
+      <trkpt lat="-23.643935" lon="-46.369462"><ele>926.0</ele></trkpt>
+      <trkpt lat="-23.643754" lon="-46.369323"><ele>926.0</ele></trkpt>
+      <trkpt lat="-23.643432" lon="-46.368954"><ele>943.1</ele></trkpt>
+      <trkpt lat="-23.643362" lon="-46.368853"><ele>943.1</ele></trkpt>
+      <trkpt lat="-23.643321" lon="-46.368668"><ele>945.4</ele></trkpt>
+      <trkpt lat="-23.643324" lon="-46.368442"><ele>948.6</ele></trkpt>
+      <trkpt lat="-23.643538" lon="-46.367391"><ele>969.3</ele></trkpt>
+      <trkpt lat="-23.643557" lon="-46.367026"><ele>979.9</ele></trkpt>
+      <trkpt lat="-23.643562" lon="-46.366879"><ele>979.9</ele></trkpt>
+      <trkpt lat="-23.643390" lon="-46.366458"><ele>991.9</ele></trkpt>
+      <trkpt lat="-23.643252" lon="-46.366018"><ele>992.3</ele></trkpt>
+      <trkpt lat="-23.643164" lon="-46.365889"><ele>990.0</ele></trkpt>
+      <trkpt lat="-23.642995" lon="-46.365747"><ele>990.0</ele></trkpt>
+      <trkpt lat="-23.642741" lon="-46.365645"><ele>984.3</ele></trkpt>
+      <trkpt lat="-23.642560" lon="-46.365513"><ele>983.1</ele></trkpt>
+      <trkpt lat="-23.642443" lon="-46.365384"><ele>981.3</ele></trkpt>
+      <trkpt lat="-23.642381" lon="-46.365261"><ele>981.3</ele></trkpt>
+      <trkpt lat="-23.642351" lon="-46.365071"><ele>978.4</ele></trkpt>
+      <trkpt lat="-23.642400" lon="-46.364634"><ele>978.5</ele></trkpt>
+      <trkpt lat="-23.642451" lon="-46.364282"><ele>974.0</ele></trkpt>
+      <trkpt lat="-23.642464" lon="-46.364139"><ele>974.0</ele></trkpt>
+      <trkpt lat="-23.642466" lon="-46.363798"><ele>979.8</ele></trkpt>
+      <trkpt lat="-23.642439" lon="-46.363699"><ele>982.7</ele></trkpt>
+      <trkpt lat="-23.642390" lon="-46.363650"><ele>982.7</ele></trkpt>
+      <trkpt lat="-23.642287" lon="-46.363632"><ele>983.4</ele></trkpt>
+      <trkpt lat="-23.642194" lon="-46.363661"><ele>983.4</ele></trkpt>
+      <trkpt lat="-23.642135" lon="-46.363709"><ele>983.4</ele></trkpt>
+      <trkpt lat="-23.642105" lon="-46.363809"><ele>976.5</ele></trkpt>
+      <trkpt lat="-23.642115" lon="-46.363878"><ele>976.5</ele></trkpt>
+      <trkpt lat="-23.642464" lon="-46.364139"><ele>974.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

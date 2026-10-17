@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Estrada Aguaçaí</name>
+    <trkseg>
+      <trkpt lat="-23.662949" lon="-47.071992"><ele>871.7</ele></trkpt>
+      <trkpt lat="-23.663089" lon="-47.072097"><ele>864.6</ele></trkpt>
+      <trkpt lat="-23.663164" lon="-47.072131"><ele>864.6</ele></trkpt>
+      <trkpt lat="-23.663372" lon="-47.072246"><ele>868.3</ele></trkpt>
+      <trkpt lat="-23.663556" lon="-47.072328"><ele>870.0</ele></trkpt>
+      <trkpt lat="-23.663720" lon="-47.072397"><ele>865.5</ele></trkpt>
+      <trkpt lat="-23.663921" lon="-47.072469"><ele>867.5</ele></trkpt>
+      <trkpt lat="-23.664561" lon="-47.072647"><ele>867.9</ele></trkpt>
+      <trkpt lat="-23.664680" lon="-47.072674"><ele>869.6</ele></trkpt>
+      <trkpt lat="-23.664765" lon="-47.072683"><ele>869.6</ele></trkpt>
+      <trkpt lat="-23.664849" lon="-47.072681"><ele>869.6</ele></trkpt>
+      <trkpt lat="-23.665177" lon="-47.072620"><ele>878.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

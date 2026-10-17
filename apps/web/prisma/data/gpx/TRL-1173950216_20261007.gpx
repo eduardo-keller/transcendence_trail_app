@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua José Rodrigues da Costa</name>
+    <trkseg>
+      <trkpt lat="-23.534899" lon="-46.811430"><ele>758.5</ele></trkpt>
+      <trkpt lat="-23.534929" lon="-46.811382"><ele>758.5</ele></trkpt>
+      <trkpt lat="-23.534960" lon="-46.811328"><ele>758.5</ele></trkpt>
+      <trkpt lat="-23.535092" lon="-46.811217"><ele>756.7</ele></trkpt>
+      <trkpt lat="-23.535465" lon="-46.811377"><ele>753.3</ele></trkpt>
+      <trkpt lat="-23.535492" lon="-46.811382"><ele>753.3</ele></trkpt>
+      <trkpt lat="-23.535558" lon="-46.811360"><ele>753.3</ele></trkpt>
+      <trkpt lat="-23.535632" lon="-46.811355"><ele>753.3</ele></trkpt>
+      <trkpt lat="-23.535686" lon="-46.811334"><ele>753.3</ele></trkpt>
+      <trkpt lat="-23.535731" lon="-46.811317"><ele>748.2</ele></trkpt>
+      <trkpt lat="-23.535809" lon="-46.811317"><ele>748.2</ele></trkpt>
+      <trkpt lat="-23.535888" lon="-46.811328"><ele>748.2</ele></trkpt>
+      <trkpt lat="-23.536412" lon="-46.811338"><ele>741.6</ele></trkpt>
+      <trkpt lat="-23.537299" lon="-46.811666"><ele>735.9</ele></trkpt>
+      <trkpt lat="-23.538094" lon="-46.811870"><ele>732.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

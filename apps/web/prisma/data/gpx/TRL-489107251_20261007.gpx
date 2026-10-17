@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela do Chile</name>
+    <trkseg>
+      <trkpt lat="-23.651714" lon="-46.611927"><ele>778.5</ele></trkpt>
+      <trkpt lat="-23.651687" lon="-46.611759"><ele>778.4</ele></trkpt>
+      <trkpt lat="-23.651702" lon="-46.611593"><ele>778.4</ele></trkpt>
+      <trkpt lat="-23.651682" lon="-46.611486"><ele>777.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

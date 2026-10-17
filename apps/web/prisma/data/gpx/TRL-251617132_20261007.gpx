@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passarela Aldo José Vidor</name>
+    <trkseg>
+      <trkpt lat="-23.684656" lon="-46.567064"><ele>796.7</ele></trkpt>
+      <trkpt lat="-23.684963" lon="-46.566960"><ele>794.1</ele></trkpt>
+      <trkpt lat="-23.684956" lon="-46.566937"><ele>794.1</ele></trkpt>
+      <trkpt lat="-23.684723" lon="-46.567017"><ele>796.7</ele></trkpt>
+      <trkpt lat="-23.684723" lon="-46.567017"><ele>796.7</ele></trkpt>
+      <trkpt lat="-23.684706" lon="-46.566957"><ele>796.7</ele></trkpt>
+      <trkpt lat="-23.684491" lon="-46.566204"><ele>802.2</ele></trkpt>
+      <trkpt lat="-23.684480" lon="-46.566164"><ele>802.2</ele></trkpt>
+      <trkpt lat="-23.684480" lon="-46.566164"><ele>802.2</ele></trkpt>
+      <trkpt lat="-23.684734" lon="-46.566078"><ele>801.7</ele></trkpt>
+      <trkpt lat="-23.684722" lon="-46.566037"><ele>801.7</ele></trkpt>
+      <trkpt lat="-23.684504" lon="-46.566111"><ele>802.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

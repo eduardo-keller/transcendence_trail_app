@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Paratura</name>
+    <trkseg>
+      <trkpt lat="-23.612745" lon="-46.514923"><ele>781.4</ele></trkpt>
+      <trkpt lat="-23.612786" lon="-46.514872"><ele>781.4</ele></trkpt>
+      <trkpt lat="-23.612842" lon="-46.514821"><ele>788.7</ele></trkpt>
+      <trkpt lat="-23.612897" lon="-46.514782"><ele>788.7</ele></trkpt>
+      <trkpt lat="-23.613009" lon="-46.514677"><ele>779.6</ele></trkpt>
+      <trkpt lat="-23.613058" lon="-46.514624"><ele>779.6</ele></trkpt>
+      <trkpt lat="-23.613082" lon="-46.514559"><ele>782.3</ele></trkpt>
+      <trkpt lat="-23.613097" lon="-46.514469"><ele>782.3</ele></trkpt>
+      <trkpt lat="-23.613097" lon="-46.514459"><ele>782.3</ele></trkpt>
+      <trkpt lat="-23.613133" lon="-46.513981"><ele>784.4</ele></trkpt>
+      <trkpt lat="-23.613122" lon="-46.513913"><ele>784.4</ele></trkpt>
+      <trkpt lat="-23.613075" lon="-46.513787"><ele>784.4</ele></trkpt>
+      <trkpt lat="-23.612921" lon="-46.513431"><ele>784.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

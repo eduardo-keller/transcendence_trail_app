@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Trilha do Bica</name>
+    <trkseg>
+      <trkpt lat="-23.456651" lon="-46.759424"><ele>833.2</ele></trkpt>
+      <trkpt lat="-23.456675" lon="-46.759386"><ele>833.2</ele></trkpt>
+      <trkpt lat="-23.456756" lon="-46.759301"><ele>826.0</ele></trkpt>
+      <trkpt lat="-23.456870" lon="-46.759209"><ele>833.0</ele></trkpt>
+      <trkpt lat="-23.456958" lon="-46.759089"><ele>833.0</ele></trkpt>
+      <trkpt lat="-23.457087" lon="-46.758922"><ele>832.6</ele></trkpt>
+      <trkpt lat="-23.457175" lon="-46.758834"><ele>832.6</ele></trkpt>
+      <trkpt lat="-23.457253" lon="-46.758759"><ele>832.6</ele></trkpt>
+      <trkpt lat="-23.457337" lon="-46.758685"><ele>823.4</ele></trkpt>
+      <trkpt lat="-23.457470" lon="-46.758639"><ele>826.6</ele></trkpt>
+      <trkpt lat="-23.457617" lon="-46.758692"><ele>826.6</ele></trkpt>
+      <trkpt lat="-23.457896" lon="-46.758660"><ele>823.1</ele></trkpt>
+      <trkpt lat="-23.458094" lon="-46.758593"><ele>824.7</ele></trkpt>
+      <trkpt lat="-23.458298" lon="-46.758529"><ele>824.6</ele></trkpt>
+      <trkpt lat="-23.458435" lon="-46.758466"><ele>814.0</ele></trkpt>
+      <trkpt lat="-23.458590" lon="-46.758398"><ele>818.3</ele></trkpt>
+      <trkpt lat="-23.458789" lon="-46.758236"><ele>824.5</ele></trkpt>
+      <trkpt lat="-23.458915" lon="-46.758147"><ele>819.4</ele></trkpt>
+      <trkpt lat="-23.459165" lon="-46.757998"><ele>825.8</ele></trkpt>
+      <trkpt lat="-23.459373" lon="-46.757839"><ele>819.6</ele></trkpt>
+      <trkpt lat="-23.459444" lon="-46.757747"><ele>819.6</ele></trkpt>
+      <trkpt lat="-23.459659" lon="-46.757648"><ele>817.8</ele></trkpt>
+      <trkpt lat="-23.459850" lon="-46.757595"><ele>810.9</ele></trkpt>
+      <trkpt lat="-23.459980" lon="-46.757577"><ele>807.4</ele></trkpt>
+      <trkpt lat="-23.460172" lon="-46.757623"><ele>803.2</ele></trkpt>
+      <trkpt lat="-23.460344" lon="-46.757609"><ele>803.2</ele></trkpt>
+      <trkpt lat="-23.460418" lon="-46.757528"><ele>803.1</ele></trkpt>
+      <trkpt lat="-23.460548" lon="-46.757531"><ele>803.1</ele></trkpt>
+      <trkpt lat="-23.460740" lon="-46.757542"><ele>805.3</ele></trkpt>
+      <trkpt lat="-23.461000" lon="-46.757376"><ele>806.1</ele></trkpt>
+      <trkpt lat="-23.461159" lon="-46.757330"><ele>801.5</ele></trkpt>
+      <trkpt lat="-23.461376" lon="-46.757206"><ele>801.7</ele></trkpt>
+      <trkpt lat="-23.461586" lon="-46.757100"><ele>805.2</ele></trkpt>
+      <trkpt lat="-23.461698" lon="-46.756988"><ele>804.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

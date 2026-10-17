@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Palmital</name>
+    <trkseg>
+      <trkpt lat="-23.660501" lon="-46.371343"><ele>837.2</ele></trkpt>
+      <trkpt lat="-23.660778" lon="-46.370693"><ele>808.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

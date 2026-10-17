@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passarela Metálica</name>
+    <trkseg>
+      <trkpt lat="-23.778350" lon="-46.302391"><ele>800.0</ele></trkpt>
+      <trkpt lat="-23.778134" lon="-46.302427"><ele>799.7</ele></trkpt>
+      <trkpt lat="-23.777920" lon="-46.302459"><ele>799.7</ele></trkpt>
+      <trkpt lat="-23.777920" lon="-46.302459"><ele>799.7</ele></trkpt>
+      <trkpt lat="-23.777913" lon="-46.302476"><ele>798.9</ele></trkpt>
+      <trkpt lat="-23.777924" lon="-46.302802"><ele>799.7</ele></trkpt>
+      <trkpt lat="-23.777932" lon="-46.303368"><ele>801.6</ele></trkpt>
+      <trkpt lat="-23.777936" lon="-46.303490"><ele>811.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

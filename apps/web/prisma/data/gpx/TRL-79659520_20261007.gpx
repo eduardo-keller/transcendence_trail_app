@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Praça Coronel Fernando Prestes</name>
+    <trkseg>
+      <trkpt lat="-23.530314" lon="-46.634304"><ele>739.2</ele></trkpt>
+      <trkpt lat="-23.530390" lon="-46.633987"><ele>740.9</ele></trkpt>
+      <trkpt lat="-23.530396" lon="-46.633845"><ele>740.9</ele></trkpt>
+      <trkpt lat="-23.530401" lon="-46.633736"><ele>740.8</ele></trkpt>
+      <trkpt lat="-23.530402" lon="-46.633701"><ele>740.8</ele></trkpt>
+      <trkpt lat="-23.530545" lon="-46.633126"><ele>743.3</ele></trkpt>
+      <trkpt lat="-23.530572" lon="-46.633016"><ele>743.3</ele></trkpt>
+      <trkpt lat="-23.530718" lon="-46.632423"><ele>736.7</ele></trkpt>
+      <trkpt lat="-23.530737" lon="-46.632349"><ele>734.8</ele></trkpt>
+      <trkpt lat="-23.530607" lon="-46.632310"><ele>733.9</ele></trkpt>
+      <trkpt lat="-23.530589" lon="-46.632383"><ele>736.8</ele></trkpt>
+      <trkpt lat="-23.530422" lon="-46.633028"><ele>743.3</ele></trkpt>
+      <trkpt lat="-23.530265" lon="-46.633638"><ele>740.8</ele></trkpt>
+      <trkpt lat="-23.530245" lon="-46.633713"><ele>740.8</ele></trkpt>
+      <trkpt lat="-23.530197" lon="-46.633843"><ele>740.9</ele></trkpt>
+      <trkpt lat="-23.530160" lon="-46.633919"><ele>740.9</ele></trkpt>
+      <trkpt lat="-23.530160" lon="-46.633919"><ele>740.9</ele></trkpt>
+      <trkpt lat="-23.530138" lon="-46.633962"><ele>737.3</ele></trkpt>
+      <trkpt lat="-23.530112" lon="-46.633997"><ele>737.3</ele></trkpt>
+      <trkpt lat="-23.530037" lon="-46.634062"><ele>735.6</ele></trkpt>
+      <trkpt lat="-23.529995" lon="-46.634127"><ele>735.6</ele></trkpt>
+      <trkpt lat="-23.529963" lon="-46.634200"><ele>735.6</ele></trkpt>
+    </trkseg>
+    <trkseg>
+      <trkpt lat="-23.530396" lon="-46.633845"><ele>740.9</ele></trkpt>
+      <trkpt lat="-23.530197" lon="-46.633843"><ele>740.9</ele></trkpt>
+    </trkseg>
+    <trkseg>
+      <trkpt lat="-23.530545" lon="-46.633126"><ele>743.3</ele></trkpt>
+      <trkpt lat="-23.530422" lon="-46.633028"><ele>743.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

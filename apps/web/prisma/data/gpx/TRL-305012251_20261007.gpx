@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Estrada do Jamil</name>
+    <trkseg>
+      <trkpt lat="-23.936008" lon="-46.643002"><ele>739.3</ele></trkpt>
+      <trkpt lat="-23.936073" lon="-46.643175"><ele>739.3</ele></trkpt>
+      <trkpt lat="-23.936095" lon="-46.643234"><ele>738.0</ele></trkpt>
+      <trkpt lat="-23.936113" lon="-46.643283"><ele>738.0</ele></trkpt>
+      <trkpt lat="-23.936325" lon="-46.643569"><ele>746.9</ele></trkpt>
+      <trkpt lat="-23.936212" lon="-46.643773"><ele>747.5</ele></trkpt>
+      <trkpt lat="-23.935437" lon="-46.644323"><ele>751.6</ele></trkpt>
+      <trkpt lat="-23.935345" lon="-46.644664"><ele>740.6</ele></trkpt>
+      <trkpt lat="-23.935388" lon="-46.645557"><ele>735.0</ele></trkpt>
+      <trkpt lat="-23.935594" lon="-46.646544"><ele>736.1</ele></trkpt>
+      <trkpt lat="-23.936022" lon="-46.647518"><ele>725.4</ele></trkpt>
+      <trkpt lat="-23.936418" lon="-46.648271"><ele>716.3</ele></trkpt>
+      <trkpt lat="-23.937002" lon="-46.649771"><ele>718.9</ele></trkpt>
+      <trkpt lat="-23.937536" lon="-46.651039"><ele>720.6</ele></trkpt>
+      <trkpt lat="-23.938012" lon="-46.652367"><ele>735.4</ele></trkpt>
+      <trkpt lat="-23.937761" lon="-46.653389"><ele>727.9</ele></trkpt>
+      <trkpt lat="-23.937910" lon="-46.655109"><ele>720.3</ele></trkpt>
+      <trkpt lat="-23.938440" lon="-46.655645"><ele>726.5</ele></trkpt>
+      <trkpt lat="-23.938763" lon="-46.655978"><ele>711.2</ele></trkpt>
+      <trkpt lat="-23.939175" lon="-46.655635"><ele>718.8</ele></trkpt>
+      <trkpt lat="-23.939450" lon="-46.655141"><ele>714.8</ele></trkpt>
+      <trkpt lat="-23.939587" lon="-46.654615"><ele>704.2</ele></trkpt>
+      <trkpt lat="-23.939891" lon="-46.653757"><ele>704.8</ele></trkpt>
+      <trkpt lat="-23.940098" lon="-46.653453"><ele>707.1</ele></trkpt>
+      <trkpt lat="-23.940216" lon="-46.653391"><ele>703.4</ele></trkpt>
+      <trkpt lat="-23.940357" lon="-46.653399"><ele>703.4</ele></trkpt>
+      <trkpt lat="-23.940676" lon="-46.653242"><ele>703.6</ele></trkpt>
+      <trkpt lat="-23.940855" lon="-46.653154"><ele>704.0</ele></trkpt>
+      <trkpt lat="-23.940800" lon="-46.653021"><ele>704.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

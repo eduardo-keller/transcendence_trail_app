@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Nossa Senhora do Loreto</name>
+    <trkseg>
+      <trkpt lat="-23.489737" lon="-46.585737"><ele>784.2</ele></trkpt>
+      <trkpt lat="-23.489581" lon="-46.585918"><ele>783.2</ele></trkpt>
+      <trkpt lat="-23.489416" lon="-46.586107"><ele>779.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

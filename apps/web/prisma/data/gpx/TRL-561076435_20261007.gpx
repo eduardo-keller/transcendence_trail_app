@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Trilha Cachoeira Véu da Noiva</name>
+    <trkseg>
+      <trkpt lat="-23.848018" lon="-46.416512"><ele>23.3</ele></trkpt>
+      <trkpt lat="-23.847877" lon="-46.416464"><ele>24.5</ele></trkpt>
+      <trkpt lat="-23.843442" lon="-46.414372"><ele>36.1</ele></trkpt>
+      <trkpt lat="-23.843108" lon="-46.414350"><ele>33.8</ele></trkpt>
+      <trkpt lat="-23.842932" lon="-46.414479"><ele>33.8</ele></trkpt>
+      <trkpt lat="-23.842875" lon="-46.414564"><ele>37.1</ele></trkpt>
+      <trkpt lat="-23.842765" lon="-46.414731"><ele>38.4</ele></trkpt>
+      <trkpt lat="-23.842269" lon="-46.414779"><ele>41.7</ele></trkpt>
+      <trkpt lat="-23.842049" lon="-46.414881"><ele>44.7</ele></trkpt>
+      <trkpt lat="-23.841896" lon="-46.414994"><ele>44.7</ele></trkpt>
+      <trkpt lat="-23.841779" lon="-46.415203"><ele>43.6</ele></trkpt>
+      <trkpt lat="-23.841749" lon="-46.415348"><ele>43.6</ele></trkpt>
+      <trkpt lat="-23.841821" lon="-46.415588"><ele>47.6</ele></trkpt>
+      <trkpt lat="-23.841757" lon="-46.415866"><ele>45.3</ele></trkpt>
+      <trkpt lat="-23.841842" lon="-46.416201"><ele>51.9</ele></trkpt>
+      <trkpt lat="-23.841760" lon="-46.416353"><ele>47.7</ele></trkpt>
+      <trkpt lat="-23.841685" lon="-46.416571"><ele>54.4</ele></trkpt>
+      <trkpt lat="-23.841721" lon="-46.417020"><ele>63.8</ele></trkpt>
+      <trkpt lat="-23.841824" lon="-46.417395"><ele>86.2</ele></trkpt>
+      <trkpt lat="-23.841791" lon="-46.417698"><ele>89.4</ele></trkpt>
+      <trkpt lat="-23.841700" lon="-46.417880"><ele>89.4</ele></trkpt>
+      <trkpt lat="-23.841612" lon="-46.418186"><ele>101.3</ele></trkpt>
+      <trkpt lat="-23.841477" lon="-46.418309"><ele>97.4</ele></trkpt>
+      <trkpt lat="-23.841210" lon="-46.418340"><ele>80.9</ele></trkpt>
+      <trkpt lat="-23.840933" lon="-46.418592"><ele>69.5</ele></trkpt>
+      <trkpt lat="-23.840935" lon="-46.419239"><ele>75.4</ele></trkpt>
+      <trkpt lat="-23.841239" lon="-46.419571"><ele>85.6</ele></trkpt>
+      <trkpt lat="-23.841447" lon="-46.420083"><ele>83.3</ele></trkpt>
+      <trkpt lat="-23.841224" lon="-46.420689"><ele>97.5</ele></trkpt>
+      <trkpt lat="-23.840731" lon="-46.420908"><ele>102.2</ele></trkpt>
+      <trkpt lat="-23.840366" lon="-46.421518"><ele>131.1</ele></trkpt>
+      <trkpt lat="-23.840171" lon="-46.422183"><ele>149.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

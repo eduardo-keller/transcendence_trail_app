@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Mariana</name>
+    <trkseg>
+      <trkpt lat="-23.687428" lon="-46.442531"><ele>811.1</ele></trkpt>
+      <trkpt lat="-23.687894" lon="-46.442224"><ele>817.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

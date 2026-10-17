@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua K</name>
+    <trkseg>
+      <trkpt lat="-23.807594" lon="-46.766234"><ele>767.6</ele></trkpt>
+      <trkpt lat="-23.807659" lon="-46.766190"><ele>768.4</ele></trkpt>
+      <trkpt lat="-23.807777" lon="-46.766098"><ele>768.4</ele></trkpt>
+      <trkpt lat="-23.807880" lon="-46.765999"><ele>768.4</ele></trkpt>
+      <trkpt lat="-23.807933" lon="-46.765951"><ele>769.1</ele></trkpt>
+      <trkpt lat="-23.807975" lon="-46.765932"><ele>769.1</ele></trkpt>
+      <trkpt lat="-23.808003" lon="-46.765933"><ele>769.1</ele></trkpt>
+      <trkpt lat="-23.808034" lon="-46.765948"><ele>769.1</ele></trkpt>
+      <trkpt lat="-23.808224" lon="-46.766055"><ele>766.0</ele></trkpt>
+      <trkpt lat="-23.808359" lon="-46.766146"><ele>766.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela do macaco</name>
+    <trkseg>
+      <trkpt lat="-23.546885" lon="-46.744837"><ele>744.2</ele></trkpt>
+      <trkpt lat="-23.546796" lon="-46.744681"><ele>746.3</ele></trkpt>
+      <trkpt lat="-23.546795" lon="-46.744679"><ele>746.3</ele></trkpt>
+      <trkpt lat="-23.546791" lon="-46.744673"><ele>746.3</ele></trkpt>
+      <trkpt lat="-23.546788" lon="-46.744668"><ele>746.3</ele></trkpt>
+      <trkpt lat="-23.546777" lon="-46.744650"><ele>746.3</ele></trkpt>
+      <trkpt lat="-23.546775" lon="-46.744647"><ele>746.3</ele></trkpt>
+      <trkpt lat="-23.546763" lon="-46.744625"><ele>746.3</ele></trkpt>
+      <trkpt lat="-23.546729" lon="-46.744571"><ele>748.7</ele></trkpt>
+      <trkpt lat="-23.546688" lon="-46.744535"><ele>748.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

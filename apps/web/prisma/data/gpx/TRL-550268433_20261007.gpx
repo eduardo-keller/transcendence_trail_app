@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Avenida Darcy Reis</name>
+    <trkseg>
+      <trkpt lat="-23.570912" lon="-46.766818"><ele>762.0</ele></trkpt>
+      <trkpt lat="-23.571790" lon="-46.766857"><ele>755.7</ele></trkpt>
+      <trkpt lat="-23.571903" lon="-46.766810"><ele>754.6</ele></trkpt>
+      <trkpt lat="-23.572090" lon="-46.766742"><ele>752.5</ele></trkpt>
+      <trkpt lat="-23.572274" lon="-46.766653"><ele>752.5</ele></trkpt>
+      <trkpt lat="-23.572387" lon="-46.766587"><ele>750.1</ele></trkpt>
+      <trkpt lat="-23.572747" lon="-46.766387"><ele>751.9</ele></trkpt>
+      <trkpt lat="-23.572846" lon="-46.766346"><ele>751.9</ele></trkpt>
+      <trkpt lat="-23.572939" lon="-46.766323"><ele>752.3</ele></trkpt>
+      <trkpt lat="-23.573063" lon="-46.766306"><ele>752.3</ele></trkpt>
+      <trkpt lat="-23.573207" lon="-46.766302"><ele>746.3</ele></trkpt>
+      <trkpt lat="-23.573308" lon="-46.766318"><ele>746.3</ele></trkpt>
+      <trkpt lat="-23.573514" lon="-46.766394"><ele>742.5</ele></trkpt>
+      <trkpt lat="-23.573660" lon="-46.766449"><ele>742.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

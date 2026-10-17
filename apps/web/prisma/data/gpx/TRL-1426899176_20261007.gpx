@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Amazonas</name>
+    <trkseg>
+      <trkpt lat="-23.690065" lon="-46.657816"><ele>773.9</ele></trkpt>
+      <trkpt lat="-23.690372" lon="-46.657947"><ele>765.3</ele></trkpt>
+      <trkpt lat="-23.690519" lon="-46.658235"><ele>763.2</ele></trkpt>
+      <trkpt lat="-23.690579" lon="-46.658351"><ele>763.2</ele></trkpt>
+      <trkpt lat="-23.690685" lon="-46.658488"><ele>764.2</ele></trkpt>
+      <trkpt lat="-23.690967" lon="-46.658616"><ele>771.0</ele></trkpt>
+      <trkpt lat="-23.691192" lon="-46.658673"><ele>775.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

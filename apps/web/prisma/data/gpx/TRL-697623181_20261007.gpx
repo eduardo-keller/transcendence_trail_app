@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa do Sapo Ferreiro</name>
+    <trkseg>
+      <trkpt lat="-23.776905" lon="-46.307334"><ele>828.0</ele></trkpt>
+      <trkpt lat="-23.776789" lon="-46.307285"><ele>824.8</ele></trkpt>
+      <trkpt lat="-23.776375" lon="-46.307279"><ele>824.6</ele></trkpt>
+      <trkpt lat="-23.776315" lon="-46.307294"><ele>824.6</ele></trkpt>
+      <trkpt lat="-23.776259" lon="-46.307334"><ele>824.6</ele></trkpt>
+      <trkpt lat="-23.776227" lon="-46.307377"><ele>819.7</ele></trkpt>
+      <trkpt lat="-23.776202" lon="-46.307395"><ele>819.7</ele></trkpt>
+      <trkpt lat="-23.775998" lon="-46.307409"><ele>819.7</ele></trkpt>
+      <trkpt lat="-23.775920" lon="-46.307429"><ele>818.2</ele></trkpt>
+      <trkpt lat="-23.775792" lon="-46.307493"><ele>818.2</ele></trkpt>
+      <trkpt lat="-23.775726" lon="-46.307511"><ele>818.2</ele></trkpt>
+      <trkpt lat="-23.775548" lon="-46.307550"><ele>812.7</ele></trkpt>
+      <trkpt lat="-23.775517" lon="-46.307550"><ele>812.7</ele></trkpt>
+      <trkpt lat="-23.775482" lon="-46.307526"><ele>812.7</ele></trkpt>
+      <trkpt lat="-23.775268" lon="-46.307141"><ele>809.9</ele></trkpt>
+      <trkpt lat="-23.775230" lon="-46.307082"><ele>816.3</ele></trkpt>
+      <trkpt lat="-23.775182" lon="-46.307045"><ele>816.3</ele></trkpt>
+      <trkpt lat="-23.775113" lon="-46.307014"><ele>799.6</ele></trkpt>
+      <trkpt lat="-23.775061" lon="-46.307006"><ele>799.6</ele></trkpt>
+      <trkpt lat="-23.774994" lon="-46.307041"><ele>799.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

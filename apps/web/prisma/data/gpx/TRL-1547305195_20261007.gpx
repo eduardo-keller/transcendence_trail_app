@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Vitor Manoel Flores</name>
+    <trkseg>
+      <trkpt lat="-23.514211" lon="-46.386810"><ele>766.6</ele></trkpt>
+      <trkpt lat="-23.514145" lon="-46.386895"><ele>766.6</ele></trkpt>
+      <trkpt lat="-23.514145" lon="-46.386907"><ele>766.6</ele></trkpt>
+      <trkpt lat="-23.514147" lon="-46.386921"><ele>766.6</ele></trkpt>
+      <trkpt lat="-23.514163" lon="-46.386929"><ele>766.6</ele></trkpt>
+      <trkpt lat="-23.514180" lon="-46.386934"><ele>766.6</ele></trkpt>
+      <trkpt lat="-23.514205" lon="-46.386952"><ele>766.6</ele></trkpt>
+      <trkpt lat="-23.514217" lon="-46.386963"><ele>766.6</ele></trkpt>
+      <trkpt lat="-23.514249" lon="-46.386976"><ele>766.6</ele></trkpt>
+      <trkpt lat="-23.514265" lon="-46.386964"><ele>766.6</ele></trkpt>
+      <trkpt lat="-23.514278" lon="-46.386943"><ele>766.6</ele></trkpt>
+      <trkpt lat="-23.514294" lon="-46.386912"><ele>766.6</ele></trkpt>
+      <trkpt lat="-23.514308" lon="-46.386893"><ele>770.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

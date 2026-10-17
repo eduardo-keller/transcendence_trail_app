@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Bragança</name>
+    <trkseg>
+      <trkpt lat="-23.318270" lon="-46.734526"><ele>769.5</ele></trkpt>
+      <trkpt lat="-23.318480" lon="-46.733982"><ele>755.1</ele></trkpt>
+      <trkpt lat="-23.318532" lon="-46.733783"><ele>755.1</ele></trkpt>
+      <trkpt lat="-23.318568" lon="-46.733563"><ele>752.8</ele></trkpt>
+      <trkpt lat="-23.318587" lon="-46.733225"><ele>748.4</ele></trkpt>
+      <trkpt lat="-23.318555" lon="-46.732712"><ele>736.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

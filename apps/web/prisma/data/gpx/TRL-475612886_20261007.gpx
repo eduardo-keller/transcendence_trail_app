@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Via de Pedestres Ilha da Cachoeirinha</name>
+    <trkseg>
+      <trkpt lat="-23.456978" lon="-46.662473"><ele>811.7</ele></trkpt>
+      <trkpt lat="-23.456942" lon="-46.662520"><ele>811.7</ele></trkpt>
+      <trkpt lat="-23.456915" lon="-46.662550"><ele>811.7</ele></trkpt>
+      <trkpt lat="-23.456842" lon="-46.662611"><ele>811.7</ele></trkpt>
+      <trkpt lat="-23.456794" lon="-46.662654"><ele>800.4</ele></trkpt>
+      <trkpt lat="-23.456796" lon="-46.662682"><ele>800.4</ele></trkpt>
+      <trkpt lat="-23.456768" lon="-46.662702"><ele>800.4</ele></trkpt>
+      <trkpt lat="-23.456751" lon="-46.662677"><ele>800.4</ele></trkpt>
+      <trkpt lat="-23.456713" lon="-46.662636"><ele>809.8</ele></trkpt>
+      <trkpt lat="-23.456709" lon="-46.662658"><ele>800.4</ele></trkpt>
+      <trkpt lat="-23.456713" lon="-46.662636"><ele>809.8</ele></trkpt>
+      <trkpt lat="-23.456729" lon="-46.662610"><ele>809.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

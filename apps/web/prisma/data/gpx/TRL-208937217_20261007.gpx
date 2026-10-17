@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Odair Pedro Provasi</name>
+    <trkseg>
+      <trkpt lat="-23.525946" lon="-46.803679"><ele>735.4</ele></trkpt>
+      <trkpt lat="-23.526441" lon="-46.803985"><ele>748.0</ele></trkpt>
+      <trkpt lat="-23.526995" lon="-46.804327"><ele>763.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

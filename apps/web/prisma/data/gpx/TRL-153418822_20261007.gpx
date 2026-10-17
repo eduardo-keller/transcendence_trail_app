@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Patuí</name>
+    <trkseg>
+      <trkpt lat="-23.407405" lon="-46.469060"><ele>752.7</ele></trkpt>
+      <trkpt lat="-23.407280" lon="-46.468493"><ele>759.5</ele></trkpt>
+      <trkpt lat="-23.407135" lon="-46.467904"><ele>766.5</ele></trkpt>
+      <trkpt lat="-23.407022" lon="-46.467467"><ele>771.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

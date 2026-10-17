@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Praça Alfredo Casarotto</name>
+    <trkseg>
+      <trkpt lat="-23.336142" lon="-46.754593"><ele>774.6</ele></trkpt>
+      <trkpt lat="-23.336343" lon="-46.754495"><ele>770.0</ele></trkpt>
+      <trkpt lat="-23.336496" lon="-46.754421"><ele>770.0</ele></trkpt>
+      <trkpt lat="-23.336343" lon="-46.754495"><ele>770.0</ele></trkpt>
+      <trkpt lat="-23.336415" lon="-46.754664"><ele>775.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

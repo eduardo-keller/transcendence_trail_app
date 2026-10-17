@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Contorno Lagoa das Pedras</name>
+    <trkseg>
+      <trkpt lat="-23.210510" lon="-46.446303"><ele>820.4</ele></trkpt>
+      <trkpt lat="-23.210619" lon="-46.446392"><ele>820.4</ele></trkpt>
+      <trkpt lat="-23.210716" lon="-46.446406"><ele>821.2</ele></trkpt>
+      <trkpt lat="-23.210824" lon="-46.446314"><ele>821.2</ele></trkpt>
+      <trkpt lat="-23.210925" lon="-46.446226"><ele>823.7</ele></trkpt>
+      <trkpt lat="-23.211025" lon="-46.446137"><ele>822.3</ele></trkpt>
+      <trkpt lat="-23.211188" lon="-46.446067"><ele>822.3</ele></trkpt>
+      <trkpt lat="-23.211354" lon="-46.446042"><ele>820.2</ele></trkpt>
+      <trkpt lat="-23.211520" lon="-46.446077"><ele>820.2</ele></trkpt>
+      <trkpt lat="-23.211640" lon="-46.446169"><ele>822.1</ele></trkpt>
+      <trkpt lat="-23.211728" lon="-46.446215"><ele>822.1</ele></trkpt>
+      <trkpt lat="-23.211819" lon="-46.446297"><ele>818.4</ele></trkpt>
+      <trkpt lat="-23.211852" lon="-46.446389"><ele>818.4</ele></trkpt>
+      <trkpt lat="-23.211744" lon="-46.446505"><ele>814.5</ele></trkpt>
+      <trkpt lat="-23.211656" lon="-46.446551"><ele>818.0</ele></trkpt>
+      <trkpt lat="-23.211575" lon="-46.446626"><ele>818.0</ele></trkpt>
+      <trkpt lat="-23.211442" lon="-46.446658"><ele>814.3</ele></trkpt>
+      <trkpt lat="-23.211408" lon="-46.446688"><ele>814.3</ele></trkpt>
+      <trkpt lat="-23.211334" lon="-46.446792"><ele>814.3</ele></trkpt>
+      <trkpt lat="-23.211276" lon="-46.446877"><ele>817.9</ele></trkpt>
+      <trkpt lat="-23.211224" lon="-46.447026"><ele>813.2</ele></trkpt>
+      <trkpt lat="-23.211172" lon="-46.447203"><ele>812.8</ele></trkpt>
+      <trkpt lat="-23.211110" lon="-46.447447"><ele>811.7</ele></trkpt>
+      <trkpt lat="-23.211055" lon="-46.447521"><ele>811.7</ele></trkpt>
+      <trkpt lat="-23.210967" lon="-46.447581"><ele>810.5</ele></trkpt>
+      <trkpt lat="-23.210906" lon="-46.447646"><ele>811.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

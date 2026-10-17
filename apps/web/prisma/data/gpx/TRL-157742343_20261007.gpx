@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Antônio Borelio</name>
+    <trkseg>
+      <trkpt lat="-23.547708" lon="-46.775881"><ele>734.8</ele></trkpt>
+      <trkpt lat="-23.546858" lon="-46.776652"><ele>740.3</ele></trkpt>
+      <trkpt lat="-23.546754" lon="-46.776752"><ele>742.7</ele></trkpt>
+      <trkpt lat="-23.546608" lon="-46.776895"><ele>741.4</ele></trkpt>
+      <trkpt lat="-23.546586" lon="-46.776917"><ele>741.4</ele></trkpt>
+      <trkpt lat="-23.546393" lon="-46.777054"><ele>742.6</ele></trkpt>
+      <trkpt lat="-23.546142" lon="-46.777228"><ele>746.2</ele></trkpt>
+      <trkpt lat="-23.545877" lon="-46.777388"><ele>750.0</ele></trkpt>
+      <trkpt lat="-23.545191" lon="-46.777858"><ele>756.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

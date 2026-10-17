@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Cacique Mario Juruna</name>
+    <trkseg>
+      <trkpt lat="-23.519498" lon="-46.786319"><ele>725.2</ele></trkpt>
+      <trkpt lat="-23.519568" lon="-46.786052"><ele>723.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

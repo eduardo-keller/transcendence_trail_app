@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Simão Pereira</name>
+    <trkseg>
+      <trkpt lat="-23.575592" lon="-46.635671"><ele>764.2</ele></trkpt>
+      <trkpt lat="-23.575626" lon="-46.635708"><ele>761.6</ele></trkpt>
+      <trkpt lat="-23.575663" lon="-46.635779"><ele>761.6</ele></trkpt>
+      <trkpt lat="-23.575669" lon="-46.635795"><ele>761.6</ele></trkpt>
+      <trkpt lat="-23.575672" lon="-46.635804"><ele>761.6</ele></trkpt>
+      <trkpt lat="-23.575675" lon="-46.635818"><ele>761.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

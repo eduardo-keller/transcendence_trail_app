@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Via de Pedestres Ilha das Aves</name>
+    <trkseg>
+      <trkpt lat="-23.457145" lon="-46.662818"><ele>815.0</ele></trkpt>
+      <trkpt lat="-23.457166" lon="-46.662861"><ele>815.0</ele></trkpt>
+      <trkpt lat="-23.457154" lon="-46.662908"><ele>815.0</ele></trkpt>
+      <trkpt lat="-23.457132" lon="-46.662920"><ele>817.4</ele></trkpt>
+      <trkpt lat="-23.457120" lon="-46.662918"><ele>817.4</ele></trkpt>
+      <trkpt lat="-23.457118" lon="-46.662919"><ele>817.4</ele></trkpt>
+      <trkpt lat="-23.457037" lon="-46.662949"><ele>808.5</ele></trkpt>
+      <trkpt lat="-23.456960" lon="-46.663013"><ele>808.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

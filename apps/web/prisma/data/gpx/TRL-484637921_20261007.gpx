@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua do Mutirão</name>
+    <trkseg>
+      <trkpt lat="-23.455012" lon="-46.707396"><ele>839.9</ele></trkpt>
+      <trkpt lat="-23.455018" lon="-46.707387"><ele>839.9</ele></trkpt>
+      <trkpt lat="-23.455018" lon="-46.707362"><ele>839.9</ele></trkpt>
+      <trkpt lat="-23.455012" lon="-46.707310"><ele>848.9</ele></trkpt>
+      <trkpt lat="-23.454993" lon="-46.707226"><ele>848.9</ele></trkpt>
+      <trkpt lat="-23.454958" lon="-46.707088"><ele>848.9</ele></trkpt>
+      <trkpt lat="-23.454930" lon="-46.706968"><ele>857.3</ele></trkpt>
+      <trkpt lat="-23.454916" lon="-46.706890"><ele>857.3</ele></trkpt>
+      <trkpt lat="-23.454915" lon="-46.706881"><ele>857.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

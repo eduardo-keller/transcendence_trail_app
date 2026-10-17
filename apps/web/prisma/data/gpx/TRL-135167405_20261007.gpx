@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Alfredo Salemi</name>
+    <trkseg>
+      <trkpt lat="-23.626298" lon="-46.605761"><ele>788.9</ele></trkpt>
+      <trkpt lat="-23.626283" lon="-46.605707"><ele>788.9</ele></trkpt>
+      <trkpt lat="-23.626278" lon="-46.605671"><ele>783.6</ele></trkpt>
+      <trkpt lat="-23.626255" lon="-46.605565"><ele>783.6</ele></trkpt>
+      <trkpt lat="-23.626232" lon="-46.605411"><ele>776.4</ele></trkpt>
+      <trkpt lat="-23.626217" lon="-46.605299"><ele>776.4</ele></trkpt>
+      <trkpt lat="-23.626199" lon="-46.605180"><ele>776.4</ele></trkpt>
+      <trkpt lat="-23.626184" lon="-46.605078"><ele>777.1</ele></trkpt>
+      <trkpt lat="-23.626178" lon="-46.605037"><ele>777.1</ele></trkpt>
+      <trkpt lat="-23.626167" lon="-46.604991"><ele>777.1</ele></trkpt>
+      <trkpt lat="-23.626157" lon="-46.604952"><ele>777.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

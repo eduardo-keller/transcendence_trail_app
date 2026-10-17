@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Estrada para o Mirante Pedra da Laje</name>
+    <trkseg>
+      <trkpt lat="-23.228562" lon="-46.545965"><ele>1154.7</ele></trkpt>
+      <trkpt lat="-23.228555" lon="-46.546313"><ele>1161.7</ele></trkpt>
+      <trkpt lat="-23.228555" lon="-46.546547"><ele>1166.4</ele></trkpt>
+      <trkpt lat="-23.228558" lon="-46.547004"><ele>1171.6</ele></trkpt>
+      <trkpt lat="-23.228630" lon="-46.547150"><ele>1175.0</ele></trkpt>
+      <trkpt lat="-23.228673" lon="-46.547330"><ele>1175.0</ele></trkpt>
+      <trkpt lat="-23.228738" lon="-46.547567"><ele>1176.4</ele></trkpt>
+      <trkpt lat="-23.228845" lon="-46.547750"><ele>1177.3</ele></trkpt>
+      <trkpt lat="-23.228921" lon="-46.547848"><ele>1177.3</ele></trkpt>
+      <trkpt lat="-23.229155" lon="-46.547883"><ele>1180.4</ele></trkpt>
+      <trkpt lat="-23.229300" lon="-46.547930"><ele>1175.0</ele></trkpt>
+      <trkpt lat="-23.229465" lon="-46.547954"><ele>1177.6</ele></trkpt>
+      <trkpt lat="-23.229539" lon="-46.547950"><ele>1177.6</ele></trkpt>
+      <trkpt lat="-23.229640" lon="-46.547948"><ele>1179.4</ele></trkpt>
+      <trkpt lat="-23.229914" lon="-46.547951"><ele>1179.5</ele></trkpt>
+      <trkpt lat="-23.230068" lon="-46.548069"><ele>1179.5</ele></trkpt>
+      <trkpt lat="-23.230274" lon="-46.548256"><ele>1176.0</ele></trkpt>
+      <trkpt lat="-23.230355" lon="-46.548335"><ele>1176.0</ele></trkpt>
+      <trkpt lat="-23.230401" lon="-46.548412"><ele>1176.0</ele></trkpt>
+      <trkpt lat="-23.230442" lon="-46.548501"><ele>1177.8</ele></trkpt>
+      <trkpt lat="-23.230495" lon="-46.548583"><ele>1177.8</ele></trkpt>
+      <trkpt lat="-23.230615" lon="-46.548748"><ele>1177.8</ele></trkpt>
+      <trkpt lat="-23.230622" lon="-46.548871"><ele>1178.8</ele></trkpt>
+      <trkpt lat="-23.230612" lon="-46.549020"><ele>1178.8</ele></trkpt>
+      <trkpt lat="-23.230565" lon="-46.549174"><ele>1182.6</ele></trkpt>
+      <trkpt lat="-23.230470" lon="-46.549346"><ele>1190.3</ele></trkpt>
+      <trkpt lat="-23.230312" lon="-46.549415"><ele>1186.3</ele></trkpt>
+      <trkpt lat="-23.230192" lon="-46.549545"><ele>1186.3</ele></trkpt>
+      <trkpt lat="-23.230029" lon="-46.549601"><ele>1190.1</ele></trkpt>
+      <trkpt lat="-23.229901" lon="-46.549682"><ele>1190.1</ele></trkpt>
+      <trkpt lat="-23.229705" lon="-46.549869"><ele>1191.0</ele></trkpt>
+      <trkpt lat="-23.229484" lon="-46.549937"><ele>1184.5</ele></trkpt>
+      <trkpt lat="-23.229275" lon="-46.549986"><ele>1177.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

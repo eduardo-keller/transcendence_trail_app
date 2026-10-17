@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Estrada do Porto Machado</name>
+    <trkseg>
+      <trkpt lat="-23.785739" lon="-46.705152"><ele>798.5</ele></trkpt>
+      <trkpt lat="-23.786295" lon="-46.703496"><ele>810.2</ele></trkpt>
+      <trkpt lat="-23.786341" lon="-46.703205"><ele>811.1</ele></trkpt>
+      <trkpt lat="-23.786324" lon="-46.703074"><ele>817.5</ele></trkpt>
+      <trkpt lat="-23.786231" lon="-46.702964"><ele>826.2</ele></trkpt>
+      <trkpt lat="-23.786032" lon="-46.702774"><ele>829.0</ele></trkpt>
+      <trkpt lat="-23.785753" lon="-46.702458"><ele>823.7</ele></trkpt>
+      <trkpt lat="-23.785617" lon="-46.702304"><ele>817.6</ele></trkpt>
+      <trkpt lat="-23.785556" lon="-46.702165"><ele>817.6</ele></trkpt>
+      <trkpt lat="-23.785519" lon="-46.701980"><ele>815.7</ele></trkpt>
+      <trkpt lat="-23.785555" lon="-46.701312"><ele>810.1</ele></trkpt>
+      <trkpt lat="-23.785576" lon="-46.701183"><ele>803.6</ele></trkpt>
+      <trkpt lat="-23.785638" lon="-46.701023"><ele>803.6</ele></trkpt>
+      <trkpt lat="-23.785908" lon="-46.700541"><ele>802.0</ele></trkpt>
+      <trkpt lat="-23.786013" lon="-46.700276"><ele>804.2</ele></trkpt>
+      <trkpt lat="-23.786135" lon="-46.699853"><ele>797.2</ele></trkpt>
+      <trkpt lat="-23.786265" lon="-46.699308"><ele>798.1</ele></trkpt>
+      <trkpt lat="-23.786340" lon="-46.699090"><ele>804.3</ele></trkpt>
+      <trkpt lat="-23.786453" lon="-46.698822"><ele>808.7</ele></trkpt>
+      <trkpt lat="-23.786908" lon="-46.698048"><ele>810.4</ele></trkpt>
+      <trkpt lat="-23.787043" lon="-46.697784"><ele>811.9</ele></trkpt>
+      <trkpt lat="-23.787161" lon="-46.697455"><ele>814.2</ele></trkpt>
+      <trkpt lat="-23.787312" lon="-46.696698"><ele>809.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

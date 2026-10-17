@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Avenida Cid Nelson Jordano</name>
+    <trkseg>
+      <trkpt lat="-23.621359" lon="-46.794474"><ele>758.0</ele></trkpt>
+      <trkpt lat="-23.622620" lon="-46.795307"><ele>761.5</ele></trkpt>
+      <trkpt lat="-23.622891" lon="-46.795495"><ele>761.0</ele></trkpt>
+      <trkpt lat="-23.623183" lon="-46.795669"><ele>762.3</ele></trkpt>
+      <trkpt lat="-23.623456" lon="-46.795837"><ele>761.7</ele></trkpt>
+      <trkpt lat="-23.623753" lon="-46.796005"><ele>760.0</ele></trkpt>
+      <trkpt lat="-23.624076" lon="-46.796176"><ele>762.3</ele></trkpt>
+      <trkpt lat="-23.624348" lon="-46.796308"><ele>760.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

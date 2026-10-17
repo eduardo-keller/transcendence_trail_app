@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Givanildo da Silva</name>
+    <trkseg>
+      <trkpt lat="-23.753261" lon="-46.697130"><ele>793.4</ele></trkpt>
+      <trkpt lat="-23.752779" lon="-46.696781"><ele>770.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

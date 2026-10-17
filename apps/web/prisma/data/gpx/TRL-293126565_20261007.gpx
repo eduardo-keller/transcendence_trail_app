@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passagem São Gabriel</name>
+    <trkseg>
+      <trkpt lat="-23.726703" lon="-46.525198"><ele>858.6</ele></trkpt>
+      <trkpt lat="-23.726701" lon="-46.525170"><ele>858.6</ele></trkpt>
+      <trkpt lat="-23.726690" lon="-46.525032"><ele>863.8</ele></trkpt>
+      <trkpt lat="-23.726679" lon="-46.524889"><ele>863.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

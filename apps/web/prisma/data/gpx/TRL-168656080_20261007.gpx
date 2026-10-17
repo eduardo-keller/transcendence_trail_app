@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passarela Morro do Pica-Pal e Costa Muniz</name>
+    <trkseg>
+      <trkpt lat="-23.895695" lon="-46.434449"><ele>5.2</ele></trkpt>
+      <trkpt lat="-23.895401" lon="-46.434449"><ele>5.3</ele></trkpt>
+      <trkpt lat="-23.895402" lon="-46.434481"><ele>5.3</ele></trkpt>
+      <trkpt lat="-23.895598" lon="-46.434476"><ele>5.8</ele></trkpt>
+      <trkpt lat="-23.895593" lon="-46.434852"><ele>9.1</ele></trkpt>
+      <trkpt lat="-23.895836" lon="-46.434858"><ele>8.9</ele></trkpt>
+      <trkpt lat="-23.895846" lon="-46.434885"><ele>16.5</ele></trkpt>
+      <trkpt lat="-23.895628" lon="-46.434896"><ele>12.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

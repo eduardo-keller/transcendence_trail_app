@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Via de Pedestre Cláudio Gervásio</name>
+    <trkseg>
+      <trkpt lat="-23.736023" lon="-46.704914"><ele>789.5</ele></trkpt>
+      <trkpt lat="-23.735987" lon="-46.704841"><ele>789.4</ele></trkpt>
+      <trkpt lat="-23.735909" lon="-46.704668"><ele>792.5</ele></trkpt>
+      <trkpt lat="-23.735846" lon="-46.704540"><ele>794.4</ele></trkpt>
+      <trkpt lat="-23.735796" lon="-46.704441"><ele>794.4</ele></trkpt>
+      <trkpt lat="-23.735762" lon="-46.704375"><ele>794.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

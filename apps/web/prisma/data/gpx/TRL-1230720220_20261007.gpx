@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Jaturana</name>
+    <trkseg>
+      <trkpt lat="-23.516358" lon="-46.454814"><ele>737.9</ele></trkpt>
+      <trkpt lat="-23.516347" lon="-46.454831"><ele>737.9</ele></trkpt>
+      <trkpt lat="-23.516330" lon="-46.454847"><ele>737.9</ele></trkpt>
+      <trkpt lat="-23.516314" lon="-46.454860"><ele>737.9</ele></trkpt>
+      <trkpt lat="-23.516298" lon="-46.454883"><ele>737.9</ele></trkpt>
+      <trkpt lat="-23.516282" lon="-46.454916"><ele>737.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Luiza</name>
+    <trkseg>
+      <trkpt lat="-23.445411" lon="-46.470646"><ele>792.4</ele></trkpt>
+      <trkpt lat="-23.445910" lon="-46.470408"><ele>794.7</ele></trkpt>
+      <trkpt lat="-23.446387" lon="-46.470143"><ele>799.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

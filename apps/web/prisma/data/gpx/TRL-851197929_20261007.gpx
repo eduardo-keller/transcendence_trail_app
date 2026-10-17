@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Geribá</name>
+    <trkseg>
+      <trkpt lat="-23.650838" lon="-46.493300"><ele>764.5</ele></trkpt>
+      <trkpt lat="-23.650796" lon="-46.493091"><ele>761.9</ele></trkpt>
+      <trkpt lat="-23.650747" lon="-46.492924"><ele>761.9</ele></trkpt>
+      <trkpt lat="-23.650718" lon="-46.492743"><ele>758.0</ele></trkpt>
+      <trkpt lat="-23.650625" lon="-46.492486"><ele>762.6</ele></trkpt>
+      <trkpt lat="-23.650583" lon="-46.492381"><ele>762.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

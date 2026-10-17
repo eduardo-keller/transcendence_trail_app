@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Leonor Barroso de Carvalho</name>
+    <trkseg>
+      <trkpt lat="-23.552749" lon="-46.386276"><ele>811.8</ele></trkpt>
+      <trkpt lat="-23.552418" lon="-46.385838"><ele>810.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

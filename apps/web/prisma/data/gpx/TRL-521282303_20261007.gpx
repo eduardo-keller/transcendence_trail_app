@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Parque Anhangabaú</name>
+    <trkseg>
+      <trkpt lat="-23.546905" lon="-46.637029"><ele>743.5</ele></trkpt>
+      <trkpt lat="-23.546861" lon="-46.637003"><ele>743.5</ele></trkpt>
+      <trkpt lat="-23.546534" lon="-46.636806"><ele>740.0</ele></trkpt>
+      <trkpt lat="-23.546534" lon="-46.636806"><ele>740.0</ele></trkpt>
+      <trkpt lat="-23.546399" lon="-46.636737"><ele>746.8</ele></trkpt>
+      <trkpt lat="-23.545950" lon="-46.636494"><ele>742.8</ele></trkpt>
+      <trkpt lat="-23.544996" lon="-46.635975"><ele>741.8</ele></trkpt>
+      <trkpt lat="-23.544927" lon="-46.635965"><ele>744.2</ele></trkpt>
+      <trkpt lat="-23.544870" lon="-46.635956"><ele>744.2</ele></trkpt>
+      <trkpt lat="-23.544799" lon="-46.635947"><ele>741.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Nicolau Orsi</name>
+    <trkseg>
+      <trkpt lat="-23.225546" lon="-46.881667"><ele>735.5</ele></trkpt>
+      <trkpt lat="-23.225685" lon="-46.881574"><ele>735.5</ele></trkpt>
+      <trkpt lat="-23.225786" lon="-46.881522"><ele>733.6</ele></trkpt>
+      <trkpt lat="-23.225924" lon="-46.881490"><ele>733.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

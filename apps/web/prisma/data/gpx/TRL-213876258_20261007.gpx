@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Trilha do Parque</name>
+    <trkseg>
+      <trkpt lat="-23.596560" lon="-46.391998"><ele>827.5</ele></trkpt>
+      <trkpt lat="-23.596544" lon="-46.391954"><ele>827.5</ele></trkpt>
+      <trkpt lat="-23.596454" lon="-46.391899"><ele>828.3</ele></trkpt>
+      <trkpt lat="-23.596308" lon="-46.391895"><ele>828.3</ele></trkpt>
+      <trkpt lat="-23.596173" lon="-46.391951"><ele>823.9</ele></trkpt>
+      <trkpt lat="-23.596023" lon="-46.392107"><ele>832.9</ele></trkpt>
+      <trkpt lat="-23.595755" lon="-46.392300"><ele>824.4</ele></trkpt>
+      <trkpt lat="-23.595468" lon="-46.392485"><ele>824.5</ele></trkpt>
+      <trkpt lat="-23.595320" lon="-46.392624"><ele>815.5</ele></trkpt>
+      <trkpt lat="-23.595241" lon="-46.392794"><ele>822.2</ele></trkpt>
+      <trkpt lat="-23.595175" lon="-46.392895"><ele>822.2</ele></trkpt>
+      <trkpt lat="-23.595129" lon="-46.392832"><ele>815.8</ele></trkpt>
+      <trkpt lat="-23.595129" lon="-46.392832"><ele>815.8</ele></trkpt>
+      <trkpt lat="-23.595060" lon="-46.392804"><ele>815.8</ele></trkpt>
+      <trkpt lat="-23.594927" lon="-46.392844"><ele>815.8</ele></trkpt>
+      <trkpt lat="-23.594801" lon="-46.392852"><ele>817.9</ele></trkpt>
+      <trkpt lat="-23.594671" lon="-46.392842"><ele>817.9</ele></trkpt>
+      <trkpt lat="-23.594553" lon="-46.392769"><ele>814.0</ele></trkpt>
+      <trkpt lat="-23.594472" lon="-46.392708"><ele>814.0</ele></trkpt>
+      <trkpt lat="-23.594418" lon="-46.392672"><ele>814.0</ele></trkpt>
+    </trkseg>
+    <trkseg>
+      <trkpt lat="-23.595129" lon="-46.392832"><ele>815.8</ele></trkpt>
+      <trkpt lat="-23.595197" lon="-46.392692"><ele>822.2</ele></trkpt>
+      <trkpt lat="-23.595254" lon="-46.392584"><ele>815.5</ele></trkpt>
+      <trkpt lat="-23.595337" lon="-46.392469"><ele>815.5</ele></trkpt>
+      <trkpt lat="-23.595409" lon="-46.392340"><ele>812.0</ele></trkpt>
+      <trkpt lat="-23.595490" lon="-46.392227"><ele>816.3</ele></trkpt>
+      <trkpt lat="-23.595526" lon="-46.392144"><ele>816.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

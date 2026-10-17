@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passarela Luis Melito</name>
+    <trkseg>
+      <trkpt lat="-23.665902" lon="-46.522413"><ele>770.2</ele></trkpt>
+      <trkpt lat="-23.665630" lon="-46.522148"><ele>766.0</ele></trkpt>
+      <trkpt lat="-23.665626" lon="-46.522137"><ele>766.0</ele></trkpt>
+      <trkpt lat="-23.665624" lon="-46.522124"><ele>766.0</ele></trkpt>
+      <trkpt lat="-23.665624" lon="-46.522112"><ele>766.0</ele></trkpt>
+      <trkpt lat="-23.665624" lon="-46.522112"><ele>766.0</ele></trkpt>
+      <trkpt lat="-23.665621" lon="-46.522097"><ele>766.0</ele></trkpt>
+      <trkpt lat="-23.665614" lon="-46.522084"><ele>766.0</ele></trkpt>
+      <trkpt lat="-23.665604" lon="-46.522074"><ele>769.6</ele></trkpt>
+      <trkpt lat="-23.665591" lon="-46.522068"><ele>769.6</ele></trkpt>
+      <trkpt lat="-23.665578" lon="-46.522065"><ele>769.6</ele></trkpt>
+      <trkpt lat="-23.665564" lon="-46.522067"><ele>769.6</ele></trkpt>
+      <trkpt lat="-23.665552" lon="-46.522073"><ele>769.6</ele></trkpt>
+      <trkpt lat="-23.665541" lon="-46.522083"><ele>769.6</ele></trkpt>
+      <trkpt lat="-23.665533" lon="-46.522095"><ele>766.0</ele></trkpt>
+      <trkpt lat="-23.665529" lon="-46.522109"><ele>766.0</ele></trkpt>
+      <trkpt lat="-23.665529" lon="-46.522124"><ele>766.0</ele></trkpt>
+      <trkpt lat="-23.665533" lon="-46.522138"><ele>766.0</ele></trkpt>
+      <trkpt lat="-23.665540" lon="-46.522151"><ele>766.0</ele></trkpt>
+      <trkpt lat="-23.665550" lon="-46.522161"><ele>766.0</ele></trkpt>
+      <trkpt lat="-23.665563" lon="-46.522168"><ele>766.0</ele></trkpt>
+      <trkpt lat="-23.665576" lon="-46.522170"><ele>766.0</ele></trkpt>
+      <trkpt lat="-23.665590" lon="-46.522168"><ele>766.0</ele></trkpt>
+      <trkpt lat="-23.665602" lon="-46.522162"><ele>766.0</ele></trkpt>
+      <trkpt lat="-23.665613" lon="-46.522154"><ele>766.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

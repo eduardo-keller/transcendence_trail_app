@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Bem-te-vi</name>
+    <trkseg>
+      <trkpt lat="-23.579938" lon="-46.879030"><ele>779.6</ele></trkpt>
+      <trkpt lat="-23.579364" lon="-46.879378"><ele>775.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

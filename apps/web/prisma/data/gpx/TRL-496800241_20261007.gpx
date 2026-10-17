@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Via de Pedestre Salvina</name>
+    <trkseg>
+      <trkpt lat="-23.475073" lon="-46.573039"><ele>736.7</ele></trkpt>
+      <trkpt lat="-23.474904" lon="-46.572657"><ele>736.8</ele></trkpt>
+      <trkpt lat="-23.474898" lon="-46.572643"><ele>736.8</ele></trkpt>
+      <trkpt lat="-23.474908" lon="-46.572594"><ele>736.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

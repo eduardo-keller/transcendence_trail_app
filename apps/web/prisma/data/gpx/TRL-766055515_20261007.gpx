@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Caminho de ligação</name>
+    <trkseg>
+      <trkpt lat="-23.659616" lon="-46.774555"><ele>793.8</ele></trkpt>
+      <trkpt lat="-23.659714" lon="-46.774637"><ele>792.5</ele></trkpt>
+      <trkpt lat="-23.659763" lon="-46.774719"><ele>792.5</ele></trkpt>
+      <trkpt lat="-23.659769" lon="-46.774938"><ele>794.0</ele></trkpt>
+      <trkpt lat="-23.659765" lon="-46.775009"><ele>794.0</ele></trkpt>
+      <trkpt lat="-23.659951" lon="-46.775060"><ele>785.2</ele></trkpt>
+      <trkpt lat="-23.660325" lon="-46.775162"><ele>784.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

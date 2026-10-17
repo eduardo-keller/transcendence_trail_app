@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Força Pública</name>
+    <trkseg>
+      <trkpt lat="-23.510182" lon="-46.628506"><ele>722.5</ele></trkpt>
+      <trkpt lat="-23.510069" lon="-46.628443"><ele>725.9</ele></trkpt>
+      <trkpt lat="-23.510039" lon="-46.628378"><ele>725.9</ele></trkpt>
+      <trkpt lat="-23.510051" lon="-46.628249"><ele>725.9</ele></trkpt>
+      <trkpt lat="-23.510037" lon="-46.628206"><ele>725.9</ele></trkpt>
+      <trkpt lat="-23.509623" lon="-46.628148"><ele>722.9</ele></trkpt>
+      <trkpt lat="-23.509536" lon="-46.628142"><ele>723.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

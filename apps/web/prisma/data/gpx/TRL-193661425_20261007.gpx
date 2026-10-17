@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Barreira Branca</name>
+    <trkseg>
+      <trkpt lat="-23.455742" lon="-46.588443"><ele>753.9</ele></trkpt>
+      <trkpt lat="-23.455759" lon="-46.588421"><ele>753.9</ele></trkpt>
+      <trkpt lat="-23.455780" lon="-46.588366"><ele>753.9</ele></trkpt>
+      <trkpt lat="-23.455814" lon="-46.588301"><ele>753.9</ele></trkpt>
+      <trkpt lat="-23.455839" lon="-46.588228"><ele>753.9</ele></trkpt>
+      <trkpt lat="-23.455848" lon="-46.588187"><ele>758.6</ele></trkpt>
+      <trkpt lat="-23.455849" lon="-46.588149"><ele>758.6</ele></trkpt>
+      <trkpt lat="-23.455848" lon="-46.588113"><ele>758.6</ele></trkpt>
+      <trkpt lat="-23.455831" lon="-46.588026"><ele>758.6</ele></trkpt>
+      <trkpt lat="-23.455813" lon="-46.587982"><ele>758.6</ele></trkpt>
+      <trkpt lat="-23.455796" lon="-46.587945"><ele>758.6</ele></trkpt>
+      <trkpt lat="-23.455771" lon="-46.587903"><ele>759.0</ele></trkpt>
+      <trkpt lat="-23.455744" lon="-46.587864"><ele>759.0</ele></trkpt>
+      <trkpt lat="-23.455698" lon="-46.587761"><ele>759.0</ele></trkpt>
+      <trkpt lat="-23.455686" lon="-46.587654"><ele>768.0</ele></trkpt>
+      <trkpt lat="-23.455669" lon="-46.587585"><ele>765.7</ele></trkpt>
+      <trkpt lat="-23.455618" lon="-46.587560"><ele>765.7</ele></trkpt>
+      <trkpt lat="-23.455577" lon="-46.587558"><ele>765.7</ele></trkpt>
+      <trkpt lat="-23.455521" lon="-46.587555"><ele>765.7</ele></trkpt>
+      <trkpt lat="-23.455442" lon="-46.587542"><ele>765.7</ele></trkpt>
+      <trkpt lat="-23.455406" lon="-46.587517"><ele>774.2</ele></trkpt>
+      <trkpt lat="-23.455257" lon="-46.587495"><ele>774.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

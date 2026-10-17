@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Trufas</name>
+    <trkseg>
+      <trkpt lat="-23.542559" lon="-46.575291"><ele>750.7</ele></trkpt>
+      <trkpt lat="-23.542475" lon="-46.575300"><ele>750.7</ele></trkpt>
+      <trkpt lat="-23.542458" lon="-46.575297"><ele>750.7</ele></trkpt>
+      <trkpt lat="-23.542449" lon="-46.575289"><ele>750.7</ele></trkpt>
+      <trkpt lat="-23.542440" lon="-46.575276"><ele>750.7</ele></trkpt>
+      <trkpt lat="-23.542415" lon="-46.575059"><ele>756.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

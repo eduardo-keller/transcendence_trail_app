@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Quinze de Novembro</name>
+    <trkseg>
+      <trkpt lat="-23.468647" lon="-46.527865"><ele>764.6</ele></trkpt>
+      <trkpt lat="-23.468123" lon="-46.528060"><ele>767.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

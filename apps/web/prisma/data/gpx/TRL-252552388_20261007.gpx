@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Brasília</name>
+    <trkseg>
+      <trkpt lat="-23.737646" lon="-46.709206"><ele>751.1</ele></trkpt>
+      <trkpt lat="-23.737681" lon="-46.709296"><ele>751.1</ele></trkpt>
+      <trkpt lat="-23.737703" lon="-46.709351"><ele>753.7</ele></trkpt>
+      <trkpt lat="-23.737754" lon="-46.709497"><ele>753.7</ele></trkpt>
+      <trkpt lat="-23.737789" lon="-46.709595"><ele>757.0</ele></trkpt>
+      <trkpt lat="-23.737822" lon="-46.709700"><ele>757.0</ele></trkpt>
+      <trkpt lat="-23.737862" lon="-46.709834"><ele>757.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

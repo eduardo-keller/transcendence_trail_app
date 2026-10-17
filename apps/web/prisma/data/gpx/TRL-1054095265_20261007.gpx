@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Caminho Alagoa</name>
+    <trkseg>
+      <trkpt lat="-23.903132" lon="-46.457547"><ele>5.8</ele></trkpt>
+      <trkpt lat="-23.903287" lon="-46.457459"><ele>4.7</ele></trkpt>
+      <trkpt lat="-23.903456" lon="-46.457349"><ele>3.5</ele></trkpt>
+      <trkpt lat="-23.903481" lon="-46.457325"><ele>2.6</ele></trkpt>
+      <trkpt lat="-23.903508" lon="-46.457309"><ele>2.6</ele></trkpt>
+      <trkpt lat="-23.903547" lon="-46.457279"><ele>2.6</ele></trkpt>
+      <trkpt lat="-23.903601" lon="-46.457247"><ele>2.6</ele></trkpt>
+      <trkpt lat="-23.903594" lon="-46.457228"><ele>2.6</ele></trkpt>
+      <trkpt lat="-23.903645" lon="-46.457202"><ele>2.6</ele></trkpt>
+      <trkpt lat="-23.903702" lon="-46.457161"><ele>2.6</ele></trkpt>
+      <trkpt lat="-23.903785" lon="-46.457102"><ele>4.6</ele></trkpt>
+      <trkpt lat="-23.903819" lon="-46.457078"><ele>3.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

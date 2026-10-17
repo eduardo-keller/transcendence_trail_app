@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Alberto Stuchi</name>
+    <trkseg>
+      <trkpt lat="-23.564536" lon="-46.534031"><ele>772.0</ele></trkpt>
+      <trkpt lat="-23.564569" lon="-46.533976"><ele>776.6</ele></trkpt>
+      <trkpt lat="-23.564708" lon="-46.533718"><ele>782.6</ele></trkpt>
+      <trkpt lat="-23.564855" lon="-46.533455"><ele>785.5</ele></trkpt>
+      <trkpt lat="-23.564898" lon="-46.533377"><ele>789.5</ele></trkpt>
+      <trkpt lat="-23.565165" lon="-46.532856"><ele>800.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

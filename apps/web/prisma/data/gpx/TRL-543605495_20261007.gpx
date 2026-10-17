@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Rufino Elizalde</name>
+    <trkseg>
+      <trkpt lat="-23.732067" lon="-46.712996"><ele>745.7</ele></trkpt>
+      <trkpt lat="-23.732041" lon="-46.712928"><ele>745.7</ele></trkpt>
+      <trkpt lat="-23.731987" lon="-46.712818"><ele>747.2</ele></trkpt>
+      <trkpt lat="-23.731959" lon="-46.712759"><ele>747.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

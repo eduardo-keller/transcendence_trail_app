@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Alaide Bueno Rodrigues</name>
+    <trkseg>
+      <trkpt lat="-23.631916" lon="-46.765551"><ele>768.3</ele></trkpt>
+      <trkpt lat="-23.631322" lon="-46.764915"><ele>781.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

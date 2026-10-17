@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Mazel</name>
+    <trkseg>
+      <trkpt lat="-23.598277" lon="-46.845024"><ele>827.1</ele></trkpt>
+      <trkpt lat="-23.598922" lon="-46.844558"><ele>818.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

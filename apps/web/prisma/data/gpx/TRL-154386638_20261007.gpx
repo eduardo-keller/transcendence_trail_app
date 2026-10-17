@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passarela Doutor Fernando Noboru Miyake</name>
+    <trkseg>
+      <trkpt lat="-23.681306" lon="-46.542173"><ele>773.6</ele></trkpt>
+      <trkpt lat="-23.681720" lon="-46.541848"><ele>770.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

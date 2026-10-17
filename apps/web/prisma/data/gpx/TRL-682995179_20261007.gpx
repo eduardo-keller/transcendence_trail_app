@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Igreja Cristã</name>
+    <trkseg>
+      <trkpt lat="-23.476406" lon="-46.652853"><ele>757.3</ele></trkpt>
+      <trkpt lat="-23.476423" lon="-46.652859"><ele>757.3</ele></trkpt>
+      <trkpt lat="-23.476435" lon="-46.652864"><ele>757.3</ele></trkpt>
+      <trkpt lat="-23.476445" lon="-46.652871"><ele>757.3</ele></trkpt>
+      <trkpt lat="-23.476458" lon="-46.652862"><ele>757.3</ele></trkpt>
+      <trkpt lat="-23.476464" lon="-46.652848"><ele>757.3</ele></trkpt>
+      <trkpt lat="-23.476479" lon="-46.652836"><ele>757.3</ele></trkpt>
+      <trkpt lat="-23.476476" lon="-46.652821"><ele>757.3</ele></trkpt>
+      <trkpt lat="-23.476471" lon="-46.652804"><ele>757.3</ele></trkpt>
+      <trkpt lat="-23.476458" lon="-46.652803"><ele>757.3</ele></trkpt>
+      <trkpt lat="-23.476455" lon="-46.652783"><ele>757.3</ele></trkpt>
+      <trkpt lat="-23.476441" lon="-46.652779"><ele>757.3</ele></trkpt>
+      <trkpt lat="-23.476426" lon="-46.652783"><ele>757.3</ele></trkpt>
+      <trkpt lat="-23.476412" lon="-46.652782"><ele>757.3</ele></trkpt>
+      <trkpt lat="-23.476402" lon="-46.652791"><ele>757.3</ele></trkpt>
+      <trkpt lat="-23.476400" lon="-46.652816"><ele>757.3</ele></trkpt>
+      <trkpt lat="-23.476398" lon="-46.652832"><ele>757.3</ele></trkpt>
+      <trkpt lat="-23.476406" lon="-46.652853"><ele>757.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

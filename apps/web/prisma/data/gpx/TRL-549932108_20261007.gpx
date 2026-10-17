@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Dom Aloisio Kilgus</name>
+    <trkseg>
+      <trkpt lat="-23.817226" lon="-46.775304"><ele>755.1</ele></trkpt>
+      <trkpt lat="-23.817121" lon="-46.775427"><ele>754.5</ele></trkpt>
+      <trkpt lat="-23.816987" lon="-46.775552"><ele>756.6</ele></trkpt>
+      <trkpt lat="-23.816845" lon="-46.775673"><ele>756.6</ele></trkpt>
+      <trkpt lat="-23.816726" lon="-46.775754"><ele>755.2</ele></trkpt>
+      <trkpt lat="-23.816505" lon="-46.775887"><ele>756.2</ele></trkpt>
+      <trkpt lat="-23.816374" lon="-46.775933"><ele>756.2</ele></trkpt>
+      <trkpt lat="-23.816232" lon="-46.775983"><ele>756.8</ele></trkpt>
+      <trkpt lat="-23.816143" lon="-46.776041"><ele>756.8</ele></trkpt>
+      <trkpt lat="-23.816087" lon="-46.776103"><ele>756.8</ele></trkpt>
+      <trkpt lat="-23.815947" lon="-46.776207"><ele>761.6</ele></trkpt>
+      <trkpt lat="-23.815822" lon="-46.776296"><ele>759.6</ele></trkpt>
+      <trkpt lat="-23.815665" lon="-46.776388"><ele>769.1</ele></trkpt>
+      <trkpt lat="-23.815508" lon="-46.776427"><ele>769.1</ele></trkpt>
+      <trkpt lat="-23.815391" lon="-46.776412"><ele>776.1</ele></trkpt>
+      <trkpt lat="-23.815262" lon="-46.776371"><ele>776.1</ele></trkpt>
+      <trkpt lat="-23.815126" lon="-46.776382"><ele>780.4</ele></trkpt>
+      <trkpt lat="-23.815005" lon="-46.776433"><ele>780.4</ele></trkpt>
+      <trkpt lat="-23.814833" lon="-46.776435"><ele>784.5</ele></trkpt>
+      <trkpt lat="-23.814665" lon="-46.776386"><ele>784.5</ele></trkpt>
+      <trkpt lat="-23.814497" lon="-46.776294"><ele>789.0</ele></trkpt>
+      <trkpt lat="-23.814225" lon="-46.776105"><ele>794.8</ele></trkpt>
+      <trkpt lat="-23.814010" lon="-46.775950"><ele>797.9</ele></trkpt>
+      <trkpt lat="-23.813736" lon="-46.775738"><ele>800.8</ele></trkpt>
+      <trkpt lat="-23.813520" lon="-46.775578"><ele>802.4</ele></trkpt>
+      <trkpt lat="-23.813314" lon="-46.775419"><ele>805.6</ele></trkpt>
+      <trkpt lat="-23.813101" lon="-46.775297"><ele>810.1</ele></trkpt>
+      <trkpt lat="-23.812991" lon="-46.775260"><ele>810.1</ele></trkpt>
+      <trkpt lat="-23.812901" lon="-46.775230"><ele>815.3</ele></trkpt>
+      <trkpt lat="-23.812721" lon="-46.775171"><ele>815.3</ele></trkpt>
+      <trkpt lat="-23.812624" lon="-46.775133"><ele>821.9</ele></trkpt>
+      <trkpt lat="-23.812555" lon="-46.775096"><ele>821.9</ele></trkpt>
+      <trkpt lat="-23.812407" lon="-46.775045"><ele>821.9</ele></trkpt>
+      <trkpt lat="-23.812266" lon="-46.774994"><ele>824.8</ele></trkpt>
+      <trkpt lat="-23.812151" lon="-46.774945"><ele>824.8</ele></trkpt>
+      <trkpt lat="-23.812054" lon="-46.774938"><ele>827.7</ele></trkpt>
+      <trkpt lat="-23.811839" lon="-46.774972"><ele>827.7</ele></trkpt>
+      <trkpt lat="-23.811787" lon="-46.774963"><ele>827.2</ele></trkpt>
+      <trkpt lat="-23.811749" lon="-46.774930"><ele>827.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

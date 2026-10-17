@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Hemógenes</name>
+    <trkseg>
+      <trkpt lat="-23.817303" lon="-46.707227"><ele>801.6</ele></trkpt>
+      <trkpt lat="-23.817378" lon="-46.707292"><ele>794.9</ele></trkpt>
+      <trkpt lat="-23.817465" lon="-46.707353"><ele>794.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

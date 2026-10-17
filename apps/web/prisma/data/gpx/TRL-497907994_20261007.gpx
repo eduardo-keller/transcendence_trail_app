@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>VP Itaubal</name>
+    <trkseg>
+      <trkpt lat="-23.483846" lon="-46.573583"><ele>740.0</ele></trkpt>
+      <trkpt lat="-23.484023" lon="-46.573941"><ele>742.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

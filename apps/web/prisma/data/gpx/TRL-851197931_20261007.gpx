@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Guaratuba</name>
+    <trkseg>
+      <trkpt lat="-23.650818" lon="-46.493286"><ele>764.5</ele></trkpt>
+      <trkpt lat="-23.650756" lon="-46.493325"><ele>764.5</ele></trkpt>
+      <trkpt lat="-23.650727" lon="-46.493376"><ele>764.5</ele></trkpt>
+      <trkpt lat="-23.650727" lon="-46.493376"><ele>764.5</ele></trkpt>
+      <trkpt lat="-23.650723" lon="-46.493443"><ele>764.5</ele></trkpt>
+      <trkpt lat="-23.650687" lon="-46.493633"><ele>776.0</ele></trkpt>
+      <trkpt lat="-23.650597" lon="-46.493787"><ele>767.4</ele></trkpt>
+      <trkpt lat="-23.650543" lon="-46.493871"><ele>767.4</ele></trkpt>
+      <trkpt lat="-23.650548" lon="-46.493959"><ele>767.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

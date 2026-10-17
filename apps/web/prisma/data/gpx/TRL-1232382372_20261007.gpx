@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Beco</name>
+    <trkseg>
+      <trkpt lat="-24.035163" lon="-46.524954"><ele>5.8</ele></trkpt>
+      <trkpt lat="-24.034454" lon="-46.525927"><ele>4.2</ele></trkpt>
+      <trkpt lat="-24.034417" lon="-46.525975"><ele>3.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

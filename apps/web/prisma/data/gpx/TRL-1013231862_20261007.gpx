@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua João Viana</name>
+    <trkseg>
+      <trkpt lat="-23.557120" lon="-47.097126"><ele>888.0</ele></trkpt>
+      <trkpt lat="-23.558020" lon="-47.096508"><ele>916.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

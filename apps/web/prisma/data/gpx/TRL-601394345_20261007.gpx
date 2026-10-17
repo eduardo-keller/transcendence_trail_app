@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Praça Paulo Reis de Magalhães</name>
+    <trkseg>
+      <trkpt lat="-23.439617" lon="-46.725580"><ele>835.7</ele></trkpt>
+      <trkpt lat="-23.439608" lon="-46.725642"><ele>835.7</ele></trkpt>
+      <trkpt lat="-23.439612" lon="-46.725665"><ele>835.7</ele></trkpt>
+      <trkpt lat="-23.439625" lon="-46.725688"><ele>835.7</ele></trkpt>
+      <trkpt lat="-23.439675" lon="-46.725728"><ele>833.0</ele></trkpt>
+      <trkpt lat="-23.439727" lon="-46.725771"><ele>833.0</ele></trkpt>
+      <trkpt lat="-23.439807" lon="-46.725829"><ele>833.0</ele></trkpt>
+      <trkpt lat="-23.439851" lon="-46.725849"><ele>833.0</ele></trkpt>
+      <trkpt lat="-23.439885" lon="-46.725865"><ele>837.5</ele></trkpt>
+      <trkpt lat="-23.439964" lon="-46.725897"><ele>837.5</ele></trkpt>
+      <trkpt lat="-23.439989" lon="-46.725904"><ele>837.5</ele></trkpt>
+      <trkpt lat="-23.440029" lon="-46.725916"><ele>837.5</ele></trkpt>
+      <trkpt lat="-23.440081" lon="-46.725929"><ele>837.5</ele></trkpt>
+      <trkpt lat="-23.440121" lon="-46.725935"><ele>837.5</ele></trkpt>
+      <trkpt lat="-23.440123" lon="-46.725936"><ele>837.5</ele></trkpt>
+      <trkpt lat="-23.440161" lon="-46.725941"><ele>839.7</ele></trkpt>
+      <trkpt lat="-23.440228" lon="-46.725947"><ele>839.7</ele></trkpt>
+      <trkpt lat="-23.440299" lon="-46.725953"><ele>839.7</ele></trkpt>
+      <trkpt lat="-23.440333" lon="-46.725955"><ele>839.7</ele></trkpt>
+      <trkpt lat="-23.440383" lon="-46.725954"><ele>839.7</ele></trkpt>
+      <trkpt lat="-23.440432" lon="-46.725953"><ele>838.5</ele></trkpt>
+      <trkpt lat="-23.440483" lon="-46.725949"><ele>838.5</ele></trkpt>
+      <trkpt lat="-23.440559" lon="-46.725936"><ele>838.5</ele></trkpt>
+      <trkpt lat="-23.440605" lon="-46.725930"><ele>838.5</ele></trkpt>
+      <trkpt lat="-23.440674" lon="-46.725911"><ele>838.5</ele></trkpt>
+      <trkpt lat="-23.440724" lon="-46.725891"><ele>839.5</ele></trkpt>
+      <trkpt lat="-23.440773" lon="-46.725865"><ele>839.5</ele></trkpt>
+      <trkpt lat="-23.440819" lon="-46.725843"><ele>839.5</ele></trkpt>
+      <trkpt lat="-23.440881" lon="-46.725812"><ele>839.5</ele></trkpt>
+      <trkpt lat="-23.440939" lon="-46.725780"><ele>839.5</ele></trkpt>
+      <trkpt lat="-23.440992" lon="-46.725738"><ele>837.8</ele></trkpt>
+      <trkpt lat="-23.441052" lon="-46.725689"><ele>844.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

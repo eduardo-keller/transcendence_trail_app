@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa 18 B</name>
+    <trkseg>
+      <trkpt lat="-23.550037" lon="-46.410607"><ele>779.2</ele></trkpt>
+      <trkpt lat="-23.549808" lon="-46.410734"><ele>777.5</ele></trkpt>
+      <trkpt lat="-23.549663" lon="-46.410831"><ele>777.5</ele></trkpt>
+      <trkpt lat="-23.549619" lon="-46.410905"><ele>777.5</ele></trkpt>
+      <trkpt lat="-23.549625" lon="-46.410990"><ele>781.4</ele></trkpt>
+      <trkpt lat="-23.549641" lon="-46.411063"><ele>781.4</ele></trkpt>
+      <trkpt lat="-23.549617" lon="-46.411149"><ele>781.4</ele></trkpt>
+      <trkpt lat="-23.549555" lon="-46.411266"><ele>780.0</ele></trkpt>
+      <trkpt lat="-23.549475" lon="-46.411398"><ele>780.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

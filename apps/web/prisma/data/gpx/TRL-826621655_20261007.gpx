@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Trilha da Corredeira da Barragem</name>
+    <trkseg>
+      <trkpt lat="-23.715388" lon="-46.957656"><ele>934.1</ele></trkpt>
+      <trkpt lat="-23.715219" lon="-46.957669"><ele>934.1</ele></trkpt>
+      <trkpt lat="-23.714961" lon="-46.957648"><ele>923.5</ele></trkpt>
+      <trkpt lat="-23.714832" lon="-46.957618"><ele>922.3</ele></trkpt>
+      <trkpt lat="-23.714571" lon="-46.957162"><ele>922.1</ele></trkpt>
+      <trkpt lat="-23.714326" lon="-46.957124"><ele>922.1</ele></trkpt>
+      <trkpt lat="-23.713962" lon="-46.957108"><ele>917.5</ele></trkpt>
+      <trkpt lat="-23.713697" lon="-46.957076"><ele>917.5</ele></trkpt>
+      <trkpt lat="-23.713588" lon="-46.957036"><ele>917.5</ele></trkpt>
+      <trkpt lat="-23.713510" lon="-46.956996"><ele>917.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

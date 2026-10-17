@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Gelmir Smaniato</name>
+    <trkseg>
+      <trkpt lat="-23.550975" lon="-46.837967"><ele>755.0</ele></trkpt>
+      <trkpt lat="-23.550908" lon="-46.838082"><ele>754.5</ele></trkpt>
+      <trkpt lat="-23.550876" lon="-46.838135"><ele>754.5</ele></trkpt>
+      <trkpt lat="-23.550975" lon="-46.837967"><ele>755.0</ele></trkpt>
+      <trkpt lat="-23.551008" lon="-46.837911"><ele>754.3</ele></trkpt>
+      <trkpt lat="-23.551008" lon="-46.837911"><ele>754.3</ele></trkpt>
+      <trkpt lat="-23.551025" lon="-46.837882"><ele>754.3</ele></trkpt>
+      <trkpt lat="-23.551094" lon="-46.837764"><ele>754.3</ele></trkpt>
+      <trkpt lat="-23.551098" lon="-46.837757"><ele>754.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

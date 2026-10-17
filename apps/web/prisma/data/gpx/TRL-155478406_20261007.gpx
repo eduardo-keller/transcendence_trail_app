@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Cinquenta e Nove</name>
+    <trkseg>
+      <trkpt lat="-23.599241" lon="-46.448885"><ele>808.9</ele></trkpt>
+      <trkpt lat="-23.599885" lon="-46.448794"><ele>808.4</ele></trkpt>
+      <trkpt lat="-23.599926" lon="-46.448786"><ele>808.4</ele></trkpt>
+      <trkpt lat="-23.599968" lon="-46.448771"><ele>808.4</ele></trkpt>
+      <trkpt lat="-23.600011" lon="-46.448752"><ele>808.4</ele></trkpt>
+      <trkpt lat="-23.600039" lon="-46.448724"><ele>811.6</ele></trkpt>
+      <trkpt lat="-23.600066" lon="-46.448683"><ele>811.6</ele></trkpt>
+      <trkpt lat="-23.600081" lon="-46.448618"><ele>811.6</ele></trkpt>
+      <trkpt lat="-23.600084" lon="-46.448535"><ele>811.6</ele></trkpt>
+      <trkpt lat="-23.600043" lon="-46.448134"><ele>815.5</ele></trkpt>
+      <trkpt lat="-23.599983" lon="-46.447550"><ele>813.4</ele></trkpt>
+      <trkpt lat="-23.599918" lon="-46.446925"><ele>807.6</ele></trkpt>
+      <trkpt lat="-23.599912" lon="-46.446864"><ele>807.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

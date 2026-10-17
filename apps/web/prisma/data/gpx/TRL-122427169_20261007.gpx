@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Paraiso</name>
+    <trkseg>
+      <trkpt lat="-23.682216" lon="-46.656201"><ele>808.9</ele></trkpt>
+      <trkpt lat="-23.682130" lon="-46.656292"><ele>812.5</ele></trkpt>
+      <trkpt lat="-23.682083" lon="-46.656365"><ele>813.4</ele></trkpt>
+      <trkpt lat="-23.682060" lon="-46.656467"><ele>813.4</ele></trkpt>
+      <trkpt lat="-23.682074" lon="-46.656697"><ele>813.6</ele></trkpt>
+      <trkpt lat="-23.682068" lon="-46.656776"><ele>813.6</ele></trkpt>
+      <trkpt lat="-23.682025" lon="-46.656929"><ele>814.2</ele></trkpt>
+      <trkpt lat="-23.681987" lon="-46.657050"><ele>814.2</ele></trkpt>
+      <trkpt lat="-23.681918" lon="-46.657181"><ele>813.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

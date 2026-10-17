@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>resenha de livros</name>
+    <trkseg>
+      <trkpt lat="-23.589322" lon="-46.656378"><ele>764.5</ele></trkpt>
+      <trkpt lat="-23.589295" lon="-46.656617"><ele>759.9</ele></trkpt>
+      <trkpt lat="-23.589234" lon="-46.656844"><ele>757.7</ele></trkpt>
+      <trkpt lat="-23.589125" lon="-46.657065"><ele>757.7</ele></trkpt>
+      <trkpt lat="-23.588884" lon="-46.657394"><ele>763.4</ele></trkpt>
+      <trkpt lat="-23.588757" lon="-46.657547"><ele>763.4</ele></trkpt>
+      <trkpt lat="-23.588492" lon="-46.657866"><ele>764.5</ele></trkpt>
+      <trkpt lat="-23.588124" lon="-46.658283"><ele>754.3</ele></trkpt>
+      <trkpt lat="-23.587954" lon="-46.658426"><ele>754.3</ele></trkpt>
+      <trkpt lat="-23.587631" lon="-46.658656"><ele>750.3</ele></trkpt>
+      <trkpt lat="-23.587160" lon="-46.659124"><ele>749.0</ele></trkpt>
+      <trkpt lat="-23.587057" lon="-46.659182"><ele>753.1</ele></trkpt>
+      <trkpt lat="-23.586988" lon="-46.659201"><ele>753.1</ele></trkpt>
+      <trkpt lat="-23.586863" lon="-46.659205"><ele>753.1</ele></trkpt>
+      <trkpt lat="-23.586674" lon="-46.659155"><ele>750.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

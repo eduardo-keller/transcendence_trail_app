@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Dona Florentina Ameni</name>
+    <trkseg>
+      <trkpt lat="-23.408217" lon="-46.900721"><ele>740.6</ele></trkpt>
+      <trkpt lat="-23.408482" lon="-46.900649"><ele>731.0</ele></trkpt>
+      <trkpt lat="-23.408504" lon="-46.900762"><ele>735.1</ele></trkpt>
+      <trkpt lat="-23.408479" lon="-46.900896"><ele>735.1</ele></trkpt>
+      <trkpt lat="-23.408469" lon="-46.901049"><ele>748.4</ele></trkpt>
+      <trkpt lat="-23.408455" lon="-46.901135"><ele>748.4</ele></trkpt>
+      <trkpt lat="-23.408479" lon="-46.901239"><ele>737.8</ele></trkpt>
+      <trkpt lat="-23.408516" lon="-46.901341"><ele>741.0</ele></trkpt>
+      <trkpt lat="-23.408551" lon="-46.901414"><ele>741.0</ele></trkpt>
+      <trkpt lat="-23.408602" lon="-46.901486"><ele>741.0</ele></trkpt>
+      <trkpt lat="-23.408602" lon="-46.901577"><ele>744.7</ele></trkpt>
+      <trkpt lat="-23.408610" lon="-46.901660"><ele>744.7</ele></trkpt>
+      <trkpt lat="-23.408623" lon="-46.901719"><ele>744.7</ele></trkpt>
+      <trkpt lat="-23.408629" lon="-46.901749"><ele>744.7</ele></trkpt>
+      <trkpt lat="-23.408661" lon="-46.901816"><ele>750.1</ele></trkpt>
+      <trkpt lat="-23.408755" lon="-46.901905"><ele>740.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

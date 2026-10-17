@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Estrada Municipal 24</name>
+    <trkseg>
+      <trkpt lat="-23.470839" lon="-46.830659"><ele>861.7</ele></trkpt>
+      <trkpt lat="-23.470679" lon="-46.830912"><ele>859.8</ele></trkpt>
+      <trkpt lat="-23.470435" lon="-46.831244"><ele>861.9</ele></trkpt>
+      <trkpt lat="-23.470134" lon="-46.832098"><ele>851.4</ele></trkpt>
+      <trkpt lat="-23.469894" lon="-46.833350"><ele>863.1</ele></trkpt>
+      <trkpt lat="-23.469826" lon="-46.834014"><ele>861.6</ele></trkpt>
+      <trkpt lat="-23.469548" lon="-46.834244"><ele>863.2</ele></trkpt>
+      <trkpt lat="-23.469157" lon="-46.834042"><ele>863.2</ele></trkpt>
+      <trkpt lat="-23.468817" lon="-46.834598"><ele>852.7</ele></trkpt>
+      <trkpt lat="-23.468778" lon="-46.835014"><ele>847.7</ele></trkpt>
+      <trkpt lat="-23.468661" lon="-46.835986"><ele>820.7</ele></trkpt>
+      <trkpt lat="-23.468443" lon="-46.836748"><ele>809.0</ele></trkpt>
+      <trkpt lat="-23.468577" lon="-46.837194"><ele>796.7</ele></trkpt>
+      <trkpt lat="-23.468788" lon="-46.837758"><ele>785.2</ele></trkpt>
+      <trkpt lat="-23.468844" lon="-46.837973"><ele>781.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

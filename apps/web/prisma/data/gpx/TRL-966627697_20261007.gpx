@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Tietê</name>
+    <trkseg>
+      <trkpt lat="-23.661915" lon="-46.803555"><ele>771.4</ele></trkpt>
+      <trkpt lat="-23.661920" lon="-46.803568"><ele>771.4</ele></trkpt>
+      <trkpt lat="-23.661932" lon="-46.803582"><ele>771.4</ele></trkpt>
+      <trkpt lat="-23.661974" lon="-46.803621"><ele>771.4</ele></trkpt>
+      <trkpt lat="-23.662102" lon="-46.803729"><ele>771.7</ele></trkpt>
+      <trkpt lat="-23.662254" lon="-46.803900"><ele>771.4</ele></trkpt>
+      <trkpt lat="-23.662345" lon="-46.804007"><ele>771.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

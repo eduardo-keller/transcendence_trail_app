@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Augustin Querol</name>
+    <trkseg>
+      <trkpt lat="-23.489058" lon="-46.589091"><ele>764.3</ele></trkpt>
+      <trkpt lat="-23.489389" lon="-46.589417"><ele>763.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua N</name>
+    <trkseg>
+      <trkpt lat="-23.542259" lon="-46.629399"><ele>735.2</ele></trkpt>
+      <trkpt lat="-23.542168" lon="-46.629646"><ele>737.3</ele></trkpt>
+      <trkpt lat="-23.542102" lon="-46.629822"><ele>737.3</ele></trkpt>
+      <trkpt lat="-23.542022" lon="-46.630040"><ele>730.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Praça Ilo Ottani</name>
+    <trkseg>
+      <trkpt lat="-23.527001" lon="-46.611430"><ele>726.0</ele></trkpt>
+      <trkpt lat="-23.526969" lon="-46.611407"><ele>726.0</ele></trkpt>
+      <trkpt lat="-23.526938" lon="-46.611380"><ele>726.0</ele></trkpt>
+      <trkpt lat="-23.526919" lon="-46.611350"><ele>726.0</ele></trkpt>
+      <trkpt lat="-23.526901" lon="-46.611310"><ele>726.0</ele></trkpt>
+      <trkpt lat="-23.526875" lon="-46.611236"><ele>727.4</ele></trkpt>
+      <trkpt lat="-23.526857" lon="-46.611159"><ele>727.4</ele></trkpt>
+      <trkpt lat="-23.526843" lon="-46.611051"><ele>727.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

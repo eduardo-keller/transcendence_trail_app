@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Estrada do Palanque</name>
+    <trkseg>
+      <trkpt lat="-23.618480" lon="-46.397862"><ele>881.2</ele></trkpt>
+      <trkpt lat="-23.618416" lon="-46.398013"><ele>878.0</ele></trkpt>
+      <trkpt lat="-23.618376" lon="-46.398069"><ele>878.0</ele></trkpt>
+      <trkpt lat="-23.618392" lon="-46.398181"><ele>878.0</ele></trkpt>
+      <trkpt lat="-23.618379" lon="-46.398922"><ele>871.8</ele></trkpt>
+      <trkpt lat="-23.618493" lon="-46.399782"><ele>864.9</ele></trkpt>
+      <trkpt lat="-23.618497" lon="-46.400183"><ele>867.7</ele></trkpt>
+      <trkpt lat="-23.618212" lon="-46.400714"><ele>858.0</ele></trkpt>
+      <trkpt lat="-23.617841" lon="-46.402653"><ele>835.1</ele></trkpt>
+      <trkpt lat="-23.617833" lon="-46.403217"><ele>834.4</ele></trkpt>
+      <trkpt lat="-23.617829" lon="-46.403265"><ele>834.4</ele></trkpt>
+      <trkpt lat="-23.617817" lon="-46.403301"><ele>834.4</ele></trkpt>
+      <trkpt lat="-23.617790" lon="-46.403348"><ele>834.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

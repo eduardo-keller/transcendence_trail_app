@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Ilha do Francês</name>
+    <trkseg>
+      <trkpt lat="-23.642296" lon="-46.439668"><ele>895.4</ele></trkpt>
+      <trkpt lat="-23.642328" lon="-46.439269"><ele>897.7</ele></trkpt>
+      <trkpt lat="-23.642396" lon="-46.439077"><ele>886.7</ele></trkpt>
+      <trkpt lat="-23.642435" lon="-46.438907"><ele>892.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Gustavo Campa</name>
+    <trkseg>
+      <trkpt lat="-23.823003" lon="-46.704279"><ele>797.3</ele></trkpt>
+      <trkpt lat="-23.822899" lon="-46.704369"><ele>799.1</ele></trkpt>
+      <trkpt lat="-23.822756" lon="-46.704462"><ele>799.1</ele></trkpt>
+      <trkpt lat="-23.822651" lon="-46.704528"><ele>799.1</ele></trkpt>
+      <trkpt lat="-23.822526" lon="-46.704732"><ele>797.6</ele></trkpt>
+      <trkpt lat="-23.822487" lon="-46.704796"><ele>797.6</ele></trkpt>
+      <trkpt lat="-23.822386" lon="-46.704975"><ele>799.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

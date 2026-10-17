@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Via de Pedestre Horácio Cartagenova I</name>
+    <trkseg>
+      <trkpt lat="-23.745228" lon="-46.710357"><ele>754.6</ele></trkpt>
+      <trkpt lat="-23.745262" lon="-46.710313"><ele>754.6</ele></trkpt>
+      <trkpt lat="-23.745298" lon="-46.710284"><ele>754.6</ele></trkpt>
+      <trkpt lat="-23.745316" lon="-46.710274"><ele>754.6</ele></trkpt>
+      <trkpt lat="-23.745316" lon="-46.710265"><ele>754.6</ele></trkpt>
+      <trkpt lat="-23.745307" lon="-46.710245"><ele>754.6</ele></trkpt>
+      <trkpt lat="-23.745281" lon="-46.710195"><ele>754.6</ele></trkpt>
+      <trkpt lat="-23.745262" lon="-46.710154"><ele>754.6</ele></trkpt>
+      <trkpt lat="-23.745281" lon="-46.710146"><ele>754.6</ele></trkpt>
+      <trkpt lat="-23.745255" lon="-46.710107"><ele>755.3</ele></trkpt>
+      <trkpt lat="-23.745237" lon="-46.710079"><ele>755.3</ele></trkpt>
+      <trkpt lat="-23.745354" lon="-46.709980"><ele>755.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

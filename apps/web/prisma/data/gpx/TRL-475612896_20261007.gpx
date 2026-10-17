@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Via de Pedestres Serra da Aurora</name>
+    <trkseg>
+      <trkpt lat="-23.456705" lon="-46.663031"><ele>797.2</ele></trkpt>
+      <trkpt lat="-23.456794" lon="-46.663019"><ele>797.2</ele></trkpt>
+      <trkpt lat="-23.456779" lon="-46.662946"><ele>797.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

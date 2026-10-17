@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Maranhão</name>
+    <trkseg>
+      <trkpt lat="-23.607981" lon="-46.515379"><ele>773.5</ele></trkpt>
+      <trkpt lat="-23.607986" lon="-46.515408"><ele>773.5</ele></trkpt>
+      <trkpt lat="-23.607982" lon="-46.515523"><ele>771.8</ele></trkpt>
+      <trkpt lat="-23.607975" lon="-46.515575"><ele>771.8</ele></trkpt>
+      <trkpt lat="-23.607954" lon="-46.515644"><ele>771.8</ele></trkpt>
+      <trkpt lat="-23.607942" lon="-46.515706"><ele>772.5</ele></trkpt>
+      <trkpt lat="-23.607933" lon="-46.515730"><ele>772.5</ele></trkpt>
+      <trkpt lat="-23.607909" lon="-46.515760"><ele>767.6</ele></trkpt>
+      <trkpt lat="-23.607888" lon="-46.515788"><ele>767.6</ele></trkpt>
+      <trkpt lat="-23.607871" lon="-46.515822"><ele>767.6</ele></trkpt>
+      <trkpt lat="-23.607827" lon="-46.515923"><ele>767.6</ele></trkpt>
+      <trkpt lat="-23.607809" lon="-46.515952"><ele>767.6</ele></trkpt>
+      <trkpt lat="-23.607727" lon="-46.516046"><ele>766.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

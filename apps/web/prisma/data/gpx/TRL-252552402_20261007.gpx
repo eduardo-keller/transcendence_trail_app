@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Pedro Correia Garcao</name>
+    <trkseg>
+      <trkpt lat="-23.733483" lon="-46.714006"><ele>751.8</ele></trkpt>
+      <trkpt lat="-23.733475" lon="-46.714086"><ele>754.8</ele></trkpt>
+      <trkpt lat="-23.733475" lon="-46.714114"><ele>754.8</ele></trkpt>
+      <trkpt lat="-23.733479" lon="-46.714147"><ele>754.8</ele></trkpt>
+      <trkpt lat="-23.733482" lon="-46.714146"><ele>754.8</ele></trkpt>
+      <trkpt lat="-23.733544" lon="-46.714139"><ele>754.8</ele></trkpt>
+      <trkpt lat="-23.733587" lon="-46.714139"><ele>754.8</ele></trkpt>
+      <trkpt lat="-23.733632" lon="-46.714148"><ele>754.8</ele></trkpt>
+      <trkpt lat="-23.733686" lon="-46.714168"><ele>754.8</ele></trkpt>
+      <trkpt lat="-23.733737" lon="-46.714185"><ele>754.8</ele></trkpt>
+      <trkpt lat="-23.733817" lon="-46.714199"><ele>755.8</ele></trkpt>
+      <trkpt lat="-23.733873" lon="-46.714186"><ele>755.8</ele></trkpt>
+      <trkpt lat="-23.733952" lon="-46.714167"><ele>755.8</ele></trkpt>
+      <trkpt lat="-23.733977" lon="-46.714186"><ele>755.8</ele></trkpt>
+      <trkpt lat="-23.734040" lon="-46.714200"><ele>755.5</ele></trkpt>
+      <trkpt lat="-23.734086" lon="-46.714199"><ele>755.5</ele></trkpt>
+      <trkpt lat="-23.734093" lon="-46.714195"><ele>755.5</ele></trkpt>
+      <trkpt lat="-23.734097" lon="-46.714113"><ele>755.5</ele></trkpt>
+      <trkpt lat="-23.734151" lon="-46.714112"><ele>755.5</ele></trkpt>
+      <trkpt lat="-23.734153" lon="-46.714090"><ele>755.5</ele></trkpt>
+      <trkpt lat="-23.734170" lon="-46.714082"><ele>755.5</ele></trkpt>
+      <trkpt lat="-23.734212" lon="-46.713946"><ele>757.5</ele></trkpt>
+      <trkpt lat="-23.734236" lon="-46.713920"><ele>757.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

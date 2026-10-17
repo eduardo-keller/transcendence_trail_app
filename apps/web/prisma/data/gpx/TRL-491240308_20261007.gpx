@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua U</name>
+    <trkseg>
+      <trkpt lat="-23.453876" lon="-46.588868"><ele>761.7</ele></trkpt>
+      <trkpt lat="-23.453515" lon="-46.588752"><ele>760.0</ele></trkpt>
+      <trkpt lat="-23.453442" lon="-46.588729"><ele>763.5</ele></trkpt>
+      <trkpt lat="-23.453353" lon="-46.588704"><ele>763.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

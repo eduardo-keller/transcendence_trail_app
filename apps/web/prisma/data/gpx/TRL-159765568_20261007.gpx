@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Próspero Ribeiro Dinis</name>
+    <trkseg>
+      <trkpt lat="-23.486231" lon="-46.746780"><ele>780.7</ele></trkpt>
+      <trkpt lat="-23.486417" lon="-46.746665"><ele>777.9</ele></trkpt>
+      <trkpt lat="-23.487159" lon="-46.746157"><ele>762.2</ele></trkpt>
+      <trkpt lat="-23.487324" lon="-46.746051"><ele>762.2</ele></trkpt>
+      <trkpt lat="-23.487636" lon="-46.745540"><ele>752.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

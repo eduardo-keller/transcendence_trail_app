@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Crispim Adelino Cardoso</name>
+    <trkseg>
+      <trkpt lat="-23.636619" lon="-46.320628"><ele>755.1</ele></trkpt>
+      <trkpt lat="-23.636648" lon="-46.320574"><ele>755.1</ele></trkpt>
+      <trkpt lat="-23.636693" lon="-46.320531"><ele>755.1</ele></trkpt>
+      <trkpt lat="-23.636750" lon="-46.320474"><ele>755.1</ele></trkpt>
+      <trkpt lat="-23.636878" lon="-46.320339"><ele>756.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua G</name>
+    <trkseg>
+      <trkpt lat="-23.541505" lon="-46.629814"><ele>736.1</ele></trkpt>
+      <trkpt lat="-23.541586" lon="-46.629595"><ele>737.5</ele></trkpt>
+      <trkpt lat="-23.541651" lon="-46.629419"><ele>739.0</ele></trkpt>
+      <trkpt lat="-23.541742" lon="-46.629172"><ele>731.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

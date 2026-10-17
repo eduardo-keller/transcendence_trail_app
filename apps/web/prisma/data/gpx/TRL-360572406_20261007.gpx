@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Praça Ruy de Lugo Vinã</name>
+    <trkseg>
+      <trkpt lat="-23.931076" lon="-46.345337"><ele>16.2</ele></trkpt>
+      <trkpt lat="-23.931084" lon="-46.345369"><ele>16.2</ele></trkpt>
+      <trkpt lat="-23.931100" lon="-46.345405"><ele>16.2</ele></trkpt>
+      <trkpt lat="-23.931111" lon="-46.345433"><ele>14.3</ele></trkpt>
+      <trkpt lat="-23.931131" lon="-46.345470"><ele>14.3</ele></trkpt>
+      <trkpt lat="-23.931139" lon="-46.345494"><ele>14.3</ele></trkpt>
+      <trkpt lat="-23.931139" lon="-46.345516"><ele>14.3</ele></trkpt>
+      <trkpt lat="-23.931129" lon="-46.345551"><ele>14.3</ele></trkpt>
+      <trkpt lat="-23.931105" lon="-46.345574"><ele>14.3</ele></trkpt>
+      <trkpt lat="-23.931069" lon="-46.345602"><ele>14.3</ele></trkpt>
+      <trkpt lat="-23.931045" lon="-46.345619"><ele>14.3</ele></trkpt>
+      <trkpt lat="-23.931027" lon="-46.345651"><ele>14.3</ele></trkpt>
+      <trkpt lat="-23.930997" lon="-46.345687"><ele>14.3</ele></trkpt>
+      <trkpt lat="-23.930976" lon="-46.345719"><ele>9.2</ele></trkpt>
+      <trkpt lat="-23.930958" lon="-46.345739"><ele>5.0</ele></trkpt>
+      <trkpt lat="-23.930941" lon="-46.345761"><ele>5.0</ele></trkpt>
+      <trkpt lat="-23.930929" lon="-46.345761"><ele>5.0</ele></trkpt>
+      <trkpt lat="-23.930900" lon="-46.345813"><ele>5.0</ele></trkpt>
+      <trkpt lat="-23.930889" lon="-46.345850"><ele>5.0</ele></trkpt>
+      <trkpt lat="-23.930887" lon="-46.345889"><ele>5.0</ele></trkpt>
+      <trkpt lat="-23.930887" lon="-46.345935"><ele>5.0</ele></trkpt>
+      <trkpt lat="-23.930876" lon="-46.345972"><ele>5.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

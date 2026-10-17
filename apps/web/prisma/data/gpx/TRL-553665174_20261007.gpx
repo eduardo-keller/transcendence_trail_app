@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Vila do Sapo</name>
+    <trkseg>
+      <trkpt lat="-23.675249" lon="-46.798911"><ele>780.4</ele></trkpt>
+      <trkpt lat="-23.675060" lon="-46.798846"><ele>783.8</ele></trkpt>
+      <trkpt lat="-23.674966" lon="-46.798771"><ele>783.8</ele></trkpt>
+      <trkpt lat="-23.674869" lon="-46.798671"><ele>781.7</ele></trkpt>
+      <trkpt lat="-23.674771" lon="-46.798566"><ele>782.3</ele></trkpt>
+      <trkpt lat="-23.674656" lon="-46.798421"><ele>781.9</ele></trkpt>
+      <trkpt lat="-23.674581" lon="-46.798303"><ele>783.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

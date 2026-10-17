@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Avenida Ásia</name>
+    <trkseg>
+      <trkpt lat="-23.633363" lon="-46.806155"><ele>783.0</ele></trkpt>
+      <trkpt lat="-23.633310" lon="-46.806134"><ele>783.0</ele></trkpt>
+      <trkpt lat="-23.633305" lon="-46.806123"><ele>783.0</ele></trkpt>
+      <trkpt lat="-23.633303" lon="-46.806104"><ele>783.0</ele></trkpt>
+      <trkpt lat="-23.633315" lon="-46.805921"><ele>779.1</ele></trkpt>
+      <trkpt lat="-23.633311" lon="-46.805905"><ele>779.1</ele></trkpt>
+      <trkpt lat="-23.633303" lon="-46.805896"><ele>779.1</ele></trkpt>
+      <trkpt lat="-23.633278" lon="-46.805889"><ele>779.1</ele></trkpt>
+      <trkpt lat="-23.632585" lon="-46.805768"><ele>779.0</ele></trkpt>
+      <trkpt lat="-23.632393" lon="-46.805725"><ele>779.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

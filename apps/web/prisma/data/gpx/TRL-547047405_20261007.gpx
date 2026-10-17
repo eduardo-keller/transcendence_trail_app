@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Luzia da Silva Itabaiana</name>
+    <trkseg>
+      <trkpt lat="-23.675869" lon="-46.409021"><ele>799.8</ele></trkpt>
+      <trkpt lat="-23.675835" lon="-46.409039"><ele>799.9</ele></trkpt>
+      <trkpt lat="-23.675803" lon="-46.409062"><ele>799.9</ele></trkpt>
+      <trkpt lat="-23.675785" lon="-46.409096"><ele>799.9</ele></trkpt>
+      <trkpt lat="-23.675772" lon="-46.409133"><ele>799.9</ele></trkpt>
+      <trkpt lat="-23.675747" lon="-46.409184"><ele>799.9</ele></trkpt>
+      <trkpt lat="-23.675733" lon="-46.409230"><ele>799.9</ele></trkpt>
+      <trkpt lat="-23.675718" lon="-46.409278"><ele>799.9</ele></trkpt>
+      <trkpt lat="-23.675718" lon="-46.409326"><ele>802.0</ele></trkpt>
+      <trkpt lat="-23.675735" lon="-46.409372"><ele>802.0</ele></trkpt>
+      <trkpt lat="-23.675792" lon="-46.409410"><ele>802.0</ele></trkpt>
+      <trkpt lat="-23.675831" lon="-46.409434"><ele>802.0</ele></trkpt>
+      <trkpt lat="-23.675897" lon="-46.409482"><ele>802.0</ele></trkpt>
+      <trkpt lat="-23.675924" lon="-46.409520"><ele>802.0</ele></trkpt>
+      <trkpt lat="-23.675924" lon="-46.409520"><ele>802.0</ele></trkpt>
+      <trkpt lat="-23.675968" lon="-46.409579"><ele>802.0</ele></trkpt>
+      <trkpt lat="-23.675968" lon="-46.409579"><ele>802.0</ele></trkpt>
+      <trkpt lat="-23.676006" lon="-46.409624"><ele>798.8</ele></trkpt>
+      <trkpt lat="-23.676038" lon="-46.409672"><ele>798.8</ele></trkpt>
+      <trkpt lat="-23.676086" lon="-46.409744"><ele>798.8</ele></trkpt>
+      <trkpt lat="-23.676120" lon="-46.409810"><ele>798.8</ele></trkpt>
+      <trkpt lat="-23.676120" lon="-46.409810"><ele>798.8</ele></trkpt>
+      <trkpt lat="-23.676138" lon="-46.409861"><ele>800.1</ele></trkpt>
+      <trkpt lat="-23.676138" lon="-46.409861"><ele>800.1</ele></trkpt>
+      <trkpt lat="-23.676154" lon="-46.409917"><ele>800.1</ele></trkpt>
+      <trkpt lat="-23.676171" lon="-46.409984"><ele>800.1</ele></trkpt>
+      <trkpt lat="-23.676173" lon="-46.410025"><ele>800.1</ele></trkpt>
+      <trkpt lat="-23.676173" lon="-46.410070"><ele>800.1</ele></trkpt>
+      <trkpt lat="-23.676173" lon="-46.410121"><ele>800.1</ele></trkpt>
+      <trkpt lat="-23.676168" lon="-46.410172"><ele>806.8</ele></trkpt>
+      <trkpt lat="-23.676168" lon="-46.410234"><ele>806.8</ele></trkpt>
+      <trkpt lat="-23.676168" lon="-46.410296"><ele>806.8</ele></trkpt>
+      <trkpt lat="-23.676173" lon="-46.410363"><ele>806.8</ele></trkpt>
+      <trkpt lat="-23.676190" lon="-46.410420"><ele>812.6</ele></trkpt>
+      <trkpt lat="-23.676222" lon="-46.410480"><ele>812.6</ele></trkpt>
+      <trkpt lat="-23.676248" lon="-46.410489"><ele>812.6</ele></trkpt>
+      <trkpt lat="-23.676288" lon="-46.410501"><ele>811.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

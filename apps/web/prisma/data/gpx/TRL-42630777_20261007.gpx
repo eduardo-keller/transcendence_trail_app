@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Manuel de Lima Bezerra</name>
+    <trkseg>
+      <trkpt lat="-23.671054" lon="-46.726540"><ele>736.3</ele></trkpt>
+      <trkpt lat="-23.671212" lon="-46.726239"><ele>729.8</ele></trkpt>
+      <trkpt lat="-23.671229" lon="-46.725871"><ele>728.3</ele></trkpt>
+      <trkpt lat="-23.671164" lon="-46.725153"><ele>727.9</ele></trkpt>
+      <trkpt lat="-23.671127" lon="-46.724738"><ele>728.9</ele></trkpt>
+      <trkpt lat="-23.671095" lon="-46.723948"><ele>727.8</ele></trkpt>
+      <trkpt lat="-23.671048" lon="-46.723484"><ele>729.1</ele></trkpt>
+      <trkpt lat="-23.671095" lon="-46.722652"><ele>731.3</ele></trkpt>
+      <trkpt lat="-23.671293" lon="-46.721760"><ele>729.5</ele></trkpt>
+      <trkpt lat="-23.671317" lon="-46.721573"><ele>729.5</ele></trkpt>
+      <trkpt lat="-23.671288" lon="-46.721469"><ele>727.9</ele></trkpt>
+      <trkpt lat="-23.671230" lon="-46.721400"><ele>729.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

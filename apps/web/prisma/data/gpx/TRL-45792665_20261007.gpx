@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Zendavesta</name>
+    <trkseg>
+      <trkpt lat="-23.738253" lon="-46.713711"><ele>790.6</ele></trkpt>
+      <trkpt lat="-23.738115" lon="-46.713641"><ele>786.9</ele></trkpt>
+      <trkpt lat="-23.738068" lon="-46.713680"><ele>786.9</ele></trkpt>
+      <trkpt lat="-23.738055" lon="-46.713678"><ele>786.9</ele></trkpt>
+      <trkpt lat="-23.737958" lon="-46.713722"><ele>786.9</ele></trkpt>
+      <trkpt lat="-23.737904" lon="-46.713665"><ele>780.6</ele></trkpt>
+      <trkpt lat="-23.737880" lon="-46.713619"><ele>780.6</ele></trkpt>
+      <trkpt lat="-23.737820" lon="-46.713536"><ele>780.6</ele></trkpt>
+      <trkpt lat="-23.737787" lon="-46.713502"><ele>780.6</ele></trkpt>
+      <trkpt lat="-23.737664" lon="-46.713437"><ele>781.8</ele></trkpt>
+      <trkpt lat="-23.737583" lon="-46.713375"><ele>776.7</ele></trkpt>
+      <trkpt lat="-23.737551" lon="-46.713400"><ele>776.7</ele></trkpt>
+      <trkpt lat="-23.737524" lon="-46.713391"><ele>776.7</ele></trkpt>
+      <trkpt lat="-23.737425" lon="-46.713340"><ele>776.7</ele></trkpt>
+      <trkpt lat="-23.737427" lon="-46.713320"><ele>776.7</ele></trkpt>
+      <trkpt lat="-23.737395" lon="-46.713294"><ele>776.7</ele></trkpt>
+      <trkpt lat="-23.737465" lon="-46.713169"><ele>780.0</ele></trkpt>
+      <trkpt lat="-23.737430" lon="-46.713134"><ele>780.0</ele></trkpt>
+      <trkpt lat="-23.737359" lon="-46.713082"><ele>774.7</ele></trkpt>
+      <trkpt lat="-23.737319" lon="-46.713044"><ele>774.7</ele></trkpt>
+      <trkpt lat="-23.737212" lon="-46.712974"><ele>774.7</ele></trkpt>
+      <trkpt lat="-23.737151" lon="-46.712923"><ele>774.7</ele></trkpt>
+      <trkpt lat="-23.737083" lon="-46.712870"><ele>771.1</ele></trkpt>
+      <trkpt lat="-23.737014" lon="-46.712807"><ele>771.1</ele></trkpt>
+      <trkpt lat="-23.736976" lon="-46.712792"><ele>771.1</ele></trkpt>
+      <trkpt lat="-23.736945" lon="-46.712802"><ele>771.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

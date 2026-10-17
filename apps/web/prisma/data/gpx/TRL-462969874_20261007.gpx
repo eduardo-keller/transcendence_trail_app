@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Santa Cruz do Monte Castelo</name>
+    <trkseg>
+      <trkpt lat="-23.450574" lon="-46.690536"><ele>754.0</ele></trkpt>
+      <trkpt lat="-23.450527" lon="-46.690608"><ele>754.0</ele></trkpt>
+      <trkpt lat="-23.450485" lon="-46.690672"><ele>754.0</ele></trkpt>
+      <trkpt lat="-23.450437" lon="-46.690744"><ele>755.3</ele></trkpt>
+      <trkpt lat="-23.450357" lon="-46.690868"><ele>753.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

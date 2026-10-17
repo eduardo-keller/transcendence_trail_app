@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Jorge Zerrenner</name>
+    <trkseg>
+      <trkpt lat="-23.666976" lon="-46.515306"><ele>767.9</ele></trkpt>
+      <trkpt lat="-23.666919" lon="-46.515308"><ele>767.9</ele></trkpt>
+      <trkpt lat="-23.666801" lon="-46.515066"><ele>767.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

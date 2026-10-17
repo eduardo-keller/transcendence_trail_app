@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Principal - Ilha Diana</name>
+    <trkseg>
+      <trkpt lat="-23.915070" lon="-46.307474"><ele>2.8</ele></trkpt>
+      <trkpt lat="-23.914885" lon="-46.307600"><ele>2.8</ele></trkpt>
+      <trkpt lat="-23.914874" lon="-46.307625"><ele>2.8</ele></trkpt>
+      <trkpt lat="-23.914878" lon="-46.307651"><ele>2.4</ele></trkpt>
+      <trkpt lat="-23.914994" lon="-46.307805"><ele>2.4</ele></trkpt>
+      <trkpt lat="-23.915097" lon="-46.307938"><ele>2.0</ele></trkpt>
+      <trkpt lat="-23.915160" lon="-46.307988"><ele>2.8</ele></trkpt>
+      <trkpt lat="-23.915183" lon="-46.308023"><ele>2.8</ele></trkpt>
+      <trkpt lat="-23.915164" lon="-46.308050"><ele>2.8</ele></trkpt>
+      <trkpt lat="-23.915130" lon="-46.308089"><ele>2.0</ele></trkpt>
+      <trkpt lat="-23.915118" lon="-46.308123"><ele>2.0</ele></trkpt>
+      <trkpt lat="-23.915131" lon="-46.308159"><ele>2.0</ele></trkpt>
+      <trkpt lat="-23.915342" lon="-46.308414"><ele>2.1</ele></trkpt>
+      <trkpt lat="-23.915606" lon="-46.308701"><ele>2.1</ele></trkpt>
+      <trkpt lat="-23.915702" lon="-46.308784"><ele>1.6</ele></trkpt>
+      <trkpt lat="-23.915901" lon="-46.308939"><ele>1.6</ele></trkpt>
+      <trkpt lat="-23.916068" lon="-46.309010"><ele>2.1</ele></trkpt>
+      <trkpt lat="-23.916248" lon="-46.309080"><ele>0.9</ele></trkpt>
+      <trkpt lat="-23.916387" lon="-46.308993"><ele>1.5</ele></trkpt>
+      <trkpt lat="-23.916499" lon="-46.308943"><ele>1.5</ele></trkpt>
+      <trkpt lat="-23.916599" lon="-46.308771"><ele>1.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

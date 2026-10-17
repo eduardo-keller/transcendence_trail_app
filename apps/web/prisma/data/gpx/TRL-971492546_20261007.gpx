@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Monte Alegre do Sul</name>
+    <trkseg>
+      <trkpt lat="-23.441977" lon="-46.711477"><ele>816.0</ele></trkpt>
+      <trkpt lat="-23.442309" lon="-46.711615"><ele>818.2</ele></trkpt>
+      <trkpt lat="-23.442386" lon="-46.711613"><ele>821.9</ele></trkpt>
+      <trkpt lat="-23.442449" lon="-46.711611"><ele>821.9</ele></trkpt>
+      <trkpt lat="-23.442582" lon="-46.711583"><ele>821.9</ele></trkpt>
+      <trkpt lat="-23.443145" lon="-46.711013"><ele>819.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

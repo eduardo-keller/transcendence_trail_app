@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passagem Bady</name>
+    <trkseg>
+      <trkpt lat="-23.427728" lon="-46.499756"><ele>739.8</ele></trkpt>
+      <trkpt lat="-23.427719" lon="-46.499495"><ele>740.8</ele></trkpt>
+      <trkpt lat="-23.427751" lon="-46.499183"><ele>739.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

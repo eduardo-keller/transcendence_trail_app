@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela do Amor</name>
+    <trkseg>
+      <trkpt lat="-23.574269" lon="-46.820113"><ele>763.3</ele></trkpt>
+      <trkpt lat="-23.574435" lon="-46.819688"><ele>769.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

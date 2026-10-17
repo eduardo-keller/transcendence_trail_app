@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Estrada da Itália</name>
+    <trkseg>
+      <trkpt lat="-23.475666" lon="-46.787152"><ele>779.7</ele></trkpt>
+      <trkpt lat="-23.474665" lon="-46.787200"><ele>780.8</ele></trkpt>
+      <trkpt lat="-23.474296" lon="-46.787256"><ele>778.4</ele></trkpt>
+      <trkpt lat="-23.473615" lon="-46.786916"><ele>785.8</ele></trkpt>
+      <trkpt lat="-23.472736" lon="-46.786935"><ele>788.3</ele></trkpt>
+      <trkpt lat="-23.472328" lon="-46.787385"><ele>789.9</ele></trkpt>
+      <trkpt lat="-23.471743" lon="-46.787399"><ele>786.5</ele></trkpt>
+      <trkpt lat="-23.470980" lon="-46.788018"><ele>797.7</ele></trkpt>
+      <trkpt lat="-23.470681" lon="-46.788368"><ele>812.3</ele></trkpt>
+      <trkpt lat="-23.470608" lon="-46.788453"><ele>812.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

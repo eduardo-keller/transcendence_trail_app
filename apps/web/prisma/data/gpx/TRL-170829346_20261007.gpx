@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passarela Antonio Fabiano</name>
+    <trkseg>
+      <trkpt lat="-23.582951" lon="-46.574740"><ele>740.5</ele></trkpt>
+      <trkpt lat="-23.582961" lon="-46.574763"><ele>740.5</ele></trkpt>
+      <trkpt lat="-23.582963" lon="-46.574779"><ele>740.5</ele></trkpt>
+      <trkpt lat="-23.582957" lon="-46.574802"><ele>740.5</ele></trkpt>
+      <trkpt lat="-23.582948" lon="-46.574813"><ele>740.5</ele></trkpt>
+      <trkpt lat="-23.582936" lon="-46.574820"><ele>740.5</ele></trkpt>
+      <trkpt lat="-23.582914" lon="-46.574824"><ele>738.5</ele></trkpt>
+      <trkpt lat="-23.582899" lon="-46.574820"><ele>738.5</ele></trkpt>
+      <trkpt lat="-23.582884" lon="-46.574808"><ele>738.5</ele></trkpt>
+      <trkpt lat="-23.582877" lon="-46.574788"><ele>738.5</ele></trkpt>
+      <trkpt lat="-23.582876" lon="-46.574771"><ele>738.5</ele></trkpt>
+      <trkpt lat="-23.582883" lon="-46.574752"><ele>738.5</ele></trkpt>
+      <trkpt lat="-23.582936" lon="-46.574722"><ele>740.5</ele></trkpt>
+      <trkpt lat="-23.583445" lon="-46.574451"><ele>739.1</ele></trkpt>
+      <trkpt lat="-23.583454" lon="-46.574434"><ele>739.1</ele></trkpt>
+      <trkpt lat="-23.583456" lon="-46.574416"><ele>739.1</ele></trkpt>
+      <trkpt lat="-23.583454" lon="-46.574398"><ele>739.1</ele></trkpt>
+      <trkpt lat="-23.583450" lon="-46.574387"><ele>739.1</ele></trkpt>
+      <trkpt lat="-23.583442" lon="-46.574376"><ele>739.1</ele></trkpt>
+      <trkpt lat="-23.583428" lon="-46.574370"><ele>739.1</ele></trkpt>
+      <trkpt lat="-23.583413" lon="-46.574370"><ele>739.1</ele></trkpt>
+      <trkpt lat="-23.583399" lon="-46.574374"><ele>739.1</ele></trkpt>
+      <trkpt lat="-23.583387" lon="-46.574384"><ele>739.1</ele></trkpt>
+      <trkpt lat="-23.583380" lon="-46.574393"><ele>739.1</ele></trkpt>
+      <trkpt lat="-23.583377" lon="-46.574404"><ele>739.1</ele></trkpt>
+      <trkpt lat="-23.583376" lon="-46.574419"><ele>739.1</ele></trkpt>
+      <trkpt lat="-23.583379" lon="-46.574430"><ele>739.1</ele></trkpt>
+      <trkpt lat="-23.583385" lon="-46.574442"><ele>739.1</ele></trkpt>
+      <trkpt lat="-23.583392" lon="-46.574454"><ele>739.1</ele></trkpt>
+      <trkpt lat="-23.583398" lon="-46.574458"><ele>739.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

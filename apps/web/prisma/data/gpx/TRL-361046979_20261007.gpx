@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Beco 5</name>
+    <trkseg>
+      <trkpt lat="-23.939008" lon="-46.354025"><ele>168.2</ele></trkpt>
+      <trkpt lat="-23.939149" lon="-46.354047"><ele>164.6</ele></trkpt>
+      <trkpt lat="-23.939210" lon="-46.354034"><ele>164.6</ele></trkpt>
+      <trkpt lat="-23.939301" lon="-46.354057"><ele>164.6</ele></trkpt>
+      <trkpt lat="-23.939395" lon="-46.354065"><ele>156.3</ele></trkpt>
+      <trkpt lat="-23.939608" lon="-46.354135"><ele>146.9</ele></trkpt>
+      <trkpt lat="-23.939639" lon="-46.354148"><ele>146.9</ele></trkpt>
+      <trkpt lat="-23.939721" lon="-46.354185"><ele>146.9</ele></trkpt>
+      <trkpt lat="-23.939749" lon="-46.354200"><ele>146.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

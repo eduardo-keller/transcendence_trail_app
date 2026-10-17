@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua das Campunulas</name>
+    <trkseg>
+      <trkpt lat="-23.308441" lon="-46.765974"><ele>777.5</ele></trkpt>
+      <trkpt lat="-23.308622" lon="-46.765701"><ele>767.9</ele></trkpt>
+      <trkpt lat="-23.308702" lon="-46.765619"><ele>770.2</ele></trkpt>
+      <trkpt lat="-23.309272" lon="-46.765199"><ele>761.3</ele></trkpt>
+      <trkpt lat="-23.309497" lon="-46.764995"><ele>760.9</ele></trkpt>
+      <trkpt lat="-23.309552" lon="-46.764905"><ele>760.9</ele></trkpt>
+      <trkpt lat="-23.309564" lon="-46.764839"><ele>764.3</ele></trkpt>
+      <trkpt lat="-23.309549" lon="-46.764716"><ele>764.3</ele></trkpt>
+      <trkpt lat="-23.309525" lon="-46.764463"><ele>770.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

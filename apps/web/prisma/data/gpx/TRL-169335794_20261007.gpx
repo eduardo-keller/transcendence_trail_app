@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Alelu</name>
+    <trkseg>
+      <trkpt lat="-23.410385" lon="-46.743824"><ele>786.5</ele></trkpt>
+      <trkpt lat="-23.410234" lon="-46.743824"><ele>786.5</ele></trkpt>
+      <trkpt lat="-23.410150" lon="-46.743824"><ele>786.5</ele></trkpt>
+      <trkpt lat="-23.410041" lon="-46.743823"><ele>798.8</ele></trkpt>
+      <trkpt lat="-23.409962" lon="-46.743815"><ele>798.8</ele></trkpt>
+      <trkpt lat="-23.409878" lon="-46.743797"><ele>798.8</ele></trkpt>
+      <trkpt lat="-23.409819" lon="-46.743767"><ele>811.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

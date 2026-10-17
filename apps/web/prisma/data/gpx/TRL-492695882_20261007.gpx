@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Paulo de Almeida</name>
+    <trkseg>
+      <trkpt lat="-23.443978" lon="-46.606186"><ele>833.3</ele></trkpt>
+      <trkpt lat="-23.444069" lon="-46.606120"><ele>833.4</ele></trkpt>
+      <trkpt lat="-23.444135" lon="-46.606099"><ele>833.4</ele></trkpt>
+      <trkpt lat="-23.444179" lon="-46.606101"><ele>833.4</ele></trkpt>
+      <trkpt lat="-23.444215" lon="-46.606113"><ele>833.4</ele></trkpt>
+      <trkpt lat="-23.444244" lon="-46.606136"><ele>833.4</ele></trkpt>
+      <trkpt lat="-23.444274" lon="-46.606178"><ele>833.4</ele></trkpt>
+      <trkpt lat="-23.444297" lon="-46.606225"><ele>833.4</ele></trkpt>
+      <trkpt lat="-23.444328" lon="-46.606304"><ele>834.7</ele></trkpt>
+      <trkpt lat="-23.444380" lon="-46.606404"><ele>834.7</ele></trkpt>
+      <trkpt lat="-23.444481" lon="-46.606537"><ele>832.1</ele></trkpt>
+      <trkpt lat="-23.444524" lon="-46.606579"><ele>832.1</ele></trkpt>
+      <trkpt lat="-23.444562" lon="-46.606603"><ele>832.1</ele></trkpt>
+      <trkpt lat="-23.444590" lon="-46.606615"><ele>835.6</ele></trkpt>
+      <trkpt lat="-23.444635" lon="-46.606625"><ele>835.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

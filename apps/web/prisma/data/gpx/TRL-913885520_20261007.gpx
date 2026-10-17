@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Caminho do Sol</name>
+    <trkseg>
+      <trkpt lat="-23.394416" lon="-46.999737"><ele>721.3</ele></trkpt>
+      <trkpt lat="-23.394599" lon="-46.999631"><ele>722.0</ele></trkpt>
+      <trkpt lat="-23.394734" lon="-46.999500"><ele>728.7</ele></trkpt>
+      <trkpt lat="-23.394954" lon="-46.999337"><ele>725.7</ele></trkpt>
+      <trkpt lat="-23.395087" lon="-46.999136"><ele>733.6</ele></trkpt>
+      <trkpt lat="-23.395312" lon="-46.999009"><ele>741.6</ele></trkpt>
+      <trkpt lat="-23.395410" lon="-46.998935"><ele>741.6</ele></trkpt>
+      <trkpt lat="-23.395406" lon="-46.998892"><ele>741.6</ele></trkpt>
+      <trkpt lat="-23.395302" lon="-46.998820"><ele>741.6</ele></trkpt>
+      <trkpt lat="-23.395141" lon="-46.998777"><ele>741.6</ele></trkpt>
+      <trkpt lat="-23.395095" lon="-46.998722"><ele>746.4</ele></trkpt>
+      <trkpt lat="-23.395117" lon="-46.998637"><ele>746.4</ele></trkpt>
+      <trkpt lat="-23.395173" lon="-46.998550"><ele>749.5</ele></trkpt>
+      <trkpt lat="-23.395409" lon="-46.998262"><ele>751.9</ele></trkpt>
+      <trkpt lat="-23.396230" lon="-46.997999"><ele>756.9</ele></trkpt>
+      <trkpt lat="-23.398108" lon="-46.997398"><ele>771.3</ele></trkpt>
+      <trkpt lat="-23.398698" lon="-46.997339"><ele>776.9</ele></trkpt>
+      <trkpt lat="-23.399914" lon="-46.997189"><ele>794.0</ele></trkpt>
+      <trkpt lat="-23.401232" lon="-46.997298"><ele>800.1</ele></trkpt>
+    </trkseg>
+    <trkseg>
+      <trkpt lat="-23.395410" lon="-46.998935"><ele>741.6</ele></trkpt>
+      <trkpt lat="-23.395487" lon="-46.998821"><ele>738.1</ele></trkpt>
+      <trkpt lat="-23.395533" lon="-46.998719"><ele>748.3</ele></trkpt>
+      <trkpt lat="-23.395620" lon="-46.998609"><ele>748.3</ele></trkpt>
+      <trkpt lat="-23.395718" lon="-46.998545"><ele>744.3</ele></trkpt>
+      <trkpt lat="-23.395834" lon="-46.998467"><ele>753.7</ele></trkpt>
+      <trkpt lat="-23.395958" lon="-46.998400"><ele>753.7</ele></trkpt>
+      <trkpt lat="-23.396062" lon="-46.998319"><ele>751.0</ele></trkpt>
+      <trkpt lat="-23.396150" lon="-46.998166"><ele>756.9</ele></trkpt>
+      <trkpt lat="-23.396202" lon="-46.998057"><ele>756.9</ele></trkpt>
+      <trkpt lat="-23.396230" lon="-46.997999"><ele>756.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

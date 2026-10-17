@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passagem Verde Mar</name>
+    <trkseg>
+      <trkpt lat="-23.693088" lon="-46.598251"><ele>789.2</ele></trkpt>
+      <trkpt lat="-23.692904" lon="-46.598053"><ele>789.9</ele></trkpt>
+      <trkpt lat="-23.692843" lon="-46.597984"><ele>789.9</ele></trkpt>
+      <trkpt lat="-23.692795" lon="-46.597932"><ele>789.9</ele></trkpt>
+      <trkpt lat="-23.692720" lon="-46.597857"><ele>795.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

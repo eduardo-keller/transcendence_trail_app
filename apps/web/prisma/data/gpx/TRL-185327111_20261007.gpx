@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Ibicare</name>
+    <trkseg>
+      <trkpt lat="-23.542055" lon="-46.822760"><ele>744.5</ele></trkpt>
+      <trkpt lat="-23.542274" lon="-46.823397"><ele>762.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

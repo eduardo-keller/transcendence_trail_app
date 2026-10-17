@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Praça Alberto Pedro Leon Acosta</name>
+    <trkseg>
+      <trkpt lat="-23.583365" lon="-46.507932"><ele>765.7</ele></trkpt>
+      <trkpt lat="-23.583323" lon="-46.507967"><ele>765.7</ele></trkpt>
+      <trkpt lat="-23.583248" lon="-46.508004"><ele>765.7</ele></trkpt>
+      <trkpt lat="-23.583220" lon="-46.508011"><ele>765.7</ele></trkpt>
+      <trkpt lat="-23.583078" lon="-46.508022"><ele>767.0</ele></trkpt>
+      <trkpt lat="-23.582869" lon="-46.508030"><ele>768.7</ele></trkpt>
+      <trkpt lat="-23.582830" lon="-46.508032"><ele>768.7</ele></trkpt>
+      <trkpt lat="-23.582830" lon="-46.508032"><ele>768.7</ele></trkpt>
+      <trkpt lat="-23.582523" lon="-46.508026"><ele>768.7</ele></trkpt>
+      <trkpt lat="-23.582178" lon="-46.508034"><ele>770.1</ele></trkpt>
+      <trkpt lat="-23.582134" lon="-46.508031"><ele>770.1</ele></trkpt>
+      <trkpt lat="-23.582109" lon="-46.508021"><ele>770.1</ele></trkpt>
+      <trkpt lat="-23.582035" lon="-46.507994"><ele>773.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

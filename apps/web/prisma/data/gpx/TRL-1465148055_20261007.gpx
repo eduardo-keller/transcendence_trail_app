@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Pista de Cooper</name>
+    <trkseg>
+      <trkpt lat="-24.036349" lon="-46.493775"><ele>4.2</ele></trkpt>
+      <trkpt lat="-24.036355" lon="-46.493764"><ele>4.2</ele></trkpt>
+      <trkpt lat="-24.036358" lon="-46.493751"><ele>4.2</ele></trkpt>
+      <trkpt lat="-24.036357" lon="-46.493736"><ele>4.4</ele></trkpt>
+      <trkpt lat="-24.036312" lon="-46.493657"><ele>4.4</ele></trkpt>
+      <trkpt lat="-24.036305" lon="-46.493648"><ele>4.4</ele></trkpt>
+      <trkpt lat="-24.036292" lon="-46.493640"><ele>4.4</ele></trkpt>
+      <trkpt lat="-24.036281" lon="-46.493639"><ele>4.4</ele></trkpt>
+      <trkpt lat="-24.036271" lon="-46.493640"><ele>4.4</ele></trkpt>
+      <trkpt lat="-24.036259" lon="-46.493645"><ele>4.4</ele></trkpt>
+      <trkpt lat="-24.036018" lon="-46.493991"><ele>3.3</ele></trkpt>
+      <trkpt lat="-24.036007" lon="-46.494011"><ele>3.3</ele></trkpt>
+      <trkpt lat="-24.035812" lon="-46.494398"><ele>5.8</ele></trkpt>
+      <trkpt lat="-24.035800" lon="-46.494423"><ele>5.8</ele></trkpt>
+      <trkpt lat="-24.035788" lon="-46.494440"><ele>5.8</ele></trkpt>
+      <trkpt lat="-24.034510" lon="-46.496204"><ele>3.3</ele></trkpt>
+      <trkpt lat="-24.034307" lon="-46.496482"><ele>3.7</ele></trkpt>
+      <trkpt lat="-24.033686" lon="-46.497344"><ele>3.9</ele></trkpt>
+      <trkpt lat="-24.033646" lon="-46.497395"><ele>6.3</ele></trkpt>
+      <trkpt lat="-24.033601" lon="-46.497444"><ele>6.3</ele></trkpt>
+      <trkpt lat="-24.033382" lon="-46.497655"><ele>4.8</ele></trkpt>
+      <trkpt lat="-24.033338" lon="-46.497702"><ele>4.8</ele></trkpt>
+      <trkpt lat="-24.033302" lon="-46.497746"><ele>4.8</ele></trkpt>
+      <trkpt lat="-24.033066" lon="-46.498078"><ele>4.3</ele></trkpt>
+      <trkpt lat="-24.033047" lon="-46.498106"><ele>4.3</ele></trkpt>
+      <trkpt lat="-24.033042" lon="-46.498130"><ele>4.3</ele></trkpt>
+      <trkpt lat="-24.033045" lon="-46.498149"><ele>4.3</ele></trkpt>
+      <trkpt lat="-24.033075" lon="-46.498230"><ele>5.6</ele></trkpt>
+      <trkpt lat="-24.033084" lon="-46.498248"><ele>5.6</ele></trkpt>
+      <trkpt lat="-24.033093" lon="-46.498255"><ele>5.6</ele></trkpt>
+      <trkpt lat="-24.033106" lon="-46.498256"><ele>5.6</ele></trkpt>
+      <trkpt lat="-24.033124" lon="-46.498249"><ele>5.6</ele></trkpt>
+      <trkpt lat="-24.036349" lon="-46.493775"><ele>4.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

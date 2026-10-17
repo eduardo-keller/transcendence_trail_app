@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Via de Pedestres Serra Amarela</name>
+    <trkseg>
+      <trkpt lat="-23.456911" lon="-46.663768"><ele>820.9</ele></trkpt>
+      <trkpt lat="-23.456922" lon="-46.663746"><ele>815.7</ele></trkpt>
+      <trkpt lat="-23.456988" lon="-46.663609"><ele>815.7</ele></trkpt>
+      <trkpt lat="-23.456922" lon="-46.663746"><ele>815.7</ele></trkpt>
+      <trkpt lat="-23.456894" lon="-46.663733"><ele>815.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Nove</name>
+    <trkseg>
+      <trkpt lat="-23.532924" lon="-47.053928"><ele>998.2</ele></trkpt>
+      <trkpt lat="-23.533592" lon="-47.052614"><ele>977.2</ele></trkpt>
+      <trkpt lat="-23.533729" lon="-47.052383"><ele>977.2</ele></trkpt>
+      <trkpt lat="-23.533842" lon="-47.052048"><ele>962.0</ele></trkpt>
+      <trkpt lat="-23.533874" lon="-47.051844"><ele>962.0</ele></trkpt>
+      <trkpt lat="-23.533822" lon="-47.050812"><ele>941.5</ele></trkpt>
+      <trkpt lat="-23.533808" lon="-47.050694"><ele>935.7</ele></trkpt>
+      <trkpt lat="-23.533862" lon="-47.050592"><ele>935.7</ele></trkpt>
+      <trkpt lat="-23.533896" lon="-47.050538"><ele>935.7</ele></trkpt>
+      <trkpt lat="-23.533943" lon="-47.050519"><ele>935.7</ele></trkpt>
+      <trkpt lat="-23.533995" lon="-47.050494"><ele>935.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

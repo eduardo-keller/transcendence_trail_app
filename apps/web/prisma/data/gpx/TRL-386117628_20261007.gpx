@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Nestor Vitor dos Santos</name>
+    <trkseg>
+      <trkpt lat="-23.638744" lon="-46.783234"><ele>750.2</ele></trkpt>
+      <trkpt lat="-23.638752" lon="-46.783173"><ele>752.3</ele></trkpt>
+      <trkpt lat="-23.638773" lon="-46.783005"><ele>752.3</ele></trkpt>
+      <trkpt lat="-23.638795" lon="-46.782825"><ele>754.8</ele></trkpt>
+      <trkpt lat="-23.638807" lon="-46.782701"><ele>754.8</ele></trkpt>
+      <trkpt lat="-23.638810" lon="-46.782651"><ele>754.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

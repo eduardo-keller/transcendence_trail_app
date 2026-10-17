@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Carlos Saad</name>
+    <trkseg>
+      <trkpt lat="-23.418918" lon="-46.662562"><ele>1004.7</ele></trkpt>
+      <trkpt lat="-23.418787" lon="-46.662898"><ele>1015.2</ele></trkpt>
+      <trkpt lat="-23.418733" lon="-46.663100"><ele>1024.2</ele></trkpt>
+      <trkpt lat="-23.418716" lon="-46.663246"><ele>1026.1</ele></trkpt>
+      <trkpt lat="-23.418705" lon="-46.663434"><ele>1026.1</ele></trkpt>
+      <trkpt lat="-23.418686" lon="-46.663836"><ele>1034.9</ele></trkpt>
+      <trkpt lat="-23.418669" lon="-46.664152"><ele>1037.7</ele></trkpt>
+      <trkpt lat="-23.418668" lon="-46.664375"><ele>1041.2</ele></trkpt>
+      <trkpt lat="-23.418648" lon="-46.664545"><ele>1041.2</ele></trkpt>
+      <trkpt lat="-23.418598" lon="-46.664693"><ele>1045.9</ele></trkpt>
+      <trkpt lat="-23.418493" lon="-46.664871"><ele>1053.3</ele></trkpt>
+      <trkpt lat="-23.418404" lon="-46.665004"><ele>1041.6</ele></trkpt>
+      <trkpt lat="-23.418306" lon="-46.665157"><ele>1048.7</ele></trkpt>
+      <trkpt lat="-23.418229" lon="-46.665329"><ele>1048.7</ele></trkpt>
+      <trkpt lat="-23.418198" lon="-46.665469"><ele>1053.8</ele></trkpt>
+      <trkpt lat="-23.418187" lon="-46.665640"><ele>1042.7</ele></trkpt>
+      <trkpt lat="-23.418203" lon="-46.665774"><ele>1055.8</ele></trkpt>
+      <trkpt lat="-23.418246" lon="-46.665904"><ele>1055.8</ele></trkpt>
+      <trkpt lat="-23.418317" lon="-46.666090"><ele>1053.7</ele></trkpt>
+      <trkpt lat="-23.418378" lon="-46.666277"><ele>1047.7</ele></trkpt>
+      <trkpt lat="-23.418408" lon="-46.666424"><ele>1047.7</ele></trkpt>
+      <trkpt lat="-23.418411" lon="-46.666589"><ele>1048.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

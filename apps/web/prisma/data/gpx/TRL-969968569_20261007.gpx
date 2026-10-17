@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Engenheiro José Bueno Bicalho</name>
+    <trkseg>
+      <trkpt lat="-23.634105" lon="-46.602566"><ele>775.9</ele></trkpt>
+      <trkpt lat="-23.633920" lon="-46.603058"><ele>787.9</ele></trkpt>
+      <trkpt lat="-23.633868" lon="-46.603176"><ele>787.9</ele></trkpt>
+      <trkpt lat="-23.633805" lon="-46.603278"><ele>793.8</ele></trkpt>
+      <trkpt lat="-23.633703" lon="-46.603393"><ele>795.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela São João Del Rey</name>
+    <trkseg>
+      <trkpt lat="-23.678510" lon="-46.468330"><ele>765.5</ele></trkpt>
+      <trkpt lat="-23.678552" lon="-46.468353"><ele>765.5</ele></trkpt>
+      <trkpt lat="-23.678604" lon="-46.468361"><ele>765.5</ele></trkpt>
+      <trkpt lat="-23.679038" lon="-46.468154"><ele>767.3</ele></trkpt>
+      <trkpt lat="-23.679254" lon="-46.468034"><ele>767.3</ele></trkpt>
+      <trkpt lat="-23.679341" lon="-46.468000"><ele>768.4</ele></trkpt>
+      <trkpt lat="-23.679427" lon="-46.467940"><ele>768.4</ele></trkpt>
+      <trkpt lat="-23.679490" lon="-46.467719"><ele>766.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

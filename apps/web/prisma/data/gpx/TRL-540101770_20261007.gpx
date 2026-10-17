@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Nivaldo dos Santos</name>
+    <trkseg>
+      <trkpt lat="-23.810752" lon="-46.820204"><ele>786.8</ele></trkpt>
+      <trkpt lat="-23.810347" lon="-46.819673"><ele>796.2</ele></trkpt>
+      <trkpt lat="-23.810527" lon="-46.819044"><ele>785.3</ele></trkpt>
+      <trkpt lat="-23.810706" lon="-46.818441"><ele>771.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

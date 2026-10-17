@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Oswald de Andrade</name>
+    <trkseg>
+      <trkpt lat="-23.546869" lon="-47.075116"><ele>928.5</ele></trkpt>
+      <trkpt lat="-23.546761" lon="-47.074624"><ele>939.7</ele></trkpt>
+      <trkpt lat="-23.546579" lon="-47.074260"><ele>926.8</ele></trkpt>
+      <trkpt lat="-23.546304" lon="-47.073943"><ele>927.8</ele></trkpt>
+      <trkpt lat="-23.545965" lon="-47.073824"><ele>941.2</ele></trkpt>
+      <trkpt lat="-23.545527" lon="-47.073761"><ele>946.4</ele></trkpt>
+      <trkpt lat="-23.545232" lon="-47.073729"><ele>958.9</ele></trkpt>
+      <trkpt lat="-23.544878" lon="-47.073675"><ele>968.6</ele></trkpt>
+      <trkpt lat="-23.544583" lon="-47.073584"><ele>984.0</ele></trkpt>
+      <trkpt lat="-23.544352" lon="-47.073433"><ele>987.7</ele></trkpt>
+      <trkpt lat="-23.544234" lon="-47.073042"><ele>991.8</ele></trkpt>
+      <trkpt lat="-23.543944" lon="-47.072414"><ele>987.5</ele></trkpt>
+      <trkpt lat="-23.543722" lon="-47.072253"><ele>989.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

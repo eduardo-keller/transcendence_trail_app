@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Rua da Dona Bruna Gallea</name>
+    <trkseg>
+      <trkpt lat="-23.459589" lon="-46.654360"><ele>765.6</ele></trkpt>
+      <trkpt lat="-23.459587" lon="-46.654385"><ele>765.6</ele></trkpt>
+      <trkpt lat="-23.459628" lon="-46.654503"><ele>765.6</ele></trkpt>
+      <trkpt lat="-23.459650" lon="-46.654549"><ele>765.6</ele></trkpt>
+      <trkpt lat="-23.459652" lon="-46.654569"><ele>765.6</ele></trkpt>
+      <trkpt lat="-23.459625" lon="-46.654623"><ele>772.0</ele></trkpt>
+      <trkpt lat="-23.459604" lon="-46.654708"><ele>772.0</ele></trkpt>
+      <trkpt lat="-23.459583" lon="-46.654755"><ele>772.0</ele></trkpt>
+      <trkpt lat="-23.459557" lon="-46.654793"><ele>771.9</ele></trkpt>
+      <trkpt lat="-23.459510" lon="-46.654806"><ele>771.9</ele></trkpt>
+      <trkpt lat="-23.459454" lon="-46.654820"><ele>771.9</ele></trkpt>
+      <trkpt lat="-23.459424" lon="-46.654854"><ele>771.9</ele></trkpt>
+      <trkpt lat="-23.459336" lon="-46.655084"><ele>780.4</ele></trkpt>
+      <trkpt lat="-23.459308" lon="-46.655156"><ele>788.9</ele></trkpt>
+      <trkpt lat="-23.459289" lon="-46.655363"><ele>792.5</ele></trkpt>
+      <trkpt lat="-23.459288" lon="-46.655369"><ele>792.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

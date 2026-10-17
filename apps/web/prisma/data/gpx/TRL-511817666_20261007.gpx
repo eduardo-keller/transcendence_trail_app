@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Um</name>
+    <trkseg>
+      <trkpt lat="-23.659524" lon="-46.742800"><ele>796.7</ele></trkpt>
+      <trkpt lat="-23.659828" lon="-46.742401"><ele>787.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

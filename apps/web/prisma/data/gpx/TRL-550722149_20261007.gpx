@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Guararapes</name>
+    <trkseg>
+      <trkpt lat="-23.599092" lon="-46.759228"><ele>784.5</ele></trkpt>
+      <trkpt lat="-23.599020" lon="-46.759076"><ele>778.2</ele></trkpt>
+      <trkpt lat="-23.598913" lon="-46.758867"><ele>774.0</ele></trkpt>
+      <trkpt lat="-23.598859" lon="-46.758775"><ele>774.0</ele></trkpt>
+      <trkpt lat="-23.598812" lon="-46.758692"><ele>766.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

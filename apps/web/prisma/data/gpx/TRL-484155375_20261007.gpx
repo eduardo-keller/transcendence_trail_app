@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Barbara Campanini</name>
+    <trkseg>
+      <trkpt lat="-23.610346" lon="-46.483691"><ele>813.4</ele></trkpt>
+      <trkpt lat="-23.610212" lon="-46.483802"><ele>814.8</ele></trkpt>
+      <trkpt lat="-23.609584" lon="-46.484296"><ele>809.5</ele></trkpt>
+      <trkpt lat="-23.609461" lon="-46.484157"><ele>806.8</ele></trkpt>
+      <trkpt lat="-23.609300" lon="-46.483955"><ele>803.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

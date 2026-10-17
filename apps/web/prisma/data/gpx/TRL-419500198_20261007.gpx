@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Alliston</name>
+    <trkseg>
+      <trkpt lat="-23.625793" lon="-46.720084"><ele>745.2</ele></trkpt>
+      <trkpt lat="-23.626061" lon="-46.720301"><ele>747.9</ele></trkpt>
+      <trkpt lat="-23.626204" lon="-46.720472"><ele>758.8</ele></trkpt>
+      <trkpt lat="-23.626223" lon="-46.720495"><ele>758.8</ele></trkpt>
+      <trkpt lat="-23.626244" lon="-46.720571"><ele>758.8</ele></trkpt>
+      <trkpt lat="-23.626886" lon="-46.721250"><ele>760.0</ele></trkpt>
+      <trkpt lat="-23.627049" lon="-46.722310"><ele>779.1</ele></trkpt>
+      <trkpt lat="-23.627078" lon="-46.722474"><ele>780.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

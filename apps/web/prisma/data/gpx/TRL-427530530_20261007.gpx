@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Torquato Neto</name>
+    <trkseg>
+      <trkpt lat="-23.629743" lon="-46.940874"><ele>776.1</ele></trkpt>
+      <trkpt lat="-23.629980" lon="-46.940724"><ele>781.9</ele></trkpt>
+      <trkpt lat="-23.630260" lon="-46.940551"><ele>788.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

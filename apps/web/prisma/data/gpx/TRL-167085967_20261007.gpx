@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Alameda Caulim</name>
+    <trkseg>
+      <trkpt lat="-23.625833" lon="-46.582204"><ele>739.3</ele></trkpt>
+      <trkpt lat="-23.625872" lon="-46.582217"><ele>739.3</ele></trkpt>
+      <trkpt lat="-23.625944" lon="-46.582237"><ele>739.3</ele></trkpt>
+      <trkpt lat="-23.625987" lon="-46.582241"><ele>738.7</ele></trkpt>
+      <trkpt lat="-23.626029" lon="-46.582236"><ele>738.7</ele></trkpt>
+      <trkpt lat="-23.626077" lon="-46.582230"><ele>738.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

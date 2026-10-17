@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Santa Clara</name>
+    <trkseg>
+      <trkpt lat="-23.926239" lon="-46.399239"><ele>4.8</ele></trkpt>
+      <trkpt lat="-23.926051" lon="-46.399585"><ele>4.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

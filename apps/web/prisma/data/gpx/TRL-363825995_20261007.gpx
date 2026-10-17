@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa José Domingos de Agostinho</name>
+    <trkseg>
+      <trkpt lat="-23.449599" lon="-46.689249"><ele>754.1</ele></trkpt>
+      <trkpt lat="-23.449558" lon="-46.689360"><ele>772.8</ele></trkpt>
+      <trkpt lat="-23.449473" lon="-46.689390"><ele>772.8</ele></trkpt>
+      <trkpt lat="-23.449462" lon="-46.689454"><ele>772.8</ele></trkpt>
+      <trkpt lat="-23.449447" lon="-46.689458"><ele>772.8</ele></trkpt>
+      <trkpt lat="-23.449379" lon="-46.689488"><ele>772.8</ele></trkpt>
+      <trkpt lat="-23.449291" lon="-46.689532"><ele>790.2</ele></trkpt>
+      <trkpt lat="-23.449183" lon="-46.689543"><ele>790.2</ele></trkpt>
+      <trkpt lat="-23.449114" lon="-46.689552"><ele>790.2</ele></trkpt>
+      <trkpt lat="-23.449046" lon="-46.689558"><ele>790.2</ele></trkpt>
+      <trkpt lat="-23.449002" lon="-46.689557"><ele>804.4</ele></trkpt>
+      <trkpt lat="-23.448982" lon="-46.689557"><ele>804.4</ele></trkpt>
+      <trkpt lat="-23.448911" lon="-46.689553"><ele>804.4</ele></trkpt>
+      <trkpt lat="-23.448885" lon="-46.689548"><ele>804.4</ele></trkpt>
+      <trkpt lat="-23.448749" lon="-46.689522"><ele>813.6</ele></trkpt>
+      <trkpt lat="-23.448736" lon="-46.689519"><ele>813.6</ele></trkpt>
+      <trkpt lat="-23.448720" lon="-46.689516"><ele>813.6</ele></trkpt>
+      <trkpt lat="-23.448736" lon="-46.689519"><ele>813.6</ele></trkpt>
+      <trkpt lat="-23.448753" lon="-46.689405"><ele>804.4</ele></trkpt>
+      <trkpt lat="-23.448762" lon="-46.689343"><ele>804.4</ele></trkpt>
+      <trkpt lat="-23.448769" lon="-46.689296"><ele>807.0</ele></trkpt>
+      <trkpt lat="-23.448774" lon="-46.689282"><ele>807.0</ele></trkpt>
+      <trkpt lat="-23.448780" lon="-46.689263"><ele>807.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa 11</name>
+    <trkseg>
+      <trkpt lat="-23.690710" lon="-46.500674"><ele>806.7</ele></trkpt>
+      <trkpt lat="-23.690708" lon="-46.500650"><ele>806.7</ele></trkpt>
+      <trkpt lat="-23.690708" lon="-46.500588"><ele>806.7</ele></trkpt>
+      <trkpt lat="-23.690694" lon="-46.500383"><ele>821.5</ele></trkpt>
+      <trkpt lat="-23.690653" lon="-46.500255"><ele>821.5</ele></trkpt>
+      <trkpt lat="-23.690524" lon="-46.499915"><ele>826.9</ele></trkpt>
+      <trkpt lat="-23.690354" lon="-46.499551"><ele>837.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

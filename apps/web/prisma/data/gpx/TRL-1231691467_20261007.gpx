@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Barros</name>
+    <trkseg>
+      <trkpt lat="-23.541600" lon="-46.594447"><ele>744.6</ele></trkpt>
+      <trkpt lat="-23.541732" lon="-46.594392"><ele>744.6</ele></trkpt>
+      <trkpt lat="-23.541784" lon="-46.594371"><ele>744.6</ele></trkpt>
+      <trkpt lat="-23.542470" lon="-46.594085"><ele>744.9</ele></trkpt>
+      <trkpt lat="-23.542517" lon="-46.594065"><ele>744.9</ele></trkpt>
+      <trkpt lat="-23.542588" lon="-46.594269"><ele>744.9</ele></trkpt>
+      <trkpt lat="-23.542531" lon="-46.594291"><ele>744.9</ele></trkpt>
+      <trkpt lat="-23.541847" lon="-46.594558"><ele>744.0</ele></trkpt>
+      <trkpt lat="-23.541758" lon="-46.594608"><ele>747.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

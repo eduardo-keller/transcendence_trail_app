@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Treze</name>
+    <trkseg>
+      <trkpt lat="-23.622753" lon="-46.474275"><ele>806.1</ele></trkpt>
+      <trkpt lat="-23.623435" lon="-46.474161"><ele>811.7</ele></trkpt>
+      <trkpt lat="-23.623967" lon="-46.474074"><ele>807.7</ele></trkpt>
+      <trkpt lat="-23.624002" lon="-46.474063"><ele>807.7</ele></trkpt>
+      <trkpt lat="-23.624504" lon="-46.473980"><ele>806.2</ele></trkpt>
+      <trkpt lat="-23.625050" lon="-46.473897"><ele>800.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

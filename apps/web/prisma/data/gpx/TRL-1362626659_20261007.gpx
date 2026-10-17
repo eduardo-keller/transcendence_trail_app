@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Vila Carla</name>
+    <trkseg>
+      <trkpt lat="-23.940078" lon="-46.339491"><ele>10.2</ele></trkpt>
+      <trkpt lat="-23.940089" lon="-46.339326"><ele>10.2</ele></trkpt>
+      <trkpt lat="-23.940077" lon="-46.339209"><ele>16.7</ele></trkpt>
+      <trkpt lat="-23.940195" lon="-46.339095"><ele>9.4</ele></trkpt>
+      <trkpt lat="-23.940237" lon="-46.339034"><ele>9.4</ele></trkpt>
+      <trkpt lat="-23.940400" lon="-46.338637"><ele>15.1</ele></trkpt>
+      <trkpt lat="-23.940400" lon="-46.338637"><ele>15.1</ele></trkpt>
+      <trkpt lat="-23.940939" lon="-46.339010"><ele>7.4</ele></trkpt>
+      <trkpt lat="-23.940970" lon="-46.339066"><ele>6.4</ele></trkpt>
+      <trkpt lat="-23.940974" lon="-46.339120"><ele>5.8</ele></trkpt>
+      <trkpt lat="-23.940970" lon="-46.339146"><ele>6.4</ele></trkpt>
+      <trkpt lat="-23.940905" lon="-46.339572"><ele>6.6</ele></trkpt>
+    </trkseg>
+    <trkseg>
+      <trkpt lat="-23.940970" lon="-46.339146"><ele>6.4</ele></trkpt>
+      <trkpt lat="-23.940720" lon="-46.339069"><ele>6.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

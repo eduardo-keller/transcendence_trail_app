@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Padre Vieira</name>
+    <trkseg>
+      <trkpt lat="-23.513871" lon="-46.800569"><ele>725.0</ele></trkpt>
+      <trkpt lat="-23.513513" lon="-46.800444"><ele>725.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

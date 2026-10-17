@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa São Sebastião</name>
+    <trkseg>
+      <trkpt lat="-23.686257" lon="-46.518286"><ele>789.3</ele></trkpt>
+      <trkpt lat="-23.686306" lon="-46.518414"><ele>789.3</ele></trkpt>
+      <trkpt lat="-23.686357" lon="-46.518448"><ele>789.3</ele></trkpt>
+      <trkpt lat="-23.686393" lon="-46.518482"><ele>787.3</ele></trkpt>
+      <trkpt lat="-23.686401" lon="-46.518594"><ele>787.3</ele></trkpt>
+      <trkpt lat="-23.686408" lon="-46.518675"><ele>787.3</ele></trkpt>
+      <trkpt lat="-23.686437" lon="-46.518708"><ele>787.3</ele></trkpt>
+      <trkpt lat="-23.686485" lon="-46.518725"><ele>787.3</ele></trkpt>
+      <trkpt lat="-23.686521" lon="-46.518747"><ele>787.3</ele></trkpt>
+      <trkpt lat="-23.686521" lon="-46.518809"><ele>787.6</ele></trkpt>
+      <trkpt lat="-23.686326" lon="-46.519253"><ele>787.8</ele></trkpt>
+      <trkpt lat="-23.686250" lon="-46.519360"><ele>787.4</ele></trkpt>
+      <trkpt lat="-23.686186" lon="-46.519369"><ele>787.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

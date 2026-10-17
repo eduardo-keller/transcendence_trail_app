@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Canteiro de pedestres</name>
+    <trkseg>
+      <trkpt lat="-23.678601" lon="-46.445535"><ele>782.5</ele></trkpt>
+      <trkpt lat="-23.678614" lon="-46.445473"><ele>782.5</ele></trkpt>
+      <trkpt lat="-23.678867" lon="-46.445515"><ele>784.9</ele></trkpt>
+      <trkpt lat="-23.679183" lon="-46.445566"><ele>785.9</ele></trkpt>
+      <trkpt lat="-23.679559" lon="-46.445639"><ele>785.8</ele></trkpt>
+      <trkpt lat="-23.681542" lon="-46.445961"><ele>793.7</ele></trkpt>
+      <trkpt lat="-23.681714" lon="-46.445989"><ele>793.4</ele></trkpt>
+      <trkpt lat="-23.681868" lon="-46.446032"><ele>793.2</ele></trkpt>
+      <trkpt lat="-23.682054" lon="-46.446062"><ele>793.2</ele></trkpt>
+      <trkpt lat="-23.682488" lon="-46.446131"><ele>797.3</ele></trkpt>
+      <trkpt lat="-23.682706" lon="-46.446167"><ele>797.7</ele></trkpt>
+      <trkpt lat="-23.682732" lon="-46.446177"><ele>797.7</ele></trkpt>
+      <trkpt lat="-23.682719" lon="-46.446242"><ele>797.7</ele></trkpt>
+      <trkpt lat="-23.682741" lon="-46.446346"><ele>799.7</ele></trkpt>
+      <trkpt lat="-23.682568" lon="-46.446302"><ele>799.4</ele></trkpt>
+      <trkpt lat="-23.682436" lon="-46.446266"><ele>799.4</ele></trkpt>
+      <trkpt lat="-23.682226" lon="-46.446224"><ele>795.2</ele></trkpt>
+      <trkpt lat="-23.681986" lon="-46.446159"><ele>793.2</ele></trkpt>
+      <trkpt lat="-23.681825" lon="-46.446123"><ele>793.2</ele></trkpt>
+      <trkpt lat="-23.681299" lon="-46.446046"><ele>794.2</ele></trkpt>
+      <trkpt lat="-23.680824" lon="-46.445976"><ele>793.0</ele></trkpt>
+      <trkpt lat="-23.680294" lon="-46.445878"><ele>787.8</ele></trkpt>
+      <trkpt lat="-23.680015" lon="-46.445830"><ele>787.8</ele></trkpt>
+      <trkpt lat="-23.679536" lon="-46.445745"><ele>786.9</ele></trkpt>
+      <trkpt lat="-23.679162" lon="-46.445683"><ele>785.9</ele></trkpt>
+      <trkpt lat="-23.678870" lon="-46.445636"><ele>784.9</ele></trkpt>
+      <trkpt lat="-23.678622" lon="-46.445582"><ele>782.5</ele></trkpt>
+      <trkpt lat="-23.678601" lon="-46.445535"><ele>782.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

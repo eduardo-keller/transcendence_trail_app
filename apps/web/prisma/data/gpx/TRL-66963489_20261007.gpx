@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Existente</name>
+    <trkseg>
+      <trkpt lat="-23.743568" lon="-46.685277"><ele>765.2</ele></trkpt>
+      <trkpt lat="-23.743505" lon="-46.685214"><ele>765.2</ele></trkpt>
+      <trkpt lat="-23.743256" lon="-46.685052"><ele>770.8</ele></trkpt>
+      <trkpt lat="-23.743103" lon="-46.684953"><ele>776.9</ele></trkpt>
+      <trkpt lat="-23.743000" lon="-46.684952"><ele>776.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

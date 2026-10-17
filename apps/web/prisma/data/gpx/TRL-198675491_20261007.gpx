@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Aureliano Silveira</name>
+    <trkseg>
+      <trkpt lat="-23.514076" lon="-46.524774"><ele>740.5</ele></trkpt>
+      <trkpt lat="-23.514232" lon="-46.524772"><ele>740.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

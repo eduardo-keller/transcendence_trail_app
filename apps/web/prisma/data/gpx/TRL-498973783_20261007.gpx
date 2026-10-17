@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Cantiga de Chuva</name>
+    <trkseg>
+      <trkpt lat="-23.503463" lon="-46.397802"><ele>769.4</ele></trkpt>
+      <trkpt lat="-23.503380" lon="-46.397449"><ele>774.2</ele></trkpt>
+      <trkpt lat="-23.503773" lon="-46.397361"><ele>774.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

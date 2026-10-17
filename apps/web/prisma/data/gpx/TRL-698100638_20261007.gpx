@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Caminho do Mizão</name>
+    <trkseg>
+      <trkpt lat="-23.864135" lon="-46.674043"><ele>788.4</ele></trkpt>
+      <trkpt lat="-23.864163" lon="-46.674198"><ele>788.4</ele></trkpt>
+      <trkpt lat="-23.864217" lon="-46.674241"><ele>788.4</ele></trkpt>
+      <trkpt lat="-23.864244" lon="-46.674406"><ele>785.7</ele></trkpt>
+      <trkpt lat="-23.864288" lon="-46.674670"><ele>782.9</ele></trkpt>
+      <trkpt lat="-23.864371" lon="-46.674751"><ele>779.8</ele></trkpt>
+      <trkpt lat="-23.864419" lon="-46.674797"><ele>779.8</ele></trkpt>
+      <trkpt lat="-23.864614" lon="-46.674476"><ele>778.8</ele></trkpt>
+      <trkpt lat="-23.864916" lon="-46.674485"><ele>769.9</ele></trkpt>
+      <trkpt lat="-23.865333" lon="-46.674625"><ele>764.4</ele></trkpt>
+      <trkpt lat="-23.865732" lon="-46.674872"><ele>769.8</ele></trkpt>
+      <trkpt lat="-23.865774" lon="-46.674965"><ele>769.8</ele></trkpt>
+      <trkpt lat="-23.865827" lon="-46.675043"><ele>769.8</ele></trkpt>
+      <trkpt lat="-23.865890" lon="-46.675099"><ele>769.8</ele></trkpt>
+      <trkpt lat="-23.865946" lon="-46.675123"><ele>769.8</ele></trkpt>
+      <trkpt lat="-23.865999" lon="-46.675122"><ele>772.5</ele></trkpt>
+      <trkpt lat="-23.866057" lon="-46.675094"><ele>772.5</ele></trkpt>
+      <trkpt lat="-23.866104" lon="-46.675041"><ele>772.5</ele></trkpt>
+      <trkpt lat="-23.866272" lon="-46.674419"><ele>772.7</ele></trkpt>
+      <trkpt lat="-23.866292" lon="-46.674341"><ele>772.7</ele></trkpt>
+      <trkpt lat="-23.866316" lon="-46.674274"><ele>772.9</ele></trkpt>
+      <trkpt lat="-23.866342" lon="-46.674225"><ele>772.9</ele></trkpt>
+      <trkpt lat="-23.866438" lon="-46.674123"><ele>772.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

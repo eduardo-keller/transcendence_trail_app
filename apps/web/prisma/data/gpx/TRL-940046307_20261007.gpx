@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Doutor Oscar Fernandes Martins</name>
+    <trkseg>
+      <trkpt lat="-23.695412" lon="-46.701610"><ele>777.7</ele></trkpt>
+      <trkpt lat="-23.695408" lon="-46.701595"><ele>777.7</ele></trkpt>
+      <trkpt lat="-23.695397" lon="-46.701556"><ele>777.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

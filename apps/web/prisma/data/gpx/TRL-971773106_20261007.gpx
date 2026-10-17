@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Trilha do Rancho</name>
+    <trkseg>
+      <trkpt lat="-23.911107" lon="-46.556695"><ele>741.8</ele></trkpt>
+      <trkpt lat="-23.911319" lon="-46.556567"><ele>739.3</ele></trkpt>
+      <trkpt lat="-23.911414" lon="-46.556585"><ele>739.3</ele></trkpt>
+      <trkpt lat="-23.911798" lon="-46.556997"><ele>738.8</ele></trkpt>
+      <trkpt lat="-23.911965" lon="-46.557117"><ele>737.0</ele></trkpt>
+      <trkpt lat="-23.912116" lon="-46.557097"><ele>736.5</ele></trkpt>
+      <trkpt lat="-23.912264" lon="-46.557033"><ele>744.6</ele></trkpt>
+      <trkpt lat="-23.912453" lon="-46.557021"><ele>739.5</ele></trkpt>
+      <trkpt lat="-23.912785" lon="-46.556822"><ele>735.3</ele></trkpt>
+      <trkpt lat="-23.912928" lon="-46.556646"><ele>733.6</ele></trkpt>
+      <trkpt lat="-23.913737" lon="-46.556278"><ele>732.4</ele></trkpt>
+      <trkpt lat="-23.914508" lon="-46.556088"><ele>739.4</ele></trkpt>
+      <trkpt lat="-23.915475" lon="-46.554966"><ele>744.7</ele></trkpt>
+      <trkpt lat="-23.915733" lon="-46.554962"><ele>744.1</ele></trkpt>
+      <trkpt lat="-23.916017" lon="-46.555046"><ele>743.1</ele></trkpt>
+      <trkpt lat="-23.916323" lon="-46.555098"><ele>742.0</ele></trkpt>
+      <trkpt lat="-23.916664" lon="-46.555270"><ele>740.2</ele></trkpt>
+      <trkpt lat="-23.916889" lon="-46.555312"><ele>739.8</ele></trkpt>
+      <trkpt lat="-23.917181" lon="-46.555422"><ele>739.7</ele></trkpt>
+      <trkpt lat="-23.917438" lon="-46.555413"><ele>738.7</ele></trkpt>
+      <trkpt lat="-23.918382" lon="-46.555247"><ele>737.4</ele></trkpt>
+      <trkpt lat="-23.918941" lon="-46.555152"><ele>735.7</ele></trkpt>
+      <trkpt lat="-23.919169" lon="-46.555149"><ele>734.2</ele></trkpt>
+      <trkpt lat="-23.919339" lon="-46.555107"><ele>733.6</ele></trkpt>
+      <trkpt lat="-23.919642" lon="-46.554886"><ele>731.8</ele></trkpt>
+      <trkpt lat="-23.919890" lon="-46.554887"><ele>732.6</ele></trkpt>
+      <trkpt lat="-23.920369" lon="-46.554929"><ele>735.1</ele></trkpt>
+      <trkpt lat="-23.920652" lon="-46.554815"><ele>735.4</ele></trkpt>
+      <trkpt lat="-23.921177" lon="-46.554659"><ele>735.4</ele></trkpt>
+      <trkpt lat="-23.921671" lon="-46.554589"><ele>735.7</ele></trkpt>
+      <trkpt lat="-23.921969" lon="-46.554496"><ele>734.0</ele></trkpt>
+      <trkpt lat="-23.922379" lon="-46.554296"><ele>732.0</ele></trkpt>
+      <trkpt lat="-23.922663" lon="-46.554196"><ele>734.9</ele></trkpt>
+      <trkpt lat="-23.922996" lon="-46.554112"><ele>733.9</ele></trkpt>
+      <trkpt lat="-23.923439" lon="-46.553868"><ele>733.3</ele></trkpt>
+      <trkpt lat="-23.923842" lon="-46.553591"><ele>733.0</ele></trkpt>
+      <trkpt lat="-23.924245" lon="-46.553233"><ele>731.3</ele></trkpt>
+      <trkpt lat="-23.924347" lon="-46.553196"><ele>734.3</ele></trkpt>
+      <trkpt lat="-23.924801" lon="-46.553189"><ele>734.4</ele></trkpt>
+      <trkpt lat="-23.925021" lon="-46.553208"><ele>735.7</ele></trkpt>
+      <trkpt lat="-23.925147" lon="-46.553235"><ele>726.6</ele></trkpt>
+      <trkpt lat="-23.925275" lon="-46.553247"><ele>726.6</ele></trkpt>
+      <trkpt lat="-23.925495" lon="-46.553193"><ele>722.8</ele></trkpt>
+      <trkpt lat="-23.925667" lon="-46.553105"><ele>722.8</ele></trkpt>
+      <trkpt lat="-23.925994" lon="-46.552764"><ele>724.8</ele></trkpt>
+      <trkpt lat="-23.926223" lon="-46.552711"><ele>724.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Chuí</name>
+    <trkseg>
+      <trkpt lat="-23.437064" lon="-46.549842"><ele>770.1</ele></trkpt>
+      <trkpt lat="-23.436643" lon="-46.549455"><ele>766.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

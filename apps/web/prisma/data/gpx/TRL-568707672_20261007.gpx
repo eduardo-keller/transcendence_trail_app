@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela dos Pereiras</name>
+    <trkseg>
+      <trkpt lat="-23.441865" lon="-46.277078"><ele>707.2</ele></trkpt>
+      <trkpt lat="-23.441911" lon="-46.276870"><ele>707.2</ele></trkpt>
+      <trkpt lat="-23.441970" lon="-46.276795"><ele>700.5</ele></trkpt>
+      <trkpt lat="-23.442181" lon="-46.276747"><ele>703.9</ele></trkpt>
+      <trkpt lat="-23.442536" lon="-46.276736"><ele>706.2</ele></trkpt>
+      <trkpt lat="-23.443121" lon="-46.276640"><ele>710.0</ele></trkpt>
+      <trkpt lat="-23.443720" lon="-46.276584"><ele>713.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

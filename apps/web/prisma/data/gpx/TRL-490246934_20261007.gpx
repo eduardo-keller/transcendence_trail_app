@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Maria Amélia Monteiro</name>
+    <trkseg>
+      <trkpt lat="-23.462124" lon="-46.641753"><ele>795.5</ele></trkpt>
+      <trkpt lat="-23.461797" lon="-46.641718"><ele>821.0</ele></trkpt>
+      <trkpt lat="-23.461616" lon="-46.641699"><ele>821.0</ele></trkpt>
+      <trkpt lat="-23.461351" lon="-46.641671"><ele>825.7</ele></trkpt>
+      <trkpt lat="-23.461099" lon="-46.641701"><ele>827.5</ele></trkpt>
+      <trkpt lat="-23.460438" lon="-46.641886"><ele>828.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

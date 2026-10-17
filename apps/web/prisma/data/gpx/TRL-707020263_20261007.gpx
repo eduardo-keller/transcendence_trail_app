@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Galeria Oliveira Lima</name>
+    <trkseg>
+      <trkpt lat="-23.658791" lon="-46.526554"><ele>764.0</ele></trkpt>
+      <trkpt lat="-23.658766" lon="-46.526581"><ele>764.0</ele></trkpt>
+      <trkpt lat="-23.658751" lon="-46.526597"><ele>764.0</ele></trkpt>
+      <trkpt lat="-23.658751" lon="-46.526597"><ele>764.0</ele></trkpt>
+      <trkpt lat="-23.658669" lon="-46.526685"><ele>761.2</ele></trkpt>
+      <trkpt lat="-23.658650" lon="-46.526706"><ele>761.2</ele></trkpt>
+      <trkpt lat="-23.658655" lon="-46.526916"><ele>762.2</ele></trkpt>
+      <trkpt lat="-23.658660" lon="-46.527129"><ele>765.1</ele></trkpt>
+      <trkpt lat="-23.658661" lon="-46.527187"><ele>765.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

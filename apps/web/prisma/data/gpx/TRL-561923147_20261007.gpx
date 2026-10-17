@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Via Pedestre JoséMonteiro de Lima</name>
+    <trkseg>
+      <trkpt lat="-23.510384" lon="-46.393338"><ele>785.8</ele></trkpt>
+      <trkpt lat="-23.510476" lon="-46.393295"><ele>788.7</ele></trkpt>
+      <trkpt lat="-23.510652" lon="-46.393185"><ele>787.8</ele></trkpt>
+      <trkpt lat="-23.510903" lon="-46.393028"><ele>790.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

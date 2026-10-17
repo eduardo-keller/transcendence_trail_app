@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Ebenezer</name>
+    <trkseg>
+      <trkpt lat="-23.448021" lon="-46.690852"><ele>770.6</ele></trkpt>
+      <trkpt lat="-23.448022" lon="-46.690882"><ele>770.6</ele></trkpt>
+      <trkpt lat="-23.448037" lon="-46.691046"><ele>776.0</ele></trkpt>
+      <trkpt lat="-23.448037" lon="-46.691098"><ele>776.0</ele></trkpt>
+      <trkpt lat="-23.448036" lon="-46.691173"><ele>776.0</ele></trkpt>
+      <trkpt lat="-23.448023" lon="-46.691285"><ele>788.9</ele></trkpt>
+      <trkpt lat="-23.448004" lon="-46.691429"><ele>788.9</ele></trkpt>
+      <trkpt lat="-23.447961" lon="-46.691464"><ele>788.9</ele></trkpt>
+      <trkpt lat="-23.447937" lon="-46.691869"><ele>812.5</ele></trkpt>
+      <trkpt lat="-23.447920" lon="-46.692116"><ele>822.7</ele></trkpt>
+      <trkpt lat="-23.447898" lon="-46.692386"><ele>830.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

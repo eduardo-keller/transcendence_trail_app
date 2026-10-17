@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Baucis</name>
+    <trkseg>
+      <trkpt lat="-23.661674" lon="-46.741817"><ele>795.4</ele></trkpt>
+      <trkpt lat="-23.661433" lon="-46.742049"><ele>792.2</ele></trkpt>
+      <trkpt lat="-23.661249" lon="-46.742180"><ele>792.8</ele></trkpt>
+      <trkpt lat="-23.661064" lon="-46.742270"><ele>792.8</ele></trkpt>
+      <trkpt lat="-23.660859" lon="-46.742321"><ele>790.1</ele></trkpt>
+      <trkpt lat="-23.660720" lon="-46.742340"><ele>790.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

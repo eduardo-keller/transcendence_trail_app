@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Via de Pedestre Teólogo John Wesley</name>
+    <trkseg>
+      <trkpt lat="-23.488441" lon="-46.471836"><ele>753.2</ele></trkpt>
+      <trkpt lat="-23.488413" lon="-46.471858"><ele>753.2</ele></trkpt>
+      <trkpt lat="-23.488354" lon="-46.471880"><ele>753.2</ele></trkpt>
+      <trkpt lat="-23.488261" lon="-46.471919"><ele>753.2</ele></trkpt>
+      <trkpt lat="-23.488156" lon="-46.471961"><ele>760.2</ele></trkpt>
+      <trkpt lat="-23.488046" lon="-46.472004"><ele>760.2</ele></trkpt>
+      <trkpt lat="-23.488029" lon="-46.472006"><ele>760.2</ele></trkpt>
+      <trkpt lat="-23.487938" lon="-46.472041"><ele>760.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

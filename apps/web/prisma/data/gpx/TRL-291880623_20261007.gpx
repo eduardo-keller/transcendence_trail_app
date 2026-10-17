@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passagem Santa Cruz</name>
+    <trkseg>
+      <trkpt lat="-23.673185" lon="-46.602013"><ele>775.8</ele></trkpt>
+      <trkpt lat="-23.673391" lon="-46.602075"><ele>777.1</ele></trkpt>
+      <trkpt lat="-23.673476" lon="-46.602103"><ele>777.7</ele></trkpt>
+      <trkpt lat="-23.673966" lon="-46.602491"><ele>777.7</ele></trkpt>
+      <trkpt lat="-23.674182" lon="-46.602654"><ele>777.6</ele></trkpt>
+      <trkpt lat="-23.674513" lon="-46.602914"><ele>779.0</ele></trkpt>
+      <trkpt lat="-23.674602" lon="-46.602985"><ele>779.2</ele></trkpt>
+      <trkpt lat="-23.675060" lon="-46.603239"><ele>781.2</ele></trkpt>
+      <trkpt lat="-23.675353" lon="-46.603471"><ele>783.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

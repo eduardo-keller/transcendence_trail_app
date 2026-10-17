@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passagem Três</name>
+    <trkseg>
+      <trkpt lat="-23.665171" lon="-46.793879"><ele>772.6</ele></trkpt>
+      <trkpt lat="-23.665163" lon="-46.793934"><ele>772.6</ele></trkpt>
+      <trkpt lat="-23.665152" lon="-46.793984"><ele>772.6</ele></trkpt>
+      <trkpt lat="-23.665137" lon="-46.794079"><ele>770.9</ele></trkpt>
+      <trkpt lat="-23.665102" lon="-46.794293"><ele>770.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

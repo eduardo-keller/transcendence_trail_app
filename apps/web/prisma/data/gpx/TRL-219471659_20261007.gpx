@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Dezenove</name>
+    <trkseg>
+      <trkpt lat="-23.595997" lon="-46.494366"><ele>757.9</ele></trkpt>
+      <trkpt lat="-23.595931" lon="-46.493746"><ele>769.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

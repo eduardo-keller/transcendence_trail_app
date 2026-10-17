@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Estrada do Chinês</name>
+    <trkseg>
+      <trkpt lat="-23.613818" lon="-46.236283"><ele>810.0</ele></trkpt>
+      <trkpt lat="-23.613936" lon="-46.236161"><ele>811.1</ele></trkpt>
+      <trkpt lat="-23.614019" lon="-46.236039"><ele>811.1</ele></trkpt>
+      <trkpt lat="-23.614279" lon="-46.235628"><ele>812.7</ele></trkpt>
+      <trkpt lat="-23.614369" lon="-46.235414"><ele>813.8</ele></trkpt>
+      <trkpt lat="-23.614410" lon="-46.235221"><ele>813.8</ele></trkpt>
+      <trkpt lat="-23.614617" lon="-46.234837"><ele>812.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

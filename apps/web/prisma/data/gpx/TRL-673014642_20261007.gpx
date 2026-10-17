@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Kiwi</name>
+    <trkseg>
+      <trkpt lat="-23.393922" lon="-46.681601"><ele>1066.1</ele></trkpt>
+      <trkpt lat="-23.393532" lon="-46.681750"><ele>1061.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

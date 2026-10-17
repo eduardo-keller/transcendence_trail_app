@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Plataforma B</name>
+    <trkseg>
+      <trkpt lat="-23.193053" lon="-46.874313"><ele>706.3</ele></trkpt>
+      <trkpt lat="-23.193284" lon="-46.874147"><ele>706.4</ele></trkpt>
+      <trkpt lat="-23.193624" lon="-46.873903"><ele>706.4</ele></trkpt>
+      <trkpt lat="-23.193933" lon="-46.873682"><ele>707.5</ele></trkpt>
+      <trkpt lat="-23.194315" lon="-46.873408"><ele>709.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

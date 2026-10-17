@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela J</name>
+    <trkseg>
+      <trkpt lat="-23.622292" lon="-46.545702"><ele>742.5</ele></trkpt>
+      <trkpt lat="-23.622413" lon="-46.545638"><ele>742.2</ele></trkpt>
+      <trkpt lat="-23.622491" lon="-46.545597"><ele>742.2</ele></trkpt>
+      <trkpt lat="-23.622599" lon="-46.545549"><ele>742.2</ele></trkpt>
+      <trkpt lat="-23.622722" lon="-46.545480"><ele>743.2</ele></trkpt>
+      <trkpt lat="-23.622823" lon="-46.545414"><ele>742.4</ele></trkpt>
+      <trkpt lat="-23.622954" lon="-46.545340"><ele>742.6</ele></trkpt>
+      <trkpt lat="-23.623093" lon="-46.545280"><ele>742.6</ele></trkpt>
+      <trkpt lat="-23.623055" lon="-46.545203"><ele>742.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

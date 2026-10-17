@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Alberto Faria</name>
+    <trkseg>
+      <trkpt lat="-23.544343" lon="-46.715484"><ele>727.5</ele></trkpt>
+      <trkpt lat="-23.543894" lon="-46.715368"><ele>735.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

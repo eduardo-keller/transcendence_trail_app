@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Praça Jorge Cury</name>
+    <trkseg>
+      <trkpt lat="-23.572577" lon="-46.630076"><ele>761.3</ele></trkpt>
+      <trkpt lat="-23.572480" lon="-46.630139"><ele>763.4</ele></trkpt>
+      <trkpt lat="-23.572550" lon="-46.630260"><ele>763.4</ele></trkpt>
+      <trkpt lat="-23.572480" lon="-46.630139"><ele>763.4</ele></trkpt>
+      <trkpt lat="-23.572426" lon="-46.630049"><ele>761.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Damião Simões</name>
+    <trkseg>
+      <trkpt lat="-23.496224" lon="-46.621056"><ele>771.4</ele></trkpt>
+      <trkpt lat="-23.496233" lon="-46.621102"><ele>771.4</ele></trkpt>
+      <trkpt lat="-23.496277" lon="-46.621361"><ele>765.6</ele></trkpt>
+      <trkpt lat="-23.496294" lon="-46.621465"><ele>765.6</ele></trkpt>
+      <trkpt lat="-23.496316" lon="-46.621716"><ele>761.2</ele></trkpt>
+      <trkpt lat="-23.496333" lon="-46.621958"><ele>754.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

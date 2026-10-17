@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Pertigalete</name>
+    <trkseg>
+      <trkpt lat="-23.680001" lon="-46.740335"><ele>793.2</ele></trkpt>
+      <trkpt lat="-23.680027" lon="-46.740340"><ele>793.2</ele></trkpt>
+      <trkpt lat="-23.680142" lon="-46.740338"><ele>792.8</ele></trkpt>
+      <trkpt lat="-23.680235" lon="-46.740345"><ele>792.8</ele></trkpt>
+      <trkpt lat="-23.680396" lon="-46.740383"><ele>792.8</ele></trkpt>
+      <trkpt lat="-23.680454" lon="-46.740383"><ele>793.3</ele></trkpt>
+      <trkpt lat="-23.680605" lon="-46.740356"><ele>793.3</ele></trkpt>
+      <trkpt lat="-23.680822" lon="-46.740296"><ele>797.8</ele></trkpt>
+      <trkpt lat="-23.680865" lon="-46.740275"><ele>797.8</ele></trkpt>
+      <trkpt lat="-23.680872" lon="-46.740272"><ele>797.8</ele></trkpt>
+      <trkpt lat="-23.680971" lon="-46.740181"><ele>797.8</ele></trkpt>
+      <trkpt lat="-23.681042" lon="-46.740093"><ele>799.2</ele></trkpt>
+      <trkpt lat="-23.681166" lon="-46.739950"><ele>799.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

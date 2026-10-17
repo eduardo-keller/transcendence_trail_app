@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Saída Osasco</name>
+    <trkseg>
+      <trkpt lat="-23.520783" lon="-46.773859"><ele>727.6</ele></trkpt>
+      <trkpt lat="-23.520807" lon="-46.773817"><ele>727.6</ele></trkpt>
+      <trkpt lat="-23.520853" lon="-46.773606"><ele>732.0</ele></trkpt>
+      <trkpt lat="-23.520869" lon="-46.773317"><ele>733.6</ele></trkpt>
+      <trkpt lat="-23.520815" lon="-46.773099"><ele>733.5</ele></trkpt>
+      <trkpt lat="-23.520735" lon="-46.772897"><ele>732.0</ele></trkpt>
+      <trkpt lat="-23.520696" lon="-46.772674"><ele>732.0</ele></trkpt>
+      <trkpt lat="-23.520697" lon="-46.772512"><ele>727.5</ele></trkpt>
+      <trkpt lat="-23.520764" lon="-46.772371"><ele>727.5</ele></trkpt>
+      <trkpt lat="-23.520880" lon="-46.772303"><ele>725.3</ele></trkpt>
+      <trkpt lat="-23.521024" lon="-46.772271"><ele>728.4</ele></trkpt>
+      <trkpt lat="-23.521151" lon="-46.772303"><ele>728.4</ele></trkpt>
+      <trkpt lat="-23.521217" lon="-46.772362"><ele>727.2</ele></trkpt>
+      <trkpt lat="-23.521271" lon="-46.772468"><ele>722.5</ele></trkpt>
+      <trkpt lat="-23.521432" lon="-46.773008"><ele>721.6</ele></trkpt>
+      <trkpt lat="-23.521480" lon="-46.773057"><ele>721.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

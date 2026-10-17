@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Caminho dos Emaus</name>
+    <trkseg>
+      <trkpt lat="-23.446611" lon="-46.689901"><ele>816.9</ele></trkpt>
+      <trkpt lat="-23.446652" lon="-46.689923"><ele>816.9</ele></trkpt>
+      <trkpt lat="-23.446727" lon="-46.689968"><ele>816.9</ele></trkpt>
+      <trkpt lat="-23.446749" lon="-46.689982"><ele>816.9</ele></trkpt>
+      <trkpt lat="-23.446772" lon="-46.689997"><ele>816.9</ele></trkpt>
+      <trkpt lat="-23.446811" lon="-46.690021"><ele>807.8</ele></trkpt>
+      <trkpt lat="-23.446823" lon="-46.690029"><ele>807.8</ele></trkpt>
+      <trkpt lat="-23.446837" lon="-46.690023"><ele>807.8</ele></trkpt>
+      <trkpt lat="-23.446860" lon="-46.689975"><ele>807.8</ele></trkpt>
+      <trkpt lat="-23.446870" lon="-46.689971"><ele>807.8</ele></trkpt>
+      <trkpt lat="-23.446884" lon="-46.689971"><ele>807.8</ele></trkpt>
+      <trkpt lat="-23.446923" lon="-46.689992"><ele>807.8</ele></trkpt>
+      <trkpt lat="-23.447017" lon="-46.690076"><ele>807.8</ele></trkpt>
+      <trkpt lat="-23.447061" lon="-46.690166"><ele>799.6</ele></trkpt>
+      <trkpt lat="-23.447173" lon="-46.690283"><ele>788.5</ele></trkpt>
+      <trkpt lat="-23.447337" lon="-46.690319"><ele>788.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

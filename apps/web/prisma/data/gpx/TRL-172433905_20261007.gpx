@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Pedroso</name>
+    <trkseg>
+      <trkpt lat="-23.561640" lon="-46.644391"><ele>789.0</ele></trkpt>
+      <trkpt lat="-23.561636" lon="-46.644459"><ele>789.0</ele></trkpt>
+      <trkpt lat="-23.561624" lon="-46.644520"><ele>789.0</ele></trkpt>
+      <trkpt lat="-23.561493" lon="-46.645083"><ele>791.5</ele></trkpt>
+      <trkpt lat="-23.561488" lon="-46.645109"><ele>791.5</ele></trkpt>
+      <trkpt lat="-23.561480" lon="-46.645122"><ele>791.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

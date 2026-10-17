@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Praça Padre Antônio de Araujo</name>
+    <trkseg>
+      <trkpt lat="-23.543280" lon="-46.536567"><ele>733.1</ele></trkpt>
+      <trkpt lat="-23.543333" lon="-46.536591"><ele>733.1</ele></trkpt>
+      <trkpt lat="-23.543389" lon="-46.536668"><ele>733.1</ele></trkpt>
+      <trkpt lat="-23.543422" lon="-46.536759"><ele>733.1</ele></trkpt>
+      <trkpt lat="-23.543430" lon="-46.536857"><ele>732.6</ele></trkpt>
+      <trkpt lat="-23.543412" lon="-46.536999"><ele>732.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela dos Castores</name>
+    <trkseg>
+      <trkpt lat="-23.432370" lon="-46.435797"><ele>785.3</ele></trkpt>
+      <trkpt lat="-23.432432" lon="-46.435789"><ele>785.3</ele></trkpt>
+      <trkpt lat="-23.432869" lon="-46.435730"><ele>789.5</ele></trkpt>
+      <trkpt lat="-23.432928" lon="-46.435724"><ele>790.9</ele></trkpt>
+      <trkpt lat="-23.432977" lon="-46.435716"><ele>790.9</ele></trkpt>
+      <trkpt lat="-23.433444" lon="-46.435653"><ele>791.7</ele></trkpt>
+      <trkpt lat="-23.433501" lon="-46.435645"><ele>792.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

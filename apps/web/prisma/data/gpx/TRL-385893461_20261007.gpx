@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Paulo Moreira</name>
+    <trkseg>
+      <trkpt lat="-23.410573" lon="-46.898955"><ele>779.4</ele></trkpt>
+      <trkpt lat="-23.410408" lon="-46.899211"><ele>763.4</ele></trkpt>
+      <trkpt lat="-23.410338" lon="-46.899300"><ele>763.4</ele></trkpt>
+      <trkpt lat="-23.410293" lon="-46.899354"><ele>752.3</ele></trkpt>
+      <trkpt lat="-23.410243" lon="-46.899406"><ele>752.3</ele></trkpt>
+      <trkpt lat="-23.410197" lon="-46.899455"><ele>752.3</ele></trkpt>
+      <trkpt lat="-23.410151" lon="-46.899498"><ele>752.3</ele></trkpt>
+      <trkpt lat="-23.410065" lon="-46.899561"><ele>744.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Alameda das Garças</name>
+    <trkseg>
+      <trkpt lat="-23.406957" lon="-46.661769"><ele>996.2</ele></trkpt>
+      <trkpt lat="-23.407255" lon="-46.662042"><ele>1003.7</ele></trkpt>
+      <trkpt lat="-23.407470" lon="-46.662300"><ele>1009.4</ele></trkpt>
+      <trkpt lat="-23.407707" lon="-46.662412"><ele>1016.1</ele></trkpt>
+      <trkpt lat="-23.408001" lon="-46.662499"><ele>1015.1</ele></trkpt>
+      <trkpt lat="-23.408102" lon="-46.662503"><ele>1015.1</ele></trkpt>
+      <trkpt lat="-23.408197" lon="-46.662486"><ele>1017.1</ele></trkpt>
+      <trkpt lat="-23.408275" lon="-46.662417"><ele>1017.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

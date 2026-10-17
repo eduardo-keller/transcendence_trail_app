@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Solano Trindade</name>
+    <trkseg>
+      <trkpt lat="-23.451726" lon="-46.604902"><ele>780.9</ele></trkpt>
+      <trkpt lat="-23.451706" lon="-46.604914"><ele>780.9</ele></trkpt>
+      <trkpt lat="-23.451677" lon="-46.604916"><ele>780.9</ele></trkpt>
+      <trkpt lat="-23.451613" lon="-46.604892"><ele>780.9</ele></trkpt>
+      <trkpt lat="-23.451340" lon="-46.604750"><ele>781.5</ele></trkpt>
+      <trkpt lat="-23.451314" lon="-46.604731"><ele>781.5</ele></trkpt>
+      <trkpt lat="-23.451308" lon="-46.604715"><ele>781.5</ele></trkpt>
+      <trkpt lat="-23.451315" lon="-46.604690"><ele>781.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

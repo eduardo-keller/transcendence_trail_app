@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Baltazar Cisneros</name>
+    <trkseg>
+      <trkpt lat="-23.531612" lon="-46.422652"><ele>755.0</ele></trkpt>
+      <trkpt lat="-23.531657" lon="-46.422517"><ele>753.9</ele></trkpt>
+      <trkpt lat="-23.531680" lon="-46.422467"><ele>753.9</ele></trkpt>
+      <trkpt lat="-23.531708" lon="-46.422428"><ele>753.9</ele></trkpt>
+      <trkpt lat="-23.531742" lon="-46.422396"><ele>753.9</ele></trkpt>
+      <trkpt lat="-23.531820" lon="-46.422331"><ele>754.3</ele></trkpt>
+      <trkpt lat="-23.531989" lon="-46.422135"><ele>754.3</ele></trkpt>
+      <trkpt lat="-23.532097" lon="-46.421996"><ele>756.3</ele></trkpt>
+      <trkpt lat="-23.532219" lon="-46.421830"><ele>756.3</ele></trkpt>
+      <trkpt lat="-23.532347" lon="-46.421657"><ele>754.8</ele></trkpt>
+      <trkpt lat="-23.532511" lon="-46.421322"><ele>757.8</ele></trkpt>
+      <trkpt lat="-23.532522" lon="-46.421310"><ele>757.8</ele></trkpt>
+      <trkpt lat="-23.532537" lon="-46.421306"><ele>757.8</ele></trkpt>
+      <trkpt lat="-23.532553" lon="-46.421307"><ele>757.8</ele></trkpt>
+      <trkpt lat="-23.532575" lon="-46.421315"><ele>757.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

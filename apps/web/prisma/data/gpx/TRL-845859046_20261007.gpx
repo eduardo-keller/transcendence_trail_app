@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Subida Cara Triste</name>
+    <trkseg>
+      <trkpt lat="-23.720327" lon="-46.925151"><ele>899.9</ele></trkpt>
+      <trkpt lat="-23.720497" lon="-46.925322"><ele>912.0</ele></trkpt>
+      <trkpt lat="-23.720860" lon="-46.925515"><ele>919.4</ele></trkpt>
+      <trkpt lat="-23.721229" lon="-46.925689"><ele>929.5</ele></trkpt>
+      <trkpt lat="-23.721484" lon="-46.925804"><ele>937.0</ele></trkpt>
+      <trkpt lat="-23.721865" lon="-46.925979"><ele>948.4</ele></trkpt>
+      <trkpt lat="-23.722742" lon="-46.926335"><ele>962.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

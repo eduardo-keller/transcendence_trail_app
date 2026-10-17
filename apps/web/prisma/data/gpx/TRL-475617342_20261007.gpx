@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Manuel Nogueira da Gama</name>
+    <trkseg>
+      <trkpt lat="-23.456261" lon="-46.668989"><ele>808.9</ele></trkpt>
+      <trkpt lat="-23.456314" lon="-46.668845"><ele>808.9</ele></trkpt>
+      <trkpt lat="-23.456350" lon="-46.668638"><ele>800.7</ele></trkpt>
+      <trkpt lat="-23.456388" lon="-46.668614"><ele>800.7</ele></trkpt>
+      <trkpt lat="-23.456597" lon="-46.668592"><ele>804.5</ele></trkpt>
+      <trkpt lat="-23.456682" lon="-46.668603"><ele>804.5</ele></trkpt>
+      <trkpt lat="-23.456741" lon="-46.668613"><ele>804.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

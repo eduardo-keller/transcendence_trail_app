@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Xingu</name>
+    <trkseg>
+      <trkpt lat="-23.773134" lon="-46.599277"><ele>770.5</ele></trkpt>
+      <trkpt lat="-23.773063" lon="-46.599287"><ele>770.5</ele></trkpt>
+      <trkpt lat="-23.772974" lon="-46.599277"><ele>770.5</ele></trkpt>
+      <trkpt lat="-23.772934" lon="-46.599263"><ele>770.5</ele></trkpt>
+      <trkpt lat="-23.772871" lon="-46.599223"><ele>768.1</ele></trkpt>
+      <trkpt lat="-23.772787" lon="-46.599149"><ele>768.1</ele></trkpt>
+      <trkpt lat="-23.772693" lon="-46.599048"><ele>768.1</ele></trkpt>
+      <trkpt lat="-23.772629" lon="-46.598987"><ele>766.9</ele></trkpt>
+      <trkpt lat="-23.772573" lon="-46.598949"><ele>766.9</ele></trkpt>
+      <trkpt lat="-23.772519" lon="-46.598915"><ele>766.9</ele></trkpt>
+      <trkpt lat="-23.772362" lon="-46.598847"><ele>766.9</ele></trkpt>
+      <trkpt lat="-23.772340" lon="-46.598845"><ele>766.6</ele></trkpt>
+      <trkpt lat="-23.772319" lon="-46.598849"><ele>766.6</ele></trkpt>
+      <trkpt lat="-23.772306" lon="-46.598861"><ele>766.6</ele></trkpt>
+      <trkpt lat="-23.772305" lon="-46.598866"><ele>766.6</ele></trkpt>
+      <trkpt lat="-23.772302" lon="-46.598874"><ele>766.6</ele></trkpt>
+      <trkpt lat="-23.772299" lon="-46.598902"><ele>766.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

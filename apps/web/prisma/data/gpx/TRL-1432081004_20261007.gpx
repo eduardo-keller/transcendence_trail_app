@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Trilha Varginha Interparques</name>
+    <trkseg>
+      <trkpt lat="-23.806203" lon="-46.676963"><ele>786.9</ele></trkpt>
+      <trkpt lat="-23.805901" lon="-46.676689"><ele>791.6</ele></trkpt>
+      <trkpt lat="-23.805935" lon="-46.676366"><ele>797.0</ele></trkpt>
+      <trkpt lat="-23.804833" lon="-46.675593"><ele>799.6</ele></trkpt>
+      <trkpt lat="-23.803751" lon="-46.674740"><ele>791.7</ele></trkpt>
+      <trkpt lat="-23.803373" lon="-46.673887"><ele>761.7</ele></trkpt>
+      <trkpt lat="-23.803160" lon="-46.673965"><ele>761.3</ele></trkpt>
+      <trkpt lat="-23.802497" lon="-46.673675"><ele>768.5</ele></trkpt>
+      <trkpt lat="-23.802293" lon="-46.673675"><ele>775.7</ele></trkpt>
+      <trkpt lat="-23.802134" lon="-46.673109"><ele>776.8</ele></trkpt>
+      <trkpt lat="-23.801464" lon="-46.672468"><ele>786.9</ele></trkpt>
+      <trkpt lat="-23.800706" lon="-46.672771"><ele>792.8</ele></trkpt>
+      <trkpt lat="-23.800407" lon="-46.673175"><ele>805.1</ele></trkpt>
+      <trkpt lat="-23.800377" lon="-46.673216"><ele>807.9</ele></trkpt>
+      <trkpt lat="-23.800274" lon="-46.673713"><ele>807.1</ele></trkpt>
+      <trkpt lat="-23.800320" lon="-46.673989"><ele>805.4</ele></trkpt>
+      <trkpt lat="-23.800416" lon="-46.674571"><ele>803.1</ele></trkpt>
+      <trkpt lat="-23.800306" lon="-46.676051"><ele>784.3</ele></trkpt>
+      <trkpt lat="-23.800163" lon="-46.676443"><ele>782.8</ele></trkpt>
+      <trkpt lat="-23.799813" lon="-46.676753"><ele>784.4</ele></trkpt>
+      <trkpt lat="-23.799466" lon="-46.677495"><ele>773.7</ele></trkpt>
+      <trkpt lat="-23.799380" lon="-46.678219"><ele>762.2</ele></trkpt>
+      <trkpt lat="-23.799323" lon="-46.678326"><ele>762.2</ele></trkpt>
+      <trkpt lat="-23.799206" lon="-46.678543"><ele>763.4</ele></trkpt>
+      <trkpt lat="-23.799228" lon="-46.678838"><ele>758.2</ele></trkpt>
+      <trkpt lat="-23.799436" lon="-46.679228"><ele>757.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

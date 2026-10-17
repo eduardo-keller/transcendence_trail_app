@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Alameda dos Pinheiros</name>
+    <trkseg>
+      <trkpt lat="-23.627810" lon="-46.548451"><ele>747.5</ele></trkpt>
+      <trkpt lat="-23.627690" lon="-46.548372"><ele>747.5</ele></trkpt>
+      <trkpt lat="-23.627567" lon="-46.548270"><ele>745.5</ele></trkpt>
+      <trkpt lat="-23.627484" lon="-46.548194"><ele>749.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

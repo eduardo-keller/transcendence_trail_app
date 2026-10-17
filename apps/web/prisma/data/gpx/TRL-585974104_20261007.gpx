@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua do Coqueiro</name>
+    <trkseg>
+      <trkpt lat="-23.218079" lon="-46.909391"><ele>775.5</ele></trkpt>
+      <trkpt lat="-23.218085" lon="-46.909313"><ele>775.5</ele></trkpt>
+      <trkpt lat="-23.218081" lon="-46.909283"><ele>781.7</ele></trkpt>
+      <trkpt lat="-23.218064" lon="-46.909253"><ele>781.7</ele></trkpt>
+      <trkpt lat="-23.218034" lon="-46.909232"><ele>781.7</ele></trkpt>
+      <trkpt lat="-23.217865" lon="-46.909210"><ele>785.6</ele></trkpt>
+      <trkpt lat="-23.217609" lon="-46.909195"><ele>787.0</ele></trkpt>
+      <trkpt lat="-23.217512" lon="-46.909175"><ele>787.0</ele></trkpt>
+      <trkpt lat="-23.217408" lon="-46.909127"><ele>787.0</ele></trkpt>
+      <trkpt lat="-23.217296" lon="-46.909031"><ele>788.9</ele></trkpt>
+      <trkpt lat="-23.217186" lon="-46.908907"><ele>793.6</ele></trkpt>
+      <trkpt lat="-23.217043" lon="-46.908760"><ele>795.2</ele></trkpt>
+      <trkpt lat="-23.216762" lon="-46.908515"><ele>798.8</ele></trkpt>
+      <trkpt lat="-23.216220" lon="-46.907947"><ele>796.9</ele></trkpt>
+      <trkpt lat="-23.216089" lon="-46.907792"><ele>796.6</ele></trkpt>
+      <trkpt lat="-23.216022" lon="-46.907684"><ele>796.6</ele></trkpt>
+      <trkpt lat="-23.216001" lon="-46.907611"><ele>798.5</ele></trkpt>
+      <trkpt lat="-23.216006" lon="-46.907543"><ele>798.5</ele></trkpt>
+      <trkpt lat="-23.216038" lon="-46.907474"><ele>798.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

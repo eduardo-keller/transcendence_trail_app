@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Cinquenta e Cinco</name>
+    <trkseg>
+      <trkpt lat="-23.327286" lon="-46.702580"><ele>785.0</ele></trkpt>
+      <trkpt lat="-23.327439" lon="-46.702279"><ele>775.3</ele></trkpt>
+      <trkpt lat="-23.327514" lon="-46.702251"><ele>775.3</ele></trkpt>
+      <trkpt lat="-23.327710" lon="-46.702137"><ele>769.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

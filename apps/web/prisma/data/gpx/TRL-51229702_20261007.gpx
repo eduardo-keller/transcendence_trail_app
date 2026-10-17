@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Atílio Ariosti</name>
+    <trkseg>
+      <trkpt lat="-23.745827" lon="-46.707920"><ele>763.8</ele></trkpt>
+      <trkpt lat="-23.746151" lon="-46.707693"><ele>769.7</ele></trkpt>
+      <trkpt lat="-23.746172" lon="-46.707672"><ele>769.7</ele></trkpt>
+      <trkpt lat="-23.746181" lon="-46.707661"><ele>769.7</ele></trkpt>
+      <trkpt lat="-23.746260" lon="-46.707488"><ele>774.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

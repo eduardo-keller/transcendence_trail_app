@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Nelson Gonçalves</name>
+    <trkseg>
+      <trkpt lat="-23.702870" lon="-46.497562"><ele>787.9</ele></trkpt>
+      <trkpt lat="-23.702880" lon="-46.497544"><ele>787.9</ele></trkpt>
+      <trkpt lat="-23.702892" lon="-46.497538"><ele>787.9</ele></trkpt>
+      <trkpt lat="-23.702908" lon="-46.497535"><ele>787.9</ele></trkpt>
+      <trkpt lat="-23.702924" lon="-46.497542"><ele>793.1</ele></trkpt>
+      <trkpt lat="-23.702951" lon="-46.497552"><ele>793.1</ele></trkpt>
+      <trkpt lat="-23.703014" lon="-46.497585"><ele>793.1</ele></trkpt>
+      <trkpt lat="-23.703116" lon="-46.497630"><ele>793.1</ele></trkpt>
+      <trkpt lat="-23.703249" lon="-46.497699"><ele>795.8</ele></trkpt>
+      <trkpt lat="-23.703485" lon="-46.497813"><ele>796.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

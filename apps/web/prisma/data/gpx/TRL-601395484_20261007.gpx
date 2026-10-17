@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Alexandre Georges</name>
+    <trkseg>
+      <trkpt lat="-23.453963" lon="-46.714560"><ele>845.1</ele></trkpt>
+      <trkpt lat="-23.453925" lon="-46.714539"><ele>845.1</ele></trkpt>
+      <trkpt lat="-23.453923" lon="-46.714538"><ele>845.1</ele></trkpt>
+      <trkpt lat="-23.453897" lon="-46.714499"><ele>845.1</ele></trkpt>
+      <trkpt lat="-23.453880" lon="-46.714470"><ele>845.1</ele></trkpt>
+      <trkpt lat="-23.453837" lon="-46.714368"><ele>845.1</ele></trkpt>
+      <trkpt lat="-23.453770" lon="-46.714186"><ele>842.8</ele></trkpt>
+      <trkpt lat="-23.453662" lon="-46.713920"><ele>829.8</ele></trkpt>
+      <trkpt lat="-23.453641" lon="-46.713871"><ele>829.8</ele></trkpt>
+      <trkpt lat="-23.453604" lon="-46.713796"><ele>829.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Ruanda</name>
+    <trkseg>
+      <trkpt lat="-23.419131" lon="-46.459333"><ele>759.1</ele></trkpt>
+      <trkpt lat="-23.419374" lon="-46.459893"><ele>756.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

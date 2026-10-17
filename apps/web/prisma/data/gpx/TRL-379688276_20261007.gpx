@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Rodrigo Pontes</name>
+    <trkseg>
+      <trkpt lat="-23.501528" lon="-46.434264"><ele>747.0</ele></trkpt>
+      <trkpt lat="-23.502167" lon="-46.434202"><ele>747.5</ele></trkpt>
+      <trkpt lat="-23.502119" lon="-46.433702"><ele>744.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

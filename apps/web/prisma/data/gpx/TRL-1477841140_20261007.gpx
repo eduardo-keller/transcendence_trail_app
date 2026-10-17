@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Fernando Namora</name>
+    <trkseg>
+      <trkpt lat="-23.441552" lon="-46.382835"><ele>809.0</ele></trkpt>
+      <trkpt lat="-23.441547" lon="-46.382716"><ele>809.0</ele></trkpt>
+      <trkpt lat="-23.441337" lon="-46.382491"><ele>796.7</ele></trkpt>
+      <trkpt lat="-23.441267" lon="-46.382410"><ele>796.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela José de Jesus Rocha</name>
+    <trkseg>
+      <trkpt lat="-23.742895" lon="-46.797623"><ele>778.9</ele></trkpt>
+      <trkpt lat="-23.742917" lon="-46.797847"><ele>784.6</ele></trkpt>
+      <trkpt lat="-23.742903" lon="-46.798059"><ele>785.7</ele></trkpt>
+      <trkpt lat="-23.742868" lon="-46.798237"><ele>789.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

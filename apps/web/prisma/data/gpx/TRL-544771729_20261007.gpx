@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Ambaitinga</name>
+    <trkseg>
+      <trkpt lat="-23.537450" lon="-46.413772"><ele>763.0</ele></trkpt>
+      <trkpt lat="-23.537580" lon="-46.413519"><ele>765.7</ele></trkpt>
+      <trkpt lat="-23.537838" lon="-46.413040"><ele>768.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

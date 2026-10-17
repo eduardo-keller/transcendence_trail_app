@@ -23,6 +23,11 @@ enum Visibility {
   PRIVATE
 }
 
+enum TrailSource {
+  OSM // importada do OpenStreetMap (prisma/data/*.sqlite)
+  USER // criada por um usuário
+}
+
 // ---------- better-auth core ----------
 
 model User {
@@ -93,25 +98,39 @@ model Verification {
 // ---------- trails ----------
 
 model Trail {
-  id            String     @id @default(cuid())
-  title         String
-  description   String?
-  distance      Float // meters
-  elevationGain Float // meters
-  difficulty    Difficulty @default(MODERATE)
-  visibility    Visibility @default(PUBLIC)
-  routeGeoJSON  Json
-  minLat        Float
-  minLon        Float
-  maxLat        Float
-  maxLon        Float
-  authorId      String
-  author        User       @relation(fields: [authorId], references: [id], onDelete: Cascade)
-  activities    Activity[]
-  createdAt     DateTime   @default(now())
-  updatedAt     DateTime   @default(now()) @updatedAt
+  id               String      @id @default(cuid())
+  source           TrailSource @default(USER)
+  externalId       String?     @unique // OSM: trilha_id do dataset (ex.: TRL-789683428)
+  title            String
+  description      String?
+  distance         Float // meters
+  elevationGain    Float? // meters
+  elevationLoss    Float? // meters
+  estimatedMinutes Int?
+  isCircular       Boolean     @default(false)
+  difficulty       Difficulty  @default(MODERATE)
+  visibility       Visibility  @default(PUBLIC)
+  surface          String? // tags do OSM
+  highway          String?
+  sacScale         String?
+  osmTags          Json? // demais tags do OSM (access, dog, website...)
+  routeGeoJSON     Json
+  startLat         Float?
+  startLon         Float?
+  minLat           Float
+  minLon           Float
+  maxLat           Float
+  maxLon           Float
+  sourceUpdatedAt  DateTime? // última edição no OSM
+  authorId         String? // null para trilhas do OSM
+  author           User?       @relation(fields: [authorId], references: [id], onDelete: Cascade)
+  activities       Activity[]
+  createdAt        DateTime    @default(now())
+  updatedAt        DateTime    @default(now()) @updatedAt
 
   @@index([authorId])
+  @@index([source, difficulty])
+  @@index([distance])
 }
 
 model Activity {

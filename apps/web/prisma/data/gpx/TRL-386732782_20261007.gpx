@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Monte Carlo</name>
+    <trkseg>
+      <trkpt lat="-23.523808" lon="-46.460811"><ele>767.6</ele></trkpt>
+      <trkpt lat="-23.523726" lon="-46.460864"><ele>767.6</ele></trkpt>
+      <trkpt lat="-23.523412" lon="-46.461034"><ele>765.6</ele></trkpt>
+      <trkpt lat="-23.523412" lon="-46.461034"><ele>765.6</ele></trkpt>
+      <trkpt lat="-23.523438" lon="-46.461113"><ele>765.6</ele></trkpt>
+      <trkpt lat="-23.523515" lon="-46.461240"><ele>766.8</ele></trkpt>
+      <trkpt lat="-23.523591" lon="-46.461367"><ele>767.4</ele></trkpt>
+      <trkpt lat="-23.523646" lon="-46.461331"><ele>767.4</ele></trkpt>
+      <trkpt lat="-23.523805" lon="-46.461211"><ele>769.1</ele></trkpt>
+      <trkpt lat="-23.523849" lon="-46.461154"><ele>769.1</ele></trkpt>
+      <trkpt lat="-23.523927" lon="-46.461087"><ele>769.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

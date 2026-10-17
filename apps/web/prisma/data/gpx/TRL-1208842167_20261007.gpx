@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua 1</name>
+    <trkseg>
+      <trkpt lat="-23.550573" lon="-46.656854"><ele>805.1</ele></trkpt>
+      <trkpt lat="-23.550401" lon="-46.656542"><ele>806.1</ele></trkpt>
+      <trkpt lat="-23.550304" lon="-46.656366"><ele>810.5</ele></trkpt>
+      <trkpt lat="-23.550209" lon="-46.656193"><ele>810.6</ele></trkpt>
+      <trkpt lat="-23.550110" lon="-46.656014"><ele>804.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

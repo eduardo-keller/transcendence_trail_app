@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Firmino José Bueno</name>
+    <trkseg>
+      <trkpt lat="-23.490640" lon="-46.591907"><ele>766.5</ele></trkpt>
+      <trkpt lat="-23.491009" lon="-46.592270"><ele>760.5</ele></trkpt>
+      <trkpt lat="-23.491021" lon="-46.592282"><ele>760.5</ele></trkpt>
+      <trkpt lat="-23.491067" lon="-46.592337"><ele>760.5</ele></trkpt>
+      <trkpt lat="-23.491084" lon="-46.592364"><ele>762.6</ele></trkpt>
+      <trkpt lat="-23.491110" lon="-46.592428"><ele>762.6</ele></trkpt>
+      <trkpt lat="-23.491146" lon="-46.592556"><ele>762.6</ele></trkpt>
+      <trkpt lat="-23.491194" lon="-46.592643"><ele>766.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passagem Debóra</name>
+    <trkseg>
+      <trkpt lat="-23.699213" lon="-46.595463"><ele>793.6</ele></trkpt>
+      <trkpt lat="-23.698918" lon="-46.595369"><ele>807.8</ele></trkpt>
+      <trkpt lat="-23.698837" lon="-46.595166"><ele>807.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

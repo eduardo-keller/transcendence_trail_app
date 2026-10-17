@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Piata</name>
+    <trkseg>
+      <trkpt lat="-23.403845" lon="-46.403979"><ele>775.5</ele></trkpt>
+      <trkpt lat="-23.403549" lon="-46.404570"><ele>768.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

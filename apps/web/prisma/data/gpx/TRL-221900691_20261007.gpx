@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Stela Costa</name>
+    <trkseg>
+      <trkpt lat="-23.660045" lon="-46.748748"><ele>787.3</ele></trkpt>
+      <trkpt lat="-23.660081" lon="-46.748743"><ele>787.3</ele></trkpt>
+      <trkpt lat="-23.660117" lon="-46.748732"><ele>787.3</ele></trkpt>
+      <trkpt lat="-23.660167" lon="-46.748702"><ele>794.3</ele></trkpt>
+      <trkpt lat="-23.660297" lon="-46.748590"><ele>794.3</ele></trkpt>
+      <trkpt lat="-23.660355" lon="-46.748548"><ele>794.3</ele></trkpt>
+      <trkpt lat="-23.660415" lon="-46.748519"><ele>794.3</ele></trkpt>
+      <trkpt lat="-23.660577" lon="-46.748458"><ele>801.4</ele></trkpt>
+      <trkpt lat="-23.660606" lon="-46.748442"><ele>801.4</ele></trkpt>
+      <trkpt lat="-23.660627" lon="-46.748421"><ele>801.4</ele></trkpt>
+      <trkpt lat="-23.660666" lon="-46.748371"><ele>801.4</ele></trkpt>
+      <trkpt lat="-23.660691" lon="-46.748342"><ele>801.4</ele></trkpt>
+      <trkpt lat="-23.660713" lon="-46.748325"><ele>810.8</ele></trkpt>
+      <trkpt lat="-23.660736" lon="-46.748315"><ele>810.8</ele></trkpt>
+      <trkpt lat="-23.660758" lon="-46.748315"><ele>810.8</ele></trkpt>
+      <trkpt lat="-23.660786" lon="-46.748323"><ele>810.8</ele></trkpt>
+      <trkpt lat="-23.660804" lon="-46.748328"><ele>810.8</ele></trkpt>
+      <trkpt lat="-23.660821" lon="-46.748327"><ele>810.8</ele></trkpt>
+      <trkpt lat="-23.660837" lon="-46.748321"><ele>810.8</ele></trkpt>
+      <trkpt lat="-23.660904" lon="-46.748288"><ele>810.8</ele></trkpt>
+      <trkpt lat="-23.660919" lon="-46.748283"><ele>810.8</ele></trkpt>
+      <trkpt lat="-23.660933" lon="-46.748282"><ele>810.8</ele></trkpt>
+      <trkpt lat="-23.661084" lon="-46.748290"><ele>815.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

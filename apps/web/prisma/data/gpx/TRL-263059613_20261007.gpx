@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Trilha da nascente do riacho de Ipiranga</name>
+    <trkseg>
+      <trkpt lat="-23.640015" lon="-46.619183"><ele>804.1</ele></trkpt>
+      <trkpt lat="-23.639998" lon="-46.619099"><ele>804.1</ele></trkpt>
+      <trkpt lat="-23.639976" lon="-46.619035"><ele>804.1</ele></trkpt>
+      <trkpt lat="-23.639929" lon="-46.618991"><ele>804.5</ele></trkpt>
+      <trkpt lat="-23.639846" lon="-46.618940"><ele>798.3</ele></trkpt>
+      <trkpt lat="-23.639799" lon="-46.618920"><ele>798.3</ele></trkpt>
+      <trkpt lat="-23.639739" lon="-46.618883"><ele>798.3</ele></trkpt>
+      <trkpt lat="-23.639687" lon="-46.618828"><ele>798.3</ele></trkpt>
+      <trkpt lat="-23.639661" lon="-46.618724"><ele>796.9</ele></trkpt>
+      <trkpt lat="-23.639628" lon="-46.618580"><ele>796.9</ele></trkpt>
+      <trkpt lat="-23.639620" lon="-46.618516"><ele>796.9</ele></trkpt>
+      <trkpt lat="-23.639628" lon="-46.618445"><ele>795.3</ele></trkpt>
+      <trkpt lat="-23.639642" lon="-46.618352"><ele>795.3</ele></trkpt>
+      <trkpt lat="-23.639657" lon="-46.618265"><ele>795.3</ele></trkpt>
+      <trkpt lat="-23.639665" lon="-46.618185"><ele>796.9</ele></trkpt>
+      <trkpt lat="-23.639664" lon="-46.618161"><ele>796.9</ele></trkpt>
+      <trkpt lat="-23.639659" lon="-46.618136"><ele>796.9</ele></trkpt>
+      <trkpt lat="-23.639649" lon="-46.618116"><ele>796.9</ele></trkpt>
+      <trkpt lat="-23.639634" lon="-46.618099"><ele>796.9</ele></trkpt>
+      <trkpt lat="-23.639618" lon="-46.618094"><ele>796.9</ele></trkpt>
+      <trkpt lat="-23.639607" lon="-46.618093"><ele>796.9</ele></trkpt>
+      <trkpt lat="-23.639602" lon="-46.618092"><ele>796.9</ele></trkpt>
+      <trkpt lat="-23.639580" lon="-46.618101"><ele>795.0</ele></trkpt>
+      <trkpt lat="-23.639561" lon="-46.618114"><ele>795.0</ele></trkpt>
+      <trkpt lat="-23.639546" lon="-46.618127"><ele>795.0</ele></trkpt>
+      <trkpt lat="-23.639535" lon="-46.618143"><ele>795.0</ele></trkpt>
+      <trkpt lat="-23.639500" lon="-46.618306"><ele>792.2</ele></trkpt>
+      <trkpt lat="-23.639431" lon="-46.618437"><ele>792.2</ele></trkpt>
+      <trkpt lat="-23.639381" lon="-46.618496"><ele>790.7</ele></trkpt>
+      <trkpt lat="-23.639353" lon="-46.618617"><ele>790.7</ele></trkpt>
+      <trkpt lat="-23.639354" lon="-46.618754"><ele>789.5</ele></trkpt>
+      <trkpt lat="-23.639351" lon="-46.618893"><ele>789.5</ele></trkpt>
+      <trkpt lat="-23.639287" lon="-46.619017"><ele>784.5</ele></trkpt>
+      <trkpt lat="-23.639307" lon="-46.619178"><ele>790.1</ele></trkpt>
+      <trkpt lat="-23.639322" lon="-46.619335"><ele>787.0</ele></trkpt>
+      <trkpt lat="-23.639294" lon="-46.619533"><ele>778.8</ele></trkpt>
+      <trkpt lat="-23.639291" lon="-46.619585"><ele>778.3</ele></trkpt>
+      <trkpt lat="-23.639318" lon="-46.619665"><ele>784.7</ele></trkpt>
+      <trkpt lat="-23.639312" lon="-46.619686"><ele>784.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

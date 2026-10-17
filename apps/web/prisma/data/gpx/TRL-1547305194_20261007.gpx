@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Santuza Adão</name>
+    <trkseg>
+      <trkpt lat="-23.514010" lon="-46.386651"><ele>766.2</ele></trkpt>
+      <trkpt lat="-23.513937" lon="-46.386758"><ele>766.2</ele></trkpt>
+      <trkpt lat="-23.513940" lon="-46.386786"><ele>766.2</ele></trkpt>
+      <trkpt lat="-23.513972" lon="-46.386826"><ele>763.2</ele></trkpt>
+      <trkpt lat="-23.513984" lon="-46.386852"><ele>763.2</ele></trkpt>
+      <trkpt lat="-23.513993" lon="-46.386879"><ele>763.2</ele></trkpt>
+      <trkpt lat="-23.514001" lon="-46.386896"><ele>763.2</ele></trkpt>
+      <trkpt lat="-23.514014" lon="-46.386911"><ele>763.2</ele></trkpt>
+      <trkpt lat="-23.514028" lon="-46.386921"><ele>766.6</ele></trkpt>
+      <trkpt lat="-23.514048" lon="-46.386940"><ele>766.6</ele></trkpt>
+      <trkpt lat="-23.514078" lon="-46.386948"><ele>766.6</ele></trkpt>
+      <trkpt lat="-23.514101" lon="-46.386944"><ele>766.6</ele></trkpt>
+      <trkpt lat="-23.514145" lon="-46.386895"><ele>766.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

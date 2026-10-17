@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa das Canas</name>
+    <trkseg>
+      <trkpt lat="-23.852688" lon="-46.695108"><ele>760.0</ele></trkpt>
+      <trkpt lat="-23.852739" lon="-46.695116"><ele>760.0</ele></trkpt>
+      <trkpt lat="-23.852766" lon="-46.695116"><ele>760.0</ele></trkpt>
+      <trkpt lat="-23.852795" lon="-46.695117"><ele>760.0</ele></trkpt>
+      <trkpt lat="-23.852809" lon="-46.695116"><ele>760.0</ele></trkpt>
+      <trkpt lat="-23.852823" lon="-46.695110"><ele>760.0</ele></trkpt>
+      <trkpt lat="-23.852830" lon="-46.695104"><ele>760.0</ele></trkpt>
+      <trkpt lat="-23.852832" lon="-46.695094"><ele>760.0</ele></trkpt>
+      <trkpt lat="-23.852831" lon="-46.695083"><ele>760.0</ele></trkpt>
+      <trkpt lat="-23.852827" lon="-46.695067"><ele>760.0</ele></trkpt>
+      <trkpt lat="-23.852794" lon="-46.695017"><ele>760.0</ele></trkpt>
+      <trkpt lat="-23.852750" lon="-46.694967"><ele>760.0</ele></trkpt>
+      <trkpt lat="-23.852489" lon="-46.694940"><ele>763.1</ele></trkpt>
+      <trkpt lat="-23.852518" lon="-46.694889"><ele>763.1</ele></trkpt>
+      <trkpt lat="-23.852542" lon="-46.694847"><ele>758.2</ele></trkpt>
+      <trkpt lat="-23.852569" lon="-46.694799"><ele>758.2</ele></trkpt>
+      <trkpt lat="-23.852578" lon="-46.694773"><ele>758.2</ele></trkpt>
+      <trkpt lat="-23.852586" lon="-46.694748"><ele>758.2</ele></trkpt>
+      <trkpt lat="-23.852593" lon="-46.694725"><ele>758.2</ele></trkpt>
+      <trkpt lat="-23.852599" lon="-46.694712"><ele>758.2</ele></trkpt>
+      <trkpt lat="-23.852608" lon="-46.694702"><ele>758.2</ele></trkpt>
+      <trkpt lat="-23.852625" lon="-46.694689"><ele>758.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

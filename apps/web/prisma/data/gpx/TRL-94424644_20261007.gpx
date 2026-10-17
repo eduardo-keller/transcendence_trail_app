@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Oito</name>
+    <trkseg>
+      <trkpt lat="-23.611560" lon="-46.503339"><ele>817.3</ele></trkpt>
+      <trkpt lat="-23.611546" lon="-46.502714"><ele>816.4</ele></trkpt>
+      <trkpt lat="-23.611535" lon="-46.502071"><ele>820.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

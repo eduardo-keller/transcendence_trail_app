@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua 2</name>
+    <trkseg>
+      <trkpt lat="-23.575295" lon="-46.454167"><ele>802.2</ele></trkpt>
+      <trkpt lat="-23.575323" lon="-46.454145"><ele>802.2</ele></trkpt>
+      <trkpt lat="-23.575332" lon="-46.454125"><ele>802.2</ele></trkpt>
+      <trkpt lat="-23.575323" lon="-46.454090"><ele>802.2</ele></trkpt>
+      <trkpt lat="-23.575220" lon="-46.453903"><ele>796.7</ele></trkpt>
+      <trkpt lat="-23.575195" lon="-46.453856"><ele>796.7</ele></trkpt>
+      <trkpt lat="-23.575182" lon="-46.453830"><ele>796.7</ele></trkpt>
+      <trkpt lat="-23.575167" lon="-46.453794"><ele>796.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

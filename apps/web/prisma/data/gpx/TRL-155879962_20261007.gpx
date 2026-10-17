@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Jaqueira</name>
+    <trkseg>
+      <trkpt lat="-23.503299" lon="-46.464131"><ele>756.9</ele></trkpt>
+      <trkpt lat="-23.503405" lon="-46.464729"><ele>765.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

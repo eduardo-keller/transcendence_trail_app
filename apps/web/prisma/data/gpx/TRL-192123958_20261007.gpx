@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passarela Benedicto Cherubim Silva</name>
+    <trkseg>
+      <trkpt lat="-23.397673" lon="-47.003452"><ele>670.9</ele></trkpt>
+      <trkpt lat="-23.397664" lon="-47.003476"><ele>664.5</ele></trkpt>
+      <trkpt lat="-23.397409" lon="-47.003356"><ele>669.0</ele></trkpt>
+      <trkpt lat="-23.397058" lon="-47.003192"><ele>669.3</ele></trkpt>
+      <trkpt lat="-23.396840" lon="-47.003129"><ele>669.3</ele></trkpt>
+      <trkpt lat="-23.396798" lon="-47.003122"><ele>668.7</ele></trkpt>
+      <trkpt lat="-23.396721" lon="-47.003131"><ele>668.7</ele></trkpt>
+      <trkpt lat="-23.396646" lon="-47.003172"><ele>668.7</ele></trkpt>
+      <trkpt lat="-23.396577" lon="-47.003317"><ele>667.0</ele></trkpt>
+      <trkpt lat="-23.396488" lon="-47.003408"><ele>670.3</ele></trkpt>
+      <trkpt lat="-23.396435" lon="-47.003467"><ele>670.3</ele></trkpt>
+      <trkpt lat="-23.396398" lon="-47.003614"><ele>669.3</ele></trkpt>
+      <trkpt lat="-23.396392" lon="-47.003681"><ele>669.3</ele></trkpt>
+      <trkpt lat="-23.396383" lon="-47.003774"><ele>667.2</ele></trkpt>
+      <trkpt lat="-23.396398" lon="-47.003850"><ele>667.2</ele></trkpt>
+      <trkpt lat="-23.396377" lon="-47.003961"><ele>667.2</ele></trkpt>
+      <trkpt lat="-23.396316" lon="-47.004052"><ele>664.5</ele></trkpt>
+      <trkpt lat="-23.396223" lon="-47.004137"><ele>664.5</ele></trkpt>
+      <trkpt lat="-23.395930" lon="-47.004251"><ele>670.0</ele></trkpt>
+      <trkpt lat="-23.395833" lon="-47.004267"><ele>670.0</ele></trkpt>
+      <trkpt lat="-23.395732" lon="-47.004263"><ele>670.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

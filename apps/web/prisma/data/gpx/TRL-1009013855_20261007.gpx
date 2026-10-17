@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Salvador Carvalhal Albarran</name>
+    <trkseg>
+      <trkpt lat="-23.565944" lon="-47.071501"><ele>976.8</ele></trkpt>
+      <trkpt lat="-23.566013" lon="-47.071456"><ele>989.6</ele></trkpt>
+      <trkpt lat="-23.566143" lon="-47.071443"><ele>989.6</ele></trkpt>
+      <trkpt lat="-23.566387" lon="-47.071655"><ele>994.5</ele></trkpt>
+      <trkpt lat="-23.566517" lon="-47.071776"><ele>994.5</ele></trkpt>
+      <trkpt lat="-23.566739" lon="-47.071907"><ele>992.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

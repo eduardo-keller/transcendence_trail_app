@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa da Floresta</name>
+    <trkseg>
+      <trkpt lat="-23.447267" lon="-46.689472"><ele>820.2</ele></trkpt>
+      <trkpt lat="-23.447278" lon="-46.689683"><ele>810.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

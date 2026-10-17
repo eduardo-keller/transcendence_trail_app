@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passarela Valentim dos Santos Diniz</name>
+    <trkseg>
+      <trkpt lat="-23.613206" lon="-46.658011"><ele>773.0</ele></trkpt>
+      <trkpt lat="-23.613112" lon="-46.657928"><ele>774.4</ele></trkpt>
+      <trkpt lat="-23.613086" lon="-46.657961"><ele>774.4</ele></trkpt>
+      <trkpt lat="-23.613245" lon="-46.658107"><ele>773.0</ele></trkpt>
+      <trkpt lat="-23.613436" lon="-46.657863"><ele>777.1</ele></trkpt>
+      <trkpt lat="-23.613436" lon="-46.657863"><ele>777.1</ele></trkpt>
+      <trkpt lat="-23.613483" lon="-46.657808"><ele>776.2</ele></trkpt>
+      <trkpt lat="-23.613504" lon="-46.657827"><ele>776.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Três</name>
+    <trkseg>
+      <trkpt lat="-23.454895" lon="-46.702270"><ele>836.8</ele></trkpt>
+      <trkpt lat="-23.454848" lon="-46.702335"><ele>832.4</ele></trkpt>
+      <trkpt lat="-23.454809" lon="-46.702404"><ele>832.6</ele></trkpt>
+      <trkpt lat="-23.454796" lon="-46.702452"><ele>832.6</ele></trkpt>
+      <trkpt lat="-23.454785" lon="-46.702519"><ele>832.6</ele></trkpt>
+      <trkpt lat="-23.454783" lon="-46.702585"><ele>832.6</ele></trkpt>
+      <trkpt lat="-23.454781" lon="-46.702636"><ele>832.6</ele></trkpt>
+      <trkpt lat="-23.454762" lon="-46.702739"><ele>834.4</ele></trkpt>
+      <trkpt lat="-23.454752" lon="-46.702834"><ele>834.4</ele></trkpt>
+      <trkpt lat="-23.454734" lon="-46.702934"><ele>839.9</ele></trkpt>
+      <trkpt lat="-23.454679" lon="-46.703152"><ele>839.9</ele></trkpt>
+      <trkpt lat="-23.454639" lon="-46.703313"><ele>843.8</ele></trkpt>
+      <trkpt lat="-23.454577" lon="-46.703536"><ele>842.3</ele></trkpt>
+      <trkpt lat="-23.454496" lon="-46.703738"><ele>842.3</ele></trkpt>
+      <trkpt lat="-23.454325" lon="-46.703840"><ele>842.1</ele></trkpt>
+      <trkpt lat="-23.454212" lon="-46.704059"><ele>833.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

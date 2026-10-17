@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Trilha da Cavernosa</name>
+    <trkseg>
+      <trkpt lat="-23.783319" lon="-46.885259"><ele>861.5</ele></trkpt>
+      <trkpt lat="-23.783157" lon="-46.885090"><ele>871.6</ele></trkpt>
+      <trkpt lat="-23.783012" lon="-46.884941"><ele>871.6</ele></trkpt>
+      <trkpt lat="-23.782929" lon="-46.884838"><ele>873.1</ele></trkpt>
+      <trkpt lat="-23.782805" lon="-46.884750"><ele>878.4</ele></trkpt>
+      <trkpt lat="-23.782580" lon="-46.884733"><ele>885.6</ele></trkpt>
+      <trkpt lat="-23.782433" lon="-46.884740"><ele>885.6</ele></trkpt>
+      <trkpt lat="-23.782308" lon="-46.884689"><ele>888.7</ele></trkpt>
+      <trkpt lat="-23.782127" lon="-46.884521"><ele>885.5</ele></trkpt>
+      <trkpt lat="-23.781954" lon="-46.884350"><ele>891.3</ele></trkpt>
+      <trkpt lat="-23.781849" lon="-46.884224"><ele>885.6</ele></trkpt>
+      <trkpt lat="-23.781723" lon="-46.884073"><ele>883.8</ele></trkpt>
+      <trkpt lat="-23.781113" lon="-46.883314"><ele>898.0</ele></trkpt>
+      <trkpt lat="-23.780801" lon="-46.882891"><ele>908.7</ele></trkpt>
+      <trkpt lat="-23.780613" lon="-46.882646"><ele>903.1</ele></trkpt>
+      <trkpt lat="-23.780504" lon="-46.882506"><ele>903.7</ele></trkpt>
+      <trkpt lat="-23.779898" lon="-46.881983"><ele>899.3</ele></trkpt>
+      <trkpt lat="-23.779544" lon="-46.881806"><ele>899.7</ele></trkpt>
+      <trkpt lat="-23.779159" lon="-46.881579"><ele>902.6</ele></trkpt>
+      <trkpt lat="-23.778786" lon="-46.881343"><ele>904.5</ele></trkpt>
+      <trkpt lat="-23.778368" lon="-46.881259"><ele>912.1</ele></trkpt>
+      <trkpt lat="-23.777919" lon="-46.881436"><ele>916.2</ele></trkpt>
+      <trkpt lat="-23.777163" lon="-46.881135"><ele>931.5</ele></trkpt>
+      <trkpt lat="-23.774955" lon="-46.881046"><ele>983.0</ele></trkpt>
+      <trkpt lat="-23.774425" lon="-46.880653"><ele>981.9</ele></trkpt>
+      <trkpt lat="-23.773912" lon="-46.879794"><ele>977.4</ele></trkpt>
+      <trkpt lat="-23.773536" lon="-46.878785"><ele>976.0</ele></trkpt>
+      <trkpt lat="-23.773245" lon="-46.877833"><ele>968.6</ele></trkpt>
+      <trkpt lat="-23.773052" lon="-46.877220"><ele>960.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

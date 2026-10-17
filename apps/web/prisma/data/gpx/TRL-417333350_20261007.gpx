@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Avenida Adutora do Rio Claro</name>
+    <trkseg>
+      <trkpt lat="-23.609827" lon="-46.503370"><ele>805.5</ele></trkpt>
+      <trkpt lat="-23.609774" lon="-46.503339"><ele>805.5</ele></trkpt>
+      <trkpt lat="-23.609740" lon="-46.503320"><ele>805.5</ele></trkpt>
+      <trkpt lat="-23.609404" lon="-46.503243"><ele>804.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

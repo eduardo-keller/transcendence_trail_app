@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Francisco pereira de Souza</name>
+    <trkseg>
+      <trkpt lat="-23.674151" lon="-46.627122"><ele>794.6</ele></trkpt>
+      <trkpt lat="-23.674208" lon="-46.627046"><ele>794.1</ele></trkpt>
+      <trkpt lat="-23.673997" lon="-46.626711"><ele>789.2</ele></trkpt>
+      <trkpt lat="-23.673941" lon="-46.626596"><ele>789.2</ele></trkpt>
+      <trkpt lat="-23.673908" lon="-46.626128"><ele>786.6</ele></trkpt>
+      <trkpt lat="-23.673759" lon="-46.626129"><ele>786.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela José Maria da Cruz</name>
+    <trkseg>
+      <trkpt lat="-23.354969" lon="-46.746498"><ele>780.7</ele></trkpt>
+      <trkpt lat="-23.354322" lon="-46.746318"><ele>769.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

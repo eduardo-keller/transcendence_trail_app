@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Estrada R2302</name>
+    <trkseg>
+      <trkpt lat="-23.795361" lon="-46.588161"><ele>752.0</ele></trkpt>
+      <trkpt lat="-23.795291" lon="-46.588374"><ele>751.8</ele></trkpt>
+      <trkpt lat="-23.795190" lon="-46.588684"><ele>754.8</ele></trkpt>
+      <trkpt lat="-23.795153" lon="-46.589075"><ele>756.9</ele></trkpt>
+      <trkpt lat="-23.795174" lon="-46.589480"><ele>758.6</ele></trkpt>
+      <trkpt lat="-23.795315" lon="-46.590006"><ele>753.5</ele></trkpt>
+      <trkpt lat="-23.795475" lon="-46.590281"><ele>757.8</ele></trkpt>
+      <trkpt lat="-23.795651" lon="-46.590432"><ele>751.3</ele></trkpt>
+      <trkpt lat="-23.795889" lon="-46.590539"><ele>756.3</ele></trkpt>
+      <trkpt lat="-23.796119" lon="-46.590568"><ele>757.0</ele></trkpt>
+      <trkpt lat="-23.796332" lon="-46.590556"><ele>759.5</ele></trkpt>
+      <trkpt lat="-23.796592" lon="-46.590468"><ele>757.1</ele></trkpt>
+      <trkpt lat="-23.797504" lon="-46.589870"><ele>758.7</ele></trkpt>
+      <trkpt lat="-23.797799" lon="-46.589648"><ele>756.9</ele></trkpt>
+      <trkpt lat="-23.798836" lon="-46.588927"><ele>763.4</ele></trkpt>
+      <trkpt lat="-23.798996" lon="-46.588788"><ele>763.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passagem `Pintado</name>
+    <trkseg>
+      <trkpt lat="-23.727609" lon="-46.616359"><ele>817.9</ele></trkpt>
+      <trkpt lat="-23.727976" lon="-46.616868"><ele>816.0</ele></trkpt>
+      <trkpt lat="-23.728352" lon="-46.617405"><ele>800.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

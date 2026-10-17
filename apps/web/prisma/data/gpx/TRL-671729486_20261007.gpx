@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela K</name>
+    <trkseg>
+      <trkpt lat="-23.487937" lon="-46.886755"><ele>785.5</ele></trkpt>
+      <trkpt lat="-23.488214" lon="-46.886751"><ele>776.5</ele></trkpt>
+      <trkpt lat="-23.488400" lon="-46.886872"><ele>775.6</ele></trkpt>
+      <trkpt lat="-23.488452" lon="-46.886907"><ele>775.6</ele></trkpt>
+      <trkpt lat="-23.488610" lon="-46.886995"><ele>768.3</ele></trkpt>
+      <trkpt lat="-23.488745" lon="-46.887135"><ele>763.3</ele></trkpt>
+      <trkpt lat="-23.488661" lon="-46.887485"><ele>756.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

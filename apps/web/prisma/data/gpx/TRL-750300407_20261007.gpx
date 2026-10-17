@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Pascoal Carlos Magno</name>
+    <trkseg>
+      <trkpt lat="-23.672839" lon="-46.490548"><ele>785.2</ele></trkpt>
+      <trkpt lat="-23.672851" lon="-46.490674"><ele>785.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Ouro Branco</name>
+    <trkseg>
+      <trkpt lat="-23.571178" lon="-46.661055"><ele>757.4</ele></trkpt>
+      <trkpt lat="-23.570762" lon="-46.661575"><ele>758.8</ele></trkpt>
+      <trkpt lat="-23.570373" lon="-46.662059"><ele>754.0</ele></trkpt>
+      <trkpt lat="-23.570339" lon="-46.662102"><ele>752.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

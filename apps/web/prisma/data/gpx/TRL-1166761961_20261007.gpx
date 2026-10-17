@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Quinhentos</name>
+    <trkseg>
+      <trkpt lat="-23.706012" lon="-46.624009"><ele>861.7</ele></trkpt>
+      <trkpt lat="-23.706427" lon="-46.624281"><ele>855.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

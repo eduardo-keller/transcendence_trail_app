@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passarela Pd. Carlos C. Lopes Valle</name>
+    <trkseg>
+      <trkpt lat="-23.667163" lon="-46.582435"><ele>748.3</ele></trkpt>
+      <trkpt lat="-23.667125" lon="-46.582520"><ele>748.3</ele></trkpt>
+      <trkpt lat="-23.667089" lon="-46.582501"><ele>748.3</ele></trkpt>
+      <trkpt lat="-23.667125" lon="-46.582424"><ele>748.3</ele></trkpt>
+      <trkpt lat="-23.666868" lon="-46.582290"><ele>747.4</ele></trkpt>
+      <trkpt lat="-23.666827" lon="-46.582383"><ele>748.6</ele></trkpt>
+      <trkpt lat="-23.666800" lon="-46.582368"><ele>748.2</ele></trkpt>
+      <trkpt lat="-23.666842" lon="-46.582273"><ele>747.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

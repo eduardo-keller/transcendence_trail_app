@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa do Café</name>
+    <trkseg>
+      <trkpt lat="-23.213631" lon="-46.903499"><ele>778.4</ele></trkpt>
+      <trkpt lat="-23.213791" lon="-46.903305"><ele>775.8</ele></trkpt>
+      <trkpt lat="-23.214019" lon="-46.903073"><ele>773.4</ele></trkpt>
+      <trkpt lat="-23.214206" lon="-46.902901"><ele>777.7</ele></trkpt>
+      <trkpt lat="-23.214313" lon="-46.902831"><ele>776.6</ele></trkpt>
+      <trkpt lat="-23.214544" lon="-46.902742"><ele>776.6</ele></trkpt>
+      <trkpt lat="-23.214664" lon="-46.902673"><ele>779.5</ele></trkpt>
+      <trkpt lat="-23.214768" lon="-46.902528"><ele>779.0</ele></trkpt>
+      <trkpt lat="-23.214841" lon="-46.902331"><ele>781.4</ele></trkpt>
+      <trkpt lat="-23.214881" lon="-46.902147"><ele>781.8</ele></trkpt>
+      <trkpt lat="-23.214975" lon="-46.901928"><ele>781.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

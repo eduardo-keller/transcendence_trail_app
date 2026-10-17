@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Carvalho</name>
+    <trkseg>
+      <trkpt lat="-23.995234" lon="-46.250775"><ele>0.0</ele></trkpt>
+      <trkpt lat="-23.995092" lon="-46.251182"><ele>5.0</ele></trkpt>
+      <trkpt lat="-23.994979" lon="-46.251568"><ele>3.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

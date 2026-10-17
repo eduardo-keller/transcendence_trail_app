@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Estrada do Lambari</name>
+    <trkseg>
+      <trkpt lat="-23.408494" lon="-46.210069"><ele>646.7</ele></trkpt>
+      <trkpt lat="-23.408395" lon="-46.210220"><ele>648.6</ele></trkpt>
+      <trkpt lat="-23.407992" lon="-46.210498"><ele>649.9</ele></trkpt>
+      <trkpt lat="-23.407755" lon="-46.210853"><ele>649.9</ele></trkpt>
+      <trkpt lat="-23.407725" lon="-46.210920"><ele>649.9</ele></trkpt>
+      <trkpt lat="-23.407578" lon="-46.211250"><ele>649.3</ele></trkpt>
+      <trkpt lat="-23.407283" lon="-46.211668"><ele>652.4</ele></trkpt>
+      <trkpt lat="-23.407174" lon="-46.211936"><ele>654.3</ele></trkpt>
+      <trkpt lat="-23.407273" lon="-46.212376"><ele>644.7</ele></trkpt>
+      <trkpt lat="-23.407440" lon="-46.212548"><ele>648.7</ele></trkpt>
+      <trkpt lat="-23.407647" lon="-46.212666"><ele>650.1</ele></trkpt>
+      <trkpt lat="-23.407733" lon="-46.212967"><ele>649.4</ele></trkpt>
+      <trkpt lat="-23.407711" lon="-46.213460"><ele>649.1</ele></trkpt>
+      <trkpt lat="-23.407727" lon="-46.213952"><ele>649.8</ele></trkpt>
+      <trkpt lat="-23.407807" lon="-46.214161"><ele>649.4</ele></trkpt>
+      <trkpt lat="-23.407983" lon="-46.214356"><ele>654.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

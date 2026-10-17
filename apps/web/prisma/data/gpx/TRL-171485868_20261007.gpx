@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Engenheiro Stevenson</name>
+    <trkseg>
+      <trkpt lat="-23.526314" lon="-46.674546"><ele>745.1</ele></trkpt>
+      <trkpt lat="-23.526345" lon="-46.674551"><ele>745.1</ele></trkpt>
+      <trkpt lat="-23.526468" lon="-46.674570"><ele>745.1</ele></trkpt>
+      <trkpt lat="-23.526468" lon="-46.674570"><ele>745.1</ele></trkpt>
+      <trkpt lat="-23.526473" lon="-46.674571"><ele>745.1</ele></trkpt>
+      <trkpt lat="-23.526537" lon="-46.674575"><ele>754.4</ele></trkpt>
+      <trkpt lat="-23.526537" lon="-46.674575"><ele>754.4</ele></trkpt>
+      <trkpt lat="-23.526611" lon="-46.674580"><ele>754.4</ele></trkpt>
+      <trkpt lat="-23.526791" lon="-46.674587"><ele>747.5</ele></trkpt>
+      <trkpt lat="-23.526857" lon="-46.674607"><ele>743.0</ele></trkpt>
+      <trkpt lat="-23.526894" lon="-46.674625"><ele>743.0</ele></trkpt>
+      <trkpt lat="-23.526918" lon="-46.674645"><ele>743.0</ele></trkpt>
+      <trkpt lat="-23.526936" lon="-46.674676"><ele>743.0</ele></trkpt>
+      <trkpt lat="-23.526949" lon="-46.674716"><ele>743.0</ele></trkpt>
+      <trkpt lat="-23.526950" lon="-46.674726"><ele>743.0</ele></trkpt>
+      <trkpt lat="-23.526954" lon="-46.674750"><ele>743.0</ele></trkpt>
+      <trkpt lat="-23.526979" lon="-46.674804"><ele>743.0</ele></trkpt>
+      <trkpt lat="-23.526979" lon="-46.674804"><ele>743.0</ele></trkpt>
+      <trkpt lat="-23.526965" lon="-46.674726"><ele>743.0</ele></trkpt>
+      <trkpt lat="-23.526961" lon="-46.674702"><ele>743.0</ele></trkpt>
+      <trkpt lat="-23.526966" lon="-46.674655"><ele>743.0</ele></trkpt>
+      <trkpt lat="-23.526983" lon="-46.674622"><ele>743.0</ele></trkpt>
+      <trkpt lat="-23.527002" lon="-46.674602"><ele>743.0</ele></trkpt>
+      <trkpt lat="-23.527027" lon="-46.674589"><ele>743.0</ele></trkpt>
+      <trkpt lat="-23.527308" lon="-46.674488"><ele>751.8</ele></trkpt>
+      <trkpt lat="-23.527308" lon="-46.674488"><ele>751.8</ele></trkpt>
+      <trkpt lat="-23.527380" lon="-46.674461"><ele>742.4</ele></trkpt>
+      <trkpt lat="-23.527380" lon="-46.674461"><ele>742.4</ele></trkpt>
+      <trkpt lat="-23.527505" lon="-46.674413"><ele>742.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

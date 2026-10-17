@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Via de Pedestre Santa Maria do Salto</name>
+    <trkseg>
+      <trkpt lat="-23.463086" lon="-46.570254"><ele>736.3</ele></trkpt>
+      <trkpt lat="-23.463070" lon="-46.569972"><ele>735.7</ele></trkpt>
+      <trkpt lat="-23.463075" lon="-46.569739"><ele>736.7</ele></trkpt>
+      <trkpt lat="-23.463062" lon="-46.569688"><ele>736.7</ele></trkpt>
+      <trkpt lat="-23.463044" lon="-46.569656"><ele>736.7</ele></trkpt>
+      <trkpt lat="-23.463024" lon="-46.569631"><ele>736.7</ele></trkpt>
+      <trkpt lat="-23.463019" lon="-46.569606"><ele>736.7</ele></trkpt>
+      <trkpt lat="-23.462954" lon="-46.569568"><ele>736.1</ele></trkpt>
+      <trkpt lat="-23.462941" lon="-46.569552"><ele>736.1</ele></trkpt>
+      <trkpt lat="-23.462930" lon="-46.569524"><ele>736.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

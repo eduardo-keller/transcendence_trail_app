@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Praça Osny Silveira</name>
+    <trkseg>
+      <trkpt lat="-23.607238" lon="-46.678706"><ele>736.7</ele></trkpt>
+      <trkpt lat="-23.607243" lon="-46.678659"><ele>736.7</ele></trkpt>
+      <trkpt lat="-23.607244" lon="-46.678637"><ele>736.7</ele></trkpt>
+      <trkpt lat="-23.607241" lon="-46.678606"><ele>736.7</ele></trkpt>
+      <trkpt lat="-23.607236" lon="-46.678574"><ele>736.7</ele></trkpt>
+      <trkpt lat="-23.607223" lon="-46.678547"><ele>736.7</ele></trkpt>
+      <trkpt lat="-23.607209" lon="-46.678527"><ele>736.7</ele></trkpt>
+      <trkpt lat="-23.607186" lon="-46.678511"><ele>736.7</ele></trkpt>
+      <trkpt lat="-23.607172" lon="-46.678501"><ele>736.7</ele></trkpt>
+      <trkpt lat="-23.607149" lon="-46.678497"><ele>736.7</ele></trkpt>
+      <trkpt lat="-23.607129" lon="-46.678494"><ele>736.7</ele></trkpt>
+      <trkpt lat="-23.607107" lon="-46.678490"><ele>736.7</ele></trkpt>
+      <trkpt lat="-23.607093" lon="-46.678489"><ele>736.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

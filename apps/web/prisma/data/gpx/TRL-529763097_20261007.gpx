@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Fernando Esteban</name>
+    <trkseg>
+      <trkpt lat="-23.506341" lon="-46.485858"><ele>789.2</ele></trkpt>
+      <trkpt lat="-23.506008" lon="-46.485865"><ele>789.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

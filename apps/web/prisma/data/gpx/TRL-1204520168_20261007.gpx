@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Trilha da Crista</name>
+    <trkseg>
+      <trkpt lat="-23.470188" lon="-46.798317"><ele>908.3</ele></trkpt>
+      <trkpt lat="-23.470312" lon="-46.798671"><ele>903.9</ele></trkpt>
+      <trkpt lat="-23.470501" lon="-46.799008"><ele>898.5</ele></trkpt>
+      <trkpt lat="-23.470657" lon="-46.799177"><ele>900.2</ele></trkpt>
+      <trkpt lat="-23.470843" lon="-46.799205"><ele>909.0</ele></trkpt>
+      <trkpt lat="-23.470968" lon="-46.799596"><ele>904.4</ele></trkpt>
+      <trkpt lat="-23.471093" lon="-46.799606"><ele>910.1</ele></trkpt>
+      <trkpt lat="-23.471379" lon="-46.799509"><ele>916.6</ele></trkpt>
+      <trkpt lat="-23.471651" lon="-46.799492"><ele>916.9</ele></trkpt>
+      <trkpt lat="-23.471799" lon="-46.799566"><ele>916.9</ele></trkpt>
+      <trkpt lat="-23.472024" lon="-46.799684"><ele>925.0</ele></trkpt>
+      <trkpt lat="-23.472479" lon="-46.799711"><ele>927.7</ele></trkpt>
+      <trkpt lat="-23.472673" lon="-46.799701"><ele>923.8</ele></trkpt>
+      <trkpt lat="-23.473078" lon="-46.799657"><ele>918.6</ele></trkpt>
+      <trkpt lat="-23.473436" lon="-46.799654"><ele>912.9</ele></trkpt>
+      <trkpt lat="-23.473633" lon="-46.799591"><ele>907.4</ele></trkpt>
+      <trkpt lat="-23.473915" lon="-46.799677"><ele>905.8</ele></trkpt>
+      <trkpt lat="-23.474107" lon="-46.799664"><ele>904.6</ele></trkpt>
+      <trkpt lat="-23.474123" lon="-46.799778"><ele>904.6</ele></trkpt>
+      <trkpt lat="-23.474123" lon="-46.799778"><ele>904.6</ele></trkpt>
+      <trkpt lat="-23.474658" lon="-46.799604"><ele>898.4</ele></trkpt>
+      <trkpt lat="-23.474845" lon="-46.799568"><ele>899.3</ele></trkpt>
+      <trkpt lat="-23.475337" lon="-46.799416"><ele>903.6</ele></trkpt>
+      <trkpt lat="-23.475896" lon="-46.799066"><ele>900.1</ele></trkpt>
+      <trkpt lat="-23.476472" lon="-46.798788"><ele>900.6</ele></trkpt>
+      <trkpt lat="-23.476974" lon="-46.798847"><ele>918.0</ele></trkpt>
+      <trkpt lat="-23.477143" lon="-46.798996"><ele>921.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

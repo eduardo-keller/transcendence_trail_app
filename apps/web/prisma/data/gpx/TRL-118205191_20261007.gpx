@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Trilha do bode</name>
+    <trkseg>
+      <trkpt lat="-23.366282" lon="-46.656211"><ele>830.4</ele></trkpt>
+      <trkpt lat="-23.366496" lon="-46.656217"><ele>830.4</ele></trkpt>
+      <trkpt lat="-23.366656" lon="-46.656307"><ele>835.6</ele></trkpt>
+      <trkpt lat="-23.366805" lon="-46.656506"><ele>835.6</ele></trkpt>
+      <trkpt lat="-23.366566" lon="-46.656710"><ele>840.0</ele></trkpt>
+      <trkpt lat="-23.366625" lon="-46.657028"><ele>842.9</ele></trkpt>
+      <trkpt lat="-23.366893" lon="-46.657455"><ele>852.4</ele></trkpt>
+      <trkpt lat="-23.367207" lon="-46.657837"><ele>855.6</ele></trkpt>
+      <trkpt lat="-23.367512" lon="-46.658180"><ele>860.4</ele></trkpt>
+      <trkpt lat="-23.367921" lon="-46.658561"><ele>852.5</ele></trkpt>
+      <trkpt lat="-23.368133" lon="-46.658856"><ele>848.0</ele></trkpt>
+      <trkpt lat="-23.368234" lon="-46.659193"><ele>844.0</ele></trkpt>
+      <trkpt lat="-23.368362" lon="-46.659665"><ele>844.4</ele></trkpt>
+      <trkpt lat="-23.368394" lon="-46.659914"><ele>845.3</ele></trkpt>
+      <trkpt lat="-23.369072" lon="-46.660038"><ele>833.0</ele></trkpt>
+      <trkpt lat="-23.369415" lon="-46.660227"><ele>825.9</ele></trkpt>
+      <trkpt lat="-23.369705" lon="-46.660311"><ele>821.4</ele></trkpt>
+      <trkpt lat="-23.370113" lon="-46.660340"><ele>816.5</ele></trkpt>
+      <trkpt lat="-23.370601" lon="-46.660526"><ele>811.8</ele></trkpt>
+      <trkpt lat="-23.370991" lon="-46.660778"><ele>814.7</ele></trkpt>
+      <trkpt lat="-23.371236" lon="-46.661150"><ele>813.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

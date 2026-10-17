@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Trilha do Parque das Nascentes e Arborismo</name>
+    <trkseg>
+      <trkpt lat="-23.779566" lon="-46.299085"><ele>826.1</ele></trkpt>
+      <trkpt lat="-23.779597" lon="-46.299058"><ele>830.3</ele></trkpt>
+      <trkpt lat="-23.779705" lon="-46.298973"><ele>831.8</ele></trkpt>
+      <trkpt lat="-23.779717" lon="-46.298891"><ele>831.8</ele></trkpt>
+      <trkpt lat="-23.779839" lon="-46.298835"><ele>831.8</ele></trkpt>
+      <trkpt lat="-23.779926" lon="-46.298952"><ele>837.5</ele></trkpt>
+      <trkpt lat="-23.780108" lon="-46.298867"><ele>837.5</ele></trkpt>
+      <trkpt lat="-23.780248" lon="-46.298832"><ele>847.2</ele></trkpt>
+      <trkpt lat="-23.780283" lon="-46.298810"><ele>847.2</ele></trkpt>
+      <trkpt lat="-23.780275" lon="-46.298652"><ele>855.5</ele></trkpt>
+      <trkpt lat="-23.780221" lon="-46.298507"><ele>855.5</ele></trkpt>
+      <trkpt lat="-23.779904" lon="-46.298246"><ele>854.8</ele></trkpt>
+      <trkpt lat="-23.779854" lon="-46.298129"><ele>856.0</ele></trkpt>
+      <trkpt lat="-23.779858" lon="-46.297952"><ele>856.0</ele></trkpt>
+      <trkpt lat="-23.779824" lon="-46.297844"><ele>867.7</ele></trkpt>
+      <trkpt lat="-23.779638" lon="-46.297447"><ele>874.8</ele></trkpt>
+      <trkpt lat="-23.779593" lon="-46.297249"><ele>877.0</ele></trkpt>
+      <trkpt lat="-23.779608" lon="-46.297094"><ele>877.0</ele></trkpt>
+      <trkpt lat="-23.779647" lon="-46.297002"><ele>877.2</ele></trkpt>
+      <trkpt lat="-23.779750" lon="-46.296927"><ele>877.2</ele></trkpt>
+      <trkpt lat="-23.779829" lon="-46.296868"><ele>877.2</ele></trkpt>
+      <trkpt lat="-23.779863" lon="-46.296664"><ele>887.0</ele></trkpt>
+      <trkpt lat="-23.779917" lon="-46.296600"><ele>887.0</ele></trkpt>
+      <trkpt lat="-23.780089" lon="-46.296536"><ele>887.0</ele></trkpt>
+      <trkpt lat="-23.780197" lon="-46.296359"><ele>881.6</ele></trkpt>
+      <trkpt lat="-23.780261" lon="-46.296090"><ele>887.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

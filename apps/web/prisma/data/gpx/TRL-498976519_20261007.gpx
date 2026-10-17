@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa José Ramos Nogueira</name>
+    <trkseg>
+      <trkpt lat="-23.501893" lon="-46.403170"><ele>764.5</ele></trkpt>
+      <trkpt lat="-23.502050" lon="-46.403209"><ele>764.3</ele></trkpt>
+      <trkpt lat="-23.502335" lon="-46.403276"><ele>766.7</ele></trkpt>
+      <trkpt lat="-23.502378" lon="-46.403298"><ele>768.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

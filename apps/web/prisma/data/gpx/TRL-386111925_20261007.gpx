@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Irmã Dolores Baldi</name>
+    <trkseg>
+      <trkpt lat="-23.595230" lon="-46.738674"><ele>736.9</ele></trkpt>
+      <trkpt lat="-23.595440" lon="-46.738810"><ele>738.2</ele></trkpt>
+      <trkpt lat="-23.595530" lon="-46.738868"><ele>738.2</ele></trkpt>
+      <trkpt lat="-23.596591" lon="-46.738117"><ele>744.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

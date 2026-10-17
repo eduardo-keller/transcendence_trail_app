@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Praça Ramos de Azevedo</name>
+    <trkseg>
+      <trkpt lat="-23.545463" lon="-46.639130"><ele>749.1</ele></trkpt>
+      <trkpt lat="-23.545480" lon="-46.639120"><ele>749.1</ele></trkpt>
+      <trkpt lat="-23.545494" lon="-46.639099"><ele>749.1</ele></trkpt>
+      <trkpt lat="-23.545673" lon="-46.638832"><ele>752.8</ele></trkpt>
+      <trkpt lat="-23.545716" lon="-46.638770"><ele>748.7</ele></trkpt>
+      <trkpt lat="-23.545771" lon="-46.638688"><ele>746.5</ele></trkpt>
+      <trkpt lat="-23.545165" lon="-46.638221"><ele>751.6</ele></trkpt>
+      <trkpt lat="-23.545121" lon="-46.638178"><ele>753.2</ele></trkpt>
+      <trkpt lat="-23.545103" lon="-46.638171"><ele>753.2</ele></trkpt>
+      <trkpt lat="-23.545084" lon="-46.638170"><ele>753.2</ele></trkpt>
+      <trkpt lat="-23.545065" lon="-46.638184"><ele>753.2</ele></trkpt>
+      <trkpt lat="-23.545052" lon="-46.638203"><ele>759.5</ele></trkpt>
+      <trkpt lat="-23.544808" lon="-46.638569"><ele>763.2</ele></trkpt>
+      <trkpt lat="-23.544796" lon="-46.638602"><ele>763.2</ele></trkpt>
+      <trkpt lat="-23.544812" lon="-46.638627"><ele>763.2</ele></trkpt>
+      <trkpt lat="-23.544846" lon="-46.638655"><ele>763.2</ele></trkpt>
+      <trkpt lat="-23.545426" lon="-46.639117"><ele>749.1</ele></trkpt>
+      <trkpt lat="-23.545444" lon="-46.639132"><ele>749.1</ele></trkpt>
+      <trkpt lat="-23.545463" lon="-46.639130"><ele>749.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

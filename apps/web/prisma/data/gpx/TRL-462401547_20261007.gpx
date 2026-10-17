@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Manoel Luiz Pereira</name>
+    <trkseg>
+      <trkpt lat="-23.414998" lon="-46.509999"><ele>780.2</ele></trkpt>
+      <trkpt lat="-23.414846" lon="-46.509718"><ele>782.3</ele></trkpt>
+      <trkpt lat="-23.414684" lon="-46.509408"><ele>780.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

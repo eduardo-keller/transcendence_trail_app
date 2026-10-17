@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Paco de Lumiar</name>
+    <trkseg>
+      <trkpt lat="-23.444205" lon="-46.418432"><ele>782.1</ele></trkpt>
+      <trkpt lat="-23.443653" lon="-46.418231"><ele>787.4</ele></trkpt>
+      <trkpt lat="-23.443126" lon="-46.418072"><ele>793.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

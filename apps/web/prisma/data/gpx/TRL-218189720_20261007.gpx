@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Antônio de Queiroga</name>
+    <trkseg>
+      <trkpt lat="-23.592619" lon="-46.660072"><ele>755.2</ele></trkpt>
+      <trkpt lat="-23.592577" lon="-46.660051"><ele>755.2</ele></trkpt>
+      <trkpt lat="-23.592328" lon="-46.659947"><ele>749.7</ele></trkpt>
+      <trkpt lat="-23.592172" lon="-46.659876"><ele>749.7</ele></trkpt>
+      <trkpt lat="-23.591965" lon="-46.659763"><ele>752.0</ele></trkpt>
+      <trkpt lat="-23.591923" lon="-46.659740"><ele>752.0</ele></trkpt>
+      <trkpt lat="-23.591724" lon="-46.659613"><ele>755.8</ele></trkpt>
+      <trkpt lat="-23.591545" lon="-46.659484"><ele>755.6</ele></trkpt>
+      <trkpt lat="-23.591471" lon="-46.659444"><ele>756.6</ele></trkpt>
+      <trkpt lat="-23.591471" lon="-46.659444"><ele>756.6</ele></trkpt>
+      <trkpt lat="-23.591034" lon="-46.659016"><ele>752.4</ele></trkpt>
+      <trkpt lat="-23.590995" lon="-46.658977"><ele>752.4</ele></trkpt>
+      <trkpt lat="-23.590866" lon="-46.658827"><ele>752.6</ele></trkpt>
+      <trkpt lat="-23.590723" lon="-46.658662"><ele>750.7</ele></trkpt>
+      <trkpt lat="-23.590579" lon="-46.658482"><ele>751.0</ele></trkpt>
+      <trkpt lat="-23.590468" lon="-46.658309"><ele>751.5</ele></trkpt>
+      <trkpt lat="-23.590468" lon="-46.658309"><ele>751.5</ele></trkpt>
+      <trkpt lat="-23.590421" lon="-46.658203"><ele>751.5</ele></trkpt>
+      <trkpt lat="-23.590307" lon="-46.657941"><ele>752.4</ele></trkpt>
+      <trkpt lat="-23.590198" lon="-46.657637"><ele>752.0</ele></trkpt>
+      <trkpt lat="-23.590177" lon="-46.657580"><ele>752.0</ele></trkpt>
+      <trkpt lat="-23.590158" lon="-46.657535"><ele>752.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

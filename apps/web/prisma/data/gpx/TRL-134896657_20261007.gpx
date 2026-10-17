@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Avenida dos Pinheiros</name>
+    <trkseg>
+      <trkpt lat="-23.402525" lon="-46.640068"><ele>1091.3</ele></trkpt>
+      <trkpt lat="-23.402435" lon="-46.639964"><ele>1091.3</ele></trkpt>
+      <trkpt lat="-23.402325" lon="-46.639874"><ele>1083.1</ele></trkpt>
+      <trkpt lat="-23.402269" lon="-46.639834"><ele>1095.2</ele></trkpt>
+      <trkpt lat="-23.402179" lon="-46.639797"><ele>1095.2</ele></trkpt>
+      <trkpt lat="-23.402067" lon="-46.639781"><ele>1094.9</ele></trkpt>
+      <trkpt lat="-23.401969" lon="-46.639774"><ele>1094.9</ele></trkpt>
+      <trkpt lat="-23.401835" lon="-46.639797"><ele>1094.9</ele></trkpt>
+      <trkpt lat="-23.401798" lon="-46.639807"><ele>1092.7</ele></trkpt>
+      <trkpt lat="-23.401716" lon="-46.639856"><ele>1092.7</ele></trkpt>
+      <trkpt lat="-23.401475" lon="-46.640088"><ele>1092.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

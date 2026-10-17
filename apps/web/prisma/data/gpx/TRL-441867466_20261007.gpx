@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa José Tavares da Silva</name>
+    <trkseg>
+      <trkpt lat="-23.610461" lon="-46.515210"><ele>788.9</ele></trkpt>
+      <trkpt lat="-23.610014" lon="-46.515547"><ele>776.1</ele></trkpt>
+      <trkpt lat="-23.609545" lon="-46.515885"><ele>769.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

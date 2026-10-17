@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Cristovão Martinez</name>
+    <trkseg>
+      <trkpt lat="-23.496097" lon="-46.588876"><ele>807.1</ele></trkpt>
+      <trkpt lat="-23.495979" lon="-46.589493"><ele>793.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

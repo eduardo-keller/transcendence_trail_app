@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Estrada Retiro da Serra</name>
+    <trkseg>
+      <trkpt lat="-23.587880" lon="-47.056562"><ele>932.9</ele></trkpt>
+      <trkpt lat="-23.587764" lon="-47.056265"><ele>936.0</ele></trkpt>
+      <trkpt lat="-23.587658" lon="-47.056038"><ele>937.8</ele></trkpt>
+      <trkpt lat="-23.587604" lon="-47.055940"><ele>941.2</ele></trkpt>
+      <trkpt lat="-23.587550" lon="-47.055897"><ele>941.2</ele></trkpt>
+      <trkpt lat="-23.587457" lon="-47.055913"><ele>941.2</ele></trkpt>
+      <trkpt lat="-23.587396" lon="-47.055988"><ele>941.3</ele></trkpt>
+      <trkpt lat="-23.587317" lon="-47.056071"><ele>944.6</ele></trkpt>
+      <trkpt lat="-23.587219" lon="-47.056127"><ele>944.6</ele></trkpt>
+      <trkpt lat="-23.587162" lon="-47.056139"><ele>944.6</ele></trkpt>
+      <trkpt lat="-23.587118" lon="-47.056101"><ele>944.6</ele></trkpt>
+      <trkpt lat="-23.587120" lon="-47.055991"><ele>944.6</ele></trkpt>
+      <trkpt lat="-23.587076" lon="-47.055940"><ele>944.7</ele></trkpt>
+      <trkpt lat="-23.586997" lon="-47.055974"><ele>948.2</ele></trkpt>
+      <trkpt lat="-23.586938" lon="-47.055940"><ele>944.7</ele></trkpt>
+      <trkpt lat="-23.586813" lon="-47.055754"><ele>944.7</ele></trkpt>
+      <trkpt lat="-23.586717" lon="-47.055779"><ele>947.0</ele></trkpt>
+      <trkpt lat="-23.586658" lon="-47.055726"><ele>947.0</ele></trkpt>
+      <trkpt lat="-23.586658" lon="-47.055645"><ele>945.4</ele></trkpt>
+      <trkpt lat="-23.586646" lon="-47.055602"><ele>945.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

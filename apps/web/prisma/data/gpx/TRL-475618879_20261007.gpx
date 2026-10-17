@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Cahoeira dos Antunes</name>
+    <trkseg>
+      <trkpt lat="-23.460459" lon="-46.663864"><ele>753.0</ele></trkpt>
+      <trkpt lat="-23.460315" lon="-46.663840"><ele>755.9</ele></trkpt>
+      <trkpt lat="-23.460221" lon="-46.663825"><ele>755.9</ele></trkpt>
+      <trkpt lat="-23.460000" lon="-46.663754"><ele>760.3</ele></trkpt>
+      <trkpt lat="-23.459854" lon="-46.663721"><ele>759.2</ele></trkpt>
+      <trkpt lat="-23.459586" lon="-46.663677"><ele>759.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

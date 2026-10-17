@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Entrada da Igreja do Monte Serrat</name>
+    <trkseg>
+      <trkpt lat="-23.939678" lon="-46.329814"><ele>152.0</ele></trkpt>
+      <trkpt lat="-23.939663" lon="-46.329978"><ele>157.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

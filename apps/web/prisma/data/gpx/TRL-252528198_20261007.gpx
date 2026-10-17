@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa La Corunha</name>
+    <trkseg>
+      <trkpt lat="-23.830734" lon="-46.722873"><ele>798.4</ele></trkpt>
+      <trkpt lat="-23.830761" lon="-46.722782"><ele>798.4</ele></trkpt>
+      <trkpt lat="-23.830858" lon="-46.722465"><ele>804.2</ele></trkpt>
+      <trkpt lat="-23.830903" lon="-46.722308"><ele>813.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

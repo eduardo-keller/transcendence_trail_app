@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passagem Centro Comercial Family</name>
+    <trkseg>
+      <trkpt lat="-23.539829" lon="-46.619669"><ele>734.3</ele></trkpt>
+      <trkpt lat="-23.539426" lon="-46.619960"><ele>733.5</ele></trkpt>
+      <trkpt lat="-23.539436" lon="-46.620390"><ele>733.5</ele></trkpt>
+      <trkpt lat="-23.539436" lon="-46.620390"><ele>733.5</ele></trkpt>
+      <trkpt lat="-23.539436" lon="-46.620407"><ele>733.5</ele></trkpt>
+      <trkpt lat="-23.539437" lon="-46.620423"><ele>731.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

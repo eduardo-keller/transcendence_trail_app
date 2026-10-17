@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Aterro</name>
+    <trkseg>
+      <trkpt lat="-23.711061" lon="-46.479192"><ele>811.3</ele></trkpt>
+      <trkpt lat="-23.711012" lon="-46.478804"><ele>811.3</ele></trkpt>
+      <trkpt lat="-23.710998" lon="-46.478632"><ele>810.2</ele></trkpt>
+      <trkpt lat="-23.710986" lon="-46.478409"><ele>810.0</ele></trkpt>
+      <trkpt lat="-23.710986" lon="-46.478409"><ele>810.0</ele></trkpt>
+      <trkpt lat="-23.710969" lon="-46.477821"><ele>819.3</ele></trkpt>
+      <trkpt lat="-23.710976" lon="-46.477633"><ele>814.2</ele></trkpt>
+      <trkpt lat="-23.711010" lon="-46.477553"><ele>814.2</ele></trkpt>
+      <trkpt lat="-23.711053" lon="-46.477485"><ele>814.2</ele></trkpt>
+      <trkpt lat="-23.711702" lon="-46.477050"><ele>841.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

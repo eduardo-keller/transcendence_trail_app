@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Santa Maria</name>
+    <trkseg>
+      <trkpt lat="-23.545374" lon="-46.743540"><ele>763.8</ele></trkpt>
+      <trkpt lat="-23.545338" lon="-46.743351"><ele>758.2</ele></trkpt>
+      <trkpt lat="-23.545320" lon="-46.743288"><ele>758.2</ele></trkpt>
+      <trkpt lat="-23.545295" lon="-46.743232"><ele>758.2</ele></trkpt>
+      <trkpt lat="-23.545270" lon="-46.743176"><ele>758.8</ele></trkpt>
+      <trkpt lat="-23.545246" lon="-46.743117"><ele>758.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

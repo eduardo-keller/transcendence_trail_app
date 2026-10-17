@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Madre Cabrini</name>
+    <trkseg>
+      <trkpt lat="-23.592174" lon="-46.638031"><ele>796.1</ele></trkpt>
+      <trkpt lat="-23.592154" lon="-46.638086"><ele>796.1</ele></trkpt>
+      <trkpt lat="-23.591874" lon="-46.638439"><ele>797.9</ele></trkpt>
+      <trkpt lat="-23.591839" lon="-46.638478"><ele>794.7</ele></trkpt>
+      <trkpt lat="-23.591727" lon="-46.638582"><ele>796.3</ele></trkpt>
+      <trkpt lat="-23.591604" lon="-46.638691"><ele>796.3</ele></trkpt>
+      <trkpt lat="-23.591449" lon="-46.638839"><ele>789.1</ele></trkpt>
+      <trkpt lat="-23.591320" lon="-46.638945"><ele>789.1</ele></trkpt>
+      <trkpt lat="-23.591230" lon="-46.639002"><ele>792.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

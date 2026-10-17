@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passarela dos Estudantes</name>
+    <trkseg>
+      <trkpt lat="-23.557105" lon="-46.711415"><ele>721.8</ele></trkpt>
+      <trkpt lat="-23.557261" lon="-46.711120"><ele>725.1</ele></trkpt>
+      <trkpt lat="-23.557284" lon="-46.711072"><ele>725.1</ele></trkpt>
+      <trkpt lat="-23.557295" lon="-46.711050"><ele>725.1</ele></trkpt>
+      <trkpt lat="-23.557320" lon="-46.710999"><ele>725.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

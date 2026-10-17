@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua 18</name>
+    <trkseg>
+      <trkpt lat="-23.551234" lon="-46.656619"><ele>809.1</ele></trkpt>
+      <trkpt lat="-23.550874" lon="-46.656857"><ele>809.2</ele></trkpt>
+      <trkpt lat="-23.550769" lon="-46.656926"><ele>809.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

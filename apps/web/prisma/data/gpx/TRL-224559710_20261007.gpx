@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Marupa Mirim</name>
+    <trkseg>
+      <trkpt lat="-23.781856" lon="-46.693214"><ele>788.5</ele></trkpt>
+      <trkpt lat="-23.781842" lon="-46.693313"><ele>788.5</ele></trkpt>
+      <trkpt lat="-23.781815" lon="-46.693499"><ele>787.7</ele></trkpt>
+      <trkpt lat="-23.781786" lon="-46.693686"><ele>786.4</ele></trkpt>
+      <trkpt lat="-23.781761" lon="-46.693839"><ele>786.7</ele></trkpt>
+      <trkpt lat="-23.781752" lon="-46.693869"><ele>786.7</ele></trkpt>
+      <trkpt lat="-23.781740" lon="-46.693905"><ele>786.7</ele></trkpt>
+      <trkpt lat="-23.781725" lon="-46.693925"><ele>786.7</ele></trkpt>
+      <trkpt lat="-23.781693" lon="-46.693958"><ele>786.7</ele></trkpt>
+      <trkpt lat="-23.781651" lon="-46.693980"><ele>786.7</ele></trkpt>
+      <trkpt lat="-23.781626" lon="-46.694008"><ele>786.7</ele></trkpt>
+      <trkpt lat="-23.781604" lon="-46.694080"><ele>787.1</ele></trkpt>
+      <trkpt lat="-23.781589" lon="-46.694180"><ele>787.1</ele></trkpt>
+      <trkpt lat="-23.781583" lon="-46.694301"><ele>787.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

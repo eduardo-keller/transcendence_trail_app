@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Pien</name>
+    <trkseg>
+      <trkpt lat="-23.429413" lon="-46.431058"><ele>767.7</ele></trkpt>
+      <trkpt lat="-23.429337" lon="-46.430812"><ele>769.2</ele></trkpt>
+      <trkpt lat="-23.429310" lon="-46.430728"><ele>769.2</ele></trkpt>
+      <trkpt lat="-23.429227" lon="-46.430468"><ele>776.0</ele></trkpt>
+      <trkpt lat="-23.429287" lon="-46.430448"><ele>776.0</ele></trkpt>
+      <trkpt lat="-23.429129" lon="-46.429904"><ele>783.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Estrada da Pura</name>
+    <trkseg>
+      <trkpt lat="-23.479812" lon="-46.996676"><ele>790.3</ele></trkpt>
+      <trkpt lat="-23.479697" lon="-46.996604"><ele>790.3</ele></trkpt>
+      <trkpt lat="-23.478747" lon="-46.996564"><ele>771.4</ele></trkpt>
+      <trkpt lat="-23.478051" lon="-46.996430"><ele>774.3</ele></trkpt>
+      <trkpt lat="-23.477463" lon="-46.996145"><ele>784.8</ele></trkpt>
+      <trkpt lat="-23.477224" lon="-46.996074"><ele>787.4</ele></trkpt>
+      <trkpt lat="-23.476992" lon="-46.995908"><ele>795.7</ele></trkpt>
+      <trkpt lat="-23.476817" lon="-46.995846"><ele>795.7</ele></trkpt>
+      <trkpt lat="-23.476221" lon="-46.995784"><ele>808.0</ele></trkpt>
+      <trkpt lat="-23.475899" lon="-46.995628"><ele>811.1</ele></trkpt>
+      <trkpt lat="-23.475721" lon="-46.995744"><ele>811.9</ele></trkpt>
+      <trkpt lat="-23.474565" lon="-46.995991"><ele>840.3</ele></trkpt>
+      <trkpt lat="-23.474407" lon="-46.995886"><ele>843.8</ele></trkpt>
+      <trkpt lat="-23.474379" lon="-46.995592"><ele>848.3</ele></trkpt>
+      <trkpt lat="-23.474106" lon="-46.995257"><ele>843.2</ele></trkpt>
+      <trkpt lat="-23.474137" lon="-46.995090"><ele>847.5</ele></trkpt>
+      <trkpt lat="-23.474297" lon="-46.994840"><ele>848.6</ele></trkpt>
+      <trkpt lat="-23.474341" lon="-46.994558"><ele>867.2</ele></trkpt>
+      <trkpt lat="-23.474259" lon="-46.994032"><ele>851.2</ele></trkpt>
+      <trkpt lat="-23.474234" lon="-46.993110"><ele>855.5</ele></trkpt>
+      <trkpt lat="-23.474340" lon="-46.992757"><ele>857.9</ele></trkpt>
+      <trkpt lat="-23.474234" lon="-46.992429"><ele>850.4</ele></trkpt>
+      <trkpt lat="-23.474123" lon="-46.992123"><ele>859.8</ele></trkpt>
+      <trkpt lat="-23.474081" lon="-46.991856"><ele>865.4</ele></trkpt>
+      <trkpt lat="-23.473836" lon="-46.991527"><ele>872.0</ele></trkpt>
+      <trkpt lat="-23.473474" lon="-46.991387"><ele>871.1</ele></trkpt>
+      <trkpt lat="-23.472881" lon="-46.991437"><ele>860.0</ele></trkpt>
+      <trkpt lat="-23.472075" lon="-46.991556"><ele>843.9</ele></trkpt>
+      <trkpt lat="-23.471232" lon="-46.991874"><ele>838.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

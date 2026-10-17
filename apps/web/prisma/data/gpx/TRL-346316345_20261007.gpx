@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Bueri</name>
+    <trkseg>
+      <trkpt lat="-23.453519" lon="-46.521354"><ele>741.7</ele></trkpt>
+      <trkpt lat="-23.453536" lon="-46.521696"><ele>740.0</ele></trkpt>
+      <trkpt lat="-23.453541" lon="-46.521809"><ele>738.8</ele></trkpt>
+      <trkpt lat="-23.453538" lon="-46.521841"><ele>738.8</ele></trkpt>
+      <trkpt lat="-23.453528" lon="-46.521863"><ele>738.8</ele></trkpt>
+      <trkpt lat="-23.453499" lon="-46.521877"><ele>738.8</ele></trkpt>
+      <trkpt lat="-23.453457" lon="-46.521883"><ele>739.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

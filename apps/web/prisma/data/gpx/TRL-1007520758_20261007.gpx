@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua do Caetê</name>
+    <trkseg>
+      <trkpt lat="-23.598710" lon="-47.068683"><ele>908.9</ele></trkpt>
+      <trkpt lat="-23.598832" lon="-47.068721"><ele>906.7</ele></trkpt>
+      <trkpt lat="-23.599039" lon="-47.068774"><ele>901.2</ele></trkpt>
+      <trkpt lat="-23.599339" lon="-47.068807"><ele>899.3</ele></trkpt>
+      <trkpt lat="-23.599705" lon="-47.068656"><ele>891.6</ele></trkpt>
+      <trkpt lat="-23.600123" lon="-47.068439"><ele>889.3</ele></trkpt>
+      <trkpt lat="-23.600499" lon="-47.068133"><ele>890.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

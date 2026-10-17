@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Geraldo José de Almeida</name>
+    <trkseg>
+      <trkpt lat="-23.681742" lon="-46.568556"><ele>809.3</ele></trkpt>
+      <trkpt lat="-23.681803" lon="-46.568526"><ele>809.3</ele></trkpt>
+      <trkpt lat="-23.681898" lon="-46.568479"><ele>806.3</ele></trkpt>
+      <trkpt lat="-23.681936" lon="-46.568464"><ele>810.4</ele></trkpt>
+      <trkpt lat="-23.681991" lon="-46.568447"><ele>810.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

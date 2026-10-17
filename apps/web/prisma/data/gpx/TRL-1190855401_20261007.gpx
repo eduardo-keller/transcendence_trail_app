@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua América do Sul</name>
+    <trkseg>
+      <trkpt lat="-23.740619" lon="-46.604281"><ele>774.8</ele></trkpt>
+      <trkpt lat="-23.740852" lon="-46.604445"><ele>778.2</ele></trkpt>
+      <trkpt lat="-23.740911" lon="-46.604481"><ele>778.2</ele></trkpt>
+      <trkpt lat="-23.740964" lon="-46.604515"><ele>778.2</ele></trkpt>
+      <trkpt lat="-23.741063" lon="-46.604577"><ele>780.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Galeria Paraíso</name>
+    <trkseg>
+      <trkpt lat="-23.572516" lon="-46.644060"><ele>824.3</ele></trkpt>
+      <trkpt lat="-23.572507" lon="-46.644039"><ele>824.3</ele></trkpt>
+      <trkpt lat="-23.572239" lon="-46.643395"><ele>819.9</ele></trkpt>
+      <trkpt lat="-23.572221" lon="-46.643354"><ele>819.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

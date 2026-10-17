@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passarela Costa Muniz FERREA</name>
+    <trkseg>
+      <trkpt lat="-23.897644" lon="-46.434142"><ele>8.1</ele></trkpt>
+      <trkpt lat="-23.897823" lon="-46.434386"><ele>4.3</ele></trkpt>
+      <trkpt lat="-23.897803" lon="-46.434416"><ele>4.3</ele></trkpt>
+      <trkpt lat="-23.897573" lon="-46.434081"><ele>4.8</ele></trkpt>
+      <trkpt lat="-23.897482" lon="-46.434166"><ele>4.8</ele></trkpt>
+      <trkpt lat="-23.897615" lon="-46.434317"><ele>3.7</ele></trkpt>
+      <trkpt lat="-23.897735" lon="-46.434477"><ele>4.3</ele></trkpt>
+      <trkpt lat="-23.897712" lon="-46.434496"><ele>4.3</ele></trkpt>
+      <trkpt lat="-23.897585" lon="-46.434325"><ele>3.7</ele></trkpt>
+      <trkpt lat="-23.897526" lon="-46.434263"><ele>4.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

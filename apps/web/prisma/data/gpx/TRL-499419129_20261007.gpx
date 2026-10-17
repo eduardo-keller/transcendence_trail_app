@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa da Rua do Violão</name>
+    <trkseg>
+      <trkpt lat="-23.491030" lon="-46.568892"><ele>738.2</ele></trkpt>
+      <trkpt lat="-23.491145" lon="-46.568862"><ele>738.2</ele></trkpt>
+      <trkpt lat="-23.491260" lon="-46.568833"><ele>739.9</ele></trkpt>
+      <trkpt lat="-23.491393" lon="-46.568809"><ele>739.9</ele></trkpt>
+      <trkpt lat="-23.491557" lon="-46.568791"><ele>738.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

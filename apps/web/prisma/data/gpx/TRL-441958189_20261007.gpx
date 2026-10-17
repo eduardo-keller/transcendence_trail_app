@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela M</name>
+    <trkseg>
+      <trkpt lat="-23.621423" lon="-46.510104"><ele>762.6</ele></trkpt>
+      <trkpt lat="-23.621481" lon="-46.510186"><ele>761.4</ele></trkpt>
+      <trkpt lat="-23.621497" lon="-46.510214"><ele>761.4</ele></trkpt>
+      <trkpt lat="-23.621550" lon="-46.510328"><ele>763.3</ele></trkpt>
+      <trkpt lat="-23.621573" lon="-46.510358"><ele>763.3</ele></trkpt>
+      <trkpt lat="-23.621614" lon="-46.510404"><ele>763.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

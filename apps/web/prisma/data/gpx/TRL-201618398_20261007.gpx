@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Felício Ciaccio</name>
+    <trkseg>
+      <trkpt lat="-23.494715" lon="-46.628890"><ele>766.6</ele></trkpt>
+      <trkpt lat="-23.494785" lon="-46.628803"><ele>766.6</ele></trkpt>
+      <trkpt lat="-23.495109" lon="-46.628583"><ele>768.3</ele></trkpt>
+      <trkpt lat="-23.495066" lon="-46.628342"><ele>768.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

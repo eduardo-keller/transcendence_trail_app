@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Edival Ribeiro Bispo (Beleléu)</name>
+    <trkseg>
+      <trkpt lat="-23.551091" lon="-46.902397"><ele>812.5</ele></trkpt>
+      <trkpt lat="-23.550614" lon="-46.902597"><ele>796.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

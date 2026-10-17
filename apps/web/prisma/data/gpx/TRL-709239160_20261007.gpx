@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Sanitária</name>
+    <trkseg>
+      <trkpt lat="-23.558147" lon="-46.687298"><ele>751.7</ele></trkpt>
+      <trkpt lat="-23.557810" lon="-46.686764"><ele>754.8</ele></trkpt>
+      <trkpt lat="-23.557502" lon="-46.686392"><ele>755.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

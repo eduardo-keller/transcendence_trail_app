@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Padre Félix</name>
+    <trkseg>
+      <trkpt lat="-23.725859" lon="-46.522806"><ele>830.1</ele></trkpt>
+      <trkpt lat="-23.725805" lon="-46.522959"><ele>833.1</ele></trkpt>
+      <trkpt lat="-23.725774" lon="-46.523049"><ele>833.1</ele></trkpt>
+      <trkpt lat="-23.725746" lon="-46.523129"><ele>833.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

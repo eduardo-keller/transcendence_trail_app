@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela 21</name>
+    <trkseg>
+      <trkpt lat="-23.501115" lon="-46.768541"><ele>755.3</ele></trkpt>
+      <trkpt lat="-23.500943" lon="-46.768517"><ele>764.0</ele></trkpt>
+      <trkpt lat="-23.500739" lon="-46.768509"><ele>764.0</ele></trkpt>
+      <trkpt lat="-23.500670" lon="-46.768498"><ele>770.4</ele></trkpt>
+      <trkpt lat="-23.500573" lon="-46.768413"><ele>771.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

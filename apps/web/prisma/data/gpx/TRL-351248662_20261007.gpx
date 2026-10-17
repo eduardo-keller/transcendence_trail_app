@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passarela Deputado José Mendes Botelho</name>
+    <trkseg>
+      <trkpt lat="-23.692968" lon="-46.507129"><ele>766.8</ele></trkpt>
+      <trkpt lat="-23.692983" lon="-46.507131"><ele>766.8</ele></trkpt>
+      <trkpt lat="-23.692994" lon="-46.507140"><ele>766.8</ele></trkpt>
+      <trkpt lat="-23.692999" lon="-46.507155"><ele>766.8</ele></trkpt>
+      <trkpt lat="-23.692996" lon="-46.507170"><ele>766.8</ele></trkpt>
+      <trkpt lat="-23.692986" lon="-46.507182"><ele>766.8</ele></trkpt>
+      <trkpt lat="-23.692973" lon="-46.507186"><ele>766.8</ele></trkpt>
+      <trkpt lat="-23.692959" lon="-46.507182"><ele>766.8</ele></trkpt>
+      <trkpt lat="-23.692949" lon="-46.507170"><ele>766.8</ele></trkpt>
+      <trkpt lat="-23.692949" lon="-46.507170"><ele>766.8</ele></trkpt>
+      <trkpt lat="-23.692867" lon="-46.506744"><ele>769.5</ele></trkpt>
+      <trkpt lat="-23.692867" lon="-46.506744"><ele>769.5</ele></trkpt>
+      <trkpt lat="-23.692872" lon="-46.506712"><ele>769.5</ele></trkpt>
+      <trkpt lat="-23.692863" lon="-46.506701"><ele>769.5</ele></trkpt>
+      <trkpt lat="-23.692850" lon="-46.506696"><ele>769.5</ele></trkpt>
+      <trkpt lat="-23.692837" lon="-46.506699"><ele>769.5</ele></trkpt>
+      <trkpt lat="-23.692827" lon="-46.506709"><ele>769.5</ele></trkpt>
+      <trkpt lat="-23.692823" lon="-46.506723"><ele>769.5</ele></trkpt>
+      <trkpt lat="-23.692825" lon="-46.506737"><ele>769.5</ele></trkpt>
+      <trkpt lat="-23.692834" lon="-46.506748"><ele>769.5</ele></trkpt>
+      <trkpt lat="-23.692847" lon="-46.506753"><ele>769.5</ele></trkpt>
+      <trkpt lat="-23.692860" lon="-46.506750"><ele>769.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

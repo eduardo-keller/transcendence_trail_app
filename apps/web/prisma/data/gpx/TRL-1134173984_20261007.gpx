@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Montana</name>
+    <trkseg>
+      <trkpt lat="-23.690004" lon="-46.440809"><ele>825.1</ele></trkpt>
+      <trkpt lat="-23.690539" lon="-46.440566"><ele>837.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

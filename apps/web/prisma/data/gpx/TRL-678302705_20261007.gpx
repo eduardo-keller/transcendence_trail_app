@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passagem Sete</name>
+    <trkseg>
+      <trkpt lat="-23.530774" lon="-46.472981"><ele>814.1</ele></trkpt>
+      <trkpt lat="-23.530699" lon="-46.472653"><ele>812.5</ele></trkpt>
+      <trkpt lat="-23.530659" lon="-46.472264"><ele>807.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

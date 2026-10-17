@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Carioca</name>
+    <trkseg>
+      <trkpt lat="-23.735818" lon="-46.712164"><ele>756.4</ele></trkpt>
+      <trkpt lat="-23.736031" lon="-46.712322"><ele>758.6</ele></trkpt>
+      <trkpt lat="-23.736249" lon="-46.712484"><ele>760.3</ele></trkpt>
+      <trkpt lat="-23.736300" lon="-46.712511"><ele>759.7</ele></trkpt>
+      <trkpt lat="-23.736344" lon="-46.712500"><ele>759.7</ele></trkpt>
+      <trkpt lat="-23.736380" lon="-46.712463"><ele>759.7</ele></trkpt>
+      <trkpt lat="-23.736431" lon="-46.712387"><ele>759.7</ele></trkpt>
+      <trkpt lat="-23.736491" lon="-46.712296"><ele>760.7</ele></trkpt>
+      <trkpt lat="-23.736526" lon="-46.712245"><ele>760.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

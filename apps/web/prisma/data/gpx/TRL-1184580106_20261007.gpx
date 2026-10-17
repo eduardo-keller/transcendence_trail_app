@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Vinte e Oito</name>
+    <trkseg>
+      <trkpt lat="-23.324837" lon="-46.702124"><ele>827.5</ele></trkpt>
+      <trkpt lat="-23.324912" lon="-46.701536"><ele>818.4</ele></trkpt>
+      <trkpt lat="-23.324958" lon="-46.700944"><ele>795.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

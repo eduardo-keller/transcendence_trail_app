@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Cinco</name>
+    <trkseg>
+      <trkpt lat="-23.767031" lon="-46.733612"><ele>772.5</ele></trkpt>
+      <trkpt lat="-23.766833" lon="-46.733174"><ele>767.9</ele></trkpt>
+      <trkpt lat="-23.766666" lon="-46.732994"><ele>762.3</ele></trkpt>
+      <trkpt lat="-23.766400" lon="-46.732755"><ele>763.2</ele></trkpt>
+      <trkpt lat="-23.766209" lon="-46.732570"><ele>760.3</ele></trkpt>
+      <trkpt lat="-23.766177" lon="-46.732495"><ele>760.3</ele></trkpt>
+      <trkpt lat="-23.766165" lon="-46.732393"><ele>760.3</ele></trkpt>
+      <trkpt lat="-23.766211" lon="-46.732235"><ele>756.1</ele></trkpt>
+      <trkpt lat="-23.766268" lon="-46.731948"><ele>746.6</ele></trkpt>
+      <trkpt lat="-23.766315" lon="-46.731567"><ele>745.1</ele></trkpt>
+      <trkpt lat="-23.766344" lon="-46.731100"><ele>752.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

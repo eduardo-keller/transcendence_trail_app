@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Doutor José Teixeira Penteado</name>
+    <trkseg>
+      <trkpt lat="-23.779479" lon="-46.780152"><ele>762.4</ele></trkpt>
+      <trkpt lat="-23.779414" lon="-46.780098"><ele>765.7</ele></trkpt>
+      <trkpt lat="-23.779363" lon="-46.780061"><ele>765.7</ele></trkpt>
+      <trkpt lat="-23.779272" lon="-46.779992"><ele>763.7</ele></trkpt>
+      <trkpt lat="-23.779200" lon="-46.779944"><ele>763.7</ele></trkpt>
+      <trkpt lat="-23.779136" lon="-46.779898"><ele>763.7</ele></trkpt>
+      <trkpt lat="-23.779093" lon="-46.779861"><ele>763.7</ele></trkpt>
+      <trkpt lat="-23.779052" lon="-46.779816"><ele>769.8</ele></trkpt>
+      <trkpt lat="-23.779009" lon="-46.779762"><ele>766.7</ele></trkpt>
+      <trkpt lat="-23.778971" lon="-46.779709"><ele>766.7</ele></trkpt>
+      <trkpt lat="-23.778936" lon="-46.779652"><ele>766.7</ele></trkpt>
+      <trkpt lat="-23.778868" lon="-46.779534"><ele>772.7</ele></trkpt>
+      <trkpt lat="-23.778820" lon="-46.779458"><ele>772.7</ele></trkpt>
+      <trkpt lat="-23.778774" lon="-46.779384"><ele>772.7</ele></trkpt>
+      <trkpt lat="-23.778739" lon="-46.779336"><ele>769.5</ele></trkpt>
+      <trkpt lat="-23.778698" lon="-46.779294"><ele>772.5</ele></trkpt>
+      <trkpt lat="-23.778645" lon="-46.779248"><ele>772.5</ele></trkpt>
+      <trkpt lat="-23.778591" lon="-46.779214"><ele>772.5</ele></trkpt>
+      <trkpt lat="-23.778338" lon="-46.779065"><ele>770.0</ele></trkpt>
+      <trkpt lat="-23.778228" lon="-46.779002"><ele>770.8</ele></trkpt>
+      <trkpt lat="-23.778138" lon="-46.778949"><ele>768.9</ele></trkpt>
+      <trkpt lat="-23.778055" lon="-46.778900"><ele>768.9</ele></trkpt>
+      <trkpt lat="-23.777882" lon="-46.778778"><ele>769.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

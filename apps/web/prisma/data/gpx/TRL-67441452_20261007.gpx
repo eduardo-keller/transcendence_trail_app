@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela São Francisco</name>
+    <trkseg>
+      <trkpt lat="-23.755813" lon="-46.656394"><ele>776.4</ele></trkpt>
+      <trkpt lat="-23.755465" lon="-46.656374"><ele>771.0</ele></trkpt>
+      <trkpt lat="-23.755201" lon="-46.656325"><ele>766.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

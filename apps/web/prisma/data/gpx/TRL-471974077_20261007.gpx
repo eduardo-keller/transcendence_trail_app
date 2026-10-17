@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Joaquim Machado</name>
+    <trkseg>
+      <trkpt lat="-23.521641" lon="-46.702937"><ele>738.0</ele></trkpt>
+      <trkpt lat="-23.521642" lon="-46.703008"><ele>738.0</ele></trkpt>
+      <trkpt lat="-23.521643" lon="-46.703192"><ele>738.0</ele></trkpt>
+      <trkpt lat="-23.521649" lon="-46.703261"><ele>740.2</ele></trkpt>
+      <trkpt lat="-23.521658" lon="-46.703308"><ele>740.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

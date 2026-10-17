@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Araripira</name>
+    <trkseg>
+      <trkpt lat="-23.452267" lon="-46.682502"><ele>754.3</ele></trkpt>
+      <trkpt lat="-23.452572" lon="-46.682590"><ele>756.5</ele></trkpt>
+      <trkpt lat="-23.453280" lon="-46.682814"><ele>758.5</ele></trkpt>
+      <trkpt lat="-23.453422" lon="-46.682821"><ele>758.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

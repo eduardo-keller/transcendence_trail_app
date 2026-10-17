@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Gustavo Migue</name>
+    <trkseg>
+      <trkpt lat="-23.642486" lon="-46.603734"><ele>756.3</ele></trkpt>
+      <trkpt lat="-23.642885" lon="-46.604419"><ele>757.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

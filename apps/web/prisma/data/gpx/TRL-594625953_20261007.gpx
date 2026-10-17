@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Goiabeiras</name>
+    <trkseg>
+      <trkpt lat="-23.606931" lon="-46.728099"><ele>775.1</ele></trkpt>
+      <trkpt lat="-23.606910" lon="-46.727997"><ele>775.1</ele></trkpt>
+      <trkpt lat="-23.606886" lon="-46.727981"><ele>775.1</ele></trkpt>
+      <trkpt lat="-23.606901" lon="-46.727949"><ele>775.1</ele></trkpt>
+      <trkpt lat="-23.606910" lon="-46.727924"><ele>775.1</ele></trkpt>
+      <trkpt lat="-23.606902" lon="-46.727894"><ele>779.7</ele></trkpt>
+      <trkpt lat="-23.606924" lon="-46.727879"><ele>779.7</ele></trkpt>
+      <trkpt lat="-23.606923" lon="-46.727850"><ele>779.7</ele></trkpt>
+      <trkpt lat="-23.606939" lon="-46.727852"><ele>779.7</ele></trkpt>
+      <trkpt lat="-23.606942" lon="-46.727823"><ele>779.7</ele></trkpt>
+      <trkpt lat="-23.606940" lon="-46.727792"><ele>779.7</ele></trkpt>
+      <trkpt lat="-23.606963" lon="-46.727772"><ele>779.7</ele></trkpt>
+      <trkpt lat="-23.606974" lon="-46.727771"><ele>779.7</ele></trkpt>
+      <trkpt lat="-23.606972" lon="-46.727738"><ele>779.7</ele></trkpt>
+      <trkpt lat="-23.606970" lon="-46.727712"><ele>779.7</ele></trkpt>
+      <trkpt lat="-23.606990" lon="-46.727696"><ele>779.7</ele></trkpt>
+      <trkpt lat="-23.606992" lon="-46.727658"><ele>779.7</ele></trkpt>
+      <trkpt lat="-23.606984" lon="-46.727408"><ele>788.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

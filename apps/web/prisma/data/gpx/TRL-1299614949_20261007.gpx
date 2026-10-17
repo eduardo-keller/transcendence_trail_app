@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Luíza Cassu de Oliveira</name>
+    <trkseg>
+      <trkpt lat="-23.453009" lon="-46.927331"><ele>793.8</ele></trkpt>
+      <trkpt lat="-23.453589" lon="-46.926221"><ele>782.0</ele></trkpt>
+      <trkpt lat="-23.453705" lon="-46.926120"><ele>782.0</ele></trkpt>
+      <trkpt lat="-23.454195" lon="-46.925874"><ele>767.8</ele></trkpt>
+      <trkpt lat="-23.454487" lon="-46.925564"><ele>762.9</ele></trkpt>
+      <trkpt lat="-23.454565" lon="-46.925149"><ele>762.6</ele></trkpt>
+      <trkpt lat="-23.454586" lon="-46.924693"><ele>760.6</ele></trkpt>
+      <trkpt lat="-23.454626" lon="-46.924255"><ele>769.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

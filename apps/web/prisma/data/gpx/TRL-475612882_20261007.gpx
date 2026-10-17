@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Via de Pedestres Ilha do Cacau</name>
+    <trkseg>
+      <trkpt lat="-23.456796" lon="-46.662682"><ele>800.4</ele></trkpt>
+      <trkpt lat="-23.456811" lon="-46.662736"><ele>811.8</ele></trkpt>
+      <trkpt lat="-23.456826" lon="-46.662785"><ele>811.8</ele></trkpt>
+      <trkpt lat="-23.456844" lon="-46.662757"><ele>811.8</ele></trkpt>
+      <trkpt lat="-23.456811" lon="-46.662736"><ele>811.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

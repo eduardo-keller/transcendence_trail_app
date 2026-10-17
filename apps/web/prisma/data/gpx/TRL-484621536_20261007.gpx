@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Geraldino R. Pereira</name>
+    <trkseg>
+      <trkpt lat="-23.703557" lon="-46.793297"><ele>812.4</ele></trkpt>
+      <trkpt lat="-23.703742" lon="-46.792394"><ele>791.3</ele></trkpt>
+      <trkpt lat="-23.704007" lon="-46.791716"><ele>760.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

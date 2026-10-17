@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Edson</name>
+    <trkseg>
+      <trkpt lat="-23.544944" lon="-47.034475"><ele>812.7</ele></trkpt>
+      <trkpt lat="-23.545282" lon="-47.033958"><ele>813.0</ele></trkpt>
+      <trkpt lat="-23.545350" lon="-47.033870"><ele>813.0</ele></trkpt>
+      <trkpt lat="-23.545496" lon="-47.033715"><ele>829.1</ele></trkpt>
+      <trkpt lat="-23.545747" lon="-47.033576"><ele>841.9</ele></trkpt>
+      <trkpt lat="-23.545851" lon="-47.033508"><ele>841.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

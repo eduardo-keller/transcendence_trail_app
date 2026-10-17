@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Antônio Bentemiller</name>
+    <trkseg>
+      <trkpt lat="-23.541236" lon="-46.822794"><ele>748.0</ele></trkpt>
+      <trkpt lat="-23.540581" lon="-46.822744"><ele>761.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

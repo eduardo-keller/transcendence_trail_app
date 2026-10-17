@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Acesso ao STO</name>
+    <trkseg>
+      <trkpt lat="-23.652490" lon="-46.528557"><ele>750.5</ele></trkpt>
+      <trkpt lat="-23.652544" lon="-46.528626"><ele>750.5</ele></trkpt>
+      <trkpt lat="-23.652557" lon="-46.528642"><ele>750.5</ele></trkpt>
+      <trkpt lat="-23.652472" lon="-46.528535"><ele>750.5</ele></trkpt>
+      <trkpt lat="-23.652465" lon="-46.528527"><ele>750.5</ele></trkpt>
+      <trkpt lat="-23.652458" lon="-46.528518"><ele>750.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

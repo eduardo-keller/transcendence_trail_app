@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Jorn Paul Hateyer</name>
+    <trkseg>
+      <trkpt lat="-23.411383" lon="-46.745265"><ele>778.1</ele></trkpt>
+      <trkpt lat="-23.411404" lon="-46.745289"><ele>778.1</ele></trkpt>
+      <trkpt lat="-23.411422" lon="-46.745309"><ele>778.1</ele></trkpt>
+      <trkpt lat="-23.411435" lon="-46.745325"><ele>778.1</ele></trkpt>
+      <trkpt lat="-23.411454" lon="-46.745346"><ele>778.1</ele></trkpt>
+      <trkpt lat="-23.411479" lon="-46.745375"><ele>778.1</ele></trkpt>
+      <trkpt lat="-23.411493" lon="-46.745391"><ele>778.1</ele></trkpt>
+      <trkpt lat="-23.411517" lon="-46.745418"><ele>774.2</ele></trkpt>
+      <trkpt lat="-23.411534" lon="-46.745438"><ele>764.2</ele></trkpt>
+      <trkpt lat="-23.411552" lon="-46.745458"><ele>764.2</ele></trkpt>
+      <trkpt lat="-23.411579" lon="-46.745489"><ele>764.2</ele></trkpt>
+      <trkpt lat="-23.411598" lon="-46.745512"><ele>764.2</ele></trkpt>
+      <trkpt lat="-23.411704" lon="-46.745633"><ele>764.2</ele></trkpt>
+      <trkpt lat="-23.411769" lon="-46.745707"><ele>758.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

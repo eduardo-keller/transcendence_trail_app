@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua dos Canários</name>
+    <trkseg>
+      <trkpt lat="-23.363247" lon="-46.559940"><ele>999.5</ele></trkpt>
+      <trkpt lat="-23.363239" lon="-46.560017"><ele>999.5</ele></trkpt>
+      <trkpt lat="-23.363213" lon="-46.560094"><ele>999.5</ele></trkpt>
+      <trkpt lat="-23.363176" lon="-46.560162"><ele>996.6</ele></trkpt>
+      <trkpt lat="-23.363119" lon="-46.560226"><ele>996.6</ele></trkpt>
+      <trkpt lat="-23.363049" lon="-46.560273"><ele>996.6</ele></trkpt>
+      <trkpt lat="-23.362948" lon="-46.560306"><ele>996.6</ele></trkpt>
+      <trkpt lat="-23.362525" lon="-46.560370"><ele>993.3</ele></trkpt>
+      <trkpt lat="-23.362398" lon="-46.560401"><ele>993.3</ele></trkpt>
+      <trkpt lat="-23.362238" lon="-46.560446"><ele>975.4</ele></trkpt>
+      <trkpt lat="-23.362121" lon="-46.560492"><ele>975.4</ele></trkpt>
+      <trkpt lat="-23.361639" lon="-46.560732"><ele>962.4</ele></trkpt>
+      <trkpt lat="-23.361551" lon="-46.560771"><ele>962.4</ele></trkpt>
+      <trkpt lat="-23.361470" lon="-46.560795"><ele>961.4</ele></trkpt>
+      <trkpt lat="-23.361383" lon="-46.560805"><ele>961.4</ele></trkpt>
+      <trkpt lat="-23.361235" lon="-46.560804"><ele>956.2</ele></trkpt>
+      <trkpt lat="-23.360849" lon="-46.560720"><ele>943.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

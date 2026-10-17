@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua H</name>
+    <trkseg>
+      <trkpt lat="-23.817191" lon="-46.665287"><ele>756.7</ele></trkpt>
+      <trkpt lat="-23.816836" lon="-46.665298"><ele>756.4</ele></trkpt>
+      <trkpt lat="-23.816306" lon="-46.665322"><ele>755.2</ele></trkpt>
+      <trkpt lat="-23.816159" lon="-46.665325"><ele>753.4</ele></trkpt>
+      <trkpt lat="-23.816055" lon="-46.665338"><ele>753.4</ele></trkpt>
+      <trkpt lat="-23.815949" lon="-46.665355"><ele>753.4</ele></trkpt>
+      <trkpt lat="-23.815719" lon="-46.665421"><ele>754.6</ele></trkpt>
+      <trkpt lat="-23.815506" lon="-46.665481"><ele>751.9</ele></trkpt>
+      <trkpt lat="-23.815395" lon="-46.665508"><ele>753.8</ele></trkpt>
+      <trkpt lat="-23.815320" lon="-46.665524"><ele>753.8</ele></trkpt>
+      <trkpt lat="-23.815289" lon="-46.665527"><ele>753.8</ele></trkpt>
+      <trkpt lat="-23.815265" lon="-46.665526"><ele>753.8</ele></trkpt>
+      <trkpt lat="-23.815256" lon="-46.665524"><ele>753.8</ele></trkpt>
+      <trkpt lat="-23.815247" lon="-46.665520"><ele>753.8</ele></trkpt>
+      <trkpt lat="-23.815238" lon="-46.665514"><ele>753.8</ele></trkpt>
+      <trkpt lat="-23.815233" lon="-46.665509"><ele>753.8</ele></trkpt>
+      <trkpt lat="-23.815208" lon="-46.665472"><ele>753.8</ele></trkpt>
+      <trkpt lat="-23.815184" lon="-46.665437"><ele>753.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Avai</name>
+    <trkseg>
+      <trkpt lat="-23.551970" lon="-46.839902"><ele>782.0</ele></trkpt>
+      <trkpt lat="-23.551428" lon="-46.839692"><ele>765.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

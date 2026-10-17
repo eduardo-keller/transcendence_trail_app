@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Estacionamento do Extra</name>
+    <trkseg>
+      <trkpt lat="-23.584893" lon="-46.410098"><ele>785.1</ele></trkpt>
+      <trkpt lat="-23.584871" lon="-46.410013"><ele>785.1</ele></trkpt>
+      <trkpt lat="-23.584810" lon="-46.409954"><ele>785.8</ele></trkpt>
+      <trkpt lat="-23.584269" lon="-46.409648"><ele>783.2</ele></trkpt>
+      <trkpt lat="-23.584190" lon="-46.409602"><ele>783.2</ele></trkpt>
+      <trkpt lat="-23.584143" lon="-46.409530"><ele>779.2</ele></trkpt>
+      <trkpt lat="-23.584131" lon="-46.409452"><ele>779.2</ele></trkpt>
+      <trkpt lat="-23.584099" lon="-46.409371"><ele>779.2</ele></trkpt>
+      <trkpt lat="-23.584052" lon="-46.409321"><ele>779.2</ele></trkpt>
+      <trkpt lat="-23.584017" lon="-46.409301"><ele>779.5</ele></trkpt>
+      <trkpt lat="-23.583903" lon="-46.409248"><ele>779.5</ele></trkpt>
+      <trkpt lat="-23.583866" lon="-46.409243"><ele>779.5</ele></trkpt>
+      <trkpt lat="-23.583824" lon="-46.409067"><ele>779.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

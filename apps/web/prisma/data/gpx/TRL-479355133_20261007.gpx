@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua José Antônio de Moraes</name>
+    <trkseg>
+      <trkpt lat="-23.708469" lon="-46.864267"><ele>846.0</ele></trkpt>
+      <trkpt lat="-23.708254" lon="-46.863915"><ele>843.4</ele></trkpt>
+      <trkpt lat="-23.708144" lon="-46.863762"><ele>843.2</ele></trkpt>
+      <trkpt lat="-23.707972" lon="-46.863559"><ele>837.1</ele></trkpt>
+      <trkpt lat="-23.707832" lon="-46.863379"><ele>830.6</ele></trkpt>
+      <trkpt lat="-23.707729" lon="-46.863207"><ele>830.6</ele></trkpt>
+      <trkpt lat="-23.707297" lon="-46.862355"><ele>804.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

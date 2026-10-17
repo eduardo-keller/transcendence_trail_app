@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Circular</name>
+    <trkseg>
+      <trkpt lat="-23.447259" lon="-46.932394"><ele>751.8</ele></trkpt>
+      <trkpt lat="-23.447301" lon="-46.931932"><ele>740.0</ele></trkpt>
+      <trkpt lat="-23.447375" lon="-46.931483"><ele>728.6</ele></trkpt>
+      <trkpt lat="-23.447447" lon="-46.931064"><ele>719.7</ele></trkpt>
+      <trkpt lat="-23.447500" lon="-46.930870"><ele>713.3</ele></trkpt>
+      <trkpt lat="-23.447579" lon="-46.930754"><ele>713.3</ele></trkpt>
+      <trkpt lat="-23.447703" lon="-46.930509"><ele>713.6</ele></trkpt>
+      <trkpt lat="-23.447810" lon="-46.930360"><ele>714.6</ele></trkpt>
+      <trkpt lat="-23.447856" lon="-46.930318"><ele>714.6</ele></trkpt>
+      <trkpt lat="-23.447907" lon="-46.930288"><ele>714.6</ele></trkpt>
+      <trkpt lat="-23.447965" lon="-46.930271"><ele>720.3</ele></trkpt>
+      <trkpt lat="-23.448095" lon="-46.930257"><ele>720.3</ele></trkpt>
+      <trkpt lat="-23.448227" lon="-46.930268"><ele>727.3</ele></trkpt>
+      <trkpt lat="-23.448751" lon="-46.930390"><ele>739.9</ele></trkpt>
+      <trkpt lat="-23.448866" lon="-46.930415"><ele>739.9</ele></trkpt>
+      <trkpt lat="-23.448960" lon="-46.930429"><ele>735.1</ele></trkpt>
+      <trkpt lat="-23.449123" lon="-46.930432"><ele>739.1</ele></trkpt>
+      <trkpt lat="-23.449189" lon="-46.930423"><ele>739.1</ele></trkpt>
+      <trkpt lat="-23.449264" lon="-46.930391"><ele>746.4</ele></trkpt>
+      <trkpt lat="-23.449300" lon="-46.930358"><ele>746.4</ele></trkpt>
+      <trkpt lat="-23.449321" lon="-46.930288"><ele>751.9</ele></trkpt>
+      <trkpt lat="-23.449306" lon="-46.930197"><ele>751.9</ele></trkpt>
+      <trkpt lat="-23.449270" lon="-46.930087"><ele>750.2</ele></trkpt>
+      <trkpt lat="-23.449235" lon="-46.929958"><ele>750.2</ele></trkpt>
+      <trkpt lat="-23.449222" lon="-46.929875"><ele>750.2</ele></trkpt>
+      <trkpt lat="-23.449222" lon="-46.929753"><ele>752.0</ele></trkpt>
+      <trkpt lat="-23.449242" lon="-46.929658"><ele>752.0</ele></trkpt>
+      <trkpt lat="-23.449291" lon="-46.929545"><ele>751.5</ele></trkpt>
+      <trkpt lat="-23.449376" lon="-46.929431"><ele>759.6</ele></trkpt>
+      <trkpt lat="-23.449483" lon="-46.929306"><ele>759.6</ele></trkpt>
+      <trkpt lat="-23.449568" lon="-46.929204"><ele>757.6</ele></trkpt>
+      <trkpt lat="-23.449606" lon="-46.929155"><ele>765.3</ele></trkpt>
+      <trkpt lat="-23.449651" lon="-46.929076"><ele>765.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

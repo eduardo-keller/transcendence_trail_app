@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Décio de Camargo Oliva</name>
+    <trkseg>
+      <trkpt lat="-23.552863" lon="-46.781201"><ele>751.4</ele></trkpt>
+      <trkpt lat="-23.552355" lon="-46.781095"><ele>746.0</ele></trkpt>
+      <trkpt lat="-23.551807" lon="-46.780990"><ele>749.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

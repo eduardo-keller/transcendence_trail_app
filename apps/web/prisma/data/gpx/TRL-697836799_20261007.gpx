@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela F</name>
+    <trkseg>
+      <trkpt lat="-23.674912" lon="-46.739962"><ele>773.5</ele></trkpt>
+      <trkpt lat="-23.674892" lon="-46.739710"><ele>781.9</ele></trkpt>
+      <trkpt lat="-23.674888" lon="-46.739685"><ele>781.9</ele></trkpt>
+      <trkpt lat="-23.674739" lon="-46.739580"><ele>786.7</ele></trkpt>
+      <trkpt lat="-23.674636" lon="-46.739500"><ele>786.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

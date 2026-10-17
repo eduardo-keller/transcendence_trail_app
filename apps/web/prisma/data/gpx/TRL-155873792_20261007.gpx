@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Antônio Zanetti</name>
+    <trkseg>
+      <trkpt lat="-23.701286" lon="-46.530757"><ele>816.8</ele></trkpt>
+      <trkpt lat="-23.700723" lon="-46.530557"><ele>821.0</ele></trkpt>
+      <trkpt lat="-23.700162" lon="-46.530397"><ele>819.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua CDSSA Amália Matarazzo</name>
+    <trkseg>
+      <trkpt lat="-23.460008" lon="-46.654000"><ele>763.0</ele></trkpt>
+      <trkpt lat="-23.459985" lon="-46.653794"><ele>763.0</ele></trkpt>
+      <trkpt lat="-23.459905" lon="-46.653851"><ele>763.0</ele></trkpt>
+      <trkpt lat="-23.459808" lon="-46.653954"><ele>761.8</ele></trkpt>
+      <trkpt lat="-23.459709" lon="-46.654014"><ele>761.8</ele></trkpt>
+      <trkpt lat="-23.459612" lon="-46.654094"><ele>763.5</ele></trkpt>
+      <trkpt lat="-23.459589" lon="-46.654360"><ele>765.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

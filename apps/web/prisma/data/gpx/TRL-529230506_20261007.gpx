@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Carlo Antônio Marini</name>
+    <trkseg>
+      <trkpt lat="-23.631676" lon="-46.609258"><ele>768.6</ele></trkpt>
+      <trkpt lat="-23.631717" lon="-46.609243"><ele>768.6</ele></trkpt>
+      <trkpt lat="-23.631886" lon="-46.609158"><ele>770.6</ele></trkpt>
+      <trkpt lat="-23.631905" lon="-46.609156"><ele>770.6</ele></trkpt>
+      <trkpt lat="-23.631937" lon="-46.609169"><ele>770.6</ele></trkpt>
+      <trkpt lat="-23.631952" lon="-46.609187"><ele>770.6</ele></trkpt>
+      <trkpt lat="-23.632028" lon="-46.609170"><ele>770.6</ele></trkpt>
+      <trkpt lat="-23.632096" lon="-46.609153"><ele>769.7</ele></trkpt>
+      <trkpt lat="-23.632229" lon="-46.609122"><ele>769.7</ele></trkpt>
+      <trkpt lat="-23.632418" lon="-46.609092"><ele>771.4</ele></trkpt>
+      <trkpt lat="-23.632600" lon="-46.609051"><ele>771.4</ele></trkpt>
+      <trkpt lat="-23.632771" lon="-46.609069"><ele>770.4</ele></trkpt>
+      <trkpt lat="-23.632934" lon="-46.609087"><ele>771.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Salesópolis</name>
+    <trkseg>
+      <trkpt lat="-23.482618" lon="-46.495393"><ele>729.4</ele></trkpt>
+      <trkpt lat="-23.482642" lon="-46.495453"><ele>730.0</ele></trkpt>
+      <trkpt lat="-23.482642" lon="-46.495453"><ele>730.0</ele></trkpt>
+      <trkpt lat="-23.482655" lon="-46.495488"><ele>730.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

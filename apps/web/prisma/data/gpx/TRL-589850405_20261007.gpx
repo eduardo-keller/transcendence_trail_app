@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Tabriz</name>
+    <trkseg>
+      <trkpt lat="-23.707662" lon="-46.730886"><ele>752.4</ele></trkpt>
+      <trkpt lat="-23.708249" lon="-46.731258"><ele>758.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Tibagi</name>
+    <trkseg>
+      <trkpt lat="-23.679948" lon="-46.772479"><ele>801.8</ele></trkpt>
+      <trkpt lat="-23.679924" lon="-46.772838"><ele>806.3</ele></trkpt>
+      <trkpt lat="-23.679887" lon="-46.773037"><ele>809.3</ele></trkpt>
+      <trkpt lat="-23.679849" lon="-46.773108"><ele>808.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

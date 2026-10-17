@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Eduardo Campos</name>
+    <trkseg>
+      <trkpt lat="-23.726185" lon="-46.525684"><ele>846.0</ele></trkpt>
+      <trkpt lat="-23.726121" lon="-46.525890"><ele>837.4</ele></trkpt>
+      <trkpt lat="-23.726118" lon="-46.525892"><ele>837.4</ele></trkpt>
+      <trkpt lat="-23.726113" lon="-46.525893"><ele>837.4</ele></trkpt>
+      <trkpt lat="-23.725953" lon="-46.525821"><ele>835.9</ele></trkpt>
+      <trkpt lat="-23.725944" lon="-46.525822"><ele>835.9</ele></trkpt>
+      <trkpt lat="-23.725936" lon="-46.525828"><ele>835.9</ele></trkpt>
+      <trkpt lat="-23.725817" lon="-46.526115"><ele>826.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

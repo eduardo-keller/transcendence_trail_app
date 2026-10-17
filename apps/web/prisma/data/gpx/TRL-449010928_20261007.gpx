@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Arapanes</name>
+    <trkseg>
+      <trkpt lat="-23.659408" lon="-46.617467"><ele>802.0</ele></trkpt>
+      <trkpt lat="-23.659202" lon="-46.617911"><ele>807.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

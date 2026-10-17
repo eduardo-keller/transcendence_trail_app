@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Joazeiro</name>
+    <trkseg>
+      <trkpt lat="-23.368819" lon="-46.644424"><ele>911.2</ele></trkpt>
+      <trkpt lat="-23.368747" lon="-46.644495"><ele>903.9</ele></trkpt>
+      <trkpt lat="-23.368638" lon="-46.644580"><ele>903.9</ele></trkpt>
+      <trkpt lat="-23.368495" lon="-46.644720"><ele>905.3</ele></trkpt>
+      <trkpt lat="-23.368353" lon="-46.644886"><ele>895.2</ele></trkpt>
+      <trkpt lat="-23.368220" lon="-46.645004"><ele>895.2</ele></trkpt>
+      <trkpt lat="-23.368136" lon="-46.645058"><ele>887.4</ele></trkpt>
+      <trkpt lat="-23.368062" lon="-46.645122"><ele>887.4</ele></trkpt>
+      <trkpt lat="-23.367954" lon="-46.645187"><ele>883.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

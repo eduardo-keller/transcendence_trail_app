@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Geraldo Teodolindo da Silva</name>
+    <trkseg>
+      <trkpt lat="-23.698418" lon="-46.426470"><ele>755.9</ele></trkpt>
+      <trkpt lat="-23.698352" lon="-46.426327"><ele>755.9</ele></trkpt>
+      <trkpt lat="-23.698352" lon="-46.426327"><ele>755.9</ele></trkpt>
+      <trkpt lat="-23.698303" lon="-46.426252"><ele>755.9</ele></trkpt>
+      <trkpt lat="-23.698303" lon="-46.426252"><ele>755.9</ele></trkpt>
+      <trkpt lat="-23.698277" lon="-46.426125"><ele>757.3</ele></trkpt>
+      <trkpt lat="-23.698259" lon="-46.426022"><ele>757.3</ele></trkpt>
+      <trkpt lat="-23.698215" lon="-46.425909"><ele>757.9</ele></trkpt>
+      <trkpt lat="-23.698055" lon="-46.425618"><ele>760.4</ele></trkpt>
+      <trkpt lat="-23.697904" lon="-46.425422"><ele>765.3</ele></trkpt>
+      <trkpt lat="-23.697519" lon="-46.425033"><ele>763.2</ele></trkpt>
+      <trkpt lat="-23.697207" lon="-46.424706"><ele>764.9</ele></trkpt>
+      <trkpt lat="-23.697109" lon="-46.424583"><ele>760.2</ele></trkpt>
+      <trkpt lat="-23.696635" lon="-46.423864"><ele>760.0</ele></trkpt>
+      <trkpt lat="-23.696517" lon="-46.423663"><ele>762.3</ele></trkpt>
+      <trkpt lat="-23.696436" lon="-46.423475"><ele>762.3</ele></trkpt>
+      <trkpt lat="-23.696256" lon="-46.422755"><ele>761.2</ele></trkpt>
+      <trkpt lat="-23.696185" lon="-46.422608"><ele>767.5</ele></trkpt>
+      <trkpt lat="-23.696078" lon="-46.422387"><ele>767.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

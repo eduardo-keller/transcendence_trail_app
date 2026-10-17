@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Azov</name>
+    <trkseg>
+      <trkpt lat="-23.689310" lon="-46.560865"><ele>767.9</ele></trkpt>
+      <trkpt lat="-23.689327" lon="-46.560874"><ele>767.9</ele></trkpt>
+      <trkpt lat="-23.689349" lon="-46.560887"><ele>767.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Professor Ariovaldo Silva</name>
+    <trkseg>
+      <trkpt lat="-23.537864" lon="-46.732826"><ele>723.3</ele></trkpt>
+      <trkpt lat="-23.537972" lon="-46.733073"><ele>722.1</ele></trkpt>
+      <trkpt lat="-23.538076" lon="-46.733281"><ele>721.7</ele></trkpt>
+      <trkpt lat="-23.538149" lon="-46.733419"><ele>721.7</ele></trkpt>
+      <trkpt lat="-23.538239" lon="-46.733567"><ele>721.1</ele></trkpt>
+      <trkpt lat="-23.538354" lon="-46.733740"><ele>721.1</ele></trkpt>
+      <trkpt lat="-23.538542" lon="-46.733976"><ele>720.1</ele></trkpt>
+      <trkpt lat="-23.538866" lon="-46.734347"><ele>719.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

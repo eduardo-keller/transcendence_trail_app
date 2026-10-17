@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Via de Pedestre Santo Antônio do Retiro</name>
+    <trkseg>
+      <trkpt lat="-23.463095" lon="-46.569438"><ele>736.1</ele></trkpt>
+      <trkpt lat="-23.463115" lon="-46.569482"><ele>736.1</ele></trkpt>
+      <trkpt lat="-23.463147" lon="-46.569583"><ele>736.1</ele></trkpt>
+      <trkpt lat="-23.463170" lon="-46.569693"><ele>736.7</ele></trkpt>
+      <trkpt lat="-23.463163" lon="-46.569731"><ele>736.7</ele></trkpt>
+      <trkpt lat="-23.463160" lon="-46.569752"><ele>736.7</ele></trkpt>
+      <trkpt lat="-23.463208" lon="-46.569988"><ele>736.4</ele></trkpt>
+      <trkpt lat="-23.463209" lon="-46.570019"><ele>736.4</ele></trkpt>
+      <trkpt lat="-23.463209" lon="-46.570092"><ele>736.4</ele></trkpt>
+      <trkpt lat="-23.463225" lon="-46.570204"><ele>738.3</ele></trkpt>
+      <trkpt lat="-23.463242" lon="-46.570358"><ele>738.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

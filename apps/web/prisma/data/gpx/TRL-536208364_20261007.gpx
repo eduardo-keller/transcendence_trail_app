@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela 2</name>
+    <trkseg>
+      <trkpt lat="-23.292339" lon="-46.755289"><ele>824.5</ele></trkpt>
+      <trkpt lat="-23.292106" lon="-46.754957"><ele>818.9</ele></trkpt>
+      <trkpt lat="-23.291951" lon="-46.754669"><ele>811.4</ele></trkpt>
+      <trkpt lat="-23.292037" lon="-46.754617"><ele>811.4</ele></trkpt>
+      <trkpt lat="-23.291967" lon="-46.754285"><ele>801.8</ele></trkpt>
+      <trkpt lat="-23.291862" lon="-46.753974"><ele>791.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

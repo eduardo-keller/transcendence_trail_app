@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Cora Coralina</name>
+    <trkseg>
+      <trkpt lat="-23.632863" lon="-46.799680"><ele>811.4</ele></trkpt>
+      <trkpt lat="-23.632861" lon="-46.799510"><ele>812.7</ele></trkpt>
+      <trkpt lat="-23.632863" lon="-46.799435"><ele>812.7</ele></trkpt>
+      <trkpt lat="-23.632869" lon="-46.799385"><ele>812.7</ele></trkpt>
+      <trkpt lat="-23.632880" lon="-46.799360"><ele>812.7</ele></trkpt>
+      <trkpt lat="-23.632895" lon="-46.799338"><ele>812.7</ele></trkpt>
+      <trkpt lat="-23.632935" lon="-46.799315"><ele>816.9</ele></trkpt>
+      <trkpt lat="-23.632935" lon="-46.799315"><ele>816.9</ele></trkpt>
+      <trkpt lat="-23.633040" lon="-46.799266"><ele>813.0</ele></trkpt>
+      <trkpt lat="-23.633226" lon="-46.799191"><ele>812.5</ele></trkpt>
+      <trkpt lat="-23.633402" lon="-46.799135"><ele>812.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

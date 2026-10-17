@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Estrada José Domingos Andriolo</name>
+    <trkseg>
+      <trkpt lat="-23.748180" lon="-46.498184"><ele>756.3</ele></trkpt>
+      <trkpt lat="-23.748143" lon="-46.498000"><ele>756.3</ele></trkpt>
+      <trkpt lat="-23.748135" lon="-46.497901"><ele>758.4</ele></trkpt>
+      <trkpt lat="-23.748136" lon="-46.497642"><ele>758.4</ele></trkpt>
+      <trkpt lat="-23.748142" lon="-46.497530"><ele>754.2</ele></trkpt>
+      <trkpt lat="-23.748163" lon="-46.497450"><ele>754.2</ele></trkpt>
+      <trkpt lat="-23.748202" lon="-46.497375"><ele>760.0</ele></trkpt>
+      <trkpt lat="-23.748284" lon="-46.497287"><ele>755.1</ele></trkpt>
+      <trkpt lat="-23.749030" lon="-46.496772"><ele>750.6</ele></trkpt>
+      <trkpt lat="-23.749141" lon="-46.496704"><ele>750.6</ele></trkpt>
+      <trkpt lat="-23.749209" lon="-46.496670"><ele>750.6</ele></trkpt>
+      <trkpt lat="-23.749292" lon="-46.496634"><ele>750.6</ele></trkpt>
+      <trkpt lat="-23.749393" lon="-46.496608"><ele>750.3</ele></trkpt>
+      <trkpt lat="-23.749537" lon="-46.496595"><ele>750.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

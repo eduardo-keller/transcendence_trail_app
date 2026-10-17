@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Jenny Mantoanelli Corrêa</name>
+    <trkseg>
+      <trkpt lat="-23.553891" lon="-47.080246"><ele>964.9</ele></trkpt>
+      <trkpt lat="-23.553931" lon="-47.080174"><ele>964.9</ele></trkpt>
+      <trkpt lat="-23.553935" lon="-47.080170"><ele>964.9</ele></trkpt>
+      <trkpt lat="-23.553935" lon="-47.080170"><ele>964.9</ele></trkpt>
+      <trkpt lat="-23.553879" lon="-47.080036"><ele>968.6</ele></trkpt>
+      <trkpt lat="-23.553791" lon="-47.079875"><ele>968.6</ele></trkpt>
+      <trkpt lat="-23.553717" lon="-47.079712"><ele>968.2</ele></trkpt>
+      <trkpt lat="-23.553595" lon="-47.079552"><ele>970.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Trilha</name>
+    <trkseg>
+      <trkpt lat="-23.200381" lon="-46.962431"><ele>793.4</ele></trkpt>
+      <trkpt lat="-23.200464" lon="-46.962191"><ele>790.7</ele></trkpt>
+      <trkpt lat="-23.200531" lon="-46.962055"><ele>790.3</ele></trkpt>
+      <trkpt lat="-23.200674" lon="-46.962009"><ele>790.3</ele></trkpt>
+      <trkpt lat="-23.201067" lon="-46.961945"><ele>793.6</ele></trkpt>
+      <trkpt lat="-23.201298" lon="-46.962026"><ele>794.9</ele></trkpt>
+      <trkpt lat="-23.201505" lon="-46.962031"><ele>794.9</ele></trkpt>
+      <trkpt lat="-23.201561" lon="-46.961975"><ele>797.0</ele></trkpt>
+      <trkpt lat="-23.201602" lon="-46.961881"><ele>797.0</ele></trkpt>
+      <trkpt lat="-23.201738" lon="-46.961808"><ele>797.0</ele></trkpt>
+      <trkpt lat="-23.201831" lon="-46.961725"><ele>802.9</ele></trkpt>
+      <trkpt lat="-23.202021" lon="-46.961519"><ele>806.7</ele></trkpt>
+      <trkpt lat="-23.202412" lon="-46.961022"><ele>815.1</ele></trkpt>
+      <trkpt lat="-23.202422" lon="-46.960658"><ele>820.7</ele></trkpt>
+      <trkpt lat="-23.202424" lon="-46.960554"><ele>820.7</ele></trkpt>
+      <trkpt lat="-23.202461" lon="-46.960405"><ele>822.3</ele></trkpt>
+      <trkpt lat="-23.202490" lon="-46.960312"><ele>822.3</ele></trkpt>
+      <trkpt lat="-23.202484" lon="-46.960205"><ele>822.3</ele></trkpt>
+      <trkpt lat="-23.202455" lon="-46.960107"><ele>822.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

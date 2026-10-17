@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Via de Pedestre Bernardo Aliprando</name>
+    <trkseg>
+      <trkpt lat="-23.733687" lon="-46.705469"><ele>796.5</ele></trkpt>
+      <trkpt lat="-23.733654" lon="-46.705575"><ele>796.5</ele></trkpt>
+      <trkpt lat="-23.733574" lon="-46.705804"><ele>795.4</ele></trkpt>
+      <trkpt lat="-23.733505" lon="-46.706005"><ele>790.6</ele></trkpt>
+      <trkpt lat="-23.733442" lon="-46.706186"><ele>790.6</ele></trkpt>
+      <trkpt lat="-23.733438" lon="-46.706218"><ele>790.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

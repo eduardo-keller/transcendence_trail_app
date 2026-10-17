@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Acesso à Trilha dos Ariquemes</name>
+    <trkseg>
+      <trkpt lat="-23.399793" lon="-46.709606"><ele>1024.2</ele></trkpt>
+      <trkpt lat="-23.399853" lon="-46.709438"><ele>1021.9</ele></trkpt>
+      <trkpt lat="-23.399984" lon="-46.709206"><ele>1033.7</ele></trkpt>
+      <trkpt lat="-23.400153" lon="-46.709085"><ele>1039.6</ele></trkpt>
+      <trkpt lat="-23.400365" lon="-46.708990"><ele>1039.4</ele></trkpt>
+      <trkpt lat="-23.400486" lon="-46.708875"><ele>1046.7</ele></trkpt>
+      <trkpt lat="-23.400660" lon="-46.708801"><ele>1046.7</ele></trkpt>
+      <trkpt lat="-23.401013" lon="-46.708743"><ele>1065.9</ele></trkpt>
+      <trkpt lat="-23.401250" lon="-46.708685"><ele>1065.9</ele></trkpt>
+      <trkpt lat="-23.401458" lon="-46.708548"><ele>1073.4</ele></trkpt>
+      <trkpt lat="-23.401521" lon="-46.708432"><ele>1075.4</ele></trkpt>
+      <trkpt lat="-23.401496" lon="-46.708290"><ele>1075.4</ele></trkpt>
+      <trkpt lat="-23.401521" lon="-46.708179"><ele>1075.5</ele></trkpt>
+      <trkpt lat="-23.401651" lon="-46.708069"><ele>1085.7</ele></trkpt>
+      <trkpt lat="-23.401907" lon="-46.707995"><ele>1095.6</ele></trkpt>
+      <trkpt lat="-23.401980" lon="-46.707832"><ele>1098.0</ele></trkpt>
+      <trkpt lat="-23.402009" lon="-46.707400"><ele>1097.5</ele></trkpt>
+      <trkpt lat="-23.402149" lon="-46.707068"><ele>1106.6</ele></trkpt>
+      <trkpt lat="-23.402294" lon="-46.706647"><ele>1109.7</ele></trkpt>
+      <trkpt lat="-23.402332" lon="-46.706489"><ele>1115.5</ele></trkpt>
+      <trkpt lat="-23.402323" lon="-46.706221"><ele>1123.4</ele></trkpt>
+      <trkpt lat="-23.402390" lon="-46.706010"><ele>1130.3</ele></trkpt>
+      <trkpt lat="-23.402482" lon="-46.705905"><ele>1135.6</ele></trkpt>
+      <trkpt lat="-23.402574" lon="-46.705905"><ele>1135.6</ele></trkpt>
+      <trkpt lat="-23.402845" lon="-46.706008"><ele>1138.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

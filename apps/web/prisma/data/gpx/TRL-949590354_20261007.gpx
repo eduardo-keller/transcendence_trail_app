@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Pronto Socorro Municipal de Itapevi</name>
+    <trkseg>
+      <trkpt lat="-23.540195" lon="-46.934118"><ele>734.9</ele></trkpt>
+      <trkpt lat="-23.540345" lon="-46.934138"><ele>734.9</ele></trkpt>
+      <trkpt lat="-23.540470" lon="-46.934087"><ele>734.6</ele></trkpt>
+      <trkpt lat="-23.540566" lon="-46.934030"><ele>734.6</ele></trkpt>
+      <trkpt lat="-23.540619" lon="-46.934007"><ele>735.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

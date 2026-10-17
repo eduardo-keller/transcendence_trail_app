@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Engenheiro Botelho Egas</name>
+    <trkseg>
+      <trkpt lat="-23.479468" lon="-46.628592"><ele>751.7</ele></trkpt>
+      <trkpt lat="-23.479465" lon="-46.628577"><ele>751.7</ele></trkpt>
+      <trkpt lat="-23.479461" lon="-46.628553"><ele>751.7</ele></trkpt>
+      <trkpt lat="-23.479457" lon="-46.628531"><ele>751.7</ele></trkpt>
+      <trkpt lat="-23.479453" lon="-46.628507"><ele>751.7</ele></trkpt>
+      <trkpt lat="-23.479445" lon="-46.628458"><ele>749.1</ele></trkpt>
+      <trkpt lat="-23.479439" lon="-46.628422"><ele>749.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

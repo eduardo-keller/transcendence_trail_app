@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua José Maria Castello Prado</name>
+    <trkseg>
+      <trkpt lat="-23.516109" lon="-46.772799"><ele>727.8</ele></trkpt>
+      <trkpt lat="-23.516070" lon="-46.772846"><ele>727.8</ele></trkpt>
+      <trkpt lat="-23.515812" lon="-46.773150"><ele>724.1</ele></trkpt>
+      <trkpt lat="-23.515793" lon="-46.773165"><ele>724.1</ele></trkpt>
+      <trkpt lat="-23.515773" lon="-46.773175"><ele>724.1</ele></trkpt>
+      <trkpt lat="-23.515754" lon="-46.773179"><ele>724.1</ele></trkpt>
+      <trkpt lat="-23.515744" lon="-46.773179"><ele>724.1</ele></trkpt>
+      <trkpt lat="-23.515731" lon="-46.773178"><ele>724.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

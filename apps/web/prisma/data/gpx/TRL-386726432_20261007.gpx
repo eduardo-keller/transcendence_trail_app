@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Simões Estrelado</name>
+    <trkseg>
+      <trkpt lat="-23.506657" lon="-46.474546"><ele>774.4</ele></trkpt>
+      <trkpt lat="-23.506722" lon="-46.474542"><ele>774.4</ele></trkpt>
+      <trkpt lat="-23.507079" lon="-46.474519"><ele>780.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

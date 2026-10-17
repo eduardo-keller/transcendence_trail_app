@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Araribóia</name>
+    <trkseg>
+      <trkpt lat="-23.705936" lon="-46.505652"><ele>786.6</ele></trkpt>
+      <trkpt lat="-23.706101" lon="-46.505089"><ele>778.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

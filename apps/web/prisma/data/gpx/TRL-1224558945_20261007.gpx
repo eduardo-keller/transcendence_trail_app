@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Largo da Concórdia</name>
+    <trkseg>
+      <trkpt lat="-23.542468" lon="-46.616881"><ele>731.1</ele></trkpt>
+      <trkpt lat="-23.542425" lon="-46.616800"><ele>729.9</ele></trkpt>
+      <trkpt lat="-23.542342" lon="-46.616644"><ele>730.3</ele></trkpt>
+      <trkpt lat="-23.542336" lon="-46.616610"><ele>730.3</ele></trkpt>
+      <trkpt lat="-23.542334" lon="-46.616577"><ele>730.3</ele></trkpt>
+      <trkpt lat="-23.542345" lon="-46.616537"><ele>730.3</ele></trkpt>
+      <trkpt lat="-23.542468" lon="-46.616117"><ele>731.2</ele></trkpt>
+      <trkpt lat="-23.542486" lon="-46.616094"><ele>731.2</ele></trkpt>
+      <trkpt lat="-23.542498" lon="-46.616088"><ele>731.2</ele></trkpt>
+      <trkpt lat="-23.542509" lon="-46.616085"><ele>731.2</ele></trkpt>
+      <trkpt lat="-23.542519" lon="-46.616085"><ele>731.2</ele></trkpt>
+      <trkpt lat="-23.542529" lon="-46.616089"><ele>731.2</ele></trkpt>
+      <trkpt lat="-23.542808" lon="-46.616576"><ele>730.1</ele></trkpt>
+      <trkpt lat="-23.542821" lon="-46.616599"><ele>730.1</ele></trkpt>
+      <trkpt lat="-23.542818" lon="-46.616623"><ele>730.1</ele></trkpt>
+      <trkpt lat="-23.542813" lon="-46.616651"><ele>730.1</ele></trkpt>
+      <trkpt lat="-23.542806" lon="-46.616676"><ele>730.1</ele></trkpt>
+      <trkpt lat="-23.542797" lon="-46.616696"><ele>730.1</ele></trkpt>
+      <trkpt lat="-23.542778" lon="-46.616711"><ele>730.1</ele></trkpt>
+      <trkpt lat="-23.542537" lon="-46.616881"><ele>731.1</ele></trkpt>
+      <trkpt lat="-23.542515" lon="-46.616898"><ele>731.1</ele></trkpt>
+      <trkpt lat="-23.542504" lon="-46.616902"><ele>731.1</ele></trkpt>
+      <trkpt lat="-23.542492" lon="-46.616898"><ele>731.1</ele></trkpt>
+      <trkpt lat="-23.542478" lon="-46.616892"><ele>731.1</ele></trkpt>
+      <trkpt lat="-23.542468" lon="-46.616881"><ele>731.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

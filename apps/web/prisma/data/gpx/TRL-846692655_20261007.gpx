@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Triha bambuzal</name>
+    <trkseg>
+      <trkpt lat="-23.335064" lon="-46.690213"><ele>740.5</ele></trkpt>
+      <trkpt lat="-23.335587" lon="-46.689770"><ele>751.8</ele></trkpt>
+      <trkpt lat="-23.335754" lon="-46.689073"><ele>768.3</ele></trkpt>
+      <trkpt lat="-23.336798" lon="-46.688901"><ele>776.4</ele></trkpt>
+      <trkpt lat="-23.337055" lon="-46.688601"><ele>772.6</ele></trkpt>
+      <trkpt lat="-23.336769" lon="-46.687614"><ele>774.8</ele></trkpt>
+      <trkpt lat="-23.336513" lon="-46.687539"><ele>770.9</ele></trkpt>
+      <trkpt lat="-23.336316" lon="-46.687292"><ele>774.8</ele></trkpt>
+      <trkpt lat="-23.334932" lon="-46.688245"><ele>765.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

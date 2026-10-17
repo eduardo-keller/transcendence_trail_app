@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Vicente Amato Sobrinho</name>
+    <trkseg>
+      <trkpt lat="-23.450523" lon="-46.741552"><ele>809.1</ele></trkpt>
+      <trkpt lat="-23.450923" lon="-46.741653"><ele>812.2</ele></trkpt>
+      <trkpt lat="-23.451140" lon="-46.741738"><ele>813.8</ele></trkpt>
+      <trkpt lat="-23.451411" lon="-46.741697"><ele>818.6</ele></trkpt>
+      <trkpt lat="-23.451760" lon="-46.741602"><ele>823.8</ele></trkpt>
+      <trkpt lat="-23.451995" lon="-46.741500"><ele>829.8</ele></trkpt>
+      <trkpt lat="-23.452288" lon="-46.741281"><ele>826.5</ele></trkpt>
+      <trkpt lat="-23.452527" lon="-46.741010"><ele>832.5</ele></trkpt>
+      <trkpt lat="-23.452825" lon="-46.740672"><ele>835.2</ele></trkpt>
+      <trkpt lat="-23.453184" lon="-46.740288"><ele>837.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

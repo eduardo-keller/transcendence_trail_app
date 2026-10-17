@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Valdir</name>
+    <trkseg>
+      <trkpt lat="-23.703182" lon="-46.637007"><ele>760.6</ele></trkpt>
+      <trkpt lat="-23.703218" lon="-46.637076"><ele>761.4</ele></trkpt>
+      <trkpt lat="-23.703251" lon="-46.637165"><ele>758.9</ele></trkpt>
+      <trkpt lat="-23.703206" lon="-46.637324"><ele>758.9</ele></trkpt>
+      <trkpt lat="-23.703211" lon="-46.637502"><ele>759.1</ele></trkpt>
+      <trkpt lat="-23.703228" lon="-46.637600"><ele>759.1</ele></trkpt>
+      <trkpt lat="-23.703271" lon="-46.637678"><ele>759.4</ele></trkpt>
+      <trkpt lat="-23.703289" lon="-46.637790"><ele>759.4</ele></trkpt>
+      <trkpt lat="-23.703277" lon="-46.637878"><ele>759.4</ele></trkpt>
+      <trkpt lat="-23.703258" lon="-46.637952"><ele>758.3</ele></trkpt>
+      <trkpt lat="-23.703254" lon="-46.638052"><ele>758.3</ele></trkpt>
+      <trkpt lat="-23.703352" lon="-46.638335"><ele>758.1</ele></trkpt>
+      <trkpt lat="-23.703361" lon="-46.638451"><ele>758.1</ele></trkpt>
+      <trkpt lat="-23.703408" lon="-46.638621"><ele>755.9</ele></trkpt>
+      <trkpt lat="-23.703468" lon="-46.638620"><ele>755.9</ele></trkpt>
+      <trkpt lat="-23.703468" lon="-46.638620"><ele>755.9</ele></trkpt>
+      <trkpt lat="-23.703533" lon="-46.638427"><ele>757.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

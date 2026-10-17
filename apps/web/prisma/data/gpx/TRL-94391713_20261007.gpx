@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Nicolau Costarelli</name>
+    <trkseg>
+      <trkpt lat="-23.589876" lon="-46.507834"><ele>761.8</ele></trkpt>
+      <trkpt lat="-23.590045" lon="-46.507950"><ele>761.9</ele></trkpt>
+      <trkpt lat="-23.590164" lon="-46.508028"><ele>762.6</ele></trkpt>
+      <trkpt lat="-23.590289" lon="-46.508106"><ele>762.6</ele></trkpt>
+      <trkpt lat="-23.590342" lon="-46.508149"><ele>762.6</ele></trkpt>
+      <trkpt lat="-23.590397" lon="-46.508201"><ele>763.7</ele></trkpt>
+      <trkpt lat="-23.590573" lon="-46.508389"><ele>764.5</ele></trkpt>
+      <trkpt lat="-23.590663" lon="-46.508502"><ele>765.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

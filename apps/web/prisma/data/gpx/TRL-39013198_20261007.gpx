@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela dos Bichinhos</name>
+    <trkseg>
+      <trkpt lat="-23.534303" lon="-46.694525"><ele>746.5</ele></trkpt>
+      <trkpt lat="-23.534283" lon="-46.694516"><ele>746.5</ele></trkpt>
+      <trkpt lat="-23.534263" lon="-46.694503"><ele>746.5</ele></trkpt>
+      <trkpt lat="-23.534195" lon="-46.694413"><ele>746.5</ele></trkpt>
+      <trkpt lat="-23.534144" lon="-46.694317"><ele>746.5</ele></trkpt>
+      <trkpt lat="-23.534128" lon="-46.694270"><ele>745.9</ele></trkpt>
+      <trkpt lat="-23.534111" lon="-46.694202"><ele>745.9</ele></trkpt>
+      <trkpt lat="-23.534023" lon="-46.693984"><ele>744.0</ele></trkpt>
+      <trkpt lat="-23.534003" lon="-46.693945"><ele>744.0</ele></trkpt>
+      <trkpt lat="-23.533926" lon="-46.693846"><ele>744.0</ele></trkpt>
+      <trkpt lat="-23.533819" lon="-46.693718"><ele>745.2</ele></trkpt>
+      <trkpt lat="-23.533779" lon="-46.693675"><ele>745.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

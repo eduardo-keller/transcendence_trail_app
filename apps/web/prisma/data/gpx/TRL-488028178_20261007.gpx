@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua José Pereira</name>
+    <trkseg>
+      <trkpt lat="-23.620140" lon="-46.415388"><ele>856.5</ele></trkpt>
+      <trkpt lat="-23.620137" lon="-46.415305"><ele>867.7</ele></trkpt>
+      <trkpt lat="-23.620113" lon="-46.415206"><ele>867.7</ele></trkpt>
+      <trkpt lat="-23.620037" lon="-46.415147"><ele>867.7</ele></trkpt>
+      <trkpt lat="-23.619899" lon="-46.415075"><ele>872.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

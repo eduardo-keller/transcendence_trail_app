@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Ponte do Centro Cultural Ayrton Senna</name>
+    <trkseg>
+      <trkpt lat="-23.707927" lon="-46.417520"><ele>749.7</ele></trkpt>
+      <trkpt lat="-23.708111" lon="-46.417461"><ele>749.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

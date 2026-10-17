@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Pedro da Costa Faleiro</name>
+    <trkseg>
+      <trkpt lat="-23.684400" lon="-46.747526"><ele>820.8</ele></trkpt>
+      <trkpt lat="-23.684445" lon="-46.747465"><ele>820.8</ele></trkpt>
+      <trkpt lat="-23.684456" lon="-46.747438"><ele>820.8</ele></trkpt>
+      <trkpt lat="-23.684513" lon="-46.747336"><ele>818.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

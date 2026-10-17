@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Madre Paulina</name>
+    <trkseg>
+      <trkpt lat="-23.442494" lon="-46.463405"><ele>788.8</ele></trkpt>
+      <trkpt lat="-23.442289" lon="-46.462868"><ele>791.5</ele></trkpt>
+      <trkpt lat="-23.442213" lon="-46.462900"><ele>791.5</ele></trkpt>
+      <trkpt lat="-23.442016" lon="-46.462442"><ele>787.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Pista da Raia</name>
+    <trkseg>
+      <trkpt lat="-23.559608" lon="-46.713508"><ele>727.0</ele></trkpt>
+      <trkpt lat="-23.559503" lon="-46.713948"><ele>723.2</ele></trkpt>
+      <trkpt lat="-23.558721" lon="-46.715614"><ele>721.5</ele></trkpt>
+      <trkpt lat="-23.556522" lon="-46.720014"><ele>719.0</ele></trkpt>
+      <trkpt lat="-23.555964" lon="-46.721173"><ele>719.7</ele></trkpt>
+      <trkpt lat="-23.555466" lon="-46.722210"><ele>723.3</ele></trkpt>
+      <trkpt lat="-23.555406" lon="-46.722451"><ele>721.2</ele></trkpt>
+      <trkpt lat="-23.554884" lon="-46.723474"><ele>726.1</ele></trkpt>
+      <trkpt lat="-23.554933" lon="-46.723518"><ele>726.1</ele></trkpt>
+      <trkpt lat="-23.554830" lon="-46.723715"><ele>723.9</ele></trkpt>
+      <trkpt lat="-23.554779" lon="-46.723690"><ele>723.9</ele></trkpt>
+      <trkpt lat="-23.554047" lon="-46.725189"><ele>726.2</ele></trkpt>
+      <trkpt lat="-23.551717" lon="-46.729919"><ele>720.5</ele></trkpt>
+      <trkpt lat="-23.550908" lon="-46.731562"><ele>720.4</ele></trkpt>
+      <trkpt lat="-23.550555" lon="-46.732279"><ele>722.6</ele></trkpt>
+      <trkpt lat="-23.550422" lon="-46.732362"><ele>723.4</ele></trkpt>
+      <trkpt lat="-23.550285" lon="-46.732348"><ele>720.9</ele></trkpt>
+      <trkpt lat="-23.549616" lon="-46.732050"><ele>719.6</ele></trkpt>
+      <trkpt lat="-23.549560" lon="-46.731965"><ele>721.3</ele></trkpt>
+      <trkpt lat="-23.549540" lon="-46.731850"><ele>721.3</ele></trkpt>
+      <trkpt lat="-23.558668" lon="-46.713235"><ele>721.4</ele></trkpt>
+      <trkpt lat="-23.558852" lon="-46.713068"><ele>722.8</ele></trkpt>
+      <trkpt lat="-23.559608" lon="-46.713508"><ele>727.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

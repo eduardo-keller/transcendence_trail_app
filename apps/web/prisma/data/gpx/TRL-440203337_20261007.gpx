@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua São Bento</name>
+    <trkseg>
+      <trkpt lat="-23.931357" lon="-46.333476"><ele>10.0</ele></trkpt>
+      <trkpt lat="-23.931363" lon="-46.333465"><ele>6.8</ele></trkpt>
+      <trkpt lat="-23.931372" lon="-46.333383"><ele>6.8</ele></trkpt>
+      <trkpt lat="-23.930981" lon="-46.333127"><ele>5.8</ele></trkpt>
+      <trkpt lat="-23.930965" lon="-46.333100"><ele>3.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

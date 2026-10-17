@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Carlópolis</name>
+    <trkseg>
+      <trkpt lat="-23.618845" lon="-46.728867"><ele>810.9</ele></trkpt>
+      <trkpt lat="-23.618834" lon="-46.728966"><ele>810.9</ele></trkpt>
+      <trkpt lat="-23.618839" lon="-46.729090"><ele>810.2</ele></trkpt>
+      <trkpt lat="-23.618903" lon="-46.729152"><ele>810.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

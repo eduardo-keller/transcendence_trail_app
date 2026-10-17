@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Thomas Linley</name>
+    <trkseg>
+      <trkpt lat="-23.684979" lon="-46.656429"><ele>775.1</ele></trkpt>
+      <trkpt lat="-23.685001" lon="-46.656395"><ele>775.1</ele></trkpt>
+      <trkpt lat="-23.685124" lon="-46.656341"><ele>775.1</ele></trkpt>
+      <trkpt lat="-23.685337" lon="-46.656296"><ele>777.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

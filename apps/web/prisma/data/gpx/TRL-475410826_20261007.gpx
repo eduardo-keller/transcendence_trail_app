@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela 13</name>
+    <trkseg>
+      <trkpt lat="-23.456742" lon="-46.352215"><ele>781.8</ele></trkpt>
+      <trkpt lat="-23.456787" lon="-46.351609"><ele>776.8</ele></trkpt>
+      <trkpt lat="-23.456818" lon="-46.351042"><ele>768.0</ele></trkpt>
+      <trkpt lat="-23.456851" lon="-46.350437"><ele>758.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Doutor Pedro Martinelli</name>
+    <trkseg>
+      <trkpt lat="-23.616752" lon="-46.616762"><ele>799.7</ele></trkpt>
+      <trkpt lat="-23.616373" lon="-46.615910"><ele>787.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

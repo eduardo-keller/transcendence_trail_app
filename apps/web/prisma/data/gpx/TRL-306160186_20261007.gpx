@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Estrada do Vergueiro</name>
+    <trkseg>
+      <trkpt lat="-23.764410" lon="-46.540106"><ele>753.8</ele></trkpt>
+      <trkpt lat="-23.764275" lon="-46.540017"><ele>755.2</ele></trkpt>
+      <trkpt lat="-23.763781" lon="-46.539740"><ele>756.4</ele></trkpt>
+      <trkpt lat="-23.763747" lon="-46.539705"><ele>757.0</ele></trkpt>
+      <trkpt lat="-23.763708" lon="-46.539625"><ele>757.0</ele></trkpt>
+      <trkpt lat="-23.763683" lon="-46.539544"><ele>754.3</ele></trkpt>
+      <trkpt lat="-23.763681" lon="-46.539455"><ele>754.3</ele></trkpt>
+      <trkpt lat="-23.763747" lon="-46.539244"><ele>753.4</ele></trkpt>
+      <trkpt lat="-23.763769" lon="-46.539168"><ele>752.7</ele></trkpt>
+      <trkpt lat="-23.763786" lon="-46.539048"><ele>752.7</ele></trkpt>
+      <trkpt lat="-23.763779" lon="-46.538935"><ele>758.8</ele></trkpt>
+      <trkpt lat="-23.763755" lon="-46.538836"><ele>758.8</ele></trkpt>
+      <trkpt lat="-23.763688" lon="-46.538630"><ele>762.4</ele></trkpt>
+      <trkpt lat="-23.763659" lon="-46.538490"><ele>762.4</ele></trkpt>
+      <trkpt lat="-23.763650" lon="-46.538396"><ele>767.8</ele></trkpt>
+      <trkpt lat="-23.763657" lon="-46.538320"><ele>767.8</ele></trkpt>
+      <trkpt lat="-23.763674" lon="-46.538246"><ele>767.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

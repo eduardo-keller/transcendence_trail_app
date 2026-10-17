@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Trilha da Nascente do Riacho Ipiranga</name>
+    <trkseg>
+      <trkpt lat="-23.639446" lon="-46.617675"><ele>795.5</ele></trkpt>
+      <trkpt lat="-23.639385" lon="-46.617381"><ele>797.7</ele></trkpt>
+      <trkpt lat="-23.639333" lon="-46.616880"><ele>802.5</ele></trkpt>
+      <trkpt lat="-23.639285" lon="-46.616386"><ele>800.1</ele></trkpt>
+      <trkpt lat="-23.639260" lon="-46.616109"><ele>801.9</ele></trkpt>
+      <trkpt lat="-23.639058" lon="-46.615877"><ele>804.8</ele></trkpt>
+      <trkpt lat="-23.639031" lon="-46.615575"><ele>811.4</ele></trkpt>
+      <trkpt lat="-23.639025" lon="-46.615389"><ele>806.8</ele></trkpt>
+      <trkpt lat="-23.639016" lon="-46.615229"><ele>806.8</ele></trkpt>
+      <trkpt lat="-23.638817" lon="-46.614841"><ele>811.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

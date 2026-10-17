@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Filomena da Conceição</name>
+    <trkseg>
+      <trkpt lat="-23.516441" lon="-46.759063"><ele>736.0</ele></trkpt>
+      <trkpt lat="-23.516447" lon="-46.758636"><ele>732.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

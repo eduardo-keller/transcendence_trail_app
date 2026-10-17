@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passagem 2</name>
+    <trkseg>
+      <trkpt lat="-23.529621" lon="-46.473199"><ele>814.7</ele></trkpt>
+      <trkpt lat="-23.529743" lon="-46.473918"><ele>813.1</ele></trkpt>
+      <trkpt lat="-23.529753" lon="-46.473975"><ele>813.1</ele></trkpt>
+      <trkpt lat="-23.529765" lon="-46.474046"><ele>808.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

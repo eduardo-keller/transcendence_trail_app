@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Forte Nassau</name>
+    <trkseg>
+      <trkpt lat="-23.503727" lon="-46.572361"><ele>755.3</ele></trkpt>
+      <trkpt lat="-23.503421" lon="-46.572589"><ele>755.5</ele></trkpt>
+      <trkpt lat="-23.503374" lon="-46.572623"><ele>755.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

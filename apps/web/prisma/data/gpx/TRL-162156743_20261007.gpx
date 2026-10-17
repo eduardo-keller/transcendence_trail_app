@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Olaria</name>
+    <trkseg>
+      <trkpt lat="-23.624530" lon="-46.748322"><ele>792.7</ele></trkpt>
+      <trkpt lat="-23.624340" lon="-46.748094"><ele>785.6</ele></trkpt>
+      <trkpt lat="-23.624195" lon="-46.747843"><ele>775.7</ele></trkpt>
+      <trkpt lat="-23.624082" lon="-46.747587"><ele>771.7</ele></trkpt>
+      <trkpt lat="-23.623819" lon="-46.747155"><ele>769.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

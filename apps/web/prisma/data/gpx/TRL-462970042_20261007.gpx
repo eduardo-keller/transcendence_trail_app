@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Corruiracu</name>
+    <trkseg>
+      <trkpt lat="-23.453900" lon="-46.683665"><ele>789.3</ele></trkpt>
+      <trkpt lat="-23.453992" lon="-46.683711"><ele>789.3</ele></trkpt>
+      <trkpt lat="-23.454050" lon="-46.683738"><ele>780.5</ele></trkpt>
+      <trkpt lat="-23.454128" lon="-46.683799"><ele>794.3</ele></trkpt>
+      <trkpt lat="-23.454231" lon="-46.683865"><ele>794.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

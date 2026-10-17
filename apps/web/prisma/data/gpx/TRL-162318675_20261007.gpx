@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passarela</name>
+    <trkseg>
+      <trkpt lat="-23.531104" lon="-46.761937"><ele>730.5</ele></trkpt>
+      <trkpt lat="-23.530935" lon="-46.761771"><ele>727.8</ele></trkpt>
+      <trkpt lat="-23.530922" lon="-46.761757"><ele>727.8</ele></trkpt>
+      <trkpt lat="-23.530913" lon="-46.761744"><ele>727.8</ele></trkpt>
+      <trkpt lat="-23.530908" lon="-46.761730"><ele>727.8</ele></trkpt>
+      <trkpt lat="-23.530903" lon="-46.761716"><ele>727.8</ele></trkpt>
+      <trkpt lat="-23.530903" lon="-46.761699"><ele>727.8</ele></trkpt>
+      <trkpt lat="-23.530907" lon="-46.761683"><ele>727.8</ele></trkpt>
+      <trkpt lat="-23.530915" lon="-46.761666"><ele>727.8</ele></trkpt>
+      <trkpt lat="-23.530923" lon="-46.761653"><ele>727.8</ele></trkpt>
+      <trkpt lat="-23.531160" lon="-46.761388"><ele>726.4</ele></trkpt>
+      <trkpt lat="-23.531989" lon="-46.760458"><ele>728.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

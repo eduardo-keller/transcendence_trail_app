@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Trilha das Águas</name>
+    <trkseg>
+      <trkpt lat="-23.419691" lon="-46.629346"><ele>1060.7</ele></trkpt>
+      <trkpt lat="-23.419622" lon="-46.629056"><ele>1056.6</ele></trkpt>
+      <trkpt lat="-23.419524" lon="-46.628863"><ele>1048.6</ele></trkpt>
+      <trkpt lat="-23.419376" lon="-46.628777"><ele>1048.6</ele></trkpt>
+      <trkpt lat="-23.419228" lon="-46.628960"><ele>1040.8</ele></trkpt>
+      <trkpt lat="-23.419012" lon="-46.629024"><ele>1035.3</ele></trkpt>
+    </trkseg>
+    <trkseg>
+      <trkpt lat="-23.419376" lon="-46.628777"><ele>1048.6</ele></trkpt>
+      <trkpt lat="-23.419412" lon="-46.628714"><ele>1052.8</ele></trkpt>
+      <trkpt lat="-23.419470" lon="-46.628650"><ele>1052.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Luigi Mancinelli</name>
+    <trkseg>
+      <trkpt lat="-23.710997" lon="-46.661132"><ele>773.5</ele></trkpt>
+      <trkpt lat="-23.711002" lon="-46.661219"><ele>773.5</ele></trkpt>
+      <trkpt lat="-23.711008" lon="-46.661235"><ele>773.5</ele></trkpt>
+      <trkpt lat="-23.711181" lon="-46.661476"><ele>770.3</ele></trkpt>
+      <trkpt lat="-23.711203" lon="-46.661500"><ele>770.3</ele></trkpt>
+      <trkpt lat="-23.711348" lon="-46.661630"><ele>758.5</ele></trkpt>
+      <trkpt lat="-23.711366" lon="-46.661650"><ele>758.5</ele></trkpt>
+      <trkpt lat="-23.711426" lon="-46.661715"><ele>758.5</ele></trkpt>
+      <trkpt lat="-23.711458" lon="-46.661750"><ele>758.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

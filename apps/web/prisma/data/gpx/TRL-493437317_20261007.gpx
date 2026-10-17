@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Juazeiro</name>
+    <trkseg>
+      <trkpt lat="-23.415208" lon="-46.430068"><ele>747.3</ele></trkpt>
+      <trkpt lat="-23.414522" lon="-46.430256"><ele>747.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

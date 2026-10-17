@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Sem Denominação</name>
+    <trkseg>
+      <trkpt lat="-23.120098" lon="-46.942320"><ele>706.7</ele></trkpt>
+      <trkpt lat="-23.119843" lon="-46.942368"><ele>706.6</ele></trkpt>
+      <trkpt lat="-23.119791" lon="-46.942372"><ele>706.6</ele></trkpt>
+      <trkpt lat="-23.119756" lon="-46.942346"><ele>711.8</ele></trkpt>
+      <trkpt lat="-23.119705" lon="-46.942285"><ele>711.8</ele></trkpt>
+      <trkpt lat="-23.119663" lon="-46.942178"><ele>711.8</ele></trkpt>
+      <trkpt lat="-23.119643" lon="-46.942126"><ele>711.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

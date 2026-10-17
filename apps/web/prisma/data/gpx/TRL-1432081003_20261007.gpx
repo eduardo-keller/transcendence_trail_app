@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Trilha Itaim Interparques</name>
+    <trkseg>
+      <trkpt lat="-23.804684" lon="-46.692846"><ele>822.2</ele></trkpt>
+      <trkpt lat="-23.804611" lon="-46.692557"><ele>826.3</ele></trkpt>
+      <trkpt lat="-23.804909" lon="-46.692585"><ele>822.3</ele></trkpt>
+      <trkpt lat="-23.804814" lon="-46.692217"><ele>827.6</ele></trkpt>
+      <trkpt lat="-23.804529" lon="-46.691675"><ele>827.0</ele></trkpt>
+      <trkpt lat="-23.804090" lon="-46.691251"><ele>828.7</ele></trkpt>
+      <trkpt lat="-23.804053" lon="-46.691064"><ele>830.6</ele></trkpt>
+      <trkpt lat="-23.803790" lon="-46.690801"><ele>836.8</ele></trkpt>
+      <trkpt lat="-23.803938" lon="-46.690200"><ele>843.6</ele></trkpt>
+      <trkpt lat="-23.804178" lon="-46.690184"><ele>839.5</ele></trkpt>
+      <trkpt lat="-23.804654" lon="-46.690227"><ele>832.4</ele></trkpt>
+      <trkpt lat="-23.805074" lon="-46.690345"><ele>826.8</ele></trkpt>
+      <trkpt lat="-23.805574" lon="-46.689822"><ele>809.8</ele></trkpt>
+      <trkpt lat="-23.805898" lon="-46.689481"><ele>801.3</ele></trkpt>
+      <trkpt lat="-23.806092" lon="-46.688603"><ele>781.1</ele></trkpt>
+      <trkpt lat="-23.806097" lon="-46.687869"><ele>787.7</ele></trkpt>
+      <trkpt lat="-23.806188" lon="-46.687132"><ele>783.9</ele></trkpt>
+      <trkpt lat="-23.806127" lon="-46.686306"><ele>787.1</ele></trkpt>
+      <trkpt lat="-23.806031" lon="-46.685630"><ele>788.3</ele></trkpt>
+      <trkpt lat="-23.806306" lon="-46.684514"><ele>777.3</ele></trkpt>
+      <trkpt lat="-23.806308" lon="-46.684289"><ele>772.7</ele></trkpt>
+      <trkpt lat="-23.806213" lon="-46.683945"><ele>773.2</ele></trkpt>
+      <trkpt lat="-23.806394" lon="-46.682985"><ele>770.1</ele></trkpt>
+      <trkpt lat="-23.805776" lon="-46.681040"><ele>774.3</ele></trkpt>
+      <trkpt lat="-23.805520" lon="-46.680741"><ele>776.7</ele></trkpt>
+      <trkpt lat="-23.805550" lon="-46.680619"><ele>772.4</ele></trkpt>
+      <trkpt lat="-23.805821" lon="-46.680614"><ele>764.7</ele></trkpt>
+      <trkpt lat="-23.806183" lon="-46.680499"><ele>764.2</ele></trkpt>
+      <trkpt lat="-23.805783" lon="-46.679892"><ele>771.5</ele></trkpt>
+      <trkpt lat="-23.805307" lon="-46.679611"><ele>765.1</ele></trkpt>
+      <trkpt lat="-23.804902" lon="-46.679265"><ele>769.0</ele></trkpt>
+      <trkpt lat="-23.804581" lon="-46.678915"><ele>770.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

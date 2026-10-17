@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa nova esperança</name>
+    <trkseg>
+      <trkpt lat="-23.660081" lon="-46.748743"><ele>787.3</ele></trkpt>
+      <trkpt lat="-23.660065" lon="-46.748678"><ele>787.3</ele></trkpt>
+      <trkpt lat="-23.660046" lon="-46.748626"><ele>787.3</ele></trkpt>
+      <trkpt lat="-23.660041" lon="-46.748610"><ele>787.3</ele></trkpt>
+      <trkpt lat="-23.660035" lon="-46.748598"><ele>787.3</ele></trkpt>
+      <trkpt lat="-23.660121" lon="-46.748563"><ele>787.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Sete</name>
+    <trkseg>
+      <trkpt lat="-23.693447" lon="-46.664817"><ele>778.5</ele></trkpt>
+      <trkpt lat="-23.693209" lon="-46.665447"><ele>785.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

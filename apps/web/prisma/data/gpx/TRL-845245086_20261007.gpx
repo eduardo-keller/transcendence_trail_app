@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Estrada do Agricultor</name>
+    <trkseg>
+      <trkpt lat="-23.488830" lon="-46.968793"><ele>1011.2</ele></trkpt>
+      <trkpt lat="-23.488855" lon="-46.968822"><ele>1011.2</ele></trkpt>
+      <trkpt lat="-23.488883" lon="-46.968858"><ele>1011.2</ele></trkpt>
+      <trkpt lat="-23.488910" lon="-46.968881"><ele>1011.2</ele></trkpt>
+      <trkpt lat="-23.488937" lon="-46.968896"><ele>1011.2</ele></trkpt>
+      <trkpt lat="-23.488971" lon="-46.968907"><ele>1011.2</ele></trkpt>
+      <trkpt lat="-23.489011" lon="-46.968910"><ele>1011.2</ele></trkpt>
+      <trkpt lat="-23.489061" lon="-46.968905"><ele>1012.3</ele></trkpt>
+      <trkpt lat="-23.489119" lon="-46.968891"><ele>1012.3</ele></trkpt>
+      <trkpt lat="-23.489397" lon="-46.968786"><ele>1017.8</ele></trkpt>
+      <trkpt lat="-23.489451" lon="-46.968774"><ele>1017.8</ele></trkpt>
+      <trkpt lat="-23.489503" lon="-46.968768"><ele>1017.8</ele></trkpt>
+      <trkpt lat="-23.489550" lon="-46.968770"><ele>1017.8</ele></trkpt>
+      <trkpt lat="-23.489613" lon="-46.968785"><ele>1023.5</ele></trkpt>
+      <trkpt lat="-23.489986" lon="-46.968927"><ele>1027.7</ele></trkpt>
+      <trkpt lat="-23.490226" lon="-46.969040"><ele>1030.2</ele></trkpt>
+      <trkpt lat="-23.490283" lon="-46.969053"><ele>1030.2</ele></trkpt>
+      <trkpt lat="-23.490318" lon="-46.969052"><ele>1030.2</ele></trkpt>
+      <trkpt lat="-23.490342" lon="-46.969044"><ele>1030.2</ele></trkpt>
+      <trkpt lat="-23.490367" lon="-46.969028"><ele>1030.2</ele></trkpt>
+      <trkpt lat="-23.490399" lon="-46.969003"><ele>1029.6</ele></trkpt>
+      <trkpt lat="-23.490431" lon="-46.968979"><ele>1026.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

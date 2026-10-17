@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Independência</name>
+    <trkseg>
+      <trkpt lat="-23.479201" lon="-46.496392"><ele>727.7</ele></trkpt>
+      <trkpt lat="-23.479188" lon="-46.496355"><ele>727.7</ele></trkpt>
+      <trkpt lat="-23.479191" lon="-46.496332"><ele>727.7</ele></trkpt>
+      <trkpt lat="-23.479286" lon="-46.496286"><ele>727.7</ele></trkpt>
+      <trkpt lat="-23.479191" lon="-46.496332"><ele>727.7</ele></trkpt>
+      <trkpt lat="-23.479088" lon="-46.496383"><ele>727.7</ele></trkpt>
+      <trkpt lat="-23.478800" lon="-46.496448"><ele>728.3</ele></trkpt>
+      <trkpt lat="-23.478464" lon="-46.496506"><ele>726.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

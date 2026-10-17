@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Potiguara</name>
+    <trkseg>
+      <trkpt lat="-23.448681" lon="-46.415149"><ele>780.3</ele></trkpt>
+      <trkpt lat="-23.448073" lon="-46.415240"><ele>792.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

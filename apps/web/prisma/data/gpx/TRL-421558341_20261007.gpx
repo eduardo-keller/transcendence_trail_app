@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passagem Pedro de Ataíde</name>
+    <trkseg>
+      <trkpt lat="-23.529132" lon="-46.349585"><ele>743.7</ele></trkpt>
+      <trkpt lat="-23.529166" lon="-46.349637"><ele>743.7</ele></trkpt>
+      <trkpt lat="-23.529193" lon="-46.349623"><ele>743.7</ele></trkpt>
+      <trkpt lat="-23.529068" lon="-46.349428"><ele>745.3</ele></trkpt>
+      <trkpt lat="-23.529043" lon="-46.349448"><ele>745.3</ele></trkpt>
+      <trkpt lat="-23.529092" lon="-46.349534"><ele>745.3</ele></trkpt>
+      <trkpt lat="-23.528567" lon="-46.349914"><ele>743.0</ele></trkpt>
+      <trkpt lat="-23.528630" lon="-46.350017"><ele>743.0</ele></trkpt>
+      <trkpt lat="-23.528603" lon="-46.350035"><ele>743.0</ele></trkpt>
+      <trkpt lat="-23.528489" lon="-46.349846"><ele>744.8</ele></trkpt>
+      <trkpt lat="-23.528514" lon="-46.349827"><ele>744.8</ele></trkpt>
+      <trkpt lat="-23.528555" lon="-46.349893"><ele>743.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

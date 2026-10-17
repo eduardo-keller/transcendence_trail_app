@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Tito Cerne</name>
+    <trkseg>
+      <trkpt lat="-23.482274" lon="-46.570515"><ele>738.4</ele></trkpt>
+      <trkpt lat="-23.482393" lon="-46.570783"><ele>737.2</ele></trkpt>
+      <trkpt lat="-23.482422" lon="-46.570848"><ele>737.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

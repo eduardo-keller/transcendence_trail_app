@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Estrada Horto Florestal</name>
+    <trkseg>
+      <trkpt lat="-23.461774" lon="-46.636590"><ele>795.3</ele></trkpt>
+      <trkpt lat="-23.461821" lon="-46.636530"><ele>808.6</ele></trkpt>
+      <trkpt lat="-23.461842" lon="-46.636503"><ele>808.4</ele></trkpt>
+      <trkpt lat="-23.461887" lon="-46.636446"><ele>808.4</ele></trkpt>
+      <trkpt lat="-23.461910" lon="-46.636417"><ele>808.4</ele></trkpt>
+      <trkpt lat="-23.461933" lon="-46.636394"><ele>808.4</ele></trkpt>
+      <trkpt lat="-23.461973" lon="-46.636354"><ele>808.4</ele></trkpt>
+      <trkpt lat="-23.462051" lon="-46.636278"><ele>808.4</ele></trkpt>
+      <trkpt lat="-23.462078" lon="-46.636252"><ele>808.4</ele></trkpt>
+      <trkpt lat="-23.462145" lon="-46.636214"><ele>808.5</ele></trkpt>
+      <trkpt lat="-23.462213" lon="-46.636176"><ele>808.5</ele></trkpt>
+      <trkpt lat="-23.462339" lon="-46.636105"><ele>808.5</ele></trkpt>
+      <trkpt lat="-23.462370" lon="-46.636088"><ele>811.4</ele></trkpt>
+      <trkpt lat="-23.462423" lon="-46.636097"><ele>811.4</ele></trkpt>
+      <trkpt lat="-23.462516" lon="-46.636113"><ele>811.4</ele></trkpt>
+      <trkpt lat="-23.462670" lon="-46.636138"><ele>814.5</ele></trkpt>
+      <trkpt lat="-23.462759" lon="-46.636178"><ele>814.5</ele></trkpt>
+      <trkpt lat="-23.462932" lon="-46.636257"><ele>816.3</ele></trkpt>
+      <trkpt lat="-23.463003" lon="-46.636290"><ele>816.3</ele></trkpt>
+      <trkpt lat="-23.463313" lon="-46.636491"><ele>814.3</ele></trkpt>
+      <trkpt lat="-23.463401" lon="-46.636549"><ele>819.9</ele></trkpt>
+      <trkpt lat="-23.463902" lon="-46.636869"><ele>814.2</ele></trkpt>
+      <trkpt lat="-23.463969" lon="-46.636912"><ele>814.2</ele></trkpt>
+      <trkpt lat="-23.464031" lon="-46.636952"><ele>810.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

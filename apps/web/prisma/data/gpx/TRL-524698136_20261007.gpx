@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Agostinho Moreira de Azevedo</name>
+    <trkseg>
+      <trkpt lat="-23.704112" lon="-46.803759"><ele>796.8</ele></trkpt>
+      <trkpt lat="-23.704245" lon="-46.803204"><ele>810.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

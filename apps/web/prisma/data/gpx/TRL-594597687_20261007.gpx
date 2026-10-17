@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Baguari</name>
+    <trkseg>
+      <trkpt lat="-23.605945" lon="-46.729308"><ele>765.4</ele></trkpt>
+      <trkpt lat="-23.605808" lon="-46.729254"><ele>768.5</ele></trkpt>
+      <trkpt lat="-23.605793" lon="-46.729208"><ele>768.5</ele></trkpt>
+      <trkpt lat="-23.605773" lon="-46.729072"><ele>768.5</ele></trkpt>
+      <trkpt lat="-23.605756" lon="-46.728980"><ele>773.3</ele></trkpt>
+      <trkpt lat="-23.605835" lon="-46.728929"><ele>773.3</ele></trkpt>
+      <trkpt lat="-23.605891" lon="-46.728854"><ele>773.3</ele></trkpt>
+      <trkpt lat="-23.605948" lon="-46.728795"><ele>773.3</ele></trkpt>
+      <trkpt lat="-23.606112" lon="-46.728693"><ele>776.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

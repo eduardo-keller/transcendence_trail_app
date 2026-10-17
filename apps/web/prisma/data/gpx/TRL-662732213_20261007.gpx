@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Antônio Moraes</name>
+    <trkseg>
+      <trkpt lat="-23.542961" lon="-46.771833"><ele>737.7</ele></trkpt>
+      <trkpt lat="-23.542709" lon="-46.772164"><ele>729.5</ele></trkpt>
+      <trkpt lat="-23.542595" lon="-46.772184"><ele>729.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

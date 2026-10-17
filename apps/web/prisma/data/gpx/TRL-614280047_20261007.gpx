@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Avenida Hélio Lobo</name>
+    <trkseg>
+      <trkpt lat="-23.639960" lon="-46.653317"><ele>756.5</ele></trkpt>
+      <trkpt lat="-23.639742" lon="-46.652888"><ele>756.7</ele></trkpt>
+      <trkpt lat="-23.639677" lon="-46.652710"><ele>756.7</ele></trkpt>
+      <trkpt lat="-23.639605" lon="-46.652420"><ele>758.1</ele></trkpt>
+      <trkpt lat="-23.639586" lon="-46.652295"><ele>756.3</ele></trkpt>
+      <trkpt lat="-23.639560" lon="-46.651959"><ele>759.3</ele></trkpt>
+      <trkpt lat="-23.639532" lon="-46.651757"><ele>758.9</ele></trkpt>
+      <trkpt lat="-23.639406" lon="-46.651652"><ele>758.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

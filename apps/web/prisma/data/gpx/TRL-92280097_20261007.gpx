@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Tupi</name>
+    <trkseg>
+      <trkpt lat="-23.720732" lon="-46.320623"><ele>807.2</ele></trkpt>
+      <trkpt lat="-23.720938" lon="-46.321092"><ele>809.4</ele></trkpt>
+      <trkpt lat="-23.721029" lon="-46.321554"><ele>821.0</ele></trkpt>
+      <trkpt lat="-23.721093" lon="-46.322066"><ele>822.9</ele></trkpt>
+      <trkpt lat="-23.721071" lon="-46.322308"><ele>830.0</ele></trkpt>
+      <trkpt lat="-23.720547" lon="-46.323657"><ele>831.2</ele></trkpt>
+      <trkpt lat="-23.720390" lon="-46.324185"><ele>837.1</ele></trkpt>
+      <trkpt lat="-23.720479" lon="-46.324362"><ele>852.8</ele></trkpt>
+      <trkpt lat="-23.720572" lon="-46.324451"><ele>852.8</ele></trkpt>
+      <trkpt lat="-23.721225" lon="-46.325060"><ele>858.8</ele></trkpt>
+      <trkpt lat="-23.721407" lon="-46.325317"><ele>850.5</ele></trkpt>
+      <trkpt lat="-23.721625" lon="-46.325553"><ele>839.4</ele></trkpt>
+      <trkpt lat="-23.721940" lon="-46.325953"><ele>828.0</ele></trkpt>
+      <trkpt lat="-23.722092" lon="-46.326248"><ele>829.4</ele></trkpt>
+      <trkpt lat="-23.722280" lon="-46.326842"><ele>851.0</ele></trkpt>
+      <trkpt lat="-23.722409" lon="-46.326894"><ele>858.8</ele></trkpt>
+      <trkpt lat="-23.722556" lon="-46.326894"><ele>858.8</ele></trkpt>
+      <trkpt lat="-23.722910" lon="-46.326857"><ele>859.3</ele></trkpt>
+      <trkpt lat="-23.723394" lon="-46.326841"><ele>854.6</ele></trkpt>
+      <trkpt lat="-23.723892" lon="-46.326902"><ele>845.1</ele></trkpt>
+      <trkpt lat="-23.724405" lon="-46.327042"><ele>845.4</ele></trkpt>
+      <trkpt lat="-23.724545" lon="-46.327133"><ele>840.4</ele></trkpt>
+      <trkpt lat="-23.724670" lon="-46.327304"><ele>836.6</ele></trkpt>
+      <trkpt lat="-23.725017" lon="-46.328203"><ele>833.1</ele></trkpt>
+      <trkpt lat="-23.725287" lon="-46.329003"><ele>838.8</ele></trkpt>
+      <trkpt lat="-23.725429" lon="-46.329244"><ele>840.5</ele></trkpt>
+      <trkpt lat="-23.725645" lon="-46.329298"><ele>840.5</ele></trkpt>
+      <trkpt lat="-23.725906" lon="-46.329174"><ele>839.0</ele></trkpt>
+      <trkpt lat="-23.726043" lon="-46.329029"><ele>833.4</ele></trkpt>
+      <trkpt lat="-23.726456" lon="-46.328310"><ele>839.9</ele></trkpt>
+      <trkpt lat="-23.726944" lon="-46.328144"><ele>839.1</ele></trkpt>
+      <trkpt lat="-23.727084" lon="-46.328123"><ele>843.8</ele></trkpt>
+      <trkpt lat="-23.727327" lon="-46.328149"><ele>843.8</ele></trkpt>
+      <trkpt lat="-23.727357" lon="-46.328428"><ele>839.6</ele></trkpt>
+      <trkpt lat="-23.727332" lon="-46.328587"><ele>837.4</ele></trkpt>
+      <trkpt lat="-23.727143" lon="-46.329085"><ele>841.9</ele></trkpt>
+      <trkpt lat="-23.727124" lon="-46.329225"><ele>841.9</ele></trkpt>
+      <trkpt lat="-23.727131" lon="-46.329402"><ele>842.3</ele></trkpt>
+      <trkpt lat="-23.727281" lon="-46.329845"><ele>837.9</ele></trkpt>
+      <trkpt lat="-23.727295" lon="-46.330215"><ele>832.9</ele></trkpt>
+      <trkpt lat="-23.727153" lon="-46.330526"><ele>839.1</ele></trkpt>
+      <trkpt lat="-23.727016" lon="-46.330641"><ele>835.9</ele></trkpt>
+      <trkpt lat="-23.726809" lon="-46.330730"><ele>848.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

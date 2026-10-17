@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Estrada R2304</name>
+    <trkseg>
+      <trkpt lat="-23.795759" lon="-46.587285"><ele>762.1</ele></trkpt>
+      <trkpt lat="-23.796041" lon="-46.586926"><ele>769.3</ele></trkpt>
+      <trkpt lat="-23.796149" lon="-46.586766"><ele>770.7</ele></trkpt>
+      <trkpt lat="-23.796291" lon="-46.586701"><ele>772.9</ele></trkpt>
+      <trkpt lat="-23.796369" lon="-46.586578"><ele>772.9</ele></trkpt>
+      <trkpt lat="-23.796541" lon="-46.586358"><ele>774.3</ele></trkpt>
+      <trkpt lat="-23.796698" lon="-46.586245"><ele>771.8</ele></trkpt>
+      <trkpt lat="-23.796890" lon="-46.586133"><ele>773.1</ele></trkpt>
+      <trkpt lat="-23.797007" lon="-46.586111"><ele>773.1</ele></trkpt>
+      <trkpt lat="-23.797165" lon="-46.586127"><ele>773.2</ele></trkpt>
+      <trkpt lat="-23.797287" lon="-46.586143"><ele>773.2</ele></trkpt>
+      <trkpt lat="-23.797410" lon="-46.586154"><ele>774.7</ele></trkpt>
+      <trkpt lat="-23.797508" lon="-46.586159"><ele>774.7</ele></trkpt>
+      <trkpt lat="-23.797597" lon="-46.586170"><ele>774.7</ele></trkpt>
+      <trkpt lat="-23.797704" lon="-46.586235"><ele>776.8</ele></trkpt>
+      <trkpt lat="-23.797850" lon="-46.586577"><ele>779.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

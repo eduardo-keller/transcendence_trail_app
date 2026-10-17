@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Largo da Concórdia</name>
+    <trkseg>
+      <trkpt lat="-23.541694" lon="-46.616456"><ele>737.7</ele></trkpt>
+      <trkpt lat="-23.541427" lon="-46.616639"><ele>733.4</ele></trkpt>
+      <trkpt lat="-23.541415" lon="-46.616647"><ele>733.4</ele></trkpt>
+      <trkpt lat="-23.541410" lon="-46.616667"><ele>733.4</ele></trkpt>
+      <trkpt lat="-23.541407" lon="-46.616695"><ele>733.4</ele></trkpt>
+      <trkpt lat="-23.541413" lon="-46.616704"><ele>733.4</ele></trkpt>
+      <trkpt lat="-23.541577" lon="-46.616983"><ele>730.7</ele></trkpt>
+      <trkpt lat="-23.541706" lon="-46.617204"><ele>733.1</ele></trkpt>
+      <trkpt lat="-23.541734" lon="-46.617230"><ele>733.1</ele></trkpt>
+      <trkpt lat="-23.541743" lon="-46.617238"><ele>733.1</ele></trkpt>
+      <trkpt lat="-23.541784" lon="-46.617252"><ele>733.1</ele></trkpt>
+      <trkpt lat="-23.541822" lon="-46.617241"><ele>730.8</ele></trkpt>
+      <trkpt lat="-23.541860" lon="-46.617220"><ele>730.8</ele></trkpt>
+      <trkpt lat="-23.542238" lon="-46.616929"><ele>731.8</ele></trkpt>
+      <trkpt lat="-23.542261" lon="-46.616896"><ele>731.8</ele></trkpt>
+      <trkpt lat="-23.542260" lon="-46.616870"><ele>731.8</ele></trkpt>
+      <trkpt lat="-23.542254" lon="-46.616860"><ele>731.8</ele></trkpt>
+      <trkpt lat="-23.542119" lon="-46.616652"><ele>730.3</ele></trkpt>
+      <trkpt lat="-23.542167" lon="-46.616433"><ele>730.8</ele></trkpt>
+      <trkpt lat="-23.542215" lon="-46.616399"><ele>730.8</ele></trkpt>
+      <trkpt lat="-23.542255" lon="-46.616253"><ele>730.8</ele></trkpt>
+      <trkpt lat="-23.542258" lon="-46.616194"><ele>731.1</ele></trkpt>
+      <trkpt lat="-23.542256" lon="-46.616168"><ele>731.1</ele></trkpt>
+      <trkpt lat="-23.542244" lon="-46.616152"><ele>731.1</ele></trkpt>
+      <trkpt lat="-23.542218" lon="-46.616128"><ele>731.1</ele></trkpt>
+      <trkpt lat="-23.542188" lon="-46.616122"><ele>731.1</ele></trkpt>
+      <trkpt lat="-23.542151" lon="-46.616119"><ele>731.1</ele></trkpt>
+      <trkpt lat="-23.541958" lon="-46.616261"><ele>732.3</ele></trkpt>
+      <trkpt lat="-23.541694" lon="-46.616456"><ele>737.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Instrumentistas</name>
+    <trkseg>
+      <trkpt lat="-23.652344" lon="-46.683366"><ele>788.8</ele></trkpt>
+      <trkpt lat="-23.652379" lon="-46.683233"><ele>786.0</ele></trkpt>
+      <trkpt lat="-23.652487" lon="-46.682866"><ele>792.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

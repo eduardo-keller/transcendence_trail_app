@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Via de Pedestre Eustáquio Bambini</name>
+    <trkseg>
+      <trkpt lat="-23.733075" lon="-46.707513"><ele>787.5</ele></trkpt>
+      <trkpt lat="-23.733050" lon="-46.707465"><ele>787.5</ele></trkpt>
+      <trkpt lat="-23.733014" lon="-46.707408"><ele>787.5</ele></trkpt>
+      <trkpt lat="-23.732983" lon="-46.707348"><ele>783.0</ele></trkpt>
+      <trkpt lat="-23.732947" lon="-46.707279"><ele>783.0</ele></trkpt>
+      <trkpt lat="-23.732914" lon="-46.707216"><ele>785.3</ele></trkpt>
+      <trkpt lat="-23.732890" lon="-46.707165"><ele>785.3</ele></trkpt>
+      <trkpt lat="-23.732880" lon="-46.707130"><ele>785.3</ele></trkpt>
+      <trkpt lat="-23.732872" lon="-46.707096"><ele>785.3</ele></trkpt>
+      <trkpt lat="-23.732864" lon="-46.707047"><ele>781.7</ele></trkpt>
+      <trkpt lat="-23.732857" lon="-46.706989"><ele>781.7</ele></trkpt>
+      <trkpt lat="-23.732857" lon="-46.706936"><ele>781.7</ele></trkpt>
+      <trkpt lat="-23.732855" lon="-46.706875"><ele>781.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Manoel Tarnovschi</name>
+    <trkseg>
+      <trkpt lat="-23.465069" lon="-46.615405"><ele>782.3</ele></trkpt>
+      <trkpt lat="-23.465123" lon="-46.615311"><ele>782.3</ele></trkpt>
+      <trkpt lat="-23.465189" lon="-46.615235"><ele>782.3</ele></trkpt>
+      <trkpt lat="-23.465276" lon="-46.615159"><ele>782.3</ele></trkpt>
+      <trkpt lat="-23.465359" lon="-46.615088"><ele>779.6</ele></trkpt>
+      <trkpt lat="-23.465456" lon="-46.615039"><ele>772.7</ele></trkpt>
+      <trkpt lat="-23.465511" lon="-46.615018"><ele>772.7</ele></trkpt>
+      <trkpt lat="-23.465582" lon="-46.615009"><ele>772.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

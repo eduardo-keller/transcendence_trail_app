@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Vento e Ramagens</name>
+    <trkseg>
+      <trkpt lat="-23.871920" lon="-46.769599"><ele>759.1</ele></trkpt>
+      <trkpt lat="-23.872107" lon="-46.769648"><ele>757.4</ele></trkpt>
+      <trkpt lat="-23.872166" lon="-46.769669"><ele>757.4</ele></trkpt>
+      <trkpt lat="-23.872240" lon="-46.769711"><ele>757.4</ele></trkpt>
+      <trkpt lat="-23.872401" lon="-46.769843"><ele>754.2</ele></trkpt>
+      <trkpt lat="-23.872518" lon="-46.769950"><ele>757.8</ele></trkpt>
+      <trkpt lat="-23.872627" lon="-46.770021"><ele>757.8</ele></trkpt>
+      <trkpt lat="-23.872712" lon="-46.770079"><ele>753.4</ele></trkpt>
+      <trkpt lat="-23.872778" lon="-46.770138"><ele>753.4</ele></trkpt>
+      <trkpt lat="-23.872812" lon="-46.770184"><ele>756.0</ele></trkpt>
+      <trkpt lat="-23.872890" lon="-46.770359"><ele>756.0</ele></trkpt>
+      <trkpt lat="-23.873111" lon="-46.770985"><ele>756.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

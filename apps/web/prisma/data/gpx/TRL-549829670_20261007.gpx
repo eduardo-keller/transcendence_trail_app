@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Doze</name>
+    <trkseg>
+      <trkpt lat="-23.505176" lon="-46.529314"><ele>783.3</ele></trkpt>
+      <trkpt lat="-23.505175" lon="-46.529243"><ele>782.4</ele></trkpt>
+      <trkpt lat="-23.505168" lon="-46.528675"><ele>771.3</ele></trkpt>
+      <trkpt lat="-23.505165" lon="-46.528647"><ele>771.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

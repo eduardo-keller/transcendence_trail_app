@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Pialina</name>
+    <trkseg>
+      <trkpt lat="-23.498832" lon="-46.342604"><ele>774.4</ele></trkpt>
+      <trkpt lat="-23.499143" lon="-46.342527"><ele>769.5</ele></trkpt>
+      <trkpt lat="-23.499233" lon="-46.342518"><ele>769.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

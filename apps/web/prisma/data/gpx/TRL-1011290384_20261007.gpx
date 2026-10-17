@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Cândida Alberto Trujillo</name>
+    <trkseg>
+      <trkpt lat="-23.516465" lon="-47.077430"><ele>825.4</ele></trkpt>
+      <trkpt lat="-23.516709" lon="-47.077413"><ele>828.7</ele></trkpt>
+      <trkpt lat="-23.517063" lon="-47.077327"><ele>832.8</ele></trkpt>
+      <trkpt lat="-23.517394" lon="-47.077535"><ele>847.2</ele></trkpt>
+      <trkpt lat="-23.517709" lon="-47.077600"><ele>853.6</ele></trkpt>
+      <trkpt lat="-23.518093" lon="-47.077730"><ele>863.7</ele></trkpt>
+      <trkpt lat="-23.518771" lon="-47.077916"><ele>880.7</ele></trkpt>
+      <trkpt lat="-23.519411" lon="-47.078233"><ele>894.9</ele></trkpt>
+      <trkpt lat="-23.519800" lon="-47.078417"><ele>900.1</ele></trkpt>
+      <trkpt lat="-23.520340" lon="-47.078673"><ele>913.9</ele></trkpt>
+      <trkpt lat="-23.520768" lon="-47.078771"><ele>928.0</ele></trkpt>
+      <trkpt lat="-23.521280" lon="-47.078791"><ele>938.6</ele></trkpt>
+      <trkpt lat="-23.521627" lon="-47.078786"><ele>944.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

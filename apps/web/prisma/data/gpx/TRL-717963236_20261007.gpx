@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Padre Andrade Duquet</name>
+    <trkseg>
+      <trkpt lat="-23.455392" lon="-46.607433"><ele>802.7</ele></trkpt>
+      <trkpt lat="-23.455456" lon="-46.607610"><ele>790.7</ele></trkpt>
+      <trkpt lat="-23.455510" lon="-46.607912"><ele>801.5</ele></trkpt>
+      <trkpt lat="-23.455452" lon="-46.608028"><ele>807.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

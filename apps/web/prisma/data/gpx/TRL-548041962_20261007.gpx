@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Praça Poco Grande</name>
+    <trkseg>
+      <trkpt lat="-23.760274" lon="-46.666512"><ele>771.3</ele></trkpt>
+      <trkpt lat="-23.760171" lon="-46.666504"><ele>771.3</ele></trkpt>
+      <trkpt lat="-23.760128" lon="-46.666471"><ele>775.3</ele></trkpt>
+      <trkpt lat="-23.760112" lon="-46.666398"><ele>775.3</ele></trkpt>
+      <trkpt lat="-23.760113" lon="-46.666331"><ele>775.3</ele></trkpt>
+      <trkpt lat="-23.760144" lon="-46.666298"><ele>771.3</ele></trkpt>
+      <trkpt lat="-23.760198" lon="-46.666270"><ele>771.3</ele></trkpt>
+      <trkpt lat="-23.760238" lon="-46.666258"><ele>771.3</ele></trkpt>
+      <trkpt lat="-23.760292" lon="-46.666257"><ele>771.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

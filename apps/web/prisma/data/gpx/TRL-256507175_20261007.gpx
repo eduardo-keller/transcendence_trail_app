@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Trilha do Silencio</name>
+    <trkseg>
+      <trkpt lat="-23.461698" lon="-46.756988"><ele>804.3</ele></trkpt>
+      <trkpt lat="-23.462141" lon="-46.758361"><ele>823.8</ele></trkpt>
+      <trkpt lat="-23.462256" lon="-46.758675"><ele>833.0</ele></trkpt>
+      <trkpt lat="-23.462380" lon="-46.758864"><ele>827.2</ele></trkpt>
+      <trkpt lat="-23.462552" lon="-46.758828"><ele>827.2</ele></trkpt>
+      <trkpt lat="-23.462824" lon="-46.759034"><ele>816.5</ele></trkpt>
+      <trkpt lat="-23.462981" lon="-46.759420"><ele>802.4</ele></trkpt>
+      <trkpt lat="-23.463038" lon="-46.760462"><ele>812.2</ele></trkpt>
+      <trkpt lat="-23.462808" lon="-46.761153"><ele>820.8</ele></trkpt>
+      <trkpt lat="-23.462585" lon="-46.761971"><ele>862.2</ele></trkpt>
+      <trkpt lat="-23.462734" lon="-46.762366"><ele>883.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

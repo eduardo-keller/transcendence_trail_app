@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Paraná</name>
+    <trkseg>
+      <trkpt lat="-23.751534" lon="-46.775434"><ele>772.0</ele></trkpt>
+      <trkpt lat="-23.751588" lon="-46.775426"><ele>772.0</ele></trkpt>
+      <trkpt lat="-23.751634" lon="-46.775416"><ele>768.6</ele></trkpt>
+      <trkpt lat="-23.751661" lon="-46.775417"><ele>772.0</ele></trkpt>
+      <trkpt lat="-23.751715" lon="-46.775398"><ele>768.6</ele></trkpt>
+      <trkpt lat="-23.751760" lon="-46.775389"><ele>768.6</ele></trkpt>
+      <trkpt lat="-23.751787" lon="-46.775389"><ele>768.6</ele></trkpt>
+      <trkpt lat="-23.751833" lon="-46.775380"><ele>767.5</ele></trkpt>
+      <trkpt lat="-23.751896" lon="-46.775361"><ele>767.5</ele></trkpt>
+      <trkpt lat="-23.751950" lon="-46.775352"><ele>767.5</ele></trkpt>
+      <trkpt lat="-23.752023" lon="-46.775333"><ele>767.5</ele></trkpt>
+      <trkpt lat="-23.752077" lon="-46.775324"><ele>767.5</ele></trkpt>
+      <trkpt lat="-23.752104" lon="-46.775315"><ele>767.2</ele></trkpt>
+      <trkpt lat="-23.752159" lon="-46.775306"><ele>767.2</ele></trkpt>
+      <trkpt lat="-23.752222" lon="-46.775297"><ele>767.2</ele></trkpt>
+      <trkpt lat="-23.752230" lon="-46.775346"><ele>767.2</ele></trkpt>
+      <trkpt lat="-23.752256" lon="-46.775364"><ele>767.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

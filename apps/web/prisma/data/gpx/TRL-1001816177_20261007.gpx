@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Residencial Vida Real - Viela 4</name>
+    <trkseg>
+      <trkpt lat="-23.194570" lon="-47.097766"><ele>717.9</ele></trkpt>
+      <trkpt lat="-23.194372" lon="-47.097743"><ele>717.9</ele></trkpt>
+      <trkpt lat="-23.194326" lon="-47.097694"><ele>717.9</ele></trkpt>
+      <trkpt lat="-23.194272" lon="-47.097650"><ele>716.0</ele></trkpt>
+      <trkpt lat="-23.194213" lon="-47.097611"><ele>717.9</ele></trkpt>
+      <trkpt lat="-23.194154" lon="-47.097581"><ele>717.9</ele></trkpt>
+      <trkpt lat="-23.194090" lon="-47.097564"><ele>717.9</ele></trkpt>
+      <trkpt lat="-23.194029" lon="-47.097560"><ele>717.9</ele></trkpt>
+      <trkpt lat="-23.193965" lon="-47.097562"><ele>716.5</ele></trkpt>
+      <trkpt lat="-23.193905" lon="-47.097573"><ele>716.5</ele></trkpt>
+      <trkpt lat="-23.193843" lon="-47.097593"><ele>716.5</ele></trkpt>
+      <trkpt lat="-23.193785" lon="-47.097620"><ele>716.5</ele></trkpt>
+      <trkpt lat="-23.193736" lon="-47.097647"><ele>713.4</ele></trkpt>
+      <trkpt lat="-23.193690" lon="-47.097684"><ele>713.4</ele></trkpt>
+      <trkpt lat="-23.193651" lon="-47.097731"><ele>713.4</ele></trkpt>
+      <trkpt lat="-23.193617" lon="-47.097774"><ele>713.4</ele></trkpt>
+      <trkpt lat="-23.193587" lon="-47.097832"><ele>713.4</ele></trkpt>
+      <trkpt lat="-23.193562" lon="-47.097880"><ele>713.4</ele></trkpt>
+      <trkpt lat="-23.193538" lon="-47.097900"><ele>713.4</ele></trkpt>
+      <trkpt lat="-23.193503" lon="-47.097910"><ele>713.4</ele></trkpt>
+      <trkpt lat="-23.192735" lon="-47.097953"><ele>709.5</ele></trkpt>
+      <trkpt lat="-23.192160" lon="-47.097364"><ele>712.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

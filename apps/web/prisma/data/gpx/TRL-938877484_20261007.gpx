@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua 7 de Julho</name>
+    <trkseg>
+      <trkpt lat="-23.654134" lon="-46.539581"><ele>782.7</ele></trkpt>
+      <trkpt lat="-23.654022" lon="-46.539458"><ele>782.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

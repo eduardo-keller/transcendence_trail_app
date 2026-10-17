@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua L</name>
+    <trkseg>
+      <trkpt lat="-23.454465" lon="-46.608890"><ele>827.0</ele></trkpt>
+      <trkpt lat="-23.454458" lon="-46.608837"><ele>827.0</ele></trkpt>
+      <trkpt lat="-23.454485" lon="-46.608621"><ele>823.6</ele></trkpt>
+      <trkpt lat="-23.454390" lon="-46.608582"><ele>823.6</ele></trkpt>
+      <trkpt lat="-23.454289" lon="-46.608553"><ele>824.1</ele></trkpt>
+      <trkpt lat="-23.454186" lon="-46.608523"><ele>824.1</ele></trkpt>
+      <trkpt lat="-23.453953" lon="-46.608442"><ele>817.2</ele></trkpt>
+      <trkpt lat="-23.453748" lon="-46.608366"><ele>820.0</ele></trkpt>
+      <trkpt lat="-23.453534" lon="-46.608287"><ele>820.0</ele></trkpt>
+      <trkpt lat="-23.453534" lon="-46.608287"><ele>820.0</ele></trkpt>
+      <trkpt lat="-23.453519" lon="-46.608112"><ele>817.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

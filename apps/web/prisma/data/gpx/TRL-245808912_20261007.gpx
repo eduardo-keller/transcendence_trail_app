@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Rei Davi</name>
+    <trkseg>
+      <trkpt lat="-23.619172" lon="-46.730691"><ele>800.7</ele></trkpt>
+      <trkpt lat="-23.619204" lon="-46.730664"><ele>800.7</ele></trkpt>
+      <trkpt lat="-23.619220" lon="-46.730654"><ele>800.7</ele></trkpt>
+      <trkpt lat="-23.619238" lon="-46.730648"><ele>800.7</ele></trkpt>
+      <trkpt lat="-23.619512" lon="-46.730635"><ele>804.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

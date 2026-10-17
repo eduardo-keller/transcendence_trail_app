@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Sebastião Picão</name>
+    <trkseg>
+      <trkpt lat="-23.514087" lon="-46.761502"><ele>759.9</ele></trkpt>
+      <trkpt lat="-23.513800" lon="-46.761309"><ele>763.1</ele></trkpt>
+      <trkpt lat="-23.513519" lon="-46.761096"><ele>770.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

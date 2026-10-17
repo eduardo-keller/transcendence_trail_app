@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passagem Renato Russo</name>
+    <trkseg>
+      <trkpt lat="-23.691112" lon="-46.597141"><ele>781.6</ele></trkpt>
+      <trkpt lat="-23.691364" lon="-46.597203"><ele>790.0</ele></trkpt>
+      <trkpt lat="-23.691395" lon="-46.597210"><ele>790.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Júlio Ribeiro</name>
+    <trkseg>
+      <trkpt lat="-24.036766" lon="-46.530459"><ele>3.7</ele></trkpt>
+      <trkpt lat="-24.037174" lon="-46.530832"><ele>4.3</ele></trkpt>
+      <trkpt lat="-24.037367" lon="-46.531009"><ele>4.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

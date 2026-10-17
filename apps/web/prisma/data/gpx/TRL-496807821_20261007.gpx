@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Via de Pedestre Marionetes</name>
+    <trkseg>
+      <trkpt lat="-23.479754" lon="-46.569918"><ele>733.6</ele></trkpt>
+      <trkpt lat="-23.479954" lon="-46.570360"><ele>735.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

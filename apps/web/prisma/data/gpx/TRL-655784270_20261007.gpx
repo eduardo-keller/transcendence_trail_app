@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Carlo Zamoner</name>
+    <trkseg>
+      <trkpt lat="-23.544788" lon="-46.784927"><ele>756.8</ele></trkpt>
+      <trkpt lat="-23.545416" lon="-46.784330"><ele>765.1</ele></trkpt>
+      <trkpt lat="-23.545416" lon="-46.784330"><ele>765.1</ele></trkpt>
+      <trkpt lat="-23.545686" lon="-46.784086"><ele>768.9</ele></trkpt>
+      <trkpt lat="-23.545978" lon="-46.783779"><ele>777.2</ele></trkpt>
+      <trkpt lat="-23.545978" lon="-46.783779"><ele>777.2</ele></trkpt>
+      <trkpt lat="-23.546258" lon="-46.783081"><ele>782.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

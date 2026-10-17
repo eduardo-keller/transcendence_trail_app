@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Embuia</name>
+    <trkseg>
+      <trkpt lat="-23.613507" lon="-46.508596"><ele>822.1</ele></trkpt>
+      <trkpt lat="-23.613534" lon="-46.508612"><ele>822.1</ele></trkpt>
+      <trkpt lat="-23.613642" lon="-46.508666"><ele>822.1</ele></trkpt>
+      <trkpt lat="-23.613689" lon="-46.508687"><ele>822.1</ele></trkpt>
+      <trkpt lat="-23.613764" lon="-46.508720"><ele>824.9</ele></trkpt>
+      <trkpt lat="-23.613883" lon="-46.508773"><ele>821.5</ele></trkpt>
+      <trkpt lat="-23.613913" lon="-46.508788"><ele>821.5</ele></trkpt>
+      <trkpt lat="-23.613929" lon="-46.508792"><ele>821.5</ele></trkpt>
+      <trkpt lat="-23.613987" lon="-46.508791"><ele>821.5</ele></trkpt>
+      <trkpt lat="-23.614034" lon="-46.508791"><ele>823.1</ele></trkpt>
+      <trkpt lat="-23.614069" lon="-46.508791"><ele>823.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

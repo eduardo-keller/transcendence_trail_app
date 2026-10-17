@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Via de Pedestres Serra de Brotas</name>
+    <trkseg>
+      <trkpt lat="-23.456049" lon="-46.662924"><ele>783.0</ele></trkpt>
+      <trkpt lat="-23.456031" lon="-46.662987"><ele>783.0</ele></trkpt>
+      <trkpt lat="-23.456008" lon="-46.663031"><ele>783.0</ele></trkpt>
+      <trkpt lat="-23.456007" lon="-46.663084"><ele>783.0</ele></trkpt>
+      <trkpt lat="-23.456027" lon="-46.663110"><ele>783.0</ele></trkpt>
+      <trkpt lat="-23.456027" lon="-46.663112"><ele>783.0</ele></trkpt>
+      <trkpt lat="-23.456027" lon="-46.663149"><ele>783.0</ele></trkpt>
+      <trkpt lat="-23.456043" lon="-46.663198"><ele>790.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

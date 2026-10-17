@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Judite Leite Chaves Carvalho</name>
+    <trkseg>
+      <trkpt lat="-23.432863" lon="-46.725259"><ele>881.1</ele></trkpt>
+      <trkpt lat="-23.433052" lon="-46.725067"><ele>872.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

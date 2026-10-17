@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela da Torre</name>
+    <trkseg>
+      <trkpt lat="-23.454915" lon="-46.706881"><ele>857.3</ele></trkpt>
+      <trkpt lat="-23.454914" lon="-46.706878"><ele>857.3</ele></trkpt>
+      <trkpt lat="-23.454909" lon="-46.706841"><ele>857.3</ele></trkpt>
+      <trkpt lat="-23.454895" lon="-46.706779"><ele>861.1</ele></trkpt>
+      <trkpt lat="-23.454862" lon="-46.706617"><ele>861.1</ele></trkpt>
+      <trkpt lat="-23.454830" lon="-46.706500"><ele>859.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Praça Serra do Amaral</name>
+    <trkseg>
+      <trkpt lat="-23.760361" lon="-46.664147"><ele>786.5</ele></trkpt>
+      <trkpt lat="-23.760412" lon="-46.664082"><ele>786.5</ele></trkpt>
+      <trkpt lat="-23.760440" lon="-46.664018"><ele>788.3</ele></trkpt>
+      <trkpt lat="-23.760441" lon="-46.663957"><ele>788.3</ele></trkpt>
+      <trkpt lat="-23.760416" lon="-46.663912"><ele>782.2</ele></trkpt>
+      <trkpt lat="-23.760381" lon="-46.663886"><ele>782.2</ele></trkpt>
+      <trkpt lat="-23.760356" lon="-46.664006"><ele>782.2</ele></trkpt>
+      <trkpt lat="-23.760360" lon="-46.664073"><ele>786.5</ele></trkpt>
+      <trkpt lat="-23.760361" lon="-46.664147"><ele>786.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

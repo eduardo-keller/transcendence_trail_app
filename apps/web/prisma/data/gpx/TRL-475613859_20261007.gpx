@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Via de Pedestres Serra do Cabral</name>
+    <trkseg>
+      <trkpt lat="-23.455593" lon="-46.663382"><ele>778.7</ele></trkpt>
+      <trkpt lat="-23.455569" lon="-46.663322"><ele>778.7</ele></trkpt>
+      <trkpt lat="-23.455575" lon="-46.663288"><ele>778.7</ele></trkpt>
+      <trkpt lat="-23.455560" lon="-46.663213"><ele>778.7</ele></trkpt>
+      <trkpt lat="-23.455550" lon="-46.663153"><ele>775.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

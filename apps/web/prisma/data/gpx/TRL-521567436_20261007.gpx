@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa José Olímpio Ângelo</name>
+    <trkseg>
+      <trkpt lat="-23.524763" lon="-46.488214"><ele>781.8</ele></trkpt>
+      <trkpt lat="-23.524563" lon="-46.488408"><ele>781.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Luisa Leonardo</name>
+    <trkseg>
+      <trkpt lat="-23.459452" lon="-46.695507"><ele>839.0</ele></trkpt>
+      <trkpt lat="-23.459468" lon="-46.695479"><ele>839.0</ele></trkpt>
+      <trkpt lat="-23.459479" lon="-46.695458"><ele>839.0</ele></trkpt>
+      <trkpt lat="-23.459529" lon="-46.695380"><ele>833.3</ele></trkpt>
+      <trkpt lat="-23.459643" lon="-46.695207"><ele>829.6</ele></trkpt>
+      <trkpt lat="-23.459709" lon="-46.695113"><ele>823.9</ele></trkpt>
+      <trkpt lat="-23.459751" lon="-46.695044"><ele>823.9</ele></trkpt>
+      <trkpt lat="-23.459776" lon="-46.695001"><ele>823.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

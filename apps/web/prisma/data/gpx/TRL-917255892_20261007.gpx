@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Barão do Bananal</name>
+    <trkseg>
+      <trkpt lat="-23.516242" lon="-46.345946"><ele>768.6</ele></trkpt>
+      <trkpt lat="-23.515947" lon="-46.344844"><ele>763.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Praça José E F Couto</name>
+    <trkseg>
+      <trkpt lat="-23.477655" lon="-46.575206"><ele>744.6</ele></trkpt>
+      <trkpt lat="-23.477706" lon="-46.575181"><ele>744.6</ele></trkpt>
+      <trkpt lat="-23.478122" lon="-46.574964"><ele>744.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

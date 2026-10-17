@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Paulo Bittencourt</name>
+    <trkseg>
+      <trkpt lat="-23.704113" lon="-46.795397"><ele>781.8</ele></trkpt>
+      <trkpt lat="-23.703528" lon="-46.795515"><ele>796.7</ele></trkpt>
+      <trkpt lat="-23.703242" lon="-46.795614"><ele>804.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Beco do Largo</name>
+    <trkseg>
+      <trkpt lat="-23.780174" lon="-46.302567"><ele>823.9</ele></trkpt>
+      <trkpt lat="-23.779862" lon="-46.302389"><ele>816.8</ele></trkpt>
+      <trkpt lat="-23.779798" lon="-46.302334"><ele>811.8</ele></trkpt>
+      <trkpt lat="-23.779612" lon="-46.302335"><ele>811.8</ele></trkpt>
+      <trkpt lat="-23.779553" lon="-46.302346"><ele>809.9</ele></trkpt>
+      <trkpt lat="-23.779512" lon="-46.302376"><ele>809.5</ele></trkpt>
+      <trkpt lat="-23.779347" lon="-46.302496"><ele>809.5</ele></trkpt>
+      <trkpt lat="-23.779315" lon="-46.302516"><ele>809.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

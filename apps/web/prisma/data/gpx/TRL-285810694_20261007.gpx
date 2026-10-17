@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Praça Guaraci</name>
+    <trkseg>
+      <trkpt lat="-23.616027" lon="-46.630215"><ele>773.2</ele></trkpt>
+      <trkpt lat="-23.615961" lon="-46.630181"><ele>773.0</ele></trkpt>
+      <trkpt lat="-23.615887" lon="-46.630102"><ele>771.4</ele></trkpt>
+      <trkpt lat="-23.615846" lon="-46.630005"><ele>771.4</ele></trkpt>
+      <trkpt lat="-23.615781" lon="-46.629981"><ele>771.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

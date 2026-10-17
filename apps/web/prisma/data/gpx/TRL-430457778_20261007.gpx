@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Antônio Borelli</name>
+    <trkseg>
+      <trkpt lat="-23.491538" lon="-46.677396"><ele>759.1</ele></trkpt>
+      <trkpt lat="-23.491596" lon="-46.677359"><ele>764.0</ele></trkpt>
+      <trkpt lat="-23.492020" lon="-46.676956"><ele>773.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

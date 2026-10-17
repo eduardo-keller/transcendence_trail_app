@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Serra da Graciosa</name>
+    <trkseg>
+      <trkpt lat="-23.448021" lon="-46.690852"><ele>770.6</ele></trkpt>
+      <trkpt lat="-23.448009" lon="-46.690801"><ele>770.6</ele></trkpt>
+      <trkpt lat="-23.447970" lon="-46.690615"><ele>783.0</ele></trkpt>
+      <trkpt lat="-23.447964" lon="-46.690580"><ele>783.0</ele></trkpt>
+      <trkpt lat="-23.447958" lon="-46.690562"><ele>783.0</ele></trkpt>
+      <trkpt lat="-23.447909" lon="-46.690481"><ele>784.7</ele></trkpt>
+      <trkpt lat="-23.447908" lon="-46.690474"><ele>784.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

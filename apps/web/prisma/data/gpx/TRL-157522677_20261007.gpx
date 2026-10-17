@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Estrada Doutor Altair Martins</name>
+    <trkseg>
+      <trkpt lat="-23.608397" lon="-46.828619"><ele>820.0</ele></trkpt>
+      <trkpt lat="-23.608713" lon="-46.828651"><ele>822.1</ele></trkpt>
+      <trkpt lat="-23.608865" lon="-46.828666"><ele>822.4</ele></trkpt>
+      <trkpt lat="-23.608955" lon="-46.828671"><ele>822.4</ele></trkpt>
+      <trkpt lat="-23.609022" lon="-46.828671"><ele>822.4</ele></trkpt>
+      <trkpt lat="-23.609115" lon="-46.828647"><ele>817.3</ele></trkpt>
+      <trkpt lat="-23.609202" lon="-46.828595"><ele>817.3</ele></trkpt>
+      <trkpt lat="-23.609337" lon="-46.828485"><ele>816.2</ele></trkpt>
+      <trkpt lat="-23.609433" lon="-46.828340"><ele>812.2</ele></trkpt>
+      <trkpt lat="-23.609502" lon="-46.828175"><ele>808.9</ele></trkpt>
+      <trkpt lat="-23.609546" lon="-46.827920"><ele>808.9</ele></trkpt>
+      <trkpt lat="-23.609553" lon="-46.827760"><ele>807.8</ele></trkpt>
+      <trkpt lat="-23.609584" lon="-46.827643"><ele>801.5</ele></trkpt>
+      <trkpt lat="-23.609631" lon="-46.827504"><ele>798.2</ele></trkpt>
+      <trkpt lat="-23.609696" lon="-46.827365"><ele>798.2</ele></trkpt>
+      <trkpt lat="-23.609781" lon="-46.827251"><ele>797.8</ele></trkpt>
+      <trkpt lat="-23.609848" lon="-46.827204"><ele>797.8</ele></trkpt>
+      <trkpt lat="-23.609928" lon="-46.827170"><ele>794.3</ele></trkpt>
+      <trkpt lat="-23.610044" lon="-46.827146"><ele>794.3</ele></trkpt>
+      <trkpt lat="-23.610164" lon="-46.827126"><ele>791.3</ele></trkpt>
+      <trkpt lat="-23.610271" lon="-46.827125"><ele>791.3</ele></trkpt>
+      <trkpt lat="-23.610415" lon="-46.827152"><ele>791.3</ele></trkpt>
+      <trkpt lat="-23.610506" lon="-46.827188"><ele>788.5</ele></trkpt>
+      <trkpt lat="-23.610648" lon="-46.827280"><ele>788.5</ele></trkpt>
+      <trkpt lat="-23.610858" lon="-46.827440"><ele>788.7</ele></trkpt>
+      <trkpt lat="-23.610976" lon="-46.827531"><ele>787.7</ele></trkpt>
+      <trkpt lat="-23.611136" lon="-46.827625"><ele>787.7</ele></trkpt>
+      <trkpt lat="-23.611289" lon="-46.827695"><ele>792.5</ele></trkpt>
+      <trkpt lat="-23.611448" lon="-46.827724"><ele>792.5</ele></trkpt>
+      <trkpt lat="-23.611597" lon="-46.827730"><ele>792.1</ele></trkpt>
+      <trkpt lat="-23.611752" lon="-46.827723"><ele>792.1</ele></trkpt>
+      <trkpt lat="-23.611913" lon="-46.827676"><ele>799.0</ele></trkpt>
+      <trkpt lat="-23.612199" lon="-46.827579"><ele>797.4</ele></trkpt>
+      <trkpt lat="-23.612444" lon="-46.827514"><ele>802.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

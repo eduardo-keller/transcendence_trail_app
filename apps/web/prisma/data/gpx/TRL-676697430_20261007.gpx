@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Avenida Papa João XXIII</name>
+    <trkseg>
+      <trkpt lat="-23.711048" lon="-46.483606"><ele>796.8</ele></trkpt>
+      <trkpt lat="-23.711053" lon="-46.483683"><ele>796.8</ele></trkpt>
+      <trkpt lat="-23.711110" lon="-46.483712"><ele>796.8</ele></trkpt>
+      <trkpt lat="-23.711227" lon="-46.483782"><ele>800.3</ele></trkpt>
+      <trkpt lat="-23.712017" lon="-46.484324"><ele>803.5</ele></trkpt>
+      <trkpt lat="-23.712220" lon="-46.484487"><ele>797.3</ele></trkpt>
+      <trkpt lat="-23.712404" lon="-46.484683"><ele>793.8</ele></trkpt>
+      <trkpt lat="-23.712702" lon="-46.485177"><ele>785.4</ele></trkpt>
+      <trkpt lat="-23.713421" lon="-46.486673"><ele>775.5</ele></trkpt>
+      <trkpt lat="-23.713632" lon="-46.487097"><ele>777.4</ele></trkpt>
+      <trkpt lat="-23.713733" lon="-46.487234"><ele>777.4</ele></trkpt>
+      <trkpt lat="-23.713866" lon="-46.487328"><ele>780.9</ele></trkpt>
+      <trkpt lat="-23.714553" lon="-46.487674"><ele>773.6</ele></trkpt>
+      <trkpt lat="-23.714956" lon="-46.487800"><ele>779.0</ele></trkpt>
+      <trkpt lat="-23.716073" lon="-46.488020"><ele>768.9</ele></trkpt>
+      <trkpt lat="-23.716493" lon="-46.488151"><ele>770.9</ele></trkpt>
+      <trkpt lat="-23.716749" lon="-46.488280"><ele>769.9</ele></trkpt>
+      <trkpt lat="-23.718072" lon="-46.489254"><ele>767.4</ele></trkpt>
+      <trkpt lat="-23.718519" lon="-46.489694"><ele>767.6</ele></trkpt>
+      <trkpt lat="-23.718698" lon="-46.489989"><ele>766.3</ele></trkpt>
+      <trkpt lat="-23.718824" lon="-46.490294"><ele>768.4</ele></trkpt>
+      <trkpt lat="-23.718986" lon="-46.490954"><ele>768.3</ele></trkpt>
+      <trkpt lat="-23.719138" lon="-46.491346"><ele>770.3</ele></trkpt>
+      <trkpt lat="-23.719379" lon="-46.491780"><ele>775.2</ele></trkpt>
+      <trkpt lat="-23.719930" lon="-46.492716"><ele>770.8</ele></trkpt>
+      <trkpt lat="-23.720339" lon="-46.493596"><ele>767.4</ele></trkpt>
+      <trkpt lat="-23.720479" lon="-46.493829"><ele>770.8</ele></trkpt>
+      <trkpt lat="-23.720670" lon="-46.494220"><ele>765.5</ele></trkpt>
+      <trkpt lat="-23.720754" lon="-46.494363"><ele>764.5</ele></trkpt>
+      <trkpt lat="-23.721085" lon="-46.494880"><ele>761.0</ele></trkpt>
+      <trkpt lat="-23.721147" lon="-46.494933"><ele>761.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

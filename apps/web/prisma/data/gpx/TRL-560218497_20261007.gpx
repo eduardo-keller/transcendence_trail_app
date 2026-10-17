@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Santa Maria</name>
+    <trkseg>
+      <trkpt lat="-23.484427" lon="-46.458704"><ele>732.0</ele></trkpt>
+      <trkpt lat="-23.484436" lon="-46.458697"><ele>732.0</ele></trkpt>
+      <trkpt lat="-23.484446" lon="-46.458694"><ele>732.0</ele></trkpt>
+      <trkpt lat="-23.484455" lon="-46.458695"><ele>732.0</ele></trkpt>
+      <trkpt lat="-23.484658" lon="-46.458757"><ele>731.1</ele></trkpt>
+      <trkpt lat="-23.484427" lon="-46.458704"><ele>732.0</ele></trkpt>
+      <trkpt lat="-23.484422" lon="-46.458711"><ele>732.0</ele></trkpt>
+      <trkpt lat="-23.484419" lon="-46.458716"><ele>732.0</ele></trkpt>
+      <trkpt lat="-23.484365" lon="-46.458880"><ele>730.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

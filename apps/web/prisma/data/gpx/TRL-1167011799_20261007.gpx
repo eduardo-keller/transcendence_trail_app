@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Rubilene</name>
+    <trkseg>
+      <trkpt lat="-23.703756" lon="-46.636224"><ele>769.1</ele></trkpt>
+      <trkpt lat="-23.703741" lon="-46.636276"><ele>766.8</ele></trkpt>
+      <trkpt lat="-23.703685" lon="-46.636416"><ele>766.8</ele></trkpt>
+      <trkpt lat="-23.703594" lon="-46.636507"><ele>766.8</ele></trkpt>
+      <trkpt lat="-23.703501" lon="-46.636654"><ele>763.0</ele></trkpt>
+      <trkpt lat="-23.703392" lon="-46.636839"><ele>761.4</ele></trkpt>
+      <trkpt lat="-23.703209" lon="-46.636992"><ele>761.4</ele></trkpt>
+      <trkpt lat="-23.703182" lon="-46.637007"><ele>760.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

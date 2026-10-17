@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passagem Arquimedes</name>
+    <trkseg>
+      <trkpt lat="-23.693387" lon="-46.599140"><ele>803.6</ele></trkpt>
+      <trkpt lat="-23.693136" lon="-46.598627"><ele>794.1</ele></trkpt>
+      <trkpt lat="-23.693091" lon="-46.598505"><ele>794.1</ele></trkpt>
+      <trkpt lat="-23.693022" lon="-46.598273"><ele>789.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

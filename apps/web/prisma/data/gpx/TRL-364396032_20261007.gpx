@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Via de Pedestre Conrado Beck</name>
+    <trkseg>
+      <trkpt lat="-23.484730" lon="-46.572493"><ele>740.4</ele></trkpt>
+      <trkpt lat="-23.484541" lon="-46.572066"><ele>738.1</ele></trkpt>
+      <trkpt lat="-23.484518" lon="-46.572014"><ele>738.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa das Rosas</name>
+    <trkseg>
+      <trkpt lat="-23.449002" lon="-46.689557"><ele>804.4</ele></trkpt>
+      <trkpt lat="-23.448914" lon="-46.689731"><ele>799.9</ele></trkpt>
+      <trkpt lat="-23.448859" lon="-46.689805"><ele>799.9</ele></trkpt>
+      <trkpt lat="-23.448847" lon="-46.689821"><ele>799.9</ele></trkpt>
+      <trkpt lat="-23.448822" lon="-46.689855"><ele>799.9</ele></trkpt>
+      <trkpt lat="-23.448716" lon="-46.689977"><ele>801.2</ele></trkpt>
+      <trkpt lat="-23.448847" lon="-46.689821"><ele>799.9</ele></trkpt>
+      <trkpt lat="-23.448960" lon="-46.689921"><ele>792.1</ele></trkpt>
+      <trkpt lat="-23.448966" lon="-46.689926"><ele>792.1</ele></trkpt>
+      <trkpt lat="-23.449203" lon="-46.690071"><ele>778.8</ele></trkpt>
+      <trkpt lat="-23.449344" lon="-46.689840"><ele>776.6</ele></trkpt>
+      <trkpt lat="-23.449274" lon="-46.689791"><ele>787.9</ele></trkpt>
+      <trkpt lat="-23.449256" lon="-46.689781"><ele>787.9</ele></trkpt>
+      <trkpt lat="-23.449127" lon="-46.689727"><ele>787.9</ele></trkpt>
+      <trkpt lat="-23.449183" lon="-46.689543"><ele>790.2</ele></trkpt>
+      <trkpt lat="-23.449180" lon="-46.689576"><ele>790.2</ele></trkpt>
+      <trkpt lat="-23.449132" lon="-46.689713"><ele>787.9</ele></trkpt>
+      <trkpt lat="-23.449127" lon="-46.689727"><ele>787.9</ele></trkpt>
+      <trkpt lat="-23.449102" lon="-46.689794"><ele>787.9</ele></trkpt>
+      <trkpt lat="-23.449023" lon="-46.689866"><ele>792.1</ele></trkpt>
+      <trkpt lat="-23.448960" lon="-46.689921"><ele>792.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

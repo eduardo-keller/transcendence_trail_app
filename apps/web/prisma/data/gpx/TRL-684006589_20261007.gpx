@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passarela sobre a Rodovia Fernão Dias</name>
+    <trkseg>
+      <trkpt lat="-23.318720" lon="-46.582857"><ele>751.2</ele></trkpt>
+      <trkpt lat="-23.318877" lon="-46.582854"><ele>751.4</ele></trkpt>
+      <trkpt lat="-23.318883" lon="-46.582837"><ele>751.4</ele></trkpt>
+      <trkpt lat="-23.318671" lon="-46.582836"><ele>751.2</ele></trkpt>
+      <trkpt lat="-23.318664" lon="-46.582808"><ele>751.2</ele></trkpt>
+      <trkpt lat="-23.318878" lon="-46.582802"><ele>751.4</ele></trkpt>
+      <trkpt lat="-23.318878" lon="-46.582777"><ele>751.4</ele></trkpt>
+      <trkpt lat="-23.318689" lon="-46.582765"><ele>751.2</ele></trkpt>
+      <trkpt lat="-23.318700" lon="-46.582244"><ele>747.3</ele></trkpt>
+      <trkpt lat="-23.319037" lon="-46.582255"><ele>747.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

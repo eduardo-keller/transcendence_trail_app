@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Alameda Pau do Pau Brasil</name>
+    <trkseg>
+      <trkpt lat="-23.414501" lon="-46.664579"><ele>1008.0</ele></trkpt>
+      <trkpt lat="-23.414582" lon="-46.664461"><ele>1008.0</ele></trkpt>
+      <trkpt lat="-23.414700" lon="-46.664348"><ele>1022.4</ele></trkpt>
+      <trkpt lat="-23.414821" lon="-46.664257"><ele>1014.0</ele></trkpt>
+      <trkpt lat="-23.414976" lon="-46.664179"><ele>1014.4</ele></trkpt>
+      <trkpt lat="-23.415434" lon="-46.664289"><ele>1007.6</ele></trkpt>
+      <trkpt lat="-23.415756" lon="-46.664356"><ele>1017.1</ele></trkpt>
+      <trkpt lat="-23.416138" lon="-46.664431"><ele>1015.1</ele></trkpt>
+      <trkpt lat="-23.416539" lon="-46.664551"><ele>1004.4</ele></trkpt>
+      <trkpt lat="-23.416711" lon="-46.664614"><ele>1019.4</ele></trkpt>
+      <trkpt lat="-23.416855" lon="-46.664692"><ele>1011.7</ele></trkpt>
+      <trkpt lat="-23.416940" lon="-46.664783"><ele>1011.7</ele></trkpt>
+      <trkpt lat="-23.416953" lon="-46.664901"><ele>1016.8</ele></trkpt>
+      <trkpt lat="-23.416946" lon="-46.665048"><ele>1016.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

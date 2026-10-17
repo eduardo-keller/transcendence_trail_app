@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Domingos Garcia</name>
+    <trkseg>
+      <trkpt lat="-23.667338" lon="-46.651822"><ele>760.0</ele></trkpt>
+      <trkpt lat="-23.667399" lon="-46.651848"><ele>760.4</ele></trkpt>
+      <trkpt lat="-23.667836" lon="-46.652061"><ele>762.8</ele></trkpt>
+      <trkpt lat="-23.667916" lon="-46.652100"><ele>764.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

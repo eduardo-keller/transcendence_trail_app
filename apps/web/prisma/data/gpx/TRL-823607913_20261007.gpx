@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Avenida Lauro Gomes</name>
+    <trkseg>
+      <trkpt lat="-23.684100" lon="-46.551651"><ele>749.5</ele></trkpt>
+      <trkpt lat="-23.683951" lon="-46.552084"><ele>751.4</ele></trkpt>
+      <trkpt lat="-23.683887" lon="-46.552270"><ele>751.4</ele></trkpt>
+      <trkpt lat="-23.683723" lon="-46.552580"><ele>751.5</ele></trkpt>
+      <trkpt lat="-23.683535" lon="-46.552796"><ele>750.5</ele></trkpt>
+      <trkpt lat="-23.683321" lon="-46.553023"><ele>751.2</ele></trkpt>
+      <trkpt lat="-23.683104" lon="-46.553205"><ele>750.5</ele></trkpt>
+      <trkpt lat="-23.682658" lon="-46.553509"><ele>750.4</ele></trkpt>
+      <trkpt lat="-23.682566" lon="-46.553540"><ele>749.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

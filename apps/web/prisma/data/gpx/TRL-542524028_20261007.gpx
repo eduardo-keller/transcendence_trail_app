@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua do Leão</name>
+    <trkseg>
+      <trkpt lat="-23.590158" lon="-46.657535"><ele>752.0</ele></trkpt>
+      <trkpt lat="-23.590159" lon="-46.657501"><ele>752.0</ele></trkpt>
+      <trkpt lat="-23.590163" lon="-46.657319"><ele>751.7</ele></trkpt>
+      <trkpt lat="-23.590182" lon="-46.656705"><ele>753.2</ele></trkpt>
+      <trkpt lat="-23.590203" lon="-46.656529"><ele>753.2</ele></trkpt>
+      <trkpt lat="-23.590210" lon="-46.656472"><ele>761.2</ele></trkpt>
+      <trkpt lat="-23.590264" lon="-46.656334"><ele>761.2</ele></trkpt>
+      <trkpt lat="-23.590317" lon="-46.656167"><ele>763.4</ele></trkpt>
+      <trkpt lat="-23.590353" lon="-46.655984"><ele>763.4</ele></trkpt>
+      <trkpt lat="-23.590352" lon="-46.655670"><ele>759.9</ele></trkpt>
+      <trkpt lat="-23.590351" lon="-46.655631"><ele>759.9</ele></trkpt>
+      <trkpt lat="-23.590254" lon="-46.655197"><ele>758.7</ele></trkpt>
+      <trkpt lat="-23.590254" lon="-46.655197"><ele>758.7</ele></trkpt>
+      <trkpt lat="-23.590239" lon="-46.655115"><ele>757.9</ele></trkpt>
+      <trkpt lat="-23.590239" lon="-46.655115"><ele>757.9</ele></trkpt>
+      <trkpt lat="-23.590185" lon="-46.654863"><ele>757.9</ele></trkpt>
+      <trkpt lat="-23.590067" lon="-46.654426"><ele>756.5</ele></trkpt>
+      <trkpt lat="-23.590050" lon="-46.654362"><ele>756.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

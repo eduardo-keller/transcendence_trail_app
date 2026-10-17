@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela 8</name>
+    <trkseg>
+      <trkpt lat="-23.639103" lon="-46.782109"><ele>751.2</ele></trkpt>
+      <trkpt lat="-23.639107" lon="-46.782076"><ele>749.8</ele></trkpt>
+      <trkpt lat="-23.639110" lon="-46.782010"><ele>749.8</ele></trkpt>
+      <trkpt lat="-23.639115" lon="-46.781902"><ele>749.8</ele></trkpt>
+      <trkpt lat="-23.639117" lon="-46.781833"><ele>749.8</ele></trkpt>
+      <trkpt lat="-23.639128" lon="-46.781705"><ele>748.4</ele></trkpt>
+      <trkpt lat="-23.639135" lon="-46.781612"><ele>748.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

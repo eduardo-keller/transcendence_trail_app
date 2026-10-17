@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Antigo Caminho do Zanzalá</name>
+    <trkseg>
+      <trkpt lat="-23.782849" lon="-46.416832"><ele>760.5</ele></trkpt>
+      <trkpt lat="-23.783431" lon="-46.416725"><ele>760.9</ele></trkpt>
+      <trkpt lat="-23.784266" lon="-46.416811"><ele>764.9</ele></trkpt>
+      <trkpt lat="-23.784570" lon="-46.417353"><ele>753.9</ele></trkpt>
+      <trkpt lat="-23.784192" lon="-46.418748"><ele>748.9</ele></trkpt>
+      <trkpt lat="-23.783559" lon="-46.419676"><ele>753.8</ele></trkpt>
+      <trkpt lat="-23.783480" lon="-46.420255"><ele>753.5</ele></trkpt>
+      <trkpt lat="-23.784187" lon="-46.422170"><ele>746.2</ele></trkpt>
+      <trkpt lat="-23.785218" lon="-46.425260"><ele>743.0</ele></trkpt>
+      <trkpt lat="-23.786013" lon="-46.428409"><ele>743.0</ele></trkpt>
+      <trkpt lat="-23.786087" lon="-46.428591"><ele>743.0</ele></trkpt>
+      <trkpt lat="-23.787329" lon="-46.429916"><ele>743.0</ele></trkpt>
+      <trkpt lat="-23.787662" lon="-46.429954"><ele>743.0</ele></trkpt>
+      <trkpt lat="-23.788693" lon="-46.431193"><ele>748.8</ele></trkpt>
+      <trkpt lat="-23.788988" lon="-46.431343"><ele>753.7</ele></trkpt>
+      <trkpt lat="-23.789925" lon="-46.431386"><ele>755.5</ele></trkpt>
+      <trkpt lat="-23.790578" lon="-46.431783"><ele>757.2</ele></trkpt>
+      <trkpt lat="-23.790917" lon="-46.432229"><ele>756.9</ele></trkpt>
+      <trkpt lat="-23.791457" lon="-46.432368"><ele>756.1</ele></trkpt>
+      <trkpt lat="-23.791859" lon="-46.432615"><ele>760.4</ele></trkpt>
+      <trkpt lat="-23.792169" lon="-46.432938"><ele>758.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

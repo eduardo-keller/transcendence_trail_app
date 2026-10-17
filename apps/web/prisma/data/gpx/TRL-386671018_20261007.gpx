@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passagem Azul Aço</name>
+    <trkseg>
+      <trkpt lat="-23.691520" lon="-46.598816"><ele>775.6</ele></trkpt>
+      <trkpt lat="-23.691531" lon="-46.598549"><ele>778.8</ele></trkpt>
+      <trkpt lat="-23.691527" lon="-46.598448"><ele>784.2</ele></trkpt>
+      <trkpt lat="-23.691499" lon="-46.598340"><ele>784.2</ele></trkpt>
+      <trkpt lat="-23.691381" lon="-46.598034"><ele>789.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

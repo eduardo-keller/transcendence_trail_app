@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Adriano Racine</name>
+    <trkseg>
+      <trkpt lat="-23.658441" lon="-46.610804"><ele>781.5</ele></trkpt>
+      <trkpt lat="-23.658678" lon="-46.611331"><ele>778.7</ele></trkpt>
+      <trkpt lat="-23.658939" lon="-46.611888"><ele>775.2</ele></trkpt>
+      <trkpt lat="-23.658976" lon="-46.611968"><ele>775.2</ele></trkpt>
+      <trkpt lat="-23.659171" lon="-46.612386"><ele>780.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

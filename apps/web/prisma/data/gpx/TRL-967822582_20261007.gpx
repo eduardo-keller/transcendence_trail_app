@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Sazonov</name>
+    <trkseg>
+      <trkpt lat="-23.530535" lon="-46.837492"><ele>780.0</ele></trkpt>
+      <trkpt lat="-23.530350" lon="-46.837422"><ele>788.4</ele></trkpt>
+      <trkpt lat="-23.530260" lon="-46.837398"><ele>788.4</ele></trkpt>
+      <trkpt lat="-23.530143" lon="-46.837380"><ele>788.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

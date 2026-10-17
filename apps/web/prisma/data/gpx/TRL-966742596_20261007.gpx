@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Hibisco</name>
+    <trkseg>
+      <trkpt lat="-23.606646" lon="-46.994652"><ele>885.0</ele></trkpt>
+      <trkpt lat="-23.606655" lon="-46.994518"><ele>884.3</ele></trkpt>
+      <trkpt lat="-23.606657" lon="-46.994454"><ele>884.3</ele></trkpt>
+      <trkpt lat="-23.606642" lon="-46.994287"><ele>889.4</ele></trkpt>
+      <trkpt lat="-23.606598" lon="-46.994158"><ele>889.4</ele></trkpt>
+      <trkpt lat="-23.606535" lon="-46.994073"><ele>889.4</ele></trkpt>
+      <trkpt lat="-23.606245" lon="-46.993866"><ele>884.4</ele></trkpt>
+      <trkpt lat="-23.606162" lon="-46.993792"><ele>884.4</ele></trkpt>
+      <trkpt lat="-23.606103" lon="-46.993713"><ele>893.6</ele></trkpt>
+      <trkpt lat="-23.606002" lon="-46.993521"><ele>893.6</ele></trkpt>
+      <trkpt lat="-23.605938" lon="-46.993427"><ele>889.4</ele></trkpt>
+      <trkpt lat="-23.605858" lon="-46.993340"><ele>889.4</ele></trkpt>
+      <trkpt lat="-23.605618" lon="-46.993150"><ele>882.2</ele></trkpt>
+      <trkpt lat="-23.605335" lon="-46.992964"><ele>879.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

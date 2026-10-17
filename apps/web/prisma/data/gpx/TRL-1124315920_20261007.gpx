@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa</name>
+    <trkseg>
+      <trkpt lat="-23.536141" lon="-46.396666"><ele>796.7</ele></trkpt>
+      <trkpt lat="-23.536128" lon="-46.396632"><ele>796.7</ele></trkpt>
+      <trkpt lat="-23.536154" lon="-46.396616"><ele>796.7</ele></trkpt>
+      <trkpt lat="-23.536221" lon="-46.396568"><ele>796.7</ele></trkpt>
+      <trkpt lat="-23.536271" lon="-46.396532"><ele>799.0</ele></trkpt>
+      <trkpt lat="-23.536296" lon="-46.396565"><ele>799.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

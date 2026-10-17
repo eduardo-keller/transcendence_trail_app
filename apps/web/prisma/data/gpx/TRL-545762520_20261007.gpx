@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Serra Leoa</name>
+    <trkseg>
+      <trkpt lat="-23.511802" lon="-46.782459"><ele>720.3</ele></trkpt>
+      <trkpt lat="-23.512057" lon="-46.782042"><ele>725.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

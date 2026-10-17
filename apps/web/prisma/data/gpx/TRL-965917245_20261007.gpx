@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Sebastião Barbosa de Oliveira</name>
+    <trkseg>
+      <trkpt lat="-23.694123" lon="-46.603962"><ele>793.4</ele></trkpt>
+      <trkpt lat="-23.694055" lon="-46.603940"><ele>793.4</ele></trkpt>
+      <trkpt lat="-23.693995" lon="-46.603938"><ele>792.4</ele></trkpt>
+      <trkpt lat="-23.693572" lon="-46.604029"><ele>793.2</ele></trkpt>
+      <trkpt lat="-23.693475" lon="-46.604064"><ele>793.2</ele></trkpt>
+      <trkpt lat="-23.693406" lon="-46.604134"><ele>790.2</ele></trkpt>
+      <trkpt lat="-23.693392" lon="-46.604195"><ele>790.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

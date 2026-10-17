@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Escadão Monte Carmelo</name>
+    <trkseg>
+      <trkpt lat="-23.448383" lon="-46.689929"><ele>805.7</ele></trkpt>
+      <trkpt lat="-23.448430" lon="-46.689892"><ele>805.7</ele></trkpt>
+      <trkpt lat="-23.448485" lon="-46.689878"><ele>801.2</ele></trkpt>
+      <trkpt lat="-23.448497" lon="-46.689874"><ele>801.2</ele></trkpt>
+      <trkpt lat="-23.448555" lon="-46.689847"><ele>807.7</ele></trkpt>
+      <trkpt lat="-23.448589" lon="-46.689861"><ele>801.2</ele></trkpt>
+      <trkpt lat="-23.448605" lon="-46.689873"><ele>801.2</ele></trkpt>
+      <trkpt lat="-23.448672" lon="-46.689933"><ele>801.2</ele></trkpt>
+      <trkpt lat="-23.448704" lon="-46.689963"><ele>801.2</ele></trkpt>
+      <trkpt lat="-23.448716" lon="-46.689977"><ele>801.2</ele></trkpt>
+      <trkpt lat="-23.448723" lon="-46.689985"><ele>801.2</ele></trkpt>
+      <trkpt lat="-23.448775" lon="-46.690050"><ele>792.1</ele></trkpt>
+      <trkpt lat="-23.448849" lon="-46.690114"><ele>792.1</ele></trkpt>
+      <trkpt lat="-23.448934" lon="-46.690182"><ele>782.2</ele></trkpt>
+      <trkpt lat="-23.448976" lon="-46.690219"><ele>782.2</ele></trkpt>
+      <trkpt lat="-23.449087" lon="-46.690312"><ele>768.0</ele></trkpt>
+      <trkpt lat="-23.449155" lon="-46.690342"><ele>768.0</ele></trkpt>
+      <trkpt lat="-23.449203" lon="-46.690383"><ele>768.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

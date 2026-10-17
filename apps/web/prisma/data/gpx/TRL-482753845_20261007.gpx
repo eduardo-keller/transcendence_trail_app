@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Dois</name>
+    <trkseg>
+      <trkpt lat="-23.675512" lon="-46.786790"><ele>811.6</ele></trkpt>
+      <trkpt lat="-23.675360" lon="-46.786696"><ele>806.0</ele></trkpt>
+      <trkpt lat="-23.674999" lon="-46.786462"><ele>799.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

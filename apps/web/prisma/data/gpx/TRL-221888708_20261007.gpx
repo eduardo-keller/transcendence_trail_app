@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela das Embuias</name>
+    <trkseg>
+      <trkpt lat="-23.662985" lon="-46.760724"><ele>775.7</ele></trkpt>
+      <trkpt lat="-23.662921" lon="-46.760754"><ele>775.7</ele></trkpt>
+      <trkpt lat="-23.662875" lon="-46.760786"><ele>778.0</ele></trkpt>
+      <trkpt lat="-23.662833" lon="-46.760824"><ele>778.0</ele></trkpt>
+      <trkpt lat="-23.662737" lon="-46.760924"><ele>778.0</ele></trkpt>
+      <trkpt lat="-23.662682" lon="-46.760993"><ele>783.1</ele></trkpt>
+      <trkpt lat="-23.662641" lon="-46.761033"><ele>783.1</ele></trkpt>
+      <trkpt lat="-23.662613" lon="-46.761054"><ele>781.8</ele></trkpt>
+      <trkpt lat="-23.662574" lon="-46.761077"><ele>781.8</ele></trkpt>
+      <trkpt lat="-23.662544" lon="-46.761091"><ele>781.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

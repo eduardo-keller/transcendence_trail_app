@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Pedro Petricevic</name>
+    <trkseg>
+      <trkpt lat="-23.749334" lon="-46.696937"><ele>802.2</ele></trkpt>
+      <trkpt lat="-23.749340" lon="-46.696901"><ele>802.2</ele></trkpt>
+      <trkpt lat="-23.749356" lon="-46.696661"><ele>798.6</ele></trkpt>
+      <trkpt lat="-23.749373" lon="-46.696327"><ele>791.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

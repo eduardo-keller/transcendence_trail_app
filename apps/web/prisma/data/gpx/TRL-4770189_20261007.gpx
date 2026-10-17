@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Doutor Osvaldo Mellone</name>
+    <trkseg>
+      <trkpt lat="-23.646025" lon="-46.754537"><ele>747.9</ele></trkpt>
+      <trkpt lat="-23.646006" lon="-46.754476"><ele>747.9</ele></trkpt>
+      <trkpt lat="-23.645964" lon="-46.754399"><ele>749.4</ele></trkpt>
+      <trkpt lat="-23.646025" lon="-46.754537"><ele>747.9</ele></trkpt>
+      <trkpt lat="-23.646003" lon="-46.754593"><ele>744.4</ele></trkpt>
+      <trkpt lat="-23.645937" lon="-46.754635"><ele>748.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

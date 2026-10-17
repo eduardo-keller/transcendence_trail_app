@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Manoel Monteiro</name>
+    <trkseg>
+      <trkpt lat="-23.701630" lon="-46.425875"><ele>756.2</ele></trkpt>
+      <trkpt lat="-23.701688" lon="-46.426677"><ele>755.1</ele></trkpt>
+      <trkpt lat="-23.701688" lon="-46.426677"><ele>755.1</ele></trkpt>
+      <trkpt lat="-23.701693" lon="-46.426787"><ele>755.1</ele></trkpt>
+      <trkpt lat="-23.701693" lon="-46.426787"><ele>755.1</ele></trkpt>
+      <trkpt lat="-23.701607" lon="-46.426974"><ele>755.9</ele></trkpt>
+      <trkpt lat="-23.701542" lon="-46.427036"><ele>755.9</ele></trkpt>
+      <trkpt lat="-23.701453" lon="-46.427136"><ele>757.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

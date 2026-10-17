@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Lotus</name>
+    <trkseg>
+      <trkpt lat="-23.637910" lon="-46.444716"><ele>827.5</ele></trkpt>
+      <trkpt lat="-23.637715" lon="-46.444556"><ele>829.5</ele></trkpt>
+      <trkpt lat="-23.637676" lon="-46.444461"><ele>829.5</ele></trkpt>
+      <trkpt lat="-23.637553" lon="-46.444401"><ele>834.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

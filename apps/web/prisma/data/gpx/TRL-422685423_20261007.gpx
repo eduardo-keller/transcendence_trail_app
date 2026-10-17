@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passagem Bacabina</name>
+    <trkseg>
+      <trkpt lat="-23.426679" lon="-46.500250"><ele>737.8</ele></trkpt>
+      <trkpt lat="-23.426802" lon="-46.499678"><ele>737.4</ele></trkpt>
+      <trkpt lat="-23.426802" lon="-46.499678"><ele>737.4</ele></trkpt>
+      <trkpt lat="-23.426905" lon="-46.499031"><ele>739.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

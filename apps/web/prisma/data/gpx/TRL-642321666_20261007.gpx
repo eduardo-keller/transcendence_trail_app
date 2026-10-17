@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Flor da Manha</name>
+    <trkseg>
+      <trkpt lat="-23.594085" lon="-46.502696"><ele>797.5</ele></trkpt>
+      <trkpt lat="-23.594124" lon="-46.502584"><ele>799.3</ele></trkpt>
+      <trkpt lat="-23.594148" lon="-46.502504"><ele>799.3</ele></trkpt>
+      <trkpt lat="-23.594297" lon="-46.502049"><ele>804.5</ele></trkpt>
+      <trkpt lat="-23.594302" lon="-46.502025"><ele>804.5</ele></trkpt>
+      <trkpt lat="-23.594314" lon="-46.501983"><ele>805.1</ele></trkpt>
+      <trkpt lat="-23.594331" lon="-46.501931"><ele>805.1</ele></trkpt>
+      <trkpt lat="-23.594447" lon="-46.501386"><ele>806.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

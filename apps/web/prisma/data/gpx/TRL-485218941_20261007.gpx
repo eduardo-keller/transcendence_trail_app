@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Maria Fátima</name>
+    <trkseg>
+      <trkpt lat="-23.719468" lon="-46.842120"><ele>808.7</ele></trkpt>
+      <trkpt lat="-23.719622" lon="-46.842056"><ele>798.5</ele></trkpt>
+      <trkpt lat="-23.719659" lon="-46.841909"><ele>798.5</ele></trkpt>
+      <trkpt lat="-23.719694" lon="-46.841740"><ele>795.0</ele></trkpt>
+      <trkpt lat="-23.719723" lon="-46.841603"><ele>795.0</ele></trkpt>
+      <trkpt lat="-23.719760" lon="-46.841439"><ele>789.7</ele></trkpt>
+      <trkpt lat="-23.719784" lon="-46.841147"><ele>790.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

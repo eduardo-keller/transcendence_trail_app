@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Macapá</name>
+    <trkseg>
+      <trkpt lat="-23.732803" lon="-46.594627"><ele>802.9</ele></trkpt>
+      <trkpt lat="-23.732535" lon="-46.594809"><ele>812.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Paraiba</name>
+    <trkseg>
+      <trkpt lat="-23.690130" lon="-46.657528"><ele>775.7</ele></trkpt>
+      <trkpt lat="-23.690254" lon="-46.657592"><ele>774.6</ele></trkpt>
+      <trkpt lat="-23.690303" lon="-46.657630"><ele>774.6</ele></trkpt>
+      <trkpt lat="-23.690467" lon="-46.657784"><ele>769.6</ele></trkpt>
+      <trkpt lat="-23.690771" lon="-46.657875"><ele>774.7</ele></trkpt>
+      <trkpt lat="-23.690944" lon="-46.658036"><ele>768.8</ele></trkpt>
+      <trkpt lat="-23.691140" lon="-46.658009"><ele>776.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

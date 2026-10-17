@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Caminho Particular</name>
+    <trkseg>
+      <trkpt lat="-23.956231" lon="-46.326210"><ele>6.1</ele></trkpt>
+      <trkpt lat="-23.956231" lon="-46.326149"><ele>6.1</ele></trkpt>
+      <trkpt lat="-23.956267" lon="-46.324276"><ele>4.8</ele></trkpt>
+      <trkpt lat="-23.956267" lon="-46.324260"><ele>4.8</ele></trkpt>
+      <trkpt lat="-23.956274" lon="-46.324013"><ele>5.2</ele></trkpt>
+      <trkpt lat="-23.956270" lon="-46.323849"><ele>5.2</ele></trkpt>
+      <trkpt lat="-23.956278" lon="-46.323438"><ele>4.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

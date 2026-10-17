@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passagem Sara</name>
+    <trkseg>
+      <trkpt lat="-23.698742" lon="-46.596806"><ele>825.1</ele></trkpt>
+      <trkpt lat="-23.698828" lon="-46.596558"><ele>824.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

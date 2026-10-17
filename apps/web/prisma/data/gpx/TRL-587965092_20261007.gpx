@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Estevão de Lucas</name>
+    <trkseg>
+      <trkpt lat="-23.658563" lon="-46.745240"><ele>797.1</ele></trkpt>
+      <trkpt lat="-23.658583" lon="-46.745249"><ele>797.1</ele></trkpt>
+      <trkpt lat="-23.658699" lon="-46.745191"><ele>797.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

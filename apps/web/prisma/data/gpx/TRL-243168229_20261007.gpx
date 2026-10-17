@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Equador</name>
+    <trkseg>
+      <trkpt lat="-23.404579" lon="-46.466275"><ele>791.9</ele></trkpt>
+      <trkpt lat="-23.404628" lon="-46.466240"><ele>792.0</ele></trkpt>
+      <trkpt lat="-23.405010" lon="-46.465737"><ele>782.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

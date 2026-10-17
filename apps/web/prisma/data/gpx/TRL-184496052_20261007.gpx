@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Ceará</name>
+    <trkseg>
+      <trkpt lat="-23.530271" lon="-46.830120"><ele>789.8</ele></trkpt>
+      <trkpt lat="-23.530713" lon="-46.830013"><ele>790.6</ele></trkpt>
+      <trkpt lat="-23.531129" lon="-46.829893"><ele>790.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

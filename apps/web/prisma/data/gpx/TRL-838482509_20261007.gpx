@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Avenida José Lutzenberger</name>
+    <trkseg>
+      <trkpt lat="-23.882265" lon="-46.720582"><ele>806.8</ele></trkpt>
+      <trkpt lat="-23.881899" lon="-46.720570"><ele>809.1</ele></trkpt>
+      <trkpt lat="-23.881785" lon="-46.720562"><ele>810.9</ele></trkpt>
+      <trkpt lat="-23.881696" lon="-46.720545"><ele>810.9</ele></trkpt>
+      <trkpt lat="-23.881370" lon="-46.720390"><ele>808.0</ele></trkpt>
+      <trkpt lat="-23.880758" lon="-46.720108"><ele>804.8</ele></trkpt>
+      <trkpt lat="-23.880591" lon="-46.720054"><ele>807.0</ele></trkpt>
+      <trkpt lat="-23.880491" lon="-46.720046"><ele>807.0</ele></trkpt>
+      <trkpt lat="-23.880315" lon="-46.720067"><ele>810.5</ele></trkpt>
+      <trkpt lat="-23.880203" lon="-46.720095"><ele>810.5</ele></trkpt>
+      <trkpt lat="-23.880124" lon="-46.720116"><ele>809.3</ele></trkpt>
+      <trkpt lat="-23.880053" lon="-46.720138"><ele>809.3</ele></trkpt>
+      <trkpt lat="-23.879985" lon="-46.720162"><ele>816.0</ele></trkpt>
+      <trkpt lat="-23.879916" lon="-46.720194"><ele>816.0</ele></trkpt>
+      <trkpt lat="-23.879832" lon="-46.720238"><ele>818.4</ele></trkpt>
+      <trkpt lat="-23.879476" lon="-46.720416"><ele>817.7</ele></trkpt>
+      <trkpt lat="-23.879350" lon="-46.720490"><ele>821.1</ele></trkpt>
+      <trkpt lat="-23.879069" lon="-46.720704"><ele>818.0</ele></trkpt>
+      <trkpt lat="-23.878802" lon="-46.720918"><ele>811.3</ele></trkpt>
+      <trkpt lat="-23.878562" lon="-46.721117"><ele>799.5</ele></trkpt>
+      <trkpt lat="-23.878463" lon="-46.721211"><ele>797.7</ele></trkpt>
+      <trkpt lat="-23.878223" lon="-46.721460"><ele>796.8</ele></trkpt>
+      <trkpt lat="-23.878066" lon="-46.721624"><ele>803.4</ele></trkpt>
+      <trkpt lat="-23.877961" lon="-46.721734"><ele>803.4</ele></trkpt>
+      <trkpt lat="-23.877855" lon="-46.721844"><ele>815.4</ele></trkpt>
+      <trkpt lat="-23.877695" lon="-46.722010"><ele>815.4</ele></trkpt>
+      <trkpt lat="-23.877514" lon="-46.722199"><ele>810.5</ele></trkpt>
+      <trkpt lat="-23.877498" lon="-46.722216"><ele>810.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Via de Pedestres Serra das Águas</name>
+    <trkseg>
+      <trkpt lat="-23.455878" lon="-46.662844"><ele>789.8</ele></trkpt>
+      <trkpt lat="-23.455958" lon="-46.662861"><ele>789.8</ele></trkpt>
+      <trkpt lat="-23.456019" lon="-46.662868"><ele>791.8</ele></trkpt>
+      <trkpt lat="-23.455971" lon="-46.662806"><ele>789.8</ele></trkpt>
+      <trkpt lat="-23.455901" lon="-46.662791"><ele>789.8</ele></trkpt>
+      <trkpt lat="-23.455916" lon="-46.662682"><ele>789.8</ele></trkpt>
+      <trkpt lat="-23.455901" lon="-46.662791"><ele>789.8</ele></trkpt>
+      <trkpt lat="-23.455878" lon="-46.662786"><ele>789.8</ele></trkpt>
+      <trkpt lat="-23.455868" lon="-46.662842"><ele>789.8</ele></trkpt>
+      <trkpt lat="-23.455878" lon="-46.662844"><ele>789.8</ele></trkpt>
+      <trkpt lat="-23.455873" lon="-46.662911"><ele>789.8</ele></trkpt>
+      <trkpt lat="-23.455865" lon="-46.662917"><ele>789.8</ele></trkpt>
+      <trkpt lat="-23.455851" lon="-46.662927"><ele>778.3</ele></trkpt>
+      <trkpt lat="-23.455848" lon="-46.663042"><ele>778.3</ele></trkpt>
+      <trkpt lat="-23.455851" lon="-46.663125"><ele>778.3</ele></trkpt>
+      <trkpt lat="-23.455851" lon="-46.663145"><ele>778.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

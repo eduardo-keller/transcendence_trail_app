@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Doutor Floriano Paulo de Almeida</name>
+    <trkseg>
+      <trkpt lat="-23.444635" lon="-46.606625"><ele>835.6</ele></trkpt>
+      <trkpt lat="-23.444677" lon="-46.606634"><ele>835.6</ele></trkpt>
+      <trkpt lat="-23.444757" lon="-46.606656"><ele>835.6</ele></trkpt>
+      <trkpt lat="-23.444847" lon="-46.606702"><ele>835.6</ele></trkpt>
+      <trkpt lat="-23.445033" lon="-46.606823"><ele>835.8</ele></trkpt>
+      <trkpt lat="-23.445168" lon="-46.606932"><ele>836.2</ele></trkpt>
+      <trkpt lat="-23.445251" lon="-46.607006"><ele>836.2</ele></trkpt>
+      <trkpt lat="-23.445276" lon="-46.607021"><ele>836.2</ele></trkpt>
+      <trkpt lat="-23.445308" lon="-46.607029"><ele>836.2</ele></trkpt>
+      <trkpt lat="-23.445373" lon="-46.607027"><ele>836.2</ele></trkpt>
+      <trkpt lat="-23.445434" lon="-46.607035"><ele>835.8</ele></trkpt>
+      <trkpt lat="-23.445538" lon="-46.607073"><ele>835.8</ele></trkpt>
+      <trkpt lat="-23.445596" lon="-46.607108"><ele>830.6</ele></trkpt>
+      <trkpt lat="-23.445697" lon="-46.607162"><ele>833.2</ele></trkpt>
+      <trkpt lat="-23.445780" lon="-46.607200"><ele>833.2</ele></trkpt>
+      <trkpt lat="-23.445884" lon="-46.607238"><ele>833.2</ele></trkpt>
+      <trkpt lat="-23.445940" lon="-46.607266"><ele>833.2</ele></trkpt>
+      <trkpt lat="-23.445971" lon="-46.607286"><ele>833.2</ele></trkpt>
+      <trkpt lat="-23.445999" lon="-46.607314"><ele>837.2</ele></trkpt>
+      <trkpt lat="-23.446023" lon="-46.607348"><ele>837.2</ele></trkpt>
+      <trkpt lat="-23.446030" lon="-46.607377"><ele>831.5</ele></trkpt>
+      <trkpt lat="-23.446032" lon="-46.607403"><ele>831.5</ele></trkpt>
+      <trkpt lat="-23.446005" lon="-46.607524"><ele>831.5</ele></trkpt>
+      <trkpt lat="-23.445991" lon="-46.607613"><ele>831.5</ele></trkpt>
+      <trkpt lat="-23.445991" lon="-46.607678"><ele>827.6</ele></trkpt>
+      <trkpt lat="-23.445999" lon="-46.607716"><ele>827.6</ele></trkpt>
+      <trkpt lat="-23.446017" lon="-46.607752"><ele>827.6</ele></trkpt>
+      <trkpt lat="-23.446054" lon="-46.607810"><ele>827.6</ele></trkpt>
+    </trkseg>
+    <trkseg>
+      <trkpt lat="-23.445373" lon="-46.607027"><ele>836.2</ele></trkpt>
+      <trkpt lat="-23.445420" lon="-46.606984"><ele>835.8</ele></trkpt>
+      <trkpt lat="-23.445437" lon="-46.606977"><ele>835.8</ele></trkpt>
+      <trkpt lat="-23.445450" lon="-46.606973"><ele>835.8</ele></trkpt>
+      <trkpt lat="-23.445480" lon="-46.606973"><ele>835.8</ele></trkpt>
+      <trkpt lat="-23.445538" lon="-46.606986"><ele>835.8</ele></trkpt>
+      <trkpt lat="-23.445588" lon="-46.607010"><ele>835.8</ele></trkpt>
+      <trkpt lat="-23.445648" lon="-46.607043"><ele>835.8</ele></trkpt>
+      <trkpt lat="-23.445747" lon="-46.607107"><ele>833.2</ele></trkpt>
+      <trkpt lat="-23.445940" lon="-46.607266"><ele>833.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

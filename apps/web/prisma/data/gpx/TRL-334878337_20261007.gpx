@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua do Açal</name>
+    <trkseg>
+      <trkpt lat="-23.563959" lon="-46.567565"><ele>762.0</ele></trkpt>
+      <trkpt lat="-23.564214" lon="-46.567223"><ele>757.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

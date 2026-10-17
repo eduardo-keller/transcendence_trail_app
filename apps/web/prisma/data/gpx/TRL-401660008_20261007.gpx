@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua João Marotti</name>
+    <trkseg>
+      <trkpt lat="-23.716155" lon="-46.541121"><ele>787.4</ele></trkpt>
+      <trkpt lat="-23.716491" lon="-46.540957"><ele>790.7</ele></trkpt>
+      <trkpt lat="-23.716738" lon="-46.540764"><ele>787.9</ele></trkpt>
+      <trkpt lat="-23.717134" lon="-46.540468"><ele>790.8</ele></trkpt>
+      <trkpt lat="-23.717181" lon="-46.540395"><ele>791.2</ele></trkpt>
+      <trkpt lat="-23.717312" lon="-46.540141"><ele>791.2</ele></trkpt>
+      <trkpt lat="-23.717450" lon="-46.539939"><ele>798.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

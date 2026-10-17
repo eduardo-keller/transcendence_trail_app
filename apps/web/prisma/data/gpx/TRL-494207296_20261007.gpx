@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Apalache</name>
+    <trkseg>
+      <trkpt lat="-23.470688" lon="-46.425288"><ele>753.8</ele></trkpt>
+      <trkpt lat="-23.470764" lon="-46.425191"><ele>742.5</ele></trkpt>
+      <trkpt lat="-23.470788" lon="-46.425045"><ele>741.9</ele></trkpt>
+      <trkpt lat="-23.470974" lon="-46.424694"><ele>744.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

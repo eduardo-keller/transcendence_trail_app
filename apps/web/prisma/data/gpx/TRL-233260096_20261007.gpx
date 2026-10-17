@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Trilha da Samambaiaçu</name>
+    <trkseg>
+      <trkpt lat="-23.419514" lon="-46.632758"><ele>1068.9</ele></trkpt>
+      <trkpt lat="-23.419435" lon="-46.632951"><ele>1070.6</ele></trkpt>
+      <trkpt lat="-23.419355" lon="-46.633198"><ele>1071.1</ele></trkpt>
+      <trkpt lat="-23.419356" lon="-46.633358"><ele>1071.1</ele></trkpt>
+      <trkpt lat="-23.419406" lon="-46.633519"><ele>1068.7</ele></trkpt>
+      <trkpt lat="-23.419573" lon="-46.633627"><ele>1068.7</ele></trkpt>
+      <trkpt lat="-23.419721" lon="-46.633584"><ele>1069.7</ele></trkpt>
+      <trkpt lat="-23.419849" lon="-46.633401"><ele>1072.1</ele></trkpt>
+      <trkpt lat="-23.419859" lon="-46.633090"><ele>1074.3</ele></trkpt>
+      <trkpt lat="-23.419947" lon="-46.632854"><ele>1081.1</ele></trkpt>
+      <trkpt lat="-23.420055" lon="-46.632725"><ele>1081.1</ele></trkpt>
+      <trkpt lat="-23.420243" lon="-46.632640"><ele>1084.9</ele></trkpt>
+      <trkpt lat="-23.420489" lon="-46.632650"><ele>1085.3</ele></trkpt>
+      <trkpt lat="-23.420469" lon="-46.632232"><ele>1092.1</ele></trkpt>
+      <trkpt lat="-23.420508" lon="-46.631835"><ele>1092.6</ele></trkpt>
+      <trkpt lat="-23.420715" lon="-46.631470"><ele>1098.7</ele></trkpt>
+      <trkpt lat="-23.421127" lon="-46.631213"><ele>1099.5</ele></trkpt>
+      <trkpt lat="-23.421414" lon="-46.631138"><ele>1106.4</ele></trkpt>
+      <trkpt lat="-23.421609" lon="-46.630590"><ele>1105.9</ele></trkpt>
+      <trkpt lat="-23.421650" lon="-46.630140"><ele>1104.1</ele></trkpt>
+      <trkpt lat="-23.421719" lon="-46.629936"><ele>1099.4</ele></trkpt>
+      <trkpt lat="-23.421856" lon="-46.629475"><ele>1091.0</ele></trkpt>
+      <trkpt lat="-23.422034" lon="-46.629121"><ele>1086.1</ele></trkpt>
+      <trkpt lat="-23.422034" lon="-46.629121"><ele>1086.1</ele></trkpt>
+      <trkpt lat="-23.421857" lon="-46.629163"><ele>1086.1</ele></trkpt>
+      <trkpt lat="-23.421699" lon="-46.629281"><ele>1082.6</ele></trkpt>
+      <trkpt lat="-23.421414" lon="-46.629399"><ele>1086.7</ele></trkpt>
+      <trkpt lat="-23.420971" lon="-46.629357"><ele>1074.4</ele></trkpt>
+      <trkpt lat="-23.420764" lon="-46.629292"><ele>1070.0</ele></trkpt>
+      <trkpt lat="-23.420331" lon="-46.629357"><ele>1069.1</ele></trkpt>
+      <trkpt lat="-23.419691" lon="-46.629346"><ele>1060.7</ele></trkpt>
+      <trkpt lat="-23.419731" lon="-46.629518"><ele>1060.7</ele></trkpt>
+      <trkpt lat="-23.419681" lon="-46.629721"><ele>1062.4</ele></trkpt>
+      <trkpt lat="-23.419740" lon="-46.630054"><ele>1063.3</ele></trkpt>
+      <trkpt lat="-23.419740" lon="-46.630258"><ele>1063.6</ele></trkpt>
+      <trkpt lat="-23.419701" lon="-46.630344"><ele>1063.6</ele></trkpt>
+      <trkpt lat="-23.419258" lon="-46.630462"><ele>1051.5</ele></trkpt>
+      <trkpt lat="-23.419150" lon="-46.630998"><ele>1047.5</ele></trkpt>
+      <trkpt lat="-23.419297" lon="-46.631320"><ele>1049.5</ele></trkpt>
+      <trkpt lat="-23.419051" lon="-46.631577"><ele>1058.3</ele></trkpt>
+      <trkpt lat="-23.418982" lon="-46.631685"><ele>1054.1</ele></trkpt>
+      <trkpt lat="-23.418992" lon="-46.631867"><ele>1056.7</ele></trkpt>
+      <trkpt lat="-23.419110" lon="-46.631996"><ele>1062.0</ele></trkpt>
+      <trkpt lat="-23.419179" lon="-46.632157"><ele>1060.3</ele></trkpt>
+      <trkpt lat="-23.419327" lon="-46.632500"><ele>1069.1</ele></trkpt>
+      <trkpt lat="-23.419376" lon="-46.632640"><ele>1068.9</ele></trkpt>
+      <trkpt lat="-23.419514" lon="-46.632758"><ele>1068.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

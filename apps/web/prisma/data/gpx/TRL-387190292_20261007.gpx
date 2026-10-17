@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Poço Fundo</name>
+    <trkseg>
+      <trkpt lat="-23.517731" lon="-46.448038"><ele>756.1</ele></trkpt>
+      <trkpt lat="-23.518055" lon="-46.448149"><ele>760.2</ele></trkpt>
+      <trkpt lat="-23.518235" lon="-46.448220"><ele>772.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

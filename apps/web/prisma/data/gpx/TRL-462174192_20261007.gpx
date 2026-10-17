@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua João D'Araújo</name>
+    <trkseg>
+      <trkpt lat="-23.470348" lon="-46.598092"><ele>759.4</ele></trkpt>
+      <trkpt lat="-23.470741" lon="-46.597529"><ele>757.1</ele></trkpt>
+      <trkpt lat="-23.470741" lon="-46.597529"><ele>757.1</ele></trkpt>
+      <trkpt lat="-23.470816" lon="-46.597425"><ele>757.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

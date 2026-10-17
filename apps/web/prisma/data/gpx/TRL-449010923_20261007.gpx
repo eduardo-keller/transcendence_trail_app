@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passagem das Andorinhas</name>
+    <trkseg>
+      <trkpt lat="-23.663135" lon="-46.621003"><ele>795.0</ele></trkpt>
+      <trkpt lat="-23.662627" lon="-46.620890"><ele>805.6</ele></trkpt>
+      <trkpt lat="-23.662139" lon="-46.620781"><ele>810.8</ele></trkpt>
+      <trkpt lat="-23.661640" lon="-46.620683"><ele>814.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

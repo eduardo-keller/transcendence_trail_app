@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Panatinga</name>
+    <trkseg>
+      <trkpt lat="-23.488273" lon="-46.597494"><ele>776.3</ele></trkpt>
+      <trkpt lat="-23.488188" lon="-46.597488"><ele>781.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

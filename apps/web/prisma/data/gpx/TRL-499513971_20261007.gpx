@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passagem Servidão S/Nome</name>
+    <trkseg>
+      <trkpt lat="-23.479206" lon="-46.583043"><ele>744.4</ele></trkpt>
+      <trkpt lat="-23.479627" lon="-46.583202"><ele>744.0</ele></trkpt>
+      <trkpt lat="-23.479642" lon="-46.583208"><ele>744.0</ele></trkpt>
+      <trkpt lat="-23.479681" lon="-46.583223"><ele>744.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

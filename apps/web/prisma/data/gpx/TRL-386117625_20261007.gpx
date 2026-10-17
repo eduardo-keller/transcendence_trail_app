@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Avenida Arlindo Genário de Freitas</name>
+    <trkseg>
+      <trkpt lat="-23.633113" lon="-46.791266"><ele>755.9</ele></trkpt>
+      <trkpt lat="-23.633113" lon="-46.790360"><ele>758.8</ele></trkpt>
+      <trkpt lat="-23.633133" lon="-46.790157"><ele>758.8</ele></trkpt>
+      <trkpt lat="-23.633208" lon="-46.789908"><ele>764.0</ele></trkpt>
+      <trkpt lat="-23.633364" lon="-46.789524"><ele>758.9</ele></trkpt>
+      <trkpt lat="-23.633454" lon="-46.789197"><ele>756.5</ele></trkpt>
+      <trkpt lat="-23.633526" lon="-46.788826"><ele>762.8</ele></trkpt>
+      <trkpt lat="-23.633516" lon="-46.788510"><ele>761.5</ele></trkpt>
+      <trkpt lat="-23.633475" lon="-46.788297"><ele>762.0</ele></trkpt>
+      <trkpt lat="-23.633426" lon="-46.788094"><ele>755.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

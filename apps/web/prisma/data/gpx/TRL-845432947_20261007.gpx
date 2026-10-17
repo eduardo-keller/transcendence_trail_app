@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Trilha Caucáia do Alto</name>
+    <trkseg>
+      <trkpt lat="-23.650467" lon="-46.973564"><ele>902.2</ele></trkpt>
+      <trkpt lat="-23.650758" lon="-46.973677"><ele>906.0</ele></trkpt>
+      <trkpt lat="-23.650808" lon="-46.973901"><ele>909.6</ele></trkpt>
+      <trkpt lat="-23.650795" lon="-46.974322"><ele>918.9</ele></trkpt>
+      <trkpt lat="-23.650778" lon="-46.974578"><ele>918.9</ele></trkpt>
+      <trkpt lat="-23.650954" lon="-46.974859"><ele>922.8</ele></trkpt>
+      <trkpt lat="-23.651673" lon="-46.975209"><ele>927.4</ele></trkpt>
+      <trkpt lat="-23.652105" lon="-46.975521"><ele>935.0</ele></trkpt>
+      <trkpt lat="-23.652286" lon="-46.975792"><ele>933.1</ele></trkpt>
+      <trkpt lat="-23.652430" lon="-46.976007"><ele>937.6</ele></trkpt>
+      <trkpt lat="-23.652922" lon="-46.976437"><ele>946.1</ele></trkpt>
+      <trkpt lat="-23.653311" lon="-46.976764"><ele>946.4</ele></trkpt>
+      <trkpt lat="-23.653490" lon="-46.976979"><ele>947.8</ele></trkpt>
+      <trkpt lat="-23.653567" lon="-46.977292"><ele>947.2</ele></trkpt>
+      <trkpt lat="-23.653576" lon="-46.977899"><ele>947.9</ele></trkpt>
+      <trkpt lat="-23.653469" lon="-46.978180"><ele>940.7</ele></trkpt>
+      <trkpt lat="-23.653217" lon="-46.978595"><ele>952.5</ele></trkpt>
+      <trkpt lat="-23.652819" lon="-46.979203"><ele>953.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

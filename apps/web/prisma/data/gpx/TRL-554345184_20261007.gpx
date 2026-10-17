@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Flor de Seda</name>
+    <trkseg>
+      <trkpt lat="-23.508825" lon="-46.456611"><ele>740.1</ele></trkpt>
+      <trkpt lat="-23.508821" lon="-46.456502"><ele>739.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

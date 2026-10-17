@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela 35</name>
+    <trkseg>
+      <trkpt lat="-23.610954" lon="-46.728843"><ele>800.3</ele></trkpt>
+      <trkpt lat="-23.610937" lon="-46.728856"><ele>800.3</ele></trkpt>
+      <trkpt lat="-23.610831" lon="-46.728847"><ele>800.3</ele></trkpt>
+      <trkpt lat="-23.610698" lon="-46.728830"><ele>800.3</ele></trkpt>
+      <trkpt lat="-23.610673" lon="-46.728813"><ele>796.4</ele></trkpt>
+      <trkpt lat="-23.610486" lon="-46.728776"><ele>796.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua J</name>
+    <trkseg>
+      <trkpt lat="-23.541975" lon="-46.629275"><ele>726.2</ele></trkpt>
+      <trkpt lat="-23.541884" lon="-46.629521"><ele>735.8</ele></trkpt>
+      <trkpt lat="-23.541819" lon="-46.629698"><ele>739.5</ele></trkpt>
+      <trkpt lat="-23.541777" lon="-46.629811"><ele>737.5</ele></trkpt>
+      <trkpt lat="-23.541739" lon="-46.629915"><ele>737.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

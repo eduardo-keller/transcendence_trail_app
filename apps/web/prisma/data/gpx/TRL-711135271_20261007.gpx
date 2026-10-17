@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Dracena</name>
+    <trkseg>
+      <trkpt lat="-23.238635" lon="-46.751646"><ele>915.2</ele></trkpt>
+      <trkpt lat="-23.238582" lon="-46.751708"><ele>915.2</ele></trkpt>
+      <trkpt lat="-23.238485" lon="-46.751724"><ele>915.2</ele></trkpt>
+      <trkpt lat="-23.238394" lon="-46.751684"><ele>912.4</ele></trkpt>
+      <trkpt lat="-23.238328" lon="-46.751607"><ele>912.4</ele></trkpt>
+      <trkpt lat="-23.238116" lon="-46.751206"><ele>916.5</ele></trkpt>
+      <trkpt lat="-23.238077" lon="-46.751182"><ele>916.5</ele></trkpt>
+      <trkpt lat="-23.238026" lon="-46.751163"><ele>916.5</ele></trkpt>
+      <trkpt lat="-23.237992" lon="-46.751155"><ele>916.5</ele></trkpt>
+      <trkpt lat="-23.237957" lon="-46.751147"><ele>916.5</ele></trkpt>
+      <trkpt lat="-23.237886" lon="-46.751145"><ele>918.0</ele></trkpt>
+      <trkpt lat="-23.237809" lon="-46.751147"><ele>918.0</ele></trkpt>
+      <trkpt lat="-23.237738" lon="-46.751167"><ele>918.0</ele></trkpt>
+      <trkpt lat="-23.237590" lon="-46.751208"><ele>921.3</ele></trkpt>
+      <trkpt lat="-23.237484" lon="-46.751221"><ele>921.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

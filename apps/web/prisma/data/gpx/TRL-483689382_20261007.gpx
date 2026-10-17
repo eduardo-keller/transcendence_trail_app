@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Estrada Municipal</name>
+    <trkseg>
+      <trkpt lat="-23.101360" lon="-46.936973"><ele>689.7</ele></trkpt>
+      <trkpt lat="-23.102225" lon="-46.937162"><ele>695.1</ele></trkpt>
+      <trkpt lat="-23.102450" lon="-46.937268"><ele>698.1</ele></trkpt>
+      <trkpt lat="-23.102595" lon="-46.937289"><ele>698.1</ele></trkpt>
+      <trkpt lat="-23.103134" lon="-46.937135"><ele>706.0</ele></trkpt>
+      <trkpt lat="-23.103485" lon="-46.937084"><ele>709.5</ele></trkpt>
+      <trkpt lat="-23.103604" lon="-46.937079"><ele>712.0</ele></trkpt>
+      <trkpt lat="-23.103657" lon="-46.937063"><ele>712.0</ele></trkpt>
+      <trkpt lat="-23.103682" lon="-46.937020"><ele>712.0</ele></trkpt>
+      <trkpt lat="-23.103689" lon="-46.936764"><ele>712.5</ele></trkpt>
+      <trkpt lat="-23.103690" lon="-46.936670"><ele>712.5</ele></trkpt>
+      <trkpt lat="-23.103781" lon="-46.936530"><ele>719.4</ele></trkpt>
+      <trkpt lat="-23.103797" lon="-46.936450"><ele>721.0</ele></trkpt>
+      <trkpt lat="-23.103874" lon="-46.936023"><ele>717.0</ele></trkpt>
+      <trkpt lat="-23.103919" lon="-46.935867"><ele>712.7</ele></trkpt>
+      <trkpt lat="-23.103954" lon="-46.935748"><ele>712.7</ele></trkpt>
+      <trkpt lat="-23.104120" lon="-46.935237"><ele>714.4</ele></trkpt>
+      <trkpt lat="-23.104159" lon="-46.935116"><ele>712.3</ele></trkpt>
+      <trkpt lat="-23.104171" lon="-46.935056"><ele>712.3</ele></trkpt>
+      <trkpt lat="-23.104169" lon="-46.935023"><ele>712.3</ele></trkpt>
+      <trkpt lat="-23.104149" lon="-46.934986"><ele>712.3</ele></trkpt>
+      <trkpt lat="-23.104092" lon="-46.934902"><ele>712.3</ele></trkpt>
+      <trkpt lat="-23.103888" lon="-46.934694"><ele>710.1</ele></trkpt>
+      <trkpt lat="-23.103549" lon="-46.934424"><ele>709.9</ele></trkpt>
+      <trkpt lat="-23.103268" lon="-46.934253"><ele>700.9</ele></trkpt>
+      <trkpt lat="-23.102921" lon="-46.934112"><ele>698.1</ele></trkpt>
+      <trkpt lat="-23.102806" lon="-46.934134"><ele>695.6</ele></trkpt>
+      <trkpt lat="-23.102538" lon="-46.934266"><ele>699.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

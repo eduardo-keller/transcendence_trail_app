@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Goiabada Natal</name>
+    <trkseg>
+      <trkpt lat="-23.759784" lon="-46.706884"><ele>771.7</ele></trkpt>
+      <trkpt lat="-23.759913" lon="-46.707126"><ele>775.4</ele></trkpt>
+      <trkpt lat="-23.759960" lon="-46.707228"><ele>775.4</ele></trkpt>
+      <trkpt lat="-23.760085" lon="-46.707325"><ele>775.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

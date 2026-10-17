@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Antônio Carlos Brandão de Oliveira</name>
+    <trkseg>
+      <trkpt lat="-23.559299" lon="-46.531056"><ele>781.3</ele></trkpt>
+      <trkpt lat="-23.559539" lon="-46.530626"><ele>778.9</ele></trkpt>
+      <trkpt lat="-23.559545" lon="-46.530609"><ele>778.9</ele></trkpt>
+      <trkpt lat="-23.559545" lon="-46.530596"><ele>778.9</ele></trkpt>
+      <trkpt lat="-23.559544" lon="-46.530587"><ele>778.9</ele></trkpt>
+      <trkpt lat="-23.559542" lon="-46.530577"><ele>778.9</ele></trkpt>
+      <trkpt lat="-23.559535" lon="-46.530565"><ele>778.9</ele></trkpt>
+      <trkpt lat="-23.559367" lon="-46.530454"><ele>778.9</ele></trkpt>
+      <trkpt lat="-23.559354" lon="-46.530435"><ele>778.9</ele></trkpt>
+      <trkpt lat="-23.559346" lon="-46.530415"><ele>776.3</ele></trkpt>
+      <trkpt lat="-23.559342" lon="-46.530400"><ele>776.3</ele></trkpt>
+      <trkpt lat="-23.559338" lon="-46.530381"><ele>776.3</ele></trkpt>
+      <trkpt lat="-23.559339" lon="-46.530357"><ele>776.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

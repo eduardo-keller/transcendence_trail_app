@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Mil</name>
+    <trkseg>
+      <trkpt lat="-23.454361" lon="-46.691006"><ele>763.0</ele></trkpt>
+      <trkpt lat="-23.454278" lon="-46.691062"><ele>765.0</ele></trkpt>
+      <trkpt lat="-23.454266" lon="-46.691080"><ele>765.0</ele></trkpt>
+      <trkpt lat="-23.454035" lon="-46.691267"><ele>759.0</ele></trkpt>
+      <trkpt lat="-23.453975" lon="-46.691053"><ele>764.8</ele></trkpt>
+      <trkpt lat="-23.453988" lon="-46.691106"><ele>764.8</ele></trkpt>
+      <trkpt lat="-23.454031" lon="-46.691251"><ele>759.0</ele></trkpt>
+      <trkpt lat="-23.454035" lon="-46.691267"><ele>759.0</ele></trkpt>
+      <trkpt lat="-23.454041" lon="-46.691291"><ele>759.0</ele></trkpt>
+      <trkpt lat="-23.454054" lon="-46.691329"><ele>759.0</ele></trkpt>
+      <trkpt lat="-23.454085" lon="-46.691390"><ele>759.0</ele></trkpt>
+      <trkpt lat="-23.454124" lon="-46.691476"><ele>759.0</ele></trkpt>
+      <trkpt lat="-23.454184" lon="-46.691630"><ele>758.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

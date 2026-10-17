@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Francisco de Souza Queiros</name>
+    <trkseg>
+      <trkpt lat="-23.514372" lon="-46.500515"><ele>788.9</ele></trkpt>
+      <trkpt lat="-23.514319" lon="-46.500431"><ele>788.9</ele></trkpt>
+      <trkpt lat="-23.514280" lon="-46.500366"><ele>790.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Espaço para caminhada da Gamelinha</name>
+    <trkseg>
+      <trkpt lat="-23.541185" lon="-46.512885"><ele>748.0</ele></trkpt>
+      <trkpt lat="-23.540491" lon="-46.513785"><ele>744.9</ele></trkpt>
+      <trkpt lat="-23.538587" lon="-46.516256"><ele>743.4</ele></trkpt>
+      <trkpt lat="-23.538567" lon="-46.516234"><ele>744.6</ele></trkpt>
+      <trkpt lat="-23.539447" lon="-46.515118"><ele>747.1</ele></trkpt>
+      <trkpt lat="-23.540473" lon="-46.513768"><ele>744.9</ele></trkpt>
+      <trkpt lat="-23.541158" lon="-46.512865"><ele>748.0</ele></trkpt>
+      <trkpt lat="-23.541185" lon="-46.512885"><ele>748.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

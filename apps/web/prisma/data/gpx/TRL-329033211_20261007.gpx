@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Um</name>
+    <trkseg>
+      <trkpt lat="-23.542163" lon="-46.629849"><ele>737.3</ele></trkpt>
+      <trkpt lat="-23.542102" lon="-46.629822"><ele>737.3</ele></trkpt>
+      <trkpt lat="-23.542046" lon="-46.629798"><ele>739.5</ele></trkpt>
+      <trkpt lat="-23.541991" lon="-46.629773"><ele>739.5</ele></trkpt>
+      <trkpt lat="-23.541906" lon="-46.629736"><ele>739.5</ele></trkpt>
+      <trkpt lat="-23.541819" lon="-46.629698"><ele>739.5</ele></trkpt>
+      <trkpt lat="-23.541753" lon="-46.629669"><ele>737.5</ele></trkpt>
+      <trkpt lat="-23.541669" lon="-46.629632"><ele>737.5</ele></trkpt>
+      <trkpt lat="-23.541586" lon="-46.629595"><ele>737.5</ele></trkpt>
+      <trkpt lat="-23.541530" lon="-46.629571"><ele>739.0</ele></trkpt>
+      <trkpt lat="-23.541448" lon="-46.629535"><ele>737.2</ele></trkpt>
+      <trkpt lat="-23.541368" lon="-46.629500"><ele>737.2</ele></trkpt>
+      <trkpt lat="-23.541307" lon="-46.629473"><ele>737.2</ele></trkpt>
+      <trkpt lat="-23.541233" lon="-46.629441"><ele>731.4</ele></trkpt>
+      <trkpt lat="-23.541180" lon="-46.629417"><ele>731.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

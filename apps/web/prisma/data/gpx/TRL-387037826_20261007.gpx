@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Major Carlo del Prete</name>
+    <trkseg>
+      <trkpt lat="-23.604337" lon="-46.597369"><ele>749.7</ele></trkpt>
+      <trkpt lat="-23.604979" lon="-46.597098"><ele>750.4</ele></trkpt>
+      <trkpt lat="-23.605117" lon="-46.597050"><ele>754.7</ele></trkpt>
+      <trkpt lat="-23.605423" lon="-46.596925"><ele>753.7</ele></trkpt>
+      <trkpt lat="-23.605445" lon="-46.596929"><ele>753.7</ele></trkpt>
+      <trkpt lat="-23.605479" lon="-46.596942"><ele>753.7</ele></trkpt>
+      <trkpt lat="-23.605511" lon="-46.596970"><ele>753.7</ele></trkpt>
+      <trkpt lat="-23.605524" lon="-46.597004"><ele>753.7</ele></trkpt>
+      <trkpt lat="-23.605536" lon="-46.597035"><ele>753.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

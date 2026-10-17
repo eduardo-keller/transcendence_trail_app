@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua 14</name>
+    <trkseg>
+      <trkpt lat="-23.981325" lon="-46.240943"><ele>20.6</ele></trkpt>
+      <trkpt lat="-23.981136" lon="-46.240563"><ele>32.2</ele></trkpt>
+      <trkpt lat="-23.981052" lon="-46.240243"><ele>30.9</ele></trkpt>
+      <trkpt lat="-23.981024" lon="-46.239939"><ele>28.0</ele></trkpt>
+      <trkpt lat="-23.981003" lon="-46.239599"><ele>27.2</ele></trkpt>
+      <trkpt lat="-23.980821" lon="-46.239081"><ele>21.1</ele></trkpt>
+      <trkpt lat="-23.980817" lon="-46.238895"><ele>15.3</ele></trkpt>
+      <trkpt lat="-23.980831" lon="-46.238745"><ele>10.5</ele></trkpt>
+      <trkpt lat="-23.980871" lon="-46.238561"><ele>10.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

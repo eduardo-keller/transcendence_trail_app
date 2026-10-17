@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Avenida Armindo Ramos</name>
+    <trkseg>
+      <trkpt lat="-23.991760" lon="-46.470282"><ele>4.6</ele></trkpt>
+      <trkpt lat="-23.991821" lon="-46.470319"><ele>4.2</ele></trkpt>
+      <trkpt lat="-23.991866" lon="-46.470388"><ele>4.2</ele></trkpt>
+      <trkpt lat="-23.992044" lon="-46.470886"><ele>3.1</ele></trkpt>
+      <trkpt lat="-23.992167" lon="-46.471209"><ele>3.0</ele></trkpt>
+      <trkpt lat="-23.992234" lon="-46.471438"><ele>3.3</ele></trkpt>
+      <trkpt lat="-23.992329" lon="-46.471841"><ele>2.7</ele></trkpt>
+      <trkpt lat="-23.992376" lon="-46.472037"><ele>3.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

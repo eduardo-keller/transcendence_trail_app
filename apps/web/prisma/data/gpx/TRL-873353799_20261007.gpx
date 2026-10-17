@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Estrada de Terra</name>
+    <trkseg>
+      <trkpt lat="-23.199214" lon="-47.015357"><ele>711.2</ele></trkpt>
+      <trkpt lat="-23.198921" lon="-47.015307"><ele>707.2</ele></trkpt>
+      <trkpt lat="-23.198721" lon="-47.015264"><ele>708.1</ele></trkpt>
+      <trkpt lat="-23.198508" lon="-47.015204"><ele>708.1</ele></trkpt>
+      <trkpt lat="-23.198336" lon="-47.015156"><ele>708.7</ele></trkpt>
+      <trkpt lat="-23.198232" lon="-47.015137"><ele>705.6</ele></trkpt>
+      <trkpt lat="-23.197892" lon="-47.015116"><ele>705.1</ele></trkpt>
+      <trkpt lat="-23.197638" lon="-47.015111"><ele>704.4</ele></trkpt>
+      <trkpt lat="-23.197604" lon="-47.015123"><ele>704.4</ele></trkpt>
+      <trkpt lat="-23.197592" lon="-47.015154"><ele>705.8</ele></trkpt>
+      <trkpt lat="-23.197573" lon="-47.015457"><ele>707.9</ele></trkpt>
+      <trkpt lat="-23.197554" lon="-47.015494"><ele>707.9</ele></trkpt>
+      <trkpt lat="-23.197523" lon="-47.015509"><ele>707.9</ele></trkpt>
+      <trkpt lat="-23.197481" lon="-47.015511"><ele>707.9</ele></trkpt>
+      <trkpt lat="-23.197172" lon="-47.015487"><ele>707.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

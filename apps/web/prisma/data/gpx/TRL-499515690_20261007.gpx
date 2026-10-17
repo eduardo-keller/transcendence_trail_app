@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Philippe Viannay</name>
+    <trkseg>
+      <trkpt lat="-23.487430" lon="-46.589504"><ele>766.4</ele></trkpt>
+      <trkpt lat="-23.487782" lon="-46.589854"><ele>773.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

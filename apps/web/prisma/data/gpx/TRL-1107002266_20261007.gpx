@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Largo Sete de Setembro</name>
+    <trkseg>
+      <trkpt lat="-23.699543" lon="-46.553018"><ele>759.9</ele></trkpt>
+      <trkpt lat="-23.699438" lon="-46.553265"><ele>757.7</ele></trkpt>
+      <trkpt lat="-23.699437" lon="-46.553340"><ele>757.7</ele></trkpt>
+      <trkpt lat="-23.699494" lon="-46.553398"><ele>757.7</ele></trkpt>
+      <trkpt lat="-23.699524" lon="-46.553408"><ele>757.7</ele></trkpt>
+      <trkpt lat="-23.699743" lon="-46.553428"><ele>760.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

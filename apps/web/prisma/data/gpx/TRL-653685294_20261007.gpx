@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela José Ferreira dos Santos</name>
+    <trkseg>
+      <trkpt lat="-23.671167" lon="-46.478453"><ele>795.7</ele></trkpt>
+      <trkpt lat="-23.670614" lon="-46.478331"><ele>787.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

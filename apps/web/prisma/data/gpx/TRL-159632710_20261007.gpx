@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Via de Pedestre São José do Nilo</name>
+    <trkseg>
+      <trkpt lat="-23.463225" lon="-46.570204"><ele>738.3</ele></trkpt>
+      <trkpt lat="-23.463344" lon="-46.570154"><ele>738.3</ele></trkpt>
+      <trkpt lat="-23.463379" lon="-46.570092"><ele>736.4</ele></trkpt>
+      <trkpt lat="-23.463409" lon="-46.570013"><ele>736.4</ele></trkpt>
+      <trkpt lat="-23.463478" lon="-46.569945"><ele>737.5</ele></trkpt>
+      <trkpt lat="-23.463550" lon="-46.569879"><ele>737.5</ele></trkpt>
+      <trkpt lat="-23.463629" lon="-46.569733"><ele>738.9</ele></trkpt>
+      <trkpt lat="-23.463688" lon="-46.569605"><ele>738.9</ele></trkpt>
+      <trkpt lat="-23.463759" lon="-46.569417"><ele>735.3</ele></trkpt>
+      <trkpt lat="-23.463836" lon="-46.569201"><ele>736.6</ele></trkpt>
+      <trkpt lat="-23.463875" lon="-46.569106"><ele>736.6</ele></trkpt>
+      <trkpt lat="-23.463870" lon="-46.569058"><ele>736.6</ele></trkpt>
+      <trkpt lat="-23.463843" lon="-46.568989"><ele>734.6</ele></trkpt>
+      <trkpt lat="-23.463788" lon="-46.568850"><ele>734.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

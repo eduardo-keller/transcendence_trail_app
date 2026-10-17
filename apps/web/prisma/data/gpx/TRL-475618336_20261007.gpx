@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Escadão da 12</name>
+    <trkseg>
+      <trkpt lat="-23.459255" lon="-46.665370"><ele>785.9</ele></trkpt>
+      <trkpt lat="-23.459214" lon="-46.665363"><ele>785.9</ele></trkpt>
+      <trkpt lat="-23.459198" lon="-46.665362"><ele>785.9</ele></trkpt>
+      <trkpt lat="-23.458974" lon="-46.665217"><ele>798.0</ele></trkpt>
+      <trkpt lat="-23.458760" lon="-46.665054"><ele>802.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

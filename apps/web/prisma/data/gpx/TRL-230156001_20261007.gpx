@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Canas</name>
+    <trkseg>
+      <trkpt lat="-23.492543" lon="-46.674864"><ele>753.5</ele></trkpt>
+      <trkpt lat="-23.492492" lon="-46.674906"><ele>753.5</ele></trkpt>
+      <trkpt lat="-23.492146" lon="-46.675292"><ele>759.9</ele></trkpt>
+      <trkpt lat="-23.491783" lon="-46.675714"><ele>770.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

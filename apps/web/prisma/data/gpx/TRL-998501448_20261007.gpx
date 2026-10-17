@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa da Praça</name>
+    <trkseg>
+      <trkpt lat="-23.764331" lon="-46.709908"><ele>775.0</ele></trkpt>
+      <trkpt lat="-23.764356" lon="-46.709884"><ele>775.0</ele></trkpt>
+      <trkpt lat="-23.764589" lon="-46.709903"><ele>773.6</ele></trkpt>
+      <trkpt lat="-23.764695" lon="-46.709809"><ele>774.7</ele></trkpt>
+      <trkpt lat="-23.764718" lon="-46.709512"><ele>778.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

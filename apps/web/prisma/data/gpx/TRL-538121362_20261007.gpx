@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Juvenal Luz</name>
+    <trkseg>
+      <trkpt lat="-23.830921" lon="-46.725903"><ele>798.0</ele></trkpt>
+      <trkpt lat="-23.832310" lon="-46.724685"><ele>828.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

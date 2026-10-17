@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Abel Salazar</name>
+    <trkseg>
+      <trkpt lat="-23.590198" lon="-46.657637"><ele>752.0</ele></trkpt>
+      <trkpt lat="-23.590222" lon="-46.657655"><ele>752.0</ele></trkpt>
+      <trkpt lat="-23.590242" lon="-46.657519"><ele>752.0</ele></trkpt>
+      <trkpt lat="-23.590314" lon="-46.657282"><ele>751.7</ele></trkpt>
+      <trkpt lat="-23.590479" lon="-46.656787"><ele>755.1</ele></trkpt>
+      <trkpt lat="-23.590601" lon="-46.656453"><ele>759.2</ele></trkpt>
+      <trkpt lat="-23.590674" lon="-46.656309"><ele>759.2</ele></trkpt>
+      <trkpt lat="-23.590697" lon="-46.656265"><ele>760.8</ele></trkpt>
+      <trkpt lat="-23.590811" lon="-46.656117"><ele>757.8</ele></trkpt>
+      <trkpt lat="-23.590875" lon="-46.656062"><ele>757.8</ele></trkpt>
+      <trkpt lat="-23.590925" lon="-46.656032"><ele>757.8</ele></trkpt>
+      <trkpt lat="-23.591017" lon="-46.655976"><ele>758.7</ele></trkpt>
+      <trkpt lat="-23.591081" lon="-46.655938"><ele>758.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

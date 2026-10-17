@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>CDC Cleuza Bueno</name>
+    <trkseg>
+      <trkpt lat="-23.618439" lon="-46.756304"><ele>747.9</ele></trkpt>
+      <trkpt lat="-23.619076" lon="-46.755568"><ele>758.5</ele></trkpt>
+      <trkpt lat="-23.618939" lon="-46.755371"><ele>753.8</ele></trkpt>
+      <trkpt lat="-23.618839" lon="-46.755364"><ele>753.8</ele></trkpt>
+      <trkpt lat="-23.618623" lon="-46.755090"><ele>756.7</ele></trkpt>
+      <trkpt lat="-23.617941" lon="-46.755891"><ele>752.2</ele></trkpt>
+      <trkpt lat="-23.617848" lon="-46.755806"><ele>749.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela 4</name>
+    <trkseg>
+      <trkpt lat="-23.699422" lon="-46.577604"><ele>757.6</ele></trkpt>
+      <trkpt lat="-23.699451" lon="-46.577724"><ele>758.8</ele></trkpt>
+      <trkpt lat="-23.699554" lon="-46.578179"><ele>761.7</ele></trkpt>
+      <trkpt lat="-23.699572" lon="-46.578257"><ele>761.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

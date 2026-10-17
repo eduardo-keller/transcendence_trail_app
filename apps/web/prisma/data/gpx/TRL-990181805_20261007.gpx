@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Tilápia</name>
+    <trkseg>
+      <trkpt lat="-23.836273" lon="-47.077893"><ele>738.6</ele></trkpt>
+      <trkpt lat="-23.836098" lon="-47.077917"><ele>734.4</ele></trkpt>
+      <trkpt lat="-23.835926" lon="-47.077936"><ele>728.0</ele></trkpt>
+      <trkpt lat="-23.835751" lon="-47.077959"><ele>728.0</ele></trkpt>
+      <trkpt lat="-23.835631" lon="-47.078067"><ele>721.2</ele></trkpt>
+      <trkpt lat="-23.835458" lon="-47.078240"><ele>725.5</ele></trkpt>
+      <trkpt lat="-23.835283" lon="-47.078456"><ele>716.4</ele></trkpt>
+      <trkpt lat="-23.835210" lon="-47.078624"><ele>715.6</ele></trkpt>
+      <trkpt lat="-23.835086" lon="-47.078774"><ele>705.2</ele></trkpt>
+      <trkpt lat="-23.835009" lon="-47.078943"><ele>705.2</ele></trkpt>
+      <trkpt lat="-23.834910" lon="-47.079125"><ele>701.8</ele></trkpt>
+      <trkpt lat="-23.834906" lon="-47.079394"><ele>694.0</ele></trkpt>
+      <trkpt lat="-23.835036" lon="-47.079597"><ele>693.5</ele></trkpt>
+      <trkpt lat="-23.835218" lon="-47.079637"><ele>695.5</ele></trkpt>
+      <trkpt lat="-23.835424" lon="-47.079665"><ele>694.0</ele></trkpt>
+      <trkpt lat="-23.835627" lon="-47.079681"><ele>694.0</ele></trkpt>
+      <trkpt lat="-23.835922" lon="-47.079690"><ele>694.8</ele></trkpt>
+      <trkpt lat="-23.836076" lon="-47.079689"><ele>694.6</ele></trkpt>
+      <trkpt lat="-23.836290" lon="-47.079689"><ele>691.0</ele></trkpt>
+      <trkpt lat="-23.836380" lon="-47.079651"><ele>691.0</ele></trkpt>
+      <trkpt lat="-23.836517" lon="-47.079616"><ele>691.0</ele></trkpt>
+      <trkpt lat="-23.836633" lon="-47.079600"><ele>687.9</ele></trkpt>
+      <trkpt lat="-23.836782" lon="-47.079673"><ele>687.9</ele></trkpt>
+      <trkpt lat="-23.836964" lon="-47.079787"><ele>688.6</ele></trkpt>
+      <trkpt lat="-23.837144" lon="-47.079932"><ele>690.5</ele></trkpt>
+      <trkpt lat="-23.837328" lon="-47.079960"><ele>690.5</ele></trkpt>
+      <trkpt lat="-23.837491" lon="-47.079946"><ele>699.4</ele></trkpt>
+      <trkpt lat="-23.837637" lon="-47.079862"><ele>699.4</ele></trkpt>
+      <trkpt lat="-23.837822" lon="-47.079777"><ele>705.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

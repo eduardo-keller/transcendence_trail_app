@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Represa</name>
+    <trkseg>
+      <trkpt lat="-23.743208" lon="-46.454183"><ele>751.9</ele></trkpt>
+      <trkpt lat="-23.743420" lon="-46.454164"><ele>751.9</ele></trkpt>
+      <trkpt lat="-23.743538" lon="-46.454161"><ele>750.3</ele></trkpt>
+      <trkpt lat="-23.743714" lon="-46.454188"><ele>750.3</ele></trkpt>
+      <trkpt lat="-23.743901" lon="-46.454234"><ele>748.4</ele></trkpt>
+      <trkpt lat="-23.743977" lon="-46.454234"><ele>748.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

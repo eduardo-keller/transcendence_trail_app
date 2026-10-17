@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Curió</name>
+    <trkseg>
+      <trkpt lat="-23.772071" lon="-46.456045"><ele>757.1</ele></trkpt>
+      <trkpt lat="-23.771790" lon="-46.456106"><ele>752.6</ele></trkpt>
+      <trkpt lat="-23.771732" lon="-46.456142"><ele>752.6</ele></trkpt>
+      <trkpt lat="-23.771703" lon="-46.456181"><ele>752.6</ele></trkpt>
+      <trkpt lat="-23.771671" lon="-46.456251"><ele>756.1</ele></trkpt>
+      <trkpt lat="-23.771650" lon="-46.456407"><ele>756.1</ele></trkpt>
+      <trkpt lat="-23.771641" lon="-46.456536"><ele>759.7</ele></trkpt>
+      <trkpt lat="-23.771653" lon="-46.456661"><ele>759.7</ele></trkpt>
+      <trkpt lat="-23.771671" lon="-46.456740"><ele>759.7</ele></trkpt>
+      <trkpt lat="-23.771679" lon="-46.456845"><ele>762.5</ele></trkpt>
+      <trkpt lat="-23.771653" lon="-46.457014"><ele>762.5</ele></trkpt>
+      <trkpt lat="-23.771518" lon="-46.457393"><ele>773.2</ele></trkpt>
+      <trkpt lat="-23.771426" lon="-46.457638"><ele>773.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Santos</name>
+    <trkseg>
+      <trkpt lat="-23.658594" lon="-46.746953"><ele>805.0</ele></trkpt>
+      <trkpt lat="-23.658596" lon="-46.747091"><ele>806.2</ele></trkpt>
+      <trkpt lat="-23.658582" lon="-46.747141"><ele>806.2</ele></trkpt>
+      <trkpt lat="-23.658537" lon="-46.747211"><ele>806.2</ele></trkpt>
+      <trkpt lat="-23.658516" lon="-46.747270"><ele>806.2</ele></trkpt>
+      <trkpt lat="-23.658495" lon="-46.747403"><ele>799.4</ele></trkpt>
+      <trkpt lat="-23.658489" lon="-46.747476"><ele>799.4</ele></trkpt>
+      <trkpt lat="-23.658478" lon="-46.747533"><ele>799.4</ele></trkpt>
+      <trkpt lat="-23.658340" lon="-46.747848"><ele>799.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

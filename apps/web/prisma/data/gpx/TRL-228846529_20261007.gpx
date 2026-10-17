@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passagem Dois</name>
+    <trkseg>
+      <trkpt lat="-23.397447" lon="-46.423124"><ele>800.4</ele></trkpt>
+      <trkpt lat="-23.397381" lon="-46.423089"><ele>800.4</ele></trkpt>
+      <trkpt lat="-23.397254" lon="-46.422858"><ele>800.3</ele></trkpt>
+      <trkpt lat="-23.397122" lon="-46.422757"><ele>800.3</ele></trkpt>
+      <trkpt lat="-23.397064" lon="-46.422702"><ele>798.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

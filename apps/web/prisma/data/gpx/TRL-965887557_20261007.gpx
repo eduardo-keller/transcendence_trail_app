@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passagem José Pereira Fernandes</name>
+    <trkseg>
+      <trkpt lat="-23.497473" lon="-46.790894"><ele>781.4</ele></trkpt>
+      <trkpt lat="-23.497683" lon="-46.790727"><ele>772.1</ele></trkpt>
+      <trkpt lat="-23.497796" lon="-46.790639"><ele>770.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

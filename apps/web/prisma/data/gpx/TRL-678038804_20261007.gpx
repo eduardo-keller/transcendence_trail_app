@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Camimho do Oleoduto</name>
+    <trkseg>
+      <trkpt lat="-23.725981" lon="-46.534574"><ele>806.2</ele></trkpt>
+      <trkpt lat="-23.726175" lon="-46.534757"><ele>800.3</ele></trkpt>
+      <trkpt lat="-23.726572" lon="-46.535146"><ele>805.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

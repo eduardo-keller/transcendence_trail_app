@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Hernandes</name>
+    <trkseg>
+      <trkpt lat="-23.744279" lon="-46.690715"><ele>801.0</ele></trkpt>
+      <trkpt lat="-23.744337" lon="-46.690779"><ele>799.1</ele></trkpt>
+      <trkpt lat="-23.744337" lon="-46.690779"><ele>799.1</ele></trkpt>
+      <trkpt lat="-23.744722" lon="-46.691214"><ele>787.2</ele></trkpt>
+      <trkpt lat="-23.744871" lon="-46.691175"><ele>783.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Marinha Grande</name>
+    <trkseg>
+      <trkpt lat="-23.831583" lon="-46.724123"><ele>804.0</ele></trkpt>
+      <trkpt lat="-23.831603" lon="-46.724232"><ele>804.0</ele></trkpt>
+      <trkpt lat="-23.831634" lon="-46.724363"><ele>816.7</ele></trkpt>
+      <trkpt lat="-23.831661" lon="-46.724468"><ele>816.7</ele></trkpt>
+      <trkpt lat="-23.831750" lon="-46.724776"><ele>820.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

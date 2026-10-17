@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Canto do Engenho</name>
+    <trkseg>
+      <trkpt lat="-23.447874" lon="-46.596500"><ele>760.7</ele></trkpt>
+      <trkpt lat="-23.447864" lon="-46.596522"><ele>760.7</ele></trkpt>
+      <trkpt lat="-23.447798" lon="-46.596572"><ele>763.5</ele></trkpt>
+      <trkpt lat="-23.447740" lon="-46.596611"><ele>763.5</ele></trkpt>
+      <trkpt lat="-23.447622" lon="-46.596691"><ele>772.8</ele></trkpt>
+      <trkpt lat="-23.447547" lon="-46.596747"><ele>772.8</ele></trkpt>
+      <trkpt lat="-23.447441" lon="-46.596825"><ele>775.0</ele></trkpt>
+      <trkpt lat="-23.447395" lon="-46.596855"><ele>775.0</ele></trkpt>
+      <trkpt lat="-23.447367" lon="-46.596866"><ele>775.0</ele></trkpt>
+      <trkpt lat="-23.447323" lon="-46.596878"><ele>782.0</ele></trkpt>
+      <trkpt lat="-23.447297" lon="-46.596886"><ele>782.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

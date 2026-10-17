@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Trilha do Pai Zé</name>
+    <trkseg>
+      <trkpt lat="-23.460418" lon="-46.757528"><ele>803.1</ele></trkpt>
+      <trkpt lat="-23.460321" lon="-46.757411"><ele>803.2</ele></trkpt>
+      <trkpt lat="-23.460152" lon="-46.757308"><ele>798.3</ele></trkpt>
+      <trkpt lat="-23.459844" lon="-46.757100"><ele>805.6</ele></trkpt>
+      <trkpt lat="-23.459529" lon="-46.756930"><ele>802.0</ele></trkpt>
+      <trkpt lat="-23.459428" lon="-46.756930"><ele>802.0</ele></trkpt>
+      <trkpt lat="-23.458894" lon="-46.757346"><ele>797.2</ele></trkpt>
+      <trkpt lat="-23.458847" lon="-46.757383"><ele>805.7</ele></trkpt>
+      <trkpt lat="-23.458646" lon="-46.757503"><ele>802.4</ele></trkpt>
+      <trkpt lat="-23.458613" lon="-46.757638"><ele>802.4</ele></trkpt>
+      <trkpt lat="-23.458662" lon="-46.757761"><ele>807.5</ele></trkpt>
+      <trkpt lat="-23.458652" lon="-46.757829"><ele>807.5</ele></trkpt>
+      <trkpt lat="-23.458539" lon="-46.757793"><ele>807.5</ele></trkpt>
+      <trkpt lat="-23.458308" lon="-46.757648"><ele>802.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

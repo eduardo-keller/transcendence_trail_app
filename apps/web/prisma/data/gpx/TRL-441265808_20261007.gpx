@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Adelina</name>
+    <trkseg>
+      <trkpt lat="-23.440364" lon="-46.533004"><ele>779.4</ele></trkpt>
+      <trkpt lat="-23.440565" lon="-46.532774"><ele>771.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

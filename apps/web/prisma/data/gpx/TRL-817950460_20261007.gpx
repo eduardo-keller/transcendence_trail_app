@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Trilha do Pocinho</name>
+    <trkseg>
+      <trkpt lat="-23.926321" lon="-46.922754"><ele>807.8</ele></trkpt>
+      <trkpt lat="-23.926609" lon="-46.923245"><ele>806.7</ele></trkpt>
+      <trkpt lat="-23.926879" lon="-46.923837"><ele>814.0</ele></trkpt>
+      <trkpt lat="-23.927319" lon="-46.924379"><ele>818.3</ele></trkpt>
+      <trkpt lat="-23.927645" lon="-46.924625"><ele>821.9</ele></trkpt>
+      <trkpt lat="-23.928051" lon="-46.924860"><ele>830.4</ele></trkpt>
+      <trkpt lat="-23.928468" lon="-46.925143"><ele>821.9</ele></trkpt>
+      <trkpt lat="-23.928839" lon="-46.925500"><ele>836.2</ele></trkpt>
+      <trkpt lat="-23.929369" lon="-46.925883"><ele>849.7</ele></trkpt>
+      <trkpt lat="-23.929763" lon="-46.926018"><ele>842.9</ele></trkpt>
+      <trkpt lat="-23.930034" lon="-46.926117"><ele>858.5</ele></trkpt>
+      <trkpt lat="-23.930079" lon="-46.926326"><ele>855.5</ele></trkpt>
+      <trkpt lat="-23.929921" lon="-46.926536"><ele>864.3</ele></trkpt>
+      <trkpt lat="-23.929842" lon="-46.926794"><ele>849.0</ele></trkpt>
+      <trkpt lat="-23.929842" lon="-46.927103"><ele>860.6</ele></trkpt>
+      <trkpt lat="-23.929763" lon="-46.927263"><ele>860.6</ele></trkpt>
+      <trkpt lat="-23.929594" lon="-46.927312"><ele>860.6</ele></trkpt>
+      <trkpt lat="-23.929470" lon="-46.927386"><ele>865.7</ele></trkpt>
+      <trkpt lat="-23.929448" lon="-46.927534"><ele>865.7</ele></trkpt>
+      <trkpt lat="-23.929448" lon="-46.927743"><ele>867.8</ele></trkpt>
+      <trkpt lat="-23.929448" lon="-46.927928"><ele>871.7</ele></trkpt>
+      <trkpt lat="-23.929335" lon="-46.927990"><ele>871.7</ele></trkpt>
+      <trkpt lat="-23.929087" lon="-46.927904"><ele>862.2</ele></trkpt>
+      <trkpt lat="-23.928851" lon="-46.927867"><ele>860.2</ele></trkpt>
+      <trkpt lat="-23.928659" lon="-46.928064"><ele>862.4</ele></trkpt>
+      <trkpt lat="-23.928637" lon="-46.928397"><ele>863.9</ele></trkpt>
+      <trkpt lat="-23.928592" lon="-46.928569"><ele>864.3</ele></trkpt>
+      <trkpt lat="-23.928535" lon="-46.928816"><ele>862.5</ele></trkpt>
+      <trkpt lat="-23.928434" lon="-46.929272"><ele>854.0</ele></trkpt>
+      <trkpt lat="-23.928265" lon="-46.929604"><ele>848.6</ele></trkpt>
+      <trkpt lat="-23.927893" lon="-46.929962"><ele>839.4</ele></trkpt>
+      <trkpt lat="-23.927510" lon="-46.930455"><ele>833.5</ele></trkpt>
+      <trkpt lat="-23.927285" lon="-46.930701"><ele>834.7</ele></trkpt>
+      <trkpt lat="-23.927195" lon="-46.930800"><ele>834.7</ele></trkpt>
+      <trkpt lat="-23.926969" lon="-46.930898"><ele>825.8</ele></trkpt>
+      <trkpt lat="-23.926812" lon="-46.930972"><ele>832.8</ele></trkpt>
+      <trkpt lat="-23.926553" lon="-46.931034"><ele>830.9</ele></trkpt>
+      <trkpt lat="-23.926316" lon="-46.931071"><ele>820.0</ele></trkpt>
+      <trkpt lat="-23.926046" lon="-46.931145"><ele>820.4</ele></trkpt>
+      <trkpt lat="-23.925899" lon="-46.931182"><ele>819.8</ele></trkpt>
+      <trkpt lat="-23.925798" lon="-46.931280"><ele>816.8</ele></trkpt>
+      <trkpt lat="-23.925685" lon="-46.931441"><ele>803.4</ele></trkpt>
+      <trkpt lat="-23.925573" lon="-46.931564"><ele>807.8</ele></trkpt>
+      <trkpt lat="-23.925436" lon="-46.931587"><ele>807.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

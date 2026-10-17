@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Pedro Correa</name>
+    <trkseg>
+      <trkpt lat="-23.733875" lon="-46.714545"><ele>761.6</ele></trkpt>
+      <trkpt lat="-23.733907" lon="-46.714459"><ele>761.6</ele></trkpt>
+      <trkpt lat="-23.733925" lon="-46.714381"><ele>761.6</ele></trkpt>
+      <trkpt lat="-23.733940" lon="-46.714361"><ele>761.6</ele></trkpt>
+      <trkpt lat="-23.733943" lon="-46.714352"><ele>761.6</ele></trkpt>
+      <trkpt lat="-23.733945" lon="-46.714342"><ele>761.6</ele></trkpt>
+      <trkpt lat="-23.733963" lon="-46.714318"><ele>761.6</ele></trkpt>
+      <trkpt lat="-23.733965" lon="-46.714281"><ele>755.8</ele></trkpt>
+      <trkpt lat="-23.733940" lon="-46.714361"><ele>761.6</ele></trkpt>
+      <trkpt lat="-23.734059" lon="-46.714354"><ele>762.1</ele></trkpt>
+      <trkpt lat="-23.733925" lon="-46.714381"><ele>761.6</ele></trkpt>
+      <trkpt lat="-23.733920" lon="-46.714355"><ele>761.6</ele></trkpt>
+      <trkpt lat="-23.733921" lon="-46.714343"><ele>761.6</ele></trkpt>
+      <trkpt lat="-23.733882" lon="-46.714338"><ele>761.6</ele></trkpt>
+      <trkpt lat="-23.733873" lon="-46.714186"><ele>755.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

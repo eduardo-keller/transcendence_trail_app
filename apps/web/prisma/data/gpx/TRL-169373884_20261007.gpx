@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Bandeirantes</name>
+    <trkseg>
+      <trkpt lat="-23.330154" lon="-46.717969"><ele>779.0</ele></trkpt>
+      <trkpt lat="-23.330494" lon="-46.717823"><ele>760.8</ele></trkpt>
+      <trkpt lat="-23.330729" lon="-46.717748"><ele>753.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

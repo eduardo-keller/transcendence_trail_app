@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Principal</name>
+    <trkseg>
+      <trkpt lat="-23.661327" lon="-46.799118"><ele>768.7</ele></trkpt>
+      <trkpt lat="-23.661138" lon="-46.799069"><ele>769.8</ele></trkpt>
+      <trkpt lat="-23.661007" lon="-46.799047"><ele>769.8</ele></trkpt>
+      <trkpt lat="-23.660883" lon="-46.799031"><ele>771.4</ele></trkpt>
+      <trkpt lat="-23.660721" lon="-46.799028"><ele>771.4</ele></trkpt>
+      <trkpt lat="-23.660565" lon="-46.799041"><ele>772.3</ele></trkpt>
+      <trkpt lat="-23.660331" lon="-46.799043"><ele>770.8</ele></trkpt>
+      <trkpt lat="-23.660231" lon="-46.799043"><ele>770.8</ele></trkpt>
+      <trkpt lat="-23.660110" lon="-46.799053"><ele>768.7</ele></trkpt>
+      <trkpt lat="-23.660003" lon="-46.799054"><ele>768.7</ele></trkpt>
+      <trkpt lat="-23.659907" lon="-46.799062"><ele>768.7</ele></trkpt>
+      <trkpt lat="-23.659754" lon="-46.799089"><ele>768.8</ele></trkpt>
+      <trkpt lat="-23.659609" lon="-46.799121"><ele>768.8</ele></trkpt>
+      <trkpt lat="-23.659426" lon="-46.799162"><ele>765.0</ele></trkpt>
+      <trkpt lat="-23.659173" lon="-46.799212"><ele>764.5</ele></trkpt>
+      <trkpt lat="-23.658745" lon="-46.799247"><ele>763.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

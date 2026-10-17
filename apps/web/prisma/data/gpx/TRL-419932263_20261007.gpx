@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Clementina de Jesus</name>
+    <trkseg>
+      <trkpt lat="-23.662825" lon="-46.795754"><ele>800.7</ele></trkpt>
+      <trkpt lat="-23.662837" lon="-46.795726"><ele>800.7</ele></trkpt>
+      <trkpt lat="-23.662865" lon="-46.795655"><ele>796.3</ele></trkpt>
+      <trkpt lat="-23.662867" lon="-46.795387"><ele>785.1</ele></trkpt>
+      <trkpt lat="-23.662856" lon="-46.795255"><ele>785.1</ele></trkpt>
+      <trkpt lat="-23.662842" lon="-46.795237"><ele>785.1</ele></trkpt>
+      <trkpt lat="-23.662653" lon="-46.795265"><ele>785.1</ele></trkpt>
+      <trkpt lat="-23.662496" lon="-46.795301"><ele>780.6</ele></trkpt>
+      <trkpt lat="-23.662408" lon="-46.795360"><ele>780.6</ele></trkpt>
+      <trkpt lat="-23.662359" lon="-46.795396"><ele>778.1</ele></trkpt>
+      <trkpt lat="-23.662331" lon="-46.795439"><ele>786.5</ele></trkpt>
+      <trkpt lat="-23.662257" lon="-46.795467"><ele>786.5</ele></trkpt>
+      <trkpt lat="-23.662211" lon="-46.795499"><ele>786.5</ele></trkpt>
+    </trkseg>
+    <trkseg>
+      <trkpt lat="-23.662243" lon="-46.795815"><ele>796.3</ele></trkpt>
+      <trkpt lat="-23.662211" lon="-46.795499"><ele>786.5</ele></trkpt>
+      <trkpt lat="-23.662199" lon="-46.795437"><ele>786.5</ele></trkpt>
+      <trkpt lat="-23.662174" lon="-46.795064"><ele>773.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

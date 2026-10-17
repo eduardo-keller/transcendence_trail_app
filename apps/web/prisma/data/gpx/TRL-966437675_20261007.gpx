@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Rio das Arraias</name>
+    <trkseg>
+      <trkpt lat="-23.431974" lon="-46.766819"><ele>840.5</ele></trkpt>
+      <trkpt lat="-23.432796" lon="-46.766561"><ele>825.6</ele></trkpt>
+      <trkpt lat="-23.432887" lon="-46.766535"><ele>825.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

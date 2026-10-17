@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Esmeraldo José de Oliveira</name>
+    <trkseg>
+      <trkpt lat="-23.548660" lon="-46.349619"><ele>773.5</ele></trkpt>
+      <trkpt lat="-23.548467" lon="-46.349657"><ele>772.7</ele></trkpt>
+      <trkpt lat="-23.548433" lon="-46.349647"><ele>772.7</ele></trkpt>
+      <trkpt lat="-23.548405" lon="-46.349627"><ele>772.7</ele></trkpt>
+      <trkpt lat="-23.548377" lon="-46.349564"><ele>770.6</ele></trkpt>
+      <trkpt lat="-23.548320" lon="-46.349249"><ele>765.4</ele></trkpt>
+      <trkpt lat="-23.548294" lon="-46.349131"><ele>765.4</ele></trkpt>
+      <trkpt lat="-23.548257" lon="-46.349049"><ele>765.4</ele></trkpt>
+      <trkpt lat="-23.548179" lon="-46.348946"><ele>765.5</ele></trkpt>
+      <trkpt lat="-23.548127" lon="-46.348833"><ele>765.5</ele></trkpt>
+      <trkpt lat="-23.547976" lon="-46.348360"><ele>770.8</ele></trkpt>
+      <trkpt lat="-23.547932" lon="-46.348266"><ele>770.8</ele></trkpt>
+      <trkpt lat="-23.547854" lon="-46.348136"><ele>774.9</ele></trkpt>
+      <trkpt lat="-23.547607" lon="-46.347799"><ele>777.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

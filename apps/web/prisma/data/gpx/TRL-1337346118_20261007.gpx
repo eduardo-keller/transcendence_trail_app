@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Trilha da Mata do Boturoca</name>
+    <trkseg>
+      <trkpt lat="-23.570730" lon="-46.728008"><ele>771.9</ele></trkpt>
+      <trkpt lat="-23.570754" lon="-46.728082"><ele>771.9</ele></trkpt>
+      <trkpt lat="-23.570783" lon="-46.728177"><ele>771.9</ele></trkpt>
+      <trkpt lat="-23.570821" lon="-46.728298"><ele>775.4</ele></trkpt>
+      <trkpt lat="-23.570904" lon="-46.728468"><ele>775.4</ele></trkpt>
+      <trkpt lat="-23.570919" lon="-46.728555"><ele>779.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

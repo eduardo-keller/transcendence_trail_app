@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Caminho Santa Gertrudes</name>
+    <trkseg>
+      <trkpt lat="-23.925962" lon="-46.401444"><ele>5.0</ele></trkpt>
+      <trkpt lat="-23.925947" lon="-46.401488"><ele>5.0</ele></trkpt>
+      <trkpt lat="-23.925930" lon="-46.401571"><ele>4.2</ele></trkpt>
+      <trkpt lat="-23.925915" lon="-46.401653"><ele>4.2</ele></trkpt>
+      <trkpt lat="-23.925908" lon="-46.401686"><ele>4.2</ele></trkpt>
+      <trkpt lat="-23.925898" lon="-46.401731"><ele>4.2</ele></trkpt>
+      <trkpt lat="-23.925906" lon="-46.401735"><ele>4.2</ele></trkpt>
+      <trkpt lat="-23.926230" lon="-46.401886"><ele>4.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

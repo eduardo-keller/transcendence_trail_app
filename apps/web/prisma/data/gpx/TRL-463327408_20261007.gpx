@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela São Jorge</name>
+    <trkseg>
+      <trkpt lat="-23.431504" lon="-46.523969"><ele>790.3</ele></trkpt>
+      <trkpt lat="-23.431171" lon="-46.523434"><ele>781.6</ele></trkpt>
+      <trkpt lat="-23.431038" lon="-46.523054"><ele>779.4</ele></trkpt>
+      <trkpt lat="-23.431050" lon="-46.522858"><ele>777.5</ele></trkpt>
+      <trkpt lat="-23.431009" lon="-46.522774"><ele>777.5</ele></trkpt>
+      <trkpt lat="-23.430956" lon="-46.522704"><ele>776.3</ele></trkpt>
+      <trkpt lat="-23.430911" lon="-46.522705"><ele>776.3</ele></trkpt>
+      <trkpt lat="-23.430733" lon="-46.522783"><ele>776.3</ele></trkpt>
+      <trkpt lat="-23.430655" lon="-46.522445"><ele>781.0</ele></trkpt>
+      <trkpt lat="-23.430589" lon="-46.522265"><ele>775.0</ele></trkpt>
+      <trkpt lat="-23.430577" lon="-46.522160"><ele>775.0</ele></trkpt>
+      <trkpt lat="-23.430579" lon="-46.522073"><ele>769.0</ele></trkpt>
+      <trkpt lat="-23.430578" lon="-46.521957"><ele>769.0</ele></trkpt>
+      <trkpt lat="-23.430597" lon="-46.521838"><ele>769.0</ele></trkpt>
+      <trkpt lat="-23.430700" lon="-46.521419"><ele>760.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

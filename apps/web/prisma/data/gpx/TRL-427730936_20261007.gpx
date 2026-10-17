@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela São Luiz Fundos 2</name>
+    <trkseg>
+      <trkpt lat="-23.593385" lon="-46.916993"><ele>846.6</ele></trkpt>
+      <trkpt lat="-23.593351" lon="-46.916792"><ele>847.6</ele></trkpt>
+      <trkpt lat="-23.593395" lon="-46.916634"><ele>847.6</ele></trkpt>
+      <trkpt lat="-23.593432" lon="-46.916443"><ele>847.5</ele></trkpt>
+      <trkpt lat="-23.593484" lon="-46.916249"><ele>842.8</ele></trkpt>
+      <trkpt lat="-23.593598" lon="-46.915843"><ele>845.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

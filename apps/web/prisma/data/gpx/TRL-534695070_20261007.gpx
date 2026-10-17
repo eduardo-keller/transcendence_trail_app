@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Avenida Marginal</name>
+    <trkseg>
+      <trkpt lat="-23.667086" lon="-46.724150"><ele>725.1</ele></trkpt>
+      <trkpt lat="-23.667125" lon="-46.724162"><ele>725.1</ele></trkpt>
+      <trkpt lat="-23.667156" lon="-46.724168"><ele>725.1</ele></trkpt>
+      <trkpt lat="-23.667254" lon="-46.724171"><ele>725.1</ele></trkpt>
+      <trkpt lat="-23.667367" lon="-46.724169"><ele>725.7</ele></trkpt>
+      <trkpt lat="-23.667499" lon="-46.724213"><ele>725.7</ele></trkpt>
+      <trkpt lat="-23.667697" lon="-46.724248"><ele>725.2</ele></trkpt>
+      <trkpt lat="-23.667827" lon="-46.724282"><ele>725.2</ele></trkpt>
+      <trkpt lat="-23.668086" lon="-46.724344"><ele>724.8</ele></trkpt>
+      <trkpt lat="-23.668346" lon="-46.724413"><ele>725.9</ele></trkpt>
+      <trkpt lat="-23.668379" lon="-46.724419"><ele>725.9</ele></trkpt>
+      <trkpt lat="-23.668430" lon="-46.724425"><ele>725.9</ele></trkpt>
+      <trkpt lat="-23.668491" lon="-46.724429"><ele>725.4</ele></trkpt>
+      <trkpt lat="-23.668558" lon="-46.724444"><ele>725.4</ele></trkpt>
+      <trkpt lat="-23.668597" lon="-46.724456"><ele>725.4</ele></trkpt>
+      <trkpt lat="-23.668779" lon="-46.724511"><ele>725.5</ele></trkpt>
+      <trkpt lat="-23.668854" lon="-46.724551"><ele>725.5</ele></trkpt>
+      <trkpt lat="-23.668979" lon="-46.724592"><ele>722.5</ele></trkpt>
+      <trkpt lat="-23.669263" lon="-46.724677"><ele>724.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

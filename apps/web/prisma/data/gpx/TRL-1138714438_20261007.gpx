@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela José Vidal Senin</name>
+    <trkseg>
+      <trkpt lat="-23.690887" lon="-46.451910"><ele>818.2</ele></trkpt>
+      <trkpt lat="-23.690820" lon="-46.451305"><ele>811.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

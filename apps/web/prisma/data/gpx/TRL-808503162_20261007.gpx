@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Pista de Lazer</name>
+    <trkseg>
+      <trkpt lat="-23.395627" lon="-46.329939"><ele>780.0</ele></trkpt>
+      <trkpt lat="-23.395678" lon="-46.329918"><ele>780.0</ele></trkpt>
+      <trkpt lat="-23.395710" lon="-46.329932"><ele>780.1</ele></trkpt>
+      <trkpt lat="-23.396043" lon="-46.330930"><ele>780.2</ele></trkpt>
+      <trkpt lat="-23.396212" lon="-46.331452"><ele>781.0</ele></trkpt>
+      <trkpt lat="-23.396346" lon="-46.331844"><ele>779.1</ele></trkpt>
+      <trkpt lat="-23.396560" lon="-46.332486"><ele>779.0</ele></trkpt>
+      <trkpt lat="-23.396923" lon="-46.333547"><ele>777.4</ele></trkpt>
+      <trkpt lat="-23.396992" lon="-46.333747"><ele>777.4</ele></trkpt>
+      <trkpt lat="-23.396980" lon="-46.333775"><ele>775.9</ele></trkpt>
+      <trkpt lat="-23.396916" lon="-46.333800"><ele>775.9</ele></trkpt>
+      <trkpt lat="-23.396899" lon="-46.333790"><ele>775.9</ele></trkpt>
+      <trkpt lat="-23.396894" lon="-46.333775"><ele>775.9</ele></trkpt>
+      <trkpt lat="-23.396703" lon="-46.333202"><ele>776.9</ele></trkpt>
+      <trkpt lat="-23.396447" lon="-46.332451"><ele>777.1</ele></trkpt>
+      <trkpt lat="-23.396443" lon="-46.332437"><ele>777.1</ele></trkpt>
+      <trkpt lat="-23.396176" lon="-46.331633"><ele>779.0</ele></trkpt>
+      <trkpt lat="-23.396017" lon="-46.331154"><ele>781.3</ele></trkpt>
+      <trkpt lat="-23.395923" lon="-46.330872"><ele>778.2</ele></trkpt>
+      <trkpt lat="-23.395774" lon="-46.330438"><ele>779.5</ele></trkpt>
+      <trkpt lat="-23.395671" lon="-46.330109"><ele>780.0</ele></trkpt>
+      <trkpt lat="-23.395622" lon="-46.329968"><ele>780.0</ele></trkpt>
+      <trkpt lat="-23.395627" lon="-46.329939"><ele>780.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passarela Confrade Antonio C. Braz</name>
+    <trkseg>
+      <trkpt lat="-23.579088" lon="-46.497012"><ele>744.9</ele></trkpt>
+      <trkpt lat="-23.579131" lon="-46.496780"><ele>744.4</ele></trkpt>
+      <trkpt lat="-23.578364" lon="-46.496775"><ele>752.3</ele></trkpt>
+      <trkpt lat="-23.578417" lon="-46.496988"><ele>756.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Mário Laguno</name>
+    <trkseg>
+      <trkpt lat="-23.648466" lon="-46.625849"><ele>793.1</ele></trkpt>
+      <trkpt lat="-23.648635" lon="-46.625842"><ele>794.0</ele></trkpt>
+      <trkpt lat="-23.648736" lon="-46.625843"><ele>794.0</ele></trkpt>
+      <trkpt lat="-23.648842" lon="-46.625842"><ele>793.8</ele></trkpt>
+      <trkpt lat="-23.649128" lon="-46.625832"><ele>793.4</ele></trkpt>
+      <trkpt lat="-23.649179" lon="-46.625838"><ele>793.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

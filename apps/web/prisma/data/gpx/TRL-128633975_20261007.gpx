@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passarela Waldemar R. Coppini</name>
+    <trkseg>
+      <trkpt lat="-23.626599" lon="-46.598865"><ele>801.0</ele></trkpt>
+      <trkpt lat="-23.626774" lon="-46.598756"><ele>801.0</ele></trkpt>
+      <trkpt lat="-23.626761" lon="-46.598729"><ele>796.8</ele></trkpt>
+      <trkpt lat="-23.626539" lon="-46.598868"><ele>801.0</ele></trkpt>
+      <trkpt lat="-23.626539" lon="-46.598868"><ele>801.0</ele></trkpt>
+      <trkpt lat="-23.626118" lon="-46.598064"><ele>792.3</ele></trkpt>
+      <trkpt lat="-23.626118" lon="-46.598064"><ele>792.3</ele></trkpt>
+      <trkpt lat="-23.626431" lon="-46.597869"><ele>788.0</ele></trkpt>
+      <trkpt lat="-23.626412" lon="-46.597833"><ele>788.0</ele></trkpt>
+      <trkpt lat="-23.626125" lon="-46.598012"><ele>792.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

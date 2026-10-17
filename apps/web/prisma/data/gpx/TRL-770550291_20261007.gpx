@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Campestre</name>
+    <trkseg>
+      <trkpt lat="-23.470779" lon="-46.977550"><ele>989.1</ele></trkpt>
+      <trkpt lat="-23.470737" lon="-46.977457"><ele>989.1</ele></trkpt>
+      <trkpt lat="-23.470621" lon="-46.977201"><ele>992.0</ele></trkpt>
+      <trkpt lat="-23.470535" lon="-46.977018"><ele>992.0</ele></trkpt>
+      <trkpt lat="-23.470473" lon="-46.976927"><ele>992.0</ele></trkpt>
+      <trkpt lat="-23.470436" lon="-46.976891"><ele>992.0</ele></trkpt>
+      <trkpt lat="-23.470390" lon="-46.976880"><ele>988.7</ele></trkpt>
+      <trkpt lat="-23.470300" lon="-46.976885"><ele>988.7</ele></trkpt>
+      <trkpt lat="-23.470244" lon="-46.976879"><ele>988.7</ele></trkpt>
+      <trkpt lat="-23.470126" lon="-46.976840"><ele>988.7</ele></trkpt>
+      <trkpt lat="-23.469922" lon="-46.976753"><ele>978.9</ele></trkpt>
+      <trkpt lat="-23.469774" lon="-46.976738"><ele>973.4</ele></trkpt>
+      <trkpt lat="-23.469595" lon="-46.976748"><ele>973.4</ele></trkpt>
+      <trkpt lat="-23.469428" lon="-46.976776"><ele>965.3</ele></trkpt>
+      <trkpt lat="-23.469022" lon="-46.976925"><ele>960.9</ele></trkpt>
+      <trkpt lat="-23.468831" lon="-46.976977"><ele>960.9</ele></trkpt>
+      <trkpt lat="-23.468728" lon="-46.976977"><ele>955.3</ele></trkpt>
+      <trkpt lat="-23.468636" lon="-46.976966"><ele>955.3</ele></trkpt>
+      <trkpt lat="-23.468492" lon="-46.976923"><ele>955.3</ele></trkpt>
+      <trkpt lat="-23.468434" lon="-46.976921"><ele>950.5</ele></trkpt>
+      <trkpt lat="-23.468377" lon="-46.976941"><ele>950.5</ele></trkpt>
+      <trkpt lat="-23.468286" lon="-46.976985"><ele>950.5</ele></trkpt>
+      <trkpt lat="-23.468133" lon="-46.977068"><ele>941.0</ele></trkpt>
+      <trkpt lat="-23.467999" lon="-46.977121"><ele>950.8</ele></trkpt>
+      <trkpt lat="-23.467872" lon="-46.977150"><ele>945.3</ele></trkpt>
+      <trkpt lat="-23.467693" lon="-46.977194"><ele>945.3</ele></trkpt>
+      <trkpt lat="-23.467571" lon="-46.977220"><ele>939.6</ele></trkpt>
+      <trkpt lat="-23.467390" lon="-46.977269"><ele>939.6</ele></trkpt>
+      <trkpt lat="-23.467252" lon="-46.977276"><ele>934.1</ele></trkpt>
+      <trkpt lat="-23.467083" lon="-46.977239"><ele>931.9</ele></trkpt>
+      <trkpt lat="-23.466808" lon="-46.977149"><ele>931.9</ele></trkpt>
+      <trkpt lat="-23.466714" lon="-46.977158"><ele>928.0</ele></trkpt>
+      <trkpt lat="-23.466621" lon="-46.977208"><ele>928.0</ele></trkpt>
+      <trkpt lat="-23.466569" lon="-46.977280"><ele>928.0</ele></trkpt>
+      <trkpt lat="-23.466497" lon="-46.977432"><ele>917.6</ele></trkpt>
+      <trkpt lat="-23.466455" lon="-46.977540"><ele>917.6</ele></trkpt>
+      <trkpt lat="-23.466386" lon="-46.977742"><ele>916.0</ele></trkpt>
+      <trkpt lat="-23.466285" lon="-46.978051"><ele>915.2</ele></trkpt>
+      <trkpt lat="-23.465547" lon="-46.980579"><ele>864.8</ele></trkpt>
+      <trkpt lat="-23.465514" lon="-46.980755"><ele>860.0</ele></trkpt>
+      <trkpt lat="-23.465535" lon="-46.980883"><ele>860.0</ele></trkpt>
+      <trkpt lat="-23.465673" lon="-46.980985"><ele>856.0</ele></trkpt>
+      <trkpt lat="-23.466337" lon="-46.981266"><ele>858.5</ele></trkpt>
+      <trkpt lat="-23.466338" lon="-46.981815"><ele>852.1</ele></trkpt>
+      <trkpt lat="-23.466744" lon="-46.982354"><ele>851.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

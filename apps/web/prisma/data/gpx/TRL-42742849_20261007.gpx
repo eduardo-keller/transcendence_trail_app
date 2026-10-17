@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Quatro</name>
+    <trkseg>
+      <trkpt lat="-23.696630" lon="-46.713026"><ele>748.3</ele></trkpt>
+      <trkpt lat="-23.696587" lon="-46.713063"><ele>748.3</ele></trkpt>
+      <trkpt lat="-23.696536" lon="-46.713115"><ele>748.3</ele></trkpt>
+      <trkpt lat="-23.696388" lon="-46.713262"><ele>748.2</ele></trkpt>
+      <trkpt lat="-23.696269" lon="-46.713373"><ele>748.2</ele></trkpt>
+      <trkpt lat="-23.696224" lon="-46.713410"><ele>746.9</ele></trkpt>
+      <trkpt lat="-23.696192" lon="-46.713440"><ele>746.9</ele></trkpt>
+      <trkpt lat="-23.696141" lon="-46.713490"><ele>746.9</ele></trkpt>
+      <trkpt lat="-23.696117" lon="-46.713518"><ele>746.9</ele></trkpt>
+      <trkpt lat="-23.696076" lon="-46.713564"><ele>746.9</ele></trkpt>
+      <trkpt lat="-23.696010" lon="-46.713647"><ele>746.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

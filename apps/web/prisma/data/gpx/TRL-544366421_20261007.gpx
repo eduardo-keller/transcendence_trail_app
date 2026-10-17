@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Cumaru</name>
+    <trkseg>
+      <trkpt lat="-23.428254" lon="-46.436593"><ele>753.7</ele></trkpt>
+      <trkpt lat="-23.428219" lon="-46.436522"><ele>755.4</ele></trkpt>
+      <trkpt lat="-23.427990" lon="-46.436050"><ele>755.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

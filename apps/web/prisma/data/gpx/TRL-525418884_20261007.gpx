@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Serra de Itatiaia</name>
+    <trkseg>
+      <trkpt lat="-23.530692" lon="-46.402586"><ele>806.8</ele></trkpt>
+      <trkpt lat="-23.530939" lon="-46.402238"><ele>802.5</ele></trkpt>
+      <trkpt lat="-23.530956" lon="-46.402217"><ele>802.5</ele></trkpt>
+      <trkpt lat="-23.531004" lon="-46.402178"><ele>798.7</ele></trkpt>
+      <trkpt lat="-23.531142" lon="-46.401989"><ele>799.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

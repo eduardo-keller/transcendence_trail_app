@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Biguaçu</name>
+    <trkseg>
+      <trkpt lat="-23.444904" lon="-46.431413"><ele>774.8</ele></trkpt>
+      <trkpt lat="-23.444327" lon="-46.431530"><ele>779.7</ele></trkpt>
+      <trkpt lat="-23.443778" lon="-46.431707"><ele>783.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

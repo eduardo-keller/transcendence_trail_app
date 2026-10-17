@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela dos Professores</name>
+    <trkseg>
+      <trkpt lat="-23.547498" lon="-46.949969"><ele>769.8</ele></trkpt>
+      <trkpt lat="-23.547454" lon="-46.949344"><ele>756.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Esperança</name>
+    <trkseg>
+      <trkpt lat="-23.621726" lon="-46.497323"><ele>788.1</ele></trkpt>
+      <trkpt lat="-23.621719" lon="-46.497360"><ele>788.1</ele></trkpt>
+      <trkpt lat="-23.621479" lon="-46.497566"><ele>794.0</ele></trkpt>
+      <trkpt lat="-23.621294" lon="-46.497704"><ele>793.0</ele></trkpt>
+      <trkpt lat="-23.621070" lon="-46.497799"><ele>798.0</ele></trkpt>
+      <trkpt lat="-23.620784" lon="-46.497888"><ele>804.3</ele></trkpt>
+      <trkpt lat="-23.620524" lon="-46.497935"><ele>803.2</ele></trkpt>
+      <trkpt lat="-23.620384" lon="-46.497902"><ele>813.4</ele></trkpt>
+      <trkpt lat="-23.620084" lon="-46.498037"><ele>811.4</ele></trkpt>
+      <trkpt lat="-23.619815" lon="-46.498154"><ele>815.7</ele></trkpt>
+      <trkpt lat="-23.619459" lon="-46.498233"><ele>817.9</ele></trkpt>
+      <trkpt lat="-23.619113" lon="-46.498256"><ele>822.5</ele></trkpt>
+      <trkpt lat="-23.618835" lon="-46.498252"><ele>828.1</ele></trkpt>
+      <trkpt lat="-23.618525" lon="-46.498184"><ele>840.9</ele></trkpt>
+      <trkpt lat="-23.618498" lon="-46.498134"><ele>840.9</ele></trkpt>
+      <trkpt lat="-23.618495" lon="-46.497932"><ele>840.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

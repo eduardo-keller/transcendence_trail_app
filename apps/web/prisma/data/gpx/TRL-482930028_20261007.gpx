@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Estrada Itapecerica - Santo Amaro</name>
+    <trkseg>
+      <trkpt lat="-23.689188" lon="-46.812813"><ele>797.3</ele></trkpt>
+      <trkpt lat="-23.689294" lon="-46.812933"><ele>795.5</ele></trkpt>
+      <trkpt lat="-23.689476" lon="-46.813151"><ele>800.5</ele></trkpt>
+      <trkpt lat="-23.689662" lon="-46.813326"><ele>802.8</ele></trkpt>
+      <trkpt lat="-23.689894" lon="-46.813469"><ele>808.5</ele></trkpt>
+      <trkpt lat="-23.690044" lon="-46.813590"><ele>803.1</ele></trkpt>
+      <trkpt lat="-23.690213" lon="-46.813793"><ele>810.9</ele></trkpt>
+      <trkpt lat="-23.690431" lon="-46.814186"><ele>816.4</ele></trkpt>
+      <trkpt lat="-23.690578" lon="-46.814345"><ele>811.0</ele></trkpt>
+      <trkpt lat="-23.690938" lon="-46.814568"><ele>817.7</ele></trkpt>
+      <trkpt lat="-23.691346" lon="-46.814749"><ele>826.1</ele></trkpt>
+      <trkpt lat="-23.691438" lon="-46.814855"><ele>826.1</ele></trkpt>
+      <trkpt lat="-23.691502" lon="-46.814961"><ele>822.9</ele></trkpt>
+      <trkpt lat="-23.691478" lon="-46.815503"><ele>822.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

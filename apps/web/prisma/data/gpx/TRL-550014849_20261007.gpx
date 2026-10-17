@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela José Pisapia</name>
+    <trkseg>
+      <trkpt lat="-23.549955" lon="-46.761655"><ele>781.2</ele></trkpt>
+      <trkpt lat="-23.550130" lon="-46.761588"><ele>781.2</ele></trkpt>
+      <trkpt lat="-23.550398" lon="-46.761503"><ele>779.1</ele></trkpt>
+      <trkpt lat="-23.550892" lon="-46.761408"><ele>775.5</ele></trkpt>
+      <trkpt lat="-23.550962" lon="-46.761400"><ele>775.5</ele></trkpt>
+      <trkpt lat="-23.551036" lon="-46.761409"><ele>769.5</ele></trkpt>
+      <trkpt lat="-23.551113" lon="-46.761444"><ele>769.5</ele></trkpt>
+      <trkpt lat="-23.551208" lon="-46.761496"><ele>769.5</ele></trkpt>
+      <trkpt lat="-23.551315" lon="-46.761549"><ele>769.8</ele></trkpt>
+      <trkpt lat="-23.551536" lon="-46.761658"><ele>764.9</ele></trkpt>
+      <trkpt lat="-23.551643" lon="-46.761711"><ele>764.9</ele></trkpt>
+      <trkpt lat="-23.551818" lon="-46.761797"><ele>760.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

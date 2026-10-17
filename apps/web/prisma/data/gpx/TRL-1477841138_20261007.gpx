@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Doze de Outubro</name>
+    <trkseg>
+      <trkpt lat="-23.442765" lon="-46.372295"><ele>802.5</ele></trkpt>
+      <trkpt lat="-23.442797" lon="-46.372419"><ele>797.0</ele></trkpt>
+      <trkpt lat="-23.442836" lon="-46.372454"><ele>797.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

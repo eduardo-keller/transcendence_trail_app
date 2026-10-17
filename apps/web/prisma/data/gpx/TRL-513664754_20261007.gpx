@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Antônio Sebastião da Costa</name>
+    <trkseg>
+      <trkpt lat="-23.677406" lon="-46.782548"><ele>791.5</ele></trkpt>
+      <trkpt lat="-23.677346" lon="-46.782591"><ele>792.5</ele></trkpt>
+      <trkpt lat="-23.676992" lon="-46.782846"><ele>781.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

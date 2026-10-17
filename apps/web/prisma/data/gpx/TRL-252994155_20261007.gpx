@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Alberto Pires</name>
+    <trkseg>
+      <trkpt lat="-23.479261" lon="-46.708031"><ele>743.2</ele></trkpt>
+      <trkpt lat="-23.479158" lon="-46.708028"><ele>743.2</ele></trkpt>
+      <trkpt lat="-23.478637" lon="-46.708014"><ele>741.8</ele></trkpt>
+      <trkpt lat="-23.478599" lon="-46.707957"><ele>741.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

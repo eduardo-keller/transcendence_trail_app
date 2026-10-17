@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Urupes</name>
+    <trkseg>
+      <trkpt lat="-23.532746" lon="-46.848124"><ele>733.5</ele></trkpt>
+      <trkpt lat="-23.532736" lon="-46.848763"><ele>739.4</ele></trkpt>
+      <trkpt lat="-23.532730" lon="-46.849659"><ele>742.7</ele></trkpt>
+      <trkpt lat="-23.532710" lon="-46.850329"><ele>748.2</ele></trkpt>
+      <trkpt lat="-23.532703" lon="-46.850935"><ele>766.3</ele></trkpt>
+      <trkpt lat="-23.532691" lon="-46.851612"><ele>787.0</ele></trkpt>
+      <trkpt lat="-23.532685" lon="-46.852207"><ele>787.6</ele></trkpt>
+      <trkpt lat="-23.532630" lon="-46.852809"><ele>779.5</ele></trkpt>
+      <trkpt lat="-23.532649" lon="-46.853541"><ele>762.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Evaristo Emiliano Bueno</name>
+    <trkseg>
+      <trkpt lat="-23.509582" lon="-46.484397"><ele>767.0</ele></trkpt>
+      <trkpt lat="-23.509560" lon="-46.484494"><ele>767.0</ele></trkpt>
+      <trkpt lat="-23.509545" lon="-46.484582"><ele>767.0</ele></trkpt>
+      <trkpt lat="-23.509515" lon="-46.484679"><ele>768.5</ele></trkpt>
+      <trkpt lat="-23.509445" lon="-46.484893"><ele>767.7</ele></trkpt>
+      <trkpt lat="-23.509441" lon="-46.484925"><ele>767.7</ele></trkpt>
+      <trkpt lat="-23.509443" lon="-46.484955"><ele>767.7</ele></trkpt>
+      <trkpt lat="-23.509461" lon="-46.484983"><ele>767.7</ele></trkpt>
+      <trkpt lat="-23.509478" lon="-46.484994"><ele>767.7</ele></trkpt>
+      <trkpt lat="-23.509455" lon="-46.485089"><ele>767.7</ele></trkpt>
+      <trkpt lat="-23.509435" lon="-46.485179"><ele>768.4</ele></trkpt>
+      <trkpt lat="-23.509417" lon="-46.485234"><ele>768.4</ele></trkpt>
+      <trkpt lat="-23.509399" lon="-46.485270"><ele>768.4</ele></trkpt>
+      <trkpt lat="-23.509386" lon="-46.485295"><ele>768.4</ele></trkpt>
+      <trkpt lat="-23.509355" lon="-46.485386"><ele>768.4</ele></trkpt>
+      <trkpt lat="-23.509303" lon="-46.485562"><ele>765.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

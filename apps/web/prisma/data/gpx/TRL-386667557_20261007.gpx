@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa dos Pinhais</name>
+    <trkseg>
+      <trkpt lat="-23.664012" lon="-46.624149"><ele>783.7</ele></trkpt>
+      <trkpt lat="-23.664259" lon="-46.623809"><ele>782.2</ele></trkpt>
+      <trkpt lat="-23.664353" lon="-46.623731"><ele>783.5</ele></trkpt>
+      <trkpt lat="-23.664581" lon="-46.623668"><ele>783.5</ele></trkpt>
+      <trkpt lat="-23.664834" lon="-46.623469"><ele>781.3</ele></trkpt>
+      <trkpt lat="-23.665145" lon="-46.623271"><ele>779.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

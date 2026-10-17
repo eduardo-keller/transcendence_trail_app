@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Poá</name>
+    <trkseg>
+      <trkpt lat="-23.337796" lon="-46.827838"><ele>767.5</ele></trkpt>
+      <trkpt lat="-23.337893" lon="-46.827990"><ele>765.7</ele></trkpt>
+      <trkpt lat="-23.337915" lon="-46.828032"><ele>765.7</ele></trkpt>
+      <trkpt lat="-23.337920" lon="-46.828067"><ele>755.6</ele></trkpt>
+      <trkpt lat="-23.337905" lon="-46.828101"><ele>765.7</ele></trkpt>
+      <trkpt lat="-23.337857" lon="-46.828134"><ele>765.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

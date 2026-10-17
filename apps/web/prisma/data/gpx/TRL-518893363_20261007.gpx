@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Getúlio Batista Nascimento</name>
+    <trkseg>
+      <trkpt lat="-23.791625" lon="-46.724599"><ele>770.4</ele></trkpt>
+      <trkpt lat="-23.791723" lon="-46.724413"><ele>772.7</ele></trkpt>
+      <trkpt lat="-23.791801" lon="-46.724280"><ele>776.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Via Lúcio Brentano</name>
+    <trkseg>
+      <trkpt lat="-23.730938" lon="-46.715825"><ele>742.7</ele></trkpt>
+      <trkpt lat="-23.730944" lon="-46.715770"><ele>742.7</ele></trkpt>
+      <trkpt lat="-23.730947" lon="-46.715725"><ele>742.7</ele></trkpt>
+      <trkpt lat="-23.730946" lon="-46.715689"><ele>742.8</ele></trkpt>
+      <trkpt lat="-23.730945" lon="-46.715673"><ele>742.8</ele></trkpt>
+      <trkpt lat="-23.730945" lon="-46.715647"><ele>742.8</ele></trkpt>
+      <trkpt lat="-23.730945" lon="-46.715636"><ele>742.8</ele></trkpt>
+      <trkpt lat="-23.730934" lon="-46.715581"><ele>742.8</ele></trkpt>
+      <trkpt lat="-23.730884" lon="-46.715447"><ele>742.8</ele></trkpt>
+      <trkpt lat="-23.730834" lon="-46.715314"><ele>744.3</ele></trkpt>
+      <trkpt lat="-23.730794" lon="-46.715191"><ele>744.3</ele></trkpt>
+      <trkpt lat="-23.730786" lon="-46.715062"><ele>744.7</ele></trkpt>
+      <trkpt lat="-23.730794" lon="-46.714976"><ele>744.7</ele></trkpt>
+      <trkpt lat="-23.730836" lon="-46.714826"><ele>745.1</ele></trkpt>
+      <trkpt lat="-23.730905" lon="-46.714607"><ele>745.1</ele></trkpt>
+      <trkpt lat="-23.730973" lon="-46.714413"><ele>744.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

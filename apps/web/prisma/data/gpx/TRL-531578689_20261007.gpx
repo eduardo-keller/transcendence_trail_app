@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Manoel</name>
+    <trkseg>
+      <trkpt lat="-23.515052" lon="-46.759621"><ele>765.9</ele></trkpt>
+      <trkpt lat="-23.514934" lon="-46.758962"><ele>748.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

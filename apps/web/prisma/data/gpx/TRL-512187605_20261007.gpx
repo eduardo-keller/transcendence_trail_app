@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela José Ponciano</name>
+    <trkseg>
+      <trkpt lat="-23.524521" lon="-46.370087"><ele>792.2</ele></trkpt>
+      <trkpt lat="-23.524519" lon="-46.369484"><ele>782.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

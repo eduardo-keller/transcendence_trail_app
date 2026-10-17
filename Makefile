@@ -1,7 +1,10 @@
 COMPOSE = docker compose -f docker/docker-compose.yml
 SECRETS = docker/secrets/db_password.txt docker/secrets/better_auth_secret.txt
 
-.PHONY: all build up stop down logs sh npm migrate studio clean fclean re
+# O DATABASE_URL só existe no processo do entrypoint; comandos via exec precisam montá-lo
+DB_ENV = export DATABASE_URL="postgresql://$$POSTGRES_USER:$$(cat /run/secrets/db_password)@postgres:5432/$$POSTGRES_DB?schema=public";
+
+.PHONY: all build up stop down logs sh npm migrate import-trails studio clean fclean re
 
 all: up
 
@@ -30,7 +33,11 @@ npm:
 # uso: make migrate name=add_trails
 migrate:
 	$(if $(name),,$(error uso: make migrate name=<nome>))
-	$(COMPOSE) exec nextjs npx prisma migrate dev --name $(name)
+	$(COMPOSE) exec nextjs sh -c '$(DB_ENV) npx prisma migrate dev --name $(name)'
+
+# Importa (ou atualiza) as trilhas do OSM a partir de apps/web/prisma/data/*.sqlite
+import-trails:
+	$(COMPOSE) exec nextjs sh -c '$(DB_ENV) node prisma/import-trails.mts'
 
 studio:
 	$(COMPOSE) --profile tools up -d prisma-studio

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Ribeira Grande</name>
+    <trkseg>
+      <trkpt lat="-23.831042" lon="-46.727675"><ele>795.4</ele></trkpt>
+      <trkpt lat="-23.831076" lon="-46.727691"><ele>795.4</ele></trkpt>
+      <trkpt lat="-23.831128" lon="-46.727706"><ele>795.4</ele></trkpt>
+      <trkpt lat="-23.831178" lon="-46.727715"><ele>795.4</ele></trkpt>
+      <trkpt lat="-23.831238" lon="-46.727723"><ele>795.4</ele></trkpt>
+      <trkpt lat="-23.831314" lon="-46.727735"><ele>804.5</ele></trkpt>
+      <trkpt lat="-23.831447" lon="-46.727747"><ele>804.5</ele></trkpt>
+      <trkpt lat="-23.831546" lon="-46.727753"><ele>815.8</ele></trkpt>
+      <trkpt lat="-23.831598" lon="-46.727763"><ele>815.8</ele></trkpt>
+      <trkpt lat="-23.831637" lon="-46.727778"><ele>815.8</ele></trkpt>
+      <trkpt lat="-23.831655" lon="-46.727787"><ele>815.8</ele></trkpt>
+      <trkpt lat="-23.831683" lon="-46.727811"><ele>815.8</ele></trkpt>
+      <trkpt lat="-23.831732" lon="-46.727865"><ele>815.8</ele></trkpt>
+      <trkpt lat="-23.831810" lon="-46.727940"><ele>829.6</ele></trkpt>
+      <trkpt lat="-23.831920" lon="-46.728049"><ele>829.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

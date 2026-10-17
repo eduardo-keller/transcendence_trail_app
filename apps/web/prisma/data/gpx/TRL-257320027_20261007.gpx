@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passagem Cavalgada x Izidro Ortiz</name>
+    <trkseg>
+      <trkpt lat="-23.492043" lon="-46.570598"><ele>740.3</ele></trkpt>
+      <trkpt lat="-23.491979" lon="-46.570611"><ele>740.3</ele></trkpt>
+      <trkpt lat="-23.491950" lon="-46.570593"><ele>740.3</ele></trkpt>
+      <trkpt lat="-23.491736" lon="-46.570464"><ele>738.5</ele></trkpt>
+      <trkpt lat="-23.491687" lon="-46.570430"><ele>738.5</ele></trkpt>
+      <trkpt lat="-23.491647" lon="-46.570405"><ele>736.7</ele></trkpt>
+      <trkpt lat="-23.491571" lon="-46.570359"><ele>736.7</ele></trkpt>
+      <trkpt lat="-23.491499" lon="-46.570316"><ele>737.1</ele></trkpt>
+      <trkpt lat="-23.491467" lon="-46.570295"><ele>737.1</ele></trkpt>
+      <trkpt lat="-23.491404" lon="-46.570241"><ele>737.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Avenida Doutor Antônio Cândido Machado</name>
+    <trkseg>
+      <trkpt lat="-23.338768" lon="-46.839372"><ele>723.3</ele></trkpt>
+      <trkpt lat="-23.338852" lon="-46.839372"><ele>723.3</ele></trkpt>
+      <trkpt lat="-23.339006" lon="-46.839326"><ele>723.3</ele></trkpt>
+      <trkpt lat="-23.339153" lon="-46.839298"><ele>723.4</ele></trkpt>
+      <trkpt lat="-23.339348" lon="-46.839250"><ele>723.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

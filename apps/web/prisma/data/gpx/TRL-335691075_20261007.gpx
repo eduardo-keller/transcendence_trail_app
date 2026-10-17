@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Pista de Caminhada</name>
+    <trkseg>
+      <trkpt lat="-23.572657" lon="-46.872731"><ele>767.1</ele></trkpt>
+      <trkpt lat="-23.572937" lon="-46.872833"><ele>778.6</ele></trkpt>
+      <trkpt lat="-23.573533" lon="-46.872836"><ele>775.5</ele></trkpt>
+      <trkpt lat="-23.573575" lon="-46.872836"><ele>775.5</ele></trkpt>
+      <trkpt lat="-23.573699" lon="-46.872836"><ele>775.5</ele></trkpt>
+      <trkpt lat="-23.573790" lon="-46.872839"><ele>781.4</ele></trkpt>
+      <trkpt lat="-23.573897" lon="-46.872833"><ele>781.4</ele></trkpt>
+      <trkpt lat="-23.574002" lon="-46.872981"><ele>789.8</ele></trkpt>
+      <trkpt lat="-23.574225" lon="-46.873206"><ele>782.5</ele></trkpt>
+      <trkpt lat="-23.574275" lon="-46.873092"><ele>782.7</ele></trkpt>
+      <trkpt lat="-23.574355" lon="-46.873107"><ele>778.3</ele></trkpt>
+      <trkpt lat="-23.574372" lon="-46.873036"><ele>778.3</ele></trkpt>
+      <trkpt lat="-23.574304" lon="-46.873012"><ele>782.7</ele></trkpt>
+      <trkpt lat="-23.574343" lon="-46.872889"><ele>771.6</ele></trkpt>
+      <trkpt lat="-23.574120" lon="-46.872824"><ele>782.1</ele></trkpt>
+      <trkpt lat="-23.573767" lon="-46.872425"><ele>775.7</ele></trkpt>
+      <trkpt lat="-23.573428" lon="-46.872131"><ele>766.2</ele></trkpt>
+      <trkpt lat="-23.573202" lon="-46.872010"><ele>756.7</ele></trkpt>
+      <trkpt lat="-23.573133" lon="-46.872003"><ele>755.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

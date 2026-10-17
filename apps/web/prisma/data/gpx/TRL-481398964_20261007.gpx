@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Serra das Bicas</name>
+    <trkseg>
+      <trkpt lat="-23.441675" lon="-46.800647"><ele>825.0</ele></trkpt>
+      <trkpt lat="-23.441491" lon="-46.800610"><ele>818.8</ele></trkpt>
+      <trkpt lat="-23.441406" lon="-46.800562"><ele>818.8</ele></trkpt>
+      <trkpt lat="-23.441488" lon="-46.800553"><ele>818.8</ele></trkpt>
+      <trkpt lat="-23.441684" lon="-46.800570"><ele>825.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

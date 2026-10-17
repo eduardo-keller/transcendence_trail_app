@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Caminho da Paz</name>
+    <trkseg>
+      <trkpt lat="-23.899736" lon="-46.451392"><ele>5.2</ele></trkpt>
+      <trkpt lat="-23.899909" lon="-46.451325"><ele>5.8</ele></trkpt>
+      <trkpt lat="-23.899924" lon="-46.451300"><ele>5.8</ele></trkpt>
+      <trkpt lat="-23.899976" lon="-46.451280"><ele>5.8</ele></trkpt>
+      <trkpt lat="-23.900118" lon="-46.451235"><ele>3.6</ele></trkpt>
+      <trkpt lat="-23.900207" lon="-46.451207"><ele>2.2</ele></trkpt>
+      <trkpt lat="-23.900222" lon="-46.451191"><ele>2.2</ele></trkpt>
+      <trkpt lat="-23.900389" lon="-46.451121"><ele>2.2</ele></trkpt>
+      <trkpt lat="-23.900415" lon="-46.451174"><ele>2.2</ele></trkpt>
+      <trkpt lat="-23.900534" lon="-46.451142"><ele>2.1</ele></trkpt>
+      <trkpt lat="-23.900653" lon="-46.451109"><ele>2.1</ele></trkpt>
+      <trkpt lat="-23.900824" lon="-46.451065"><ele>3.0</ele></trkpt>
+      <trkpt lat="-23.900924" lon="-46.451040"><ele>3.0</ele></trkpt>
+      <trkpt lat="-23.900999" lon="-46.451028"><ele>4.5</ele></trkpt>
+      <trkpt lat="-23.900976" lon="-46.450914"><ele>5.5</ele></trkpt>
+      <trkpt lat="-23.900965" lon="-46.450878"><ele>3.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

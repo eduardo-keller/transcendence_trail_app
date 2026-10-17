@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passarela Zosima Rosa da Cruz</name>
+    <trkseg>
+      <trkpt lat="-23.597357" lon="-46.444316"><ele>774.6</ele></trkpt>
+      <trkpt lat="-23.597340" lon="-46.444277"><ele>774.5</ele></trkpt>
+      <trkpt lat="-23.597156" lon="-46.444377"><ele>774.6</ele></trkpt>
+      <trkpt lat="-23.597168" lon="-46.444407"><ele>774.6</ele></trkpt>
+      <trkpt lat="-23.597343" lon="-46.444306"><ele>774.6</ele></trkpt>
+      <trkpt lat="-23.597343" lon="-46.444306"><ele>774.6</ele></trkpt>
+      <trkpt lat="-23.597441" lon="-46.444520"><ele>774.9</ele></trkpt>
+      <trkpt lat="-23.597462" lon="-46.444994"><ele>775.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Formosa</name>
+    <trkseg>
+      <trkpt lat="-23.656999" lon="-46.468762"><ele>760.9</ele></trkpt>
+      <trkpt lat="-23.657044" lon="-46.468433"><ele>764.8</ele></trkpt>
+      <trkpt lat="-23.657033" lon="-46.468326"><ele>764.8</ele></trkpt>
+      <trkpt lat="-23.656954" lon="-46.468067"><ele>769.6</ele></trkpt>
+      <trkpt lat="-23.656817" lon="-46.467671"><ele>777.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Engenheiro Luiz Del Monte Pedro</name>
+    <trkseg>
+      <trkpt lat="-23.976870" lon="-46.229659"><ele>7.1</ele></trkpt>
+      <trkpt lat="-23.976890" lon="-46.229663"><ele>7.1</ele></trkpt>
+      <trkpt lat="-23.976913" lon="-46.229666"><ele>7.1</ele></trkpt>
+      <trkpt lat="-23.976943" lon="-46.229665"><ele>7.1</ele></trkpt>
+      <trkpt lat="-23.977505" lon="-46.229536"><ele>6.3</ele></trkpt>
+      <trkpt lat="-23.978091" lon="-46.229408"><ele>6.5</ele></trkpt>
+      <trkpt lat="-23.978711" lon="-46.229266"><ele>7.6</ele></trkpt>
+      <trkpt lat="-23.979314" lon="-46.229127"><ele>6.9</ele></trkpt>
+      <trkpt lat="-23.979908" lon="-46.228991"><ele>10.8</ele></trkpt>
+      <trkpt lat="-23.980515" lon="-46.228855"><ele>10.8</ele></trkpt>
+      <trkpt lat="-23.981116" lon="-46.228721"><ele>8.8</ele></trkpt>
+      <trkpt lat="-23.981436" lon="-46.228650"><ele>8.3</ele></trkpt>
+      <trkpt lat="-23.981480" lon="-46.228640"><ele>8.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa dos Jasmins</name>
+    <trkseg>
+      <trkpt lat="-23.735728" lon="-46.712639"><ele>764.9</ele></trkpt>
+      <trkpt lat="-23.735790" lon="-46.712546"><ele>764.9</ele></trkpt>
+      <trkpt lat="-23.735848" lon="-46.712500"><ele>764.9</ele></trkpt>
+      <trkpt lat="-23.735865" lon="-46.712487"><ele>764.9</ele></trkpt>
+      <trkpt lat="-23.735884" lon="-46.712499"><ele>764.9</ele></trkpt>
+      <trkpt lat="-23.735918" lon="-46.712462"><ele>764.9</ele></trkpt>
+      <trkpt lat="-23.735946" lon="-46.712435"><ele>764.9</ele></trkpt>
+      <trkpt lat="-23.735977" lon="-46.712401"><ele>760.3</ele></trkpt>
+      <trkpt lat="-23.736031" lon="-46.712322"><ele>758.6</ele></trkpt>
+      <trkpt lat="-23.735848" lon="-46.712500"><ele>764.9</ele></trkpt>
+      <trkpt lat="-23.735788" lon="-46.712456"><ele>764.9</ele></trkpt>
+      <trkpt lat="-23.735767" lon="-46.712460"><ele>764.9</ele></trkpt>
+      <trkpt lat="-23.735729" lon="-46.712447"><ele>764.9</ele></trkpt>
+      <trkpt lat="-23.735674" lon="-46.712439"><ele>767.4</ele></trkpt>
+      <trkpt lat="-23.735649" lon="-46.712441"><ele>767.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

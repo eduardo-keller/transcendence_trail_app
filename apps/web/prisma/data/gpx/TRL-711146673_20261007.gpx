@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Água Marinha</name>
+    <trkseg>
+      <trkpt lat="-23.206897" lon="-46.766600"><ele>741.9</ele></trkpt>
+      <trkpt lat="-23.206976" lon="-46.766634"><ele>741.9</ele></trkpt>
+      <trkpt lat="-23.207861" lon="-46.766484"><ele>741.5</ele></trkpt>
+      <trkpt lat="-23.207861" lon="-46.766484"><ele>741.5</ele></trkpt>
+      <trkpt lat="-23.207904" lon="-46.766447"><ele>741.5</ele></trkpt>
+      <trkpt lat="-23.207904" lon="-46.766447"><ele>741.5</ele></trkpt>
+      <trkpt lat="-23.207948" lon="-46.766393"><ele>742.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

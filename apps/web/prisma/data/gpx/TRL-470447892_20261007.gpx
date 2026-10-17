@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Japiacu</name>
+    <trkseg>
+      <trkpt lat="-23.538694" lon="-46.731887"><ele>720.9</ele></trkpt>
+      <trkpt lat="-23.538489" lon="-46.732083"><ele>720.3</ele></trkpt>
+      <trkpt lat="-23.538230" lon="-46.732330"><ele>721.7</ele></trkpt>
+      <trkpt lat="-23.537918" lon="-46.732647"><ele>720.9</ele></trkpt>
+      <trkpt lat="-23.537878" lon="-46.732706"><ele>723.3</ele></trkpt>
+      <trkpt lat="-23.537864" lon="-46.732744"><ele>723.3</ele></trkpt>
+      <trkpt lat="-23.537858" lon="-46.732783"><ele>723.3</ele></trkpt>
+      <trkpt lat="-23.537864" lon="-46.732826"><ele>723.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

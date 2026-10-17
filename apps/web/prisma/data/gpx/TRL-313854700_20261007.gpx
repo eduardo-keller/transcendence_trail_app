@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Nicolau Marquez</name>
+    <trkseg>
+      <trkpt lat="-23.667316" lon="-46.742525"><ele>760.6</ele></trkpt>
+      <trkpt lat="-23.667235" lon="-46.742493"><ele>760.6</ele></trkpt>
+      <trkpt lat="-23.666880" lon="-46.742410"><ele>767.2</ele></trkpt>
+      <trkpt lat="-23.666679" lon="-46.742392"><ele>771.6</ele></trkpt>
+      <trkpt lat="-23.666641" lon="-46.742401"><ele>771.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

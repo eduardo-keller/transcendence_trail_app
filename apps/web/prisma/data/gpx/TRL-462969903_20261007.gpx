@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Santa Cruz</name>
+    <trkseg>
+      <trkpt lat="-23.454809" lon="-46.684718"><ele>791.3</ele></trkpt>
+      <trkpt lat="-23.454664" lon="-46.684766"><ele>791.3</ele></trkpt>
+      <trkpt lat="-23.454666" lon="-46.684781"><ele>791.3</ele></trkpt>
+      <trkpt lat="-23.454579" lon="-46.684800"><ele>811.0</ele></trkpt>
+      <trkpt lat="-23.454499" lon="-46.684801"><ele>811.0</ele></trkpt>
+      <trkpt lat="-23.454321" lon="-46.684845"><ele>811.0</ele></trkpt>
+      <trkpt lat="-23.454165" lon="-46.684910"><ele>826.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

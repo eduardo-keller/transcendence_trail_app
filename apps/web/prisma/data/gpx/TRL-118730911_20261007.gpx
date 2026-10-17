@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Alameda Paus Dalho</name>
+    <trkseg>
+      <trkpt lat="-23.412601" lon="-46.664139"><ele>998.1</ele></trkpt>
+      <trkpt lat="-23.412699" lon="-46.664322"><ele>999.6</ele></trkpt>
+      <trkpt lat="-23.412788" lon="-46.664515"><ele>999.6</ele></trkpt>
+      <trkpt lat="-23.412899" lon="-46.664757"><ele>1007.5</ele></trkpt>
+      <trkpt lat="-23.413063" lon="-46.664890"><ele>1014.2</ele></trkpt>
+      <trkpt lat="-23.413250" lon="-46.664966"><ele>1009.2</ele></trkpt>
+      <trkpt lat="-23.413401" lon="-46.665187"><ele>1016.0</ele></trkpt>
+      <trkpt lat="-23.413447" lon="-46.665395"><ele>1016.0</ele></trkpt>
+      <trkpt lat="-23.413625" lon="-46.665545"><ele>1017.9</ele></trkpt>
+      <trkpt lat="-23.413792" lon="-46.665523"><ele>1018.4</ele></trkpt>
+      <trkpt lat="-23.413940" lon="-46.665545"><ele>1018.4</ele></trkpt>
+      <trkpt lat="-23.414058" lon="-46.665717"><ele>1024.3</ele></trkpt>
+      <trkpt lat="-23.414225" lon="-46.665835"><ele>1024.3</ele></trkpt>
+      <trkpt lat="-23.414545" lon="-46.665968"><ele>1022.0</ele></trkpt>
+      <trkpt lat="-23.414782" lon="-46.666010"><ele>1038.9</ele></trkpt>
+      <trkpt lat="-23.414923" lon="-46.666018"><ele>1038.6</ele></trkpt>
+      <trkpt lat="-23.415081" lon="-46.666018"><ele>1038.6</ele></trkpt>
+      <trkpt lat="-23.415203" lon="-46.666027"><ele>1039.2</ele></trkpt>
+      <trkpt lat="-23.415339" lon="-46.666041"><ele>1039.2</ele></trkpt>
+      <trkpt lat="-23.415423" lon="-46.666043"><ele>1040.9</ele></trkpt>
+      <trkpt lat="-23.415487" lon="-46.666027"><ele>1040.9</ele></trkpt>
+      <trkpt lat="-23.415546" lon="-46.665979"><ele>1040.9</ele></trkpt>
+      <trkpt lat="-23.415573" lon="-46.665935"><ele>1030.6</ele></trkpt>
+      <trkpt lat="-23.415586" lon="-46.665876"><ele>1030.6</ele></trkpt>
+      <trkpt lat="-23.415582" lon="-46.665770"><ele>1030.6</ele></trkpt>
+      <trkpt lat="-23.415529" lon="-46.665579"><ele>1031.5</ele></trkpt>
+      <trkpt lat="-23.415435" lon="-46.665345"><ele>1036.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

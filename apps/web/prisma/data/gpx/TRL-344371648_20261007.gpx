@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Consolação</name>
+    <trkseg>
+      <trkpt lat="-23.558114" lon="-46.660455"><ele>837.3</ele></trkpt>
+      <trkpt lat="-23.558025" lon="-46.660549"><ele>837.3</ele></trkpt>
+      <trkpt lat="-23.558046" lon="-46.660571"><ele>837.3</ele></trkpt>
+      <trkpt lat="-23.558025" lon="-46.660549"><ele>837.3</ele></trkpt>
+      <trkpt lat="-23.557887" lon="-46.660707"><ele>836.7</ele></trkpt>
+      <trkpt lat="-23.557749" lon="-46.660563"><ele>842.2</ele></trkpt>
+      <trkpt lat="-23.557681" lon="-46.660492"><ele>842.2</ele></trkpt>
+      <trkpt lat="-23.557749" lon="-46.660563"><ele>842.2</ele></trkpt>
+      <trkpt lat="-23.557665" lon="-46.660658"><ele>842.2</ele></trkpt>
+      <trkpt lat="-23.557327" lon="-46.661071"><ele>838.5</ele></trkpt>
+      <trkpt lat="-23.556702" lon="-46.661810"><ele>819.5</ele></trkpt>
+    </trkseg>
+    <trkseg>
+      <trkpt lat="-23.557842" lon="-46.660310"><ele>842.1</ele></trkpt>
+      <trkpt lat="-23.557873" lon="-46.660273"><ele>842.1</ele></trkpt>
+      <trkpt lat="-23.557876" lon="-46.660180"><ele>842.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Mário Joaquim Fila</name>
+    <trkseg>
+      <trkpt lat="-23.577071" lon="-46.503074"><ele>751.9</ele></trkpt>
+      <trkpt lat="-23.577077" lon="-46.503046"><ele>751.9</ele></trkpt>
+      <trkpt lat="-23.577092" lon="-46.503017"><ele>754.7</ele></trkpt>
+      <trkpt lat="-23.577128" lon="-46.502951"><ele>754.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

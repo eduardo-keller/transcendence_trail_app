@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Um</name>
+    <trkseg>
+      <trkpt lat="-23.595404" lon="-46.981163"><ele>902.3</ele></trkpt>
+      <trkpt lat="-23.595286" lon="-46.981190"><ele>902.3</ele></trkpt>
+      <trkpt lat="-23.595170" lon="-46.981192"><ele>902.3</ele></trkpt>
+      <trkpt lat="-23.594973" lon="-46.981149"><ele>901.2</ele></trkpt>
+      <trkpt lat="-23.594779" lon="-46.981074"><ele>895.6</ele></trkpt>
+      <trkpt lat="-23.594674" lon="-46.981031"><ele>895.6</ele></trkpt>
+      <trkpt lat="-23.594413" lon="-46.980921"><ele>892.6</ele></trkpt>
+      <trkpt lat="-23.594012" lon="-46.980814"><ele>885.8</ele></trkpt>
+      <trkpt lat="-23.593464" lon="-46.980644"><ele>877.3</ele></trkpt>
+      <trkpt lat="-23.593259" lon="-46.980622"><ele>877.3</ele></trkpt>
+      <trkpt lat="-23.593137" lon="-46.980669"><ele>871.1</ele></trkpt>
+      <trkpt lat="-23.593080" lon="-46.980754"><ele>871.5</ele></trkpt>
+      <trkpt lat="-23.593067" lon="-46.980881"><ele>871.5</ele></trkpt>
+      <trkpt lat="-23.593129" lon="-46.981027"><ele>863.3</ele></trkpt>
+      <trkpt lat="-23.593312" lon="-46.981270"><ele>862.1</ele></trkpt>
+      <trkpt lat="-23.593612" lon="-46.981654"><ele>863.2</ele></trkpt>
+      <trkpt lat="-23.593784" lon="-46.981919"><ele>856.5</ele></trkpt>
+      <trkpt lat="-23.593917" lon="-46.982182"><ele>860.0</ele></trkpt>
+      <trkpt lat="-23.594079" lon="-46.982574"><ele>856.7</ele></trkpt>
+      <trkpt lat="-23.594332" lon="-46.983223"><ele>863.5</ele></trkpt>
+      <trkpt lat="-23.594504" lon="-46.983657"><ele>875.5</ele></trkpt>
+      <trkpt lat="-23.594602" lon="-46.983912"><ele>873.3</ele></trkpt>
+      <trkpt lat="-23.594942" lon="-46.984725"><ele>887.7</ele></trkpt>
+      <trkpt lat="-23.594971" lon="-46.984950"><ele>893.3</ele></trkpt>
+      <trkpt lat="-23.594950" lon="-46.985136"><ele>893.3</ele></trkpt>
+      <trkpt lat="-23.594896" lon="-46.985244"><ele>900.0</ele></trkpt>
+      <trkpt lat="-23.594816" lon="-46.985351"><ele>894.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

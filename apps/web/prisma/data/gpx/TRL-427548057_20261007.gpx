@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Alameda Xavantes</name>
+    <trkseg>
+      <trkpt lat="-23.653635" lon="-46.940095"><ele>868.5</ele></trkpt>
+      <trkpt lat="-23.652993" lon="-46.940401"><ele>866.5</ele></trkpt>
+      <trkpt lat="-23.652544" lon="-46.940661"><ele>858.1</ele></trkpt>
+      <trkpt lat="-23.652214" lon="-46.940841"><ele>848.2</ele></trkpt>
+      <trkpt lat="-23.651829" lon="-46.941001"><ele>840.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

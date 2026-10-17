@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Trilha Jaraguá - Aldeia Itaendy</name>
+    <trkseg>
+      <trkpt lat="-23.461502" lon="-46.775208"><ele>909.2</ele></trkpt>
+      <trkpt lat="-23.461871" lon="-46.774498"><ele>923.4</ele></trkpt>
+      <trkpt lat="-23.462085" lon="-46.774086"><ele>921.7</ele></trkpt>
+      <trkpt lat="-23.462069" lon="-46.773670"><ele>923.4</ele></trkpt>
+      <trkpt lat="-23.461778" lon="-46.773439"><ele>934.1</ele></trkpt>
+      <trkpt lat="-23.461503" lon="-46.772737"><ele>936.6</ele></trkpt>
+      <trkpt lat="-23.461480" lon="-46.772577"><ele>924.9</ele></trkpt>
+      <trkpt lat="-23.460806" lon="-46.772515"><ele>936.6</ele></trkpt>
+      <trkpt lat="-23.460785" lon="-46.771991"><ele>915.0</ele></trkpt>
+      <trkpt lat="-23.460537" lon="-46.771633"><ele>927.8</ele></trkpt>
+      <trkpt lat="-23.459860" lon="-46.771350"><ele>945.6</ele></trkpt>
+      <trkpt lat="-23.459461" lon="-46.771044"><ele>950.6</ele></trkpt>
+      <trkpt lat="-23.459244" lon="-46.770818"><ele>957.7</ele></trkpt>
+      <trkpt lat="-23.459206" lon="-46.770249"><ele>961.5</ele></trkpt>
+      <trkpt lat="-23.459099" lon="-46.770012"><ele>967.4</ele></trkpt>
+      <trkpt lat="-23.458822" lon="-46.769636"><ele>980.6</ele></trkpt>
+      <trkpt lat="-23.458854" lon="-46.769230"><ele>988.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

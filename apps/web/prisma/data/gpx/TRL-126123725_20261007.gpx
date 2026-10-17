@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Heládio</name>
+    <trkseg>
+      <trkpt lat="-23.725578" lon="-46.629769"><ele>790.5</ele></trkpt>
+      <trkpt lat="-23.725650" lon="-46.629553"><ele>790.3</ele></trkpt>
+      <trkpt lat="-23.725692" lon="-46.629390"><ele>790.3</ele></trkpt>
+      <trkpt lat="-23.725698" lon="-46.629222"><ele>786.0</ele></trkpt>
+      <trkpt lat="-23.725662" lon="-46.629049"><ele>791.3</ele></trkpt>
+      <trkpt lat="-23.725594" lon="-46.628885"><ele>787.8</ele></trkpt>
+      <trkpt lat="-23.725474" lon="-46.628686"><ele>779.2</ele></trkpt>
+      <trkpt lat="-23.725407" lon="-46.628533"><ele>791.1</ele></trkpt>
+      <trkpt lat="-23.725369" lon="-46.628369"><ele>782.2</ele></trkpt>
+      <trkpt lat="-23.725367" lon="-46.628201"><ele>782.2</ele></trkpt>
+      <trkpt lat="-23.725376" lon="-46.627927"><ele>778.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

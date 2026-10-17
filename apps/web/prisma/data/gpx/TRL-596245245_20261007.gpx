@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Doutor Francisco de Paula Cândido</name>
+    <trkseg>
+      <trkpt lat="-23.504981" lon="-46.687348"><ele>723.5</ele></trkpt>
+      <trkpt lat="-23.505025" lon="-46.687328"><ele>723.5</ele></trkpt>
+      <trkpt lat="-23.505045" lon="-46.687317"><ele>723.5</ele></trkpt>
+      <trkpt lat="-23.505073" lon="-46.687298"><ele>723.5</ele></trkpt>
+      <trkpt lat="-23.505093" lon="-46.687280"><ele>723.5</ele></trkpt>
+      <trkpt lat="-23.505116" lon="-46.687259"><ele>723.5</ele></trkpt>
+      <trkpt lat="-23.505131" lon="-46.687249"><ele>723.5</ele></trkpt>
+      <trkpt lat="-23.505158" lon="-46.687234"><ele>722.4</ele></trkpt>
+      <trkpt lat="-23.505236" lon="-46.687204"><ele>722.4</ele></trkpt>
+      <trkpt lat="-23.505322" lon="-46.687167"><ele>722.4</ele></trkpt>
+      <trkpt lat="-23.505358" lon="-46.687151"><ele>722.4</ele></trkpt>
+      <trkpt lat="-23.505387" lon="-46.687130"><ele>722.4</ele></trkpt>
+      <trkpt lat="-23.505427" lon="-46.687091"><ele>723.3</ele></trkpt>
+      <trkpt lat="-23.505466" lon="-46.687042"><ele>723.6</ele></trkpt>
+      <trkpt lat="-23.505527" lon="-46.686975"><ele>723.6</ele></trkpt>
+      <trkpt lat="-23.505564" lon="-46.686945"><ele>723.6</ele></trkpt>
+      <trkpt lat="-23.505614" lon="-46.686917"><ele>723.6</ele></trkpt>
+      <trkpt lat="-23.505645" lon="-46.686909"><ele>723.6</ele></trkpt>
+      <trkpt lat="-23.505670" lon="-46.686911"><ele>723.6</ele></trkpt>
+      <trkpt lat="-23.505698" lon="-46.686918"><ele>724.3</ele></trkpt>
+      <trkpt lat="-23.506210" lon="-46.687291"><ele>723.9</ele></trkpt>
+      <trkpt lat="-23.506552" lon="-46.687501"><ele>724.2</ele></trkpt>
+      <trkpt lat="-23.506676" lon="-46.687560"><ele>724.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

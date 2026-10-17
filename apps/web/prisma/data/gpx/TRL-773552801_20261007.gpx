@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Alberto José Pereira</name>
+    <trkseg>
+      <trkpt lat="-23.621438" lon="-46.303673"><ele>748.0</ele></trkpt>
+      <trkpt lat="-23.621033" lon="-46.303432"><ele>748.0</ele></trkpt>
+      <trkpt lat="-23.620468" lon="-46.303112"><ele>748.9</ele></trkpt>
+      <trkpt lat="-23.620090" lon="-46.302882"><ele>748.8</ele></trkpt>
+      <trkpt lat="-23.620058" lon="-46.302854"><ele>748.8</ele></trkpt>
+      <trkpt lat="-23.620049" lon="-46.302833"><ele>748.8</ele></trkpt>
+      <trkpt lat="-23.620045" lon="-46.302813"><ele>748.8</ele></trkpt>
+      <trkpt lat="-23.620046" lon="-46.302787"><ele>748.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

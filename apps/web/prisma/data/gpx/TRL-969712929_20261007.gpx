@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Estrada do Piqueri</name>
+    <trkseg>
+      <trkpt lat="-23.739041" lon="-46.841166"><ele>813.5</ele></trkpt>
+      <trkpt lat="-23.739099" lon="-46.841236"><ele>813.5</ele></trkpt>
+      <trkpt lat="-23.739122" lon="-46.841292"><ele>814.3</ele></trkpt>
+      <trkpt lat="-23.739132" lon="-46.841360"><ele>814.3</ele></trkpt>
+      <trkpt lat="-23.739138" lon="-46.841536"><ele>815.2</ele></trkpt>
+      <trkpt lat="-23.739112" lon="-46.841758"><ele>815.2</ele></trkpt>
+      <trkpt lat="-23.739097" lon="-46.841835"><ele>814.5</ele></trkpt>
+      <trkpt lat="-23.739094" lon="-46.841882"><ele>814.5</ele></trkpt>
+      <trkpt lat="-23.739100" lon="-46.841932"><ele>814.5</ele></trkpt>
+      <trkpt lat="-23.739122" lon="-46.841994"><ele>814.5</ele></trkpt>
+      <trkpt lat="-23.739139" lon="-46.842037"><ele>814.5</ele></trkpt>
+      <trkpt lat="-23.739169" lon="-46.842070"><ele>814.5</ele></trkpt>
+      <trkpt lat="-23.739225" lon="-46.842089"><ele>814.6</ele></trkpt>
+      <trkpt lat="-23.739266" lon="-46.842090"><ele>814.6</ele></trkpt>
+      <trkpt lat="-23.739338" lon="-46.842087"><ele>826.4</ele></trkpt>
+      <trkpt lat="-23.739544" lon="-46.842053"><ele>825.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

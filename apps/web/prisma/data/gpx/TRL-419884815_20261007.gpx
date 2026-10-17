@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Avenida Bias Fortes</name>
+    <trkseg>
+      <trkpt lat="-23.402385" lon="-46.384414"><ele>804.6</ele></trkpt>
+      <trkpt lat="-23.402512" lon="-46.384677"><ele>801.4</ele></trkpt>
+      <trkpt lat="-23.402628" lon="-46.384921"><ele>797.3</ele></trkpt>
+      <trkpt lat="-23.402660" lon="-46.385014"><ele>802.0</ele></trkpt>
+      <trkpt lat="-23.402667" lon="-46.385102"><ele>802.0</ele></trkpt>
+      <trkpt lat="-23.402661" lon="-46.385187"><ele>798.1</ele></trkpt>
+      <trkpt lat="-23.402648" lon="-46.385285"><ele>798.1</ele></trkpt>
+      <trkpt lat="-23.402614" lon="-46.385355"><ele>793.2</ele></trkpt>
+      <trkpt lat="-23.402527" lon="-46.385465"><ele>791.2</ele></trkpt>
+      <trkpt lat="-23.402464" lon="-46.385580"><ele>791.2</ele></trkpt>
+      <trkpt lat="-23.402424" lon="-46.385688"><ele>791.2</ele></trkpt>
+      <trkpt lat="-23.402382" lon="-46.385805"><ele>789.2</ele></trkpt>
+      <trkpt lat="-23.402345" lon="-46.385855"><ele>789.2</ele></trkpt>
+      <trkpt lat="-23.402272" lon="-46.385903"><ele>789.2</ele></trkpt>
+      <trkpt lat="-23.402008" lon="-46.386032"><ele>781.1</ele></trkpt>
+      <trkpt lat="-23.401968" lon="-46.386066"><ele>781.1</ele></trkpt>
+      <trkpt lat="-23.401946" lon="-46.386104"><ele>781.1</ele></trkpt>
+      <trkpt lat="-23.401938" lon="-46.386142"><ele>781.1</ele></trkpt>
+      <trkpt lat="-23.401942" lon="-46.386218"><ele>781.1</ele></trkpt>
+      <trkpt lat="-23.401964" lon="-46.386308"><ele>774.9</ele></trkpt>
+      <trkpt lat="-23.402205" lon="-46.387355"><ele>774.8</ele></trkpt>
+      <trkpt lat="-23.402239" lon="-46.387504"><ele>773.4</ele></trkpt>
+      <trkpt lat="-23.402271" lon="-46.387603"><ele>773.4</ele></trkpt>
+      <trkpt lat="-23.402310" lon="-46.387700"><ele>771.6</ele></trkpt>
+      <trkpt lat="-23.402355" lon="-46.387794"><ele>771.6</ele></trkpt>
+      <trkpt lat="-23.402403" lon="-46.387921"><ele>773.2</ele></trkpt>
+      <trkpt lat="-23.402447" lon="-46.388085"><ele>773.2</ele></trkpt>
+      <trkpt lat="-23.402504" lon="-46.388776"><ele>770.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

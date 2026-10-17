@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Via de Pedestre Bom Retiro do Sul</name>
+    <trkseg>
+      <trkpt lat="-23.623704" lon="-46.608698"><ele>795.0</ele></trkpt>
+      <trkpt lat="-23.623707" lon="-46.608716"><ele>795.0</ele></trkpt>
+      <trkpt lat="-23.623772" lon="-46.609251"><ele>792.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

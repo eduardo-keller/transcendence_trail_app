@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Continuação</name>
+    <trkseg>
+      <trkpt lat="-23.687342" lon="-46.662313"><ele>752.7</ele></trkpt>
+      <trkpt lat="-23.687278" lon="-46.661861"><ele>753.5</ele></trkpt>
+      <trkpt lat="-23.687320" lon="-46.661710"><ele>756.4</ele></trkpt>
+      <trkpt lat="-23.686817" lon="-46.661470"><ele>759.2</ele></trkpt>
+      <trkpt lat="-23.686315" lon="-46.660894"><ele>761.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela da Leca</name>
+    <trkseg>
+      <trkpt lat="-23.475154" lon="-46.687067"><ele>765.0</ele></trkpt>
+      <trkpt lat="-23.475179" lon="-46.686579"><ele>761.0</ele></trkpt>
+      <trkpt lat="-23.475243" lon="-46.686083"><ele>753.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

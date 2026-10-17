@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Acre</name>
+    <trkseg>
+      <trkpt lat="-23.531309" lon="-46.829664"><ele>787.8</ele></trkpt>
+      <trkpt lat="-23.531086" lon="-46.829714"><ele>788.7</ele></trkpt>
+      <trkpt lat="-23.530670" lon="-46.829827"><ele>788.5</ele></trkpt>
+      <trkpt lat="-23.530233" lon="-46.829954"><ele>789.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Zaire</name>
+    <trkseg>
+      <trkpt lat="-23.661996" lon="-46.801886"><ele>785.8</ele></trkpt>
+      <trkpt lat="-23.662386" lon="-46.801855"><ele>794.6</ele></trkpt>
+      <trkpt lat="-23.662482" lon="-46.801863"><ele>794.6</ele></trkpt>
+      <trkpt lat="-23.662689" lon="-46.801876"><ele>800.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

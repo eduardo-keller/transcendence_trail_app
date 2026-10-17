@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passarela Deputado José Mendes Botelho</name>
+    <trkseg>
+      <trkpt lat="-23.685408" lon="-46.506643"><ele>762.2</ele></trkpt>
+      <trkpt lat="-23.685418" lon="-46.506636"><ele>760.6</ele></trkpt>
+      <trkpt lat="-23.685430" lon="-46.506634"><ele>760.6</ele></trkpt>
+      <trkpt lat="-23.685441" lon="-46.506638"><ele>760.6</ele></trkpt>
+      <trkpt lat="-23.685450" lon="-46.506647"><ele>760.6</ele></trkpt>
+      <trkpt lat="-23.685454" lon="-46.506659"><ele>760.6</ele></trkpt>
+      <trkpt lat="-23.685453" lon="-46.506671"><ele>760.6</ele></trkpt>
+      <trkpt lat="-23.685447" lon="-46.506683"><ele>760.6</ele></trkpt>
+      <trkpt lat="-23.685437" lon="-46.506690"><ele>760.6</ele></trkpt>
+      <trkpt lat="-23.685425" lon="-46.506692"><ele>760.6</ele></trkpt>
+      <trkpt lat="-23.685414" lon="-46.506688"><ele>762.2</ele></trkpt>
+      <trkpt lat="-23.685405" lon="-46.506679"><ele>762.2</ele></trkpt>
+      <trkpt lat="-23.685401" lon="-46.506667"><ele>762.2</ele></trkpt>
+      <trkpt lat="-23.685401" lon="-46.506667"><ele>762.2</ele></trkpt>
+      <trkpt lat="-23.685436" lon="-46.506233"><ele>769.7</ele></trkpt>
+      <trkpt lat="-23.685436" lon="-46.506233"><ele>769.7</ele></trkpt>
+      <trkpt lat="-23.685431" lon="-46.506221"><ele>769.7</ele></trkpt>
+      <trkpt lat="-23.685423" lon="-46.506212"><ele>769.7</ele></trkpt>
+      <trkpt lat="-23.685412" lon="-46.506208"><ele>765.4</ele></trkpt>
+      <trkpt lat="-23.685400" lon="-46.506210"><ele>765.4</ele></trkpt>
+      <trkpt lat="-23.685390" lon="-46.506217"><ele>765.4</ele></trkpt>
+      <trkpt lat="-23.685384" lon="-46.506228"><ele>765.4</ele></trkpt>
+      <trkpt lat="-23.685383" lon="-46.506241"><ele>765.4</ele></trkpt>
+      <trkpt lat="-23.685387" lon="-46.506253"><ele>761.1</ele></trkpt>
+      <trkpt lat="-23.685395" lon="-46.506262"><ele>761.1</ele></trkpt>
+      <trkpt lat="-23.685407" lon="-46.506266"><ele>761.1</ele></trkpt>
+      <trkpt lat="-23.685419" lon="-46.506264"><ele>764.4</ele></trkpt>
+      <trkpt lat="-23.685428" lon="-46.506257"><ele>764.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

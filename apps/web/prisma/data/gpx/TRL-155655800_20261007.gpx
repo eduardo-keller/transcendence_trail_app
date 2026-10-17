@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua do Corrego</name>
+    <trkseg>
+      <trkpt lat="-23.454414" lon="-46.480469"><ele>762.6</ele></trkpt>
+      <trkpt lat="-23.454365" lon="-46.480364"><ele>764.6</ele></trkpt>
+      <trkpt lat="-23.454224" lon="-46.480056"><ele>768.3</ele></trkpt>
+      <trkpt lat="-23.454161" lon="-46.479940"><ele>768.3</ele></trkpt>
+      <trkpt lat="-23.454077" lon="-46.479824"><ele>771.3</ele></trkpt>
+      <trkpt lat="-23.453996" lon="-46.479749"><ele>769.0</ele></trkpt>
+      <trkpt lat="-23.453922" lon="-46.479704"><ele>769.0</ele></trkpt>
+      <trkpt lat="-23.453830" lon="-46.479705"><ele>769.0</ele></trkpt>
+      <trkpt lat="-23.453729" lon="-46.479748"><ele>773.0</ele></trkpt>
+      <trkpt lat="-23.453664" lon="-46.479787"><ele>773.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Galeria Artur Guimarães</name>
+    <trkseg>
+      <trkpt lat="-23.568397" lon="-46.649565"><ele>819.5</ele></trkpt>
+      <trkpt lat="-23.568405" lon="-46.649546"><ele>819.5</ele></trkpt>
+      <trkpt lat="-23.568405" lon="-46.649546"><ele>819.5</ele></trkpt>
+      <trkpt lat="-23.568478" lon="-46.649366"><ele>822.3</ele></trkpt>
+      <trkpt lat="-23.568550" lon="-46.649184"><ele>825.7</ele></trkpt>
+      <trkpt lat="-23.568550" lon="-46.649184"><ele>825.7</ele></trkpt>
+      <trkpt lat="-23.568566" lon="-46.649142"><ele>825.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

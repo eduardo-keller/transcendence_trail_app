@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Via de Pedestre Maestro Bargiel</name>
+    <trkseg>
+      <trkpt lat="-23.734517" lon="-46.706134"><ele>775.2</ele></trkpt>
+      <trkpt lat="-23.734589" lon="-46.706048"><ele>771.5</ele></trkpt>
+      <trkpt lat="-23.734600" lon="-46.706034"><ele>771.5</ele></trkpt>
+      <trkpt lat="-23.734773" lon="-46.706207"><ele>771.5</ele></trkpt>
+      <trkpt lat="-23.734705" lon="-46.706292"><ele>774.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

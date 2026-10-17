@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Carlos Ferreira</name>
+    <trkseg>
+      <trkpt lat="-23.573723" lon="-46.706202"><ele>744.8</ele></trkpt>
+      <trkpt lat="-23.573847" lon="-46.705983"><ele>754.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

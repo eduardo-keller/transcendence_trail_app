@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Calçada lado residencial</name>
+    <trkseg>
+      <trkpt lat="-23.967696" lon="-46.346071"><ele>7.2</ele></trkpt>
+      <trkpt lat="-23.967671" lon="-46.346528"><ele>1.6</ele></trkpt>
+      <trkpt lat="-23.967669" lon="-46.346561"><ele>1.6</ele></trkpt>
+      <trkpt lat="-23.967660" lon="-46.346717"><ele>1.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

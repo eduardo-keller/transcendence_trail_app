@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Jair Roldão</name>
+    <trkseg>
+      <trkpt lat="-24.009790" lon="-46.476617"><ele>1.6</ele></trkpt>
+      <trkpt lat="-24.010284" lon="-46.475723"><ele>2.0</ele></trkpt>
+      <trkpt lat="-24.010295" lon="-46.475683"><ele>1.5</ele></trkpt>
+      <trkpt lat="-24.010288" lon="-46.475642"><ele>1.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

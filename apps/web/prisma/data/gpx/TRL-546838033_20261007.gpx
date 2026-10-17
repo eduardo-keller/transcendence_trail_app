@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Aparecida</name>
+    <trkseg>
+      <trkpt lat="-23.772099" lon="-46.705658"><ele>785.0</ele></trkpt>
+      <trkpt lat="-23.772087" lon="-46.705265"><ele>782.8</ele></trkpt>
+      <trkpt lat="-23.772083" lon="-46.705247"><ele>784.6</ele></trkpt>
+      <trkpt lat="-23.772071" lon="-46.705234"><ele>784.6</ele></trkpt>
+      <trkpt lat="-23.772053" lon="-46.705224"><ele>784.6</ele></trkpt>
+      <trkpt lat="-23.771743" lon="-46.705179"><ele>786.7</ele></trkpt>
+      <trkpt lat="-23.771714" lon="-46.705172"><ele>786.7</ele></trkpt>
+      <trkpt lat="-23.771697" lon="-46.705146"><ele>786.7</ele></trkpt>
+      <trkpt lat="-23.771693" lon="-46.705104"><ele>783.7</ele></trkpt>
+      <trkpt lat="-23.771698" lon="-46.705069"><ele>783.7</ele></trkpt>
+      <trkpt lat="-23.771963" lon="-46.704517"><ele>776.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

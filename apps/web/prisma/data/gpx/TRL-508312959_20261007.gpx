@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Minas Gerais</name>
+    <trkseg>
+      <trkpt lat="-23.515947" lon="-46.344844"><ele>763.2</ele></trkpt>
+      <trkpt lat="-23.515920" lon="-46.344799"><ele>763.2</ele></trkpt>
+      <trkpt lat="-23.515884" lon="-46.344778"><ele>763.2</ele></trkpt>
+      <trkpt lat="-23.515832" lon="-46.344784"><ele>763.2</ele></trkpt>
+      <trkpt lat="-23.515398" lon="-46.344929"><ele>767.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

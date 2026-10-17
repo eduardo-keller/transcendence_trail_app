@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Gudêncio Rebelo de Campos</name>
+    <trkseg>
+      <trkpt lat="-23.502109" lon="-46.805383"><ele>748.0</ele></trkpt>
+      <trkpt lat="-23.502100" lon="-46.805709"><ele>755.1</ele></trkpt>
+      <trkpt lat="-23.501916" lon="-46.806075"><ele>756.2</ele></trkpt>
+      <trkpt lat="-23.501702" lon="-46.806297"><ele>759.8</ele></trkpt>
+      <trkpt lat="-23.501439" lon="-46.806538"><ele>765.3</ele></trkpt>
+      <trkpt lat="-23.501293" lon="-46.806601"><ele>765.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Praça Caieiras</name>
+    <trkseg>
+      <trkpt lat="-23.329803" lon="-46.726954"><ele>725.2</ele></trkpt>
+      <trkpt lat="-23.329666" lon="-46.726854"><ele>725.2</ele></trkpt>
+      <trkpt lat="-23.329280" lon="-46.726629"><ele>725.7</ele></trkpt>
+      <trkpt lat="-23.329186" lon="-46.726580"><ele>725.7</ele></trkpt>
+      <trkpt lat="-23.329095" lon="-46.726551"><ele>725.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

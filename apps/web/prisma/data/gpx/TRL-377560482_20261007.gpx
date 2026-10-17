@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Dinieper</name>
+    <trkseg>
+      <trkpt lat="-23.531518" lon="-46.708969"><ele>769.2</ele></trkpt>
+      <trkpt lat="-23.531544" lon="-46.708978"><ele>776.6</ele></trkpt>
+      <trkpt lat="-23.531583" lon="-46.708981"><ele>776.6</ele></trkpt>
+      <trkpt lat="-23.531647" lon="-46.708961"><ele>776.6</ele></trkpt>
+      <trkpt lat="-23.531820" lon="-46.709119"><ele>783.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

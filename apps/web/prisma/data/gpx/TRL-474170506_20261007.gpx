@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Benedicto Vieira da Silva</name>
+    <trkseg>
+      <trkpt lat="-23.540378" lon="-46.906218"><ele>766.3</ele></trkpt>
+      <trkpt lat="-23.540830" lon="-46.906087"><ele>778.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Vendas Novas</name>
+    <trkseg>
+      <trkpt lat="-23.833609" lon="-46.725633"><ele>798.8</ele></trkpt>
+      <trkpt lat="-23.833580" lon="-46.725684"><ele>798.8</ele></trkpt>
+      <trkpt lat="-23.833550" lon="-46.725725"><ele>799.6</ele></trkpt>
+      <trkpt lat="-23.833511" lon="-46.725736"><ele>799.6</ele></trkpt>
+      <trkpt lat="-23.833487" lon="-46.725736"><ele>799.6</ele></trkpt>
+      <trkpt lat="-23.833457" lon="-46.725727"><ele>805.5</ele></trkpt>
+      <trkpt lat="-23.833389" lon="-46.725700"><ele>805.5</ele></trkpt>
+      <trkpt lat="-23.833284" lon="-46.725645"><ele>806.7</ele></trkpt>
+      <trkpt lat="-23.833203" lon="-46.725604"><ele>806.7</ele></trkpt>
+      <trkpt lat="-23.833150" lon="-46.725581"><ele>809.9</ele></trkpt>
+      <trkpt lat="-23.833094" lon="-46.725551"><ele>809.9</ele></trkpt>
+      <trkpt lat="-23.833032" lon="-46.725506"><ele>809.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela São João</name>
+    <trkseg>
+      <trkpt lat="-23.680299" lon="-46.606443"><ele>785.3</ele></trkpt>
+      <trkpt lat="-23.679482" lon="-46.607049"><ele>792.1</ele></trkpt>
+      <trkpt lat="-23.679377" lon="-46.607099"><ele>791.8</ele></trkpt>
+      <trkpt lat="-23.679238" lon="-46.607072"><ele>793.7</ele></trkpt>
+      <trkpt lat="-23.679124" lon="-46.607021"><ele>793.7</ele></trkpt>
+      <trkpt lat="-23.679036" lon="-46.607012"><ele>793.7</ele></trkpt>
+      <trkpt lat="-23.678886" lon="-46.606971"><ele>801.5</ele></trkpt>
+      <trkpt lat="-23.678762" lon="-46.606869"><ele>801.5</ele></trkpt>
+      <trkpt lat="-23.678680" lon="-46.606803"><ele>809.0</ele></trkpt>
+      <trkpt lat="-23.678542" lon="-46.606733"><ele>809.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

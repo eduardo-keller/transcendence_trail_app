@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Araponga</name>
+    <trkseg>
+      <trkpt lat="-23.572754" lon="-47.064493"><ele>1046.9</ele></trkpt>
+      <trkpt lat="-23.572734" lon="-47.064432"><ele>1046.9</ele></trkpt>
+      <trkpt lat="-23.572737" lon="-47.064327"><ele>1046.9</ele></trkpt>
+      <trkpt lat="-23.572884" lon="-47.063943"><ele>1048.9</ele></trkpt>
+      <trkpt lat="-23.573024" lon="-47.063573"><ele>1054.2</ele></trkpt>
+      <trkpt lat="-23.573062" lon="-47.063430"><ele>1057.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

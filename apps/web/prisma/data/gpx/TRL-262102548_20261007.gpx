@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Alameda Condor</name>
+    <trkseg>
+      <trkpt lat="-23.649992" lon="-46.617629"><ele>787.5</ele></trkpt>
+      <trkpt lat="-23.649960" lon="-46.617564"><ele>787.5</ele></trkpt>
+      <trkpt lat="-23.649799" lon="-46.617388"><ele>798.4</ele></trkpt>
+      <trkpt lat="-23.649731" lon="-46.617389"><ele>798.4</ele></trkpt>
+      <trkpt lat="-23.649678" lon="-46.617410"><ele>798.4</ele></trkpt>
+      <trkpt lat="-23.649608" lon="-46.617553"><ele>798.4</ele></trkpt>
+      <trkpt lat="-23.649539" lon="-46.617530"><ele>799.0</ele></trkpt>
+      <trkpt lat="-23.649381" lon="-46.617429"><ele>799.0</ele></trkpt>
+      <trkpt lat="-23.649205" lon="-46.617305"><ele>804.5</ele></trkpt>
+      <trkpt lat="-23.649156" lon="-46.617308"><ele>804.5</ele></trkpt>
+      <trkpt lat="-23.649091" lon="-46.617402"><ele>804.5</ele></trkpt>
+      <trkpt lat="-23.649083" lon="-46.617464"><ele>804.5</ele></trkpt>
+      <trkpt lat="-23.649133" lon="-46.617520"><ele>804.5</ele></trkpt>
+      <trkpt lat="-23.649284" lon="-46.617621"><ele>804.5</ele></trkpt>
+      <trkpt lat="-23.649408" lon="-46.617691"><ele>801.0</ele></trkpt>
+      <trkpt lat="-23.649458" lon="-46.617702"><ele>801.0</ele></trkpt>
+      <trkpt lat="-23.649504" lon="-46.617685"><ele>801.0</ele></trkpt>
+      <trkpt lat="-23.649608" lon="-46.617553"><ele>798.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

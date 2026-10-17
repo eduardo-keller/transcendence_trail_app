@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Violeta</name>
+    <trkseg>
+      <trkpt lat="-23.466221" lon="-46.333683"><ele>748.7</ele></trkpt>
+      <trkpt lat="-23.466362" lon="-46.333339"><ele>743.4</ele></trkpt>
+      <trkpt lat="-23.466412" lon="-46.333174"><ele>744.1</ele></trkpt>
+      <trkpt lat="-23.466453" lon="-46.332891"><ele>744.3</ele></trkpt>
+      <trkpt lat="-23.466455" lon="-46.332751"><ele>744.3</ele></trkpt>
+      <trkpt lat="-23.466429" lon="-46.332525"><ele>744.7</ele></trkpt>
+      <trkpt lat="-23.466381" lon="-46.332470"><ele>744.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

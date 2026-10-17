@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Doutor Silvio Margarido</name>
+    <trkseg>
+      <trkpt lat="-23.587021" lon="-46.768227"><ele>744.3</ele></trkpt>
+      <trkpt lat="-23.587091" lon="-46.768213"><ele>745.8</ele></trkpt>
+      <trkpt lat="-23.587324" lon="-46.768149"><ele>747.5</ele></trkpt>
+      <trkpt lat="-23.587521" lon="-46.768128"><ele>748.6</ele></trkpt>
+      <trkpt lat="-23.587686" lon="-46.768126"><ele>747.1</ele></trkpt>
+      <trkpt lat="-23.587813" lon="-46.768133"><ele>747.1</ele></trkpt>
+      <trkpt lat="-23.587878" lon="-46.768135"><ele>747.1</ele></trkpt>
+      <trkpt lat="-23.588023" lon="-46.768136"><ele>749.1</ele></trkpt>
+      <trkpt lat="-23.588220" lon="-46.768135"><ele>745.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

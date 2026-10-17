@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua do Bosque</name>
+    <trkseg>
+      <trkpt lat="-23.216038" lon="-46.907474"><ele>798.5</ele></trkpt>
+      <trkpt lat="-23.216078" lon="-46.907437"><ele>798.5</ele></trkpt>
+      <trkpt lat="-23.216794" lon="-46.907143"><ele>803.6</ele></trkpt>
+      <trkpt lat="-23.216960" lon="-46.907100"><ele>808.3</ele></trkpt>
+      <trkpt lat="-23.217069" lon="-46.907091"><ele>808.3</ele></trkpt>
+      <trkpt lat="-23.217353" lon="-46.907110"><ele>810.6</ele></trkpt>
+      <trkpt lat="-23.218111" lon="-46.907153"><ele>817.8</ele></trkpt>
+      <trkpt lat="-23.218702" lon="-46.907154"><ele>823.5</ele></trkpt>
+      <trkpt lat="-23.218800" lon="-46.907140"><ele>825.3</ele></trkpt>
+      <trkpt lat="-23.219500" lon="-46.907012"><ele>829.7</ele></trkpt>
+      <trkpt lat="-23.219691" lon="-46.906988"><ele>830.7</ele></trkpt>
+      <trkpt lat="-23.219950" lon="-46.906982"><ele>836.3</ele></trkpt>
+      <trkpt lat="-23.220046" lon="-46.906953"><ele>836.3</ele></trkpt>
+      <trkpt lat="-23.220200" lon="-46.906864"><ele>837.0</ele></trkpt>
+      <trkpt lat="-23.220359" lon="-46.906797"><ele>835.9</ele></trkpt>
+      <trkpt lat="-23.221159" lon="-46.906524"><ele>842.4</ele></trkpt>
+      <trkpt lat="-23.221311" lon="-46.906489"><ele>843.5</ele></trkpt>
+      <trkpt lat="-23.221426" lon="-46.906479"><ele>843.5</ele></trkpt>
+      <trkpt lat="-23.222007" lon="-46.906432"><ele>856.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

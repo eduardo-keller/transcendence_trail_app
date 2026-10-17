@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Caminho São Judas</name>
+    <trkseg>
+      <trkpt lat="-23.903403" lon="-46.442177"><ele>3.9</ele></trkpt>
+      <trkpt lat="-23.903403" lon="-46.442351"><ele>3.9</ele></trkpt>
+      <trkpt lat="-23.903403" lon="-46.442351"><ele>3.9</ele></trkpt>
+      <trkpt lat="-23.903424" lon="-46.442607"><ele>3.9</ele></trkpt>
+      <trkpt lat="-23.903436" lon="-46.442666"><ele>3.3</ele></trkpt>
+      <trkpt lat="-23.903468" lon="-46.442794"><ele>3.3</ele></trkpt>
+      <trkpt lat="-23.903487" lon="-46.442847"><ele>2.8</ele></trkpt>
+      <trkpt lat="-23.903563" lon="-46.442828"><ele>2.8</ele></trkpt>
+      <trkpt lat="-23.903597" lon="-46.442909"><ele>2.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

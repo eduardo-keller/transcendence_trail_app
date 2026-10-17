@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passagem A. COnte</name>
+    <trkseg>
+      <trkpt lat="-23.692883" lon="-46.599414"><ele>801.7</ele></trkpt>
+      <trkpt lat="-23.692611" lon="-46.598842"><ele>791.7</ele></trkpt>
+      <trkpt lat="-23.692465" lon="-46.598422"><ele>782.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Valdir Francisco Simões</name>
+    <trkseg>
+      <trkpt lat="-23.691197" lon="-46.461235"><ele>791.7</ele></trkpt>
+      <trkpt lat="-23.691118" lon="-46.460957"><ele>796.9</ele></trkpt>
+      <trkpt lat="-23.691025" lon="-46.460639"><ele>801.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

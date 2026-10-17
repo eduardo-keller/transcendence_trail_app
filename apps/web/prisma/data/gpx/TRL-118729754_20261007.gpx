@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Alameda dos Cedros</name>
+    <trkseg>
+      <trkpt lat="-23.416668" lon="-46.668119"><ele>1087.7</ele></trkpt>
+      <trkpt lat="-23.416646" lon="-46.667912"><ele>1089.2</ele></trkpt>
+      <trkpt lat="-23.416609" lon="-46.667736"><ele>1089.2</ele></trkpt>
+      <trkpt lat="-23.416555" lon="-46.667614"><ele>1087.5</ele></trkpt>
+      <trkpt lat="-23.416453" lon="-46.667478"><ele>1097.7</ele></trkpt>
+      <trkpt lat="-23.416336" lon="-46.667391"><ele>1097.7</ele></trkpt>
+      <trkpt lat="-23.416210" lon="-46.667323"><ele>1095.2</ele></trkpt>
+      <trkpt lat="-23.416052" lon="-46.667272"><ele>1095.2</ele></trkpt>
+      <trkpt lat="-23.415926" lon="-46.667256"><ele>1092.2</ele></trkpt>
+      <trkpt lat="-23.415792" lon="-46.667256"><ele>1092.2</ele></trkpt>
+      <trkpt lat="-23.415673" lon="-46.667274"><ele>1086.6</ele></trkpt>
+      <trkpt lat="-23.415491" lon="-46.667325"><ele>1086.6</ele></trkpt>
+      <trkpt lat="-23.415338" lon="-46.667391"><ele>1100.8</ele></trkpt>
+      <trkpt lat="-23.415111" lon="-46.667573"><ele>1102.0</ele></trkpt>
+      <trkpt lat="-23.414991" lon="-46.667739"><ele>1104.6</ele></trkpt>
+      <trkpt lat="-23.414879" lon="-46.667948"><ele>1101.6</ele></trkpt>
+      <trkpt lat="-23.414817" lon="-46.668236"><ele>1089.6</ele></trkpt>
+      <trkpt lat="-23.414826" lon="-46.668549"><ele>1085.7</ele></trkpt>
+      <trkpt lat="-23.414872" lon="-46.668740"><ele>1096.3</ele></trkpt>
+      <trkpt lat="-23.414950" lon="-46.668950"><ele>1094.3</ele></trkpt>
+      <trkpt lat="-23.415041" lon="-46.669114"><ele>1090.1</ele></trkpt>
+      <trkpt lat="-23.415173" lon="-46.669261"><ele>1098.6</ele></trkpt>
+      <trkpt lat="-23.415391" lon="-46.669485"><ele>1093.0</ele></trkpt>
+      <trkpt lat="-23.415524" lon="-46.669615"><ele>1094.4</ele></trkpt>
+      <trkpt lat="-23.415670" lon="-46.669756"><ele>1094.4</ele></trkpt>
+      <trkpt lat="-23.415863" lon="-46.669925"><ele>1090.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

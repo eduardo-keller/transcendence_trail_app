@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Trilha de Caminhada</name>
+    <trkseg>
+      <trkpt lat="-23.496124" lon="-46.526865"><ele>726.6</ele></trkpt>
+      <trkpt lat="-23.496131" lon="-46.525957"><ele>727.5</ele></trkpt>
+      <trkpt lat="-23.496111" lon="-46.525906"><ele>727.5</ele></trkpt>
+      <trkpt lat="-23.496105" lon="-46.525892"><ele>727.5</ele></trkpt>
+      <trkpt lat="-23.496046" lon="-46.525868"><ele>727.5</ele></trkpt>
+      <trkpt lat="-23.495858" lon="-46.525860"><ele>727.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

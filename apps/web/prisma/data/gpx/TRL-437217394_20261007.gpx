@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Estrada da Chiboca</name>
+    <trkseg>
+      <trkpt lat="-23.814122" lon="-46.499782"><ele>755.6</ele></trkpt>
+      <trkpt lat="-23.813437" lon="-46.502101"><ele>758.3</ele></trkpt>
+      <trkpt lat="-23.812999" lon="-46.503486"><ele>757.4</ele></trkpt>
+      <trkpt lat="-23.812817" lon="-46.504060"><ele>756.0</ele></trkpt>
+      <trkpt lat="-23.812801" lon="-46.504155"><ele>756.0</ele></trkpt>
+      <trkpt lat="-23.812795" lon="-46.504254"><ele>756.0</ele></trkpt>
+      <trkpt lat="-23.812784" lon="-46.504587"><ele>755.8</ele></trkpt>
+      <trkpt lat="-23.812760" lon="-46.504700"><ele>755.8</ele></trkpt>
+      <trkpt lat="-23.812721" lon="-46.504770"><ele>755.8</ele></trkpt>
+      <trkpt lat="-23.812599" lon="-46.504899"><ele>754.5</ele></trkpt>
+      <trkpt lat="-23.812371" lon="-46.505175"><ele>757.4</ele></trkpt>
+      <trkpt lat="-23.812203" lon="-46.505472"><ele>758.9</ele></trkpt>
+      <trkpt lat="-23.811666" lon="-46.506674"><ele>765.0</ele></trkpt>
+      <trkpt lat="-23.811479" lon="-46.507157"><ele>761.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

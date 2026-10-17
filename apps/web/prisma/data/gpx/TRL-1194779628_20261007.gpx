@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Praça Vicente Feola</name>
+    <trkseg>
+      <trkpt lat="-23.646321" lon="-46.549910"><ele>786.1</ele></trkpt>
+      <trkpt lat="-23.646213" lon="-46.549843"><ele>779.3</ele></trkpt>
+      <trkpt lat="-23.646178" lon="-46.549835"><ele>779.3</ele></trkpt>
+      <trkpt lat="-23.646137" lon="-46.549833"><ele>779.3</ele></trkpt>
+      <trkpt lat="-23.646105" lon="-46.549840"><ele>779.3</ele></trkpt>
+      <trkpt lat="-23.646069" lon="-46.549853"><ele>779.3</ele></trkpt>
+      <trkpt lat="-23.646030" lon="-46.549883"><ele>783.7</ele></trkpt>
+      <trkpt lat="-23.645982" lon="-46.549941"><ele>783.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passarela Pinheiros Chagas</name>
+    <trkseg>
+      <trkpt lat="-23.739106" lon="-46.699947"><ele>775.3</ele></trkpt>
+      <trkpt lat="-23.739290" lon="-46.699696"><ele>775.9</ele></trkpt>
+      <trkpt lat="-23.739025" lon="-46.699475"><ele>778.2</ele></trkpt>
+      <trkpt lat="-23.739067" lon="-46.699419"><ele>774.0</ele></trkpt>
+      <trkpt lat="-23.739067" lon="-46.699419"><ele>774.0</ele></trkpt>
+      <trkpt lat="-23.739317" lon="-46.699633"><ele>773.7</ele></trkpt>
+      <trkpt lat="-23.739272" lon="-46.699695"><ele>775.9</ele></trkpt>
+      <trkpt lat="-23.738890" lon="-46.699369"><ele>778.2</ele></trkpt>
+      <trkpt lat="-23.739335" lon="-46.698747"><ele>784.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

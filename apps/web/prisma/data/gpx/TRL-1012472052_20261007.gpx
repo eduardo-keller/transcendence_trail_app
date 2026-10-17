@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Vera Lúcia de Araújo</name>
+    <trkseg>
+      <trkpt lat="-23.517906" lon="-47.060693"><ele>1006.7</ele></trkpt>
+      <trkpt lat="-23.517798" lon="-47.060693"><ele>1006.7</ele></trkpt>
+      <trkpt lat="-23.517724" lon="-47.060725"><ele>1000.9</ele></trkpt>
+      <trkpt lat="-23.517621" lon="-47.060806"><ele>1015.8</ele></trkpt>
+      <trkpt lat="-23.517508" lon="-47.060923"><ele>1015.8</ele></trkpt>
+      <trkpt lat="-23.515125" lon="-47.063199"><ele>982.7</ele></trkpt>
+      <trkpt lat="-23.514630" lon="-47.063702"><ele>983.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Jerusalém</name>
+    <trkseg>
+      <trkpt lat="-23.445988" lon="-46.690435"><ele>812.9</ele></trkpt>
+      <trkpt lat="-23.445777" lon="-46.690463"><ele>804.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

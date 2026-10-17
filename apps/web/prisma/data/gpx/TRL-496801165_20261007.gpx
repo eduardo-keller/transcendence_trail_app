@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Graviola</name>
+    <trkseg>
+      <trkpt lat="-23.558668" lon="-46.225924"><ele>751.3</ele></trkpt>
+      <trkpt lat="-23.558588" lon="-46.225680"><ele>754.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

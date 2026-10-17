@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela da Paz</name>
+    <trkseg>
+      <trkpt lat="-23.606197" lon="-46.728930"><ele>768.9</ele></trkpt>
+      <trkpt lat="-23.606201" lon="-46.728830"><ele>768.9</ele></trkpt>
+      <trkpt lat="-23.606228" lon="-46.728787"><ele>768.9</ele></trkpt>
+      <trkpt lat="-23.606297" lon="-46.728782"><ele>766.2</ele></trkpt>
+      <trkpt lat="-23.606304" lon="-46.728677"><ele>772.1</ele></trkpt>
+      <trkpt lat="-23.606304" lon="-46.728676"><ele>772.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

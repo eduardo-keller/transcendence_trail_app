@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Professor Pádua Fleuri</name>
+    <trkseg>
+      <trkpt lat="-23.450884" lon="-46.621126"><ele>854.2</ele></trkpt>
+      <trkpt lat="-23.450764" lon="-46.621781"><ele>839.0</ele></trkpt>
+      <trkpt lat="-23.450730" lon="-46.621965"><ele>834.2</ele></trkpt>
+      <trkpt lat="-23.450676" lon="-46.622094"><ele>839.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

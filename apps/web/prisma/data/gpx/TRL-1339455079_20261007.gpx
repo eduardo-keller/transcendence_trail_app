@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Joana D'Arc</name>
+    <trkseg>
+      <trkpt lat="-23.556920" lon="-46.906367"><ele>843.3</ele></trkpt>
+      <trkpt lat="-23.557142" lon="-46.906240"><ele>827.3</ele></trkpt>
+      <trkpt lat="-23.557441" lon="-46.906097"><ele>820.1</ele></trkpt>
+      <trkpt lat="-23.557606" lon="-46.906075"><ele>820.1</ele></trkpt>
+      <trkpt lat="-23.557770" lon="-46.906096"><ele>813.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

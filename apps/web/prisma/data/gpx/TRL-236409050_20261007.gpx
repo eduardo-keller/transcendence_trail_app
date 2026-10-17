@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passarela Professor Heitor Pinto e Silva</name>
+    <trkseg>
+      <trkpt lat="-23.541510" lon="-46.634594"><ele>730.1</ele></trkpt>
+      <trkpt lat="-23.541827" lon="-46.634769"><ele>729.2</ele></trkpt>
+      <trkpt lat="-23.541839" lon="-46.634744"><ele>729.2</ele></trkpt>
+      <trkpt lat="-23.541467" lon="-46.634538"><ele>729.4</ele></trkpt>
+      <trkpt lat="-23.541640" lon="-46.634166"><ele>732.5</ele></trkpt>
+      <trkpt lat="-23.541972" lon="-46.634350"><ele>730.9</ele></trkpt>
+      <trkpt lat="-23.541984" lon="-46.634324"><ele>730.9</ele></trkpt>
+      <trkpt lat="-23.541671" lon="-46.634151"><ele>732.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

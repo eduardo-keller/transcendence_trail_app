@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Ministro Genésio de Almeida Moura</name>
+    <trkseg>
+      <trkpt lat="-23.456966" lon="-46.592807"><ele>763.3</ele></trkpt>
+      <trkpt lat="-23.456986" lon="-46.592655"><ele>763.3</ele></trkpt>
+      <trkpt lat="-23.457020" lon="-46.592430"><ele>761.7</ele></trkpt>
+      <trkpt lat="-23.457033" lon="-46.592312"><ele>760.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

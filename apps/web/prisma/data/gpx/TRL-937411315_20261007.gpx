@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Geralda Pereira Bezzera</name>
+    <trkseg>
+      <trkpt lat="-23.500952" lon="-46.770139"><ele>789.7</ele></trkpt>
+      <trkpt lat="-23.500966" lon="-46.770345"><ele>787.9</ele></trkpt>
+      <trkpt lat="-23.500983" lon="-46.770519"><ele>780.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Maria Simão</name>
+    <trkseg>
+      <trkpt lat="-23.726834" lon="-46.871344"><ele>832.8</ele></trkpt>
+      <trkpt lat="-23.726969" lon="-46.871426"><ele>832.8</ele></trkpt>
+      <trkpt lat="-23.727087" lon="-46.871568"><ele>839.6</ele></trkpt>
+      <trkpt lat="-23.727195" lon="-46.871707"><ele>839.6</ele></trkpt>
+      <trkpt lat="-23.727320" lon="-46.871825"><ele>834.9</ele></trkpt>
+      <trkpt lat="-23.727597" lon="-46.872029"><ele>835.5</ele></trkpt>
+      <trkpt lat="-23.727772" lon="-46.872107"><ele>827.2</ele></trkpt>
+      <trkpt lat="-23.728064" lon="-46.872204"><ele>826.2</ele></trkpt>
+      <trkpt lat="-23.728161" lon="-46.872244"><ele>826.2</ele></trkpt>
+      <trkpt lat="-23.728314" lon="-46.872320"><ele>826.8</ele></trkpt>
+      <trkpt lat="-23.728373" lon="-46.872368"><ele>820.3</ele></trkpt>
+      <trkpt lat="-23.728402" lon="-46.872413"><ele>820.3</ele></trkpt>
+      <trkpt lat="-23.728411" lon="-46.872478"><ele>820.3</ele></trkpt>
+      <trkpt lat="-23.728449" lon="-46.872812"><ele>816.5</ele></trkpt>
+      <trkpt lat="-23.728479" lon="-46.872928"><ele>812.6</ele></trkpt>
+      <trkpt lat="-23.728553" lon="-46.873032"><ele>812.6</ele></trkpt>
+      <trkpt lat="-23.728746" lon="-46.873212"><ele>804.5</ele></trkpt>
+      <trkpt lat="-23.728918" lon="-46.873373"><ele>806.0</ele></trkpt>
+      <trkpt lat="-23.728997" lon="-46.873542"><ele>800.4</ele></trkpt>
+      <trkpt lat="-23.729063" lon="-46.873727"><ele>804.7</ele></trkpt>
+      <trkpt lat="-23.729220" lon="-46.874194"><ele>799.3</ele></trkpt>
+      <trkpt lat="-23.729336" lon="-46.874414"><ele>806.7</ele></trkpt>
+      <trkpt lat="-23.729545" lon="-46.874746"><ele>808.3</ele></trkpt>
+      <trkpt lat="-23.729864" lon="-46.875170"><ele>827.3</ele></trkpt>
+      <trkpt lat="-23.730352" lon="-46.875698"><ele>832.7</ele></trkpt>
+      <trkpt lat="-23.731128" lon="-46.876337"><ele>856.0</ele></trkpt>
+      <trkpt lat="-23.731528" lon="-46.876640"><ele>860.6</ele></trkpt>
+      <trkpt lat="-23.731850" lon="-46.876846"><ele>859.0</ele></trkpt>
+      <trkpt lat="-23.732101" lon="-46.876975"><ele>858.1</ele></trkpt>
+      <trkpt lat="-23.732309" lon="-46.877043"><ele>858.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

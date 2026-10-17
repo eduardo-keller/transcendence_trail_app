@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Revolução Nativista de 1817</name>
+    <trkseg>
+      <trkpt lat="-23.582113" lon="-46.514726"><ele>765.9</ele></trkpt>
+      <trkpt lat="-23.582125" lon="-46.515064"><ele>763.7</ele></trkpt>
+      <trkpt lat="-23.583241" lon="-46.515509"><ele>764.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

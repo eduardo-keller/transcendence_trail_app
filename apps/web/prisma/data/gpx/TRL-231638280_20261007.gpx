@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Monguanguá</name>
+    <trkseg>
+      <trkpt lat="-23.468692" lon="-46.291021"><ele>763.5</ele></trkpt>
+      <trkpt lat="-23.468825" lon="-46.291139"><ele>756.9</ele></trkpt>
+      <trkpt lat="-23.469046" lon="-46.291287"><ele>762.7</ele></trkpt>
+      <trkpt lat="-23.469204" lon="-46.291333"><ele>762.7</ele></trkpt>
+      <trkpt lat="-23.469348" lon="-46.291319"><ele>761.2</ele></trkpt>
+      <trkpt lat="-23.469755" lon="-46.291148"><ele>759.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

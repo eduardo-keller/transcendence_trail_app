@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Estrada Municipal</name>
+    <trkseg>
+      <trkpt lat="-23.104082" lon="-46.992454"><ele>732.4</ele></trkpt>
+      <trkpt lat="-23.104074" lon="-46.992380"><ele>732.4</ele></trkpt>
+      <trkpt lat="-23.104072" lon="-46.992326"><ele>734.8</ele></trkpt>
+      <trkpt lat="-23.104062" lon="-46.991393"><ele>741.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passagem Lucilo Varejão</name>
+    <trkseg>
+      <trkpt lat="-23.723783" lon="-46.699020"><ele>761.2</ele></trkpt>
+      <trkpt lat="-23.723747" lon="-46.699383"><ele>760.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

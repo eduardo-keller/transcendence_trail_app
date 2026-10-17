@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Avenida Jordania</name>
+    <trkseg>
+      <trkpt lat="-23.548550" lon="-46.241052"><ele>736.0</ele></trkpt>
+      <trkpt lat="-23.548801" lon="-46.240496"><ele>736.3</ele></trkpt>
+      <trkpt lat="-23.548848" lon="-46.240468"><ele>736.3</ele></trkpt>
+      <trkpt lat="-23.548915" lon="-46.240464"><ele>736.3</ele></trkpt>
+      <trkpt lat="-23.549820" lon="-46.240705"><ele>737.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

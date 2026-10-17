@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Jupiter</name>
+    <trkseg>
+      <trkpt lat="-23.829983" lon="-46.701252"><ele>798.8</ele></trkpt>
+      <trkpt lat="-23.829671" lon="-46.701294"><ele>789.5</ele></trkpt>
+      <trkpt lat="-23.829540" lon="-46.701319"><ele>789.8</ele></trkpt>
+      <trkpt lat="-23.829340" lon="-46.701349"><ele>789.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

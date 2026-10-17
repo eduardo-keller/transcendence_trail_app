@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Idalina Delfini Russo</name>
+    <trkseg>
+      <trkpt lat="-23.868379" lon="-46.787583"><ele>788.7</ele></trkpt>
+      <trkpt lat="-23.868240" lon="-46.787784"><ele>783.3</ele></trkpt>
+      <trkpt lat="-23.868157" lon="-46.787912"><ele>776.3</ele></trkpt>
+      <trkpt lat="-23.868051" lon="-46.788112"><ele>769.5</ele></trkpt>
+      <trkpt lat="-23.867962" lon="-46.788294"><ele>763.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

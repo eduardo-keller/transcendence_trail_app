@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Alameda dos Flamingos</name>
+    <trkseg>
+      <trkpt lat="-23.408275" lon="-46.662417"><ele>1017.1</ele></trkpt>
+      <trkpt lat="-23.408307" lon="-46.662332"><ele>1004.7</ele></trkpt>
+      <trkpt lat="-23.408302" lon="-46.662207"><ele>1004.7</ele></trkpt>
+      <trkpt lat="-23.408283" lon="-46.662143"><ele>1004.7</ele></trkpt>
+      <trkpt lat="-23.407596" lon="-46.660995"><ele>964.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

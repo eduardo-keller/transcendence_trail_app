@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Beco dos Amores</name>
+    <trkseg>
+      <trkpt lat="-23.902459" lon="-46.442793"><ele>4.1</ele></trkpt>
+      <trkpt lat="-23.902461" lon="-46.442805"><ele>4.1</ele></trkpt>
+      <trkpt lat="-23.902408" lon="-46.442833"><ele>4.1</ele></trkpt>
+      <trkpt lat="-23.902427" lon="-46.442921"><ele>3.1</ele></trkpt>
+      <trkpt lat="-23.902388" lon="-46.442923"><ele>3.1</ele></trkpt>
+      <trkpt lat="-23.902322" lon="-46.442912"><ele>3.5</ele></trkpt>
+      <trkpt lat="-23.902262" lon="-46.442872"><ele>3.5</ele></trkpt>
+      <trkpt lat="-23.902229" lon="-46.442851"><ele>3.5</ele></trkpt>
+      <trkpt lat="-23.902188" lon="-46.442837"><ele>3.5</ele></trkpt>
+      <trkpt lat="-23.902126" lon="-46.442788"><ele>3.5</ele></trkpt>
+      <trkpt lat="-23.902117" lon="-46.442756"><ele>3.5</ele></trkpt>
+      <trkpt lat="-23.902109" lon="-46.442696"><ele>3.5</ele></trkpt>
+      <trkpt lat="-23.902082" lon="-46.442607"><ele>3.1</ele></trkpt>
+      <trkpt lat="-23.902067" lon="-46.442569"><ele>3.1</ele></trkpt>
+      <trkpt lat="-23.902030" lon="-46.442468"><ele>3.1</ele></trkpt>
+    </trkseg>
+    <trkseg>
+      <trkpt lat="-23.902188" lon="-46.442837"><ele>3.5</ele></trkpt>
+      <trkpt lat="-23.902153" lon="-46.442912"><ele>3.5</ele></trkpt>
+      <trkpt lat="-23.902088" lon="-46.443036"><ele>2.8</ele></trkpt>
+      <trkpt lat="-23.902060" lon="-46.443117"><ele>2.8</ele></trkpt>
+      <trkpt lat="-23.902016" lon="-46.443275"><ele>2.5</ele></trkpt>
+      <trkpt lat="-23.902008" lon="-46.443333"><ele>2.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Souza</name>
+    <trkseg>
+      <trkpt lat="-23.408489" lon="-46.902265"><ele>760.5</ele></trkpt>
+      <trkpt lat="-23.408398" lon="-46.902105"><ele>770.5</ele></trkpt>
+      <trkpt lat="-23.408347" lon="-46.902038"><ele>763.0</ele></trkpt>
+      <trkpt lat="-23.408295" lon="-46.901991"><ele>763.0</ele></trkpt>
+      <trkpt lat="-23.408232" lon="-46.901948"><ele>763.0</ele></trkpt>
+      <trkpt lat="-23.408117" lon="-46.901860"><ele>768.4</ele></trkpt>
+      <trkpt lat="-23.408182" lon="-46.901694"><ele>765.4</ele></trkpt>
+      <trkpt lat="-23.408195" lon="-46.901539"><ele>758.3</ele></trkpt>
+      <trkpt lat="-23.408254" lon="-46.901475"><ele>754.0</ele></trkpt>
+      <trkpt lat="-23.408338" lon="-46.901437"><ele>754.0</ele></trkpt>
+      <trkpt lat="-23.408366" lon="-46.901419"><ele>754.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

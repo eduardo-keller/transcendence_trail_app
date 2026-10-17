@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Três A</name>
+    <trkseg>
+      <trkpt lat="-23.734865" lon="-46.707561"><ele>765.8</ele></trkpt>
+      <trkpt lat="-23.734900" lon="-46.707493"><ele>765.8</ele></trkpt>
+      <trkpt lat="-23.734928" lon="-46.707457"><ele>765.8</ele></trkpt>
+      <trkpt lat="-23.734796" lon="-46.707357"><ele>767.6</ele></trkpt>
+      <trkpt lat="-23.734859" lon="-46.707402"><ele>769.3</ele></trkpt>
+      <trkpt lat="-23.734900" lon="-46.707440"><ele>765.8</ele></trkpt>
+      <trkpt lat="-23.734915" lon="-46.707452"><ele>765.8</ele></trkpt>
+      <trkpt lat="-23.734928" lon="-46.707457"><ele>765.8</ele></trkpt>
+      <trkpt lat="-23.734936" lon="-46.707460"><ele>765.8</ele></trkpt>
+      <trkpt lat="-23.734967" lon="-46.707483"><ele>765.8</ele></trkpt>
+      <trkpt lat="-23.735084" lon="-46.707563"><ele>765.8</ele></trkpt>
+      <trkpt lat="-23.735161" lon="-46.707616"><ele>764.3</ele></trkpt>
+      <trkpt lat="-23.735205" lon="-46.707638"><ele>764.3</ele></trkpt>
+      <trkpt lat="-23.735228" lon="-46.707636"><ele>764.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

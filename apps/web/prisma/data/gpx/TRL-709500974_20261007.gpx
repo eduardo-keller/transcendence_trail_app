@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Galeria Patrimônio</name>
+    <trkseg>
+      <trkpt lat="-23.568289" lon="-46.648974"><ele>820.6</ele></trkpt>
+      <trkpt lat="-23.568298" lon="-46.648952"><ele>820.6</ele></trkpt>
+      <trkpt lat="-23.568298" lon="-46.648952"><ele>820.6</ele></trkpt>
+      <trkpt lat="-23.568416" lon="-46.648784"><ele>820.6</ele></trkpt>
+      <trkpt lat="-23.568226" lon="-46.648615"><ele>822.3</ele></trkpt>
+      <trkpt lat="-23.568223" lon="-46.648612"><ele>822.3</ele></trkpt>
+      <trkpt lat="-23.568223" lon="-46.648612"><ele>822.3</ele></trkpt>
+      <trkpt lat="-23.568199" lon="-46.648590"><ele>822.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Barão de Mariares</name>
+    <trkseg>
+      <trkpt lat="-23.834809" lon="-46.716577"><ele>786.9</ele></trkpt>
+      <trkpt lat="-23.834885" lon="-46.716684"><ele>783.0</ele></trkpt>
+      <trkpt lat="-23.834911" lon="-46.716743"><ele>783.0</ele></trkpt>
+      <trkpt lat="-23.834931" lon="-46.716802"><ele>783.0</ele></trkpt>
+      <trkpt lat="-23.834932" lon="-46.716845"><ele>781.6</ele></trkpt>
+      <trkpt lat="-23.834923" lon="-46.716903"><ele>781.6</ele></trkpt>
+      <trkpt lat="-23.834902" lon="-46.716966"><ele>781.6</ele></trkpt>
+      <trkpt lat="-23.834871" lon="-46.717033"><ele>781.6</ele></trkpt>
+      <trkpt lat="-23.834840" lon="-46.717077"><ele>785.6</ele></trkpt>
+      <trkpt lat="-23.834811" lon="-46.717105"><ele>785.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

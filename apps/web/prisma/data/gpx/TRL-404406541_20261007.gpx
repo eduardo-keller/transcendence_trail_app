@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passagem Subterrânea para Acesso aos Terminais</name>
+    <trkseg>
+      <trkpt lat="-23.652303" lon="-46.526909"><ele>750.4</ele></trkpt>
+      <trkpt lat="-23.652273" lon="-46.526942"><ele>750.4</ele></trkpt>
+      <trkpt lat="-23.652191" lon="-46.527032"><ele>750.4</ele></trkpt>
+      <trkpt lat="-23.652112" lon="-46.527119"><ele>749.6</ele></trkpt>
+      <trkpt lat="-23.651880" lon="-46.527372"><ele>745.5</ele></trkpt>
+      <trkpt lat="-23.651797" lon="-46.527462"><ele>746.3</ele></trkpt>
+      <trkpt lat="-23.651603" lon="-46.527681"><ele>746.7</ele></trkpt>
+      <trkpt lat="-23.651603" lon="-46.527681"><ele>746.7</ele></trkpt>
+      <trkpt lat="-23.651749" lon="-46.527940"><ele>748.8</ele></trkpt>
+      <trkpt lat="-23.651852" lon="-46.528123"><ele>745.5</ele></trkpt>
+      <trkpt lat="-23.652245" lon="-46.528822"><ele>747.7</ele></trkpt>
+      <trkpt lat="-23.652274" lon="-46.528823"><ele>747.7</ele></trkpt>
+      <trkpt lat="-23.652532" lon="-46.528592"><ele>750.5</ele></trkpt>
+      <trkpt lat="-23.652712" lon="-46.528421"><ele>749.1</ele></trkpt>
+      <trkpt lat="-23.652772" lon="-46.528422"><ele>749.1</ele></trkpt>
+      <trkpt lat="-23.652852" lon="-46.528523"><ele>751.1</ele></trkpt>
+      <trkpt lat="-23.652926" lon="-46.528616"><ele>747.4</ele></trkpt>
+      <trkpt lat="-23.652998" lon="-46.528707"><ele>747.4</ele></trkpt>
+      <trkpt lat="-23.653078" lon="-46.528807"><ele>749.5</ele></trkpt>
+      <trkpt lat="-23.653158" lon="-46.528906"><ele>749.5</ele></trkpt>
+      <trkpt lat="-23.653237" lon="-46.529006"><ele>747.7</ele></trkpt>
+      <trkpt lat="-23.653368" lon="-46.529170"><ele>747.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

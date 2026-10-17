@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Águia Real</name>
+    <trkseg>
+      <trkpt lat="-23.478236" lon="-46.498081"><ele>732.4</ele></trkpt>
+      <trkpt lat="-23.478179" lon="-46.498155"><ele>727.2</ele></trkpt>
+      <trkpt lat="-23.478145" lon="-46.498213"><ele>728.2</ele></trkpt>
+      <trkpt lat="-23.478092" lon="-46.498286"><ele>728.2</ele></trkpt>
+      <trkpt lat="-23.478025" lon="-46.498357"><ele>728.2</ele></trkpt>
+      <trkpt lat="-23.478022" lon="-46.498467"><ele>728.2</ele></trkpt>
+      <trkpt lat="-23.478140" lon="-46.498698"><ele>727.6</ele></trkpt>
+      <trkpt lat="-23.478298" lon="-46.499068"><ele>729.6</ele></trkpt>
+      <trkpt lat="-23.478465" lon="-46.499583"><ele>730.0</ele></trkpt>
+      <trkpt lat="-23.478694" lon="-46.499868"><ele>729.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

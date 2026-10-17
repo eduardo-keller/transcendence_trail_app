@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Marginal do Oratorio</name>
+    <trkseg>
+      <trkpt lat="-23.616898" lon="-46.518262"><ele>750.8</ele></trkpt>
+      <trkpt lat="-23.616538" lon="-46.518334"><ele>750.6</ele></trkpt>
+      <trkpt lat="-23.616361" lon="-46.518417"><ele>750.0</ele></trkpt>
+      <trkpt lat="-23.616287" lon="-46.518503"><ele>753.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

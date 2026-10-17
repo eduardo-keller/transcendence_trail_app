@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Morato de Oliveira</name>
+    <trkseg>
+      <trkpt lat="-23.478374" lon="-46.679737"><ele>752.3</ele></trkpt>
+      <trkpt lat="-23.478450" lon="-46.679809"><ele>752.3</ele></trkpt>
+      <trkpt lat="-23.478567" lon="-46.679903"><ele>743.9</ele></trkpt>
+      <trkpt lat="-23.478668" lon="-46.679954"><ele>743.9</ele></trkpt>
+      <trkpt lat="-23.478903" lon="-46.679991"><ele>738.6</ele></trkpt>
+      <trkpt lat="-23.478979" lon="-46.679982"><ele>738.6</ele></trkpt>
+      <trkpt lat="-23.479035" lon="-46.679964"><ele>738.9</ele></trkpt>
+      <trkpt lat="-23.479111" lon="-46.679912"><ele>738.9</ele></trkpt>
+      <trkpt lat="-23.479416" lon="-46.679608"><ele>737.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

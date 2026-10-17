@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Trilha Da Segunda Cachoeira (B)</name>
+    <trkseg>
+      <trkpt lat="-23.983052" lon="-46.513757"><ele>20.5</ele></trkpt>
+      <trkpt lat="-23.983047" lon="-46.513735"><ele>18.4</ele></trkpt>
+      <trkpt lat="-23.983046" lon="-46.513710"><ele>18.4</ele></trkpt>
+      <trkpt lat="-23.983060" lon="-46.513653"><ele>18.4</ele></trkpt>
+      <trkpt lat="-23.983062" lon="-46.513621"><ele>18.4</ele></trkpt>
+      <trkpt lat="-23.983059" lon="-46.513591"><ele>18.4</ele></trkpt>
+      <trkpt lat="-23.983040" lon="-46.513538"><ele>18.4</ele></trkpt>
+      <trkpt lat="-23.983022" lon="-46.513478"><ele>18.4</ele></trkpt>
+      <trkpt lat="-23.982994" lon="-46.513416"><ele>17.4</ele></trkpt>
+      <trkpt lat="-23.982961" lon="-46.513365"><ele>17.4</ele></trkpt>
+      <trkpt lat="-23.982938" lon="-46.513314"><ele>17.4</ele></trkpt>
+      <trkpt lat="-23.982925" lon="-46.513271"><ele>17.4</ele></trkpt>
+      <trkpt lat="-23.982916" lon="-46.513236"><ele>14.1</ele></trkpt>
+      <trkpt lat="-23.982905" lon="-46.513156"><ele>16.2</ele></trkpt>
+      <trkpt lat="-23.982893" lon="-46.513104"><ele>16.2</ele></trkpt>
+      <trkpt lat="-23.982870" lon="-46.513043"><ele>16.2</ele></trkpt>
+      <trkpt lat="-23.982861" lon="-46.512993"><ele>16.2</ele></trkpt>
+      <trkpt lat="-23.982859" lon="-46.512970"><ele>16.2</ele></trkpt>
+      <trkpt lat="-23.982864" lon="-46.512955"><ele>16.2</ele></trkpt>
+      <trkpt lat="-23.982883" lon="-46.512936"><ele>16.2</ele></trkpt>
+      <trkpt lat="-23.982892" lon="-46.512922"><ele>16.2</ele></trkpt>
+      <trkpt lat="-23.982895" lon="-46.512902"><ele>16.9</ele></trkpt>
+      <trkpt lat="-23.982891" lon="-46.512871"><ele>16.9</ele></trkpt>
+      <trkpt lat="-23.982876" lon="-46.512837"><ele>16.9</ele></trkpt>
+      <trkpt lat="-23.982872" lon="-46.512811"><ele>16.9</ele></trkpt>
+      <trkpt lat="-23.982875" lon="-46.512773"><ele>16.9</ele></trkpt>
+      <trkpt lat="-23.982885" lon="-46.512744"><ele>16.9</ele></trkpt>
+      <trkpt lat="-23.982902" lon="-46.512718"><ele>16.9</ele></trkpt>
+      <trkpt lat="-23.982920" lon="-46.512691"><ele>12.6</ele></trkpt>
+      <trkpt lat="-23.982929" lon="-46.512658"><ele>12.6</ele></trkpt>
+      <trkpt lat="-23.982930" lon="-46.512621"><ele>14.4</ele></trkpt>
+      <trkpt lat="-23.982928" lon="-46.512586"><ele>14.4</ele></trkpt>
+      <trkpt lat="-23.982936" lon="-46.512534"><ele>14.4</ele></trkpt>
+      <trkpt lat="-23.982945" lon="-46.512488"><ele>14.4</ele></trkpt>
+      <trkpt lat="-23.982945" lon="-46.512437"><ele>14.4</ele></trkpt>
+      <trkpt lat="-23.982951" lon="-46.512395"><ele>14.4</ele></trkpt>
+      <trkpt lat="-23.982957" lon="-46.512350"><ele>14.0</ele></trkpt>
+      <trkpt lat="-23.982975" lon="-46.512309"><ele>14.0</ele></trkpt>
+      <trkpt lat="-23.983001" lon="-46.512279"><ele>14.0</ele></trkpt>
+      <trkpt lat="-23.983034" lon="-46.512244"><ele>14.0</ele></trkpt>
+      <trkpt lat="-23.983064" lon="-46.512194"><ele>14.0</ele></trkpt>
+      <trkpt lat="-23.983079" lon="-46.512142"><ele>14.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

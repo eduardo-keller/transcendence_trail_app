@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passagem Inferior Abricó Natal</name>
+    <trkseg>
+      <trkpt lat="-23.765661" lon="-46.711843"><ele>766.3</ele></trkpt>
+      <trkpt lat="-23.765825" lon="-46.711846"><ele>765.9</ele></trkpt>
+      <trkpt lat="-23.765825" lon="-46.711869"><ele>765.9</ele></trkpt>
+      <trkpt lat="-23.765588" lon="-46.711865"><ele>766.3</ele></trkpt>
+      <trkpt lat="-23.765588" lon="-46.711829"><ele>766.3</ele></trkpt>
+      <trkpt lat="-23.765740" lon="-46.711832"><ele>765.9</ele></trkpt>
+      <trkpt lat="-23.765739" lon="-46.711752"><ele>767.1</ele></trkpt>
+      <trkpt lat="-23.765661" lon="-46.711843"><ele>766.3</ele></trkpt>
+      <trkpt lat="-23.765581" lon="-46.711841"><ele>766.3</ele></trkpt>
+      <trkpt lat="-23.765577" lon="-46.712021"><ele>766.3</ele></trkpt>
+      <trkpt lat="-23.765577" lon="-46.712021"><ele>766.3</ele></trkpt>
+      <trkpt lat="-23.765576" lon="-46.712269"><ele>763.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

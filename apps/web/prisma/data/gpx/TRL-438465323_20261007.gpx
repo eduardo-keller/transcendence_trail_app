@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Visconde de Maracajú</name>
+    <trkseg>
+      <trkpt lat="-23.551897" lon="-46.718706"><ele>729.7</ele></trkpt>
+      <trkpt lat="-23.551874" lon="-46.718754"><ele>727.6</ele></trkpt>
+      <trkpt lat="-23.551491" lon="-46.719533"><ele>729.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

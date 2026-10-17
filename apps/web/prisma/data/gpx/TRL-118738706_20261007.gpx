@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Alameda dos Sibipirunas</name>
+    <trkseg>
+      <trkpt lat="-23.410054" lon="-46.658577"><ele>949.6</ele></trkpt>
+      <trkpt lat="-23.410142" lon="-46.658685"><ele>956.1</ele></trkpt>
+      <trkpt lat="-23.410329" lon="-46.658857"><ele>950.0</ele></trkpt>
+      <trkpt lat="-23.410484" lon="-46.659011"><ele>953.7</ele></trkpt>
+      <trkpt lat="-23.410673" lon="-46.659232"><ele>947.3</ele></trkpt>
+      <trkpt lat="-23.410674" lon="-46.659424"><ele>942.4</ele></trkpt>
+      <trkpt lat="-23.410683" lon="-46.659747"><ele>940.3</ele></trkpt>
+      <trkpt lat="-23.410698" lon="-46.659855"><ele>951.0</ele></trkpt>
+      <trkpt lat="-23.410740" lon="-46.659987"><ele>950.6</ele></trkpt>
+      <trkpt lat="-23.410809" lon="-46.660138"><ele>950.6</ele></trkpt>
+      <trkpt lat="-23.410870" lon="-46.660305"><ele>946.1</ele></trkpt>
+      <trkpt lat="-23.410984" lon="-46.660674"><ele>955.3</ele></trkpt>
+      <trkpt lat="-23.411038" lon="-46.660970"><ele>952.6</ele></trkpt>
+      <trkpt lat="-23.411016" lon="-46.661331"><ele>949.7</ele></trkpt>
+      <trkpt lat="-23.410929" lon="-46.661743"><ele>938.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

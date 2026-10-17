@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Opala</name>
+    <trkseg>
+      <trkpt lat="-23.504243" lon="-46.771323"><ele>769.9</ele></trkpt>
+      <trkpt lat="-23.504673" lon="-46.771645"><ele>762.0</ele></trkpt>
+      <trkpt lat="-23.505170" lon="-46.771987"><ele>751.2</ele></trkpt>
+      <trkpt lat="-23.505170" lon="-46.771987"><ele>751.2</ele></trkpt>
+      <trkpt lat="-23.505238" lon="-46.772016"><ele>751.2</ele></trkpt>
+      <trkpt lat="-23.505410" lon="-46.772073"><ele>751.2</ele></trkpt>
+      <trkpt lat="-23.505637" lon="-46.772162"><ele>746.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

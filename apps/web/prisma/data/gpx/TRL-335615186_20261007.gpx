@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Vicenzo Catena</name>
+    <trkseg>
+      <trkpt lat="-23.675674" lon="-46.763000"><ele>796.1</ele></trkpt>
+      <trkpt lat="-23.675622" lon="-46.763142"><ele>796.1</ele></trkpt>
+      <trkpt lat="-23.675379" lon="-46.763071"><ele>793.6</ele></trkpt>
+      <trkpt lat="-23.675325" lon="-46.763041"><ele>793.6</ele></trkpt>
+      <trkpt lat="-23.675285" lon="-46.763035"><ele>793.6</ele></trkpt>
+      <trkpt lat="-23.674871" lon="-46.762892"><ele>792.3</ele></trkpt>
+      <trkpt lat="-23.674800" lon="-46.762845"><ele>789.3</ele></trkpt>
+      <trkpt lat="-23.674749" lon="-46.762844"><ele>789.3</ele></trkpt>
+      <trkpt lat="-23.674484" lon="-46.762735"><ele>786.8</ele></trkpt>
+      <trkpt lat="-23.674436" lon="-46.762709"><ele>786.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

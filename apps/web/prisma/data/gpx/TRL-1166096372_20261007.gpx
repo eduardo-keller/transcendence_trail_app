@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passagem Verde Primavera</name>
+    <trkseg>
+      <trkpt lat="-23.692413" lon="-46.598437"><ele>782.3</ele></trkpt>
+      <trkpt lat="-23.692290" lon="-46.598189"><ele>787.5</ele></trkpt>
+      <trkpt lat="-23.692247" lon="-46.598102"><ele>787.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

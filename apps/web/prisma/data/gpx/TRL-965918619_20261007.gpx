@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua dos Eucaliptos</name>
+    <trkseg>
+      <trkpt lat="-23.439835" lon="-46.538362"><ele>776.2</ele></trkpt>
+      <trkpt lat="-23.439878" lon="-46.538489"><ele>780.0</ele></trkpt>
+      <trkpt lat="-23.439902" lon="-46.538577"><ele>780.0</ele></trkpt>
+      <trkpt lat="-23.439930" lon="-46.538702"><ele>780.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

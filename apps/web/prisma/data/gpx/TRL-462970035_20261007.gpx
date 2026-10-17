@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela de Pedestres Manuel Avilez</name>
+    <trkseg>
+      <trkpt lat="-23.452053" lon="-46.688324"><ele>763.0</ele></trkpt>
+      <trkpt lat="-23.452207" lon="-46.688366"><ele>765.1</ele></trkpt>
+      <trkpt lat="-23.452267" lon="-46.688378"><ele>765.1</ele></trkpt>
+      <trkpt lat="-23.452362" lon="-46.688356"><ele>767.7</ele></trkpt>
+      <trkpt lat="-23.452497" lon="-46.688346"><ele>767.7</ele></trkpt>
+      <trkpt lat="-23.452568" lon="-46.688361"><ele>767.7</ele></trkpt>
+      <trkpt lat="-23.452620" lon="-46.688396"><ele>767.7</ele></trkpt>
+      <trkpt lat="-23.452675" lon="-46.688417"><ele>769.1</ele></trkpt>
+      <trkpt lat="-23.452759" lon="-46.688434"><ele>769.1</ele></trkpt>
+      <trkpt lat="-23.452899" lon="-46.688456"><ele>769.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

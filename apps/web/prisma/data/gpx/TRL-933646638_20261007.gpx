@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Praça Santa Helena</name>
+    <trkseg>
+      <trkpt lat="-23.586259" lon="-46.580529"><ele>744.3</ele></trkpt>
+      <trkpt lat="-23.586289" lon="-46.580653"><ele>744.3</ele></trkpt>
+      <trkpt lat="-23.586303" lon="-46.580664"><ele>744.3</ele></trkpt>
+      <trkpt lat="-23.586320" lon="-46.580677"><ele>744.3</ele></trkpt>
+      <trkpt lat="-23.586348" lon="-46.580692"><ele>744.3</ele></trkpt>
+      <trkpt lat="-23.586374" lon="-46.580703"><ele>742.8</ele></trkpt>
+      <trkpt lat="-23.586396" lon="-46.580708"><ele>742.8</ele></trkpt>
+      <trkpt lat="-23.586403" lon="-46.580710"><ele>742.8</ele></trkpt>
+      <trkpt lat="-23.586472" lon="-46.580698"><ele>742.8</ele></trkpt>
+      <trkpt lat="-23.586560" lon="-46.580662"><ele>745.4</ele></trkpt>
+      <trkpt lat="-23.586598" lon="-46.580627"><ele>745.4</ele></trkpt>
+      <trkpt lat="-23.586625" lon="-46.580587"><ele>745.4</ele></trkpt>
+      <trkpt lat="-23.586645" lon="-46.580546"><ele>745.4</ele></trkpt>
+      <trkpt lat="-23.586657" lon="-46.580519"><ele>745.4</ele></trkpt>
+      <trkpt lat="-23.586641" lon="-46.580439"><ele>745.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

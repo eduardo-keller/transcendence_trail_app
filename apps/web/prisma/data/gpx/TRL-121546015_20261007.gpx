@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Antônio Domingues da Silva</name>
+    <trkseg>
+      <trkpt lat="-23.673325" lon="-46.684574"><ele>771.1</ele></trkpt>
+      <trkpt lat="-23.673569" lon="-46.684591"><ele>768.6</ele></trkpt>
+      <trkpt lat="-23.673579" lon="-46.684589"><ele>768.6</ele></trkpt>
+      <trkpt lat="-23.673587" lon="-46.684583"><ele>772.2</ele></trkpt>
+      <trkpt lat="-23.673590" lon="-46.684577"><ele>772.2</ele></trkpt>
+      <trkpt lat="-23.673593" lon="-46.684561"><ele>772.2</ele></trkpt>
+      <trkpt lat="-23.673627" lon="-46.683884"><ele>775.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Praça Monumento</name>
+    <trkseg>
+      <trkpt lat="-23.578682" lon="-46.609412"><ele>735.9</ele></trkpt>
+      <trkpt lat="-23.578695" lon="-46.609412"><ele>735.9</ele></trkpt>
+      <trkpt lat="-23.578812" lon="-46.609413"><ele>737.1</ele></trkpt>
+      <trkpt lat="-23.578682" lon="-46.609412"><ele>735.9</ele></trkpt>
+      <trkpt lat="-23.578621" lon="-46.609419"><ele>735.9</ele></trkpt>
+      <trkpt lat="-23.578621" lon="-46.609419"><ele>735.9</ele></trkpt>
+      <trkpt lat="-23.578539" lon="-46.609444"><ele>735.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

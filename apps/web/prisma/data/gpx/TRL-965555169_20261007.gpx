@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Manoel das Neves</name>
+    <trkseg>
+      <trkpt lat="-23.459467" lon="-46.748550"><ele>844.9</ele></trkpt>
+      <trkpt lat="-23.459487" lon="-46.748552"><ele>844.9</ele></trkpt>
+      <trkpt lat="-23.459521" lon="-46.748550"><ele>844.9</ele></trkpt>
+      <trkpt lat="-23.459611" lon="-46.748545"><ele>839.6</ele></trkpt>
+      <trkpt lat="-23.459868" lon="-46.748525"><ele>839.1</ele></trkpt>
+      <trkpt lat="-23.460059" lon="-46.748497"><ele>839.1</ele></trkpt>
+      <trkpt lat="-23.460225" lon="-46.748458"><ele>827.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

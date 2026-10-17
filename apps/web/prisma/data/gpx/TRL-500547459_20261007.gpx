@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Belchior de Medeiros</name>
+    <trkseg>
+      <trkpt lat="-23.497936" lon="-46.620548"><ele>763.3</ele></trkpt>
+      <trkpt lat="-23.498141" lon="-46.620570"><ele>763.3</ele></trkpt>
+      <trkpt lat="-23.498218" lon="-46.620578"><ele>763.7</ele></trkpt>
+      <trkpt lat="-23.498607" lon="-46.620442"><ele>758.9</ele></trkpt>
+      <trkpt lat="-23.498746" lon="-46.620448"><ele>758.9</ele></trkpt>
+      <trkpt lat="-23.499274" lon="-46.620450"><ele>746.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

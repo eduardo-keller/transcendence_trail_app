@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Guaxupé</name>
+    <trkseg>
+      <trkpt lat="-23.456816" lon="-46.502594"><ele>755.5</ele></trkpt>
+      <trkpt lat="-23.456762" lon="-46.502364"><ele>755.0</ele></trkpt>
+      <trkpt lat="-23.456748" lon="-46.502282"><ele>754.1</ele></trkpt>
+      <trkpt lat="-23.456725" lon="-46.502152"><ele>754.1</ele></trkpt>
+      <trkpt lat="-23.456712" lon="-46.502071"><ele>752.4</ele></trkpt>
+      <trkpt lat="-23.456706" lon="-46.501975"><ele>752.4</ele></trkpt>
+      <trkpt lat="-23.456706" lon="-46.501888"><ele>752.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

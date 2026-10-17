@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela das Maritacas</name>
+    <trkseg>
+      <trkpt lat="-23.573083" lon="-46.874070"><ele>776.1</ele></trkpt>
+      <trkpt lat="-23.573018" lon="-46.872952"><ele>782.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

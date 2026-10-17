@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passagem B</name>
+    <trkseg>
+      <trkpt lat="-23.497827" lon="-46.854292"><ele>740.6</ele></trkpt>
+      <trkpt lat="-23.497920" lon="-46.854281"><ele>748.6</ele></trkpt>
+      <trkpt lat="-23.498004" lon="-46.854284"><ele>748.6</ele></trkpt>
+      <trkpt lat="-23.498535" lon="-46.854357"><ele>747.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

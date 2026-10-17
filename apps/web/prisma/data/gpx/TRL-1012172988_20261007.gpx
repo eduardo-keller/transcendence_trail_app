@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Ruy Matias da Silva</name>
+    <trkseg>
+      <trkpt lat="-23.548787" lon="-47.015256"><ele>818.1</ele></trkpt>
+      <trkpt lat="-23.548858" lon="-47.015321"><ele>818.1</ele></trkpt>
+      <trkpt lat="-23.548937" lon="-47.015286"><ele>818.1</ele></trkpt>
+      <trkpt lat="-23.549100" lon="-47.015170"><ele>817.5</ele></trkpt>
+      <trkpt lat="-23.549210" lon="-47.015061"><ele>828.9</ele></trkpt>
+      <trkpt lat="-23.549397" lon="-47.014994"><ele>824.8</ele></trkpt>
+      <trkpt lat="-23.549582" lon="-47.014980"><ele>824.8</ele></trkpt>
+      <trkpt lat="-23.549815" lon="-47.014945"><ele>820.6</ele></trkpt>
+      <trkpt lat="-23.550000" lon="-47.014947"><ele>819.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Antônio Mariz</name>
+    <trkseg>
+      <trkpt lat="-23.525393" lon="-46.711347"><ele>745.2</ele></trkpt>
+      <trkpt lat="-23.525566" lon="-46.711312"><ele>747.8</ele></trkpt>
+      <trkpt lat="-23.526274" lon="-46.711158"><ele>755.3</ele></trkpt>
+      <trkpt lat="-23.526274" lon="-46.711158"><ele>755.3</ele></trkpt>
+      <trkpt lat="-23.526294" lon="-46.711153"><ele>755.3</ele></trkpt>
+      <trkpt lat="-23.527130" lon="-46.710968"><ele>763.0</ele></trkpt>
+      <trkpt lat="-23.527910" lon="-46.710815"><ele>766.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

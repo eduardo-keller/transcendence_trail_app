@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Via de Pedestre Santa Barbara do Leste</name>
+    <trkseg>
+      <trkpt lat="-23.463168" lon="-46.570591"><ele>738.6</ele></trkpt>
+      <trkpt lat="-23.463141" lon="-46.570479"><ele>738.6</ele></trkpt>
+      <trkpt lat="-23.463097" lon="-46.570391"><ele>736.3</ele></trkpt>
+      <trkpt lat="-23.463086" lon="-46.570254"><ele>736.3</ele></trkpt>
+      <trkpt lat="-23.463242" lon="-46.570358"><ele>738.3</ele></trkpt>
+      <trkpt lat="-23.463233" lon="-46.570410"><ele>738.3</ele></trkpt>
+      <trkpt lat="-23.463192" lon="-46.570480"><ele>738.6</ele></trkpt>
+      <trkpt lat="-23.463168" lon="-46.570591"><ele>738.6</ele></trkpt>
+      <trkpt lat="-23.463202" lon="-46.570731"><ele>736.0</ele></trkpt>
+      <trkpt lat="-23.463208" lon="-46.570843"><ele>736.0</ele></trkpt>
+      <trkpt lat="-23.463214" lon="-46.570955"><ele>736.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

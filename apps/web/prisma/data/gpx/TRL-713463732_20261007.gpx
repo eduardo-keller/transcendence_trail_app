@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Estrela</name>
+    <trkseg>
+      <trkpt lat="-23.826869" lon="-46.701846"><ele>816.8</ele></trkpt>
+      <trkpt lat="-23.826867" lon="-46.701828"><ele>816.8</ele></trkpt>
+      <trkpt lat="-23.826834" lon="-46.701585"><ele>814.8</ele></trkpt>
+      <trkpt lat="-23.826819" lon="-46.701537"><ele>814.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

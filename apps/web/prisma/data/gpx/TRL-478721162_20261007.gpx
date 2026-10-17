@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua José Bonifácio</name>
+    <trkseg>
+      <trkpt lat="-23.485156" lon="-46.887559"><ele>807.5</ele></trkpt>
+      <trkpt lat="-23.484972" lon="-46.887475"><ele>799.3</ele></trkpt>
+      <trkpt lat="-23.484972" lon="-46.887475"><ele>799.3</ele></trkpt>
+      <trkpt lat="-23.484394" lon="-46.887239"><ele>771.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

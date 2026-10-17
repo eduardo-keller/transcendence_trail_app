@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Corina Maggini</name>
+    <trkseg>
+      <trkpt lat="-23.648256" lon="-46.492890"><ele>794.2</ele></trkpt>
+      <trkpt lat="-23.648312" lon="-46.492605"><ele>792.4</ele></trkpt>
+      <trkpt lat="-23.648366" lon="-46.492439"><ele>792.4</ele></trkpt>
+      <trkpt lat="-23.648438" lon="-46.492264"><ele>790.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

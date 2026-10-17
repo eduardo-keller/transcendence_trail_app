@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Helipa City</name>
+    <trkseg>
+      <trkpt lat="-23.603397" lon="-46.593469"><ele>755.0</ele></trkpt>
+      <trkpt lat="-23.603244" lon="-46.593522"><ele>758.8</ele></trkpt>
+      <trkpt lat="-23.603210" lon="-46.593533"><ele>758.8</ele></trkpt>
+      <trkpt lat="-23.602998" lon="-46.593614"><ele>757.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

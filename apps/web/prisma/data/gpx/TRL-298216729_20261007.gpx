@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela de Santo Antão</name>
+    <trkseg>
+      <trkpt lat="-23.455087" lon="-46.515979"><ele>767.9</ele></trkpt>
+      <trkpt lat="-23.455702" lon="-46.515815"><ele>769.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

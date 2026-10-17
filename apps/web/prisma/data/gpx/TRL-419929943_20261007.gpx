@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Trilha do morrão</name>
+    <trkseg>
+      <trkpt lat="-23.655100" lon="-46.803597"><ele>772.7</ele></trkpt>
+      <trkpt lat="-23.655165" lon="-46.803497"><ele>768.2</ele></trkpt>
+      <trkpt lat="-23.655166" lon="-46.803441"><ele>769.4</ele></trkpt>
+      <trkpt lat="-23.655170" lon="-46.803395"><ele>769.4</ele></trkpt>
+      <trkpt lat="-23.655214" lon="-46.803332"><ele>769.4</ele></trkpt>
+      <trkpt lat="-23.655252" lon="-46.803283"><ele>769.4</ele></trkpt>
+      <trkpt lat="-23.655277" lon="-46.803210"><ele>769.4</ele></trkpt>
+      <trkpt lat="-23.655290" lon="-46.803188"><ele>770.2</ele></trkpt>
+      <trkpt lat="-23.655290" lon="-46.803141"><ele>770.2</ele></trkpt>
+      <trkpt lat="-23.655279" lon="-46.803087"><ele>770.2</ele></trkpt>
+      <trkpt lat="-23.655263" lon="-46.803015"><ele>770.2</ele></trkpt>
+      <trkpt lat="-23.655256" lon="-46.802963"><ele>770.2</ele></trkpt>
+      <trkpt lat="-23.655257" lon="-46.802932"><ele>770.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

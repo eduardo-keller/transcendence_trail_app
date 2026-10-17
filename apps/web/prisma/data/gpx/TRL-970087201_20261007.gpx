@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Verinha Darcy</name>
+    <trkseg>
+      <trkpt lat="-23.637470" lon="-46.675967"><ele>760.1</ele></trkpt>
+      <trkpt lat="-23.637546" lon="-46.675873"><ele>760.1</ele></trkpt>
+      <trkpt lat="-23.637658" lon="-46.675733"><ele>758.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

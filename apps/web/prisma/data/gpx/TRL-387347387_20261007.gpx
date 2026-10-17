@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Sem Denominação</name>
+    <trkseg>
+      <trkpt lat="-23.518352" lon="-46.416932"><ele>764.0</ele></trkpt>
+      <trkpt lat="-23.518335" lon="-46.416891"><ele>764.0</ele></trkpt>
+      <trkpt lat="-23.518285" lon="-46.416761"><ele>764.1</ele></trkpt>
+      <trkpt lat="-23.518224" lon="-46.416608"><ele>764.1</ele></trkpt>
+      <trkpt lat="-23.518182" lon="-46.416494"><ele>764.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

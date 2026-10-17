@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Ilha</name>
+    <trkseg>
+      <trkpt lat="-23.434506" lon="-46.438874"><ele>782.2</ele></trkpt>
+      <trkpt lat="-23.434063" lon="-46.438526"><ele>782.0</ele></trkpt>
+      <trkpt lat="-23.433636" lon="-46.438176"><ele>779.3</ele></trkpt>
+      <trkpt lat="-23.433166" lon="-46.437806"><ele>777.6</ele></trkpt>
+      <trkpt lat="-23.432931" lon="-46.437677"><ele>777.6</ele></trkpt>
+      <trkpt lat="-23.432860" lon="-46.437619"><ele>780.1</ele></trkpt>
+      <trkpt lat="-23.432671" lon="-46.437467"><ele>780.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

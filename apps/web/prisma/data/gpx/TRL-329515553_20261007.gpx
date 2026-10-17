@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua James Nares</name>
+    <trkseg>
+      <trkpt lat="-23.559376" lon="-46.501815"><ele>767.3</ele></trkpt>
+      <trkpt lat="-23.559433" lon="-46.501710"><ele>768.2</ele></trkpt>
+      <trkpt lat="-23.559534" lon="-46.501587"><ele>768.2</ele></trkpt>
+      <trkpt lat="-23.559613" lon="-46.501479"><ele>774.1</ele></trkpt>
+      <trkpt lat="-23.559701" lon="-46.501396"><ele>774.1</ele></trkpt>
+      <trkpt lat="-23.559780" lon="-46.501367"><ele>774.1</ele></trkpt>
+      <trkpt lat="-23.559893" lon="-46.501324"><ele>778.1</ele></trkpt>
+      <trkpt lat="-23.560023" lon="-46.501292"><ele>778.1</ele></trkpt>
+      <trkpt lat="-23.560160" lon="-46.501305"><ele>779.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

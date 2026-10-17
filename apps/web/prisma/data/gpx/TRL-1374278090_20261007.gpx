@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua João Otávio</name>
+    <trkseg>
+      <trkpt lat="-23.939293" lon="-46.316554"><ele>2.4</ele></trkpt>
+      <trkpt lat="-23.939282" lon="-46.316517"><ele>0.6</ele></trkpt>
+      <trkpt lat="-23.939264" lon="-46.316488"><ele>0.6</ele></trkpt>
+      <trkpt lat="-23.939189" lon="-46.316436"><ele>0.6</ele></trkpt>
+      <trkpt lat="-23.939173" lon="-46.316427"><ele>0.6</ele></trkpt>
+      <trkpt lat="-23.939153" lon="-46.316419"><ele>0.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

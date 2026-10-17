@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Flôres</name>
+    <trkseg>
+      <trkpt lat="-23.504959" lon="-46.804911"><ele>738.5</ele></trkpt>
+      <trkpt lat="-23.505035" lon="-46.804274"><ele>754.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

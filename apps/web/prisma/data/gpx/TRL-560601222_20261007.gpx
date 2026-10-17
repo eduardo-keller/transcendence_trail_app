@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Via de Pedestre Ludovico Lovetti</name>
+    <trkseg>
+      <trkpt lat="-23.730946" lon="-46.715689"><ele>742.8</ele></trkpt>
+      <trkpt lat="-23.731005" lon="-46.715492"><ele>743.4</ele></trkpt>
+      <trkpt lat="-23.731023" lon="-46.715409"><ele>744.5</ele></trkpt>
+      <trkpt lat="-23.731051" lon="-46.715336"><ele>744.5</ele></trkpt>
+      <trkpt lat="-23.731056" lon="-46.715315"><ele>744.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

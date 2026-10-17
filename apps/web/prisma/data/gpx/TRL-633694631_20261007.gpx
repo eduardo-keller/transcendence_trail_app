@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Toledo Barbosa</name>
+    <trkseg>
+      <trkpt lat="-23.540530" lon="-46.582485"><ele>733.2</ele></trkpt>
+      <trkpt lat="-23.540546" lon="-46.582563"><ele>733.2</ele></trkpt>
+      <trkpt lat="-23.540581" lon="-46.582724"><ele>735.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

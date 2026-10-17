@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Manoel Calado</name>
+    <trkseg>
+      <trkpt lat="-23.558580" lon="-46.390201"><ele>806.4</ele></trkpt>
+      <trkpt lat="-23.558605" lon="-46.390201"><ele>806.4</ele></trkpt>
+      <trkpt lat="-23.558629" lon="-46.390194"><ele>806.4</ele></trkpt>
+      <trkpt lat="-23.558654" lon="-46.390179"><ele>806.4</ele></trkpt>
+      <trkpt lat="-23.559109" lon="-46.389645"><ele>807.6</ele></trkpt>
+      <trkpt lat="-23.559275" lon="-46.389319"><ele>808.2</ele></trkpt>
+      <trkpt lat="-23.559437" lon="-46.389075"><ele>793.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

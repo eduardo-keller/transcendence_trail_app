@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passagem Band C. de Aguiar</name>
+    <trkseg>
+      <trkpt lat="-23.676772" lon="-46.598182"><ele>776.5</ele></trkpt>
+      <trkpt lat="-23.676937" lon="-46.598367"><ele>772.0</ele></trkpt>
+      <trkpt lat="-23.677317" lon="-46.598597"><ele>782.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

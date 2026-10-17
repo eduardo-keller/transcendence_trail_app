@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Deputado José de Souza Cândido</name>
+    <trkseg>
+      <trkpt lat="-23.515711" lon="-46.286837"><ele>760.3</ele></trkpt>
+      <trkpt lat="-23.516006" lon="-46.285132"><ele>774.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

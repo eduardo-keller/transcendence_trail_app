@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Atalho</name>
+    <trkseg>
+      <trkpt lat="-23.552121" lon="-46.506781"><ele>794.6</ele></trkpt>
+      <trkpt lat="-23.552166" lon="-46.506808"><ele>793.5</ele></trkpt>
+      <trkpt lat="-23.552633" lon="-46.507078"><ele>789.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

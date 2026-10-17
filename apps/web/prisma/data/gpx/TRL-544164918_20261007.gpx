@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Quatro</name>
+    <trkseg>
+      <trkpt lat="-23.738919" lon="-46.713100"><ele>774.3</ele></trkpt>
+      <trkpt lat="-23.738926" lon="-46.713157"><ele>774.3</ele></trkpt>
+      <trkpt lat="-23.738938" lon="-46.713202"><ele>778.2</ele></trkpt>
+      <trkpt lat="-23.738942" lon="-46.713220"><ele>778.2</ele></trkpt>
+      <trkpt lat="-23.738943" lon="-46.713230"><ele>778.2</ele></trkpt>
+      <trkpt lat="-23.738943" lon="-46.713242"><ele>778.2</ele></trkpt>
+      <trkpt lat="-23.738927" lon="-46.713296"><ele>778.2</ele></trkpt>
+      <trkpt lat="-23.738923" lon="-46.713316"><ele>778.2</ele></trkpt>
+      <trkpt lat="-23.738919" lon="-46.713339"><ele>778.2</ele></trkpt>
+      <trkpt lat="-23.738921" lon="-46.713368"><ele>778.2</ele></trkpt>
+      <trkpt lat="-23.738924" lon="-46.713390"><ele>778.2</ele></trkpt>
+      <trkpt lat="-23.738944" lon="-46.713470"><ele>778.2</ele></trkpt>
+      <trkpt lat="-23.738947" lon="-46.713485"><ele>781.4</ele></trkpt>
+      <trkpt lat="-23.738952" lon="-46.713536"><ele>781.4</ele></trkpt>
+      <trkpt lat="-23.738952" lon="-46.713577"><ele>781.4</ele></trkpt>
+      <trkpt lat="-23.738950" lon="-46.713613"><ele>781.4</ele></trkpt>
+      <trkpt lat="-23.738935" lon="-46.713706"><ele>781.4</ele></trkpt>
+      <trkpt lat="-23.738886" lon="-46.713868"><ele>785.3</ele></trkpt>
+      <trkpt lat="-23.738890" lon="-46.713890"><ele>785.3</ele></trkpt>
+      <trkpt lat="-23.738910" lon="-46.713954"><ele>785.3</ele></trkpt>
+      <trkpt lat="-23.738913" lon="-46.713975"><ele>785.3</ele></trkpt>
+      <trkpt lat="-23.738914" lon="-46.713984"><ele>785.3</ele></trkpt>
+      <trkpt lat="-23.738928" lon="-46.713990"><ele>785.3</ele></trkpt>
+      <trkpt lat="-23.738981" lon="-46.714032"><ele>792.1</ele></trkpt>
+      <trkpt lat="-23.739079" lon="-46.714103"><ele>798.6</ele></trkpt>
+      <trkpt lat="-23.739161" lon="-46.714164"><ele>798.6</ele></trkpt>
+      <trkpt lat="-23.739166" lon="-46.714168"><ele>798.6</ele></trkpt>
+      <trkpt lat="-23.739213" lon="-46.714202"><ele>798.6</ele></trkpt>
+      <trkpt lat="-23.739259" lon="-46.714236"><ele>798.6</ele></trkpt>
+      <trkpt lat="-23.739306" lon="-46.714270"><ele>803.7</ele></trkpt>
+      <trkpt lat="-23.739347" lon="-46.714309"><ele>807.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

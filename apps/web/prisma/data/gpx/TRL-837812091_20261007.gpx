@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Luiz Crivelaro</name>
+    <trkseg>
+      <trkpt lat="-23.222508" lon="-46.853016"><ele>754.1</ele></trkpt>
+      <trkpt lat="-23.222598" lon="-46.853087"><ele>754.1</ele></trkpt>
+      <trkpt lat="-23.222684" lon="-46.853152"><ele>753.7</ele></trkpt>
+      <trkpt lat="-23.222790" lon="-46.853250"><ele>760.8</ele></trkpt>
+      <trkpt lat="-23.222879" lon="-46.853379"><ele>760.8</ele></trkpt>
+      <trkpt lat="-23.222941" lon="-46.853499"><ele>762.4</ele></trkpt>
+      <trkpt lat="-23.223012" lon="-46.853683"><ele>762.4</ele></trkpt>
+      <trkpt lat="-23.223101" lon="-46.853976"><ele>764.6</ele></trkpt>
+      <trkpt lat="-23.223169" lon="-46.854088"><ele>771.7</ele></trkpt>
+      <trkpt lat="-23.223256" lon="-46.854176"><ele>769.0</ele></trkpt>
+      <trkpt lat="-23.223348" lon="-46.854223"><ele>769.0</ele></trkpt>
+      <trkpt lat="-23.223465" lon="-46.854247"><ele>769.0</ele></trkpt>
+      <trkpt lat="-23.223572" lon="-46.854244"><ele>770.3</ele></trkpt>
+      <trkpt lat="-23.223630" lon="-46.854219"><ele>770.3</ele></trkpt>
+      <trkpt lat="-23.223697" lon="-46.854172"><ele>770.3</ele></trkpt>
+      <trkpt lat="-23.223748" lon="-46.854107"><ele>770.3</ele></trkpt>
+      <trkpt lat="-23.223826" lon="-46.853968"><ele>773.6</ele></trkpt>
+      <trkpt lat="-23.223887" lon="-46.853860"><ele>773.6</ele></trkpt>
+      <trkpt lat="-23.223929" lon="-46.853809"><ele>773.6</ele></trkpt>
+      <trkpt lat="-23.223990" lon="-46.853775"><ele>773.6</ele></trkpt>
+      <trkpt lat="-23.224078" lon="-46.853756"><ele>776.3</ele></trkpt>
+      <trkpt lat="-23.224175" lon="-46.853771"><ele>776.3</ele></trkpt>
+      <trkpt lat="-23.224368" lon="-46.853822"><ele>775.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

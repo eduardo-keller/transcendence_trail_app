@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passarela Estação - Terminal</name>
+    <trkseg>
+      <trkpt lat="-23.448423" lon="-46.495659"><ele>734.0</ele></trkpt>
+      <trkpt lat="-23.448525" lon="-46.495354"><ele>731.1</ele></trkpt>
+      <trkpt lat="-23.448207" lon="-46.494498"><ele>731.2</ele></trkpt>
+      <trkpt lat="-23.448201" lon="-46.494483"><ele>731.2</ele></trkpt>
+      <trkpt lat="-23.448199" lon="-46.494475"><ele>731.2</ele></trkpt>
+      <trkpt lat="-23.447925" lon="-46.493669"><ele>732.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Nova Flor</name>
+    <trkseg>
+      <trkpt lat="-23.411374" lon="-46.750282"><ele>770.1</ele></trkpt>
+      <trkpt lat="-23.411399" lon="-46.750244"><ele>770.1</ele></trkpt>
+      <trkpt lat="-23.411414" lon="-46.750230"><ele>770.1</ele></trkpt>
+      <trkpt lat="-23.411428" lon="-46.750225"><ele>770.1</ele></trkpt>
+      <trkpt lat="-23.411442" lon="-46.750227"><ele>770.1</ele></trkpt>
+      <trkpt lat="-23.411479" lon="-46.750247"><ele>770.1</ele></trkpt>
+      <trkpt lat="-23.411621" lon="-46.750357"><ele>771.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

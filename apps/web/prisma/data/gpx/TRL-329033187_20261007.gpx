@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua A</name>
+    <trkseg>
+      <trkpt lat="-23.541100" lon="-46.629634"><ele>731.6</ele></trkpt>
+      <trkpt lat="-23.541180" lon="-46.629417"><ele>731.4</ele></trkpt>
+      <trkpt lat="-23.541245" lon="-46.629241"><ele>728.4</ele></trkpt>
+      <trkpt lat="-23.541336" lon="-46.628994"><ele>731.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Via de Pedestre Cipriano Rore</name>
+    <trkseg>
+      <trkpt lat="-23.744786" lon="-46.709708"><ele>756.3</ele></trkpt>
+      <trkpt lat="-23.744843" lon="-46.709692"><ele>756.3</ele></trkpt>
+      <trkpt lat="-23.744905" lon="-46.709679"><ele>754.6</ele></trkpt>
+      <trkpt lat="-23.744950" lon="-46.709685"><ele>754.6</ele></trkpt>
+      <trkpt lat="-23.745031" lon="-46.709691"><ele>754.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

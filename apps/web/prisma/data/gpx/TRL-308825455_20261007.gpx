@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Natal</name>
+    <trkseg>
+      <trkpt lat="-23.773397" lon="-46.588431"><ele>782.4</ele></trkpt>
+      <trkpt lat="-23.773518" lon="-46.588577"><ele>775.1</ele></trkpt>
+      <trkpt lat="-23.773636" lon="-46.588684"><ele>775.1</ele></trkpt>
+      <trkpt lat="-23.773747" lon="-46.588749"><ele>775.1</ele></trkpt>
+      <trkpt lat="-23.773887" lon="-46.588790"><ele>768.2</ele></trkpt>
+      <trkpt lat="-23.774064" lon="-46.588811"><ele>777.4</ele></trkpt>
+      <trkpt lat="-23.774507" lon="-46.588801"><ele>778.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

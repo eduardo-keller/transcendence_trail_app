@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Via Pedestre Amedi</name>
+    <trkseg>
+      <trkpt lat="-23.505989" lon="-46.538658"><ele>744.9</ele></trkpt>
+      <trkpt lat="-23.505978" lon="-46.538606"><ele>744.9</ele></trkpt>
+      <trkpt lat="-23.505994" lon="-46.538561"><ele>744.9</ele></trkpt>
+      <trkpt lat="-23.506111" lon="-46.538417"><ele>746.5</ele></trkpt>
+      <trkpt lat="-23.506303" lon="-46.538242"><ele>744.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

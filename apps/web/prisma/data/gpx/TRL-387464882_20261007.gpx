@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Rosa de Sharon</name>
+    <trkseg>
+      <trkpt lat="-23.660263" lon="-46.448183"><ele>770.7</ele></trkpt>
+      <trkpt lat="-23.660372" lon="-46.447845"><ele>773.7</ele></trkpt>
+      <trkpt lat="-23.660404" lon="-46.447674"><ele>773.7</ele></trkpt>
+      <trkpt lat="-23.660392" lon="-46.447375"><ele>778.3</ele></trkpt>
+      <trkpt lat="-23.660409" lon="-46.447192"><ele>781.2</ele></trkpt>
+      <trkpt lat="-23.660443" lon="-46.446955"><ele>785.8</ele></trkpt>
+      <trkpt lat="-23.660557" lon="-46.446505"><ele>793.8</ele></trkpt>
+      <trkpt lat="-23.660557" lon="-46.446505"><ele>793.8</ele></trkpt>
+      <trkpt lat="-23.660985" lon="-46.445565"><ele>813.0</ele></trkpt>
+      <trkpt lat="-23.660985" lon="-46.445565"><ele>813.0</ele></trkpt>
+      <trkpt lat="-23.661171" lon="-46.445327"><ele>821.3</ele></trkpt>
+      <trkpt lat="-23.661392" lon="-46.445192"><ele>824.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

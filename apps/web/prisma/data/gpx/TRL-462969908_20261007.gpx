@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa dos Canários</name>
+    <trkseg>
+      <trkpt lat="-23.447518" lon="-46.690828"><ele>774.1</ele></trkpt>
+      <trkpt lat="-23.447481" lon="-46.690869"><ele>774.1</ele></trkpt>
+      <trkpt lat="-23.447432" lon="-46.691109"><ele>782.9</ele></trkpt>
+      <trkpt lat="-23.447445" lon="-46.691244"><ele>782.9</ele></trkpt>
+      <trkpt lat="-23.447446" lon="-46.691254"><ele>793.1</ele></trkpt>
+      <trkpt lat="-23.447471" lon="-46.691269"><ele>793.1</ele></trkpt>
+      <trkpt lat="-23.447522" lon="-46.691301"><ele>793.1</ele></trkpt>
+      <trkpt lat="-23.447658" lon="-46.691336"><ele>789.0</ele></trkpt>
+      <trkpt lat="-23.447673" lon="-46.691326"><ele>789.0</ele></trkpt>
+      <trkpt lat="-23.447685" lon="-46.691315"><ele>789.0</ele></trkpt>
+      <trkpt lat="-23.447689" lon="-46.691229"><ele>775.8</ele></trkpt>
+      <trkpt lat="-23.447699" lon="-46.691208"><ele>775.8</ele></trkpt>
+      <trkpt lat="-23.447723" lon="-46.691154"><ele>775.8</ele></trkpt>
+      <trkpt lat="-23.447733" lon="-46.691120"><ele>775.8</ele></trkpt>
+      <trkpt lat="-23.447749" lon="-46.691047"><ele>775.8</ele></trkpt>
+      <trkpt lat="-23.447765" lon="-46.690971"><ele>771.9</ele></trkpt>
+      <trkpt lat="-23.447768" lon="-46.690960"><ele>771.9</ele></trkpt>
+      <trkpt lat="-23.447771" lon="-46.690957"><ele>771.9</ele></trkpt>
+      <trkpt lat="-23.447777" lon="-46.690956"><ele>771.9</ele></trkpt>
+    </trkseg>
+    <trkseg>
+      <trkpt lat="-23.447446" lon="-46.691658"><ele>802.3</ele></trkpt>
+      <trkpt lat="-23.447479" lon="-46.691416"><ele>793.1</ele></trkpt>
+      <trkpt lat="-23.447479" lon="-46.691399"><ele>793.1</ele></trkpt>
+      <trkpt lat="-23.447472" lon="-46.691288"><ele>793.1</ele></trkpt>
+      <trkpt lat="-23.447471" lon="-46.691269"><ele>793.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

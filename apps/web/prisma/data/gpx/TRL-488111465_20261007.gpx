@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Praça Edivaldo Alves Martins</name>
+    <trkseg>
+      <trkpt lat="-23.452310" lon="-46.738184"><ele>829.5</ele></trkpt>
+      <trkpt lat="-23.452554" lon="-46.738167"><ele>833.5</ele></trkpt>
+      <trkpt lat="-23.452618" lon="-46.738164"><ele>833.5</ele></trkpt>
+      <trkpt lat="-23.452641" lon="-46.738164"><ele>835.3</ele></trkpt>
+      <trkpt lat="-23.452668" lon="-46.738165"><ele>835.3</ele></trkpt>
+      <trkpt lat="-23.452686" lon="-46.738165"><ele>835.3</ele></trkpt>
+      <trkpt lat="-23.452701" lon="-46.738164"><ele>835.3</ele></trkpt>
+      <trkpt lat="-23.452722" lon="-46.738160"><ele>835.3</ele></trkpt>
+      <trkpt lat="-23.452743" lon="-46.738151"><ele>835.3</ele></trkpt>
+      <trkpt lat="-23.452767" lon="-46.738121"><ele>835.3</ele></trkpt>
+      <trkpt lat="-23.452784" lon="-46.738095"><ele>835.3</ele></trkpt>
+      <trkpt lat="-23.452809" lon="-46.738059"><ele>835.3</ele></trkpt>
+      <trkpt lat="-23.452728" lon="-46.738088"><ele>835.3</ele></trkpt>
+      <trkpt lat="-23.452697" lon="-46.738103"><ele>835.3</ele></trkpt>
+      <trkpt lat="-23.452695" lon="-46.738104"><ele>835.3</ele></trkpt>
+      <trkpt lat="-23.452658" lon="-46.738119"><ele>835.3</ele></trkpt>
+      <trkpt lat="-23.452609" lon="-46.738122"><ele>833.5</ele></trkpt>
+      <trkpt lat="-23.452572" lon="-46.738122"><ele>833.5</ele></trkpt>
+      <trkpt lat="-23.452528" lon="-46.738117"><ele>833.5</ele></trkpt>
+      <trkpt lat="-23.452496" lon="-46.738113"><ele>833.5</ele></trkpt>
+      <trkpt lat="-23.452423" lon="-46.738095"><ele>833.5</ele></trkpt>
+      <trkpt lat="-23.452387" lon="-46.738074"><ele>833.5</ele></trkpt>
+      <trkpt lat="-23.452342" lon="-46.738034"><ele>829.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

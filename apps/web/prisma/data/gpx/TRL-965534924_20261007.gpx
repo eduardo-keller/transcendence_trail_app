@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Francesco Martini</name>
+    <trkseg>
+      <trkpt lat="-23.649134" lon="-46.788970"><ele>797.6</ele></trkpt>
+      <trkpt lat="-23.649122" lon="-46.789017"><ele>797.6</ele></trkpt>
+      <trkpt lat="-23.649113" lon="-46.789044"><ele>795.1</ele></trkpt>
+      <trkpt lat="-23.649110" lon="-46.789066"><ele>795.1</ele></trkpt>
+      <trkpt lat="-23.649107" lon="-46.789100"><ele>795.1</ele></trkpt>
+      <trkpt lat="-23.649106" lon="-46.789128"><ele>795.1</ele></trkpt>
+      <trkpt lat="-23.649102" lon="-46.789215"><ele>795.1</ele></trkpt>
+      <trkpt lat="-23.649100" lon="-46.789283"><ele>795.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

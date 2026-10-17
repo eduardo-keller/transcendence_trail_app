@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>via acesso a CATI</name>
+    <trkseg>
+      <trkpt lat="-23.930274" lon="-47.070886"><ele>669.9</ele></trkpt>
+      <trkpt lat="-23.930415" lon="-47.070976"><ele>675.5</ele></trkpt>
+      <trkpt lat="-23.930478" lon="-47.071032"><ele>671.4</ele></trkpt>
+      <trkpt lat="-23.930548" lon="-47.071092"><ele>671.4</ele></trkpt>
+      <trkpt lat="-23.930596" lon="-47.071152"><ele>671.4</ele></trkpt>
+      <trkpt lat="-23.930573" lon="-47.071223"><ele>671.4</ele></trkpt>
+      <trkpt lat="-23.930541" lon="-47.071323"><ele>676.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

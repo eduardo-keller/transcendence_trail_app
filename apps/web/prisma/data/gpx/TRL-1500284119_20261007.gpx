@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Luis Saladin</name>
+    <trkseg>
+      <trkpt lat="-23.432174" lon="-46.753333"><ele>771.2</ele></trkpt>
+      <trkpt lat="-23.432089" lon="-46.753490"><ele>777.0</ele></trkpt>
+      <trkpt lat="-23.431807" lon="-46.753844"><ele>778.9</ele></trkpt>
+      <trkpt lat="-23.431760" lon="-46.753906"><ele>775.3</ele></trkpt>
+      <trkpt lat="-23.431749" lon="-46.753936"><ele>775.3</ele></trkpt>
+      <trkpt lat="-23.431745" lon="-46.753966"><ele>775.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

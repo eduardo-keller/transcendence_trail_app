@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Estrada da Olaria</name>
+    <trkseg>
+      <trkpt lat="-23.589635" lon="-47.046399"><ele>897.2</ele></trkpt>
+      <trkpt lat="-23.589713" lon="-47.046509"><ele>897.2</ele></trkpt>
+      <trkpt lat="-23.589935" lon="-47.046626"><ele>890.9</ele></trkpt>
+      <trkpt lat="-23.590239" lon="-47.046689"><ele>885.1</ele></trkpt>
+      <trkpt lat="-23.590345" lon="-47.046702"><ele>885.1</ele></trkpt>
+      <trkpt lat="-23.590527" lon="-47.046995"><ele>881.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Veril</name>
+    <trkseg>
+      <trkpt lat="-23.478254" lon="-46.547669"><ele>760.8</ele></trkpt>
+      <trkpt lat="-23.478254" lon="-46.547663"><ele>760.8</ele></trkpt>
+      <trkpt lat="-23.478253" lon="-46.547624"><ele>767.6</ele></trkpt>
+      <trkpt lat="-23.478252" lon="-46.547604"><ele>767.6</ele></trkpt>
+      <trkpt lat="-23.478251" lon="-46.547545"><ele>767.6</ele></trkpt>
+      <trkpt lat="-23.478249" lon="-46.547464"><ele>767.6</ele></trkpt>
+      <trkpt lat="-23.478244" lon="-46.547256"><ele>769.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

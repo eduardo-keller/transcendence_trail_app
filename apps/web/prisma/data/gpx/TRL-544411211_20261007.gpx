@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Brayan Yanarico Capcha</name>
+    <trkseg>
+      <trkpt lat="-23.549064" lon="-46.395141"><ele>762.7</ele></trkpt>
+      <trkpt lat="-23.549050" lon="-46.395042"><ele>763.1</ele></trkpt>
+      <trkpt lat="-23.549012" lon="-46.394949"><ele>765.1</ele></trkpt>
+      <trkpt lat="-23.548994" lon="-46.394824"><ele>766.8</ele></trkpt>
+      <trkpt lat="-23.548999" lon="-46.394597"><ele>766.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

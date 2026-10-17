@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Eduardo Nobre</name>
+    <trkseg>
+      <trkpt lat="-23.460499" lon="-46.602634"><ele>752.2</ele></trkpt>
+      <trkpt lat="-23.460532" lon="-46.602530"><ele>752.2</ele></trkpt>
+      <trkpt lat="-23.460547" lon="-46.602484"><ele>752.2</ele></trkpt>
+      <trkpt lat="-23.460567" lon="-46.602424"><ele>752.2</ele></trkpt>
+      <trkpt lat="-23.460749" lon="-46.601923"><ele>750.2</ele></trkpt>
+      <trkpt lat="-23.460892" lon="-46.601104"><ele>757.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

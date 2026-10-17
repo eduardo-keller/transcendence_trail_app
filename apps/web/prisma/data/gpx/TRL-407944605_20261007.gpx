@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Leonor</name>
+    <trkseg>
+      <trkpt lat="-23.592160" lon="-46.894631"><ele>771.1</ele></trkpt>
+      <trkpt lat="-23.592146" lon="-46.894362"><ele>769.4</ele></trkpt>
+      <trkpt lat="-23.592173" lon="-46.894297"><ele>770.8</ele></trkpt>
+      <trkpt lat="-23.592220" lon="-46.894232"><ele>770.8</ele></trkpt>
+      <trkpt lat="-23.592243" lon="-46.894157"><ele>770.8</ele></trkpt>
+      <trkpt lat="-23.592290" lon="-46.893991"><ele>775.0</ele></trkpt>
+      <trkpt lat="-23.592337" lon="-46.893939"><ele>775.0</ele></trkpt>
+      <trkpt lat="-23.592445" lon="-46.893894"><ele>775.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

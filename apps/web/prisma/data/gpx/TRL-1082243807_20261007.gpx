@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa do Parque do Colina</name>
+    <trkseg>
+      <trkpt lat="-23.259390" lon="-47.055519"><ele>814.3</ele></trkpt>
+      <trkpt lat="-23.259396" lon="-47.055456"><ele>814.3</ele></trkpt>
+      <trkpt lat="-23.259393" lon="-47.055418"><ele>814.3</ele></trkpt>
+      <trkpt lat="-23.259382" lon="-47.055392"><ele>809.7</ele></trkpt>
+      <trkpt lat="-23.259367" lon="-47.055380"><ele>809.7</ele></trkpt>
+      <trkpt lat="-23.259336" lon="-47.055349"><ele>809.7</ele></trkpt>
+      <trkpt lat="-23.259303" lon="-47.055285"><ele>815.9</ele></trkpt>
+      <trkpt lat="-23.259278" lon="-47.055237"><ele>815.9</ele></trkpt>
+      <trkpt lat="-23.259262" lon="-47.055191"><ele>815.9</ele></trkpt>
+      <trkpt lat="-23.259252" lon="-47.055132"><ele>811.2</ele></trkpt>
+      <trkpt lat="-23.259255" lon="-47.055053"><ele>811.2</ele></trkpt>
+      <trkpt lat="-23.259266" lon="-47.054969"><ele>811.2</ele></trkpt>
+      <trkpt lat="-23.259271" lon="-47.054902"><ele>811.2</ele></trkpt>
+      <trkpt lat="-23.259274" lon="-47.054821"><ele>810.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

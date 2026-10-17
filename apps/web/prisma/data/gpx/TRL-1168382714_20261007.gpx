@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passagem Terra</name>
+    <trkseg>
+      <trkpt lat="-23.727348" lon="-46.524742"><ele>865.7</ele></trkpt>
+      <trkpt lat="-23.727343" lon="-46.525221"><ele>849.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

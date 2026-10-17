@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Joa</name>
+    <trkseg>
+      <trkpt lat="-23.367954" lon="-46.645187"><ele>883.0</ele></trkpt>
+      <trkpt lat="-23.367852" lon="-46.645172"><ele>876.9</ele></trkpt>
+      <trkpt lat="-23.367703" lon="-46.645074"><ele>878.2</ele></trkpt>
+      <trkpt lat="-23.367611" lon="-46.644952"><ele>866.2</ele></trkpt>
+      <trkpt lat="-23.367444" lon="-46.644812"><ele>869.7</ele></trkpt>
+      <trkpt lat="-23.367320" lon="-46.644796"><ele>867.8</ele></trkpt>
+      <trkpt lat="-23.367288" lon="-46.644863"><ele>867.5</ele></trkpt>
+      <trkpt lat="-23.367279" lon="-46.644951"><ele>867.5</ele></trkpt>
+      <trkpt lat="-23.367309" lon="-46.645165"><ele>870.9</ele></trkpt>
+      <trkpt lat="-23.367370" lon="-46.645439"><ele>864.5</ele></trkpt>
+      <trkpt lat="-23.367406" lon="-46.645617"><ele>864.5</ele></trkpt>
+      <trkpt lat="-23.367489" lon="-46.645861"><ele>859.5</ele></trkpt>
+      <trkpt lat="-23.367630" lon="-46.646128"><ele>858.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

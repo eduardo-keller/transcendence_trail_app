@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela Victoria Carolina</name>
+    <trkseg>
+      <trkpt lat="-23.454136" lon="-46.677873"><ele>797.4</ele></trkpt>
+      <trkpt lat="-23.454161" lon="-46.677926"><ele>806.5</ele></trkpt>
+      <trkpt lat="-23.454218" lon="-46.678034"><ele>806.5</ele></trkpt>
+      <trkpt lat="-23.454268" lon="-46.678123"><ele>806.5</ele></trkpt>
+      <trkpt lat="-23.454321" lon="-46.678220"><ele>816.6</ele></trkpt>
+      <trkpt lat="-23.454371" lon="-46.678313"><ele>816.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

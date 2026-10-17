@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua do Calçadão</name>
+    <trkseg>
+      <trkpt lat="-24.036115" lon="-46.491501"><ele>4.4</ele></trkpt>
+      <trkpt lat="-24.036117" lon="-46.491438"><ele>4.4</ele></trkpt>
+      <trkpt lat="-24.036119" lon="-46.491370"><ele>4.4</ele></trkpt>
+      <trkpt lat="-24.036159" lon="-46.491354"><ele>4.4</ele></trkpt>
+      <trkpt lat="-24.036193" lon="-46.491345"><ele>4.4</ele></trkpt>
+      <trkpt lat="-24.036231" lon="-46.491336"><ele>4.4</ele></trkpt>
+      <trkpt lat="-24.036213" lon="-46.491266"><ele>4.4</ele></trkpt>
+      <trkpt lat="-24.036145" lon="-46.491112"><ele>2.1</ele></trkpt>
+      <trkpt lat="-24.036134" lon="-46.491091"><ele>2.1</ele></trkpt>
+      <trkpt lat="-24.036110" lon="-46.491054"><ele>2.1</ele></trkpt>
+      <trkpt lat="-24.036162" lon="-46.491032"><ele>2.1</ele></trkpt>
+      <trkpt lat="-24.035994" lon="-46.490656"><ele>0.0</ele></trkpt>
+      <trkpt lat="-24.035422" lon="-46.489383"><ele>0.0</ele></trkpt>
+      <trkpt lat="-24.035107" lon="-46.488649"><ele>3.5</ele></trkpt>
+      <trkpt lat="-24.035119" lon="-46.488617"><ele>3.5</ele></trkpt>
+      <trkpt lat="-24.035123" lon="-46.488567"><ele>3.5</ele></trkpt>
+      <trkpt lat="-24.035112" lon="-46.488527"><ele>3.5</ele></trkpt>
+      <trkpt lat="-24.035094" lon="-46.488491"><ele>3.5</ele></trkpt>
+      <trkpt lat="-24.035069" lon="-46.488465"><ele>0.0</ele></trkpt>
+      <trkpt lat="-24.035038" lon="-46.488450"><ele>0.0</ele></trkpt>
+      <trkpt lat="-24.035008" lon="-46.488439"><ele>0.0</ele></trkpt>
+      <trkpt lat="-24.034211" lon="-46.486587"><ele>4.6</ele></trkpt>
+      <trkpt lat="-24.034048" lon="-46.486520"><ele>4.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

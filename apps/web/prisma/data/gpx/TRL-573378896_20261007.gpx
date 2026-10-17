@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Mendes</name>
+    <trkseg>
+      <trkpt lat="-23.657645" lon="-46.785589"><ele>778.5</ele></trkpt>
+      <trkpt lat="-23.657691" lon="-46.785707"><ele>779.2</ele></trkpt>
+      <trkpt lat="-23.657725" lon="-46.785793"><ele>779.2</ele></trkpt>
+      <trkpt lat="-23.657762" lon="-46.785871"><ele>779.2</ele></trkpt>
+      <trkpt lat="-23.657806" lon="-46.785935"><ele>779.2</ele></trkpt>
+      <trkpt lat="-23.657841" lon="-46.786010"><ele>779.1</ele></trkpt>
+      <trkpt lat="-23.657880" lon="-46.786101"><ele>779.1</ele></trkpt>
+      <trkpt lat="-23.657903" lon="-46.786164"><ele>779.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

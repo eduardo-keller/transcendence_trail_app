@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Joaquim Cerveira Pires</name>
+    <trkseg>
+      <trkpt lat="-23.414026" lon="-46.453885"><ele>779.0</ele></trkpt>
+      <trkpt lat="-23.413878" lon="-46.453712"><ele>772.1</ele></trkpt>
+      <trkpt lat="-23.413814" lon="-46.453637"><ele>772.1</ele></trkpt>
+      <trkpt lat="-23.413790" lon="-46.453543"><ele>772.1</ele></trkpt>
+      <trkpt lat="-23.413775" lon="-46.453261"><ele>769.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

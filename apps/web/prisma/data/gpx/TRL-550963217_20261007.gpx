@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Desembargador Dalmo do Valle Nogueira</name>
+    <trkseg>
+      <trkpt lat="-23.617516" lon="-46.740287"><ele>776.6</ele></trkpt>
+      <trkpt lat="-23.617697" lon="-46.740338"><ele>783.4</ele></trkpt>
+      <trkpt lat="-23.618296" lon="-46.740270"><ele>791.1</ele></trkpt>
+      <trkpt lat="-23.618863" lon="-46.740086"><ele>800.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Antônio Cortesi</name>
+    <trkseg>
+      <trkpt lat="-23.493751" lon="-46.427756"><ele>738.7</ele></trkpt>
+      <trkpt lat="-23.493322" lon="-46.427811"><ele>740.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

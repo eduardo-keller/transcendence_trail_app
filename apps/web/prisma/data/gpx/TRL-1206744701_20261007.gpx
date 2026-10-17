@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Estrada da Hungria</name>
+    <trkseg>
+      <trkpt lat="-23.473811" lon="-46.785809"><ele>822.3</ele></trkpt>
+      <trkpt lat="-23.473386" lon="-46.785862"><ele>819.8</ele></trkpt>
+      <trkpt lat="-23.472872" lon="-46.785926"><ele>826.8</ele></trkpt>
+      <trkpt lat="-23.472395" lon="-46.785897"><ele>828.5</ele></trkpt>
+      <trkpt lat="-23.472048" lon="-46.785819"><ele>838.1</ele></trkpt>
+      <trkpt lat="-23.471795" lon="-46.786122"><ele>833.3</ele></trkpt>
+      <trkpt lat="-23.471563" lon="-46.786176"><ele>833.3</ele></trkpt>
+      <trkpt lat="-23.471403" lon="-46.786113"><ele>834.0</ele></trkpt>
+      <trkpt lat="-23.471394" lon="-46.786073"><ele>834.0</ele></trkpt>
+      <trkpt lat="-23.470931" lon="-46.785471"><ele>840.2</ele></trkpt>
+      <trkpt lat="-23.470458" lon="-46.785637"><ele>848.8</ele></trkpt>
+      <trkpt lat="-23.470143" lon="-46.785621"><ele>852.2</ele></trkpt>
+      <trkpt lat="-23.470020" lon="-46.785503"><ele>851.1</ele></trkpt>
+      <trkpt lat="-23.469617" lon="-46.785401"><ele>860.1</ele></trkpt>
+      <trkpt lat="-23.469612" lon="-46.785975"><ele>869.3</ele></trkpt>
+      <trkpt lat="-23.469927" lon="-46.786394"><ele>859.6</ele></trkpt>
+      <trkpt lat="-23.470690" lon="-46.787225"><ele>843.9</ele></trkpt>
+      <trkpt lat="-23.470591" lon="-46.788099"><ele>819.2</ele></trkpt>
+      <trkpt lat="-23.470681" lon="-46.788368"><ele>812.3</ele></trkpt>
+    </trkseg>
+    <trkseg>
+      <trkpt lat="-23.476646" lon="-46.787610"><ele>766.0</ele></trkpt>
+      <trkpt lat="-23.476393" lon="-46.787597"><ele>769.9</ele></trkpt>
+      <trkpt lat="-23.475737" lon="-46.787247"><ele>780.2</ele></trkpt>
+      <trkpt lat="-23.475666" lon="-46.787152"><ele>779.7</ele></trkpt>
+      <trkpt lat="-23.475399" lon="-46.786792"><ele>794.5</ele></trkpt>
+      <trkpt lat="-23.474929" lon="-46.786370"><ele>804.4</ele></trkpt>
+      <trkpt lat="-23.474929" lon="-46.786370"><ele>804.4</ele></trkpt>
+      <trkpt lat="-23.474527" lon="-46.786591"><ele>809.4</ele></trkpt>
+      <trkpt lat="-23.474094" lon="-46.786569"><ele>805.9</ele></trkpt>
+      <trkpt lat="-23.473386" lon="-46.785862"><ele>819.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

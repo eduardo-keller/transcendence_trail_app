@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>CPTM - Francisco Morato</name>
+    <trkseg>
+      <trkpt lat="-23.281601" lon="-46.741566"><ele>802.7</ele></trkpt>
+      <trkpt lat="-23.281732" lon="-46.741697"><ele>802.7</ele></trkpt>
+      <trkpt lat="-23.281814" lon="-46.741801"><ele>794.6</ele></trkpt>
+      <trkpt lat="-23.281849" lon="-46.741850"><ele>792.2</ele></trkpt>
+      <trkpt lat="-23.281872" lon="-46.741899"><ele>792.2</ele></trkpt>
+      <trkpt lat="-23.281908" lon="-46.742044"><ele>792.2</ele></trkpt>
+      <trkpt lat="-23.281925" lon="-46.742106"><ele>785.7</ele></trkpt>
+      <trkpt lat="-23.281940" lon="-46.742131"><ele>785.7</ele></trkpt>
+      <trkpt lat="-23.281956" lon="-46.742141"><ele>785.7</ele></trkpt>
+      <trkpt lat="-23.281981" lon="-46.742151"><ele>785.7</ele></trkpt>
+      <trkpt lat="-23.282193" lon="-46.742148"><ele>782.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

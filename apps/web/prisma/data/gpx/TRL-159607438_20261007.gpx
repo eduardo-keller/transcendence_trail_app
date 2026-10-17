@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Geango Nascimento Mavinier</name>
+    <trkseg>
+      <trkpt lat="-23.489936" lon="-46.741566"><ele>759.6</ele></trkpt>
+      <trkpt lat="-23.489429" lon="-46.742030"><ele>771.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

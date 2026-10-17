@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passeio interno</name>
+    <trkseg>
+      <trkpt lat="-23.711315" lon="-46.417763"><ele>755.5</ele></trkpt>
+      <trkpt lat="-23.711392" lon="-46.417702"><ele>755.5</ele></trkpt>
+      <trkpt lat="-23.711506" lon="-46.417612"><ele>758.6</ele></trkpt>
+      <trkpt lat="-23.711616" lon="-46.417555"><ele>755.9</ele></trkpt>
+      <trkpt lat="-23.711797" lon="-46.417487"><ele>755.9</ele></trkpt>
+      <trkpt lat="-23.711616" lon="-46.417555"><ele>755.9</ele></trkpt>
+      <trkpt lat="-23.711707" lon="-46.417809"><ele>757.0</ele></trkpt>
+      <trkpt lat="-23.711869" lon="-46.417862"><ele>762.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

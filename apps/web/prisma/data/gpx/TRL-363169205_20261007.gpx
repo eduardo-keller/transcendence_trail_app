@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Escadão da Canguira</name>
+    <trkseg>
+      <trkpt lat="-23.465944" lon="-46.667303"><ele>745.5</ele></trkpt>
+      <trkpt lat="-23.465939" lon="-46.667267"><ele>745.5</ele></trkpt>
+      <trkpt lat="-23.465976" lon="-46.667120"><ele>743.6</ele></trkpt>
+      <trkpt lat="-23.466012" lon="-46.666997"><ele>742.1</ele></trkpt>
+      <trkpt lat="-23.466024" lon="-46.666956"><ele>742.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

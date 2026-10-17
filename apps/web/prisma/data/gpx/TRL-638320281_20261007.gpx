@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Estrada Baruel</name>
+    <trkseg>
+      <trkpt lat="-23.591660" lon="-46.331197"><ele>774.5</ele></trkpt>
+      <trkpt lat="-23.591674" lon="-46.331165"><ele>774.5</ele></trkpt>
+      <trkpt lat="-23.592019" lon="-46.330357"><ele>789.2</ele></trkpt>
+      <trkpt lat="-23.592206" lon="-46.329963"><ele>792.7</ele></trkpt>
+      <trkpt lat="-23.592530" lon="-46.329460"><ele>791.1</ele></trkpt>
+      <trkpt lat="-23.592670" lon="-46.329277"><ele>791.0</ele></trkpt>
+      <trkpt lat="-23.592783" lon="-46.329173"><ele>791.0</ele></trkpt>
+      <trkpt lat="-23.592900" lon="-46.329102"><ele>791.0</ele></trkpt>
+      <trkpt lat="-23.593142" lon="-46.328973"><ele>789.8</ele></trkpt>
+      <trkpt lat="-23.593573" lon="-46.328761"><ele>789.1</ele></trkpt>
+      <trkpt lat="-23.594147" lon="-46.328442"><ele>787.4</ele></trkpt>
+      <trkpt lat="-23.594560" lon="-46.328195"><ele>787.2</ele></trkpt>
+      <trkpt lat="-23.594755" lon="-46.328108"><ele>783.5</ele></trkpt>
+      <trkpt lat="-23.595976" lon="-46.327683"><ele>788.4</ele></trkpt>
+      <trkpt lat="-23.596196" lon="-46.327589"><ele>785.5</ele></trkpt>
+      <trkpt lat="-23.596330" lon="-46.327518"><ele>788.4</ele></trkpt>
+      <trkpt lat="-23.596442" lon="-46.327464"><ele>788.4</ele></trkpt>
+      <trkpt lat="-23.596955" lon="-46.327263"><ele>788.4</ele></trkpt>
+      <trkpt lat="-23.597166" lon="-46.327180"><ele>790.3</ele></trkpt>
+      <trkpt lat="-23.597251" lon="-46.327138"><ele>790.3</ele></trkpt>
+      <trkpt lat="-23.597324" lon="-46.327086"><ele>790.3</ele></trkpt>
+      <trkpt lat="-23.597640" lon="-46.326844"><ele>787.7</ele></trkpt>
+      <trkpt lat="-23.597865" lon="-46.326705"><ele>783.3</ele></trkpt>
+      <trkpt lat="-23.598021" lon="-46.326620"><ele>787.0</ele></trkpt>
+      <trkpt lat="-23.598084" lon="-46.326602"><ele>787.0</ele></trkpt>
+      <trkpt lat="-23.598137" lon="-46.326602"><ele>787.0</ele></trkpt>
+      <trkpt lat="-23.598195" lon="-46.326618"><ele>785.0</ele></trkpt>
+      <trkpt lat="-23.598419" lon="-46.326705"><ele>785.0</ele></trkpt>
+      <trkpt lat="-23.598479" lon="-46.326715"><ele>788.6</ele></trkpt>
+      <trkpt lat="-23.598531" lon="-46.326710"><ele>788.6</ele></trkpt>
+      <trkpt lat="-23.598606" lon="-46.326686"><ele>788.6</ele></trkpt>
+      <trkpt lat="-23.599006" lon="-46.326503"><ele>787.6</ele></trkpt>
+      <trkpt lat="-23.599250" lon="-46.326386"><ele>791.0</ele></trkpt>
+      <trkpt lat="-23.599533" lon="-46.326279"><ele>794.8</ele></trkpt>
+      <trkpt lat="-23.599823" lon="-46.326194"><ele>792.9</ele></trkpt>
+      <trkpt lat="-23.600040" lon="-46.326115"><ele>793.9</ele></trkpt>
+      <trkpt lat="-23.600196" lon="-46.326076"><ele>801.4</ele></trkpt>
+      <trkpt lat="-23.600326" lon="-46.326051"><ele>801.4</ele></trkpt>
+      <trkpt lat="-23.600426" lon="-46.326036"><ele>807.7</ele></trkpt>
+      <trkpt lat="-23.600569" lon="-46.326039"><ele>807.7</ele></trkpt>
+      <trkpt lat="-23.600772" lon="-46.326057"><ele>809.5</ele></trkpt>
+      <trkpt lat="-23.601159" lon="-46.326090"><ele>806.7</ele></trkpt>
+      <trkpt lat="-23.601236" lon="-46.326100"><ele>806.7</ele></trkpt>
+      <trkpt lat="-23.601306" lon="-46.326109"><ele>808.1</ele></trkpt>
+      <trkpt lat="-23.601384" lon="-46.326108"><ele>808.1</ele></trkpt>
+      <trkpt lat="-23.602536" lon="-46.325929"><ele>799.6</ele></trkpt>
+      <trkpt lat="-23.602677" lon="-46.325892"><ele>799.1</ele></trkpt>
+      <trkpt lat="-23.602769" lon="-46.325849"><ele>799.1</ele></trkpt>
+      <trkpt lat="-23.602853" lon="-46.325813"><ele>799.1</ele></trkpt>
+      <trkpt lat="-23.602937" lon="-46.325774"><ele>798.4</ele></trkpt>
+      <trkpt lat="-23.602976" lon="-46.325761"><ele>798.4</ele></trkpt>
+      <trkpt lat="-23.603030" lon="-46.325753"><ele>798.4</ele></trkpt>
+      <trkpt lat="-23.603110" lon="-46.325753"><ele>798.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Francisco Thomaz Carbonelli</name>
+    <trkseg>
+      <trkpt lat="-23.470409" lon="-46.597271"><ele>753.6</ele></trkpt>
+      <trkpt lat="-23.470420" lon="-46.597252"><ele>760.9</ele></trkpt>
+      <trkpt lat="-23.470491" lon="-46.597134"><ele>760.9</ele></trkpt>
+      <trkpt lat="-23.470528" lon="-46.597077"><ele>765.7</ele></trkpt>
+      <trkpt lat="-23.470531" lon="-46.597071"><ele>765.7</ele></trkpt>
+      <trkpt lat="-23.470561" lon="-46.597048"><ele>765.7</ele></trkpt>
+      <trkpt lat="-23.470568" lon="-46.597044"><ele>765.7</ele></trkpt>
+      <trkpt lat="-23.470587" lon="-46.596978"><ele>765.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

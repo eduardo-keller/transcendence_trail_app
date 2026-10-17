@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua das Meninas</name>
+    <trkseg>
+      <trkpt lat="-23.481237" lon="-46.678461"><ele>734.7</ele></trkpt>
+      <trkpt lat="-23.481217" lon="-46.678360"><ele>734.7</ele></trkpt>
+      <trkpt lat="-23.481209" lon="-46.678270"><ele>734.7</ele></trkpt>
+      <trkpt lat="-23.481220" lon="-46.678206"><ele>734.7</ele></trkpt>
+      <trkpt lat="-23.481369" lon="-46.677625"><ele>730.7</ele></trkpt>
+      <trkpt lat="-23.481365" lon="-46.677591"><ele>730.7</ele></trkpt>
+      <trkpt lat="-23.481346" lon="-46.677565"><ele>730.7</ele></trkpt>
+      <trkpt lat="-23.481041" lon="-46.677417"><ele>732.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

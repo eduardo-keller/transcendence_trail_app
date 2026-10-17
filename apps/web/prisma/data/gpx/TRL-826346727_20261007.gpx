@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Praça Júlio Mesquita</name>
+    <trkseg>
+      <trkpt lat="-23.053731" lon="-46.360107"><ele>831.8</ele></trkpt>
+      <trkpt lat="-23.053736" lon="-46.359700"><ele>831.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

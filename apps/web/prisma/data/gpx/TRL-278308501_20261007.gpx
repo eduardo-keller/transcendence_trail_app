@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Bresser</name>
+    <trkseg>
+      <trkpt lat="-23.549133" lon="-46.602182"><ele>743.0</ele></trkpt>
+      <trkpt lat="-23.549127" lon="-46.602155"><ele>743.0</ele></trkpt>
+      <trkpt lat="-23.549128" lon="-46.602145"><ele>743.0</ele></trkpt>
+      <trkpt lat="-23.549142" lon="-46.602129"><ele>743.0</ele></trkpt>
+      <trkpt lat="-23.550196" lon="-46.601254"><ele>742.0</ele></trkpt>
+      <trkpt lat="-23.550478" lon="-46.601017"><ele>741.5</ele></trkpt>
+      <trkpt lat="-23.550525" lon="-46.600988"><ele>741.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

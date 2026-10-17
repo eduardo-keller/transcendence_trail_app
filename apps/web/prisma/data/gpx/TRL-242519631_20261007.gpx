@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Francisco Mairink</name>
+    <trkseg>
+      <trkpt lat="-23.508508" lon="-46.498381"><ele>760.0</ele></trkpt>
+      <trkpt lat="-23.508508" lon="-46.498329"><ele>760.0</ele></trkpt>
+      <trkpt lat="-23.508514" lon="-46.498297"><ele>760.0</ele></trkpt>
+      <trkpt lat="-23.508522" lon="-46.498280"><ele>760.0</ele></trkpt>
+      <trkpt lat="-23.508538" lon="-46.498264"><ele>760.0</ele></trkpt>
+      <trkpt lat="-23.508553" lon="-46.498252"><ele>760.0</ele></trkpt>
+      <trkpt lat="-23.508588" lon="-46.498235"><ele>760.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

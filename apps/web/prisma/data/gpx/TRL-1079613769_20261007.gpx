@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua João Ramalho</name>
+    <trkseg>
+      <trkpt lat="-23.536489" lon="-46.672118"><ele>770.3</ele></trkpt>
+      <trkpt lat="-23.536481" lon="-46.672052"><ele>777.2</ele></trkpt>
+      <trkpt lat="-23.536599" lon="-46.671873"><ele>777.0</ele></trkpt>
+      <trkpt lat="-23.536662" lon="-46.671861"><ele>777.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

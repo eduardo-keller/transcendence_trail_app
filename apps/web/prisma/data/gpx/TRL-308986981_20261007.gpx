@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Estrada 2306</name>
+    <trkseg>
+      <trkpt lat="-23.796113" lon="-46.587886"><ele>759.1</ele></trkpt>
+      <trkpt lat="-23.796054" lon="-46.588219"><ele>758.6</ele></trkpt>
+      <trkpt lat="-23.795828" lon="-46.589141"><ele>765.7</ele></trkpt>
+      <trkpt lat="-23.795779" lon="-46.589474"><ele>763.8</ele></trkpt>
+      <trkpt lat="-23.795858" lon="-46.589624"><ele>764.5</ele></trkpt>
+      <trkpt lat="-23.795931" lon="-46.589710"><ele>764.5</ele></trkpt>
+      <trkpt lat="-23.796015" lon="-46.589764"><ele>765.8</ele></trkpt>
+      <trkpt lat="-23.796221" lon="-46.589774"><ele>765.8</ele></trkpt>
+      <trkpt lat="-23.796466" lon="-46.589689"><ele>762.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

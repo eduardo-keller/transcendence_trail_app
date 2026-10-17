@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Pavão</name>
+    <trkseg>
+      <trkpt lat="-23.658457" lon="-46.617280"><ele>811.4</ele></trkpt>
+      <trkpt lat="-23.658454" lon="-46.617338"><ele>811.4</ele></trkpt>
+      <trkpt lat="-23.658432" lon="-46.617783"><ele>808.4</ele></trkpt>
+      <trkpt lat="-23.658580" lon="-46.617769"><ele>806.7</ele></trkpt>
+      <trkpt lat="-23.658628" lon="-46.617295"><ele>809.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

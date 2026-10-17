@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua General Tavares da Silva</name>
+    <trkseg>
+      <trkpt lat="-23.454810" lon="-46.599505"><ele>769.7</ele></trkpt>
+      <trkpt lat="-23.454822" lon="-46.599451"><ele>769.7</ele></trkpt>
+      <trkpt lat="-23.454915" lon="-46.599336"><ele>774.2</ele></trkpt>
+      <trkpt lat="-23.454983" lon="-46.599229"><ele>774.7</ele></trkpt>
+      <trkpt lat="-23.455035" lon="-46.599151"><ele>774.7</ele></trkpt>
+      <trkpt lat="-23.455088" lon="-46.599076"><ele>774.7</ele></trkpt>
+      <trkpt lat="-23.455135" lon="-46.599015"><ele>780.0</ele></trkpt>
+      <trkpt lat="-23.455225" lon="-46.598935"><ele>786.7</ele></trkpt>
+      <trkpt lat="-23.455301" lon="-46.598880"><ele>786.7</ele></trkpt>
+      <trkpt lat="-23.455423" lon="-46.598806"><ele>783.9</ele></trkpt>
+      <trkpt lat="-23.455834" lon="-46.598589"><ele>783.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

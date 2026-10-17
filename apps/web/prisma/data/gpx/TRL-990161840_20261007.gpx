@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Dourado</name>
+    <trkseg>
+      <trkpt lat="-23.842950" lon="-47.085120"><ele>703.9</ele></trkpt>
+      <trkpt lat="-23.842815" lon="-47.085540"><ele>690.4</ele></trkpt>
+      <trkpt lat="-23.842735" lon="-47.085881"><ele>697.2</ele></trkpt>
+      <trkpt lat="-23.842731" lon="-47.085899"><ele>697.2</ele></trkpt>
+      <trkpt lat="-23.842959" lon="-47.086342"><ele>706.5</ele></trkpt>
+      <trkpt lat="-23.843186" lon="-47.086486"><ele>706.5</ele></trkpt>
+      <trkpt lat="-23.843486" lon="-47.086469"><ele>705.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

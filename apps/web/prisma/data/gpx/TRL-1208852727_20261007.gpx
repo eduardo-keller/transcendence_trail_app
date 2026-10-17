@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua 31</name>
+    <trkseg>
+      <trkpt lat="-23.549810" lon="-46.656705"><ele>799.9</ele></trkpt>
+      <trkpt lat="-23.549639" lon="-46.656823"><ele>799.4</ele></trkpt>
+      <trkpt lat="-23.549477" lon="-46.656935"><ele>799.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

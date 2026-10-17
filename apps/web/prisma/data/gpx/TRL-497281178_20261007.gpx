@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Via de Pedestre Praia do Forte</name>
+    <trkseg>
+      <trkpt lat="-23.479742" lon="-46.572329"><ele>741.0</ele></trkpt>
+      <trkpt lat="-23.479763" lon="-46.572373"><ele>740.0</ele></trkpt>
+      <trkpt lat="-23.479944" lon="-46.572752"><ele>739.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

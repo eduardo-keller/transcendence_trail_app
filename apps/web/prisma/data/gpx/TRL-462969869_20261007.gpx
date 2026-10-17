@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Beija Flor</name>
+    <trkseg>
+      <trkpt lat="-23.449549" lon="-46.690855"><ele>756.8</ele></trkpt>
+      <trkpt lat="-23.449510" lon="-46.690890"><ele>756.8</ele></trkpt>
+      <trkpt lat="-23.449470" lon="-46.690889"><ele>756.8</ele></trkpt>
+      <trkpt lat="-23.449449" lon="-46.690888"><ele>756.8</ele></trkpt>
+      <trkpt lat="-23.449326" lon="-46.690870"><ele>756.8</ele></trkpt>
+      <trkpt lat="-23.449313" lon="-46.690875"><ele>756.8</ele></trkpt>
+      <trkpt lat="-23.449288" lon="-46.690897"><ele>760.4</ele></trkpt>
+      <trkpt lat="-23.449270" lon="-46.690968"><ele>760.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

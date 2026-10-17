@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Caminho de Terra</name>
+    <trkseg>
+      <trkpt lat="-23.280577" lon="-47.057838"><ele>817.8</ele></trkpt>
+      <trkpt lat="-23.280550" lon="-47.057744"><ele>817.8</ele></trkpt>
+      <trkpt lat="-23.280538" lon="-47.057651"><ele>817.8</ele></trkpt>
+      <trkpt lat="-23.280534" lon="-47.057547"><ele>822.2</ele></trkpt>
+      <trkpt lat="-23.280536" lon="-47.057350"><ele>826.7</ele></trkpt>
+      <trkpt lat="-23.280536" lon="-47.057038"><ele>830.6</ele></trkpt>
+      <trkpt lat="-23.280511" lon="-47.056547"><ele>834.2</ele></trkpt>
+      <trkpt lat="-23.280491" lon="-47.056453"><ele>836.0</ele></trkpt>
+      <trkpt lat="-23.280442" lon="-47.056338"><ele>836.0</ele></trkpt>
+      <trkpt lat="-23.280410" lon="-47.056239"><ele>838.8</ele></trkpt>
+      <trkpt lat="-23.280387" lon="-47.056140"><ele>838.8</ele></trkpt>
+      <trkpt lat="-23.280387" lon="-47.056049"><ele>838.8</ele></trkpt>
+      <trkpt lat="-23.280413" lon="-47.055934"><ele>842.1</ele></trkpt>
+      <trkpt lat="-23.280424" lon="-47.055845"><ele>842.2</ele></trkpt>
+      <trkpt lat="-23.280427" lon="-47.055722"><ele>842.2</ele></trkpt>
+      <trkpt lat="-23.280425" lon="-47.055652"><ele>844.8</ele></trkpt>
+      <trkpt lat="-23.280399" lon="-47.055572"><ele>844.6</ele></trkpt>
+      <trkpt lat="-23.280338" lon="-47.055491"><ele>844.6</ele></trkpt>
+      <trkpt lat="-23.280234" lon="-47.055358"><ele>846.5</ele></trkpt>
+      <trkpt lat="-23.280151" lon="-47.055243"><ele>846.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

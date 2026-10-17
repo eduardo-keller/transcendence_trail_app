@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Piapara</name>
+    <trkseg>
+      <trkpt lat="-23.449929" lon="-46.681689"><ele>751.5</ele></trkpt>
+      <trkpt lat="-23.449921" lon="-46.681827"><ele>749.8</ele></trkpt>
+      <trkpt lat="-23.449886" lon="-46.681911"><ele>749.8</ele></trkpt>
+      <trkpt lat="-23.449857" lon="-46.682126"><ele>759.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

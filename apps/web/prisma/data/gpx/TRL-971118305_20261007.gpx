@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Cairo</name>
+    <trkseg>
+      <trkpt lat="-23.268182" lon="-46.741364"><ele>853.0</ele></trkpt>
+      <trkpt lat="-23.268384" lon="-46.741310"><ele>860.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

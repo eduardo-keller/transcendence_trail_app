@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela E</name>
+    <trkseg>
+      <trkpt lat="-23.596232" lon="-46.844542"><ele>824.3</ele></trkpt>
+      <trkpt lat="-23.596104" lon="-46.845578"><ele>809.8</ele></trkpt>
+      <trkpt lat="-23.596089" lon="-46.845866"><ele>806.0</ele></trkpt>
+      <trkpt lat="-23.596203" lon="-46.846183"><ele>802.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Jaboatao</name>
+    <trkseg>
+      <trkpt lat="-23.660205" lon="-46.756917"><ele>766.3</ele></trkpt>
+      <trkpt lat="-23.660458" lon="-46.756494"><ele>774.3</ele></trkpt>
+      <trkpt lat="-23.660477" lon="-46.756400"><ele>774.3</ele></trkpt>
+      <trkpt lat="-23.660496" lon="-46.756121"><ele>779.2</ele></trkpt>
+      <trkpt lat="-23.660749" lon="-46.755982"><ele>775.6</ele></trkpt>
+      <trkpt lat="-23.660818" lon="-46.755896"><ele>782.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

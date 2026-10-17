@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Avenida Juracy Teixeira</name>
+    <trkseg>
+      <trkpt lat="-23.443352" lon="-46.931303"><ele>708.7</ele></trkpt>
+      <trkpt lat="-23.443847" lon="-46.931365"><ele>715.9</ele></trkpt>
+      <trkpt lat="-23.444086" lon="-46.931475"><ele>722.9</ele></trkpt>
+      <trkpt lat="-23.444297" lon="-46.931732"><ele>730.4</ele></trkpt>
+      <trkpt lat="-23.444591" lon="-46.932336"><ele>748.6</ele></trkpt>
+      <trkpt lat="-23.444641" lon="-46.932443"><ele>752.7</ele></trkpt>
+      <trkpt lat="-23.445870" lon="-46.932387"><ele>762.3</ele></trkpt>
+      <trkpt lat="-23.446972" lon="-46.932409"><ele>750.5</ele></trkpt>
+      <trkpt lat="-23.447167" lon="-46.932404"><ele>751.8</ele></trkpt>
+      <trkpt lat="-23.447259" lon="-46.932394"><ele>751.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passagem Dinho</name>
+    <trkseg>
+      <trkpt lat="-23.692320" lon="-46.596502"><ele>802.7</ele></trkpt>
+      <trkpt lat="-23.691966" lon="-46.596187"><ele>791.3</ele></trkpt>
+      <trkpt lat="-23.691882" lon="-46.596037"><ele>791.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

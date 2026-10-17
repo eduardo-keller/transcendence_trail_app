@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Barão Diniz de Samuel</name>
+    <trkseg>
+      <trkpt lat="-23.585510" lon="-46.410308"><ele>783.8</ele></trkpt>
+      <trkpt lat="-23.585081" lon="-46.410114"><ele>785.1</ele></trkpt>
+      <trkpt lat="-23.585017" lon="-46.410090"><ele>785.1</ele></trkpt>
+      <trkpt lat="-23.584951" lon="-46.410084"><ele>785.1</ele></trkpt>
+      <trkpt lat="-23.584893" lon="-46.410098"><ele>785.1</ele></trkpt>
+      <trkpt lat="-23.584893" lon="-46.410098"><ele>785.1</ele></trkpt>
+      <trkpt lat="-23.584967" lon="-46.410053"><ele>785.1</ele></trkpt>
+      <trkpt lat="-23.585034" lon="-46.410058"><ele>785.1</ele></trkpt>
+      <trkpt lat="-23.585075" lon="-46.410039"><ele>785.1</ele></trkpt>
+      <trkpt lat="-23.585093" lon="-46.409996"><ele>785.1</ele></trkpt>
+      <trkpt lat="-23.585120" lon="-46.409937"><ele>785.1</ele></trkpt>
+      <trkpt lat="-23.585120" lon="-46.409937"><ele>785.1</ele></trkpt>
+      <trkpt lat="-23.585149" lon="-46.409868"><ele>783.5</ele></trkpt>
+      <trkpt lat="-23.585149" lon="-46.409868"><ele>783.5</ele></trkpt>
+      <trkpt lat="-23.585203" lon="-46.409795"><ele>784.8</ele></trkpt>
+      <trkpt lat="-23.585250" lon="-46.409787"><ele>784.8</ele></trkpt>
+      <trkpt lat="-23.585326" lon="-46.409787"><ele>784.8</ele></trkpt>
+      <trkpt lat="-23.585383" lon="-46.409766"><ele>784.8</ele></trkpt>
+      <trkpt lat="-23.585415" lon="-46.409728"><ele>784.8</ele></trkpt>
+      <trkpt lat="-23.585479" lon="-46.409648"><ele>785.0</ele></trkpt>
+      <trkpt lat="-23.585611" lon="-46.409457"><ele>784.2</ele></trkpt>
+      <trkpt lat="-23.585638" lon="-46.409412"><ele>784.2</ele></trkpt>
+      <trkpt lat="-23.585641" lon="-46.409353"><ele>784.2</ele></trkpt>
+      <trkpt lat="-23.585641" lon="-46.409321"><ele>784.2</ele></trkpt>
+      <trkpt lat="-23.585651" lon="-46.409278"><ele>784.9</ele></trkpt>
+      <trkpt lat="-23.585671" lon="-46.409214"><ele>784.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

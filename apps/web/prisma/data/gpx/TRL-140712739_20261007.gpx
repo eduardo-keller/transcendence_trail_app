@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Aroeira</name>
+    <trkseg>
+      <trkpt lat="-23.369117" lon="-46.645035"><ele>910.8</ele></trkpt>
+      <trkpt lat="-23.369086" lon="-46.645160"><ele>907.4</ele></trkpt>
+      <trkpt lat="-23.369076" lon="-46.645390"><ele>907.4</ele></trkpt>
+      <trkpt lat="-23.369067" lon="-46.645578"><ele>904.0</ele></trkpt>
+      <trkpt lat="-23.369032" lon="-46.645718"><ele>896.1</ele></trkpt>
+      <trkpt lat="-23.369017" lon="-46.645820"><ele>896.8</ele></trkpt>
+      <trkpt lat="-23.368719" lon="-46.645772"><ele>891.7</ele></trkpt>
+      <trkpt lat="-23.368473" lon="-46.645665"><ele>897.3</ele></trkpt>
+      <trkpt lat="-23.368345" lon="-46.645553"><ele>888.7</ele></trkpt>
+      <trkpt lat="-23.368103" lon="-46.645359"><ele>883.0</ele></trkpt>
+      <trkpt lat="-23.367954" lon="-46.645187"><ele>883.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

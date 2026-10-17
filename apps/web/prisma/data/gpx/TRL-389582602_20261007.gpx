@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passarela Ruy Galvão Terra</name>
+    <trkseg>
+      <trkpt lat="-23.509470" lon="-46.910547"><ele>754.2</ele></trkpt>
+      <trkpt lat="-23.509577" lon="-46.910319"><ele>753.2</ele></trkpt>
+      <trkpt lat="-23.509642" lon="-46.910288"><ele>752.3</ele></trkpt>
+      <trkpt lat="-23.509583" lon="-46.910084"><ele>753.1</ele></trkpt>
+      <trkpt lat="-23.509612" lon="-46.910073"><ele>750.9</ele></trkpt>
+      <trkpt lat="-23.509673" lon="-46.910286"><ele>752.3</ele></trkpt>
+      <trkpt lat="-23.510130" lon="-46.910163"><ele>753.2</ele></trkpt>
+      <trkpt lat="-23.510036" lon="-46.909832"><ele>752.0</ele></trkpt>
+      <trkpt lat="-23.510063" lon="-46.909824"><ele>752.0</ele></trkpt>
+      <trkpt lat="-23.510230" lon="-46.910433"><ele>749.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

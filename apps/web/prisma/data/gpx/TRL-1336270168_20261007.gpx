@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Praça Maria Tudor</name>
+    <trkseg>
+      <trkpt lat="-23.682705" lon="-46.568574"><ele>798.2</ele></trkpt>
+      <trkpt lat="-23.682612" lon="-46.568557"><ele>798.9</ele></trkpt>
+      <trkpt lat="-23.682555" lon="-46.568543"><ele>798.9</ele></trkpt>
+      <trkpt lat="-23.682543" lon="-46.568539"><ele>798.9</ele></trkpt>
+      <trkpt lat="-23.682487" lon="-46.568522"><ele>798.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

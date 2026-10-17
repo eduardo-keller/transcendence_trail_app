@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passarela Francisco Alves Duca</name>
+    <trkseg>
+      <trkpt lat="-23.537992" lon="-46.911863"><ele>795.6</ele></trkpt>
+      <trkpt lat="-23.538059" lon="-46.911223"><ele>798.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Nova do Núcleo Cama Patente</name>
+    <trkseg>
+      <trkpt lat="-23.740696" lon="-46.596395"><ele>755.6</ele></trkpt>
+      <trkpt lat="-23.740738" lon="-46.596374"><ele>755.6</ele></trkpt>
+      <trkpt lat="-23.740785" lon="-46.596348"><ele>755.6</ele></trkpt>
+      <trkpt lat="-23.740827" lon="-46.596317"><ele>755.6</ele></trkpt>
+      <trkpt lat="-23.740913" lon="-46.596237"><ele>756.1</ele></trkpt>
+      <trkpt lat="-23.741004" lon="-46.596128"><ele>755.4</ele></trkpt>
+      <trkpt lat="-23.741070" lon="-46.596031"><ele>755.4</ele></trkpt>
+      <trkpt lat="-23.741109" lon="-46.595968"><ele>755.8</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

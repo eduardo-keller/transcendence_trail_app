@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Largo Treze de Maio</name>
+    <trkseg>
+      <trkpt lat="-23.654061" lon="-46.706741"><ele>754.4</ele></trkpt>
+      <trkpt lat="-23.654081" lon="-46.706426"><ele>754.6</ele></trkpt>
+      <trkpt lat="-23.653945" lon="-46.706183"><ele>757.5</ele></trkpt>
+      <trkpt lat="-23.653852" lon="-46.706025"><ele>757.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

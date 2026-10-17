@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Parque Linear Invernada</name>
+    <trkseg>
+      <trkpt lat="-23.623510" lon="-46.665858"><ele>763.0</ele></trkpt>
+      <trkpt lat="-23.624490" lon="-46.664978"><ele>768.6</ele></trkpt>
+      <trkpt lat="-23.624632" lon="-46.664953"><ele>768.9</ele></trkpt>
+      <trkpt lat="-23.624655" lon="-46.664860"><ele>768.4</ele></trkpt>
+      <trkpt lat="-23.624731" lon="-46.664788"><ele>768.4</ele></trkpt>
+      <trkpt lat="-23.624731" lon="-46.664788"><ele>768.4</ele></trkpt>
+      <trkpt lat="-23.625053" lon="-46.664483"><ele>768.2</ele></trkpt>
+      <trkpt lat="-23.625053" lon="-46.664483"><ele>768.2</ele></trkpt>
+      <trkpt lat="-23.625489" lon="-46.664070"><ele>768.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

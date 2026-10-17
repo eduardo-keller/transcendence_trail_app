@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Trilha para Ruína da Comunidade</name>
+    <trkseg>
+      <trkpt lat="-23.767302" lon="-46.288684"><ele>875.9</ele></trkpt>
+      <trkpt lat="-23.767369" lon="-46.287975"><ele>882.7</ele></trkpt>
+      <trkpt lat="-23.767677" lon="-46.287508"><ele>892.3</ele></trkpt>
+      <trkpt lat="-23.768139" lon="-46.287060"><ele>899.8</ele></trkpt>
+      <trkpt lat="-23.768532" lon="-46.286444"><ele>905.8</ele></trkpt>
+      <trkpt lat="-23.768857" lon="-46.285883"><ele>914.9</ele></trkpt>
+      <trkpt lat="-23.769130" lon="-46.285248"><ele>924.2</ele></trkpt>
+      <trkpt lat="-23.769404" lon="-46.284725"><ele>935.6</ele></trkpt>
+      <trkpt lat="-23.769694" lon="-46.284109"><ele>938.8</ele></trkpt>
+      <trkpt lat="-23.769335" lon="-46.283287"><ele>954.3</ele></trkpt>
+      <trkpt lat="-23.768805" lon="-46.282633"><ele>975.5</ele></trkpt>
+      <trkpt lat="-23.768310" lon="-46.282147"><ele>992.9</ele></trkpt>
+      <trkpt lat="-23.768087" lon="-46.281960"><ele>996.6</ele></trkpt>
+      <trkpt lat="-23.767660" lon="-46.281774"><ele>994.7</ele></trkpt>
+      <trkpt lat="-23.768446" lon="-46.281605"><ele>1004.6</ele></trkpt>
+      <trkpt lat="-23.768053" lon="-46.281026"><ele>1018.0</ele></trkpt>
+      <trkpt lat="-23.769010" lon="-46.281288"><ele>1028.0</ele></trkpt>
+      <trkpt lat="-23.768498" lon="-46.280634"><ele>1055.0</ele></trkpt>
+      <trkpt lat="-23.768942" lon="-46.280167"><ele>1073.8</ele></trkpt>
+      <trkpt lat="-23.769147" lon="-46.279663"><ele>1100.1</ele></trkpt>
+      <trkpt lat="-23.769472" lon="-46.279177"><ele>1115.6</ele></trkpt>
+      <trkpt lat="-23.769711" lon="-46.278673"><ele>1128.3</ele></trkpt>
+      <trkpt lat="-23.770437" lon="-46.278377"><ele>1137.9</ele></trkpt>
+      <trkpt lat="-23.770036" lon="-46.278131"><ele>1124.1</ele></trkpt>
+      <trkpt lat="-23.769814" lon="-46.277739"><ele>1113.0</ele></trkpt>
+      <trkpt lat="-23.769609" lon="-46.277272"><ele>1105.8</ele></trkpt>
+      <trkpt lat="-23.769369" lon="-46.276674"><ele>1102.2</ele></trkpt>
+      <trkpt lat="-23.769147" lon="-46.276431"><ele>1094.8</ele></trkpt>
+      <trkpt lat="-23.768891" lon="-46.276114"><ele>1085.7</ele></trkpt>
+      <trkpt lat="-23.768651" lon="-46.275777"><ele>1073.8</ele></trkpt>
+      <trkpt lat="-23.768429" lon="-46.275516"><ele>1061.1</ele></trkpt>
+      <trkpt lat="-23.768275" lon="-46.275011"><ele>1050.0</ele></trkpt>
+      <trkpt lat="-23.768275" lon="-46.274582"><ele>1033.3</ele></trkpt>
+      <trkpt lat="-23.768223" lon="-46.274253"><ele>1025.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

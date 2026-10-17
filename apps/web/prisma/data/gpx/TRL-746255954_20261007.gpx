@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Caminho Paraíba</name>
+    <trkseg>
+      <trkpt lat="-23.901194" lon="-46.453811"><ele>4.4</ele></trkpt>
+      <trkpt lat="-23.901508" lon="-46.453547"><ele>4.4</ele></trkpt>
+      <trkpt lat="-23.901969" lon="-46.453201"><ele>2.5</ele></trkpt>
+      <trkpt lat="-23.902282" lon="-46.452964"><ele>2.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

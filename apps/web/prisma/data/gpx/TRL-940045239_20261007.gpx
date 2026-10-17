@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Avenida Benedito Ferreira Silva</name>
+    <trkseg>
+      <trkpt lat="-23.697219" lon="-46.701579"><ele>786.0</ele></trkpt>
+      <trkpt lat="-23.697212" lon="-46.701544"><ele>786.0</ele></trkpt>
+      <trkpt lat="-23.697208" lon="-46.701509"><ele>784.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

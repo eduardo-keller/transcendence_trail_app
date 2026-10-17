@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Acesso à Estrada do Governo</name>
+    <trkseg>
+      <trkpt lat="-23.416943" lon="-46.699233"><ele>1190.8</ele></trkpt>
+      <trkpt lat="-23.417937" lon="-46.699587"><ele>1166.1</ele></trkpt>
+      <trkpt lat="-23.418035" lon="-46.700027"><ele>1161.8</ele></trkpt>
+      <trkpt lat="-23.418902" lon="-46.700209"><ele>1142.6</ele></trkpt>
+      <trkpt lat="-23.419177" lon="-46.700692"><ele>1135.0</ele></trkpt>
+      <trkpt lat="-23.419827" lon="-46.701266"><ele>1117.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Marabá</name>
+    <trkseg>
+      <trkpt lat="-23.648486" lon="-46.808543"><ele>823.2</ele></trkpt>
+      <trkpt lat="-23.648414" lon="-46.808503"><ele>821.4</ele></trkpt>
+      <trkpt lat="-23.648409" lon="-46.808498"><ele>821.4</ele></trkpt>
+      <trkpt lat="-23.648174" lon="-46.808205"><ele>819.7</ele></trkpt>
+      <trkpt lat="-23.648150" lon="-46.808175"><ele>813.9</ele></trkpt>
+      <trkpt lat="-23.648073" lon="-46.808105"><ele>813.9</ele></trkpt>
+      <trkpt lat="-23.647894" lon="-46.808077"><ele>807.1</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

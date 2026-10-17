@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Dois</name>
+    <trkseg>
+      <trkpt lat="-23.542319" lon="-46.629426"><ele>735.2</ele></trkpt>
+      <trkpt lat="-23.542259" lon="-46.629399"><ele>735.2</ele></trkpt>
+      <trkpt lat="-23.542202" lon="-46.629375"><ele>735.2</ele></trkpt>
+      <trkpt lat="-23.542147" lon="-46.629350"><ele>735.2</ele></trkpt>
+      <trkpt lat="-23.542063" lon="-46.629313"><ele>735.8</ele></trkpt>
+      <trkpt lat="-23.541975" lon="-46.629275"><ele>726.2</ele></trkpt>
+      <trkpt lat="-23.541909" lon="-46.629246"><ele>726.2</ele></trkpt>
+      <trkpt lat="-23.541838" lon="-46.629215"><ele>726.2</ele></trkpt>
+      <trkpt lat="-23.541825" lon="-46.629209"><ele>726.2</ele></trkpt>
+      <trkpt lat="-23.541742" lon="-46.629172"><ele>731.2</ele></trkpt>
+      <trkpt lat="-23.541705" lon="-46.629156"><ele>731.2</ele></trkpt>
+      <trkpt lat="-23.541686" lon="-46.629148"><ele>731.2</ele></trkpt>
+      <trkpt lat="-23.541604" lon="-46.629112"><ele>731.2</ele></trkpt>
+      <trkpt lat="-23.541519" lon="-46.629074"><ele>738.3</ele></trkpt>
+      <trkpt lat="-23.541463" lon="-46.629050"><ele>738.3</ele></trkpt>
+      <trkpt lat="-23.541389" lon="-46.629017"><ele>731.9</ele></trkpt>
+      <trkpt lat="-23.541336" lon="-46.628994"><ele>731.9</ele></trkpt>
+      <trkpt lat="-23.541323" lon="-46.628988"><ele>731.9</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

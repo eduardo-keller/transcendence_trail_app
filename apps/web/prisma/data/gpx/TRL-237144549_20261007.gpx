@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Passarela Maria Pereira Lima</name>
+    <trkseg>
+      <trkpt lat="-23.637134" lon="-46.593436"><ele>751.8</ele></trkpt>
+      <trkpt lat="-23.637297" lon="-46.593227"><ele>751.8</ele></trkpt>
+      <trkpt lat="-23.637326" lon="-46.593254"><ele>751.8</ele></trkpt>
+      <trkpt lat="-23.637162" lon="-46.593464"><ele>751.8</ele></trkpt>
+      <trkpt lat="-23.637162" lon="-46.593464"><ele>751.8</ele></trkpt>
+      <trkpt lat="-23.637872" lon="-46.594123"><ele>750.0</ele></trkpt>
+      <trkpt lat="-23.637872" lon="-46.594123"><ele>750.0</ele></trkpt>
+      <trkpt lat="-23.638037" lon="-46.593911"><ele>746.5</ele></trkpt>
+      <trkpt lat="-23.638060" lon="-46.593932"><ele>746.5</ele></trkpt>
+      <trkpt lat="-23.637877" lon="-46.594165"><ele>750.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

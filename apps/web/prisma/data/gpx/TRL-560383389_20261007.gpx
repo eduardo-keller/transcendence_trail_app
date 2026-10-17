@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Doutor Pedro de Mustre Portugal</name>
+    <trkseg>
+      <trkpt lat="-23.472698" lon="-46.719944"><ele>747.3</ele></trkpt>
+      <trkpt lat="-23.472054" lon="-46.720125"><ele>752.6</ele></trkpt>
+      <trkpt lat="-23.471909" lon="-46.720181"><ele>749.2</ele></trkpt>
+      <trkpt lat="-23.471673" lon="-46.720310"><ele>750.0</ele></trkpt>
+      <trkpt lat="-23.471475" lon="-46.720475"><ele>749.5</ele></trkpt>
+      <trkpt lat="-23.471342" lon="-46.720622"><ele>749.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

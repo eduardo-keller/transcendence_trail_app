@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Serra da Fartura</name>
+    <trkseg>
+      <trkpt lat="-23.446320" lon="-46.693452"><ele>822.4</ele></trkpt>
+      <trkpt lat="-23.446378" lon="-46.693436"><ele>822.4</ele></trkpt>
+      <trkpt lat="-23.446394" lon="-46.693428"><ele>822.4</ele></trkpt>
+      <trkpt lat="-23.446398" lon="-46.693416"><ele>822.4</ele></trkpt>
+      <trkpt lat="-23.446411" lon="-46.693372"><ele>822.4</ele></trkpt>
+      <trkpt lat="-23.446442" lon="-46.693252"><ele>822.4</ele></trkpt>
+      <trkpt lat="-23.446455" lon="-46.693211"><ele>822.4</ele></trkpt>
+      <trkpt lat="-23.446476" lon="-46.693159"><ele>820.3</ele></trkpt>
+      <trkpt lat="-23.446512" lon="-46.693065"><ele>820.3</ele></trkpt>
+      <trkpt lat="-23.446542" lon="-46.693001"><ele>831.5</ele></trkpt>
+      <trkpt lat="-23.446559" lon="-46.692973"><ele>831.5</ele></trkpt>
+      <trkpt lat="-23.446634" lon="-46.692853"><ele>830.2</ele></trkpt>
+      <trkpt lat="-23.446654" lon="-46.692825"><ele>830.2</ele></trkpt>
+      <trkpt lat="-23.446669" lon="-46.692805"><ele>830.2</ele></trkpt>
+      <trkpt lat="-23.446701" lon="-46.692770"><ele>830.2</ele></trkpt>
+      <trkpt lat="-23.446787" lon="-46.692706"><ele>830.2</ele></trkpt>
+      <trkpt lat="-23.446860" lon="-46.692651"><ele>833.1</ele></trkpt>
+      <trkpt lat="-23.446887" lon="-46.692643"><ele>833.1</ele></trkpt>
+      <trkpt lat="-23.446981" lon="-46.692618"><ele>829.7</ele></trkpt>
+      <trkpt lat="-23.447009" lon="-46.692611"><ele>829.7</ele></trkpt>
+      <trkpt lat="-23.447046" lon="-46.692382"><ele>829.7</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

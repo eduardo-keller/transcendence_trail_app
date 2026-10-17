@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Cisne Branco</name>
+    <trkseg>
+      <trkpt lat="-23.615766" lon="-46.703475"><ele>748.5</ele></trkpt>
+      <trkpt lat="-23.615836" lon="-46.703496"><ele>748.5</ele></trkpt>
+      <trkpt lat="-23.615997" lon="-46.703566"><ele>741.5</ele></trkpt>
+      <trkpt lat="-23.616128" lon="-46.703633"><ele>741.5</ele></trkpt>
+      <trkpt lat="-23.616268" lon="-46.703722"><ele>736.6</ele></trkpt>
+      <trkpt lat="-23.616335" lon="-46.703761"><ele>736.2</ele></trkpt>
+      <trkpt lat="-23.616437" lon="-46.703817"><ele>736.2</ele></trkpt>
+      <trkpt lat="-23.616522" lon="-46.703858"><ele>736.2</ele></trkpt>
+      <trkpt lat="-23.616654" lon="-46.703914"><ele>735.5</ele></trkpt>
+      <trkpt lat="-23.616744" lon="-46.703947"><ele>735.5</ele></trkpt>
+      <trkpt lat="-23.616818" lon="-46.703972"><ele>731.3</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

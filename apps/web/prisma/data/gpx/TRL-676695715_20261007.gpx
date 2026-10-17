@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Alameda Serra dos Figueiras</name>
+    <trkseg>
+      <trkpt lat="-23.414415" lon="-46.662290"><ele>983.6</ele></trkpt>
+      <trkpt lat="-23.414530" lon="-46.661951"><ele>980.5</ele></trkpt>
+      <trkpt lat="-23.414678" lon="-46.661650"><ele>978.5</ele></trkpt>
+      <trkpt lat="-23.414789" lon="-46.661515"><ele>973.2</ele></trkpt>
+      <trkpt lat="-23.414855" lon="-46.661457"><ele>973.2</ele></trkpt>
+      <trkpt lat="-23.414900" lon="-46.661438"><ele>973.3</ele></trkpt>
+      <trkpt lat="-23.414974" lon="-46.661430"><ele>973.3</ele></trkpt>
+      <trkpt lat="-23.415160" lon="-46.661436"><ele>969.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

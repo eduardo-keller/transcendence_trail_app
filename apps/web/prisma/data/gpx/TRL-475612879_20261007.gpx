@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Via de Pedestres Ilha do Açaí</name>
+    <trkseg>
+      <trkpt lat="-23.456880" lon="-46.662966"><ele>808.5</ele></trkpt>
+      <trkpt lat="-23.456888" lon="-46.662987"><ele>808.5</ele></trkpt>
+      <trkpt lat="-23.456901" lon="-46.663045"><ele>808.5</ele></trkpt>
+      <trkpt lat="-23.456934" lon="-46.663035"><ele>808.5</ele></trkpt>
+      <trkpt lat="-23.456942" lon="-46.663078"><ele>808.5</ele></trkpt>
+      <trkpt lat="-23.456937" lon="-46.663086"><ele>808.5</ele></trkpt>
+      <trkpt lat="-23.456940" lon="-46.663113"><ele>808.5</ele></trkpt>
+      <trkpt lat="-23.456951" lon="-46.663112"><ele>808.5</ele></trkpt>
+      <trkpt lat="-23.456942" lon="-46.663078"><ele>808.5</ele></trkpt>
+      <trkpt lat="-23.456987" lon="-46.663070"><ele>808.5</ele></trkpt>
+      <trkpt lat="-23.457045" lon="-46.663035"><ele>808.5</ele></trkpt>
+      <trkpt lat="-23.457118" lon="-46.662996"><ele>817.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

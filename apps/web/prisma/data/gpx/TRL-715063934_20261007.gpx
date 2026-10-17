@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Galeria Studio Center</name>
+    <trkseg>
+      <trkpt lat="-23.655355" lon="-46.528115"><ele>752.4</ele></trkpt>
+      <trkpt lat="-23.655596" lon="-46.528212"><ele>761.0</ele></trkpt>
+      <trkpt lat="-23.655615" lon="-46.528211"><ele>761.0</ele></trkpt>
+      <trkpt lat="-23.655636" lon="-46.528204"><ele>761.0</ele></trkpt>
+      <trkpt lat="-23.655652" lon="-46.528186"><ele>758.5</ele></trkpt>
+      <trkpt lat="-23.655659" lon="-46.528160"><ele>758.5</ele></trkpt>
+      <trkpt lat="-23.655654" lon="-46.528131"><ele>758.5</ele></trkpt>
+      <trkpt lat="-23.655634" lon="-46.528107"><ele>758.5</ele></trkpt>
+      <trkpt lat="-23.655434" lon="-46.527993"><ele>758.5</ele></trkpt>
+      <trkpt lat="-23.655434" lon="-46.527993"><ele>758.5</ele></trkpt>
+      <trkpt lat="-23.655419" lon="-46.527985"><ele>758.5</ele></trkpt>
+      <trkpt lat="-23.655392" lon="-46.527969"><ele>752.4</ele></trkpt>
+      <trkpt lat="-23.655355" lon="-46.528115"><ele>752.4</ele></trkpt>
+      <trkpt lat="-23.655339" lon="-46.528109"><ele>752.4</ele></trkpt>
+      <trkpt lat="-23.655308" lon="-46.528098"><ele>752.4</ele></trkpt>
+    </trkseg>
+    <trkseg>
+      <trkpt lat="-23.656058" lon="-46.528353"><ele>755.5</ele></trkpt>
+      <trkpt lat="-23.656018" lon="-46.528337"><ele>755.5</ele></trkpt>
+      <trkpt lat="-23.655998" lon="-46.528329"><ele>755.5</ele></trkpt>
+      <trkpt lat="-23.655998" lon="-46.528329"><ele>755.5</ele></trkpt>
+      <trkpt lat="-23.655972" lon="-46.528318"><ele>760.1</ele></trkpt>
+      <trkpt lat="-23.655894" lon="-46.528286"><ele>760.1</ele></trkpt>
+      <trkpt lat="-23.655796" lon="-46.528245"><ele>760.1</ele></trkpt>
+      <trkpt lat="-23.655710" lon="-46.528210"><ele>760.1</ele></trkpt>
+      <trkpt lat="-23.655652" lon="-46.528186"><ele>758.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

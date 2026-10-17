@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Viela das Jabuticabeiras</name>
+    <trkseg>
+      <trkpt lat="-23.720445" lon="-46.841287"><ele>773.7</ele></trkpt>
+      <trkpt lat="-23.719971" lon="-46.841175"><ele>782.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Santa Lusia</name>
+    <trkseg>
+      <trkpt lat="-23.441528" lon="-46.590487"><ele>755.4</ele></trkpt>
+      <trkpt lat="-23.441592" lon="-46.590486"><ele>755.4</ele></trkpt>
+      <trkpt lat="-23.441642" lon="-46.590484"><ele>755.4</ele></trkpt>
+      <trkpt lat="-23.441679" lon="-46.590482"><ele>755.4</ele></trkpt>
+      <trkpt lat="-23.441712" lon="-46.590485"><ele>755.4</ele></trkpt>
+      <trkpt lat="-23.441733" lon="-46.590490"><ele>755.4</ele></trkpt>
+      <trkpt lat="-23.441754" lon="-46.590494"><ele>755.4</ele></trkpt>
+      <trkpt lat="-23.441785" lon="-46.590495"><ele>755.4</ele></trkpt>
+      <trkpt lat="-23.441809" lon="-46.590493"><ele>751.2</ele></trkpt>
+      <trkpt lat="-23.441847" lon="-46.590482"><ele>751.2</ele></trkpt>
+      <trkpt lat="-23.441934" lon="-46.590454"><ele>751.2</ele></trkpt>
+      <trkpt lat="-23.442001" lon="-46.590435"><ele>751.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

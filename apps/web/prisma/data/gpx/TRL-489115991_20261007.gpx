@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Floriano Peixoto</name>
+    <trkseg>
+      <trkpt lat="-23.702827" lon="-46.379702"><ele>778.9</ele></trkpt>
+      <trkpt lat="-23.702918" lon="-46.379576"><ele>776.2</ele></trkpt>
+      <trkpt lat="-23.702918" lon="-46.379576"><ele>776.2</ele></trkpt>
+      <trkpt lat="-23.702980" lon="-46.379503"><ele>776.2</ele></trkpt>
+      <trkpt lat="-23.702980" lon="-46.379503"><ele>776.2</ele></trkpt>
+      <trkpt lat="-23.703053" lon="-46.379420"><ele>776.2</ele></trkpt>
+      <trkpt lat="-23.703433" lon="-46.378978"><ele>793.2</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

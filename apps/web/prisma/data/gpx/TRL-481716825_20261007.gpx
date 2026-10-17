@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Ana Jorge</name>
+    <trkseg>
+      <trkpt lat="-23.958076" lon="-46.386893"><ele>7.9</ele></trkpt>
+      <trkpt lat="-23.958298" lon="-46.387960"><ele>7.7</ele></trkpt>
+      <trkpt lat="-23.958500" lon="-46.389015"><ele>7.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

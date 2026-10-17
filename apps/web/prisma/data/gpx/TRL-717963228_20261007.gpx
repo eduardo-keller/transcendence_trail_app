@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Travessa Santiago</name>
+    <trkseg>
+      <trkpt lat="-23.441803" lon="-46.590735"><ele>754.6</ele></trkpt>
+      <trkpt lat="-23.441752" lon="-46.590733"><ele>754.6</ele></trkpt>
+      <trkpt lat="-23.441745" lon="-46.590728"><ele>754.6</ele></trkpt>
+      <trkpt lat="-23.441739" lon="-46.590721"><ele>754.6</ele></trkpt>
+      <trkpt lat="-23.441737" lon="-46.590711"><ele>754.6</ele></trkpt>
+      <trkpt lat="-23.441712" lon="-46.590485"><ele>755.4</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

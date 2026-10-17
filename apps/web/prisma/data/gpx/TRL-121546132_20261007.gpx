@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Trilhas SP" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Rua Fernando de Montesinos</name>
+    <trkseg>
+      <trkpt lat="-23.676894" lon="-46.680670"><ele>752.8</ele></trkpt>
+      <trkpt lat="-23.676820" lon="-46.680705"><ele>752.0</ele></trkpt>
+      <trkpt lat="-23.676738" lon="-46.680739"><ele>750.6</ele></trkpt>
+      <trkpt lat="-23.676555" lon="-46.680804"><ele>750.6</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>
