@@ -1,6 +1,6 @@
 # Pontos críticos e riscos
 
-> Última atualização: 2026-10-01 — avaliação inicial.
+> Última atualização: 2026-10-17 — R10 e R21 sem referências a arquivos apagados; R11 com o estado atual.
 > Donos: PM (acompanhamento) + Tech Lead (riscos técnicos). Revisar na reunião semanal: algum risco mudou? Surgiu algum novo?
 
 Escala: **P** = probabilidade, **I** = impacto (A alto, M médio, B baixo).
@@ -29,8 +29,8 @@ Os riscos que mais podem custar nota ou tempo, em ordem:
 | R7 | Notificações não cobrem todas as ações CRUD | A | M | Matriz de notificações desde o dia 1; helper `publishEvent()`; checklist de PR; conferência item a item na fase 3 | F3 |
 | R8 | Auth atrasa e bloqueia todo mundo | M | A | F2 prioriza `requireUser()` no dia 1–3; seed de usuários; o PM acompanha na daily | F2 |
 | R9 | WebSocket atrás de nginx com HTTPS e auth no handshake | M | M | Faz parte do critério do M0; config de upgrade no nginx; teste com o cookie real | F1, F3 |
-| R10 | Conflitos de schema e migrations Prisma entre 5 pessoas | A | M | Banco por serviço; schema em vários arquivos; uma migration por PR; procedimento de rebase em [CONTRIBUTING.md](../CONTRIBUTING.md#migrations-do-prisma) | Tech Lead |
-| R11 | Build Docker do monorepo e "comando único" quebrando | M | A | F1 resolve no M0; CI constrói as imagens; teste semanal em máquina limpa | F1 |
+| R10 | Conflitos de schema e migrations Prisma entre 5 pessoas | A | M | Banco por serviço; schema em vários arquivos (hoje é um só); uma migration por PR; se a `main` ganhou outra migration, rebase + apagar a migration local + `make migrate` de novo ([ARCHITECTURE §5.3](ARCHITECTURE.md#53-prisma-e-migrations)) | Tech Lead |
+| R11 | Build Docker do monorepo e "comando único" quebrando | M | A | `make` já sobe `postgres` + `nextjs`; falta CI construindo as imagens; teste semanal em máquina limpa | F1 |
 | R12 | Membro não consegue explicar código gerado por IA | M | A | Seção "O que aprendi" na PR (escrita pela pessoa); aula relâmpago semanal; rodízio nos ensaios; partes centrais escritas por humanos | PM |
 | R13 | Documentação defasada | A | M | Docs curtos; checklist de PR; auditoria semanal com prompt pronto; seção "Divergências" | PM |
 | R14 | RAG e LLM vistos como o mesmo módulo, ou dataset "pequeno" | M | A | Duas funcionalidades, telas e endpoints distintos; ≥ 2.000 trechos com contagem visível; justificativa no README | F5 |
@@ -40,7 +40,7 @@ Os riscos que mais podem custar nota ou tempo, em ordem:
 | R18 | Race conditions com vários usuários (requisito obrigatório) | M | A | `UNIQUE` + transações + idempotência; teste com 3+ navegadores | Todos |
 | R19 | Máquinas sem recursos (~15 containers; WSL2; máquinas da 42) | M | M | Limites de memória; observabilidade em profile opcional no dev; medir RAM no M0 | F1 |
 | R20 | Histórico do git sem commits de alguém, ou squash total na entrega | B | A | Todos commitam desde a semana 1; push do histórico **completo** para o repositório da 42 | PM |
-| R21 | Mudanças de API nas libs (Next.js 16, Prisma 7, Better Auth) confundem pessoas e agentes | M | M | Fixar versões; consultar a doc da versão instalada (AGENTS.md §11) | Tech Lead |
+| R21 | Mudanças de API nas libs (Next.js 16, Prisma 7, Better Auth) confundem pessoas e agentes | M | M | Fixar versões (ver `apps/web/package.json`); consultar a doc da versão instalada, não a de tutoriais antigos | Tech Lead |
 
 ## 3. Detalhes dos riscos principais
 

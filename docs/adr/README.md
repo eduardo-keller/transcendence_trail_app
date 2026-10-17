@@ -1,6 +1,6 @@
 # Decisões de arquitetura (ADRs)
 
-> Última atualização: 2026-10-01
+> Última atualização: 2026-10-17
 
 Um **ADR** (Architecture Decision Record) registra **uma** decisão técnica importante: o contexto, o que foi decidido, as alternativas e as consequências. Serve para:
 - não rediscutir a mesma coisa toda semana;
@@ -23,7 +23,7 @@ Escreva quando a decisão afeta mais de uma frente, adiciona uma tecnologia ao p
 | ADR | Título | Status |
 |---|---|---|
 | [0001](0001-arquitetura-servicos.md) | Next.js como web/BFF + três serviços satélites | Proposta |
-| [0002](0002-monorepo-typescript.md) | Monorepo pnpm, TypeScript em tudo, Fastify nos serviços | Proposta |
+| [0002](0002-monorepo-typescript.md) | Monorepo com npm, TypeScript em tudo, Fastify nos serviços | Proposta |
 | [0003](0003-banco-de-dados.md) | PostgreSQL: um servidor, um banco por serviço; Prisma; PostGIS e pgvector | Proposta |
 | [0004](0004-autenticacao.md) | Autenticação com Better Auth (sessão em cookie) | Proposta |
 | [0005](0005-comunicacao.md) | REST interno + Redis pub/sub + Socket.IO | Proposta |

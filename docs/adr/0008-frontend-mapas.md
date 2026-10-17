@@ -12,7 +12,7 @@
 
 ## Decisão
 
-- **Tailwind CSS** + **shadcn/ui**: componentes copiados para `apps/web/components/ui`, construídos sobre Radix (acessibilidade de teclado e leitores de tela já resolvida). O Tech Lead é dono dessa pasta.
+- **Tailwind CSS** + **shadcn/ui**: componentes copiados para `apps/web/src/components/ui`, construídos sobre Radix (acessibilidade de teclado e leitores de tela já resolvida). O Tech Lead é dono dessa pasta.
 - **Formulários:** react-hook-form + zod (o mesmo schema do backend).
 - **Mapas:** **Leaflet** via react-leaflet, carregado só no cliente (`dynamic(..., { ssr: false })`). Tiles **raster** com provedor configurável por variável de ambiente:
   - padrão: OpenStreetMap (respeitando a [política de uso](https://operations.osmfoundation.org/policies/tiles/): atribuição visível, sem pré-carregamento ou uso offline);

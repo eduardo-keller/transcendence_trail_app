@@ -1,6 +1,6 @@
 # Documentação: mapa
 
-> Última atualização: 2026-10-01 — estrutura inicial.
+> Última atualização: 2026-10-17 — removidas as referências a `AGENTS.md`, `CLAUDE.md` e `CONTRIBUTING.md` (apagados no commit `3adf507`).
 
 ## Comece aqui (15 minutos)
 
@@ -16,9 +16,7 @@ Todo o resto é material de consulta: leia quando a tarefa pedir.
 
 | Documento | Para quê | Tipo | Quem mantém | Quando atualizar |
 |---|---|---|---|---|
-| [../AGENTS.md](../AGENTS.md) | Regras para agentes de IA (e humanos) | Estável | Tech Lead | Quando mudar o jeito de trabalhar |
-| [../README.md](../README.md) | README exigido pelo subject (avaliado!) | Vivo | Todos | Ao entregar feature ou módulo |
-| [../CONTRIBUTING.md](../CONTRIBUTING.md) | Git, branches, commits, PRs, revisão | Estável | Tech Lead | Raramente |
+| [../README.md](../README.md) | README exigido pelo subject (avaliado!) + como rodar o projeto | Vivo | Todos | Ao entregar feature ou módulo, ou mudar o setup |
 | [PRODUCT.md](PRODUCT.md) | Visão, páginas, escopo, regras de produto | Estável | PO | Quando o escopo mudar |
 | [ARCHITECTURE.md](ARCHITECTURE.md) | Espinha dorsal técnica: serviços, comunicação, dados, convenções | Estável | Tech Lead | Junto com ADRs |
 | [MODULES.md](MODULES.md) | Módulos, pontos, critérios de aceite, como demonstrar | Vivo (status) | PO + donos | Ao avançar um módulo |
@@ -62,8 +60,8 @@ Se 2 e 3 divergem, ou é bug ou é decisão não registrada. Avise o dono e regi
 ## Caminhos de leitura
 
 - **Vou implementar uma tarefa:** issue → [STATUS.md](STATUS.md) → README da frente → [contracts/README.md](contracts/README.md) (se tocar outro serviço) → código atual → plano (se não for trivial).
-- **Vou revisar uma PR:** critérios de aceite da issue → [MODULES.md](MODULES.md) (se for módulo) → checklist do template de PR → [../CONTRIBUTING.md](../CONTRIBUTING.md#revisão-de-código).
-- **Sou um agente de IA:** o `AGENTS.md` já foi carregado; siga a §3 dele.
+- **Vou revisar uma PR:** critérios de aceite da issue → [MODULES.md](MODULES.md) (se for módulo) → checklist do [template de PR](../.github/pull_request_template.md).
+- **Sou um agente de IA:** siga o caminho "Vou implementar uma tarefa" e a [hierarquia da verdade](#hierarquia-da-verdade): o código vence os docs.
 - **Preparação para a avaliação:** [EVALUATION.md](EVALUATION.md) e "Como demonstrar" em [MODULES.md](MODULES.md).
 
 ## Como evitar documentação defasada
@@ -96,4 +94,4 @@ docs/
 └── templates/plano-implementacao.md
 ```
 
-Documentos que serão criados durante o projeto (pelas frentes indicadas): `docs/runbooks/disaster-recovery.md` (F1), `docs/guides/setup.md` (F1, Sprint 0).
+Documento que será criado durante o projeto: `docs/runbooks/disaster-recovery.md` (F1). O guia de setup fica na seção "Instructions" do [README raiz](../README.md#instructions).

@@ -76,7 +76,7 @@ Exemplos de trilhas montadas por agrupamento de nome (comprimento somado):
 
 ## 4. Pipeline de ingestão recomendado
 
-Script CLI no serviço `trails` (ex.: `pnpm --filter trails ingest`), rodado **pelo time**, não pelo container em produção:
+Script CLI no serviço `trails` (ex.: `npm run ingest` dentro de `services/trails`), rodado **pelo time**, não pelo container em produção:
 
 ```
 1. Baixar        Overpass (retry + backoff, User-Agent identificando o projeto) → cache JSON bruto em data/raw/ (no .gitignore)

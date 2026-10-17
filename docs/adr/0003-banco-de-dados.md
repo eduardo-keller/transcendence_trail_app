@@ -15,11 +15,17 @@
 ## Decisão
 
 - **Um container PostgreSQL** com **quatro bancos** (`web`, `realtime`, `trails`, `ai`) e **um usuário por banco**, com permissão só no próprio banco. Um script de init cria bancos, usuários e extensões.
-- Imagem customizada a partir de `postgis/postgis` com o pacote do **pgvector** instalado.
+- Imagem própria (Alpine + PostgreSQL 18 + PostGIS + **pgvector**, em `docker/postgres/`).
 - Extensões: `postgis` e `pg_trgm` em `trails`; `vector` em `ai`; `pg_trgm` em `web` (busca de comunidades).
 - **Prisma** como ORM em todos os serviços com banco. No `web`, o schema é dividido em vários arquivos, um por domínio (recurso estável desde o Prisma 6.7; no Prisma 7 é configurado em `prisma.config.ts`).
 - Tipos espaciais e vetoriais declarados como `Unsupported(...)` e consultados com `$queryRaw` (template tag, seguro). Nunca `$queryRawUnsafe` com entrada do usuário.
 - Migrations aplicadas no start do container (`prisma migrate deploy`).
+
+## Estado da implementação (2026-10-17)
+
+- A imagem e o entrypoint (`docker/postgres/tools/entrypoint.sh`) existem: `initdb` na primeira subida, senha via Docker secret, **um** banco (`POSTGRES_DB`, padrão `trails`) com `postgis` e `vector`.
+- **Ainda não implementado:** os quatro bancos, os usuários por banco e o `pg_trgm`.
+- O Prisma está em `apps/web`, com **um** arquivo `schema.prisma` que contém também entidades de outros serviços (`Trail`, `Notification`). Precisa ser dividido quando os serviços existirem, ou esta ADR revista. Ver [STATUS.md](../STATUS.md#divergências-entre-docs-e-código).
 
 ## Alternativas consideradas
 

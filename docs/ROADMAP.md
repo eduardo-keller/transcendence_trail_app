@@ -1,6 +1,6 @@
 # Roadmap
 
-> Última atualização: 2026-10-01 — proposta de 8 semanas (ajustar no kickoff).
+> Última atualização: 2026-10-17 — nomes de arquivos e ferramentas alinhados ao código. O M0 está atrasado: ver [STATUS.md](STATUS.md#marcos).
 > Dono: PM. O status atual dos marcos está em [STATUS.md](STATUS.md#marcos).
 
 ## 1. Estratégia
@@ -24,7 +24,7 @@ Datas propostas (semana 1 começa na segunda, 2026-10-05).
 |---|---|
 | Todos | Kickoff (decisões pendentes de [STATUS.md](STATUS.md#decisões-pendentes-kickoff)); ambiente de dev funcionando; primeiro commit de cada um |
 | Tech Lead | `packages/contracts` v0 (envelope de evento, `notification.requested`, erros padrão); layout base (header, footer com Privacidade e Termos, navegação) com Tailwind e shadcn/ui; revisão das ADRs |
-| F1 Plataforma | Monorepo pnpm; `compose.yaml` com Postgres (PostGIS + pgvector), Redis e nginx com TLS; `service-kit` + template de serviço Fastify; Makefile; CI (lint, typecheck, testes) |
+| F1 Plataforma | Estrutura `apps/` + `docker/` (npm, Biome); `docker/docker-compose.yml` com Postgres (PostGIS + pgvector), Redis e nginx com TLS; `service-kit` + template de serviço Fastify; Makefile; CI (lint, typecheck, testes) |
 | F2 Identidade | Better Auth (cadastro, login, logout); `getSession()`/`requireUser()`; seed com usuários de teste |
 | F3 Social | `realtime` a partir do template; auth no handshake; sala `user:<id>`; prova de conceito de presença |
 | F4 Trilhas | **Spike OSM** (2–3 dias): script de ingestão v0 → seed com 20–50 trilhas; `trails` com `GET /v1/trails` |
@@ -72,7 +72,7 @@ Trabalho transversal, dividido na reunião de planejamento:
 
 ### Fase 4: Ensaio de avaliação · Semana 8 (23–29/11) → **M4**
 
-- Ensaio completo numa máquina limpa (clone → `.env` → `make`), seguindo o roteiro de [EVALUATION.md](EVALUATION.md).
+- Ensaio completo numa máquina limpa (clone → `make`), seguindo o roteiro de [EVALUATION.md](EVALUATION.md).
 - **Rodízio:** cada pessoa demonstra e explica módulos de **outra** frente.
 - Simulação de "modificação ao vivo" em cada frente.
 - Somente correções de bug. Push do histórico completo para o repositório de entrega da 42.
@@ -133,7 +133,7 @@ O PM acompanha esses quatro itens na daily.
 | `requireUser()` | Primeiro PR da F2 no dia 1–2: a assinatura da função já fica estável, mesmo que a implementação evolua |
 | Consumidor de eventos (F3) | Publique assim mesmo: pub/sub sem assinante não faz nada. Para depurar, use `redis-cli SUBSCRIBE events:notifications` |
 | Dados reais do OSM | Seed v0 do spike (20–50 trilhas reais) ou fixture com 5 trilhas falsas |
-| Sistema de upload | Avatar padrão gerado; o campo `avatarFileId` já existe no schema |
+| Sistema de upload | Avatar padrão gerado; criar o campo `avatarFileId` no schema logo no início (hoje o `User` só tem `image`) |
 | Chave do LLM / custo | `LLM_PROVIDER=mock`, que devolve texto fixo em streaming |
 | Contrato de outra frente | Programe contra o schema zod em `packages/contracts`; mock nos testes |
 | Componentes de UI | shadcn/ui base + layout do Tech Lead; páginas com skeleton/loading |
@@ -142,7 +142,7 @@ O PM acompanha esses quatro itens na daily.
 E para reduzir conflitos de merge:
 - Rotas do Next.js agrupadas por frente: `app/(trilhas)`, `app/(social)`, `app/(comunidades)`, `app/(conta)`, `app/(ia)`.
 - Schema Prisma em vários arquivos, um por domínio.
-- Arquivos compartilhados (`components/ui`, `compose.yaml`, `packages/contracts`, layout): PRs pequenos e revisão do dono (CODEOWNERS).
+- Arquivos compartilhados (`components/ui`, `docker/docker-compose.yml`, `packages/contracts`, layout): PRs pequenos e revisão do dono (CODEOWNERS).
 
 ## 6. Se atrasar: ordem de corte
 

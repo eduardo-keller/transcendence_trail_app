@@ -1,6 +1,6 @@
 # F4: Trilhas & Mapas
 
-> Última atualização: 2026-10-01 — escopo inicial.
+> Última atualização: 2026-10-17 — estado atual.
 
 | | |
 |---|---|
@@ -45,7 +45,7 @@ Os critérios do módulo 8 estão em [MODULES.md](../../MODULES.md#8-busca-avan�
 | Poi | id, osmId, kind (`peak`/`waterfall`/`viewpoint`), name, ele?, point, wikidata? | POIs próximos no detalhe e no corpus do RAG |
 | IngestionRun | id, seedVersion, bbox, trailCount, startedAt, finishedAt, notes | Controla a recarga do seed |
 
-**Banco `web`** (`trails.prisma`, schema desta frente):
+**Banco `web`** (alvo: `trails.prisma`; hoje tudo está em `apps/web/prisma/schema.prisma`):
 
 | Modelo | Campos | Observações |
 |---|---|---|
@@ -165,4 +165,7 @@ Estudo: [PostGIS Workshop](https://postgis.net/workshops/postgis-intro/) · [OSM
 
 ## 11. Estado atual
 
-Nada implementado ainda. Pesquisa preliminar concluída: [research/osm-trilhas.md](../../research/osm-trilhas.md).
+(2026-10-17)
+- Pesquisa preliminar concluída: [research/osm-trilhas.md](../../research/osm-trilhas.md). Spike de ingestão, serviço `trails` e páginas não iniciados.
+- O schema do `web` já tem `Trail` (autor obrigatório, `routeGeoJSON` em JSON, bounding box, `difficulty`, `visibility`) e `Activity` (registro de atividade com distância, duração e `polyline`). Eles diferem do desenho acima (banco `trails` com PostGIS, `TrailCompletion` com snapshot); ver [STATUS.md](../../STATUS.md#divergências-entre-docs-e-código).
+- `GET /api/health` do `web` devolve a contagem de trilhas (`{ ok, trails }`).

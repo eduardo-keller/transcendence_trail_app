@@ -1,6 +1,6 @@
 # Aprendizado
 
-> Última atualização: 2026-10-01
+> Última atualização: 2026-10-17
 > Todos mantêm. Aprendeu algo que custou caro? Adicione uma entrada curta aqui.
 
 Estamos fazendo este projeto **para aprender**, mas com prazo. Este documento ajuda a encontrar o equilíbrio: o que estudar, quando e quanto.
@@ -106,7 +106,7 @@ Formato: o que é, em 1–3 linhas, e onde aparece no projeto. Explicações mai
 - **CI:** cada push roda lint, testes e build automaticamente.
 
 ### Processo
-- **Conventional Commits, GitHub Flow, rebase, squash merge:** → [CONTRIBUTING.md](../CONTRIBUTING.md)
+- **Conventional Commits, GitHub Flow, rebase, squash merge:** → [Conventional Commits](https://www.conventionalcommits.org/pt-br/v1.0.0/), [GitHub Flow](https://docs.github.com/pt/get-started/using-github/github-flow)
 - **Definition of Ready / Done:** → [PROCESS.md](PROCESS.md#definition-of-ready-antes-de-puxar-uma-tarefa)
 - **Walking skeleton:** a primeira versão que atravessa todas as camadas fazendo quase nada. → [ROADMAP §1](ROADMAP.md#1-estratégia)
 - **MoSCoW:** priorização em Must, Should, Could e Won't. → [PRODUCT §4](PRODUCT.md#4-escopo-priorizado-moscow)

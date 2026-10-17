@@ -1,9 +1,23 @@
 # Arquitetura
 
-> Última atualização: 2026-10-01 — arquitetura proposta (aceitar ADRs 0001–0009 no kickoff).
+> Última atualização: 2026-10-17 — adicionada a seção "Estado atual"; estrutura do repo, dados, infra e convenções alinhadas ao código.
 > Dono: Tech Lead. Mudanças aqui exigem PR revisada pelo Tech Lead e, se forem estruturais, uma ADR.
 
 Este é o documento que **amarra todas as frentes**. Ele define o que é comum a todos: serviços, como conversam, onde ficam os dados e as convenções. O detalhe de cada parte fica no README da frente correspondente.
+
+## 0. Estado atual (2026-10-17)
+
+As seções 1 a 12 descrevem a arquitetura **alvo**. O que existe hoje no código:
+
+| Peça | Hoje | Alvo |
+|---|---|---|
+| Containers | `postgres` e `nextjs` (+ `prisma-studio` no profile `tools`), em [`docker/docker-compose.yml`](../docker/docker-compose.yml) | Seção 2 |
+| Entrada | `nextjs` publica a porta 3000 em HTTP; sem nginx nem TLS | nginx com HTTPS como única porta |
+| `web` | Next.js 16 em `apps/web`: `/`, `/login` (formulário ainda sem lógica), `GET /api/health`; Better Auth configurado em `src/lib/auth.ts`, mas sem Route Handler montado | Seção 2 |
+| Banco | Um banco (`POSTGRES_DB`, padrão `trails`) com `postgis` e `vector`; um usuário; **um** `schema.prisma` com todas as entidades (incluindo `Trail`, `Notification`, `Community`) | Um banco e um usuário por serviço (seção 5) |
+| Serviços satélites, Redis, `packages/`, CI, observabilidade | Não existem | Seções 2, 6 e 10 |
+
+Divergências entre o alvo e o código que precisam de decisão estão em [STATUS.md](STATUS.md#divergências-entre-docs-e-código).
 
 ## 1. Visão geral
 
@@ -158,7 +172,7 @@ sequenceDiagram
 - Helpers do `web` (F2 entrega no Sprint 0): `getSession()` (pode retornar nulo) e `requireUser()` (redireciona ou retorna 401).
 - **realtime:** no handshake, repassa o cookie para o endpoint de sessão do `web` e guarda o `userId` no socket. Socket sem sessão válida é recusado. O cliente **só tenta conectar depois do login**, para não sujar o console.
 - **Serviços internos:** confiam no `x-user-id` vindo do `web` (com token interno válido). Cada serviço **autoriza** as próprias operações (ex.: o `realtime` verifica amizade antes de aceitar uma mensagem).
-- **Autorização no `web`:** checar sempre no servidor (nunca só esconder botão). Papéis por comunidade: `owner`, `moderator`, `member` ([PRODUCT.md](PRODUCT.md#5-regras-de-produto)).
+- **Autorização no `web`:** checar sempre no servidor (nunca só esconder botão). Papéis por comunidade: `owner`, `moderator`, `member` ([PRODUCT.md](PRODUCT.md#5-regras-de-produto)); no schema atual o enum é `ADMIN`/`MODERATOR`/`MEMBER` (divergência registrada em [STATUS.md](STATUS.md#divergências-entre-docs-e-código)).
 
 > 💡 **Conceito: autenticação × autorização.** Autenticar é provar **quem** você é (login). Autorizar é decidir **o que** você pode fazer (ex.: só membros leem posts de comunidade privada). Bugs de autorização são os mais comuns em projetos web: toda query que retorna dados de outra pessoa precisa de um filtro de permissão.
 
@@ -173,85 +187,69 @@ sequenceDiagram
 | `trails` | `trails` | F4 | Trail, Poi, IngestionRun |
 | `ai` | `ai` | F5 | Document, Chunk (embedding), AiRequest |
 
+> **Hoje:** tudo está num único banco e num único schema (ver [Database Schema no README](../README.md#database-schema)). As entidades da tabela acima são o alvo; as que já existem no código têm nomes e campos diferentes (ex.: `Activity` no lugar de `TrailCompletion`, `CommunityMember` no lugar de `Membership`). Ver as divergências em [STATUS.md](STATUS.md#divergências-entre-docs-e-código).
+
 Regras:
 1. **Nenhum serviço lê ou escreve no banco de outro.** Cada serviço tem um usuário de banco com permissão só no próprio banco.
 2. **Referências entre serviços são por ID, sem chave estrangeira.** Exemplo: `TrailCompletion.trailId` aponta para uma trilha do serviço `trails`.
 3. **Snapshot quando precisar agregar:** `TrailCompletion` guarda `lengthM` e `elevationGainM` copiados da trilha no momento do registro. Assim o ranking é uma query local, sem chamar outro serviço.
-4. IDs `uuid`, timestamps em UTC (`createdAt`, `updatedAt`), datas exibidas em `America/Sao_Paulo`.
+4. IDs `cuid()` (padrão do schema atual; as tabelas do Better Auth recebem o ID gerado pela biblioteca), timestamps em UTC (`createdAt`, `updatedAt`), datas exibidas em `America/Sao_Paulo`.
 5. **Integridade e concorrência:** use constraints `UNIQUE` (ex.: par de amizade), transações para operações múltiplas e chaves de idempotência (ex.: `clientMessageId` no chat). É isso que atende ao requisito "sem race conditions" do subject.
 
 > 💡 **Conceito: database-per-service.** Se dois serviços compartilham tabelas, uma mudança de schema quebra os dois: eles ficam acoplados. Com um banco por serviço, cada um evolui o próprio schema. O preço é que "joins" entre serviços viram chamadas de API ou cópias (snapshots). Usamos um único **servidor** Postgres para economizar memória; o isolamento é por **banco** e por **usuário**.
 
-### 5.2 Modelo principal (banco `web`), esboço
+### 5.2 Modelo atual
 
-```mermaid
-erDiagram
-  User ||--o{ Session : "tem"
-  User ||--o{ File : "envia"
-  User ||--o{ Friendship : "solicita"
-  User ||--o{ Friendship : "recebe"
-  User ||--o{ Membership : "participa"
-  Community ||--o{ Membership : "tem"
-  Community ||--o{ Post : "contém"
-  User ||--o{ Post : "escreve"
-  Post ||--o{ Comment : "tem"
-  User ||--o{ Comment : "escreve"
-  Post }o--o{ File : "anexa"
-  User ||--o{ TrailCompletion : "realiza"
-  TrailCompletion }o--o| File : "GPX opcional"
-```
+O diagrama e a descrição das tabelas que existem hoje estão na seção [Database Schema do README](../README.md#database-schema), gerada a partir de [`apps/web/prisma/schema.prisma`](../apps/web/prisma/schema.prisma) (fonte da verdade). Atualize o diagrama quando mudar uma **relação**, não a cada campo novo.
 
-O schema detalhado vive nos arquivos Prisma (fonte da verdade). Este diagrama é atualizado quando muda uma **relação**, não a cada campo novo. O README final terá o diagrama completo, gerado a partir do schema.
+Entidades do alvo que ainda não existem no schema: `File`, `Friendship`, `Comment`, `Conversation`, `Message`, `Poi`, `IngestionRun`, `Document`, `Chunk`, `AiRequest`, além dos campos `username`, `bio` e `city` em `User` e da visibilidade (pública/privada) em `Community`.
 
 ### 5.3 Prisma e migrations
 
-- Um schema Prisma por serviço. No `web`, **um arquivo `.prisma` por domínio** (`auth.prisma`, `social.prisma`, `communities.prisma`, `files.prisma`, `trails.prisma`), usando o suporte a múltiplos arquivos do Prisma. Isso reduz conflitos entre frentes.
-- **Uma migration por PR.** Se a `main` ganhou outra migration enquanto você trabalhava: faça rebase, apague a sua migration local e gere de novo. Ver [CONTRIBUTING.md](../CONTRIBUTING.md#migrations-do-prisma).
+- **Prisma 7:** configuração em `apps/web/prisma.config.ts` (schema, pasta de migrations e `DATABASE_URL`); o cliente usa o driver adapter `@prisma/adapter-pg` e é instanciado uma vez em `apps/web/src/lib/db.ts`.
+- Hoje há **um** arquivo, `apps/web/prisma/schema.prisma`, dividido por comentários (`better-auth core`, `trails`, `social`, `gamification`). Alvo: um schema por serviço e, no `web`, um arquivo `.prisma` por domínio (suporte a múltiplos arquivos do Prisma), para reduzir conflitos entre frentes.
+- **Criar migration:** `make migrate name=<descricao>` (roda `prisma migrate dev` no container). Commite o schema junto com `apps/web/prisma/migrations/`.
+- **Uma migration por PR.** Se a `main` ganhou outra migration enquanto você trabalhava: faça rebase, apague a sua migration local e gere de novo.
 - **PostGIS e pgvector:** o Prisma não tem tipos nativos para `geometry` e `vector`. Use `Unsupported("geometry(MultiLineString, 4326)")` no schema e `$queryRaw` (com template tag, que é seguro contra SQL injection) nas consultas espaciais e vetoriais. **Nunca** use `$queryRawUnsafe` com dado do usuário.
-- Migrations rodam automaticamente no start de cada container (`prisma migrate deploy`). O seed roda se o banco estiver vazio.
+- Migrations rodam automaticamente no start do container `nextjs` (`prisma migrate deploy`, em `docker/nextjs/tools/entrypoint.sh`). Ainda não há seed.
 
 ## 6. Estrutura do repositório
 
+Hoje:
+
 ```
 .
-├── AGENTS.md  CLAUDE.md  README.md  CONTRIBUTING.md
-├── Makefile                  # `make` sobe tudo (comando único exigido)
-├── compose.yaml
-├── .env.example
+├── README.md  Makefile       # `make` sobe tudo (comando único exigido)
 ├── apps/
-│   └── web/                  # Next.js: UI + BFF + domínio principal
-│       ├── app/              # rotas do App Router, agrupadas por frente:
-│       │                     #   (trilhas)/ (social)/ (comunidades)/ (conta)/ (ia)/
-│       ├── components/ui/    # componentes base (shadcn/ui), dono: Tech Lead
-│       ├── lib/              # auth, db, clientes dos serviços, publishEvent()
-│       └── prisma/schema/    # um .prisma por domínio
-├── services/
-│   ├── realtime/             # Fastify + Socket.IO
-│   ├── trails/               # Fastify + PostGIS; scripts/ingest, seed/
-│   └── ai/                   # Fastify + LLM + RAG; corpus/
-├── packages/
-│   ├── contracts/            # schemas zod: eventos, DTOs internos, eventos de socket
-│   ├── service-kit/          # base Fastify: logger, erros, /health, /ready, /metrics, auth interna
-│   └── config/               # tsconfig e eslint compartilhados
-├── infra/
-│   ├── nginx/  postgres/  prometheus/  alertmanager/  grafana/  backup/
-├── e2e/                      # Playwright: smoke tests + verificação de console limpo
+│   └── web/                  # Next.js: UI + BFF + domínio principal (npm, package-lock próprio)
+│       ├── src/app/          # rotas do App Router (/, /login, /api/health)
+│       ├── src/lib/          # auth.ts (Better Auth), db.ts (cliente Prisma)
+│       ├── prisma/           # schema.prisma + migrations/
+│       └── prisma.config.ts
+├── docker/
+│   ├── docker-compose.yml
+│   ├── .env.example          # copiado para docker/.env pelo make
+│   ├── secrets/              # db_password.txt, better_auth_secret.txt (gerados, fora do git)
+│   ├── nextjs/               # Dockerfile + tools/entrypoint.sh
+│   └── postgres/             # Dockerfile (PostgreSQL 18 + PostGIS + pgvector) + tools/entrypoint.sh
+├── data/postgres/            # dados do banco (bind mount, fora do git)
 └── docs/
 ```
 
-Monorepo com **pnpm workspaces**, TypeScript em tudo ([ADR-0002](adr/0002-monorepo-typescript.md)).
+Previsto (ainda não existe): `services/{realtime,trails,ai}` (Fastify), `packages/{contracts,service-kit,config}`, `docker/{nginx,prometheus,alertmanager,grafana,backup}`, `e2e/` (Playwright). Hoje cada app tem o próprio `package.json` e lockfile (npm); se `packages/` for criado, será preciso adotar workspaces ([ADR-0002](adr/0002-monorepo-typescript.md)).
 
 ## 7. Convenções transversais
 
 | Tema | Convenção |
 |---|---|
+| Lint e formatação | Biome (`npm run lint`, `npm run format` em `apps/web`). |
 | Validação | zod. O mesmo schema valida o formulário (react-hook-form) e o backend. Schemas compartilhados entre serviços ficam em `packages/contracts`. |
 | Erros HTTP | Status correto + corpo `{ "error": { "code": "TRAIL_NOT_FOUND", "message": "…", "details": … } }`. Nada de stack trace na resposta. |
 | Paginação | `?page=1&pageSize=20` → `{ items, page, pageSize, total }`. `pageSize` máximo de 50. |
 | Logs | JSON (pino), com `service`, `requestId`, `userId` quando houver. Sem senhas, tokens ou conteúdo de mensagens. |
 | Métricas | Todo serviço expõe `/metrics` (formato Prometheus) via `service-kit`; o `web` expõe `/api/metrics`. Métricas RED (rate, errors, duration) por rota + métricas de negócio. |
 | Saúde | `/health` (o processo está vivo?) e `/ready` (consegue atender? banco e Redis ok?). |
-| Configuração | Variáveis de ambiente, validadas com zod no boot (o serviço não sobe se faltar variável). |
+| Configuração | Variáveis de ambiente em `docker/.env` (só dados não sensíveis); senhas e chaves como Docker secrets em `docker/secrets/*.txt`, lidos pelo entrypoint. Alvo: validar com zod no boot (o serviço não sobe se faltar variável). |
 | Datas | ISO 8601 em UTC na API; formatação local só na UI. |
 | Nomes | Código em inglês; textos de UI em pt-BR. Eventos `dominio.entidade.acao` (ex.: `community.post.created`). |
 | Feature flags | Variáveis `FEATURE_*` para esconder funcionalidade incompleta da navegação. A `main` sempre pode ser demonstrada. |
@@ -271,14 +269,21 @@ Monorepo com **pnpm workspaces**, TypeScript em tudo ([ADR-0002](adr/0002-monore
 
 ## 9. Infraestrutura e execução
 
-- **Comando único:** `make` → verifica o `.env` (cria a partir do `.env.example` com segredos aleatórios, se faltar) → `docker compose up --build -d`.
-- **Ordem de subida:** `depends_on` com `condition: service_healthy`. O Postgres sobe primeiro; depois cada serviço roda migrations e fica pronto; por último, o nginx.
-- **TLS:** o nginx gera um certificado autoassinado na primeira subida, se não houver um. O navegador mostra aviso, e isso é esperado. A porta 80 redireciona para a 443.
+**Hoje:**
+- **Comando único:** `make` → cria `docker/.env` (a partir do `.env.example`), os segredos em `docker/secrets/` (`openssl rand`) e `data/postgres/`, se faltarem → `docker compose -f docker/docker-compose.yml up -d --build`. Comandos no [README](../README.md#instructions).
+- **Imagens:** Alpine 3.24 montadas por nós. `postgres`: PostgreSQL 18 + PostGIS + pgvector, com entrypoint que roda `initdb`, cria o banco e as extensões na primeira subida. `nextjs`: Node + `npm ci`; o entrypoint lê os secrets, monta a `DATABASE_URL`, roda `prisma generate` e `prisma migrate deploy` e inicia `next dev`.
+- **Ordem de subida:** `nextjs` espera o `postgres` ficar `healthy` (`pg_isready`).
+- **Desenvolvimento:** o código de `apps/web` é montado no container (hot reload com `WATCHPACK_POLLING`); dependências novas com `make npm args="install <pacote>"`.
+- **Volumes:** `postgres_data` (bind mount em `data/postgres/`).
+- **Portas:** `nextjs` 3000 e `prisma-studio` 5555 publicadas no host, em HTTP.
+
+**Alvo:**
+- **Ordem de subida:** o Postgres sobe primeiro; depois cada serviço roda migrations e fica pronto; por último, o nginx.
+- **TLS:** o nginx gera um certificado autoassinado na primeira subida, se não houver um. O navegador mostra aviso, e isso é esperado. A porta 80 redireciona para a 443. Só o nginx publica portas.
 - **Redes:** `public` (só nginx) e `internal` (todo o resto).
 - **Volumes:** `pgdata`, `uploads`, `backups`, `grafana-data`, `prometheus-data`.
-- **Imagens:** Dockerfiles multi-stage. O Next.js usa `output: "standalone"`.
+- **Imagens de avaliação:** multi-stage, com o Next.js em `output: "standalone"` (hoje a imagem roda `next dev`).
 - **Recursos:** são cerca de 15 containers. Defina limites de memória e meça o consumo cedo (máquinas da 42 e WSL2). A observabilidade pode ficar em um profile do compose que é desligado no dia a dia.
-- **Desenvolvimento:** infraestrutura (Postgres, Redis) no Docker e os apps com hot reload no host (`pnpm dev`). Detalhes no guia de setup (F1, Sprint 0).
 
 ## 10. Observabilidade, saúde e backups (resumo)
 
@@ -299,7 +304,7 @@ Detalhes em [frentes/plataforma/README.md](frentes/plataforma/README.md).
 - [ ] Uploads: tipo verificado pelo conteúdo (magic bytes), tamanho limitado, nome aleatório no disco, metadados EXIF removidos das imagens, download só com permissão.
 - [ ] Queries com dados do usuário apenas via Prisma ou `$queryRaw` com template tag.
 - [ ] Conteúdo de usuário renderizado sem `dangerouslySetInnerHTML`; markdown da IA sanitizado.
-- [ ] Segredos só no `.env`; `.env.example` sem valores reais.
+- [ ] Segredos só em `docker/secrets/` (Docker secrets, fora do git); `docker/.env` sem senhas; `.env.example` sem valores reais.
 - [ ] Grafana com senha forte e sem acesso anônimo; Prometheus e Alertmanager não expostos.
 
 ## 12. Decisões e questões em aberto
@@ -307,7 +312,7 @@ Detalhes em [frentes/plataforma/README.md](frentes/plataforma/README.md).
 | ADR | Decisão | Status |
 |---|---|---|
 | [0001](adr/0001-arquitetura-servicos.md) | Next.js como web/BFF + 3 serviços satélites | Proposta |
-| [0002](adr/0002-monorepo-typescript.md) | Monorepo pnpm, TypeScript em tudo, Fastify nos serviços | Proposta |
+| [0002](adr/0002-monorepo-typescript.md) | Monorepo com npm, TypeScript em tudo, Fastify nos serviços | Proposta |
 | [0003](adr/0003-banco-de-dados.md) | Postgres: 1 servidor, 1 banco por serviço; Prisma; PostGIS e pgvector | Proposta |
 | [0004](adr/0004-autenticacao.md) | Better Auth com sessão em cookie | Proposta |
 | [0005](adr/0005-comunicacao.md) | REST interno + Redis pub/sub + Socket.IO | Proposta |

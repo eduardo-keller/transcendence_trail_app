@@ -1,6 +1,6 @@
 # F5: Assistente IA
 
-> Última atualização: 2026-10-01 — escopo inicial. Provedor de LLM pendente ([ADR-0007](../../adr/0007-provedor-llm-embeddings.md)).
+> Última atualização: 2026-10-17 — estado atual. Provedor de LLM pendente ([ADR-0007](../../adr/0007-provedor-llm-embeddings.md)).
 
 | | |
 |---|---|
@@ -159,4 +159,4 @@ Estudo: [pgvector](https://github.com/pgvector/pgvector) · [MDN: Server-sent ev
 
 ## 11. Estado atual
 
-Nada implementado ainda.
+(2026-10-17) Nada implementado. A extensão `vector` (pgvector) já é criada no banco único pelo entrypoint do `postgres`.

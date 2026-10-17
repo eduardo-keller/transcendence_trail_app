@@ -1,13 +1,13 @@
 # F2: Identidade & Comunidades
 
-> Última atualização: 2026-10-01 — escopo inicial.
+> Última atualização: 2026-10-17 — estado atual e schema existente.
 
 | | |
 |---|---|
 | **Dono** | *a definir* |
 | **Apoio** | *a definir* |
 | **Módulos** | Gerenciamento padrão de usuários (2, com a F3), Upload de arquivos (1); parte obrigatória: cadastro e login seguros; produto: Comunidades |
-| **Status** | ⬜ não iniciado |
+| **Status** | 🟡 em andamento |
 | **Planos** | [planos/](planos/) |
 
 ## 1. Objetivo
@@ -40,7 +40,7 @@ Os critérios dos módulos 4 e 9 estão em [MODULES.md](../../MODULES.md#4-geren
 
 ### Dados (banco `web`)
 
-Arquivos Prisma desta frente: `auth.prisma` (gerado ou estendido a partir do Better Auth), `files.prisma`, `communities.prisma`.
+**Hoje:** um único `apps/web/prisma/schema.prisma`, seções `better-auth core` e `social`. Os modelos existentes (`User`, `Session`, `Account`, `Verification`, `Community`, `CommunityMember`, `Post`) diferem da tabela abaixo; as diferenças estão em [STATUS.md](../../STATUS.md#divergências-entre-docs-e-código). **Alvo:** arquivos `auth.prisma`, `files.prisma` e `communities.prisma`.
 
 | Modelo | Campos principais | Observações |
 |---|---|---|
@@ -165,4 +165,9 @@ Estudo: [Better Auth](https://www.better-auth.com/docs) · [Next.js: Server Acti
 
 ## 11. Estado atual
 
-Nada implementado ainda.
+(2026-10-17)
+- `apps/web/src/lib/auth.ts`: Better Auth com adapter Prisma, e-mail e senha e o plugin `nextCookies()`. O segredo vem do Docker secret `better_auth_secret`.
+- Tabelas do Better Auth criadas (migration `20261017161143_better_auth_and_cleanup`).
+- `/login`: formulário com uma Server Action que só confere os tipos dos campos; ainda não autentica.
+- Faltam: o Route Handler `app/api/auth/[...all]/route.ts`, o cliente de auth, `/cadastro`, `getSession()`/`requireUser()`, seed de usuários, perfil, arquivos e comunidades.
+- O plano usa `/entrar` para o login; o código usa `/login`. Decidir um dos dois.

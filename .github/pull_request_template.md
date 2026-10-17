@@ -21,14 +21,14 @@ Closes #
 - [ ] Testei no Chrome com o DevTools aberto: **nenhum erro ou warning no console**
 - [ ] Ações de criar, editar ou excluir geram notificação ([matriz](../docs/frentes/social/README.md#matriz-de-notificações)), ou não se aplica
 - [ ] Autorização conferida no servidor (quem pode ver ou fazer isso?), ou não se aplica
-- [ ] Nenhum segredo no diff; `.env.example` atualizado se criei uma variável
+- [ ] Nenhum segredo no diff; `docker/.env.example` atualizado se criei uma variável
 - [ ] Mudou contrato? Label `contrato` + revisão dos donos afetados
 
-### Documentação ([AGENTS.md §7](../AGENTS.md#7-como-atualizar-a-documentação-parte-da-definition-of-done))
+### Documentação
 - [ ] `docs/STATUS.md` (se mudou o status de frente ou módulo)
 - [ ] `docs/contracts/README.md` + `packages/contracts` (se mudou endpoint ou evento)
 - [ ] README da frente (Estado atual / Decisões)
-- [ ] `README.md` raiz (Features), se é visível ao usuário
+- [ ] `README.md` raiz (Features; Instructions se mudou o setup ou o `Makefile`; Database Schema se mudou uma relação)
 - [ ] ADR (se é decisão que afeta mais de uma frente)
 - [ ] Nada a atualizar (justifique):
 

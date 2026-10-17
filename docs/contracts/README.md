@@ -1,6 +1,6 @@
 # Contratos entre serviços
 
-> Última atualização: 2026-10-01 — versão inicial (tudo "Planejado").
+> Última atualização: 2026-10-17 — `GET /api/health` do `web` implementado; o resto continua planejado. `packages/contracts` ainda não existe.
 > Donos: Tech Lead + dono de cada serviço produtor.
 
 Um **contrato** é o acordo sobre como dois serviços conversam: rota, formato de entrada e saída, erros, eventos. É o que permite que cinco pessoas trabalhem em paralelo: cada uma programa contra o contrato, sem esperar a implementação da outra.
@@ -70,6 +70,7 @@ Status: 📝 planejado · 🟡 em implementação · ✅ implementado. **O plano
 | `GET /api/internal/users/batch?ids=` | Nome, username e avatar para exibir no chat e nas notificações | realtime | 📝 |
 | `GET /api/internal/users/:id/friends` | IDs dos amigos (fan-out de presença) | realtime | 📝 |
 | `GET /api/internal/friendships/check?a=&b=` | São amigos? (autorizar o chat) | realtime | 📝 |
+| `GET /api/health` | Saúde do `web`: devolve `{ ok: true, trails: <número de trilhas> }` (consulta o banco) | compose, status page | ✅ (provisório: vira `/health` + `/ready` no padrão abaixo) |
 
 Todos os serviços também expõem `GET /health`, `GET /ready` e `GET /metrics` (via `service-kit`), consumidos pelo compose, pelo Prometheus e pela status page.
 

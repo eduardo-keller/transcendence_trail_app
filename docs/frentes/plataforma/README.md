@@ -1,13 +1,13 @@
 # F1: Plataforma & Observabilidade
 
-> Última atualização: 2026-10-01 — escopo inicial.
+> Última atualização: 2026-10-17 — estado atual, caminhos (`docker/`) e ferramentas (npm, Biome) alinhados ao código.
 
 | | |
 |---|---|
 | **Dono** | *a definir* (sugestão: Tech Lead) |
 | **Apoio** | *a definir* |
 | **Módulos** | Microsserviços (2), Monitoramento Prometheus/Grafana (2), Health/Status/Backups (1); configura Frameworks e ORM |
-| **Status** | ⬜ não iniciado |
+| **Status** | 🟡 em andamento |
 | **Planos** | [planos/](planos/) |
 
 ## 1. Objetivo
@@ -17,17 +17,17 @@ Ser o **chão** sobre o qual as outras frentes constroem: o repositório, os con
 ## 2. Escopo
 
 **Dentro:**
-- Monorepo pnpm, configs compartilhadas (TypeScript, ESLint, Prettier, Vitest).
+- Monorepo com npm ([ADR-0002](../../adr/0002-monorepo-typescript.md)), Biome (lint e formatação), TypeScript, Vitest.
 - `packages/service-kit`: base Fastify (logger pino, tratamento de erros no formato padrão, validação zod, `/health`, `/ready`, `/metrics`, verificação de `x-internal-token`, propagação de `x-request-id`, encerramento gracioso).
 - Template de serviço (uma pasta para copiar) usado por F3, F4 e F5.
-- `compose.yaml`, Dockerfiles multi-stage, `Makefile`, `.env.example`, geração de segredos.
+- `docker/docker-compose.yml`, Dockerfiles (multi-stage para a avaliação), `Makefile`, `docker/.env.example`, geração de segredos (Docker secrets em `docker/secrets/`).
 - nginx: TLS autoassinado gerado automaticamente, 80 → 443, roteamento, upgrade de WebSocket, SSE sem buffer, headers de segurança, `client_max_body_size`, bloqueio de `/api/internal/*` e `/api/metrics`.
 - Postgres (imagem com PostGIS + pgvector), script de init (bancos, usuários, extensões); Redis.
 - CI no GitHub Actions: lint, typecheck, testes, build das imagens.
 - Prometheus + exporters, Grafana (provisionado), Alertmanager, regras de alerta.
 - Status page `/status` (página no `web`, junto com a F2 para o layout).
 - Backups, restauração, runbook de recuperação de desastre.
-- Guia de setup (`docs/guides/setup.md`) e a seção "Comandos" do AGENTS.md.
+- Guia de setup na seção "Instructions" do [README raiz](../../../README.md#instructions).
 
 **Fora:** lógica de negócio dos serviços; métricas de negócio específicas (cada frente adiciona as suas usando o `service-kit`).
 
@@ -36,24 +36,24 @@ Ser o **chão** sobre o qual as outras frentes constroem: o repositório, os con
 Os critérios dos módulos 7, 13 e 14 estão em [MODULES.md](../../MODULES.md#7-backend-em-microsserviços-major). Da parte obrigatória, esta frente garante:
 - [ ] `make` sobe tudo numa máquina limpa (só com Docker e Make instalados, mais o `.env`).
 - [ ] HTTPS em tudo; só o nginx publica portas.
-- [ ] `.env` ignorado e `.env.example` completo.
+- [ ] `docker/.env` e `docker/secrets/` ignorados pelo git; `docker/.env.example` completo.
 
 ## 4. Desenho
 
-### Containers (`compose.yaml`)
+### Containers (`docker/docker-compose.yml`)
 
 | Container | Imagem | Rede | Volume | Observação |
 |---|---|---|---|---|
 | nginx | nginx | public + internal | certs | Única porta publicada (8443, 8080 → redirect) |
 | web | build `apps/web` | internal | uploads | `depends_on` postgres, redis |
 | realtime, trails, ai | build `services/*` | internal | ai: cache do modelo | |
-| postgres | build `infra/postgres` (postgis + pgvector) | internal | pgdata | init cria 4 bancos e 4 usuários |
+| postgres | build `docker/postgres` (Alpine + PostgreSQL 18 + PostGIS + pgvector) | internal | `data/postgres` (bind) | entrypoint faz `initdb`; alvo: criar 4 bancos e 4 usuários (hoje cria 1 banco) |
 | redis | redis | internal | — | |
 | prometheus | prom/prometheus | internal | prometheus-data | retenção de 7 dias |
 | alertmanager | prom/alertmanager | internal | — | webhook do Discord via `.env` |
 | grafana | grafana/grafana | internal | grafana-data | `/grafana/` via nginx; sem anônimo |
 | node-exporter, cadvisor, postgres-exporter, redis-exporter, nginx-exporter | oficiais | internal | — | cAdvisor pode precisar de ajuste no WSL2 ou Docker Desktop |
-| backup | build `infra/backup` | internal | backups, uploads (somente leitura) | cron com `pg_dump` |
+| backup | build `docker/backup` | internal | backups, uploads (somente leitura) | cron com `pg_dump` |
 
 Use um **profile** `observability` para poder desligar Prometheus, Grafana e exporters no dia a dia (economiza RAM). No `make` de avaliação, tudo sobe.
 
@@ -63,7 +63,7 @@ Use um **profile** `observability` para poder desligar Prometheus, Grafana e exp
 - Métricas padrão do processo Node (CPU, memória, event loop)
 - Cada frente adiciona as suas (ex.: `realtime_connected_clients`, `ai_tokens_total`, `trails_search_duration_seconds`)
 
-### Dashboards (provisionados em `infra/grafana/`)
+### Dashboards (provisionados em `docker/grafana/`)
 1. **Serviços (RED):** taxa de requisições, erros e latência p50/p95 por serviço e rota.
 2. **Infraestrutura:** CPU, memória e rede por container; disco; Postgres (conexões, tamanho dos bancos); Redis.
 3. **Produto:** usuários conectados, mensagens por minuto, notificações enviadas, requisições e tokens de IA, rate limit atingido, buscas.
@@ -119,20 +119,23 @@ Estudo: [Docker Compose](https://docs.docker.com/compose/) · [Prometheus](https
 ## 7. Backlog inicial (sementes para issues)
 
 **M0 (Sprint 0)**
-- [ ] Monorepo pnpm + configs (TS, ESLint, Prettier, Vitest)
-- [ ] `infra/postgres` (imagem + init com 4 bancos, 4 usuários e extensões)
-- [ ] `compose.yaml` base (postgres, redis, nginx, web, serviços) + redes + volumes
+- [x] Estrutura `apps/` + `docker/`; npm + Biome em `apps/web`
+- [ ] Vitest e script de typecheck
+- [x] `docker/postgres`: imagem com PostGIS + pgvector e entrypoint de init
+- [ ] Init com 4 bancos, 4 usuários e extensões por banco
+- [x] `docker/docker-compose.yml` com `postgres`, `nextjs` e `prisma-studio` (profile `tools`)
+- [ ] Redis, nginx, serviços satélites, redes `public`/`internal`
 - [ ] nginx: TLS autoassinado automático, rotas, WebSocket, SSE, headers, bloqueios
 - [ ] `packages/service-kit` + template de serviço
-- [ ] `Makefile` (`make`, `make down`, `make logs`, `make dev-infra`, `make clean`) + geração do `.env`
+- [x] `Makefile` (`make`, `down`, `stop`, `logs`, `sh`, `npm`, `migrate`, `studio`, `clean`, `fclean`, `re`) + geração do `.env` e dos secrets
 - [ ] CI (lint, typecheck, testes)
-- [ ] Guia de setup + seção "Comandos" do AGENTS.md
+- [x] Guia de setup (README raiz, "Instructions")
 - [ ] Medir o consumo de RAM com tudo de pé
 
 **M1**
 - [ ] Prometheus + exporters + scrape de todos os serviços
 - [ ] Dashboard 1 (Serviços RED)
-- [ ] Healthchecks e `depends_on` no compose
+- [ ] Healthchecks e `depends_on` no compose (feito para o `postgres`; falta nos demais)
 - [ ] CI constrói as imagens Docker
 
 **M2**
@@ -171,4 +174,8 @@ Estudo: [Docker Compose](https://docs.docker.com/compose/) · [Prometheus](https
 
 ## 11. Estado atual
 
-Nada implementado ainda.
+(2026-10-17)
+- `make` sobe `postgres` e `nextjs` em HTTP (porta 3000) a partir de `docker/docker-compose.yml`; `make studio` sobe o Prisma Studio na 5555.
+- Imagens Alpine próprias. `postgres`: `initdb` na primeira subida, senha por Docker secret, um banco com `postgis` e `vector`, healthcheck `pg_isready`. `nextjs`: `npm ci` se o lock mudou, `prisma generate`, `prisma migrate deploy` e `next dev` com o código montado.
+- Segredos gerados pelo `make` em `docker/secrets/`; `docker/.env` só com dados não sensíveis.
+- Ainda não existem: nginx/HTTPS, Redis, `service-kit`, CI, observabilidade, backups.

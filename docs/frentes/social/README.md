@@ -1,6 +1,6 @@
 # F3: Social em Tempo Real
 
-> Última atualização: 2026-10-01 — escopo inicial.
+> Última atualização: 2026-10-17 — estado atual.
 
 | | |
 |---|---|
@@ -19,7 +19,7 @@ Fazer os usuários **se conectarem e conversarem**: amizades, presença online, 
 **Dentro:**
 - **Serviço `realtime`** (Fastify + Socket.IO, a partir do template da F1): autenticação no handshake, salas `user:<id>` e `community:<id>`, consumo de eventos do Redis, métricas de negócio.
 - **Cliente de socket no `web`:** provider que conecta **só quando há sessão**, instância única (StrictMode em dev monta os componentes duas vezes), hooks com limpeza dos listeners, banner "reconectando…".
-- **Amizades** (no `web`, arquivo `social.prisma`): pedir, aceitar, recusar, cancelar, remover, listar; página `/amigos`; publicação de `friendship.changed`.
+- **Amizades** (no `web`; hoje o schema é um arquivo só, `apps/web/prisma/schema.prisma`): pedir, aceitar, recusar, cancelar, remover, listar; página `/amigos`; publicação de `friendship.changed`.
 - **Presença:** online/offline com várias abas e período de tolerância contra piscadas; enviada **só para amigos**.
 - **Chat 1:1 entre amigos:** enviar com ack e idempotência, receber, histórico paginado, lista de conversas com não lidas, indicador de digitação, confirmação de leitura; página `/mensagens`; atalho "enviar mensagem" no perfil.
 - **Notificações:** consumidor de `notification.requested`, persistência, entrega em tempo real, API (listar, marcar como lida), sino no header com contador, página `/notificacoes`, toasts. **Mantém a matriz** (abaixo).
@@ -179,4 +179,4 @@ Estudo: [Socket.IO v4](https://socket.io/docs/v4/) (rooms, acknowledgements, con
 
 ## 11. Estado atual
 
-Nada implementado ainda.
+(2026-10-17) Nenhuma funcionalidade implementada. O schema do `web` já tem um modelo `Notification` (`message`, `isRead`), diferente do planejado acima e no banco errado segundo o plano (ver [STATUS.md](../../STATUS.md#divergências-entre-docs-e-código)). `Friendship`, `Conversation` e `Message` não existem.

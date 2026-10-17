@@ -1,7 +1,7 @@
 # Como trabalhamos
 
-> Última atualização: 2026-10-01 — processo inicial (ajustar nas retros).
-> Dono: PM. Git e PRs ficam em [CONTRIBUTING.md](../CONTRIBUTING.md).
+> Última atualização: 2026-10-17 — removidas as referências a `AGENTS.md` e `CONTRIBUTING.md` (apagados no commit `3adf507`).
+> Dono: PM. Checklist de PR: [.github/pull_request_template.md](../.github/pull_request_template.md).
 
 Princípio geral: **o mínimo de processo que mantém 5 pessoas sincronizadas e aprendendo.** Se um ritual não está ajudando, a retro decide mudar.
 
@@ -98,14 +98,14 @@ Vamos usar bastante IA, e isso é bom. As regras abaixo existem para que a IA ac
 3. **Escreva você mesmo, ou em par com a IA como tutora,** a lógica central do seu módulo. Exemplos: a query de busca geoespacial, o handler de chat, o cálculo de desnível, o pipeline de RAG, a checagem de permissão em comunidades. É isso que o avaliador vai pedir para explicar e modificar.
 4. **Registre o uso de IA na PR** (campo do template). O README exige uma seção sobre como a IA foi usada, e ela vai ser montada a partir desses registros.
 5. **Não cole segredos** (`.env`, chaves) nem dados pessoais de usuários em prompts.
-6. **Agentes seguem o [AGENTS.md](../AGENTS.md).** Se você programar sem agente, o checklist do template de PR cobre o mesmo que o agente faria.
+6. **Agentes seguem o mesmo checklist do template de PR** e a [hierarquia da verdade](README.md#hierarquia-da-verdade) (o código vence os docs).
 
 ### Trabalhando sem agente
 O mínimo para não deixar a documentação para trás:
 1. Preencha o checklist do template de PR, incluindo a parte de docs.
 2. Atualize a linha da sua frente ou módulo em `docs/STATUS.md` quando algo mudar de estado.
 3. Mudou um contrato? Atualize `packages/contracts` e a tabela em `docs/contracts/README.md` e marque a label `contrato`.
-4. Atalho: antes de abrir a PR, peça a um agente "atualize a documentação conforme a tabela do AGENTS.md §7 para o diff desta branch" e revise o resultado.
+4. Atalho: antes de abrir a PR, peça a um agente o prompt "Atualizar a documentação da branch" (abaixo) e revise o resultado.
 
 ## Manutenção da documentação
 
@@ -115,11 +115,11 @@ O mínimo para não deixar a documentação para trás:
 
 ## Prompts prontos
 
-Copie, cole e ajuste. Funcionam em qualquer agente que leia o `AGENTS.md`.
+Copie, cole e ajuste. Funcionam em qualquer agente com acesso ao repositório.
 
 **Começar uma tarefa**
 ```
-Leia o AGENTS.md e a issue #<N>. Verifique o estado atual do código da frente <frente>
+Leia docs/README.md e a issue #<N>. Verifique o estado atual do código da frente <frente>
 (arquivos relevantes e git log recente). Se a tarefa não for trivial, proponha um plano
 usando docs/templates/plano-implementacao.md e salve em docs/frentes/<frente>/planos/.
 Não escreva código antes da minha aprovação. Liste dúvidas que afetem contratos ou outras frentes.
@@ -127,8 +127,9 @@ Não escreva código antes da minha aprovação. Liste dúvidas que afetem contr
 
 **Atualizar a documentação da branch**
 ```
-Compare esta branch com a main. Seguindo a tabela do AGENTS.md §7, atualize a documentação
-necessária (STATUS, contratos, README da frente, README.md, .env.example). Não invente
+Compare esta branch com a main. Seguindo o checklist de documentação de
+.github/pull_request_template.md, atualize a documentação necessária (STATUS, contratos,
+README da frente, README.md, docker/.env.example). Não invente
 conteúdo de "Contribuições individuais". Liste o que mudou em cada arquivo.
 ```
 

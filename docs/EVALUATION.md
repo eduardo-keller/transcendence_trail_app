@@ -1,6 +1,6 @@
 # Preparação para a avaliação
 
-> Última atualização: 2026-10-01 — checklist inicial.
+> Última atualização: 2026-10-17 — credenciais e comando único alinhados ao `Makefile` e a `docker/`.
 > Dono: PO. Usado intensamente nas semanas 7 e 8 ([ROADMAP.md](ROADMAP.md#2-fases-e-marcos)).
 
 O subject é claro: **se a parte obrigatória falhar, o projeto é rejeitado**, e **módulo que não funciona vale 0**. Este documento existe para não haver surpresa.
@@ -11,7 +11,7 @@ O subject é claro: **se a parte obrigatória falhar, o projeto é rejeitado**, 
 |---|---|---|---|
 | [ ] | Aplicação web com frontend, backend e banco | Arquitetura | Tech Lead |
 | [ ] | Git com commits de **todos**, mensagens claras, trabalho distribuído | `git shortlog -sn`; histórico completo no repositório de entrega | PM |
-| [ ] | Containerização com **um único comando** | Clone limpo → `.env` → `make` | F1 |
+| [ ] | Containerização com **um único comando** | Clone limpo → `make` (gera `docker/.env` e os secrets) | F1 |
 | [ ] | Compatível com a versão estável mais recente do Chrome | Roteiro completo no Chrome atualizado | Todos |
 | [ ] | **Nenhum warning ou erro no console** | Teste Playwright de console + navegação manual com o DevTools aberto | Tech Lead |
 | [ ] | Política de Privacidade e Termos de Uso **acessíveis** (links no rodapé) e com **conteúdo relevante** (não placeholder) | `/privacidade`, `/termos` (seção 2) | PO |
@@ -20,7 +20,7 @@ O subject é claro: **se a parte obrigatória falhar, o projeto é rejeitado**, 
 | [ ] | Sem corrupção de dados nem race conditions | Constraints, transações, idempotência (explicar) | Todos |
 | [ ] | Frontend claro, responsivo e acessível | Mobile (DevTools), navegação por teclado, contraste | Todos |
 | [ ] | Framework CSS ou solução de estilo | Tailwind + shadcn/ui | — |
-| [ ] | Credenciais no `.env` ignorado + `.env.example` | `git ls-files \| grep .env` mostra só o `.env.example` | F1 |
+| [ ] | Credenciais fora do git + `.env.example` | `git ls-files \| grep -E "\.env\|secrets"` mostra só `docker/.env.example` e `docker/secrets/.gitkeep` | F1 |
 | [ ] | Schema do banco claro, com relações bem definidas | Schemas Prisma + diagrama no README | Tech Lead |
 | [ ] | Cadastro e login com e-mail e senha seguros (hash com salt) | Mostrar a configuração do Better Auth e o hash no banco | F2 |
 | [ ] | Validação de **todos** os formulários no front **e** no back | Testar enviando dados inválidos pelo DevTools ou curl, ignorando o front | Todos |
@@ -52,7 +52,7 @@ O subject avisa que **páginas inadequadas reprovam o projeto**. Conteúdo espec
 ## 4. Logística do dia
 
 - [ ] Máquina de demonstração testada **no dia anterior**, a partir de um clone limpo do repositório de entrega.
-- [ ] `.env` pronto (num local seguro, fora do repo), com a chave de LLM **com saldo** e uma chave reserva.
+- [ ] `docker/.env` e segredos prontos (num local seguro, fora do repo), com a chave de LLM **com saldo** e uma chave reserva.
 - [ ] Contas de demonstração criadas (seed de demo) + saber criar uma conta nova na hora.
 - [ ] Dois navegadores (ou janela normal + anônima) e um celular ou modo responsivo para mostrar o mobile.
 - [ ] Grafana já logado numa aba; senha do Grafana à mão.

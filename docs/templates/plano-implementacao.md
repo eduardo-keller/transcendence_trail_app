@@ -71,7 +71,7 @@ COMO USAR ESTE TEMPLATE
 - [ ] 1.
 - [ ] 2.
 - [ ] 3. Testes
-- [ ] 4. Documentação (AGENTS.md §7)
+- [ ] 4. Documentação (checklist do template de PR)
 
 ## 8. Como verificar
 
