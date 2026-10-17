@@ -1,6 +1,6 @@
 # F2: Identidade & Comunidades
 
-> Última atualização: 2026-10-17 — alinhado ao código: Better Auth configurado, modelos do schema atual (`CommunityMember` com `Role`, `Event`, `Post.mediaUrl`), rota `/login`.
+> Última atualização: 2026-10-17 — rotas do Better Auth (`/api/auth/*`), rate limit e cliente de auth.
 
 | | |
 |---|---|
@@ -67,7 +67,7 @@ Os critérios dos módulos 4 e 9 estão em [MODULES.md](../../MODULES.md#4-geren
 
 | Ação | Tipo | Quem pode |
 |---|---|---|
-| Cadastro, login, logout | Better Auth (`app/api/auth/[...all]/route.ts`, a criar) | Qualquer um |
+| Cadastro, login, logout | Better Auth (`app/api/auth/[...all]/route.ts`) | Qualquer um |
 | Atualizar perfil | Server Action | O próprio usuário |
 | `POST /api/files` (multipart) | Route Handler (precisa de XHR para o progresso) | Logado; limites por `kind` |
 | `GET /api/files/:id` | Route Handler | Conforme `visibility` e associação à comunidade |
@@ -130,7 +130,7 @@ Estudo: [Better Auth](https://www.better-auth.com/docs) · [Next.js: Server Acti
 
 **M0**
 - [x] Better Auth + adapter Prisma + tabelas (`src/lib/auth.ts`, migration `better_auth_and_cleanup`)
-- [ ] Route Handler `app/api/auth/[...all]/route.ts` + cliente de auth
+- [x] Route Handler `app/api/auth/[...all]/route.ts` + cliente de auth + rate limit
 - [ ] `/login` autenticando de verdade e `/cadastro`, com validação no front e no back
 - [ ] `getSession()` / `requireUser()` + proteção de rotas
 - [ ] Seed de usuários de dev
@@ -177,11 +177,15 @@ Estudo: [Better Auth](https://www.better-auth.com/docs) · [Next.js: Server Acti
 | 2026-10-17 | Papéis `ADMIN`/`MODERATOR`/`MEMBER` (enum `Role`), sem dono único | Modelo do schema atual |
 | 2026-10-17 | Login em `/login` | Rota já criada no código |
 | 2026-10-17 | Comunidades têm eventos (`Event`, `EventParticipant`) | Modelo do schema atual |
+| 2026-10-17 | Rate limit ligado também em dev, em memória: 5/min no login e 3/min no cadastro (por IP); 100/min nas demais rotas de auth | O padrão do Better Auth só liga em produção, e o container roda `next dev`. Em memória não precisa de tabela, mas zera ao reiniciar. Com o nginx, configurar `advanced.ipAddress.trustedProxies` |
 
 ## 11. Estado atual
 
 (2026-10-17)
-- `apps/web/src/lib/auth.ts`: Better Auth com adapter Prisma, e-mail e senha e o plugin `nextCookies()`. O segredo vem do Docker secret `better_auth_secret`.
+- `apps/web/src/lib/auth.ts`: Better Auth com adapter Prisma, e-mail e senha (mínimo de 8 caracteres), rate limit e o plugin `nextCookies()`. O segredo vem do Docker secret `better_auth_secret`.
+- `app/api/auth/[...all]/route.ts`: rotas do Better Auth (`/api/auth/sign-up/email`, `/sign-in/email`, `/sign-out`, `/get-session`...).
+- `apps/web/src/lib/auth-client.ts`: cliente para componentes do navegador.
+- Cookie de sessão `HttpOnly` e `SameSite=Lax`; sem `Secure` enquanto não houver HTTPS.
 - Tabelas do Better Auth e de comunidades, eventos e posts criadas (migrations `20261017005754_init` e `20261017161143_better_auth_and_cleanup`).
 - `/login`: formulário com uma Server Action que só confere os tipos dos campos; ainda não autentica.
-- Faltam: o Route Handler do Better Auth, o cliente de auth, `/cadastro`, `getSession()`/`requireUser()`, seed, perfil, arquivos e as telas de comunidades.
+- Faltam: `/cadastro`, `getSession()`/`requireUser()`, seed, perfil, arquivos e as telas de comunidades.

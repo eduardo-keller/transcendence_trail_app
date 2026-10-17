@@ -1,6 +1,6 @@
 # Contratos entre serviços
 
-> Última atualização: 2026-10-17 — alinhado ao código: rotas de trilhas no `web` (não há serviço `trails`); notificações gravadas pelo `web` (`notification.created`). Só `GET /api/health` está implementado. `packages/contracts` ainda não existe.
+> Última atualização: 2026-10-17 — alinhado ao código: rotas de trilhas no `web` (não há serviço `trails`); notificações gravadas pelo `web` (`notification.created`). Implementados: `GET /api/health` e `/api/auth/*`. `packages/contracts` ainda não existe.
 > Donos: Tech Lead + dono de cada serviço produtor.
 
 Um **contrato** é o acordo sobre como dois serviços conversam: rota, formato de entrada e saída, erros, eventos. É o que permite que cinco pessoas trabalhem em paralelo: cada uma programa contra o contrato, sem esperar a implementação da outra.
@@ -42,7 +42,7 @@ Status: 📝 planejado · 🟡 em implementação · ✅ implementado. **O plano
 | Método e rota | Uso | Dono | Status |
 |---|---|---|---|
 | `GET /api/health` | Saúde do `web`: devolve `{ ok: true, trails: <número de trilhas> }` (consulta o banco) | F1 | ✅ (provisório: vira `/health` + `/ready`) |
-| `/api/auth/*` | Rotas do Better Auth (cadastro, login, logout, sessão) | F2 | 📝 |
+| `/api/auth/*` | Rotas do Better Auth (cadastro, login, logout, sessão) | F2 | ✅ |
 | `GET /api/trails` | Busca de trilhas com filtros, ordenação e paginação (parâmetros em [frentes/trilhas](../frentes/trilhas/README.md#api)) | F4 | 📝 |
 | `GET /api/trails/:id` | Detalhe com `routeGeoJSON` | F4 | 📝 |
 | `POST /api/files`, `GET` e `DELETE /api/files/:id` | Upload, download e exclusão de arquivos | F2 | 📝 |

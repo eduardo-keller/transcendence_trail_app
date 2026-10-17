@@ -125,7 +125,7 @@ Fonte: o campo "Uso de IA nesta PR" de cada PR. O PM consolida no M3.
 | Backend | Serviços Fastify (TypeScript): `realtime` e `ai` | Planejado | [ADR-0001](docs/adr/0001-arquitetura-servicos.md), [ADR-0002](docs/adr/0002-monorepo-typescript.md) |
 | Banco | PostgreSQL 18 + PostGIS + pgvector, via Prisma 7 (`@prisma/adapter-pg`) | Em uso (um banco, um schema Prisma) | [ADR-0003](docs/adr/0003-banco-de-dados.md) |
 | Tempo real | Socket.IO + Redis pub/sub | Planejado | [ADR-0005](docs/adr/0005-comunicacao.md) |
-| Autenticação | Better Auth (e-mail e senha, adapter Prisma) | Configurado, ainda sem rotas | [ADR-0004](docs/adr/0004-autenticacao.md) |
+| Autenticação | Better Auth (e-mail e senha, adapter Prisma) | Rotas `/api/auth/*` e rate limit; telas a fazer | [ADR-0004](docs/adr/0004-autenticacao.md) |
 | IA | *provedor a definir* + embeddings locais + pgvector | Planejado | [ADR-0007](docs/adr/0007-provedor-llm-embeddings.md) |
 | Infra | Docker Compose (imagens Alpine próprias), Docker secrets, Makefile | Em uso | Comando único exigido pelo subject |
 | Infra | nginx (TLS), Prometheus, Grafana, Alertmanager | Planejado | Módulos de DevOps |
