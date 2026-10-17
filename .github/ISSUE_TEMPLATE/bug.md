@@ -1,7 +1,7 @@
 ---
 name: Bug
 about: Algo não funciona como deveria
-title: "bug(<frente>): <descrição curta>"
+title: "bug: <descrição curta>"
 labels: "tipo:bug"
 assignees: ""
 ---

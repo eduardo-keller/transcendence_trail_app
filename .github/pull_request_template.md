@@ -4,38 +4,32 @@
 
 Closes #
 
-**Frente:** <!-- plataforma | identidade | social | trilhas | ia -->
-**Módulo(s) da avaliação:** <!-- ex.: Busca avançada -->
-**Plano:** <!-- link para docs/frentes/<frente>/planos/... ou "não se aplica (tarefa pequena)" -->
+**Área / módulo(s):** <!-- ex.: Di / 4. Gerenciamento de usuários (docs/MODULOS.md) -->
 
 ## Como testar
 
-<!-- Passos para o revisor reproduzir. Inclua usuários do seed, URLs, comandos. -->
+<!-- Passos para quem revisa reproduzir: usuários, URLs, comandos. -->
 1.
 
-## Checklist (Definition of Done)
+## Checklist
 
-- [ ] Critérios de aceite da issue atendidos
 - [ ] Entradas novas validadas no front **e** no back (zod)
-- [ ] Lint, typecheck e testes passando
 - [ ] Testei no Chrome com o DevTools aberto: **nenhum erro ou warning no console**
-- [ ] Ações de criar, editar ou excluir geram notificação ([matriz](../docs/frentes/social/README.md#matriz-de-notificações)), ou não se aplica
-- [ ] Autorização conferida no servidor (quem pode ver ou fazer isso?), ou não se aplica
-- [ ] Nenhum segredo no diff; `docker/.env.example` atualizado se criei uma variável
-- [ ] Mudou contrato? Label `contrato` + revisão dos donos afetados
+- [ ] Ações de criar, editar ou excluir chamam `notify()` e estão na [lista de notificações](../docs/MODULOS.md#ações-que-geram-notificação) (ou não se aplica)
+- [ ] Autorização conferida no servidor (ou não se aplica)
+- [ ] Nenhum segredo no diff; `docker/.env.example` atualizado se criei variável
+- [ ] Mensagens de commit claras (nada de `wip`)
 
 ### Documentação
-- [ ] `docs/STATUS.md` (se mudou o status de frente ou módulo)
-- [ ] `docs/contracts/README.md` + `packages/contracts` (se mudou endpoint ou evento)
-- [ ] README da frente (Estado atual / Decisões)
-- [ ] `README.md` raiz (Features; Instructions se mudou o setup ou o `Makefile`; Database Schema se mudou uma relação)
-- [ ] ADR (se é decisão que afeta mais de uma frente)
-- [ ] Nada a atualizar (justifique):
+- [ ] Caixas da minha seção em [docs/MODULOS.md](../docs/MODULOS.md)
+- [ ] [Interfaces entre pessoas](../docs/TECNICO.md#interfaces-entre-pessoas), se criei ou mudei algo que outra pessoa usa
+- [ ] `README.md`: Features (com o meu nome); Instructions se mudei o setup; Database Schema se mudei uma relação
+- [ ] Nada a atualizar
 
 ## Uso de IA nesta PR
 
-<!-- Ferramenta(s), para quê, e o que você revisou ou reescreveu. Alimenta a seção "AI usage" do README. -->
+<!-- Ferramenta(s), para quê, o que você revisou ou reescreveu. Alimenta a seção de IA do README. Se não usou, escreva "nenhum". -->
 
-## O que aprendi / como eu explicaria isso na avaliação
+## Como eu explicaria isso na avaliação
 
-<!-- Escrito POR VOCÊ, não pela IA. 2–5 linhas. Também serve de base para "Individual Contributions" no README. -->
+<!-- Escrito POR VOCÊ. 2–5 linhas. Também serve de base para "Individual Contributions" no README. -->
