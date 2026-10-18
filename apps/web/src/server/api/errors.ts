@@ -17,15 +17,18 @@ export class ApiError extends Error {
 		this.name = 'ApiError';
 	}
 
-	toResponse(): Response {
-		const body: ErrorBody = {
+	toBody(): ErrorBody {
+		return {
 			error: {
 				code: this.code,
 				message: this.message,
 				...(this.details !== undefined && { details: this.details }),
 			},
 		};
-		return Response.json(body, { status: this.status });
+	}
+
+	toResponse(): Response {
+		return Response.json(this.toBody(), { status: this.status });
 	}
 }
 

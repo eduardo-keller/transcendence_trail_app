@@ -21,13 +21,13 @@ export async function parseBody<T extends z.ZodType>(
 }
 
 // Valores vêm como string: use z.coerce para números e datas.
-// Chaves repetidas (?tag=a&tag=b) viram array.
+// Chaves repetidas (?tag=a&tag=b) viram array; parâmetro vazio (?q=) conta como ausente.
 export function parseQuery<T extends z.ZodType>(request: Request, schema: T): z.output<T> {
 	const params = new URL(request.url).searchParams;
 	const query: Record<string, string | string[]> = {};
 	for (const key of new Set(params.keys())) {
-		const values = params.getAll(key);
-		query[key] = values.length > 1 ? values : values[0];
+		const values = params.getAll(key).filter((value) => value !== '');
+		if (values.length > 0) query[key] = values.length > 1 ? values : values[0];
 	}
 	return parseWith(schema, query);
 }

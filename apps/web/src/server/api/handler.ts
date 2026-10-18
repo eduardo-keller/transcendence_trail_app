@@ -23,7 +23,8 @@ export function withHandler<C = unknown>(handler: RouteHandler<C>): RouteHandler
 	};
 }
 
-function toApiError(error: unknown): ApiError {
+// Também usado por withAction: qualquer erro lançado vira um ApiError
+export function toApiError(error: unknown): ApiError {
 	if (error instanceof ApiError) return error;
 	if (error instanceof ZodError) return validationError(error);
 	if (error instanceof Prisma.PrismaClientKnownRequestError) {
