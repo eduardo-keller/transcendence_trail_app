@@ -2,11 +2,12 @@
 # Testa de ponta a ponta as rotas do Better Auth (/api/auth/*) com o app rodando (make).
 # Cada execução cria um usuário novo e o apaga no final.
 #
-# uso: bash apps/web/scripts/test-auth.sh
+# uso: bash tests/test-auth.sh (de qualquer pasta)
 #
 # O rate limit é em memória e dura 60 s: se rodar duas vezes seguidas, espere 1 minuto.
 
 set -u
+cd "$(dirname "$0")/.." || exit 1   # raiz do repositório (o compose é relativo a ela)
 
 BASE=http://localhost:3000/api/auth
 COMPOSE="docker compose -f docker/docker-compose.yml"
