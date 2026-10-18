@@ -131,6 +131,8 @@ model Trail {
   @@index([authorId])
   @@index([source, difficulty])
   @@index([distance])
+  @@index([elevationGain])
+  @@index([title, id]) // ordenação padrão da busca (title, com id desempatando)
 }
 
 model Activity {
