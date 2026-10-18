@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "biome check ./src",
     "lint:fix": "biome check ./src",
-    "format": "biome format --write ./src"
+    "format": "biome format --write ./src",
+    "test": "vitest run"
   },
   "dependencies": {
     "@prisma/adapter-pg": "7.10",
@@ -28,6 +29,7 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "typescript": "^5",
+    "vitest": "^5.0.5"
   }
 }

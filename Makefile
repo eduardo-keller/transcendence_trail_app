@@ -4,7 +4,7 @@ SECRETS = docker/secrets/db_password.txt docker/secrets/better_auth_secret.txt
 # O DATABASE_URL só existe no processo do entrypoint; comandos via exec precisam montá-lo
 DB_ENV = export DATABASE_URL="postgresql://$$POSTGRES_USER:$$(cat /run/secrets/db_password)@postgres:5432/$$POSTGRES_DB?schema=public";
 
-.PHONY: all build up stop down logs sh npm migrate import-trails studio clean fclean re
+.PHONY: all build up stop down logs sh npm migrate test import-trails studio clean fclean re
 
 all: up
 
@@ -34,6 +34,13 @@ npm:
 migrate:
 	$(if $(name),,$(error uso: make migrate name=<nome>))
 	$(COMPOSE) exec nextjs sh -c '$(DB_ENV) npx prisma migrate dev --name $(name)'
+
+# Testes (Vitest) num banco separado, <POSTGRES_DB>_test, criado e migrado na primeira execução
+TEST_DB_ENV = export DATABASE_URL="postgresql://$$POSTGRES_USER:$$(cat /run/secrets/db_password)@postgres:5432/$${POSTGRES_DB}_test?schema=public";
+
+# uso: make test  (ou make test args="tests/unit" para rodar só uma parte)
+test:
+	$(COMPOSE) exec nextjs sh -c '$(TEST_DB_ENV) npx vitest run $(args)'
 
 # Importa (ou atualiza) as trilhas do OSM a partir de apps/web/prisma/data/*.sqlite
 import-trails:
