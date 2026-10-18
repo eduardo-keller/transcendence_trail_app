@@ -45,6 +45,7 @@ Regras do banco:
 |---|---|
 | Idioma | Código, tabelas, rotas e nomes de arquivo em inglês; textos de tela, comentários e docs em pt-BR |
 | Validação | zod no formulário **e** no servidor. No servidor: `parseBody`, `parseQuery`, `parseParams` de `@/server/api` |
+| Escritas | Server Actions com `withAction`: devolvem `{ ok: true, data }` ou `{ ok: false, error }`. O erro volta como valor, sem 4xx no console. Exemplo: `src/server/trails/actions.ts` |
 | Erros de API | `withHandler` + `ApiError`. Corpo: `{ "error": { "code": "TRAIL_NOT_FOUND", "message": "…", "details": … } }`. Nada de stack trace na resposta |
 | Paginação | `?page=1&pageSize=20` → `{ items, page, pageSize, total }`; `pageSize` no máximo 50 (`paginate`, `paginated`) |
 | Autorização | Sempre no servidor. Esconder um botão não é segurança |
@@ -54,6 +55,7 @@ Regras do banco:
 | Segredos | Senhas e chaves em `docker/secrets/*.txt` (Docker secrets); o resto em `docker/.env`. Variável nova vai para o `docker/.env.example` |
 | Imports | Alias `@/` aponta para `apps/web/src/` |
 | Lint | Biome: `make npm args="run lint"` |
+| Testes | `make test` (Vitest, num banco `_test` separado) e `bash tests/test-all.sh` (projeto inteiro, com o app no ar) |
 
 ## Interfaces entre pessoas
 
@@ -63,7 +65,8 @@ Regras do banco:
 |---|---|---|---|---|
 | `prisma` (cliente do banco) | Gabs | `src/lib/db.ts` | Existe | Todos |
 | `schema.prisma` e migrations | Gabs revisa | `prisma/` | Existe | Todos |
-| `withHandler`, `ApiError`, `parseBody/Query/Params`, `paginate` | Gabs | `src/server/api/` | Existe | Todos |
+| `withHandler`, `withAction`, `ApiError`, `parseBody/Query/Params`, `paginate` | Gabs | `src/server/api/` | Existe | Todos |
+| `getCurrentUser()` e `requireCurrentUser()` (provisórios, até o `requireUser()` da Di) | Gabs | `src/server/api/session.ts` | Existe | Trilhas, atividades |
 | `auth` (servidor) e `authClient` (navegador) | Di | `src/lib/auth.ts`, `src/lib/auth-client.ts` | Existe | Telas de conta |
 | `getSession()` (pode ser nulo) e `requireUser()` (redireciona ou 401) | Di | a definir | **A fazer, primeiro** | Todos |
 | Envio de e-mail | Di | a definir | A fazer | GDPR (e talvez 2FA) |
@@ -72,7 +75,8 @@ Regras do banco:
 | `notify(userId, …)` | Rafa | a definir | A fazer | Toda ação de criar, editar ou excluir |
 | Envio de evento em tempo real para um usuário | Rafa | a definir | A fazer | Notificações, dashboard |
 | Concessão de XP e emblemas | Edu | a definir | A fazer | Quem tem ação que dá XP (atividades) |
-| Consultas de trilhas e atividades | sem dono | a definir | A fazer | RAG, gamificação, dashboard, exportação |
+| Consultas de trilhas e atividades (`searchTrails`, `getTrail`, `listActivities`, `getActivityStats`) | Gabs | `src/server/trails/service.ts`, `src/server/activities/service.ts` | Existe | RAG, gamificação, dashboard, exportação |
+| `exportUserData(userId)`: todos os dados pessoais em JSON, sem segredos | Gabs | `src/server/gdpr/export.ts` | Existe | GDPR (Di), exportação |
 
 ## Segurança
 

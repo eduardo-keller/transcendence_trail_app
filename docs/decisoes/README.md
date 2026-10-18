@@ -34,4 +34,5 @@ Decidiu algo que afeta outra pessoa? Acrescente uma linha no mesmo PR. Se precis
 | **Certificado HTTPS que não quebre o PWA** | Autoassinado (o Chrome não registra service worker com erro de certificado) × certificado de uma CA local (ex.: mkcert) instalada na máquina da avaliação | Gabs + Juh | PWA, OAuth |
 | **Envio de e-mail** (GDPR exige e-mails de confirmação) | Mailpit no compose em dev; em produção, SMTP real ou só o Mailpit | Di | GDPR, 2FA |
 | **Provedor de LLM** e orçamento | Ver [llm.md](llm.md) | Edu (com o time, se houver custo) | Módulos 7 e 8 |
+| **O que some quando alguém apaga a conta?** Hoje tudo vai em cascata, inclusive os eventos que a pessoa organizou (somem para todos) | Proposta: dados pessoais e trilhas em cascata (o percurso revela onde a pessoa mora); evento fica sem organizador (`SetNull`); o último admin de uma comunidade precisa passar a administração antes | Gabs + Di | GDPR, schema |
 | **Comunidades e eventos** (tabelas já existem) | Adiado; voltar a discutir se sobrar tempo | Time | Notificações, schema |

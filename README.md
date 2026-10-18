@@ -58,6 +58,9 @@ No start, o container `nextjs` monta a `DATABASE_URL` a partir do secret, roda `
 | `make sh` | Shell no container `nextjs` |
 | `make npm args="install zod"` | Roda `npm` dentro do container |
 | `make migrate name=<descricao>` | `prisma migrate dev --name <descricao>` dentro do container |
+| `make import-trails` | Reimporta as trilhas do OSM do SQLite (upsert; não duplica) |
+| `make test` | Testes (Vitest) num banco separado, `<POSTGRES_DB>_test` |
+| `bash tests/test-all.sh` | Bateria do projeto inteiro com o app no ar (~5 min; `--rapido` pula o build) |
 | `make studio` | Prisma Studio em http://localhost:5555 (profile `tools`) |
 | `make clean` | Remove containers, imagens locais e volumes |
 | `make fclean` | `clean` + apaga `data/postgres` (**apaga o banco**) |
@@ -175,7 +178,9 @@ Formato: | Funcionalidade | Descrição | Responsável(is) |
 
 | Funcionalidade | Descrição | Responsável(is) |
 |---|---|---|
-| | | |
+| Catálogo de trilhas do OSM | 3.878 trilhas importadas de um SQLite versionado no start do container, sem internet | Gabriel |
+| Busca de trilhas (API) | `GET /api/trails` com filtros (texto, dificuldade, distância, desnível, área do mapa, raio), ordenação e paginação; `GET /api/trails/[id]`; trilha privada só para o autor | Gabriel |
+| Trilhas e atividades (backend) | Server actions de criar, editar e excluir; distância, desnível e tempo calculados no servidor; estatísticas de atividades. Telas a fazer | Gabriel |
 
 ## Modules
 

@@ -58,21 +58,21 @@ Também com a Juh: layout base (cabeçalho, rodapé com links para `/privacidade
 Também com o Gabs: **nginx + HTTPS** (obrigatório: só o nginx expõe porta; HTTP redireciona para HTTPS), Docker e Makefile, e a revisão de toda mudança no `schema.prisma`.
 
 ### 2. Framework de backend (Minor)
-- [ ] 📜 Usar um framework de backend → Next.js (Route Handlers e Server Actions)
+- [x] 📜 Usar um framework de backend → Next.js (Route Handlers e Server Actions)
 - [ ] Lógica de backend real no Next.js: auth, perfis, amigos, trilhas, atividades, notificações
 - [ ] README explica o que é backend no Next.js
 
 **Demonstrar:** um Route Handler e uma Server Action no código, com validação e tratamento de erro.
-**Já existe:** `GET /api/health` (checa o banco), rotas do Better Auth e os helpers de [`src/server/api/`](../apps/web/src/server/api/) (erros padrão, `withHandler`, validação, paginação).
+**Já existe:** `GET /api/health` (checa o banco), rotas do Better Auth, os helpers de [`src/server/api/`](../apps/web/src/server/api/) (erros padrão, `withHandler`, `withAction`, validação, paginação), `GET /api/trails` e `/api/trails/[id]` e as server actions de trilhas e atividades.
 
 ### 3. ORM (Minor)
-- [ ] 📜 Usar um ORM → Prisma 7 com PostgreSQL
+- [x] 📜 Usar um ORM → Prisma 7 com PostgreSQL
 - [ ] Schema com relações claras (também é exigência obrigatória) e diagrama no README
-- [ ] Migrations versionadas, aplicadas no start do container
+- [x] Migrations versionadas, aplicadas no start do container
 - [ ] Todo acesso a dados via Prisma, exceto busca vetorial (`$queryRaw` com template tag, justificado)
 
 **Demonstrar:** o `schema.prisma`, uma migration e uma query com relações.
-**Já existe:** [`schema.prisma`](../apps/web/prisma/schema.prisma), 3 migrations, cliente em `src/lib/db.ts`, importação das trilhas do OSM.
+**Já existe:** [`schema.prisma`](../apps/web/prisma/schema.prisma), 4 migrations, cliente em `src/lib/db.ts`, importação das trilhas do OSM, testes de integração com banco real (`make test`).
 
 ### 16. Exportação e importação de dados (Minor, opcional)
 - [ ] 📜 Exportar dados em vários formatos (JSON, CSV, XML…)
@@ -213,7 +213,7 @@ Nenhum módulo cobre o catálogo, mas ele é o produto: sem trilhas e atividades
 - [ ] Página da trilha: percurso no mapa, distância, desnível, dificuldade, aviso de segurança, atribuição do OpenStreetMap
 - [ ] Registrar, editar e excluir uma atividade (trilha feita), com notificação
 
-**Já existe:** [`import-trails.mts`](../apps/web/prisma/import-trails.mts) importa 3.878 trilhas de um SQLite no start do container (idempotente).
+**Já existe:** [`import-trails.mts`](../apps/web/prisma/import-trails.mts) importa 3.878 trilhas de um SQLite no start do container (idempotente). Backend pronto (Gabs): busca com filtros (`GET /api/trails`), detalhe, server actions de criar, editar e excluir trilhas e atividades, estatísticas de atividades. Faltam as telas e as notificações.
 
 **Problema nos dados:** 94% das trilhas importadas têm menos de 500 m e muitas são vielas urbanas. Um filtro por comprimento e nome deixa cerca de 90 trilhas de verdade. O script que gerou o dataset não está no repo, e a fonte da elevação não está documentada. Números e pendências em [dados-trilhas.md](dados-trilhas.md).
 
@@ -238,5 +238,6 @@ Regra proposta: quem fez a ação vê um toast na hora; se ninguém mais é afet
 | Desfazer amizade | o próprio | Rafa | [ ] |
 | Mensagem nova (com a conversa fechada) | o destinatário | Rafa | [ ] |
 | Registrar, editar ou excluir atividade | o próprio (registrar: também os amigos) | catálogo | [ ] |
+| Criar, editar ou excluir trilha | o próprio | catálogo | [ ] |
 | Ganhar XP, subir de nível, ganhar emblema | o próprio | Edu | [ ] |
 | Importação ou exportação concluída | o próprio | Gabs | [ ] |
