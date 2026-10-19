@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+    --color-paper: #fbf7ee;
+    --color-cream: #f6f0e3;
+    --color-sand: #e8dcc4;
+    --color-clay: #9a5232;
+    --color-moss: #5f7044;
+    --color-forest: #2e4431;
+    --color-bark: #5b4632;
+    --color-stone: #6f6456;
+    --color-ink: #2b2419;
+
+    --radius-card: 20px;
+
+    --font-display: var(--font-fraunces);
+    --font-sans: var(--font-nunito);
+}
