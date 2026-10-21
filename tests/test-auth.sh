@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Testa de ponta a ponta as rotas do Better Auth (/api/auth/*) com o app rodando (make).
+# Testa de ponta a ponta o Better Auth (/api/auth/*) e a página protegida /conta, com o app rodando (make).
 # Cada execução cria um usuário novo e o apaga no final.
 #
 # uso: bash tests/test-auth.sh (de qualquer pasta)
@@ -39,6 +39,14 @@ get() {
 	BODY=$(curl -s "$BASE$1" "${@:2}")
 }
 
+# Página do app: grava o status em $STATUS, o destino do redirect em $LOCATION e o HTML em $BODY
+page() {
+	local out
+	out=$(curl -s -w '\n%{http_code} %{redirect_url}' "http://localhost:3000$1" "${@:2}")
+	BODY=$(printf '%s' "$out" | sed '$d')
+	read -r STATUS LOCATION <<<"$(printf '%s' "$out" | tail -1)"
+}
+
 # Consulta SQL no Postgres do compose; devolve só o valor (sem cabeçalho)
 sql() {
 	$COMPOSE exec -T postgres sh -c "psql -U \"\$POSTGRES_USER\" -d \"\$POSTGRES_DB\" -tAc \"$1\""
@@ -54,6 +62,8 @@ ok "app respondendo em http://localhost:3000"
 step "1. Sem cookie, ninguém está logado"
 get /get-session
 check "GET /get-session sem cookie devolve null" '[ "$BODY" = "null" ]'
+page /conta
+check "página /conta sem login redireciona para /login (veio $STATUS)" '[ "$STATUS" = 307 ] && [[ "$LOCATION" == */login ]]'
 
 step "2. Cadastro ($EMAIL)"
 post /sign-up/email "{\"name\":\"Teste\",\"email\":\"$EMAIL\",\"password\":\"$PASSWORD\"}"
@@ -76,12 +86,16 @@ get /get-session -b "$JAR"
 check "GET /get-session com cookie devolve o usuário" 'grep -q "$EMAIL" <<<"$BODY"'
 SESSIONS=$(sql "SELECT count(*) FROM \\\"Session\\\" s JOIN \\\"User\\\" u ON u.id = s.\\\"userId\\\" WHERE u.email = '$EMAIL'")
 echo "     sessões deste usuário no banco: $SESSIONS (cadastro + login)"
+page /conta -b "$JAR"
+check "página /conta com login abre e mostra o nome (veio $STATUS)" '[ "$STATUS" = 200 ] && grep -q "Teste</h1>" <<<"$BODY"'
 
 step "5. Logout"
 post /sign-out '{}' -b "$JAR"
 check "POST /sign-out responde 200 (veio $STATUS)" '[ "$STATUS" = 200 ]'
 get /get-session -b "$JAR"
 check "o cookie antigo não vale mais: /get-session devolve null" '[ "$BODY" = "null" ]'
+page /conta -b "$JAR"
+check "depois do logout, /conta volta a redirecionar para /login (veio $STATUS)" '[ "$STATUS" = 307 ]'
 LEFT=$(sql "SELECT count(*) FROM \\\"Session\\\" s JOIN \\\"User\\\" u ON u.id = s.\\\"userId\\\" WHERE u.email = '$EMAIL'")
 check "a sessão do login foi apagada do banco (eram $SESSIONS, sobraram $LEFT)" '[ "$LEFT" -lt "$SESSIONS" ]'
 
