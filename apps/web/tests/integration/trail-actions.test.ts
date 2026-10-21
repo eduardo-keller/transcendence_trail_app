@@ -6,7 +6,7 @@ import { createTrailAction, deleteTrailAction, updateTrailAction } from '@/serve
 import { createTrail, createUser, resetDatabase } from '../helpers/db';
 import { signInAs } from '../helpers/session';
 
-vi.mock('@/server/api/session', () => import('../helpers/session'));
+vi.mock('@/server/auth/session', () => import('../helpers/session'));
 vi.mock('next/cache', () => ({ revalidatePath: vi.fn() }));
 
 // 3 pontos para o sul, com elevação: 1112 m, +50 m, -20 m

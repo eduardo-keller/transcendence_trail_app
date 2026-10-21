@@ -9,7 +9,7 @@ import { getTrail, searchTrails } from '@/server/trails/service';
 import { createTrail, createUser, resetDatabase } from '../helpers/db';
 import { signInAs } from '../helpers/session';
 
-vi.mock('@/server/api/session', () => import('../helpers/session'));
+vi.mock('@/server/auth/session', () => import('../helpers/session'));
 
 // Catálogo de teste: 3 trilhas do OSM, 1 pública e 1 privada da Ana
 let ana: User;

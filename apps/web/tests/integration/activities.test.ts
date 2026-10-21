@@ -7,7 +7,7 @@ import { getActivity, getActivityStats, listActivities } from '@/server/activiti
 import { createTrail, createUser, resetDatabase } from '../helpers/db';
 import { signInAs } from '../helpers/session';
 
-vi.mock('@/server/api/session', () => import('../helpers/session'));
+vi.mock('@/server/auth/session', () => import('../helpers/session'));
 
 let ana: User;
 let bia: User;

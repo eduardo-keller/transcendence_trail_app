@@ -7,7 +7,7 @@ import {
 	updateActivitySchema,
 } from '@/lib/validation/activity';
 import { parseWith, withAction } from '@/server/api';
-import { requireCurrentUser } from '@/server/api/session';
+import { requireUser } from '@/server/auth/session';
 import { activityIdSchema } from './schemas';
 import { createActivity, deleteActivity, updateActivity } from './service';
 
@@ -16,18 +16,18 @@ import { createActivity, deleteActivity, updateActivity } from './service';
 // As páginas de atividades são dinâmicas (dependem do usuário): depois da action, router.refresh() basta.
 
 export const createActivityAction = withAction(async (input: CreateActivityInput) => {
-	const user = await requireCurrentUser();
+	const user = await requireUser();
 	return createActivity(parseWith(createActivitySchema, input), user.id);
 });
 
 export const updateActivityAction = withAction(async (id: string, input: UpdateActivityInput) => {
-	const user = await requireCurrentUser();
+	const user = await requireUser();
 	const params = parseWith(activityIdSchema, { id });
 	return updateActivity(params.id, parseWith(updateActivitySchema, input), user.id);
 });
 
 export const deleteActivityAction = withAction(async (id: string) => {
-	const user = await requireCurrentUser();
+	const user = await requireUser();
 	const params = parseWith(activityIdSchema, { id });
 	return deleteActivity(params.id, user.id);
 });
