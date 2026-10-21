@@ -1,6 +1,6 @@
 # Guia técnico
 
-> Última atualização: 2026-10-17 — sem microsserviços: um app Next.js, um banco.
+> Última atualização: 2026-10-21 — helpers de sessão em `src/server/auth/session.ts`.
 > O código vence este documento. Se encontrar divergência, corrija o doc no seu PR ou avise o dono da parte.
 
 ## Como as peças se encaixam
@@ -66,9 +66,8 @@ Regras do banco:
 | `prisma` (cliente do banco) | Gabs | `src/lib/db.ts` | Existe | Todos |
 | `schema.prisma` e migrations | Gabs revisa | `prisma/` | Existe | Todos |
 | `withHandler`, `withAction`, `ApiError`, `parseBody/Query/Params`, `paginate` | Gabs | `src/server/api/` | Existe | Todos |
-| `getCurrentUser()` e `requireCurrentUser()` (provisórios, até o `requireUser()` da Di) | Gabs | `src/server/api/session.ts` | Existe | Trilhas, atividades |
 | `auth` (servidor) e `authClient` (navegador) | Di | `src/lib/auth.ts`, `src/lib/auth-client.ts` | Existe | Telas de conta |
-| `getSession()` (pode ser nulo) e `requireUser()` (redireciona ou 401) | Di | a definir | **A fazer, primeiro** | Todos |
+| `getSession()` (pode ser nulo), `requireUser()` (401, para APIs e actions) e `requirePageUser()` (redireciona para `/login`, para páginas) | Di | `src/server/auth/session.ts` | Existe | Todos (hoje: trilhas, atividades) |
 | Envio de e-mail | Di | a definir | A fazer | GDPR (e talvez 2FA) |
 | Tokens de cor e tipografia + componentes | Juh | `src/components/ui/` | A fazer | Todas as telas |
 | Layout (cabeçalho, rodapé, navegação) | Juh | `src/app/layout.tsx` | A fazer | Todas as telas |
