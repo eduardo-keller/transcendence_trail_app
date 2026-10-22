@@ -172,7 +172,7 @@ check "README começa com a linha em itálico exigida pelo subject" \
 # ──────────────────────────────────────────────────────────────────────────────
 step "2. Makefile"
 check "make -n: todos os alvos se resolvem" \
-	'make -n all build stop down logs sh test import-trails studio check-env clean fclean >/dev/null 2>&1 && make -n migrate name=x >/dev/null 2>&1'
+	'make -n all build dev stop down logs sh test import-trails studio check-env clean fclean >/dev/null 2>&1 && make -n migrate name=x >/dev/null 2>&1'
 OUT=$(make -n migrate 2>&1)
 check "make migrate sem nome mostra o uso e falha" '! make -n migrate >/dev/null 2>&1 && grep -q "uso: make migrate name=<nome>" <<<"$OUT"'
 # Geração de segredos e do .env numa cópia do Makefile, longe dos arquivos reais
@@ -201,6 +201,8 @@ step "3. Docker e containers"
 PG=$($COMPOSE ps -q postgres)
 WEB=$($COMPOSE ps -q nextjs)
 NGINX=$($COMPOSE ps -q nginx)
+MODE=$(docker exec "$WEB" printenv APP_MODE 2>/dev/null || echo prod)
+info "modo do app: $MODE (make = prod, make dev = dev)"
 check "docker compose config é válido" '$COMPOSE config -q'
 check "postgres rodando e saudável (healthcheck)" '$COMPOSE ps postgres | grep -q healthy'
 check "nextjs rodando" '[ "$(docker inspect -f "{{.State.Running}}" "$WEB")" = true ]'
@@ -223,8 +225,15 @@ check "segredos não aparecem nas variáveis de ambiente dos containers" \
 check "DATABASE_URL (com a senha) não fica na configuração do container" '! grep -q DATABASE_URL <<<"$ENVS"'
 check "entrypoints sem erro de sintaxe (sh -n)" \
 	'docker exec "$WEB" sh -n /usr/local/bin/entrypoint.sh && docker exec "$PG" sh -n /usr/local/bin/entrypoint.sh'
-check_warn "volumes anônimos do nextjs apontam para /app (hoje node_modules e .next vão parar no host como root)" \
-	'docker inspect -f "{{range .Mounts}}{{.Destination}} {{end}}" "$WEB" | grep -q "/app/node_modules"'
+MOUNTS=$(docker inspect -f '{{range .Mounts}}{{.Destination}} {{end}}' "$WEB")
+if [ "$MODE" = dev ]; then
+	check "make dev: o código chega pelo bind mount em /app" 'grep -qw "/app" <<<"$MOUNTS"'
+else
+	check "produção: nenhum volume no nextjs além dos segredos (o código está na imagem)" '[ -z "$(tr " " "\n" <<<"$MOUNTS" | grep -v "^/run/secrets/" | grep .)" ]'
+	check "produção: NODE_ENV=production e next start" '[ "$(docker exec "$WEB" printenv NODE_ENV)" = production ] && docker exec "$WEB" ps -o args | grep -q "next start\|next-server"'
+	OUT=$(make npm args="--version" 2>&1)
+	check "produção: make npm recusa e manda rodar make dev" '! make npm args="--version" >/dev/null 2>&1 && grep -q "rode make dev" <<<"$OUT"'
+fi
 check_warn "o app não roda como root dentro do container" '[ "$(docker exec "$WEB" id -u)" != 0 ]'
 
 SINCE=$(date -u +%Y-%m-%dT%H:%M:%SZ)
@@ -458,7 +467,7 @@ check "GET /api/auth/ok → 200 {\"ok\":true} (Better Auth montado)" '[ "$STATUS
 req GET /api/auth/rota-que-nao-existe
 check "rota inexistente do Better Auth → 404" '[ "$STATUS" = 404 ]'
 req GET /
-check_warn "sem o header X-Powered-By (revela o framework)" '! grep -qi "^x-powered-by" <<<"$HEADERS"'
+check "sem o header X-Powered-By (revela o framework)" '! grep -qi "^x-powered-by" <<<"$HEADERS"'
 
 # ──────────────────────────────────────────────────────────────────────────────
 step "8. Autenticação (tests/test-auth.sh)"
@@ -536,7 +545,7 @@ else
 		-e BETTER_AUTH_SECRET=segredo-so-para-o-build-de-teste-1234567890 -e BETTER_AUTH_URL=http://localhost:3000 \
 		--entrypoint sh "$(docker inspect -f '{{.Config.Image}}' "$WEB")" -c '
 			mkdir /build && cd /src && tar --exclude=./node_modules --exclude=./.next -cf - . | tar -xf - -C /build && cd /build \
-			&& npm ci --no-audit --no-fund --loglevel=error >/dev/null && npx prisma generate >/dev/null 2>&1 \
+			&& npm ci --include=dev --no-audit --no-fund --loglevel=error >/dev/null && npx prisma generate >/dev/null 2>&1 \
 			&& npx next build > /tmp/build.log 2>&1; code=$?; cat /tmp/build.log; echo "BUILD_EXIT=$code"' 2>&1)
 	check "next build de produção passa a partir de um clone limpo" 'grep -q "BUILD_EXIT=0" <<<"$OUT"'
 	check "o build não registra erros (variáveis de ambiente, server actions)" '! grep -qE "Error|Failed" <<<"$OUT"'
@@ -548,7 +557,11 @@ fi
 # ──────────────────────────────────────────────────────────────────────────────
 step "13. Requisitos do subject ainda pendentes (avisos, não falhas)"
 req GET /
-check_warn "app em modo produção (hoje é next dev, que gera avisos no console)" '! grep -q "hmr-client" <<<"$BODY"'
+if [ "$MODE" = dev ]; then
+	warn "app em make dev (next dev): o avaliador usa make, em produção"
+else
+	check "app em modo produção: sem o cliente de hot reload no HTML" '! grep -q "hmr-client" <<<"$BODY"'
+fi
 PRIVACY=$(for p in privacy privacidade politica-de-privacidade; do curl -sk -o /dev/null -w '%{http_code}\n' "$APP/$p"; done | grep -c 200)
 TERMS=$(for p in terms termos termos-de-uso; do curl -sk -o /dev/null -w '%{http_code}\n' "$APP/$p"; done | grep -c 200)
 check_warn "página de Política de Privacidade (obrigatória)" '[ "$PRIVACY" -ge 1 ]'
