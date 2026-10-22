@@ -67,7 +67,7 @@ Também com o Gabs: **nginx + HTTPS** (obrigatório: só o nginx expõe porta; H
 
 ### 3. ORM (Minor)
 - [x] 📜 Usar um ORM → Prisma 7 com PostgreSQL
-- [ ] Schema com relações claras (também é exigência obrigatória) e diagrama no README
+- [x] Schema com relações claras (também é exigência obrigatória) e diagrama no README
 - [x] Migrations versionadas, aplicadas no start do container
 - [ ] Todo acesso a dados via Prisma, exceto busca vetorial (`$queryRaw` com template tag, justificado)
 

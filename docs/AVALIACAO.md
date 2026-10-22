@@ -77,7 +77,7 @@ Uma história que passa por todos os módulos. Cada dono apresenta o próprio bl
 - O que o GDPR exige? O que a exclusão de conta apaga?
 - Como funciona o TOTP do 2FA? E o fluxo do OAuth?
 
-**Modificação ao vivo** (o subject avisa que pode acontecer). Para treinar: adicionar um campo ao perfil (schema → migration → formulário → validação); mudar o rate limit do assistente; criar uma notificação para uma ação nova; mudar uma cor do design system; criar um emblema novo.
+**Modificação ao vivo** (o subject avisa que pode acontecer): editar e rodar `make` (1–2 min), que é o app como é entregue. Mudança no schema: `make dev`, `make migrate name=...`, depois `make`. Para treinar: adicionar um campo ao perfil (schema → migration → formulário → validação); mudar o rate limit do assistente; criar uma notificação para uma ação nova; mudar uma cor do design system; criar um emblema novo.
 
 ## No dia
 

@@ -1,13 +1,13 @@
 # Guia técnico
 
-> Última atualização: 2026-10-22 — nginx com HTTPS na frente do app.
+> Última atualização: 2026-10-22 — `make` em produção, `make dev` com hot reload.
 > O código vence este documento. Se encontrar divergência, corrija o doc no seu PR ou avise o dono da parte.
 
 ## Como as peças se encaixam
 
 [![Como o Trilhas SP funciona](diagramas/arquitetura.png)](diagramas/arquitetura.png)
 
-- **Existe hoje:** `nginx` (único com porta: HTTPS em `https://localhost:8443`; a 8080 redireciona), `nextjs` e `postgres`. O `prisma-studio` sobe só com `make studio`, em `127.0.0.1:5555`.
+- **Existe hoje:** `nginx` (único com porta: HTTPS em `https://localhost:8443`; a 8080 redireciona), `nextjs` e `postgres`. O `prisma-studio` sobe só com `make studio`, em `127.0.0.1:5555`. `make` roda o `nextjs` em produção (`next start`); `make dev`, com hot reload.
 - **A fazer:** o processo de tempo real (Rafa, forma ainda em aberto), envio de e-mail (Di), provedor de LLM (Edu). Ver [decisoes/](decisoes/README.md).
 - A IA roda dentro do Next.js (Route Handlers com streaming) e usa o pgvector do banco principal. Não há serviço separado.
 - O navegador só fala com o nginx. Nenhuma outra porta fica exposta na versão de avaliação.

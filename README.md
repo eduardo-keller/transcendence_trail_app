@@ -44,21 +44,25 @@ Nada é obrigatório na primeira vez: o `make` cria o que faltar.
 
 ### Execução
 ```bash
-make            # build + sobe postgres e nextjs (equivale a `make up`)
+make            # produção: build da imagem (com next build) e sobe tudo (equivale a `make up`)
+make dev        # desenvolvimento: mesmo app, com hot reload
 ```
 Acesse **https://localhost:8443** e aceite o aviso do certificado autoassinado. O nginx é o único container com porta publicada: `http://localhost:8080` só redireciona para o HTTPS. As portas mudam em `docker/.env` (`HTTPS_PORT`, `HTTP_PORT`).
 
-No start, o container `nextjs` monta a `DATABASE_URL` a partir do secret, roda `npm ci` se o `package-lock.json` mudou, `prisma generate`, `prisma migrate deploy` e então `next dev` com hot reload (o código de `apps/web` é montado no container).
+**`make` é o modo produção** (o da avaliação): o código de `apps/web` é compilado dentro da imagem (`next build`) e servido com `next start`. Editar um arquivo não muda o app até rodar `make` de novo (1–2 min). **Para programar, use `make dev`**: o código é montado no container e a página atualiza ao salvar. Os dois modos usam o mesmo banco; dá para alternar sem perder dados.
+
+No start, o container `nextjs` monta a `DATABASE_URL` a partir do secret, roda `prisma migrate deploy` e importa as trilhas se o banco estiver vazio. Em `make dev`, antes disso, roda `npm ci` se o `package-lock.json` mudou e `prisma generate`.
 
 | Comando | O que faz |
 |---|---|
-| `make` / `make up` | Gera `.env`, segredos, certificado e `data/postgres` se faltarem; avisa se o `.env` está desatualizado; `docker compose up -d --build` |
+| `make` / `make up` | Modo produção. Gera `.env`, segredos, certificado e `data/postgres` se faltarem; avisa se o `.env` está desatualizado; `docker compose up -d --build` |
+| `make dev` | Modo desenvolvimento, com hot reload (`docker-compose.dev.yml` por cima do compose padrão) |
 | `make build` | Só constrói as imagens |
 | `make stop` / `make down` | Para os containers / remove os containers |
 | `make logs` | Segue os logs (deve mostrar o `migrate deploy` e o "Ready" do Next) |
 | `make sh` | Shell no container `nextjs` |
-| `make npm args="install zod"` | Roda `npm` dentro do container |
-| `make migrate name=<descricao>` | `prisma migrate dev --name <descricao>` dentro do container |
+| `make npm args="install zod"` | Roda `npm` dentro do container (só em `make dev`) |
+| `make migrate name=<descricao>` | `prisma migrate dev --name <descricao>` dentro do container (só em `make dev`) |
 | `make import-trails` | Reimporta as trilhas do OSM do SQLite (upsert; não duplica) |
 | `make test` | Testes (Vitest) num banco separado, `<POSTGRES_DB>_test` |
 | `bash tests/test-all.sh` | Bateria do projeto inteiro com o app no ar (~5 min; `--rapido` pula o build) |
@@ -69,7 +73,7 @@ No start, o container `nextjs` monta a `DATABASE_URL` a partir do secret, roda `
 
 ### Alterar o schema do banco
 1. Edite [`apps/web/prisma/schema.prisma`](apps/web/prisma/schema.prisma).
-2. `make migrate name=<descricao>` (com os containers de pé).
+2. `make migrate name=<descricao>` (com `make dev` de pé).
 3. Faça commit do schema **junto** com a pasta `apps/web/prisma/migrations/`.
 
 Quem baixar a mudança só precisa de `make up`: as migrations pendentes rodam no start.

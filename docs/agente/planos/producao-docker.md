@@ -1,7 +1,7 @@
 # Plano: modo produção no container do app
 
 - **Área / módulo(s):** Gabs / Docker e Makefile; requisito eliminatório "console sem erros nem warnings" ([AVALIACAO.md](../../AVALIACAO.md)); módulo 3 ([MODULOS.md](../../MODULOS.md#gabs--backend-e-banco))
-- **Status:** Em execução
+- **Status:** Concluído
 - **Última atualização:** 2026-10-22
 
 ## 1. Objetivo
@@ -105,3 +105,5 @@ bash tests/test-all.sh                                              # depois de 
 | Data | O que aconteceu / decidimos |
 |---|---|
 | 2026-10-22 | Plano criado numa versão maior (usuário sem root, `node_modules` em volume, `make deps`) e enxugado: só o que pesa na avaliação. Na avaliação, mudança ao vivo = editar + `make` |
+| 2026-10-22 | Implementado. Diferenças: o entrypoint roda `npm ci` e `prisma generate` só com `APP_MODE=dev` (em produção o `npm ci` rodaria se o lock parecesse mais novo); o Prisma Studio também recebe `APP_MODE=dev`; o `.dockerignore` passou a ignorar `apps/web/.next` (o padrão `.next` só valia na raiz); o build descartável do `test-all.sh` usa `npm ci --include=dev`, porque a imagem de produção tem `NODE_ENV=production` |
+| 2026-10-22 | `test-all.sh`: 338 ok em produção e 335 ok em `make dev`, 0 falhas. Chrome headless em produção: console vazio em `/` e `/profile`; em `/login` sobra só a sugestão "[DOM] Input elements should have autocomplete attributes" (nível verbose, tela da Di/Rafa) |
