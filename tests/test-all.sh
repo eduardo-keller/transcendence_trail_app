@@ -235,7 +235,7 @@ if [ "$MODE" = dev ]; then
 	check "make dev: o código chega pelo bind mount em /app" 'grep -qw "/app" <<<"$MOUNTS"'
 else
 	check "produção: nenhum volume no nextjs além dos segredos (o código está na imagem)" '[ -z "$(tr " " "\n" <<<"$MOUNTS" | grep -v "^/run/secrets/" | grep .)" ]'
-	check "produção: NODE_ENV=production e next start" '[ "$(docker exec "$WEB" printenv NODE_ENV)" = production ] && docker exec "$WEB" ps -o args | grep -q "next start\|next-server"'
+	check "produção: NODE_ENV=production e o servidor customizado (node server.mjs)" '[ "$(docker exec "$WEB" printenv NODE_ENV)" = production ] && docker exec "$WEB" ps -o args | grep -q "node server.mjs"'
 	OUT=$(make npm args="--version" 2>&1)
 	check "produção: make npm recusa e manda rodar make dev" '! make npm args="--version" >/dev/null 2>&1 && grep -q "rode make dev" <<<"$OUT"'
 fi
