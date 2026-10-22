@@ -4,7 +4,7 @@ import { trailSearchSchema } from '@/server/trails/schemas';
 import { searchTrails } from '@/server/trails/service';
 
 // Busca de trilhas com filtros, ordenação e paginação.
-// Parâmetros e resposta: docs/frentes/trilhas/README.md#api
+// Parâmetros: trailSearchSchema (src/server/trails/schemas.ts). Resposta: searchTrails (service.ts).
 export const GET = withHandler(async (request) => {
 	const filters = parseQuery(request, trailSearchSchema);
 	const viewer = (await getSession())?.user;

@@ -1,7 +1,7 @@
 import { z } from 'zod';
 import { paginationSchema } from '@/server/api';
 
-// Filtros de GET /api/trails (contrato em docs/frentes/trilhas/README.md#api).
+// Filtros de GET /api/trails: este schema é o contrato da busca.
 // A página /trilhas usa o mesmo schema para ler os searchParams.
 
 // "EASY,MODERATE" ou ?difficulty=EASY&difficulty=MODERATE
