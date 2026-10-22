@@ -139,7 +139,7 @@ Também com a Di: cadastro e login com e-mail e senha (obrigatório), `getSessio
 
 ## Rafa — Social e tempo real
 
-Também com o Rafa: decidir com o Gabs **como o WebSocket roda** ([decisões](decisoes/README.md)) e entregar cedo o `notify()`, que todo mundo chama.
+Também com o Rafa: entregar cedo o `notify()`, que todo mundo chama. O WebSocket já roda (Gabs): Socket.IO autenticado, sala `user:<id>` e `getIO()` ([interfaces](TECNICO.md#interfaces-entre-pessoas)).
 
 ### 5. Interação entre usuários (Major)
 - [ ] 📜 Chat básico: enviar e receber mensagens entre usuários
@@ -167,7 +167,7 @@ Também com o Rafa: decidir com o Gabs **como o WebSocket roda** ([decisões](de
 - [ ] Sino com contador de não lidas, página de notificações, marcar como lida (uma e todas)
 - [ ] Todas as linhas da [lista de ações](#ações-que-geram-notificação) conferidas com dois usuários
 
-**Já existe:** a tabela `Notification` (só `message` e `isRead`; deve precisar de `type` e `link`).
+**Já existe:** a tabela `Notification` (só `message` e `isRead`; deve precisar de `type` e `link`) e a infraestrutura do Socket.IO (conexão autenticada pelo cookie, sala `user:<id>`, `getIO()`). Faltam `notify()`, presença, chat e o cliente no navegador.
 
 ---
 

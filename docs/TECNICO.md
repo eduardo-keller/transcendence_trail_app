@@ -71,7 +71,8 @@ Regras do banco:
 | Envio de e-mail | Di | a definir | A fazer | GDPR (e talvez 2FA) |
 | Tokens de cor e tipografia + componentes | Juh | `src/components/ui/` | A fazer | Todas as telas |
 | Layout (cabeçalho, rodapé, navegação) | Juh | `src/app/layout.tsx` | A fazer | Todas as telas |
-| `notify(userId, …)` | Rafa | a definir | A fazer | Toda ação de criar, editar ou excluir |
+| Socket.IO no mesmo processo do Next: só conecta quem está logado; cada usuário entra na sala `user:<id>`; `getIO()` (vazio nos testes) para emitir de Server Actions e Route Handlers | Gabs | `apps/web/server.mjs`, `src/server/realtime/io.ts` | Existe | Rafa (notificações, presença, chat) |
+| `notify(userId, …)` (grava a `Notification` e emite `notification` para `user:<id>` via `getIO()?.`) | Rafa | `src/server/realtime/` | A fazer | Toda ação de criar, editar ou excluir |
 | Envio de evento em tempo real para um usuário | Rafa | a definir | A fazer | Notificações, dashboard |
 | Concessão de XP e emblemas | Edu | a definir | A fazer | Quem tem ação que dá XP (atividades) |
 | Consultas de trilhas e atividades (`searchTrails`, `getTrail`, `listActivities`, `getActivityStats`) | Gabs | `src/server/trails/service.ts`, `src/server/activities/service.ts` | Existe | RAG, gamificação, dashboard, exportação |

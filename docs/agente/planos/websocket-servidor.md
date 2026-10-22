@@ -1,7 +1,7 @@
 # Plano: servidor de WebSocket (Socket.IO) dentro do Next.js
 
 - **Área / módulo(s):** Gabs (infra) + Rafa (5. Tempo real, notificações). Ver [MODULOS.md](../../MODULOS.md#rafa--social-e-tempo-real)
-- **Status:** Rascunho
+- **Status:** Concluído
 - **Última atualização:** 2026-10-22
 
 ## 1. Objetivo
@@ -105,3 +105,4 @@ No Chrome logado: no console, `io()` (página de teste temporária com `socket.i
 |---|---|
 | 2026-10-22 | Decidido (Gabs): servidor customizado em vez de container separado. Menos peças para o Gabs (sem serviço novo, sem mudança no nginx nem no Dockerfile) e para o Rafa (`notify()` emite direto, sem comunicação entre containers) |
 | 2026-10-22 | Revisão antes de implementar: repassar o `x-forwarded-for` (senão o rate limit vale para todos juntos); testar o processo único no passo 2, com plano B; `getIO()` opcional para não quebrar o Vitest; ajustar a checagem de processo do `test-all.sh`; confirmar o cookie `__Secure-` na conferência interna |
+| 2026-10-22 | Implementado. Processo único confirmado em dev e em produção (plano B descartado). O Next precisa ser registrado no `http.Server` **antes** do Socket.IO, que embrulha os ouvintes existentes. Testado com um cliente Node pelo nginx: sem cookie e com cookie forjado → `unauthorized`; com cookie → conecta; evento emitido por `getIO()` numa rota temporária chega só ao dono da sala; cookie `__Secure-` aceito na conferência interna; 150 conexões de IPs diferentes passam e do mesmo IP o limite corta em 100/min; hot reload intacto. O teste de rate limit ficou fora do `test-all.sh` (300 conexões, lento); o `test-all.sh` confere o handshake pelo nginx, a recusa sem login e a conexão com cookie |

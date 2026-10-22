@@ -132,7 +132,7 @@ Fonte: o campo "Uso de IA nesta PR" de cada PR. Consolidar perto da avaliação.
 | Frontend | PWA (manifest + service worker), Leaflet | Planejado | Módulo de PWA; mapas simples de integrar |
 | Backend | Next.js (Route Handlers, Server Actions) | Em uso | Um app só para front e back ([decisões](docs/decisoes/README.md)) |
 | Banco | PostgreSQL 18 + PostGIS + pgvector, via Prisma 7 (`@prisma/adapter-pg`) | Em uso | Relacional com schema legível; pgvector para o RAG |
-| Tempo real | Socket.IO | Planejado (forma em aberto) | WebSockets com salas e reconexão |
+| Tempo real | Socket.IO 4.8 num servidor customizado do Next (`apps/web/server.mjs`) | Conexão autenticada e salas por usuário; eventos a fazer | WebSockets com salas e reconexão; mesmo processo do Next, sem serviço extra ([decisões](docs/decisoes/README.md)) |
 | Autenticação | Better Auth (e-mail e senha, adapter Prisma) | Rotas `/api/auth/*` e rate limit; telas a fazer | Hash com salt pronto; plugins de OAuth e 2FA |
 | IA | *provedor a definir* + embeddings locais + pgvector | Planejado | [docs/decisoes/llm.md](docs/decisoes/llm.md) |
 | Infra | Docker Compose (imagens Alpine próprias), Docker secrets, Makefile | Em uso | Comando único exigido pelo subject |
