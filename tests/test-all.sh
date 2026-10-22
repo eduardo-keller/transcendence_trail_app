@@ -190,8 +190,12 @@ OUT=$(make -s -C "$TMP/mk" check-env 2>&1)
 check "check-env avisa variável faltando e variável que sobrou" \
 	'grep -q "falta HTTPS_PORT" <<<"$OUT" && grep -q "BETTER_AUTH_URL .* não é mais usado" <<<"$OUT"'
 make -C "$TMP/mk" docker/nginx/certs/server.crt >/dev/null 2>&1
-check "gera o certificado do nginx (localhost) com a chave em permissão 600" \
-	'openssl x509 -in "$TMP/mk/docker/nginx/certs/server.crt" -noout -ext subjectAltName | grep -q "DNS:localhost" && [ "$(stat -c %a "$TMP/mk/docker/nginx/certs/server.key")" = 600 ]'
+C="$TMP/mk/docker/nginx/certs"
+check "gera a CA local e o certificado do nginx assinado por ela, com as chaves em permissão 600" \
+	'openssl verify -CAfile "$C/ca.crt" "$C/server.crt" >/dev/null 2>&1 && openssl x509 -in "$C/server.crt" -noout -ext subjectAltName | grep -q "DNS:localhost" && [ "$(stat -c %a "$C/server.key")" = 600 ] && [ "$(stat -c %a "$C/ca.key")" = 600 ]'
+openssl req -x509 -newkey rsa:2048 -nodes -days 1 -subj "/CN=example.com" -CA "$C/ca.crt" -CAkey "$C/ca.key" \
+	-addext "subjectAltName=DNS:example.com" -keyout "$TMP/outro.key" -out "$TMP/outro.crt" 2>/dev/null
+check "a CA local só vale para localhost (certificado de outro domínio é recusado)" '! openssl verify -CAfile "$C/ca.crt" "$TMP/outro.crt" >/dev/null 2>&1'
 BEFORE=$(cat "$TMP/mk/docker/secrets/db_password.txt")
 make -C "$TMP/mk" docker/secrets/db_password.txt >/dev/null 2>&1
 check "não regera um segredo que já existe (quebraria o login do banco)" '[ "$(cat "$TMP/mk/docker/secrets/db_password.txt")" = "$BEFORE" ]'
@@ -215,6 +219,7 @@ check "a porta do Postgres não é publicada no host" '[ -z "$(docker port "$PG"
 check "nextjs não publica porta (só é acessível pelo nginx)" '[ -z "$(docker port "$WEB")" ]'
 check "nginx publica só a 443 e a 80" '[ "$(docker port "$NGINX" | cut -d/ -f1 | sort -u | tr "\n" " ")" = "443 80 " ]'
 check "Prisma Studio fora do make padrão (profile tools)" '! $COMPOSE config --services | grep -qx prisma-studio'
+check "HTTPS válido para quem confia na CA local (curl sem -k)" 'curl -s --cacert docker/nginx/certs/ca.crt -o /dev/null "$APP/api/health"'
 LOCATION=$(curl -sk -o /dev/null -w '%{redirect_url}' "$HTTP_APP/trilhas?x=1")
 check "HTTP redireciona para HTTPS mantendo o caminho (veio $LOCATION)" '[ "$LOCATION" = "$APP/trilhas?x=1" ]'
 check "segredos montados em /run/secrets e iguais aos do host" \

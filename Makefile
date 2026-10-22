@@ -1,7 +1,9 @@
 COMPOSE = docker compose -f docker/docker-compose.yml
 COMPOSE_DEV = $(COMPOSE) -f docker/docker-compose.dev.yml
 SECRETS = docker/secrets/db_password.txt docker/secrets/better_auth_secret.txt
-CERT = docker/nginx/certs/server.crt
+CERTS_DIR = docker/nginx/certs
+CA = $(CERTS_DIR)/ca.crt
+CERT = $(CERTS_DIR)/server.crt
 
 # O DATABASE_URL só existe no processo do entrypoint; comandos via exec precisam montá-lo
 DB_ENV = export DATABASE_URL="postgresql://$$POSTGRES_USER:$$(cat /run/secrets/db_password)@postgres:5432/$$POSTGRES_DB?schema=public";
@@ -67,13 +69,21 @@ docker/secrets/%.txt:
 	openssl rand -hex 32 > $@
 	chmod 600 $@
 
-# Certificado autoassinado para o nginx. Para usar outro (ex.: mkcert), ponha server.crt e server.key na pasta
-$(CERT):
-	@mkdir -p docker/nginx/certs
-	openssl req -x509 -newkey rsa:2048 -nodes -days 365 -subj "/CN=localhost" \
-		-addext "subjectAltName=DNS:localhost,IP:127.0.0.1" \
-		-keyout docker/nginx/certs/server.key -out $@ 2>/dev/null
-	chmod 600 docker/nginx/certs/server.key
+$(CA):
+	@mkdir -p $(CERTS_DIR)
+	openssl req -x509 -newkey rsa:2048 -nodes -days 825 -subj "/CN=Trilhas SP - CA local" \
+		-addext "basicConstraints=critical,CA:TRUE,pathlen:0" -addext "keyUsage=critical,keyCertSign,cRLSign" \
+		-addext "nameConstraints=critical,permitted;DNS:localhost,permitted;IP:127.0.0.1/255.255.255.255" \
+		-keyout $(CERTS_DIR)/ca.key -out $@ 2>/dev/null
+	chmod 600 $(CERTS_DIR)/ca.key
+	@echo "Para o Chrome confiar no HTTPS: chrome://certificate-manager → importe $@ como autoridade"
+
+$(CERT): $(CA)
+	openssl req -x509 -newkey rsa:2048 -nodes -days 365 -subj "/CN=localhost" -CA $(CA) -CAkey $(CERTS_DIR)/ca.key \
+		-addext "subjectAltName=DNS:localhost,IP:127.0.0.1" -addext "basicConstraints=critical,CA:FALSE" \
+		-addext "extendedKeyUsage=serverAuth" -keyout $(CERTS_DIR)/server.key -out $@ 2>/dev/null
+	chmod 600 $(CERTS_DIR)/server.key
+	-@$(COMPOSE) restart nginx >/dev/null 2>&1
 
 data/postgres:
 	mkdir -p $@
