@@ -5,7 +5,7 @@ export default function LoginPage() {
 		const password = formData.get('password');
 
 		// console.log('tipo do email:\t\t', typeof email, '\tvalor:', email);
-		if (typeof email != "string" || typeof password != "string")
+		if (typeof email !== "string" || typeof password !== "string")
 		{
 			return ;
 		}
