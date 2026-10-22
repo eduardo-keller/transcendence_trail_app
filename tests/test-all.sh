@@ -513,6 +513,18 @@ req POST /api/auth/sign-out -b "$JAR" -H 'Content-Type: application/json' -d '{}
 check "logout com o cookie e sem Origin → 403 MISSING_OR_NULL_ORIGIN" '[ "$STATUS" = 403 ] && grep -q MISSING_OR_NULL_ORIGIN <<<"$BODY"'
 req GET /api/auth/get-session -b "$JAR"
 check "depois das tentativas recusadas, a sessão continua válida" 'grep -q "$EMAIL" <<<"$BODY"'
+
+socket_connect() {
+	local sid
+	sid=$(curl -sk "$@" "$APP/socket.io/?EIO=4&transport=polling" | grep -o '"sid":"[^"]*"' | cut -d'"' -f4)
+	[ -n "$sid" ] || return
+	curl -sk "$@" -X POST "$APP/socket.io/?EIO=4&transport=polling&sid=$sid" -d '40' >/dev/null
+	curl -sk "$@" "$APP/socket.io/?EIO=4&transport=polling&sid=$sid"
+}
+OUT=$(socket_connect)
+check "Socket.IO responde pelo nginx e recusa quem não está logado (veio: ${OUT:0:40})" 'grep -q "unauthorized" <<<"$OUT"'
+OUT=$(socket_connect -b "$JAR")
+check "Socket.IO aceita a conexão com o cookie de sessão (veio: ${OUT:0:40})" 'grep -q "^40{\"sid\"" <<<"$OUT"'
 check_warn "get-session não devolve o token da sessão no corpo (um XSS conseguiria lê-lo, apesar do HttpOnly)" \
 	'! grep -q "\"token\":" <<<"$BODY"'
 auth_post /sign-out '{}' -b "$JAR"
