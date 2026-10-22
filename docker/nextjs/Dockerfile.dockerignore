@@ -1,6 +1,6 @@
 # Dependências e builds (a imagem instala e gera os seus próprios)
 **/node_modules
-.next
+**/.next
 out
 dist
 build

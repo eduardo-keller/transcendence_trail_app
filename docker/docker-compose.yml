@@ -18,16 +18,12 @@ services:
     build:
       context: ..
       dockerfile: docker/nextjs/Dockerfile
+      target: prod
     environment:
       POSTGRES_USER: ${POSTGRES_USER:?}
       POSTGRES_DB: ${POSTGRES_DB:?}
       BETTER_AUTH_URL: https://localhost:${HTTPS_PORT:-8443}   # a URL que o navegador usa (nginx)
-      WATCHPACK_POLLING: "true"
     secrets: [db_password, better_auth_secret]
-    volumes:
-      - ../apps/web:/app
-      - /apps/node_modules
-      - /apps/.next
     depends_on:
       postgres: { condition: service_healthy }
 
@@ -37,11 +33,13 @@ services:
     build:
       context: ..
       dockerfile: docker/nextjs/Dockerfile
+      target: dev
     command: ["sh","-c","socat TCP-LISTEN:5556,fork,reuseaddr TCP:127.0.0.1:5555 & exec npx prisma studio --port 5555 --browser none"]
     environment:
       POSTGRES_USER: ${POSTGRES_USER:?}
       POSTGRES_DB: ${POSTGRES_DB:?}
       BETTER_AUTH_URL: https://localhost:${HTTPS_PORT:-8443}
+      APP_MODE: dev
     secrets: [db_password, better_auth_secret]
     ports:
       - "127.0.0.1:5555:5556"

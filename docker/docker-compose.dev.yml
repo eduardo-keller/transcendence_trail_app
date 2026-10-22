@@ -1,0 +1,9 @@
+services:
+  nextjs:
+    build:
+      target: dev
+    environment:
+      APP_MODE: dev
+      WATCHPACK_POLLING: "true"
+    volumes:
+      - ../apps/web:/app
