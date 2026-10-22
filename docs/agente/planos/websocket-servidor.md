@@ -25,13 +25,19 @@ A partir daí, o Rafa escreve `notify()`, presença e chat sem mexer em Docker, 
 | Sessão | `auth.api.getSession({ headers })` em `src/lib/auth.ts` (TypeScript com alias `@/`, que o `server.mjs` não consegue importar) | [session.ts](../../../apps/web/src/server/auth/session.ts) |
 | Socket.IO | Não instalado. **Dependência nova: precisa de aprovação** (`socket.io` no servidor, `socket.io-client` no navegador) | `package.json` |
 | Código de tempo real | Nenhum (`src/server/` não tem `realtime/`) | — |
+| Rate limit do Better Auth | Por IP: 100 por minuto nas rotas de `/api/auth`, incluindo `get-session`. O IP vem do `X-Forwarded-For`, que o nginx sobrescreve com o IP do cliente | [auth.ts](../../../apps/web/src/lib/auth.ts), nginx |
+| Processo único | A doc do Next 16 não diz se o código das rotas roda no mesmo processo do servidor customizado (versões anteriores chegaram a separar). Sem isso, o `globalThis.io` do `server.mjs` não é visto pelas Server Actions | **a verificar no passo 2** |
+| Testes de integração | O Vitest chama as Server Actions direto, sem servidor: não existe `globalThis.io` | `apps/web/tests/integration/` |
+| `test-all.sh` | Confere `next start`/`next-server` no processo do container em produção; com o servidor customizado vira `node server.mjs` | `tests/test-all.sh`, passo 3 |
 
 ## 3. Critérios de aceite
 
 - [ ] `make` e `make dev` sobem normalmente; `test-all.sh` continua passando nos dois modos
 - [ ] Em `make dev`, o hot reload continua funcionando com o Socket.IO ligado
 - [ ] Um cliente com o cookie de sessão conecta e entra na sala `user:<id>`; sem cookie (ou com cookie forjado) recebe `connect_error`
-- [ ] Uma Server Action de teste chama `getIO().to('user:<id>').emit(...)` e o navegador logado recebe
+- [ ] Uma Server Action de teste chama `getIO()?.to('user:<id>').emit(...)` e o navegador logado recebe
+- [ ] 150 conexões seguidas de IPs diferentes (simulados pelo `X-Forwarded-For`) não geram `429`; as do mesmo IP continuam limitadas
+- [ ] `make test` continua passando (no Vitest, `getIO()` devolve `undefined` e nada quebra)
 - [ ] Conexão pelo nginx em `wss://` (DevTools → Network → WS mostra `101 Switching Protocols`)
 - [ ] Sem erros ou warnings no console do Chrome
 
@@ -40,11 +46,13 @@ A partir daí, o Rafa escreve `notify()`, presença e chat sem mexer em Docker, 
 **`apps/web/server.mjs`** (Gabs; ~40 linhas):
 1. cria o `http.Server`, `next({ dev, httpServer })` e repassa toda requisição ao `handle` do Next;
 2. cria o `Server` do Socket.IO no mesmo `http.Server`, com `path: '/socket.io/'` e `destroyUpgrade: false` (senão o Socket.IO fecha os upgrades que não são dele, inclusive o do hot reload);
-3. middleware de conexão: repassa o cabeçalho `cookie` do handshake para `http://127.0.0.1:3000/api/auth/get-session`. Sessão válida → `socket.data.user`; senão, `next(new Error('unauthorized'))`. Assim o `server.mjs` usa o Better Auth sem importar código TypeScript;
+3. middleware de conexão: repassa o cabeçalho `cookie` **e o `x-forwarded-for`** do handshake para `http://127.0.0.1:3000/api/auth/get-session`. Sem o segundo, toda conferência chegaria com o IP `127.0.0.1` e o rate limit (100/min por IP) valeria para o app inteiro. Sessão válida → `socket.data.user`; senão, `next(new Error('unauthorized'))`. Assim o `server.mjs` usa o Better Auth sem importar código TypeScript. A conferência é feita por HTTP sem TLS, mas o cookie `__Secure-` vai num cabeçalho: o Better Auth deve lê-lo normalmente (**confirmar no passo 3**);
 4. na conexão, `socket.join('user:' + id)`;
 5. guarda a instância em `globalThis.io`.
 
-**`apps/web/src/server/realtime/io.ts`** (Gabs; ~5 linhas): `getIO()` lê `globalThis.io` com o tipo do Socket.IO e lança erro claro se não existir (ex.: nos testes do Vitest, que não sobem servidor).
+**`apps/web/src/server/realtime/io.ts`** (Gabs; ~5 linhas): `getIO()` devolve o `globalThis.io` tipado, ou `undefined` quando não há servidor (testes do Vitest). Quem emite usa `getIO()?.to(...)`: nos testes, a notificação é gravada no banco e só não é enviada.
+
+**Se o passo 2 mostrar processos separados** (plano B, +30 min): o `server.mjs` abre uma rota interna `POST /internal/emit`, que só aceita chamadas de `127.0.0.1` e com um segredo; o `getIO()` vira um `emit()` que chama essa rota. O nginx não expõe a rota (bloqueio de `/internal/` no `location`).
 
 **`package.json`**: `"dev": "node server.mjs"`, `"start": "node server.mjs"` (em produção o `NODE_ENV=production` já vem do Dockerfile).
 
@@ -68,10 +76,10 @@ A partir daí, o Rafa escreve `notify()`, presença e chat sem mexer em Docker, 
 ## 6. Passos
 
 - [ ] 1. **Pedir aprovação** para instalar `socket.io` e `socket.io-client` (versões fixas, conferidas no npm na hora)
-- [ ] 2. `server.mjs` sem Socket.IO, só o Next: trocar os scripts, conferir `make`, `make dev` (hot reload) e `test-all.sh`. Commit separado: isola qualquer problema do servidor customizado
-- [ ] 3. Socket.IO + middleware de sessão + sala `user:<id>` + `globalThis.io`; `src/server/realtime/io.ts`
-- [ ] 4. Verificação (seção 7), inclusive o hot reload com o Socket.IO ligado
-- [ ] 5. `test-all.sh`: handshake do Socket.IO pelo nginx responde; conexão sem cookie é recusada
+- [ ] 2. `server.mjs` sem Socket.IO, só o Next: trocar os scripts; ajustar a checagem de processo do `test-all.sh` (`node server.mjs`); conferir `make`, `make dev` (hot reload) e `test-all.sh`. **Teste do processo único:** o `server.mjs` grava um valor em `globalThis` e uma Route Handler temporária o lê; se não enxergar, seguir o plano B da seção 4. Commit separado: isola qualquer problema do servidor customizado
+- [ ] 3. Socket.IO + middleware de sessão (com `x-forwarded-for`) + sala `user:<id>` + `globalThis.io`; `src/server/realtime/io.ts` com `getIO()` opcional. Confirmar que o cookie `__Secure-` é aceito na conferência interna
+- [ ] 4. Verificação (seção 7), inclusive o hot reload com o Socket.IO ligado, o rate limit por IP e o `make test`
+- [ ] 5. `test-all.sh`: handshake do Socket.IO pelo nginx responde; conexão sem cookie é recusada; conexões de IPs diferentes não esbarram no limite
 - [ ] 6. Docs: TECNICO (interfaces: `getIO()`, sala `user:<id>`, evento `notification`), decisoes (já tomada), README (Technical Stack: Socket.IO "Em uso")
 
 ## 7. Como verificar
@@ -96,3 +104,4 @@ No Chrome logado: no console, `io()` (página de teste temporária com `socket.i
 | Data | O que aconteceu / decidimos |
 |---|---|
 | 2026-10-22 | Decidido (Gabs): servidor customizado em vez de container separado. Menos peças para o Gabs (sem serviço novo, sem mudança no nginx nem no Dockerfile) e para o Rafa (`notify()` emite direto, sem comunicação entre containers) |
+| 2026-10-22 | Revisão antes de implementar: repassar o `x-forwarded-for` (senão o rate limit vale para todos juntos); testar o processo único no passo 2, com plano B; `getIO()` opcional para não quebrar o Vitest; ajustar a checagem de processo do `test-all.sh`; confirmar o cookie `__Secure-` na conferência interna |
