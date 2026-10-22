@@ -71,8 +71,10 @@ step "2. Cadastro ($EMAIL)"
 post /sign-up/email "{\"name\":\"Teste\",\"email\":\"$EMAIL\",\"password\":\"$PASSWORD\"}"
 check "POST /sign-up/email responde 200 (veio $STATUS)" '[ "$STATUS" = 200 ]'
 check "resposta não contém a senha" '! grep -q "$PASSWORD" <<<"$BODY"'
-check "cookie de sessão com HttpOnly" 'grep -qiE "set-cookie: (__Secure-)?better-auth.session_token=.*HttpOnly" <<<"$HEADERS"'
-check "cookie de sessão com SameSite=Lax" 'grep -qiE "set-cookie: (__Secure-)?better-auth.session_token=.*SameSite=Lax" <<<"$HEADERS"'
+# Em HTTPS o Better Auth usa o prefixo __Secure-: o navegador só aceita o cookie se ele vier com Secure
+check "cookie de sessão com o prefixo __Secure- e o atributo Secure (só trafega por HTTPS)" 'grep -qi "set-cookie: __Secure-better-auth.session_token=.*; Secure" <<<"$HEADERS"'
+check "cookie de sessão com HttpOnly" 'grep -qi "set-cookie: __Secure-better-auth.session_token=.*HttpOnly" <<<"$HEADERS"'
+check "cookie de sessão com SameSite=Lax" 'grep -qi "set-cookie: __Secure-better-auth.session_token=.*SameSite=Lax" <<<"$HEADERS"'
 
 step "3. O que ficou gravado no banco"
 HASH=$(sql "SELECT a.password FROM \\\"Account\\\" a JOIN \\\"User\\\" u ON u.id = a.\\\"userId\\\" WHERE u.email = '$EMAIL'")
