@@ -22,7 +22,7 @@
 | [ ] | Schema do banco claro, com relações bem definidas | `schema.prisma` + diagrama no README | Gabs |
 | [ ] | Cadastro e login com e-mail e senha seguros (hash com salt) | Configuração do Better Auth; hash em `Account.password` | Di |
 | [ ] | **Todos** os formulários validados no front **e** no back | Enviar dado inválido por `curl`, sem passar pelo front | Todos |
-| [ ] | **HTTPS em todo o backend** | Só o nginx expõe porta; HTTP redireciona | Gabs |
+| [x] | **HTTPS em todo o backend** | Só o nginx expõe porta; HTTP redireciona | Gabs |
 | [ ] | README com todas as seções exigidas | [Checklist](#readme) | Edu (coordena) |
 
 ## Privacidade e Termos

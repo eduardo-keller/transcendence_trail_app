@@ -79,13 +79,13 @@ Regras do banco:
 
 ## Segurança
 
-- [ ] Só o nginx expõe porta; HTTP redireciona para HTTPS. *(Implementado; falta conferir no navegador.)*
+- [x] Só o nginx expõe porta; HTTP redireciona para HTTPS.
 - [ ] Senhas com hash e salt (feito pelo Better Auth); rate limit no login (feito).
 - [ ] Toda entrada validada no servidor.
 - [ ] Upload de avatar: tipo verificado pelo conteúdo, tamanho limitado, nome aleatório, fora da pasta pública.
 - [ ] Conteúdo de usuário e markdown da IA nunca vão para `dangerouslySetInnerHTML` sem sanitização.
 - [x] Segredos fora do git (`docker/secrets/`, `docker/.env`).
-- [ ] Prisma Studio não sobe no `make` (só no profile `tools`, em `127.0.0.1`). *(Implementado; falta conferir.)*
+- [x] Prisma Studio não sobe no `make` (só no profile `tools`, em `127.0.0.1`).
 
 ## Console limpo
 
