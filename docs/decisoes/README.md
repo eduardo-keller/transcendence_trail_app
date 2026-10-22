@@ -18,6 +18,8 @@ Decidiu algo que afeta outra pessoa? Acrescente uma linha no mesmo PR. Se precis
 | **Tailwind CSS 4** como solução de estilo | Exigência obrigatória; base para os tokens do design system |
 | **Nenhum dado do Wikiloc, AllTrails ou similares** | Os termos de uso proíbem extração |
 | **nginx nas portas 8443 (HTTPS) e 8080 (HTTP, só redireciona)**, configuráveis no `.env` | 443 e 80 podem estar ocupadas ou exigir root nas máquinas da avaliação |
+| **WebSocket num servidor customizado do Next.js** (`apps/web/server.mjs`, Socket.IO no mesmo processo e porta) | Sem container nem rota nova no nginx; o `notify()` emite direto. Plano: [websocket-servidor.md](../agente/planos/websocket-servidor.md) |
+| **Excluir a conta apaga tudo do usuário em cascata** | Comunidades e eventos estão adiados; se voltarem, o evento passa a ficar sem organizador (`SetNull`) em vez de sumir para todos |
 
 ## Propostas (aceitar ou trocar)
 
@@ -31,9 +33,7 @@ Decidiu algo que afeta outra pessoa? Acrescente uma linha no mesmo PR. Se precis
 
 | Pergunta | Opções | Quem decide | Afeta |
 |---|---|---|---|
-| **Como o WebSocket roda?** As rotas do Next.js não mantêm conexão aberta | (a) container separado com Socket.IO no mesmo repo, usando o mesmo Prisma; (b) servidor customizado do Next.js | Rafa + Gabs | Rafa, Gabs, nginx |
 | **Certificado HTTPS que não quebre o PWA** (hoje: autoassinado gerado pelo `make`) | Autoassinado (o Chrome não registra service worker com erro de certificado) × certificado de uma CA local (ex.: mkcert) instalada na máquina da avaliação | Gabs + Juh | PWA, OAuth |
 | **Envio de e-mail** (GDPR exige e-mails de confirmação) | Mailpit no compose em dev; em produção, SMTP real ou só o Mailpit | Di | GDPR, 2FA |
 | **Provedor de LLM** e orçamento | Ver [llm.md](llm.md) | Edu (com o time, se houver custo) | Módulos 7 e 8 |
-| **O que some quando alguém apaga a conta?** Hoje tudo vai em cascata, inclusive os eventos que a pessoa organizou (somem para todos) | Proposta: dados pessoais e trilhas em cascata (o percurso revela onde a pessoa mora); evento fica sem organizador (`SetNull`); o último admin de uma comunidade precisa passar a administração antes | Gabs + Di | GDPR, schema |
 | **Comunidades e eventos** (tabelas já existem) | Adiado; voltar a discutir se sobrar tempo | Time | Notificações, schema |
