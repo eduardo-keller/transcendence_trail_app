@@ -11,8 +11,10 @@
 set -u
 cd "$(dirname "$0")/.." || exit 1   # raiz do repositório (o compose é relativo a ela)
 
-BASE=http://localhost:3000/api/trails
-AUTH=http://localhost:3000/api/auth
+# O app só responde pelo nginx; -k nos curl aceita o certificado autoassinado
+APP=${APP:-https://localhost:8443}
+BASE=$APP/api/trails
+AUTH=$APP/api/auth
 COMPOSE="docker compose -f docker/docker-compose.yml"
 TS=$(date +%s)
 EMAIL_A="trilhas-a-$TS@example.com"
@@ -35,7 +37,7 @@ check() { if eval "$2"; then ok "$1"; else nok "$1"; fi; }
 # uso: get '?q=cachoeira' [-b arquivo-de-cookies]
 get() {
 	local out
-	out=$(curl -s -w '\n%{http_code}' "$BASE$1" "${@:2}")
+	out=$(curl -sk -w '\n%{http_code}' "$BASE$1" "${@:2}")
 	BODY=$(printf '%s' "$out" | sed '$d')
 	STATUS=$(printf '%s' "$out" | tail -1)
 }
@@ -49,8 +51,8 @@ sql() {
 }
 
 signup() {
-	curl -s -o /dev/null -w '%{http_code}' -c "$3" -H 'Content-Type: application/json' \
-		-H 'Origin: http://localhost:3000' -X POST "$AUTH/sign-up/email" \
+	curl -sk -o /dev/null -w '%{http_code}' -c "$3" -H 'Content-Type: application/json' \
+		-H "Origin: $APP" -X POST "$AUTH/sign-up/email" \
 		-d "{\"name\":\"$1\",\"email\":\"$2\",\"password\":\"$PASSWORD\"}"
 }
 
@@ -60,11 +62,11 @@ expect_400() {
 }
 
 step "0. O app está no ar e tem trilhas?"
-if ! curl -s -o /dev/null http://localhost:3000/api/health; then
-	nok "http://localhost:3000 não responde. Rode 'make' e tente de novo."
+if ! curl -sk -o /dev/null "$APP/api/health"; then
+	nok "$APP não responde. Rode 'make' e tente de novo."
 	exit 1
 fi
-ok "app respondendo em http://localhost:3000"
+ok "app respondendo em $APP"
 get ''
 TOTAL=$(field total)
 check "GET /api/trails responde 200 (veio $STATUS)" '[ "$STATUS" = 200 ]'

@@ -15,7 +15,9 @@ set -u
 cd "$(dirname "$0")/.." || exit 1   # raiz do repositório
 
 COMPOSE="docker compose -f docker/docker-compose.yml"
-APP=http://localhost:3000
+# O app só responde pelo nginx; -k nos curl aceita o certificado autoassinado
+APP=${APP:-https://localhost:8443}
+HTTP_APP=${HTTP_APP:-http://localhost:8080}
 QUICK=0
 [ "${1:-}" = "--rapido" ] && QUICK=1
 TS=$(date +%s)
@@ -56,7 +58,7 @@ in_web() { $COMPOSE exec -T nextjs sh -c "$1"; }
 req() {
 	local method=$1 path=$2 out
 	shift 2
-	out=$(curl -s -i -X "$method" "$APP$path" "$@")
+	out=$(curl -sk -i -X "$method" "$APP$path" "$@")
 	HEADERS=$(printf '%s' "$out" | sed '/^\r$/q')
 	BODY=$(printf '%s' "$out" | sed '1,/^\r$/d')
 	STATUS=$(printf '%s' "$HEADERS" | head -1 | awk '{print $2}')
@@ -71,7 +73,7 @@ auth_post() {
 wait_health() {
 	local i
 	for i in $(seq 1 90); do
-		[ "$(curl -s -o /dev/null -w '%{http_code}' "$APP/api/health")" = 200 ] && return 0
+		[ "$(curl -sk -o /dev/null -w '%{http_code}' "$APP/api/health")" = 200 ] && return 0
 		sleep 1
 	done
 	return 1
@@ -158,8 +160,9 @@ for s in db_password better_auth_secret; do
 	check "$f: 64 caracteres hexadecimais" '[[ "$(cat "$f")" =~ ^[0-9a-f]{64}$ ]]'
 	check "$f: permissão 600 (só o dono lê)" '[ "$(stat -c %a "$f")" = 600 ]'
 done
-check ".env.example tem as variáveis exigidas pelo compose" \
-	'grep -q "^POSTGRES_USER=" docker/.env.example && grep -q "^POSTGRES_DB=" docker/.env.example && grep -q "^BETTER_AUTH_URL=" docker/.env.example'
+check ".env.example tem as variáveis usadas pelo compose" \
+	'( for v in POSTGRES_USER POSTGRES_DB HTTPS_PORT HTTP_PORT; do grep -q "^$v=" docker/.env.example || exit 1; done )'
+check ".gitignore cobre o certificado do nginx" 'git check-ignore -q docker/nginx/certs/server.key'
 check ".env.example não tem senha nem segredo" '! grep -qiE "^[A-Z_]*(PASSWORD|SECRET)[A-Z_]*=." docker/.env.example'
 check "toda migration tem migration.sql e o lock é postgresql" \
 	'( for d in apps/web/prisma/migrations/*/; do [ -s "$d/migration.sql" ] || exit 1; done ) && grep -q "provider = \"postgresql\"" apps/web/prisma/migrations/migration_lock.toml'
@@ -169,7 +172,7 @@ check "README começa com a linha em itálico exigida pelo subject" \
 # ──────────────────────────────────────────────────────────────────────────────
 step "2. Makefile"
 check "make -n: todos os alvos se resolvem" \
-	'make -n all build stop down logs sh test import-trails studio clean fclean >/dev/null 2>&1 && make -n migrate name=x >/dev/null 2>&1'
+	'make -n all build stop down logs sh test import-trails studio check-env clean fclean >/dev/null 2>&1 && make -n migrate name=x >/dev/null 2>&1'
 OUT=$(make -n migrate 2>&1)
 check "make migrate sem nome mostra o uso e falha" '! make -n migrate >/dev/null 2>&1 && grep -q "uso: make migrate name=<nome>" <<<"$OUT"'
 # Geração de segredos e do .env numa cópia do Makefile, longe dos arquivos reais
@@ -180,6 +183,15 @@ check "gera os segredos com 64 hex e permissão 600" \
 check "os dois segredos gerados são diferentes" \
 	'! cmp -s "$TMP/mk/docker/secrets/db_password.txt" "$TMP/mk/docker/secrets/better_auth_secret.txt"'
 check "gera docker/.env a partir do .env.example" 'cmp -s "$TMP/mk/docker/.env" docker/.env.example'
+OUT=$(make -s -C "$TMP/mk" check-env 2>&1)
+check "check-env não avisa nada com o .env recém-copiado" '[ -z "$OUT" ]'
+printf 'POSTGRES_USER=app\nPOSTGRES_DB=trails\nBETTER_AUTH_URL=http://localhost:3000\n' > "$TMP/mk/docker/.env"
+OUT=$(make -s -C "$TMP/mk" check-env 2>&1)
+check "check-env avisa variável faltando e variável que sobrou" \
+	'grep -q "falta HTTPS_PORT" <<<"$OUT" && grep -q "BETTER_AUTH_URL .* não é mais usado" <<<"$OUT"'
+make -C "$TMP/mk" docker/nginx/certs/server.crt >/dev/null 2>&1
+check "gera o certificado do nginx (localhost) com a chave em permissão 600" \
+	'openssl x509 -in "$TMP/mk/docker/nginx/certs/server.crt" -noout -ext subjectAltName | grep -q "DNS:localhost" && [ "$(stat -c %a "$TMP/mk/docker/nginx/certs/server.key")" = 600 ]'
 BEFORE=$(cat "$TMP/mk/docker/secrets/db_password.txt")
 make -C "$TMP/mk" docker/secrets/db_password.txt >/dev/null 2>&1
 check "não regera um segredo que já existe (quebraria o login do banco)" '[ "$(cat "$TMP/mk/docker/secrets/db_password.txt")" = "$BEFORE" ]'
@@ -188,15 +200,21 @@ check "não regera um segredo que já existe (quebraria o login do banco)" '[ "$
 step "3. Docker e containers"
 PG=$($COMPOSE ps -q postgres)
 WEB=$($COMPOSE ps -q nextjs)
+NGINX=$($COMPOSE ps -q nginx)
 check "docker compose config é válido" '$COMPOSE config -q'
 check "postgres rodando e saudável (healthcheck)" '$COMPOSE ps postgres | grep -q healthy'
 check "nextjs rodando" '[ "$(docker inspect -f "{{.State.Running}}" "$WEB")" = true ]'
-check "PID 1 é o tini nos dois containers (sinais e processos zumbis)" \
-	'[ "$(docker exec "$PG" cat /proc/1/comm)" = tini ] && [ "$(docker exec "$WEB" cat /proc/1/comm)" = tini ]'
+check "nginx rodando" '[ -n "$NGINX" ] && [ "$(docker inspect -f "{{.State.Running}}" "$NGINX")" = true ]'
+check "PID 1 é o tini nos três containers (sinais e processos zumbis)" \
+	'( for c in "$PG" "$WEB" "$NGINX"; do [ "$(docker exec "$c" cat /proc/1/comm)" = tini ] || exit 1; done )'
 check "o Postgres roda como usuário postgres, não root" \
 	'docker exec "$PG" ps -o user,comm | grep -E "postgres +postgres" -q && ! docker exec "$PG" ps -o user,comm | grep -qE "^root +postgres"'
 check "a porta do Postgres não é publicada no host" '[ -z "$(docker port "$PG")" ]'
-check "nextjs publica a porta 3000" 'docker port "$WEB" | grep -q "^3000/tcp"'
+check "nextjs não publica porta (só é acessível pelo nginx)" '[ -z "$(docker port "$WEB")" ]'
+check "nginx publica só a 443 e a 80" '[ "$(docker port "$NGINX" | cut -d/ -f1 | sort -u | tr "\n" " ")" = "443 80 " ]'
+check "Prisma Studio fora do make padrão (profile tools)" '! $COMPOSE config --services | grep -qx prisma-studio'
+LOCATION=$(curl -sk -o /dev/null -w '%{redirect_url}' "$HTTP_APP/trilhas?x=1")
+check "HTTP redireciona para HTTPS mantendo o caminho (veio $LOCATION)" '[ "$LOCATION" = "$APP/trilhas?x=1" ]'
 check "segredos montados em /run/secrets e iguais aos do host" \
 	'[ "$(docker exec "$WEB" cat /run/secrets/db_password)" = "$(cat docker/secrets/db_password.txt)" ] && [ "$(docker exec "$WEB" cat /run/secrets/better_auth_secret)" = "$(cat docker/secrets/better_auth_secret.txt)" ] && [ "$(docker exec "$PG" cat /run/secrets/db_password)" = "$(cat docker/secrets/db_password.txt)" ]'
 ENVS="$(docker inspect -f '{{json .Config.Env}}' "$WEB" "$PG")"
@@ -225,13 +243,13 @@ else
 fi
 STUDIO_CODE=000
 for i in $(seq 1 180); do
-	STUDIO_CODE=$(curl -s -o /dev/null -w '%{http_code}' --max-time 2 http://localhost:5555)
+	STUDIO_CODE=$(curl -sk -o /dev/null -w '%{http_code}' --max-time 2 http://localhost:5555)
 	[ "$STUDIO_CODE" = 200 ] && break
 	sleep 1
 done
 check "Prisma Studio responde em http://localhost:5555 (veio $STUDIO_CODE em ${i}s)" '[ "$STUDIO_CODE" = 200 ]'
 [ "$STUDIO_CODE" = 200 ] || $COMPOSE --profile tools logs --tail 15 prisma-studio 2>&1 | sed 's/^/       /'
-warn "o Prisma Studio abre o banco sem senha na porta 5555 do host: use só em desenvolvimento"
+check "Prisma Studio só aceita conexões desta máquina (127.0.0.1)" 'docker port "$($COMPOSE --profile tools ps -q prisma-studio)" | grep -q "^5556/tcp -> 127.0.0.1:5555$"'
 if [ "$STUDIO_STARTED" = 1 ]; then
 	$COMPOSE --profile tools rm -sfv prisma-studio >/dev/null 2>&1 && STUDIO_STARTED=0
 	info "Prisma Studio parado de novo"
@@ -432,7 +450,7 @@ check "GET /login → 200 com campos de e-mail e senha obrigatórios" \
 	'[ "$STATUS" = 200 ] && grep -qE "<input type=\"email\" required=\"\" name=\"email\"" <<<"$BODY" && grep -qE "<input type=\"password\" required=\"\" name=\"password\"" <<<"$BODY"'
 req GET /pagina-que-nao-existe
 check "página inexistente → 404" '[ "$STATUS" = 404 ]'
-check "favicon → 200 (sem 404 no console)" '[ "$(curl -s -o /dev/null -w "%{http_code}" "$APP/favicon.ico")" = 200 ]'
+check "favicon → 200 (sem 404 no console)" '[ "$(curl -sk -o /dev/null -w "%{http_code}" "$APP/favicon.ico")" = 200 ]'
 req POST /api/trails
 check "POST /api/trails → 405 (escritas são Server Actions)" '[ "$STATUS" = 405 ]'
 req GET /api/auth/ok
@@ -473,7 +491,7 @@ auth_post /sign-in/email "{\"email\":\"$EMAIL\",\"password\":\"senha-forte-123\"
 check "login → 200 (veio $STATUS)" '[ "$STATUS" = 200 ]'
 SESSION_INFO=$(sql "SELECT count(*) FILTER (WHERE s.\\\"ipAddress\\\" IS NOT NULL AND s.\\\"userAgent\\\" LIKE 'curl/%') || ',' || count(*) FILTER (WHERE s.\\\"expiresAt\\\" BETWEEN now() + interval '6 days' AND now() + interval '8 days') FROM \\\"Session\\\" s JOIN \\\"User\\\" u ON u.id = s.\\\"userId\\\" WHERE u.email = '$EMAIL'")
 check "a sessão guarda IP e navegador e expira em 7 dias" '[ "$(cut -d, -f1 <<<"$SESSION_INFO")" -ge 1 ] && [ "$(cut -d, -f2 <<<"$SESSION_INFO")" -ge 1 ]'
-req GET /api/auth/get-session -b 'better-auth.session_token=forjado.assinatura-falsa'
+req GET /api/auth/get-session -b '__Secure-better-auth.session_token=forjado.assinatura-falsa'
 check "cookie forjado não vale: get-session → null" '[ "$BODY" = null ]'
 req POST /api/auth/sign-out -b "$JAR" -H 'Content-Type: application/json' -H 'Origin: http://site-malicioso.example' -d '{}'
 check "logout com o cookie mas vindo de outra origem → 403 (proteção contra CSRF)" '[ "$STATUS" = 403 ]'
@@ -529,13 +547,10 @@ fi
 
 # ──────────────────────────────────────────────────────────────────────────────
 step "13. Requisitos do subject ainda pendentes (avisos, não falhas)"
-# confere que é o próprio app respondendo (a porta 443 da máquina pode ser de outro serviço)
-check_warn "HTTPS no backend (subject: \"HTTPS must be used everywhere\")" \
-	'( for port in 443 8443; do curl -sk --max-time 3 "https://localhost:$port/api/health" | grep -q "\"db\":" && exit 0; done; exit 1 )'
 req GET /
 check_warn "app em modo produção (hoje é next dev, que gera avisos no console)" '! grep -q "hmr-client" <<<"$BODY"'
-PRIVACY=$(for p in privacy privacidade politica-de-privacidade; do curl -s -o /dev/null -w '%{http_code}\n' "$APP/$p"; done | grep -c 200)
-TERMS=$(for p in terms termos termos-de-uso; do curl -s -o /dev/null -w '%{http_code}\n' "$APP/$p"; done | grep -c 200)
+PRIVACY=$(for p in privacy privacidade politica-de-privacidade; do curl -sk -o /dev/null -w '%{http_code}\n' "$APP/$p"; done | grep -c 200)
+TERMS=$(for p in terms termos termos-de-uso; do curl -sk -o /dev/null -w '%{http_code}\n' "$APP/$p"; done | grep -c 200)
 check_warn "página de Política de Privacidade (obrigatória)" '[ "$PRIVACY" -ge 1 ]'
 check_warn "página de Termos de Uso (obrigatória)" '[ "$TERMS" -ge 1 ]'
 check_warn "README com os logins da 42 na primeira linha (hoje: <login_...>)" '! head -1 README.md | grep -q "<login"'

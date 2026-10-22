@@ -9,7 +9,9 @@
 set -u
 cd "$(dirname "$0")/.." || exit 1   # raiz do repositório (o compose é relativo a ela)
 
-BASE=http://localhost:3000/api/auth
+# O app só responde pelo nginx; -k nos curl aceita o certificado autoassinado
+APP=${APP:-https://localhost:8443}
+BASE=$APP/api/auth
 COMPOSE="docker compose -f docker/docker-compose.yml"
 EMAIL="teste-$(date +%s)@example.com"
 PASSWORD="senha-forte-123"
@@ -28,7 +30,7 @@ check() { if eval "$2"; then ok "$1"; else nok "$1"; fi; }
 post() {
 	local path=$1 data=$2; shift 2
 	local out
-	out=$(curl -s -i -H 'Content-Type: application/json' -H 'Origin: http://localhost:3000' \
+	out=$(curl -sk -i -H 'Content-Type: application/json' -H "Origin: $APP" \
 		-X POST "$BASE$path" -d "$data" "$@")
 	HEADERS=$(printf '%s' "$out" | sed '/^\r$/q')
 	BODY=$(printf '%s' "$out" | sed '1,/^\r$/d')
@@ -36,13 +38,13 @@ post() {
 }
 
 get() {
-	BODY=$(curl -s "$BASE$1" "${@:2}")
+	BODY=$(curl -sk "$BASE$1" "${@:2}")
 }
 
 # Página do app: grava o status em $STATUS, o destino do redirect em $LOCATION e o HTML em $BODY
 page() {
 	local out
-	out=$(curl -s -w '\n%{http_code} %{redirect_url}' "http://localhost:3000$1" "${@:2}")
+	out=$(curl -sk -w '\n%{http_code} %{redirect_url}' "$APP$1" "${@:2}")
 	BODY=$(printf '%s' "$out" | sed '$d')
 	read -r STATUS LOCATION <<<"$(printf '%s' "$out" | tail -1)"
 }
@@ -53,11 +55,11 @@ sql() {
 }
 
 step "0. O app está no ar?"
-if ! curl -s -o /dev/null http://localhost:3000/api/health; then
-	nok "http://localhost:3000 não responde. Rode 'make' e tente de novo."
+if ! curl -sk -o /dev/null "$APP/api/health"; then
+	nok "$APP não responde. Rode 'make' e tente de novo."
 	exit 1
 fi
-ok "app respondendo em http://localhost:3000"
+ok "app respondendo em $APP"
 
 step "1. Sem cookie, ninguém está logado"
 get /get-session
@@ -69,8 +71,8 @@ step "2. Cadastro ($EMAIL)"
 post /sign-up/email "{\"name\":\"Teste\",\"email\":\"$EMAIL\",\"password\":\"$PASSWORD\"}"
 check "POST /sign-up/email responde 200 (veio $STATUS)" '[ "$STATUS" = 200 ]'
 check "resposta não contém a senha" '! grep -q "$PASSWORD" <<<"$BODY"'
-check "cookie de sessão com HttpOnly" 'grep -qi "set-cookie: better-auth.session_token=.*HttpOnly" <<<"$HEADERS"'
-check "cookie de sessão com SameSite=Lax" 'grep -qi "set-cookie: better-auth.session_token=.*SameSite=Lax" <<<"$HEADERS"'
+check "cookie de sessão com HttpOnly" 'grep -qiE "set-cookie: (__Secure-)?better-auth.session_token=.*HttpOnly" <<<"$HEADERS"'
+check "cookie de sessão com SameSite=Lax" 'grep -qiE "set-cookie: (__Secure-)?better-auth.session_token=.*SameSite=Lax" <<<"$HEADERS"'
 
 step "3. O que ficou gravado no banco"
 HASH=$(sql "SELECT a.password FROM \\\"Account\\\" a JOIN \\\"User\\\" u ON u.id = a.\\\"userId\\\" WHERE u.email = '$EMAIL'")
