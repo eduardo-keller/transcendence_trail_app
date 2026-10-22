@@ -1,14 +1,14 @@
 # Guia técnico
 
-> Última atualização: 2026-10-21 — helpers de sessão em `src/server/auth/session.ts`.
+> Última atualização: 2026-10-22 — nginx com HTTPS na frente do app.
 > O código vence este documento. Se encontrar divergência, corrija o doc no seu PR ou avise o dono da parte.
 
 ## Como as peças se encaixam
 
 [![Como o Trilhas SP funciona](diagramas/arquitetura.png)](diagramas/arquitetura.png)
 
-- **Existe hoje:** `nextjs` e `postgres` (mais o `prisma-studio` no profile `tools`), em HTTP na porta 3000.
-- **A fazer:** nginx com HTTPS (Gabs), o processo de tempo real (Rafa, forma ainda em aberto), envio de e-mail (Di), provedor de LLM (Edu). Ver [decisoes/](decisoes/README.md).
+- **Existe hoje:** `nginx` (único com porta: HTTPS em `https://localhost:8443`; a 8080 redireciona), `nextjs` e `postgres`. O `prisma-studio` sobe só com `make studio`, em `127.0.0.1:5555`.
+- **A fazer:** o processo de tempo real (Rafa, forma ainda em aberto), envio de e-mail (Di), provedor de LLM (Edu). Ver [decisoes/](decisoes/README.md).
 - A IA roda dentro do Next.js (Route Handlers com streaming) e usa o pgvector do banco principal. Não há serviço separado.
 - O navegador só fala com o nginx. Nenhuma outra porta fica exposta na versão de avaliação.
 
@@ -23,7 +23,7 @@ apps/web/                     Next.js (npm, package-lock próprio)
   src/server/<área>/          lógica de cada área (sugestão: auth, social, trails, ai, gamification)
   prisma/                     schema.prisma, migrations/, import-trails.mts, data/
   scripts/                    scripts de teste e utilitários
-docker/                       compose, Dockerfiles, .env.example, secrets/
+docker/                       compose, Dockerfiles, .env.example, secrets/, nginx/ (conf e certs/)
 docs/                         esta documentação
 ```
 
@@ -79,13 +79,13 @@ Regras do banco:
 
 ## Segurança
 
-- [ ] Só o nginx expõe porta; HTTP redireciona para HTTPS. *(Hoje: 3000 e 5555 em HTTP.)*
+- [ ] Só o nginx expõe porta; HTTP redireciona para HTTPS. *(Implementado; falta conferir no navegador.)*
 - [ ] Senhas com hash e salt (feito pelo Better Auth); rate limit no login (feito).
 - [ ] Toda entrada validada no servidor.
 - [ ] Upload de avatar: tipo verificado pelo conteúdo, tamanho limitado, nome aleatório, fora da pasta pública.
 - [ ] Conteúdo de usuário e markdown da IA nunca vão para `dangerouslySetInnerHTML` sem sanitização.
 - [x] Segredos fora do git (`docker/secrets/`, `docker/.env`).
-- [ ] Prisma Studio não sobe no `make` (só no profile `tools`).
+- [ ] Prisma Studio não sobe no `make` (só no profile `tools`, em `127.0.0.1`). *(Implementado; falta conferir.)*
 
 ## Console limpo
 

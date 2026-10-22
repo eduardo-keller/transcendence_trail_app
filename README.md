@@ -37,21 +37,22 @@ README EXIGIDO PELO SUBJECT (capítulo VI) E AVALIADO.
 
 ### Configuração
 Nada é obrigatório na primeira vez: o `make` cria o que faltar.
-- `docker/.env` é copiado de [`docker/.env.example`](docker/.env.example) (`POSTGRES_USER`, `POSTGRES_DB`, `BETTER_AUTH_URL`).
+- `docker/.env` é copiado de [`docker/.env.example`](docker/.env.example) (`POSTGRES_USER`, `POSTGRES_DB`, `HTTPS_PORT`, `HTTP_PORT`). Ele é copiado uma vez só: quando o `.env.example` muda, o `make` avisa o que falta ou sobra.
 - `docker/secrets/db_password.txt` e `docker/secrets/better_auth_secret.txt` são gerados com valores aleatórios e entram nos containers como Docker secrets. **Não apague** esses arquivos com o banco já criado: a senha nova não abriria o banco existente.
 - `data/postgres/` guarda os dados do Postgres (bind mount, fora do git).
+- `docker/nginx/certs/` recebe um certificado autoassinado para `localhost` (fora do git). Para usar outro (ex.: mkcert), troque `server.crt` e `server.key`.
 
 ### Execução
 ```bash
 make            # build + sobe postgres e nextjs (equivale a `make up`)
 ```
-Acesse **http://localhost:3000**. Ainda não há nginx nem HTTPS (previsto: [docs/TECNICO.md](docs/TECNICO.md#como-as-peças-se-encaixam)).
+Acesse **https://localhost:8443** e aceite o aviso do certificado autoassinado. O nginx é o único container com porta publicada: `http://localhost:8080` só redireciona para o HTTPS. As portas mudam em `docker/.env` (`HTTPS_PORT`, `HTTP_PORT`).
 
 No start, o container `nextjs` monta a `DATABASE_URL` a partir do secret, roda `npm ci` se o `package-lock.json` mudou, `prisma generate`, `prisma migrate deploy` e então `next dev` com hot reload (o código de `apps/web` é montado no container).
 
 | Comando | O que faz |
 |---|---|
-| `make` / `make up` | Gera `.env`, segredos e `data/postgres` se faltarem; `docker compose up -d --build` |
+| `make` / `make up` | Gera `.env`, segredos, certificado e `data/postgres` se faltarem; avisa se o `.env` está desatualizado; `docker compose up -d --build` |
 | `make build` | Só constrói as imagens |
 | `make stop` / `make down` | Para os containers / remove os containers |
 | `make logs` | Segue os logs (deve mostrar o `migrate deploy` e o "Ready" do Next) |
@@ -61,7 +62,7 @@ No start, o container `nextjs` monta a `DATABASE_URL` a partir do secret, roda `
 | `make import-trails` | Reimporta as trilhas do OSM do SQLite (upsert; não duplica) |
 | `make test` | Testes (Vitest) num banco separado, `<POSTGRES_DB>_test` |
 | `bash tests/test-all.sh` | Bateria do projeto inteiro com o app no ar (~5 min; `--rapido` pula o build) |
-| `make studio` | Prisma Studio em http://localhost:5555 (profile `tools`) |
+| `make studio` | Prisma Studio em http://localhost:5555, só nesta máquina (profile `tools`; abre o banco sem senha) |
 | `make clean` | Remove containers, imagens locais e volumes |
 | `make fclean` | `clean` + apaga `data/postgres` (**apaga o banco**) |
 | `make re` | `fclean` + `make` (sobe do zero) |
@@ -131,7 +132,7 @@ Fonte: o campo "Uso de IA nesta PR" de cada PR. Consolidar perto da avaliação.
 | Autenticação | Better Auth (e-mail e senha, adapter Prisma) | Rotas `/api/auth/*` e rate limit; telas a fazer | Hash com salt pronto; plugins de OAuth e 2FA |
 | IA | *provedor a definir* + embeddings locais + pgvector | Planejado | [docs/decisoes/llm.md](docs/decisoes/llm.md) |
 | Infra | Docker Compose (imagens Alpine próprias), Docker secrets, Makefile | Em uso | Comando único exigido pelo subject |
-| Infra | nginx (TLS) | Planejado | HTTPS exigido pelo subject |
+| Infra | nginx (TLS, proxy reverso) | Em uso | HTTPS exigido pelo subject; único ponto de entrada, os outros containers ficam na rede interna |
 | Qualidade | Biome (lint e formatação), TypeScript | Em uso | — |
 
 ## Database Schema

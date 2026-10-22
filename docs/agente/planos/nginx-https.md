@@ -1,7 +1,7 @@
 # Plano: nginx + HTTPS (e ajustes rápidos dos módulos 2 e 3)
 
 - **Área / módulo(s):** Gabs / requisito obrigatório "HTTPS em todo o backend" ([AVALIACAO.md](../../AVALIACAO.md)); módulos 2 e 3 ([MODULOS.md](../../MODULOS.md#gabs--backend-e-banco))
-- **Status:** Rascunho
+- **Status:** Em execução
 - **Última atualização:** 2026-10-22
 
 Duas partes: **A** são ajustes de doc e comentário (~30 min, um PR); **B** é o nginx (um PR, revisão obrigatória por mexer no Docker).
@@ -127,3 +127,6 @@ No Chrome: abrir `https://localhost:8443`, aceitar o certificado, cadastrar, log
 | Data | O que aconteceu / decidimos |
 |---|---|
 | 2026-10-22 | Plano criado. Portas 8443/8080 e certificado gerado no entrypoint propostos aqui |
+| 2026-10-22 | Aprovado com dois acréscimos: `make up` avisa `.env` desatualizado (`check-env`); `BETTER_AUTH_URL` sai do `.env` e é montado no compose a partir da `HTTPS_PORT` (um valor antigo esquecido no `.env` é ignorado) |
+| 2026-10-22 | Mudanças na implementação: o certificado é gerado pelo **Makefile** (como os segredos), não pelo entrypoint, para os arquivos ficarem com o usuário do host e não com root; o entrypoint só falha com mensagem clara se faltar. **Sem HSTS**: vale para o `localhost` em qualquer porta e prenderia outros projetos do avaliador em HTTPS. `X-Forwarded-For` sobrescrito com `$remote_addr`, para ninguém burlar o rate limit forjando o IP |
+| 2026-10-22 | Partes A e B commitadas localmente. **Falta B4** (subir e conferir no navegador): o Docker não estava rodando na máquina |
