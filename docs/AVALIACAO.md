@@ -53,7 +53,7 @@ Uma história que passa por todos os módulos. Cada dono apresenta o próprio bl
 
 | # | Bloco | Módulos | Quem |
 |---|---|---|---|
-| 1 | Clone limpo → `make` → HTTPS → rodapé com Privacidade e Termos | Obrigatório | Gabs |
+| 1 | Clone limpo → `make` → importar `docker/nginx/certs/ca.crt` no Chrome → HTTPS → rodapé com Privacidade e Termos | Obrigatório | Gabs |
 | 2 | Página `/design`: paleta, tipografia, ícones, componentes; app no celular | Design system, Frontend | Juh |
 | 3 | Cadastro com erro de validação (front e back) → login → 2FA → login com OAuth | Usuários, 2FA, OAuth | Di |
 | 4 | Perfil: editar, avatar, avatar padrão | Ger. de usuários | Di |

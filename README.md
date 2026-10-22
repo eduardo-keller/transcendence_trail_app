@@ -40,14 +40,14 @@ Nada é obrigatório na primeira vez: o `make` cria o que faltar.
 - `docker/.env` é copiado de [`docker/.env.example`](docker/.env.example) (`POSTGRES_USER`, `POSTGRES_DB`, `HTTPS_PORT`, `HTTP_PORT`). Ele é copiado uma vez só: quando o `.env.example` muda, o `make` avisa o que falta ou sobra.
 - `docker/secrets/db_password.txt` e `docker/secrets/better_auth_secret.txt` são gerados com valores aleatórios e entram nos containers como Docker secrets. **Não apague** esses arquivos com o banco já criado: a senha nova não abriria o banco existente.
 - `data/postgres/` guarda os dados do Postgres (bind mount, fora do git).
-- `docker/nginx/certs/` recebe um certificado autoassinado para `localhost` (fora do git). Para usar outro (ex.: mkcert), troque `server.crt` e `server.key`.
+- `docker/nginx/certs/` recebe uma **CA local** (`ca.crt`, válida só para `localhost`) e o certificado do nginx assinado por ela (fora do git).
 
 ### Execução
 ```bash
 make            # produção: build da imagem (com next build) e sobe tudo (equivale a `make up`)
 make dev        # desenvolvimento: mesmo app, com hot reload
 ```
-Acesse **https://localhost:8443** e aceite o aviso do certificado autoassinado. O nginx é o único container com porta publicada: `http://localhost:8080` só redireciona para o HTTPS. As portas mudam em `docker/.env` (`HTTPS_PORT`, `HTTP_PORT`).
+Acesse **https://localhost:8443**. Para o Chrome confiar no HTTPS (sem aviso, e necessário para o PWA), importe a CA local uma vez: `chrome://certificate-manager` → importar `docker/nginx/certs/ca.crt` como autoridade confiável → recarregar a página. Sem importar, o app funciona com o aviso "Não seguro". O nginx é o único container com porta publicada: `http://localhost:8080` só redireciona para o HTTPS. As portas mudam em `docker/.env` (`HTTPS_PORT`, `HTTP_PORT`).
 
 **`make` é o modo produção** (o da avaliação): o código de `apps/web` é compilado dentro da imagem (`next build`) e servido com `next start`. Editar um arquivo não muda o app até rodar `make` de novo (1–2 min). **Para programar, use `make dev`**: o código é montado no container e a página atualiza ao salvar. Os dois modos usam o mesmo banco; dá para alternar sem perder dados.
 

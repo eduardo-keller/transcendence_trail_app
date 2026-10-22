@@ -19,6 +19,7 @@ Decidiu algo que afeta outra pessoa? Acrescente uma linha no mesmo PR. Se precis
 | **Nenhum dado do Wikiloc, AllTrails ou similares** | Os termos de uso proíbem extração |
 | **nginx nas portas 8443 (HTTPS) e 8080 (HTTP, só redireciona)**, configuráveis no `.env` | 443 e 80 podem estar ocupadas ou exigir root nas máquinas da avaliação |
 | **WebSocket num servidor customizado do Next.js** (`apps/web/server.mjs`, Socket.IO no mesmo processo e porta) | Sem container nem rota nova no nginx; o `notify()` emite direto. Plano: [websocket-servidor.md](../agente/planos/websocket-servidor.md) |
+| **HTTPS com CA local**: o `make` gera com `openssl` uma CA válida só para `localhost` e o certificado do nginx; importa-se o `ca.crt` no Chrome uma vez | O Chrome não registra service worker (PWA) com certificado autoassinado; nada a instalar na máquina (sem mkcert). A restrição a `localhost` impede usar a CA para falsificar outros sites |
 | **Excluir a conta apaga tudo do usuário em cascata** | Comunidades e eventos estão adiados; se voltarem, o evento passa a ficar sem organizador (`SetNull`) em vez de sumir para todos |
 
 ## Propostas (aceitar ou trocar)
@@ -33,7 +34,6 @@ Decidiu algo que afeta outra pessoa? Acrescente uma linha no mesmo PR. Se precis
 
 | Pergunta | Opções | Quem decide | Afeta |
 |---|---|---|---|
-| **Certificado HTTPS que não quebre o PWA** (hoje: autoassinado gerado pelo `make`) | Autoassinado (o Chrome não registra service worker com erro de certificado) × certificado de uma CA local (ex.: mkcert) instalada na máquina da avaliação | Gabs + Juh | PWA, OAuth |
 | **Envio de e-mail** (GDPR exige e-mails de confirmação) | Mailpit no compose em dev; em produção, SMTP real ou só o Mailpit | Di | GDPR, 2FA |
 | **Provedor de LLM** e orçamento | Ver [llm.md](llm.md) | Edu (com o time, se houver custo) | Módulos 7 e 8 |
 | **Comunidades e eventos** (tabelas já existem) | Adiado; voltar a discutir se sobrar tempo | Time | Notificações, schema |

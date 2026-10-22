@@ -34,7 +34,7 @@ Também com a Juh: layout base (cabeçalho, rodapé com links para `/privacidade
 
 **Como:** o guia de PWA da documentação do Next.js (`app/manifest.ts` + service worker), ou uma biblioteca como Serwist. Confirme a compatibilidade com o Next 16 antes de escolher.
 **Demonstrar:** instalar pelo Chrome; DevTools → Network → Offline → recarregar a página de uma trilha já vista.
-**Depende de:** Gabs (HTTPS). ⚠️ O Chrome não registra service worker em página com erro de certificado. Testar com o Gabs assim que o nginx existir.
+**Depende de:** Gabs (HTTPS, pronto). ⚠️ O Chrome não registra service worker em página com erro de certificado: importe `docker/nginx/certs/ca.crt` no Chrome ([README](../README.md#execução)) e teste em `make`, não em `make dev`.
 **Atenção ao mapa:** a política dos tiles do OSM proíbe baixar tiles antecipadamente para uso offline ([dados-trilhas.md](dados-trilhas.md#mapa-e-licenças)). Offline, o percurso da trilha pode aparecer sem o mapa de fundo.
 
 ### 15. Design system próprio (Minor)
