@@ -123,7 +123,7 @@ Fonte: o campo "Uso de IA nesta PR" de cada PR. Consolidar perto da avaliação.
 | Camada | Tecnologia | Estado | Por quê |
 |---|---|---|---|
 | Frontend | Next.js 16 (React 19, App Router) | Em uso (`apps/web`) | Framework full-stack escolhido pelo time |
-| Frontend | Tailwind CSS 4 + design system próprio | Tailwind instalado, ainda não configurado | Solução de estilo exigida; base para os tokens |
+| Frontend | Tailwind CSS 4 + design system próprio | Tailwind em uso (tema em `globals.css`); design system a fazer | Solução de estilo exigida; base para os tokens |
 | Frontend | PWA (manifest + service worker), Leaflet | Planejado | Módulo de PWA; mapas simples de integrar |
 | Backend | Next.js (Route Handlers, Server Actions) | Em uso | Um app só para front e back ([decisões](docs/decisoes/README.md)) |
 | Banco | PostgreSQL 18 + PostGIS + pgvector, via Prisma 7 (`@prisma/adapter-pg`) | Em uso | Relacional com schema legível; pgvector para o RAG |
@@ -144,7 +144,7 @@ Um banco (`POSTGRES_DB`, padrão `trails`) com **um schema Prisma**: [`apps/web/
 erDiagram
   User ||--o{ Session : "tem"
   User ||--o{ Account : "tem"
-  User ||--o{ Trail : "cria"
+  User |o--o{ Trail : "cria"
   User ||--o{ Activity : "registra"
   Trail |o--o{ Activity : "referencia"
   User ||--o{ CommunityMember : "participa"
@@ -189,7 +189,7 @@ Formato: | Funcionalidade | Descrição | Responsável(is) |
 | Módulo | Tipo | Pts | Justificativa e implementação | Responsável(is) |
 |---|---|---|---|---|
 | Framework de frontend (Next.js) | Minor | 1 | | Juh |
-| Framework de backend (Next.js) | Minor | 1 | | Gabriel |
+| Framework de backend (Next.js) | Minor | 1 | O backend roda no próprio Next.js, no servidor: **Route Handlers** (`src/app/api/**/route.ts`) para leituras por URL, como `GET /api/trails`, e **Server Actions** (`src/server/<área>/actions.ts`) para os formulários. As regras ficam em `src/server/<área>/service.ts`; erros, validação (Zod) e paginação são comuns a todas as rotas, em `src/server/api/` | Gabriel |
 | ORM (Prisma) | Minor | 1 | | Gabriel |
 | Gerenciamento padrão de usuários | Major | 2 | | Diego |
 | Interação entre usuários | Major | 2 | | Rafael |

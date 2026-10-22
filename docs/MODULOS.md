@@ -60,7 +60,7 @@ Também com o Gabs: **nginx + HTTPS** (obrigatório: só o nginx expõe porta; H
 ### 2. Framework de backend (Minor)
 - [x] 📜 Usar um framework de backend → Next.js (Route Handlers e Server Actions)
 - [ ] Lógica de backend real no Next.js: auth, perfis, amigos, trilhas, atividades, notificações
-- [ ] README explica o que é backend no Next.js
+- [x] README explica o que é backend no Next.js
 
 **Demonstrar:** um Route Handler e uma Server Action no código, com validação e tratamento de erro.
 **Já existe:** `GET /api/health` (checa o banco), rotas do Better Auth, os helpers de [`src/server/api/`](../apps/web/src/server/api/) (erros padrão, `withHandler`, `withAction`, validação, paginação), `GET /api/trails` e `/api/trails/[id]` e as server actions de trilhas e atividades.
