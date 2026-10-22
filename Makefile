@@ -1,17 +1,25 @@
 COMPOSE = docker compose -f docker/docker-compose.yml
+COMPOSE_DEV = $(COMPOSE) -f docker/docker-compose.dev.yml
 SECRETS = docker/secrets/db_password.txt docker/secrets/better_auth_secret.txt
 CERT = docker/nginx/certs/server.crt
 
 # O DATABASE_URL só existe no processo do entrypoint; comandos via exec precisam montá-lo
 DB_ENV = export DATABASE_URL="postgresql://$$POSTGRES_USER:$$(cat /run/secrets/db_password)@postgres:5432/$$POSTGRES_DB?schema=public";
 
-.PHONY: all build up stop down logs sh npm migrate test import-trails studio check-env clean fclean re
+.PHONY: all build up dev stop down logs sh npm migrate test import-trails studio check-env clean fclean re
 
 all: up
 
+APP_URL = https://localhost:$$(sed -n 's/^HTTPS_PORT=//p' docker/.env | grep . || echo 8443)
+REQUIRE_DEV = $(COMPOSE) exec nextjs sh -c '[ "$$APP_MODE" = dev ]' 2>/dev/null || { echo "o app está em modo produção: rode make dev antes"; exit 1; }
+
 up: docker/.env check-env $(SECRETS) $(CERT) data/postgres
 	$(COMPOSE) up -d --build
-	@echo "App em https://localhost:$$(sed -n 's/^HTTPS_PORT=//p' docker/.env | grep . || echo 8443)"
+	@echo "App (produção) em $(APP_URL)"
+
+dev: docker/.env check-env $(SECRETS) $(CERT) data/postgres
+	$(COMPOSE_DEV) up -d --build
+	@echo "App (desenvolvimento, com hot reload) em $(APP_URL)"
 
 build:
 	$(COMPOSE) build
@@ -30,11 +38,13 @@ sh:
 
 # uso: make npm args="install zod"
 npm:
+	@$(REQUIRE_DEV)
 	$(COMPOSE) exec nextjs npm $(args)
 
 # uso: make migrate name=add_trails
 migrate:
 	$(if $(name),,$(error uso: make migrate name=<nome>))
+	@$(REQUIRE_DEV)
 	$(COMPOSE) exec nextjs sh -c '$(DB_ENV) npx prisma migrate dev --name $(name)'
 
 # Testes (Vitest) num banco separado, <POSTGRES_DB>_test, criado e migrado na primeira execução
