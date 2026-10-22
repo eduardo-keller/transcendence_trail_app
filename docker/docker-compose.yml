@@ -21,11 +21,9 @@ services:
     environment:
       POSTGRES_USER: ${POSTGRES_USER:?}
       POSTGRES_DB: ${POSTGRES_DB:?}
-      BETTER_AUTH_URL: ${BETTER_AUTH_URL:?}
+      BETTER_AUTH_URL: https://localhost:${HTTPS_PORT:-8443}   # a URL que o navegador usa (nginx)
       WATCHPACK_POLLING: "true"
     secrets: [db_password, better_auth_secret]
-    ports:
-      - "3000:3000"
     volumes:
       - ../apps/web:/app
       - /apps/node_modules
@@ -33,7 +31,9 @@ services:
     depends_on:
       postgres: { condition: service_healthy }
 
+  # Só com `make studio` (profile tools) e só para esta máquina: abre o banco sem senha
   prisma-studio:
+    profiles: [tools]
     build:
       context: ..
       dockerfile: docker/nextjs/Dockerfile
@@ -41,15 +41,30 @@ services:
     environment:
       POSTGRES_USER: ${POSTGRES_USER:?}
       POSTGRES_DB: ${POSTGRES_DB:?}
-      BETTER_AUTH_URL: ${BETTER_AUTH_URL:?}
+      BETTER_AUTH_URL: https://localhost:${HTTPS_PORT:-8443}
     secrets: [db_password, better_auth_secret]
     ports:
-      - "5555:5556"
+      - "127.0.0.1:5555:5556"
     volumes:
       - ../apps/web:/app
       - /app/node_modules
     depends_on:
       postgres: { condition: service_healthy }
+
+  # Único serviço com porta publicada: HTTPS, e HTTP só para redirecionar
+  nginx:
+    build:
+      context: ..
+      dockerfile: docker/nginx/Dockerfile
+    environment:
+      HTTPS_PORT: ${HTTPS_PORT:-8443}
+    ports:
+      - "${HTTP_PORT:-8080}:80"
+      - "${HTTPS_PORT:-8443}:443"
+    volumes:
+      - ./nginx/certs:/etc/nginx/certs:ro
+    depends_on:
+      - nextjs
 
 secrets:
   db_password:

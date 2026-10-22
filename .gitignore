@@ -19,9 +19,6 @@ test-results/
 
 # Dados locais gerados
 backups/
-infra/nginx/certs/
-services/trails/data/raw/
-services/ai/.model-cache/
 postgres_data/
 
 # Logs e sistema
@@ -39,6 +36,9 @@ Thumbs.db
 # Secrets
 **/secrets/*
 !**/secrets/.gitkeep
+
+# Certificado do nginx (gerado pelo make, ou o seu do mkcert)
+docker/nginx/certs/
 
 # Dados do Postgres (bind mount)
 data/postgres/

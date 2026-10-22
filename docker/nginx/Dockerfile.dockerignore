@@ -1,0 +1,4 @@
+# O contexto do build é a raiz do repositório: só entra o que a imagem copia
+*
+!docker/nginx/conf
+!docker/nginx/tools
