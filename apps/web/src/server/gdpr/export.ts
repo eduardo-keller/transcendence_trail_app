@@ -6,7 +6,7 @@ import { notFound } from '@/server/api';
 // Nunca inclui segredos: hash de senha, tokens de sessão ou de OAuth.
 // Ao criar um modelo novo ligado a User, acrescente-o aqui.
 export async function exportUserData(userId: string) {
-	const user = await prisma.user.findUnique({
+	const user = await prisma.$transaction((tx) => tx.user.findUnique({
 		where: { id: userId },
 		select: {
 			id: true,
@@ -54,7 +54,7 @@ export async function exportUserData(userId: string) {
 			notifications: { select: { message: true, isRead: true, createdAt: true } },
 			badges: { select: { earnedAt: true, badge: { select: { name: true, description: true } } } },
 		},
-	});
+	}), { isolationLevel: 'RepeatableRead' });
 	if (!user) throw notFound('Usuário não encontrado.');
 
 	const {

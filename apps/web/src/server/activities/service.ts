@@ -50,7 +50,7 @@ export async function listActivities(userId: string, filters: ActivityList) {
 			orderBy: [{ startedAt: filters.order }, { id: 'asc' }],
 			...paginate(filters),
 		}),
-	]);
+	], { isolationLevel: 'RepeatableRead' });
 	return paginated(items, total, filters);
 }
 

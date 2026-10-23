@@ -112,7 +112,7 @@ export async function searchTrails(filters: TrailSearch, viewerId: string | null
 	const [total, rows] = await prisma.$transaction([
 		prisma.trail.count({ where }),
 		prisma.trail.findMany({ where, orderBy, select: summarySelect, ...paginate(filters) }),
-	]);
+	], { isolationLevel: 'RepeatableRead' });
 	return paginated(rows.map(toSummary), total, filters);
 }
 
