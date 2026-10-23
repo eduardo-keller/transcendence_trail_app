@@ -76,12 +76,14 @@ export async function createActivity(input: z.output<typeof createActivitySchema
 export async function updateActivity(id: string, input: z.output<typeof updateActivitySchema>, userId: string) {
 	await getActivity(id, userId);
 	if (input.trailId) await findLinkableTrail(input.trailId, userId);
-	return prisma.activity.update({ where: { id }, data: input, select: { id: true } }).catch(trailGoneDuringWrite);
+	return prisma.activity
+		.update({ where: { id, userId }, data: input, select: { id: true } })
+		.catch(trailGoneDuringWrite);
 }
 
 export async function deleteActivity(id: string, userId: string) {
 	await getActivity(id, userId);
-	return prisma.activity.delete({ where: { id }, select: { id: true } });
+	return prisma.activity.delete({ where: { id, userId }, select: { id: true } });
 }
 
 // Estatísticas do perfil: total de atividades, distância (m) e tempo (s)

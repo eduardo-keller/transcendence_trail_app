@@ -165,7 +165,7 @@ export async function updateTrail(id: string, input: z.output<typeof updateTrail
 	await findEditable(id, userId);
 	const { route, ...fields } = input;
 	return prisma.trail.update({
-		where: { id },
+		where: { id, authorId: userId },
 		data: { ...fields, ...(route && routeData(route)) },
 		select: { id: true },
 	});
@@ -174,5 +174,5 @@ export async function updateTrail(id: string, input: z.output<typeof updateTrail
 // As atividades que apontavam para a trilha ficam, com trailId nulo (onDelete: SetNull)
 export async function deleteTrail(id: string, userId: string) {
 	await findEditable(id, userId);
-	return prisma.trail.delete({ where: { id }, select: { id: true } });
+	return prisma.trail.delete({ where: { id, authorId: userId }, select: { id: true } });
 }
