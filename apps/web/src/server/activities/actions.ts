@@ -11,7 +11,7 @@ import { requireUser } from '@/server/auth/session';
 import { activityIdSchema } from './schemas';
 import { createActivity, deleteActivity, updateActivity } from './service';
 
-// Escritas de atividade (contrato: docs/contracts/README.md, "Server Actions").
+// Escritas de atividade (formato: docs/TECNICO.md, "Convenções").
 // Cada action devolve ActionResult: { ok: true, data } ou { ok: false, error }.
 // As páginas de atividades são dinâmicas (dependem do usuário): depois da action, router.refresh() basta.
 

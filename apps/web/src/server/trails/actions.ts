@@ -12,7 +12,7 @@ import { requireUser } from '@/server/auth/session';
 import { trailIdSchema } from './schemas';
 import { createTrail, deleteTrail, updateTrail } from './service';
 
-// Escritas de trilha (contrato: docs/contracts/README.md, "Server Actions").
+// Escritas de trilha (formato: docs/TECNICO.md, "Convenções").
 // Cada action devolve ActionResult: { ok: true, data } ou { ok: false, error }.
 // Os tipos dos parâmetros são só para o editor: a entrada é validada de novo aqui.
 

@@ -88,6 +88,16 @@ Regras do banco:
 - [x] Segredos fora do git (`docker/secrets/`, `docker/.env`).
 - [x] Prisma Studio não sobe no `make` (só no profile `tools`, em `127.0.0.1`).
 
+## Concorrência
+
+Duas requisições ao mesmo tempo não podem corromper dados. Regras (testes em `tests/integration/concurrency.test.ts`):
+- **Unicidade é do banco**, não do código: `@unique`/`@@unique` (e-mail, emblema por usuário). Amizade: `@@unique` no par ordenado (menor id, maior id), para pedidos cruzados A→B e B→A virarem **uma** linha.
+- **Escrita condicional:** quem só o dono pode alterar leva o dono no `where` da própria escrita (`update({ where: { id, authorId } })`), não só numa consulta antes.
+- **Nada de "ler, somar, gravar":** contador com `{ increment: n }` (XP) ou calculado na hora (`aggregate`, estatísticas).
+- **Erro do banco vira resposta clara:** `P2002` → 409, `P2025` → 404, `P2003` (registro ligado sumiu) → 409/404. Nunca 500.
+- **Leitura em várias consultas** (total + página, exportação): `$transaction(..., { isolationLevel: 'RepeatableRead' })`.
+- Ordem do chat: `createdAt` + `id` (dois envios no mesmo milissegundo).
+
 ## Console limpo
 
 Qualquer erro ou warning no console do Chrome reprova o projeto. Causas comuns neste stack:
