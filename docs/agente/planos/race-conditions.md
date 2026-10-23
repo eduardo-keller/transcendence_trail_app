@@ -1,7 +1,7 @@
 # Plano: revisão de race conditions e integridade dos dados
 
 - **Área / módulo(s):** Gabs / requisito eliminatório "sem corrupção de dados nem race conditions" ([AVALIACAO.md](../../AVALIACAO.md)); módulo 3
-- **Status:** Em execução
+- **Status:** Concluído
 - **Última atualização:** 2026-10-22
 
 ## 1. Objetivo
@@ -122,3 +122,4 @@ make test && bash tests/test-all.sh
 | 2026-10-22 | Plano criado depois de ler `trails/service.ts`, `activities/service.ts`, `gdpr/export.ts`, `import-trails.mts`, `server/api/handler.ts` e `schema.prisma` |
 | 2026-10-22 | Passo 1: antes das correções, 4 dos 6 testes de concorrência falhavam: criar/editar atividade com a trilha apagada no meio → 500 (`P2003`), inclusive numa corrida real (20 rodadas de `Promise.all`), e a edição acontecia com o dono trocado no meio. 10 exclusões e 10 edições simultâneas já estavam corretas |
 | 2026-10-22 | Passos 2 a 6 feitos. `make test` 5 vezes seguidas: 139/139 em todas; `test-all.sh` em produção: 348 ok. Cuidado: `biome format` reformata o arquivo inteiro (formatação do time não configurada), então não foi usado |
+| 2026-10-22 | Passos 7 e 8 entregues na conversa; Gabs autorizou marcar a caixa da AVALIACAO. Plano concluído |

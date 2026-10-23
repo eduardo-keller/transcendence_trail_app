@@ -15,7 +15,7 @@
 | [ ] | Privacidade e Termos **acessíveis** (rodapé) e com **conteúdo relevante** | `/privacidade` e `/termos` ([conteúdo mínimo](#privacidade-e-termos)) | *em aberto* |
 | [ ] | Vários usuários ao mesmo tempo, sem conflito | 3 navegadores agindo juntos (chat, amizade cruzada, atividades) | Rafa |
 | [ ] | Atualizações em tempo real para todos os conectados, quando fizer sentido | Chat, status online, notificações | Rafa |
-| [ ] | Sem corrupção de dados nem race conditions | `UNIQUE`, transações (saber explicar) | Gabs |
+| [x] | Sem corrupção de dados nem race conditions | `UNIQUE`, transações (saber explicar) | Gabs |
 | [ ] | Frontend claro, responsivo e acessível | Celular (DevTools), teclado, contraste | Juh |
 | [ ] | Framework CSS ou solução de estilo | Tailwind | Juh |
 | [ ] | Credenciais em `.env` fora do git + `.env.example` | `git ls-files \| grep -E "\.env\|secrets"` mostra só `docker/.env.example` e `docker/secrets/.gitkeep` | Gabs |
