@@ -147,9 +147,10 @@ describe('withHandler', () => {
 		expect((await respond(zodError)).body.error.code).toBe('VALIDATION_ERROR');
 	});
 
-	it('Prisma P2002 (unique) → 409 e P2025 (não existe) → 404', async () => {
+	it('Prisma P2002 (unique) → 409, P2025 (não existe) → 404 e P2003 (chave estrangeira) → 409', async () => {
 		expect((await respond(prismaError('P2002'))).status).toBe(409);
 		expect((await respond(prismaError('P2025'))).status).toBe(404);
+		expect((await respond(prismaError('P2003'))).status).toBe(409);
 	});
 
 	it('erro inesperado → 500 genérico, sem vazar a mensagem (que vai para o log)', async () => {

@@ -35,6 +35,7 @@ export function toApiError(error: unknown): ApiError {
 		}
 		// update/delete de registro que não existe
 		if (error.code === 'P2025') return notFound();
+		if (error.code === 'P2003') return conflict('O registro relacionado não existe mais.');
 	}
 	console.error(error);
 	return internalError();

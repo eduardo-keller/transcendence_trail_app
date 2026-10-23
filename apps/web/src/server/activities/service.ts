@@ -1,4 +1,4 @@
-import type { Prisma } from '@prisma/client';
+import { Prisma } from '@prisma/client';
 import type { z } from 'zod';
 import { prisma } from '@/lib/db';
 import type { createActivitySchema, updateActivitySchema } from '@/lib/validation/activity';
@@ -29,6 +29,11 @@ async function findLinkableTrail(trailId: string, userId: string) {
 	});
 	if (!trail) throw trailNotFound();
 	return trail;
+}
+
+function trailGoneDuringWrite(error: unknown): never {
+	if (error instanceof Prisma.PrismaClientKnownRequestError && error.code === 'P2003') throw trailNotFound();
+	throw error;
 }
 
 export async function listActivities(userId: string, filters: ActivityList) {
@@ -65,13 +70,13 @@ export async function createActivity(input: z.output<typeof createActivitySchema
 			userId,
 		},
 		select: { id: true },
-	});
+	}).catch(trailGoneDuringWrite);
 }
 
 export async function updateActivity(id: string, input: z.output<typeof updateActivitySchema>, userId: string) {
 	await getActivity(id, userId);
 	if (input.trailId) await findLinkableTrail(input.trailId, userId);
-	return prisma.activity.update({ where: { id }, data: input, select: { id: true } });
+	return prisma.activity.update({ where: { id }, data: input, select: { id: true } }).catch(trailGoneDuringWrite);
 }
 
 export async function deleteActivity(id: string, userId: string) {
