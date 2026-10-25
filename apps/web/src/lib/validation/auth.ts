@@ -22,7 +22,19 @@ export const signInSchema = z.object({
 	password: z.string().min(1, 'Digite a senha').max(PASSWORD_MAX),
 });
 
+export const changePasswordSchema = z
+	.object({
+		currentPassword: z.string().min(1, 'Digite a senha atual').max(PASSWORD_MAX),
+		newPassword: password,
+		confirmPassword: z.string(),
+	})
+	.refine((data) => data.newPassword === data.confirmPassword, {
+		path: ['confirmPassword'],
+		message: 'As senhas não conferem',
+	});
+
 export type SignUpInput = z.input<typeof signUpSchema>;
+export type ChangePasswordInput = z.input<typeof changePasswordSchema>;
 export type SignInInput = z.input<typeof signInSchema>;
 
 // Erros do zod por campo, para mostrar ao lado de cada input
