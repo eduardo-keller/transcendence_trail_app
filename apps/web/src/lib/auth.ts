@@ -3,7 +3,7 @@ import { prismaAdapter } from 'better-auth/adapters/prisma';
 import { APIError, createAuthMiddleware } from 'better-auth/api';
 import { nextCookies } from 'better-auth/next-js';
 import { genericOAuth, twoFactor } from 'better-auth/plugins';
-import { fieldErrors, signUpSchema } from './validation/auth';
+import { nameSchema } from './validation/auth';
 import { generateUsername } from './validation/profile';
 import { sendEmail } from '../server/email/send';
 import { prisma } from './db';
@@ -80,14 +80,13 @@ export const auth = betterAuth({
 			'/sign-up/email': { window: 60, max: 3 },
 		},
 	},
-	// Mesmas regras do formulário, também para quem chama a API direto
+	// O nome tem as regras do formulário também para quem chama a API direto.
+	// E-mail e tamanho da senha o próprio Better Auth valida (com as mesmas regras e os códigos de erro dele).
 	hooks: {
 		before: createAuthMiddleware(async (ctx) => {
 			if (ctx.path !== '/sign-up/email') return;
-			const result = signUpSchema.safeParse(ctx.body);
-			if (!result.success) {
-				throw new APIError('BAD_REQUEST', { message: Object.values(fieldErrors(result.error))[0] });
-			}
+			const result = nameSchema.safeParse((ctx.body as { name?: unknown } | undefined)?.name);
+			if (!result.success) throw new APIError('BAD_REQUEST', { message: result.error.issues[0]?.message });
 		}),
 	},
 	// nextCookies() precisa ser o último plugin: grava os cookies quando auth.api.* roda no servidor.
