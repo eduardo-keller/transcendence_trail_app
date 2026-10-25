@@ -41,6 +41,7 @@ model User {
   createdAt     DateTime @default(now())
   updatedAt     DateTime @default(now()) @updatedAt
 
+  avatar          Avatar?
   sessions        Session[]
   accounts        Account[]
   trails          Trail[]
@@ -51,6 +52,15 @@ model User {
   notifications   Notification[]
   posts           Post[]
   badges          UserBadge[]
+}
+
+// Foto de perfil, guardada no banco (fora de qualquer pasta pública) e servida por /api/avatar/<userId>
+model Avatar {
+  userId    String   @id
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  mime      String // detectado pelo conteúdo do arquivo, não pela extensão
+  data      Bytes
+  updatedAt DateTime @updatedAt
 }
 
 model Session {
