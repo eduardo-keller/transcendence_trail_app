@@ -1,6 +1,10 @@
 # Testa o avatar: padrão com iniciais, envio (redimensionado no navegador), arquivo falso e remoção.
 # uso: python3 tests/ui/test_avatar.py   (com o app rodando e o seed aplicado; APP=... para outra URL)
-import os, struct, sys, tempfile, urllib.request, ssl, zlib
+import sys
+
+sys.dont_write_bytecode = True  # não cria tests/ui/__pycache__
+
+import os, ssl, struct, tempfile, urllib.request, zlib
 from browser import BASE, Browser, Checks, sql
 
 

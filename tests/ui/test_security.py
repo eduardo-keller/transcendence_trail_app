@@ -1,6 +1,10 @@
 # Testa trocar a senha e encerrar sessões, com dois navegadores (dois "dispositivos").
 # uso: python3 tests/ui/test_security.py   (com o app rodando; APP=... para outra URL)
-import sys, time
+import sys
+
+sys.dont_write_bytecode = True  # não cria tests/ui/__pycache__
+
+import time
 from browser import Browser, Checks, sql
 
 c = Checks()

@@ -1,7 +1,11 @@
 # Testa as telas de login, cadastro e logout num Chrome de verdade (sem janela).
 # uso: python3 tests/ui/test_auth.py   (com o app rodando; APP=... para outra URL)
 # Cada execução cria um usuário ui-<hora>@example.com. Espere 1 min entre execuções (rate limit).
-import sys, time
+import sys
+
+sys.dont_write_bytecode = True  # não cria tests/ui/__pycache__
+
+import time
 from browser import Browser, Checks, sql
 
 b = Browser()

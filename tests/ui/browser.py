@@ -105,6 +105,7 @@ class Browser:
         return r.get("result", {}).get("value")
 
     def goto(self, path, wait=2.5):
+        self.last_field = None
         self.call("Page.navigate", {"url": BASE + path})
         self.pump(wait)
 
@@ -114,9 +115,13 @@ class Browser:
     def fill(self, values):
         for name, value in values.items():
             self.js(f"document.querySelector('[name=\"{name}\"]').value = {json.dumps(value)}")
+            self.last_field = name
 
     def submit(self, wait=2.5):
-        self.js("document.querySelector('form').requestSubmit()")
+        """Envia o formulário do último campo preenchido (a página pode ter vários)."""
+        field = getattr(self, "last_field", None)
+        target = f"document.querySelector('[name=\"{field}\"]')?.form" if field else "document.querySelector('form')"
+        self.js(f"({target} || document.querySelector('form')).requestSubmit()")
         self.pump(wait)
 
     def click(self, text, wait=2.5):
