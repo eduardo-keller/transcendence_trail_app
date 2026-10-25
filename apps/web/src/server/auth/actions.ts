@@ -20,11 +20,13 @@ const tooManyRequests = () => new ApiError(429, 'TOO_MANY_REQUESTS', 'Muitas ten
 
 export const signInAction = withAction(async (input: SignInInput) => {
 	const body = parseWith(signInSchema, input);
-	const { status } = await callAuth('/sign-in/email', body);
+	const { status, data } = await callAuth('/sign-in/email', body);
 	if (status === 429) throw tooManyRequests();
 	// Mesma mensagem para e-mail inexistente e senha errada
 	if (status === 401 || status === 400) throw new ApiError(401, 'INVALID_CREDENTIALS', 'E-mail ou senha incorretos.');
 	if (status !== 200) throw internalError();
+	// Senha certa, mas a conta tem 2FA: ainda falta o código do app
+	if ((data as { twoFactorRedirect?: boolean } | null)?.twoFactorRedirect) redirect('/login/2fa');
 	redirect('/conta');
 });
 

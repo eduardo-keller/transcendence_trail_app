@@ -2,6 +2,7 @@ import { betterAuth } from 'better-auth';
 import { prismaAdapter } from 'better-auth/adapters/prisma';
 import { APIError, createAuthMiddleware } from 'better-auth/api';
 import { nextCookies } from 'better-auth/next-js';
+import { twoFactor } from 'better-auth/plugins';
 import { fieldErrors, signUpSchema } from './validation/auth';
 import { generateUsername } from './validation/profile';
 import { prisma } from './db';
@@ -54,5 +55,10 @@ export const auth = betterAuth({
 		}),
 	},
 	// nextCookies() precisa ser o último plugin: grava os cookies quando auth.api.* roda no servidor.
-	plugins: [nextCookies()],
+	plugins: [
+		// TOTP (app autenticador) + códigos de recuperação. Só é pedido no login com e-mail e senha:
+		// no OAuth quem autentica é o provedor (decisão em docs/decisoes/README.md).
+		twoFactor({ issuer: 'Trilhas SP' }),
+		nextCookies(),
+	],
 });

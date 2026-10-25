@@ -33,6 +33,19 @@ export const changePasswordSchema = z
 		message: 'As senhas não conferem',
 	});
 
+// Senha para confirmar uma ação sensível (ativar 2FA, excluir a conta...)
+export const passwordConfirmSchema = z.object({ password: z.string().min(1, 'Digite a sua senha').max(PASSWORD_MAX) });
+
+// Código de 6 dígitos do app autenticador
+export const totpCodeSchema = z.object({
+	code: z
+		.string()
+		.trim()
+		.regex(/^\d{6}$/, 'O código tem 6 dígitos'),
+});
+
+export const backupCodeSchema = z.object({ code: z.string().trim().min(1, 'Digite um código de recuperação').max(32) });
+
 export type SignUpInput = z.input<typeof signUpSchema>;
 export type ChangePasswordInput = z.input<typeof changePasswordSchema>;
 export type SignInInput = z.input<typeof signInSchema>;
