@@ -71,7 +71,7 @@ O mínimo é 14. Módulo incompleto vale 0, então 100% de um módulo vale mais 
 | O quê | Por que importa | Pode esperar? |
 |---|---|---|
 | **Dono do catálogo de trilhas** (lista, mapa, página da trilha, registrar atividade) | Nenhum módulo cobre o catálogo, mas RAG, gamificação, dashboard, exportação, PWA offline e boa parte das notificações dependem de trilhas e atividades. Detalhes em [MODULOS.md](MODULOS.md#catálogo-de-trilhas-sem-dono) | **Não.** Pelo menos a API de atividades e a página da trilha precisam sair cedo |
-| **Dono das páginas de Privacidade e Termos** | Sem elas o projeto é **reprovado**. Conteúdo mínimo em [AVALIACAO.md](AVALIACAO.md#privacidade-e-termos) | Sim: dá para fazer no fim, quando as funcionalidades estiverem definidas. O link no rodapé entra já no layout |
+| **Páginas de Privacidade e Termos** | Sem elas o projeto é **reprovado**. Feitas pela Di (`/privacidade`, `/termos`); revisar quando o provedor de LLM e a fonte da elevação forem decididos | Falta só o link no rodapé (Juh) |
 | **Papéis PO, PM e Tech Lead** | O subject exige que estejam no README | Sim, mas precisam estar definidos antes da avaliação |
 | Decisões técnicas pendentes | Tempo real, HTTPS × PWA, e-mail, provedor de LLM | Ver [decisoes/](decisoes/README.md) |
 

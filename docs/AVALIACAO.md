@@ -12,7 +12,7 @@
 | [ ] | Containerização com **um único comando** | Clone limpo → `make` | Gabs |
 | [ ] | Compatível com a última versão estável do Chrome | Roteiro completo no Chrome atualizado | Todos |
 | [ ] | **Nenhum warning ou erro no console** | Navegar por todas as páginas, logado e deslogado, com o DevTools aberto | Todos |
-| [ ] | Privacidade e Termos **acessíveis** (rodapé) e com **conteúdo relevante** | `/privacidade` e `/termos` ([conteúdo mínimo](#privacidade-e-termos)) | *em aberto* |
+| [ ] | Privacidade e Termos **acessíveis** (rodapé) e com **conteúdo relevante** | `/privacidade` e `/termos` prontos, com o [conteúdo mínimo](#privacidade-e-termos) (`tests/ui/test_legal.py`); falta o link no rodapé | Di (páginas), Juh (rodapé) |
 | [ ] | Vários usuários ao mesmo tempo, sem conflito | 3 navegadores agindo juntos (chat, amizade cruzada, atividades) | Rafa |
 | [ ] | Atualizações em tempo real para todos os conectados, quando fizer sentido | Chat, status online, notificações | Rafa |
 | [x] | Sem corrupção de dados nem race conditions | `UNIQUE`, transações (saber explicar) | Gabs |

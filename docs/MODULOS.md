@@ -96,7 +96,7 @@ Também com o Gabs: **nginx + HTTPS** (obrigatório: só o nginx expõe porta; H
 
 ## Di — Usuários e segurança
 
-Também com a Di: cadastro e login com e-mail e senha (obrigatório), `getSession()` e `requireUser()` (todos usam; sai primeiro) e o envio de e-mails.
+Também com a Di: cadastro e login com e-mail e senha (obrigatório), `getSession()` e `requireUser()` (todos usam; sai primeiro), o envio de e-mails e as páginas de Privacidade e Termos (prontas em `/privacidade` e `/termos`; o link no rodapé é da Juh).
 
 ### 4. Gerenciamento padrão de usuários (Major)
 - [x] 📜 O usuário atualiza as informações do perfil
