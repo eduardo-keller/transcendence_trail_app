@@ -123,6 +123,14 @@ class Browser:
         self.js(f"[...document.querySelectorAll('button,a')].find(e => e.textContent.trim() === {json.dumps(text)}).click()")
         self.pump(wait)
 
+    def upload(self, selector, path, wait=4):
+        """Escolhe um arquivo num <input type=file> (como se a pessoa tivesse escolhido)."""
+        root = self.call("DOM.getDocument")["root"]["nodeId"]
+        node = self.call("DOM.querySelector", {"nodeId": root, "selector": selector})["nodeId"]
+        self.call("DOM.setFileInputFiles", {"nodeId": node, "files": [path]})
+        self.js(f"document.querySelector({json.dumps(selector)}).dispatchEvent(new Event('change', {{bubbles: true}}))")
+        self.pump(wait)
+
     def text(self):
         return self.js("document.body.innerText")
 
