@@ -46,7 +46,12 @@ export default async function AccountPage({ searchParams }: Props) {
 						<AvatarUpload hasImage={!!user.image} />
 					</div>
 				</div>
-				<SignOutButton />
+				<div className="flex flex-col items-end gap-2">
+					<SignOutButton />
+					<Link href="/conta/dados" className="text-sm font-bold text-forest underline">
+						Privacidade e dados
+					</Link>
+				</div>
 			</header>
 
 			<section className="rounded-card bg-paper p-6">
