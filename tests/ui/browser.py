@@ -161,6 +161,12 @@ def sql(query):
     return subprocess.run(cmd, capture_output=True, text=True).stdout.strip()
 
 
+def app_logs(since="5m"):
+    """Log do container do app (onde vão os e-mails quando não há SMTP configurado)."""
+    cmd = ["docker", "compose", "-f", os.path.join(REPO, "docker/docker-compose.yml"), "logs", "--no-log-prefix", "--since", since, "nextjs"]
+    return subprocess.run(cmd, capture_output=True, text=True).stdout
+
+
 class Checks:
     def __init__(self):
         self.ok = 0
