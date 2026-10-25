@@ -38,10 +38,12 @@ model User {
   image         String?
   username      String   @unique @default(cuid()) // /u/<username>; o Better Auth gera um legível (databaseHooks em lib/auth.ts)
   bio           String?
+  twoFactorEnabled Boolean? @default(false)
   createdAt     DateTime @default(now())
   updatedAt     DateTime @default(now()) @updatedAt
 
   avatar          Avatar?
+  twoFactors      TwoFactor[]
   sessions        Session[]
   accounts        Account[]
   trails          Trail[]
@@ -61,6 +63,21 @@ model Avatar {
   mime      String // detectado pelo conteúdo do arquivo, não pela extensão
   data      Bytes
   updatedAt DateTime @updatedAt
+}
+
+// 2FA (plugin twoFactor do Better Auth): segredo do TOTP e códigos de recuperação, cifrados pela biblioteca
+model TwoFactor {
+  id                      String    @id
+  secret                  String
+  backupCodes             String
+  userId                  String
+  user                    User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  verified                Boolean?  @default(true)
+  failedVerificationCount Int?      @default(0)
+  lockedUntil             DateTime?
+
+  @@index([secret])
+  @@index([userId])
 }
 
 model Session {
