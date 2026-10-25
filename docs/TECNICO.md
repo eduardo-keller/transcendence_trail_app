@@ -55,7 +55,7 @@ Regras do banco:
 | Segredos | Senhas e chaves em `docker/secrets/*.txt` (Docker secrets); o resto em `docker/.env`. Variável nova vai para o `docker/.env.example` |
 | Imports | Alias `@/` aponta para `apps/web/src/` |
 | Lint | Biome: `make npm args="run lint"` |
-| Testes | `make test` (Vitest, num banco `_test` separado) e `bash tests/test-all.sh` (projeto inteiro, com o app no ar) |
+| Testes | `make test` (Vitest, num banco `_test` separado), `bash tests/test-all.sh` (projeto inteiro, com o app no ar) e `python3 tests/ui/test_*.py` (telas num Chrome sem janela, inclusive console limpo) |
 
 ## Interfaces entre pessoas
 

@@ -106,7 +106,7 @@ Também com a Di: cadastro e login com e-mail e senha (obrigatório), `getSessio
 - [ ] Upload do avatar validado pelo conteúdo (não pela extensão), com tamanho limitado, salvo fora da pasta pública e servido por uma rota
 
 **Demonstrar:** editar o perfil, enviar um avatar, ver o avatar padrão num usuário novo, ver um amigo ficar online e offline na página de perfil.
-**Já existe:** Better Auth com rotas `/api/auth/*`, rate limit no login (5/min) e no cadastro (3/min), `getSession()`/`requireUser()`/`requirePageUser()` (página de exemplo: `/conta`) e um [script de teste](../tests/test-auth.sh). Faltam as telas e o perfil.
+**Já existe:** Better Auth com rotas `/api/auth/*`, rate limit no login (5/min) e no cadastro (3/min), `getSession()`/`requireUser()`/`requirePageUser()`, telas `/login`, `/cadastro` e `/conta` (com sair), testes da API ([test-auth.sh](../tests/test-auth.sh)) e das telas ([tests/ui/test_auth.py](../tests/ui/test_auth.py)). Falta o perfil.
 
 ### 10. Autenticação via OAuth 2.0 (Minor)
 - [ ] 📜 Login remoto com OAuth 2.0 (Google, GitHub, 42…)
