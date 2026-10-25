@@ -1,10 +1,14 @@
 import Link from 'next/link';
 import { getSession, requirePageUser } from '@/server/auth/session';
-import { hasPassword } from '@/server/auth/account';
+import { OAUTH_PROVIDERS } from '@/lib/oauth';
+import { hasPassword, linkedProviders } from '@/server/auth/account';
+import { oauthErrorMessage } from '@/server/auth/oauth-errors';
 import { describeDevice, listSessions } from '@/server/auth/sessions';
 import { Avatar } from '../_components/avatar';
 import { AvatarUpload } from '../_components/avatar-upload';
 import { ChangePasswordForm } from '../_components/change-password-form';
+import { FormError } from '../_components/field';
+import { OAuthButtons } from '../_components/oauth-buttons';
 import { ProfileForm } from '../_components/profile-form';
 import { SessionsList } from '../_components/sessions-list';
 import { TwoFactorDisable, TwoFactorSetup } from '../_components/two-factor-setup';
@@ -14,13 +18,15 @@ export const metadata = { title: 'Minha conta · Trilhas SP' };
 
 const when = new Intl.DateTimeFormat('pt-BR', { dateStyle: 'short', timeStyle: 'short', timeZone: 'America/Sao_Paulo' });
 
-type Props = { searchParams: Promise<{ aviso?: string }> };
+type Props = { searchParams: Promise<{ aviso?: string; error?: string }> };
 
 export default async function AccountPage({ searchParams }: Props) {
-	const { aviso } = await searchParams;
+	const { aviso, error } = await searchParams;
 	const user = await requirePageUser();
 	const current = await getSession();
 	const withPassword = await hasPassword(user.id);
+	const linked = await linkedProviders(user.id);
+	const notLinked = OAUTH_PROVIDERS.filter((provider) => !linked.includes(provider.id));
 	const sessions = (await listSessions(user.id)).map((session) => ({
 		id: session.id,
 		device: describeDevice(session.userAgent),
@@ -70,6 +76,18 @@ export default async function AccountPage({ searchParams }: Props) {
 				) : (
 					<TwoFactorSetup />
 				)}
+			</section>
+
+			<section className="rounded-card bg-paper p-6">
+				<h2 className="mb-4 font-display text-xl font-bold">Contas conectadas</h2>
+				{aviso === 'conta-conectada' && <Notice>Conta conectada.</Notice>}
+				<FormError message={oauthErrorMessage(error)} />
+				<ul className="mb-4 flex flex-col gap-1" data-testid="linked-accounts">
+					{withPassword && <li>E-mail e senha</li>}
+					{linked.includes('github') && <li>GitHub</li>}
+					{linked.includes('42') && <li>42</li>}
+				</ul>
+				<OAuthButtons providers={notLinked} mode="link" />
 			</section>
 
 			<section className="rounded-card bg-paper p-6">
