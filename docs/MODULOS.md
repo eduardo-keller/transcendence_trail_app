@@ -110,11 +110,15 @@ Também com a Di: cadastro e login com e-mail e senha (obrigatório), `getSessio
 
 ### 10. Autenticação via OAuth 2.0 (Minor)
 - [ ] 📜 Login remoto com OAuth 2.0 (Google, GitHub, 42…)
-- [ ] Conta OAuth com o mesmo e-mail de uma conta existente: comportamento definido (vincular ou recusar com mensagem clara)
-- [ ] Credenciais do provedor fora do git
+- [x] Conta OAuth com o mesmo e-mail de uma conta existente: comportamento definido (vincular ou recusar com mensagem clara) → recusa no login com mensagem; conecta em `/conta`, já logado
+- [x] Credenciais do provedor fora do git
 
 **Como:** o Better Auth tem provedores prontos (GitHub, Google). Para a 42, o plugin de OAuth genérico; confirme na documentação da versão instalada.
 **Demonstrar:** entrar com GitHub ou 42; ver a conta vinculada no perfil.
+**Já existe:** GitHub (nativo) e 42 (plugin genérico, perfil da intra mapeado à mão), com state e PKCE; botões em `/login` e `/cadastro` só quando há credenciais; "Contas conectadas" em `/conta`; erros voltam ao `/login` com mensagem ([tests/ui/test_oauth.py](../tests/ui/test_oauth.py), roda com credenciais falsas).
+**Falta para funcionar de verdade:**
+1. **Di:** registrar o app no GitHub (Settings → Developer settings → OAuth Apps) e na intra (Settings → API → Register a new app), com o retorno `https://localhost:8443/api/auth/callback/github` e `.../callback/42`.
+2. **Gabs:** passar as credenciais ao container `nextjs` como Docker secrets `github_client_id`, `github_client_secret`, `ft_client_id`, `ft_client_secret` (o código lê `/run/secrets/<nome>` ou a variável `NOME`). Em dev dá para testar com `apps/web/.env.local` (ignorado pelo git).
 
 ### 12. Conformidade com GDPR (Minor)
 - [ ] 📜 O usuário pode pedir os próprios dados
