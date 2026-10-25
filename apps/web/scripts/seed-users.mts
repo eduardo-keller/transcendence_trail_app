@@ -1,5 +1,5 @@
 // Cria os usuários de teste (alice, bruno, carla, diego, eva) com a senha SEED_PASSWORD.
-// Idempotente: quem já existe fica como está.
+// Idempotente: quem já existe só tem o username acertado.
 //
 // uso: docker compose -f docker/docker-compose.yml exec nextjs node scripts/seed-users.mts
 import { randomUUID } from 'node:crypto';
@@ -10,11 +10,11 @@ import { hashPassword } from 'better-auth/crypto';
 
 const SEED_PASSWORD = 'trilhas-dev-123';
 const USERS = [
-	{ name: 'Alice Souza', email: 'alice@example.com' },
-	{ name: 'Bruno Lima', email: 'bruno@example.com' },
-	{ name: 'Carla Mendes', email: 'carla@example.com' },
-	{ name: 'Diego Teruya', email: 'diego@example.com' },
-	{ name: 'Eva Rocha', email: 'eva@example.com' },
+	{ name: 'Alice Souza', email: 'alice@example.com', username: 'alice' },
+	{ name: 'Bruno Lima', email: 'bruno@example.com', username: 'bruno' },
+	{ name: 'Carla Mendes', email: 'carla@example.com', username: 'carla' },
+	{ name: 'Diego Teruya', email: 'diego@example.com', username: 'diego' },
+	{ name: 'Eva Rocha', email: 'eva@example.com', username: 'eva' },
 ];
 
 // Num "docker compose exec" o DATABASE_URL não existe (só no processo do entrypoint)
@@ -28,10 +28,11 @@ const prisma = new PrismaClient({ adapter: new PrismaPg({ connectionString: data
 
 try {
 	// O mesmo hash (scrypt com salt) que o cadastro gera; um por usuário, porque o salt muda
-	for (const { name, email } of USERS) {
+	for (const { name, email, username } of USERS) {
 		const existing = await prisma.user.findUnique({ where: { email } });
 		if (existing) {
-			console.log(`  ${email} já existe`);
+			await prisma.user.update({ where: { email }, data: { username } });
+			console.log(`  ${email} já existe (@${username})`);
 			continue;
 		}
 		const id = randomUUID();
@@ -40,6 +41,7 @@ try {
 				id,
 				name,
 				email,
+				username,
 				accounts: {
 					create: { id: randomUUID(), accountId: id, providerId: 'credential', password: await hashPassword(SEED_PASSWORD) },
 				},
