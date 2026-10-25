@@ -128,12 +128,13 @@ Também com a Di: cadastro e login com e-mail e senha (obrigatório), `getSessio
 **Depende de:** Gabs (saber quais tabelas têm dados pessoais).
 
 ### 14. Autenticação de dois fatores (Minor)
-- [ ] 📜 Sistema completo de 2FA
-- [ ] Ativar (QR code para app autenticador), desativar e códigos de recuperação
-- [ ] Login pede o código quando o 2FA está ativo
+- [x] 📜 Sistema completo de 2FA
+- [ ] Ativar (QR code para app autenticador), desativar e códigos de recuperação *(feito com a chave para digitar e link `otpauth://`; o QR code depende da dependência `qrcode`, pendente)*
+- [x] Login pede o código quando o 2FA está ativo
 
 **Como:** plugin de 2FA do Better Auth (TOTP + códigos de recuperação).
 **Demonstrar:** ativar com o Google Authenticator, sair, entrar de novo pedindo o código, usar um código de recuperação.
+**Já existe:** plugin `twoFactor` (tabela `TwoFactor`, segredo cifrado), ativação em 2 passos em `/conta` (senha → chave + 10 códigos de recuperação exibidos uma vez → primeiro código liga), etapa `/login/2fa` (código do app ou de recuperação, uso único), desativar com senha; rate limit de 3 tentativas a cada 10 s ([tests/ui/test_two_factor.py](../tests/ui/test_two_factor.py)).
 
 ---
 
