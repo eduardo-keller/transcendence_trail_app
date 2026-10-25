@@ -3,6 +3,7 @@ import { prismaAdapter } from 'better-auth/adapters/prisma';
 import { APIError, createAuthMiddleware } from 'better-auth/api';
 import { nextCookies } from 'better-auth/next-js';
 import { fieldErrors, signUpSchema } from './validation/auth';
+import { generateUsername } from './validation/profile';
 import { prisma } from './db';
 
 // BETTER_AUTH_SECRET e BETTER_AUTH_URL são lidos do ambiente pelo próprio Better Auth
@@ -12,6 +13,23 @@ export const auth = betterAuth({
 	emailAndPassword: {
 		enabled: true,
 		minPasswordLength: 8,
+	},
+	// Campos nossos no User. input: false = o cliente não manda; o servidor preenche.
+	user: {
+		additionalFields: {
+			username: { type: 'string', required: false, input: false },
+			bio: { type: 'string', required: false, input: false },
+		},
+	},
+	// Toda conta nova (e-mail ou OAuth) nasce com um username
+	databaseHooks: {
+		user: {
+			create: {
+				before: async (user) => ({
+					data: { ...user, username: (user.username as string | undefined) ?? generateUsername(user.name) },
+				}),
+			},
+		},
 	},
 	// Contado por IP e por rota. Sem isso ligado, dá para testar senhas sem limite.
 	rateLimit: {
@@ -35,7 +53,6 @@ export const auth = betterAuth({
 			}
 		}),
 	},
-	// nextCookies() precisa ser o último plugin: ele grava os cookies quando
-	// o login acontece dentro de uma Server Action.
+	// nextCookies() precisa ser o último plugin: grava os cookies quando auth.api.* roda no servidor.
 	plugins: [nextCookies()],
 });
