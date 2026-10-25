@@ -5,6 +5,7 @@ import { nextCookies } from 'better-auth/next-js';
 import { genericOAuth, twoFactor } from 'better-auth/plugins';
 import { fieldErrors, signUpSchema } from './validation/auth';
 import { generateUsername } from './validation/profile';
+import { sendEmail } from '../server/email/send';
 import { prisma } from './db';
 import { githubProvider, intraProvider } from './oauth';
 
@@ -30,6 +31,28 @@ export const auth = betterAuth({
 	onAPIError: { errorURL: '/login' },
 	// Campos nossos no User. input: false = o cliente não manda; o servidor preenche.
 	user: {
+		// GDPR: excluir a conta pede a senha e depois a confirmação pelo link enviado por e-mail.
+		// O link só vale uma vez e só para quem está logado nessa conta.
+		deleteUser: {
+			enabled: true,
+			// O link abre uma página nossa com um botão (POST): abrir um link (GET) nunca apaga nada,
+			// nem quando o serviço de e-mail visita o link sozinho para checar vírus.
+			sendDeleteAccountVerification: async ({ user, token }) => {
+				const url = `${process.env.BETTER_AUTH_URL ?? 'http://localhost:3000'}/conta/excluir?token=${token}`;
+				await sendEmail({
+					to: user.email,
+					subject: 'Confirme a exclusão da sua conta',
+					text: `Olá, ${user.name}.\n\nPara excluir a sua conta da Trilhas SP e todos os seus dados, abra este link no mesmo navegador em que você está logado e confirme (vale por 24 horas):\n\n${url}\n\nSe não foi você, ignore este e-mail e troque a sua senha.\n`,
+				});
+			},
+			afterDelete: async (user) => {
+				await sendEmail({
+					to: user.email,
+					subject: 'Sua conta foi excluída',
+					text: `Olá, ${user.name}.\n\nA sua conta da Trilhas SP e todos os seus dados foram excluídos.\n`,
+				}).catch((error) => console.error('[e-mail] falha ao confirmar a exclusão', error));
+			},
+		},
 		additionalFields: {
 			username: { type: 'string', required: false, input: false },
 			bio: { type: 'string', required: false, input: false },
