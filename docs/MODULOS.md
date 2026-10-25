@@ -99,14 +99,14 @@ Também com o Gabs: **nginx + HTTPS** (obrigatório: só o nginx expõe porta; H
 Também com a Di: cadastro e login com e-mail e senha (obrigatório), `getSession()` e `requireUser()` (todos usam; sai primeiro) e o envio de e-mails.
 
 ### 4. Gerenciamento padrão de usuários (Major)
-- [ ] 📜 O usuário atualiza as informações do perfil
+- [x] 📜 O usuário atualiza as informações do perfil
 - [ ] 📜 O usuário envia um avatar, com um avatar padrão se não enviar
 - [ ] 📜 Adicionar outros usuários como amigos e ver o status online deles → **vem do Rafa** (módulos 5 e 6); a Di integra na página de perfil
-- [ ] 📜 Página de perfil com as informações do usuário
+- [x] 📜 Página de perfil com as informações do usuário
 - [ ] Upload do avatar validado pelo conteúdo (não pela extensão), com tamanho limitado, salvo fora da pasta pública e servido por uma rota
 
 **Demonstrar:** editar o perfil, enviar um avatar, ver o avatar padrão num usuário novo, ver um amigo ficar online e offline na página de perfil.
-**Já existe:** Better Auth com rotas `/api/auth/*`, rate limit no login (5/min) e no cadastro (3/min), `getSession()`/`requireUser()`/`requirePageUser()`, telas `/login`, `/cadastro` e `/conta` (com sair), testes da API ([test-auth.sh](../tests/test-auth.sh)) e das telas ([tests/ui/test_auth.py](../tests/ui/test_auth.py)) e usuários de teste (`alice`, `bruno`, `carla`, `diego`, `eva` `@example.com`, senha `trilhas-dev-123`): `docker compose -f docker/docker-compose.yml exec nextjs node scripts/seed-users.mts`. Falta o perfil.
+**Já existe:** Better Auth com rotas `/api/auth/*`, rate limit no login (5/min) e no cadastro (3/min), `getSession()`/`requireUser()`/`requirePageUser()`, telas `/login`, `/cadastro` e `/conta` (com sair), testes da API ([test-auth.sh](../tests/test-auth.sh)) e das telas ([tests/ui/test_auth.py](../tests/ui/test_auth.py)) e usuários de teste (`alice`, `bruno`, `carla`, `diego`, `eva` `@example.com`, senha `trilhas-dev-123`): `docker compose -f docker/docker-compose.yml exec nextjs node scripts/seed-users.mts`. Perfil: `username` (gerado no cadastro, editável) e `bio`; edição em `/conta`; página pública `/u/<username>` sem e-mail, com as estatísticas de atividades ([tests/ui/test_profile.py](../tests/ui/test_profile.py)). Faltam o avatar e o online dos amigos.
 
 ### 10. Autenticação via OAuth 2.0 (Minor)
 - [ ] 📜 Login remoto com OAuth 2.0 (Google, GitHub, 42…)

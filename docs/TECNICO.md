@@ -68,6 +68,7 @@ Regras do banco:
 | `withHandler`, `withAction`, `ApiError`, `parseBody/Query/Params`, `paginate` | Gabs | `src/server/api/` | Existe | Todos |
 | `auth` (servidor) e `authClient` (navegador) | Di | `src/lib/auth.ts`, `src/lib/auth-client.ts` | Existe | Telas de conta |
 | `getSession()` (pode ser nulo), `requireUser()` (401, para APIs e actions) e `requirePageUser()` (redireciona para `/login`, para páginas) | Di | `src/server/auth/session.ts` | Existe | Todos (hoje: trilhas, atividades) |
+| Perfil público: `getPublicProfile(username)` e `publicProfileSelect` (nunca inclui o e-mail); link `/u/<username>` | Di | `src/server/profile/service.ts` | Existe | Amigos, chat, ranking |
 | Envio de e-mail | Di | a definir | A fazer | GDPR (e talvez 2FA) |
 | Tokens de cor e tipografia + componentes | Juh | `src/components/ui/` | A fazer | Todas as telas |
 | Layout (cabeçalho, rodapé, navegação) | Juh | `src/app/layout.tsx` | A fazer | Todas as telas |
