@@ -1,11 +1,13 @@
 import Link from 'next/link';
 import { getSession, requirePageUser } from '@/server/auth/session';
+import { hasPassword } from '@/server/auth/account';
 import { describeDevice, listSessions } from '@/server/auth/sessions';
 import { Avatar } from '../_components/avatar';
 import { AvatarUpload } from '../_components/avatar-upload';
 import { ChangePasswordForm } from '../_components/change-password-form';
 import { ProfileForm } from '../_components/profile-form';
 import { SessionsList } from '../_components/sessions-list';
+import { TwoFactorDisable, TwoFactorSetup } from '../_components/two-factor-setup';
 import { SignOutButton } from '../_components/sign-out-button';
 
 export const metadata = { title: 'Minha conta · Trilhas SP' };
@@ -18,6 +20,7 @@ export default async function AccountPage({ searchParams }: Props) {
 	const { aviso } = await searchParams;
 	const user = await requirePageUser();
 	const current = await getSession();
+	const withPassword = await hasPassword(user.id);
 	const sessions = (await listSessions(user.id)).map((session) => ({
 		id: session.id,
 		device: describeDevice(session.userAgent),
@@ -52,12 +55,21 @@ export default async function AccountPage({ searchParams }: Props) {
 
 			<section className="rounded-card bg-paper p-6">
 				<h2 className="mb-4 font-display text-xl font-bold">Senha</h2>
-				{aviso === 'senha-trocada' && (
-					<p role="status" className="mb-4 text-sm font-semibold text-moss">
-						Senha trocada. As outras sessões foram encerradas.
-					</p>
+				{aviso === 'senha-trocada' && <Notice>Senha trocada. As outras sessões foram encerradas.</Notice>}
+				{withPassword ? <ChangePasswordForm /> : <p>Sua conta entra pelo GitHub ou pela 42 e não tem senha.</p>}
+			</section>
+
+			<section className="rounded-card bg-paper p-6">
+				<h2 className="mb-4 font-display text-xl font-bold">Verificação em duas etapas</h2>
+				{aviso === '2fa-ativado' && <Notice>Verificação em duas etapas ativada.</Notice>}
+				{aviso === '2fa-desativado' && <Notice>Verificação em duas etapas desativada.</Notice>}
+				{!withPassword ? (
+					<p>Sua conta entra pelo GitHub ou pela 42: a segunda etapa fica com o provedor.</p>
+				) : user.twoFactorEnabled ? (
+					<TwoFactorDisable />
+				) : (
+					<TwoFactorSetup />
 				)}
-				<ChangePasswordForm />
 			</section>
 
 			<section className="rounded-card bg-paper p-6">
@@ -65,5 +77,13 @@ export default async function AccountPage({ searchParams }: Props) {
 				<SessionsList sessions={sessions} />
 			</section>
 		</main>
+	);
+}
+
+function Notice({ children }: { children: string }) {
+	return (
+		<p role="status" className="mb-4 text-sm font-semibold text-moss">
+			{children}
+		</p>
 	);
 }
