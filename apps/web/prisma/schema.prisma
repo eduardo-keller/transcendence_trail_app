@@ -36,6 +36,8 @@ model User {
   email         String   @unique
   emailVerified Boolean  @default(false)
   image         String?
+  username      String   @unique @default(cuid()) // /u/<username>; o Better Auth gera um legível (databaseHooks em lib/auth.ts)
+  bio           String?
   createdAt     DateTime @default(now())
   updatedAt     DateTime @default(now()) @updatedAt
 
