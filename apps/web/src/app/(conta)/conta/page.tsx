@@ -1,5 +1,7 @@
 import Link from 'next/link';
 import { requirePageUser } from '@/server/auth/session';
+import { Avatar } from '../_components/avatar';
+import { AvatarUpload } from '../_components/avatar-upload';
 import { ProfileForm } from '../_components/profile-form';
 import { SignOutButton } from '../_components/sign-out-button';
 
@@ -11,9 +13,13 @@ export default async function AccountPage() {
 	return (
 		<main className="mx-auto flex max-w-2xl flex-col gap-8 px-4 py-10">
 			<header className="flex flex-wrap items-center justify-between gap-4">
-				<div>
-					<h1 className="font-display text-3xl font-bold text-forest">Olá, {user.name}</h1>
-					<p className="text-stone">{user.email}</p>
+				<div className="flex items-center gap-4">
+					<Avatar id={user.id} name={user.name} image={user.image} />
+					<div className="flex flex-col gap-1">
+						<h1 className="font-display text-3xl font-bold text-forest">Olá, {user.name}</h1>
+						<p className="text-stone">{user.email}</p>
+						<AvatarUpload hasImage={!!user.image} />
+					</div>
 				</div>
 				<SignOutButton />
 			</header>
