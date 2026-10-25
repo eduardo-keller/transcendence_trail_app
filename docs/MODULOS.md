@@ -121,15 +121,16 @@ Também com a Di: cadastro e login com e-mail e senha (obrigatório), `getSessio
 2. **Gabs:** passar as credenciais ao container `nextjs` como Docker secrets `github_client_id`, `github_client_secret`, `ft_client_id`, `ft_client_secret` (o código lê `/run/secrets/<nome>` ou a variável `NOME`). Em dev dá para testar com `apps/web/.env.local` (ignorado pelo git).
 
 ### 12. Conformidade com GDPR (Minor)
-- [ ] 📜 O usuário pode pedir os próprios dados
-- [ ] 📜 Exclusão de dados com confirmação
-- [ ] 📜 Exportar os dados do usuário em formato legível
-- [ ] 📜 E-mails de confirmação para as operações com dados
-- [ ] A exclusão apaga mesmo (o schema já apaga em cascata) e encerra as sessões
+- [x] 📜 O usuário pode pedir os próprios dados
+- [x] 📜 Exclusão de dados com confirmação
+- [x] 📜 Exportar os dados do usuário em formato legível
+- [ ] 📜 E-mails de confirmação para as operações com dados *(enviados; sem `SMTP_HOST` vão para o log do app. Falta o Mailpit para a demo)*
+- [x] A exclusão apaga mesmo (o schema já apaga em cascata) e encerra as sessões
 
 **Como:** página "Privacidade e dados" nas configurações. Em dev, um servidor de e-mail falso como o Mailpit no compose mostra os e-mails numa página, o que também serve para a demo.
 **Demonstrar:** pedir os dados → e-mail de confirmação → baixar o arquivo legível; excluir a conta → confirmação → login não funciona mais.
-**Depende de:** Gabs (saber quais tabelas têm dados pessoais).
+**Já existe:** página `/conta/dados`; download em `/api/me/export` (exportação do Gabs + perfil, avatar e 2FA, sem segredos) com aviso por e-mail; exclusão em 2 passos: senha → link por e-mail → página `/conta/excluir` com botão (abrir o link não apaga nada) → `/conta-excluida`. O link só vale uma vez e só para quem está logado na conta ([tests/ui/test_gdpr.py](../tests/ui/test_gdpr.py) confere no banco que nada sobrou).
+**Falta (Gabs):** serviço Mailpit no compose e `SMTP_HOST=mailpit`, `SMTP_PORT=1025` no `nextjs`. O cliente SMTP já existe (`src/server/email/`). Acrescentar `username`, `bio`, `twoFactorEnabled` e o avatar no `exportUserData` (hoje completados em `src/server/privacy/export.ts`).
 
 ### 14. Autenticação de dois fatores (Minor)
 - [x] 📜 Sistema completo de 2FA

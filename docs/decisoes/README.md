@@ -23,6 +23,8 @@ Decidiu algo que afeta outra pessoa? Acrescente uma linha no mesmo PR. Se precis
 | **Login e cadastro por Server Actions que chamam o Better Auth pelo caminho HTTP** (`auth.handler`, em `src/server/auth/http.ts`) | Erro volta como valor (sem 401 no console) e o rate limit continua valendo: ele só existe no caminho HTTP, não em `auth.api.*` |
 | **Avatar no banco** (tabela `Avatar`), redimensionado no navegador para 256×256 WebP | Fora da pasta pública sem mexer no Docker; entra no backup do banco; o canvas descarta o EXIF (GPS) |
 | **2FA só no login com e-mail e senha**; contas OAuth não ativam 2FA aqui | No OAuth quem autentica é o provedor (GitHub e 42 têm o próprio 2FA); o plugin do Better Auth só intercepta `/sign-in/email` |
+| **E-mail por um cliente SMTP próprio** (`src/server/email/`, sem dependência) para o Mailpit em dev e na avaliação; sem servidor, o e-mail vai para o log | GDPR exige e-mails de confirmação; o Mailpit mostra os e-mails numa página, o que serve para a demo |
+| **Exclusão da conta em 2 passos**: senha, depois link por e-mail que abre uma página com botão | O link é de uso único e só vale logado na conta; abrir o link (GET) nunca apaga nada |
 | **Excluir a conta apaga tudo do usuário em cascata** | Comunidades e eventos estão adiados; se voltarem, o evento passa a ficar sem organizador (`SetNull`) em vez de sumir para todos |
 
 ## Propostas (aceitar ou trocar)
@@ -37,6 +39,5 @@ Decidiu algo que afeta outra pessoa? Acrescente uma linha no mesmo PR. Se precis
 
 | Pergunta | Opções | Quem decide | Afeta |
 |---|---|---|---|
-| **Envio de e-mail** (GDPR exige e-mails de confirmação) | Mailpit no compose em dev; em produção, SMTP real ou só o Mailpit | Di | GDPR, 2FA |
 | **Provedor de LLM** e orçamento | Ver [llm.md](llm.md) | Edu (com o time, se houver custo) | Módulos 7 e 8 |
 | **Comunidades e eventos** (tabelas já existem) | Adiado; voltar a discutir se sobrar tempo | Time | Notificações, schema |
