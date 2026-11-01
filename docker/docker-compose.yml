@@ -23,9 +23,17 @@ services:
       POSTGRES_USER: ${POSTGRES_USER:?}
       POSTGRES_DB: ${POSTGRES_DB:?}
       BETTER_AUTH_URL: https://localhost:${HTTPS_PORT:-8443}   # a URL que o navegador usa (nginx)
-    secrets: [db_password, better_auth_secret]
+      SMTP_HOST: mailpit
+      SMTP_PORT: "1025"
+    # Os do OAuth podem estar vazios (o make cria assim): o provedor sem credencial fica desligado
+    secrets: [db_password, better_auth_secret, github_client_id, github_client_secret, ft_client_id, ft_client_secret]
     depends_on:
       postgres: { condition: service_healthy }
+
+  # Caixa de e-mails de teste: recebe tudo o que o app envia; a interface fica em https://localhost:8443/mailpit/
+  mailpit:
+    build:
+      context: ./mailpit
 
   # Só com `make studio` (profile tools) e só para esta máquina: abre o banco sem senha
   prisma-studio:
@@ -63,12 +71,21 @@ services:
       - ./nginx/certs:/etc/nginx/certs:ro
     depends_on:
       - nextjs
+      - mailpit
 
 secrets:
   db_password:
     file: ./secrets/db_password.txt
   better_auth_secret:
     file: ./secrets/better_auth_secret.txt
+  github_client_id:
+    file: ./secrets/github_client_id.txt
+  github_client_secret:
+    file: ./secrets/github_client_secret.txt
+  ft_client_id:
+    file: ./secrets/ft_client_id.txt
+  ft_client_secret:
+    file: ./secrets/ft_client_secret.txt
 
 volumes:
   postgres_data:
