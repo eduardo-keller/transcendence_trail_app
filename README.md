@@ -1,154 +1,80 @@
-*This project has been created as part of the 42 curriculum by <login_eduardo>, <login_ju>, <login_gabriel>, <login_diego>, <login_rafael>.*
+*This project has been created as part of the 42 curriculum by gcesar-n, dteruya, jcosta-b, ekeller-, rzamolo-.*
 
-<!--
-README EXIGIDO PELO SUBJECT (capítulo VI) E AVALIADO.
-- A primeira linha acima é obrigatória, em itálico e com esse texto exato. Troque os <login_*> pelos logins da 42.
-- Este arquivo é um RASCUNHO VIVO: cada seção diz quem atualiza e quando.
-- Checklist das seções obrigatórias: docs/AVALIACAO.md (seção README).
-- Documentação interna do time: docs/README.md.
--->
-
-# Trilhas SP *(nome provisório)*
+# Trilhas SP
 
 ## Description
 
-**Trilhas SP** é uma plataforma de trilhas para São Paulo e cidades do entorno, inspirada no Wikiloc. O usuário encontra trilhas (catálogo inicial do OpenStreetMap), vê o percurso no mapa, registra as trilhas que fez, ganha XP e emblemas, conversa com amigos em tempo real e tira dúvidas com um assistente de IA que conhece as trilhas da região. O app pode ser instalado (PWA) e funciona offline para as trilhas já vistas.
+**Trilhas SP** é uma plataforma de trilhas para São Paulo e arredores, inspirada no Wikiloc. O objetivo é reunir num só lugar o catálogo de trilhas da região, o registro do que cada pessoa percorreu e a conversa entre quem faz trilha.
 
 **Funcionalidades principais:**
-- Catálogo de trilhas do OpenStreetMap com mapa e página de detalhe (distância, desnível, dificuldade).
-- Registro de atividades, XP e níveis, emblemas e ranking.
-- Conta com e-mail e senha, login via OAuth, autenticação de dois fatores, perfil e avatar.
-- Privacidade de dados (GDPR): baixar os próprios dados e excluir a conta, com e-mails de confirmação.
-- Amigos com status online e chat 1:1 em tempo real.
-- Notificações em tempo real para as ações do usuário.
-- Assistente de IA: perguntas sobre trilhas com fontes (RAG) e planejador de trilha com streaming (LLM).
-- PWA instalável com suporte offline e design system próprio.
-
-<!-- Atualizado por: quem entregar a funcionalidade. Revisar a lista perto da avaliação. -->
+- Catálogo de trilhas do OpenStreetMap, com mapa e página de detalhe.
+- Registro de atividades, XP, emblemas e ranking.
+- Conta com e-mail e senha, OAuth, 2FA, perfil e avatar.
+- Privacidade (GDPR): baixar os próprios dados e excluir a conta.
+- Amigos, chat e notificações em tempo real.
+- Assistente de IA sobre as trilhas (RAG e LLM).
+- PWA instalável, com suporte offline.
 
 ## Instructions
 
-<!-- Atualizado por: Gabs (Docker, nginx, Makefile). Fonte da verdade: Makefile e docker/. -->
+**Pré-requisitos:**
+- Docker com o plugin Compose v2 (`docker compose`); testado com Docker 29.7 e Compose 5.4.
+- GNU Make 4 e OpenSSL 3.0 ou mais novo.
+- Google Chrome, versão estável mais recente.
 
-### Pré-requisitos
-- Docker com o plugin Docker Compose (`docker compose`) *(versões mínimas: a definir)*
-- GNU Make e OpenSSL (o `make` gera os segredos com `openssl rand`)
-- Navegador: Google Chrome (versão estável mais recente)
+**Configuração:** nenhuma é obrigatória. Na primeira execução, o `make` cria `docker/.env` a partir de [`docker/.env.example`](docker/.env.example) (usuário e nome do banco, portas), gera as senhas em `docker/secrets/` e o certificado HTTPS em `docker/nginx/certs/`. Nada disso vai para o git.
 
-### Configuração
-Nada é obrigatório na primeira vez: o `make` cria o que faltar.
-- `docker/.env` é copiado de [`docker/.env.example`](docker/.env.example) (`POSTGRES_USER`, `POSTGRES_DB`, `HTTPS_PORT`, `HTTP_PORT`). Ele é copiado uma vez só: quando o `.env.example` muda, o `make` avisa o que falta ou sobra.
-- `docker/secrets/db_password.txt` e `docker/secrets/better_auth_secret.txt` são gerados com valores aleatórios e entram nos containers como Docker secrets. **Não apague** esses arquivos com o banco já criado: a senha nova não abriria o banco existente.
-- `data/postgres/` guarda os dados do Postgres (bind mount, fora do git).
-- `docker/nginx/certs/` recebe uma **CA local** (`ca.crt`, válida só para `localhost`) e o certificado do nginx assinado por ela (fora do git).
+**Execução:**
+1. `make`
+2. No Chrome, importe `docker/nginx/certs/ca.crt` em `chrome://certificate-manager` como autoridade confiável e reinicie o Chrome (`chrome://restart`).
+3. Acesse **https://localhost:8443**.
 
-### Execução
-```bash
-make            # produção: build da imagem (com next build) e sobe tudo (equivale a `make up`)
-make dev        # desenvolvimento: mesmo app, com hot reload
-```
-Acesse **https://localhost:8443**. Para o Chrome confiar no HTTPS (sem aviso, e necessário para o PWA), importe a CA local uma vez: `chrome://certificate-manager` → importar `docker/nginx/certs/ca.crt` como autoridade confiável → `chrome://restart` (se a página já foi aberta antes, o Chrome guarda o aviso até reiniciar). Sem importar, o app funciona com o aviso "Não seguro". O nginx é o único container com porta publicada: `http://localhost:8080` só redireciona para o HTTPS. As portas mudam em `docker/.env` (`HTTPS_PORT`, `HTTP_PORT`).
-
-**`make` é o modo produção** (o da avaliação): o código de `apps/web` é compilado dentro da imagem (`next build`) e servido com `next start`. Editar um arquivo não muda o app até rodar `make` de novo (1–2 min). **Para programar, use `make dev`**: o código é montado no container e a página atualiza ao salvar. Os dois modos usam o mesmo banco; dá para alternar sem perder dados.
-
-No start, o container `nextjs` monta a `DATABASE_URL` a partir do secret, roda `prisma migrate deploy` e importa as trilhas se o banco estiver vazio. Em `make dev`, antes disso, roda `npm ci` se o `package-lock.json` mudou e `prisma generate`.
-
-| Comando | O que faz |
-|---|---|
-| `make` / `make up` | Modo produção. Gera `.env`, segredos, certificado e `data/postgres` se faltarem; avisa se o `.env` está desatualizado; `docker compose up -d --build` |
-| `make dev` | Modo desenvolvimento, com hot reload (`docker-compose.dev.yml` por cima do compose padrão) |
-| `make build` | Só constrói as imagens |
-| `make stop` / `make down` | Para os containers / remove os containers |
-| `make logs` | Segue os logs (deve mostrar o `migrate deploy` e o "Ready" do Next) |
-| `make sh` | Shell no container `nextjs` |
-| `make npm args="install zod"` | Roda `npm` dentro do container (só em `make dev`) |
-| `make migrate name=<descricao>` | `prisma migrate dev --name <descricao>` dentro do container (só em `make dev`) |
-| `make import-trails` | Reimporta as trilhas do OSM do SQLite (upsert; não duplica) |
-| `make test` | Testes (Vitest) num banco separado, `<POSTGRES_DB>_test` |
-| `bash tests/test-all.sh` | Bateria do projeto inteiro com o app no ar (~5 min; `--rapido` pula o build) |
-| `make studio` | Prisma Studio em http://localhost:5555, só nesta máquina (profile `tools`; abre o banco sem senha) |
-| `make clean` | Remove containers, imagens locais e volumes |
-| `make fclean` | `clean` + apaga `data/postgres` (**apaga o banco**) |
-| `make re` | `fclean` + `make` (sobe do zero) |
-
-### Alterar o schema do banco
-1. Edite [`apps/web/prisma/schema.prisma`](apps/web/prisma/schema.prisma).
-2. `make migrate name=<descricao>` (com `make dev` de pé).
-3. Faça commit do schema **junto** com a pasta `apps/web/prisma/migrations/`.
-
-Quem baixar a mudança só precisa de `make up`: as migrations pendentes rodam no start.
-
-Antes de commitar, `git status` não deve listar nada de `docker/secrets/`, `docker/.env` ou `data/postgres/`.
-
-*(a completar: e-mail em dev, quando existir)*
+Para parar: `make down`. Para apagar tudo, inclusive o banco: `make fclean`.
 
 ## Resources
 
-### Referências
-- Next.js: https://nextjs.org/docs
-- Prisma: https://www.prisma.io/docs
-- Better Auth: https://www.better-auth.com/docs
-- Socket.IO: https://socket.io/docs/v4/
-- PostGIS: https://postgis.net/documentation/
-- pgvector: https://github.com/pgvector/pgvector
-- OpenStreetMap: https://wiki.openstreetmap.org/wiki/Map_features
-- *(cada pessoa adiciona as referências que usou)*
+- [Next.js](https://nextjs.org/docs), [Prisma](https://www.prisma.io/docs), [Better Auth](https://www.better-auth.com/docs), [Socket.IO](https://socket.io/docs/v4/), [Zod](https://zod.dev), [Tailwind CSS](https://tailwindcss.com/docs), [nginx](https://nginx.org/en/docs/), [Docker Compose](https://docs.docker.com/compose/), [pgvector](https://github.com/pgvector/pgvector)
+- [OpenStreetMap: Map features](https://wiki.openstreetmap.org/wiki/Map_features), [API da intra 42](https://api.intra.42.fr/apidoc)
+- [PostgreSQL: isolamento de transações](https://www.postgresql.org/docs/current/transaction-iso.html), [TOTP (RFC 6238)](https://datatracker.ietf.org/doc/html/rfc6238), [OAuth com PKCE (RFC 7636)](https://datatracker.ietf.org/doc/html/rfc7636)
 
-### Uso de IA
-<!--
-OBRIGATÓRIO pelo subject: descrever como a IA foi usada, em quais tarefas e em quais partes do projeto.
-Fonte: o campo "Uso de IA nesta PR" de cada PR. Consolidar perto da avaliação.
--->
-*(a completar)*
+**Uso de IA:** *(a completar)*
 
 ## Team Information
 
-<!-- Papéis exigidos pelo subject: PO, PM, Tech Lead, Developers. Áreas: docs/PLANO.md. -->
-
-| Membro | Login | Papel(is) | Responsabilidades |
+| Membro | Login | Papel | Responsabilidades |
 |---|---|---|---|
-| Juh | `<login>` | *a definir* + Dev | Frontend e design system: páginas, componentes, PWA, identidade visual |
-| Gabriel | `<login>` | *a definir* + Dev | Backend e banco: Prisma, modelagem, APIs, nginx e HTTPS |
-| Diego | `<login>` | *a definir* + Dev | Usuários e segurança: autenticação, perfis, OAuth, 2FA, GDPR |
-| Rafael | `<login>` | *a definir* + Dev | Social e tempo real: amigos, chat, WebSockets, notificações |
-| Eduardo | `<login>` | *a definir* + Dev | IA e complementos: LLM, RAG, gamificação |
+| Juh | `jcosta-b` | Product Owner + Dev | Frontend, design system, PWA |
+| Gabriel | `gcesar-n` | Project Manager + Dev | Backend, banco, Docker, nginx e HTTPS |
+| Diego | `dteruya` | Project Manager + Dev | Autenticação, perfil, OAuth, 2FA, GDPR |
+| Rafael | `rzamolo-` | Tech Lead + Dev | Amigos, chat, tempo real, notificações |
+| Eduardo | `ekeller-` | Tech Lead + Dev | IA (LLM, RAG) e gamificação |
 
 ## Project Management
 
-<!-- Descrever o que o time faz DE FATO. Base: docs/PLANO.md. -->
-
-- **Organização:** 5 áreas, uma por pessoa, cada uma dona dos próprios módulos ([docs/PLANO.md](docs/PLANO.md)). Requisitos e status de cada módulo em [docs/MODULOS.md](docs/MODULOS.md).
-- **Ferramentas:** GitHub (código, PRs), documentação versionada em `docs/`. *(a completar)*
-- **Comunicação:** *(a completar)*
+- **Organização:** cada pessoa é dona de uma área e dos módulos dela; o status de cada módulo fica em [docs/MODULOS.md](docs/MODULOS.md). Cada tarefa vira uma branch e uma pull request revisada por outra pessoa.
+- **Ferramentas:** GitHub (código e pull requests) e documentação versionada em [`docs/`](docs/README.md).
+- **Comunicação:** WhatsApp no dia a dia e Google Meet para reuniões.
 
 ## Technical Stack
 
-<!-- Justificativas: docs/decisoes/README.md. A coluna "Estado" diz o que já está no código. -->
-
-| Camada | Tecnologia | Estado | Por quê |
-|---|---|---|---|
-| Frontend | Next.js 16 (React 19, App Router) | Em uso (`apps/web`) | Framework full-stack escolhido pelo time |
-| Frontend | Tailwind CSS 4 + design system próprio | Tailwind em uso (tema em `globals.css`); design system a fazer | Solução de estilo exigida; base para os tokens |
-| Frontend | PWA (manifest + service worker), Leaflet | Planejado | Módulo de PWA; mapas simples de integrar |
-| Backend | Next.js (Route Handlers, Server Actions) | Em uso | Um app só para front e back ([decisões](docs/decisoes/README.md)) |
-| Banco | PostgreSQL 18 + PostGIS + pgvector, via Prisma 7 (`@prisma/adapter-pg`) | Em uso | Relacional com schema legível; pgvector para o RAG |
-| Tempo real | Socket.IO 4.8 num servidor customizado do Next (`apps/web/server.mjs`) | Conexão autenticada e salas por usuário; eventos a fazer | WebSockets com salas e reconexão; mesmo processo do Next, sem serviço extra ([decisões](docs/decisoes/README.md)) |
-| Autenticação | Better Auth (e-mail e senha, adapter Prisma) | Rotas `/api/auth/*` e rate limit; telas a fazer | Hash com salt pronto; plugins de OAuth e 2FA |
-| IA | *provedor a definir* + embeddings locais + pgvector | Planejado | [docs/decisoes/llm.md](docs/decisoes/llm.md) |
-| Infra | Docker Compose (imagens Alpine próprias), Docker secrets, Makefile | Em uso | Comando único exigido pelo subject |
-| Infra | nginx (TLS, proxy reverso) | Em uso | HTTPS exigido pelo subject; único ponto de entrada, os outros containers ficam na rede interna |
-| Qualidade | Biome (lint e formatação), TypeScript | Em uso | — |
+| Camada | Tecnologia | Por quê |
+|---|---|---|
+| Frontend | Next.js 16 (React 19), Tailwind CSS 4 | Um framework para front e back; Tailwind como solução de estilo |
+| Backend | Next.js (Route Handlers e Server Actions) | Um app só, sem microsserviços: menos peças para configurar e explicar |
+| Banco | PostgreSQL 18 (PostGIS, pgvector) via Prisma 7 | Relacional, com schema legível; o pgvector serve o RAG sem outro banco |
+| Autenticação | Better Auth | Hash com salt pronto; sessão no banco; plugins de OAuth e 2FA |
+| Tempo real | Socket.IO | Salas por usuário e reconexão, no mesmo processo do Next |
+| Validação | Zod | O mesmo schema valida o formulário e o servidor |
+| Infra | Docker Compose, nginx | Um comando sobe tudo; HTTPS com um só ponto de entrada |
 
 ## Database Schema
-
-<!-- Atualizado por: Gabs. Fonte da verdade: apps/web/prisma/schema.prisma. Atualize o diagrama quando mudar uma relação. -->
-
-Um banco (`POSTGRES_DB`, padrão `trails`) com **um schema Prisma**: [`apps/web/prisma/schema.prisma`](apps/web/prisma/schema.prisma). As tabelas de comunidades, eventos e posts existem, mas essas funcionalidades estão adiadas.
 
 ```mermaid
 erDiagram
   User ||--o{ Session : "tem"
   User ||--o{ Account : "tem"
+  User ||--o| Avatar : "tem"
+  User ||--o{ TwoFactor : "tem"
   User |o--o{ Trail : "cria"
   User ||--o{ Activity : "registra"
   Trail |o--o{ Activity : "referencia"
@@ -165,59 +91,59 @@ erDiagram
   Badge ||--o{ UserBadge : "concedido"
 ```
 
-| Grupo | Tabelas | Campos principais |
-|---|---|---|
-| Better Auth | `User`, `Session`, `Account`, `Verification` | Formato exigido pelo Better Auth (a senha fica em `Account.password`) |
-| Trilhas | `Trail`, `Activity` | `Trail`: origem (`source`: `OSM`/`USER`, com `externalId` para o OSM), distância e desnível em metros, `difficulty` (`EASY`/`MODERATE`/`HARD`), `visibility` (`PUBLIC`/`PRIVATE`), percurso em `routeGeoJSON` (JSON) e bounding box (`minLat`…`maxLon`); autor opcional (nulo nas trilhas do OSM). `Activity`: distância, duração em segundos, `polyline`, trilha opcional |
-| Social | `Community`, `CommunityMember`, `Event`, `EventParticipant`, `Post`, `Notification` | Papel do membro: `ADMIN`/`MODERATOR`/`MEMBER`; pares únicos (`userId`+`communityId`, `eventId`+`userId`) |
-| Gamificação | `Badge`, `UserBadge` | Um emblema por usuário no máximo uma vez |
+| Tabela | Campos principais (tipo) |
+|---|---|
+| `User` | `id` (String), `name` (String), `email` (String, único), `username` (String, único), `bio` (String?), `twoFactorEnabled` (Boolean) |
+| `Session` | `token` (String, único), `expiresAt` (DateTime), `ipAddress` (String?), `userId` (FK) |
+| `Account` | `providerId` (String: `credential`, `github`, `42`), `password` (String?, hash), `userId` (FK) |
+| `Verification` | `identifier` (String), `value` (String), `expiresAt` (DateTime) |
+| `TwoFactor` | `secret` (String, cifrado), `backupCodes` (String, cifrado), `userId` (FK) |
+| `Avatar` | `userId` (PK, FK), `mime` (String), `data` (Bytes) |
+| `Trail` | `source` (enum `OSM`/`USER`), `title` (String), `distance` (Float, m), `elevationGain` (Float?, m), `difficulty` (enum), `visibility` (enum), `routeGeoJSON` (Json), `minLat`…`maxLon` (Float), `authorId` (FK?) |
+| `Activity` | `title` (String), `distance` (Float, m), `duration` (Int, s), `startedAt` (DateTime), `userId` (FK), `trailId` (FK?) |
+| `Notification` | `message` (String), `isRead` (Boolean), `userId` (FK) |
+| `Badge` / `UserBadge` | `name` (String, único) / `earnedAt` (DateTime), par `userId`+`badgeId` único |
+| `Community`, `CommunityMember`, `Event`, `EventParticipant`, `Post` | Comunidades, eventos e posts (adiados); `role` (enum) do membro; pares únicos por usuário |
 
-IDs do Better Auth são gerados pela biblioteca; os demais usam `cuid()`. Toda chave estrangeira apaga em cascata (exceto `Activity.trailId`, que vira nulo).
+Excluir um usuário apaga os dados dele em cascata; apagar uma trilha mantém as atividades, com `trailId` nulo.
 
 ## Features List
 
-<!--
-Atualizado por: quem entregar a funcionalidade, no mesmo PR.
-Formato: | Funcionalidade | Descrição | Responsável(is) |
--->
-
-| Funcionalidade | Descrição | Responsável(is) |
+| Funcionalidade | Descrição | Responsável |
 |---|---|---|
-| Catálogo de trilhas do OSM | 3.878 trilhas importadas de um SQLite versionado no start do container, sem internet | Gabriel |
-| Busca de trilhas (API) | `GET /api/trails` com filtros (texto, dificuldade, distância, desnível, área do mapa, raio), ordenação e paginação; `GET /api/trails/[id]`; trilha privada só para o autor | Gabriel |
-| Trilhas e atividades (backend) | Server actions de criar, editar e excluir; distância, desnível e tempo calculados no servidor; estatísticas de atividades. Telas a fazer | Gabriel |
+| Catálogo de trilhas | 3.878 trilhas do OpenStreetMap, importadas na subida do container | Gabriel |
+| Busca de trilhas | Filtros, área do mapa, ordenação e paginação (`GET /api/trails`) | Gabriel |
+| Trilhas e atividades | Criar, editar e excluir; distância, desnível e tempo calculados no servidor | Gabriel |
+| HTTPS | nginx como único ponto de entrada | Gabriel |
+| Cadastro e login | E-mail e senha, com rate limit | Diego |
+| Perfil e avatar | Perfil editável, página pública, avatar com padrão | Diego |
+| Segurança da conta | Troca de senha, sessões ativas, 2FA | Diego |
+| OAuth | Login pelo GitHub e pela 42 | Diego |
+| Privacidade e dados | Baixar os dados, excluir a conta com confirmação por e-mail, páginas de Privacidade e Termos | Diego, Gabriel |
+| Tema e navegação | Cores, fontes e barra de navegação | Rafael |
 
 ## Modules
 
-<!-- Atualizado por: dono de cada módulo. Base: docs/MODULOS.md. -->
-
-| Módulo | Tipo | Pts | Justificativa e implementação | Responsável(is) |
-|---|---|---|---|---|
-| Framework de frontend (Next.js) | Minor | 1 | | Juh |
-| Framework de backend (Next.js) | Minor | 1 | O backend roda no próprio Next.js, no servidor: **Route Handlers** (`src/app/api/**/route.ts`) para leituras por URL, como `GET /api/trails`, e **Server Actions** (`src/server/<área>/actions.ts`) para os formulários. As regras ficam em `src/server/<área>/service.ts`; erros, validação (Zod) e paginação são comuns a todas as rotas, em `src/server/api/` | Gabriel |
-| ORM (Prisma) | Minor | 1 | | Gabriel |
-| Gerenciamento padrão de usuários | Major | 2 | | Diego |
-| Interação entre usuários | Major | 2 | | Rafael |
-| Recursos em tempo real (WebSockets) | Major | 2 | | Rafael |
-| Interface de LLM | Major | 2 | | Eduardo |
-| Sistema RAG | Major | 2 | | Eduardo |
-| PWA com suporte offline e instalação | Minor | 1 | | Juh |
-| Autenticação via OAuth 2.0 | Minor | 1 | | Diego |
-| Sistema de gamificação | Minor | 1 | | Eduardo |
-| Conformidade com GDPR | Minor | 1 | | Diego |
-| Sistema completo de notificações | Minor | 1 | | Rafael |
-| Autenticação de dois fatores (2FA) | Minor | 1 | | Diego |
-| Design system próprio | Minor | 1 | | Juh |
-| **Subtotal** | | **20** | | |
-| Exportação e importação de dados *(opcional)* | Minor | 1 | | Gabriel |
-| Dashboard de análise *(opcional)* | Major | 2 | | Gabriel |
+| Módulo | Tipo | Pts | Por que escolhemos | Como foi implementado | Responsável |
+|---|---|---|---|---|---|
+| Framework de frontend | Minor | 1 | Next.js já é a base do app | *A completar.* | Juh |
+| Framework de backend | Minor | 1 | Front e back no mesmo framework | Route Handlers para leituras, Server Actions para formulários; erros e validação comuns em `src/server/api/` | Gabriel |
+| ORM | Minor | 1 | Schema legível e acesso tipado ao banco | Prisma 7: schema com relações, migrations aplicadas na subida | Gabriel |
+| Gerenciamento de usuários | Major | 2 | Toda funcionalidade depende de contas | Perfil, página pública, avatar validado pelo conteúdo | Diego |
+| Interação entre usuários | Major | 2 | Fazer trilha é social | *A fazer.* | Rafael |
+| Tempo real | Major | 2 | Chat e notificações ao vivo | Socket.IO autenticado, sala por usuário; eventos a fazer | Rafael, Gabriel |
+| Interface de LLM | Major | 2 | Planejar uma trilha com ajuda | *A fazer.* | Eduardo |
+| Sistema RAG | Major | 2 | Perguntas sobre as trilhas, com fontes | *A fazer.* | Eduardo |
+| PWA | Minor | 1 | Usar o app na trilha, sem sinal | *A fazer.* | Juh |
+| OAuth 2.0 | Minor | 1 | Entrar com a conta da 42 ou do GitHub | GitHub e 42 pelo Better Auth, com state e PKCE | Diego |
+| Gamificação | Minor | 1 | Incentivar a registrar atividades | *A fazer.* | Eduardo |
+| GDPR | Minor | 1 | O app guarda dados pessoais | Exportação em JSON; exclusão com senha e link por e-mail | Diego, Gabriel |
+| Notificações | Minor | 1 | Avisar sobre cada ação | *A fazer.* | Rafael |
+| 2FA | Minor | 1 | Proteger as contas | TOTP e códigos de recuperação | Diego |
+| Design system | Minor | 1 | Identidade visual própria | *A fazer.* | Juh |
+| **Total** | | **20** | | | |
 
 ## Individual Contributions
-
-<!--
-ESCRITO POR CADA PESSOA, sobre si mesma (agentes de IA não preenchem esta seção).
-Base: a seção "Como eu explicaria isso na avaliação" das suas PRs.
--->
 
 ### Eduardo
 *(a completar)*
@@ -234,8 +160,6 @@ Base: a seção "Como eu explicaria isso na avaliação" das suas PRs.
 ### Rafael
 *(a completar)*
 
-## Licenças e créditos
+## Licença dos dados
 
-- Dados de mapa e trilhas © [OpenStreetMap contributors](https://www.openstreetmap.org/copyright), sob a licença ODbL. O catálogo derivado incluído neste repositório também está sob ODbL.
-- Dados de elevação: Copernicus DEM GLO-90, via [Open-Meteo](https://open-meteo.com/).
-- Trechos da Wikipedia usados no assistente: CC BY-SA, com a fonte citada em cada resposta.
+Dados de mapa e trilhas © [OpenStreetMap contributors](https://www.openstreetmap.org/copyright), sob a licença ODbL. O catálogo derivado incluído neste repositório (`apps/web/prisma/data/`) também está sob ODbL.
