@@ -205,19 +205,26 @@ step "3. Docker e containers"
 PG=$($COMPOSE ps -q postgres)
 WEB=$($COMPOSE ps -q nextjs)
 NGINX=$($COMPOSE ps -q nginx)
+MAILPIT=$($COMPOSE ps -q mailpit)
 MODE=$(docker exec "$WEB" printenv APP_MODE 2>/dev/null || echo prod)
 info "modo do app: $MODE (make = prod, make dev = dev)"
 check "docker compose config é válido" '$COMPOSE config -q'
 check "postgres rodando e saudável (healthcheck)" '$COMPOSE ps postgres | grep -q healthy'
 check "nextjs rodando" '[ "$(docker inspect -f "{{.State.Running}}" "$WEB")" = true ]'
 check "nginx rodando" '[ -n "$NGINX" ] && [ "$(docker inspect -f "{{.State.Running}}" "$NGINX")" = true ]'
-check "PID 1 é o tini nos três containers (sinais e processos zumbis)" \
-	'( for c in "$PG" "$WEB" "$NGINX"; do [ "$(docker exec "$c" cat /proc/1/comm)" = tini ] || exit 1; done )'
+check "mailpit rodando" '[ -n "$MAILPIT" ] && [ "$(docker inspect -f "{{.State.Running}}" "$MAILPIT")" = true ]'
+check "PID 1 é o tini nos quatro containers (sinais e processos zumbis)" \
+	'( for c in "$PG" "$WEB" "$NGINX" "$MAILPIT"; do [ "$(docker exec "$c" cat /proc/1/comm)" = tini ] || exit 1; done )'
 check "o Postgres roda como usuário postgres, não root" \
 	'docker exec "$PG" ps -o user,comm | grep -E "postgres +postgres" -q && ! docker exec "$PG" ps -o user,comm | grep -qE "^root +postgres"'
 check "a porta do Postgres não é publicada no host" '[ -z "$(docker port "$PG")" ]'
 check "nextjs não publica porta (só é acessível pelo nginx)" '[ -z "$(docker port "$WEB")" ]'
 check "nginx publica só a 443 e a 80" '[ "$(docker port "$NGINX" | cut -d/ -f1 | sort -u | tr "\n" " ")" = "443 80 " ]'
+check "mailpit não publica porta (a interface chega pelo nginx em /mailpit/)" '[ -z "$(docker port "$MAILPIT")" ]'
+check "mailpit não roda como root" '[ "$(docker exec "$MAILPIT" id -u)" != 0 ]'
+check "interface do Mailpit responde pelo HTTPS em /mailpit/" '[ "$(curl -sk -o /dev/null -w "%{http_code}" "$APP/mailpit/")" = 200 ]'
+check "secrets do OAuth montados no nextjs (vazios = provedor desligado)" \
+	'( for s in github_client_id github_client_secret ft_client_id ft_client_secret; do docker exec "$WEB" test -f "/run/secrets/$s" || exit 1; done )'
 check "Prisma Studio fora do make padrão (profile tools)" '! $COMPOSE config --services | grep -qx prisma-studio'
 check "HTTPS válido para quem confia na CA local (curl sem -k)" 'curl -s --cacert docker/nginx/certs/ca.crt -o /dev/null "$APP/api/health"'
 LOCATION=$(curl -sk -o /dev/null -w '%{redirect_url}' "$HTTP_APP/trilhas?x=1")
@@ -305,7 +312,7 @@ OUT=$(in_web "$DB_ENV npx prisma migrate diff --from-config-datasource --to-sche
 check "banco idêntico ao schema.prisma (sem drift)" 'grep -q "empty migration" <<<"$OUT"'
 
 # spatial_ref_sys é criada pela extensão PostGIS
-EXPECTED_TABLES="Account Activity Badge Community CommunityMember Event EventParticipant Notification Post Session Trail User UserBadge Verification _prisma_migrations spatial_ref_sys"
+EXPECTED_TABLES="Account Activity Avatar Badge Community CommunityMember Event EventParticipant Notification Post Session Trail TwoFactor User UserBadge Verification _prisma_migrations spatial_ref_sys"
 TABLES=$(sql "SELECT tablename FROM pg_tables WHERE schemaname = 'public'" | LC_ALL=C sort | tr '\n' ' ' | sed 's/ $//')
 check "tabelas esperadas, nem mais nem menos" '[ "$TABLES" = "$(tr " " "\n" <<<"$EXPECTED_TABLES" | LC_ALL=C sort | tr "\n" " " | sed "s/ \$//")" ]'
 ENUMS=$(sqlf <<'SQL'
@@ -330,6 +337,7 @@ EXPECTED_FKS=$(LC_ALL=C sort <<'EOF'
 Account.userId>User:c
 Activity.trailId>Trail:n
 Activity.userId>User:c
+Avatar.userId>User:c
 CommunityMember.communityId>Community:c
 CommunityMember.userId>User:c
 Event.communityId>Community:c
@@ -341,11 +349,12 @@ Post.communityId>Community:c
 Post.userId>User:c
 Session.userId>User:c
 Trail.authorId>User:c
+TwoFactor.userId>User:c
 UserBadge.badgeId>Badge:c
 UserBadge.userId>User:c
 EOF
 )
-check "chaves estrangeiras e regras de exclusão iguais à ADR-0010 (16 relações)" '[ "$FKS" = "$EXPECTED_FKS" ]'
+check "chaves estrangeiras e regras de exclusão esperadas (18 relações)" '[ "$FKS" = "$EXPECTED_FKS" ]'
 [ "$FKS" = "$EXPECTED_FKS" ] || diff <(echo "$EXPECTED_FKS") <(echo "$FKS") | sed 's/^/       /'
 
 INDEXES=$(sql "SELECT indexname FROM pg_indexes WHERE schemaname = 'public'")
@@ -360,15 +369,15 @@ done
 
 OUT=$(sqlf <<'SQL'
 BEGIN;
-INSERT INTO "User" (id, name, email) VALUES ('teste-uniq-1', 'U', 'teste-uniq@example.com');
-INSERT INTO "User" (id, name, email) VALUES ('teste-uniq-2', 'U', 'teste-uniq@example.com');
+INSERT INTO "User" (id, name, email, username) VALUES ('teste-uniq-1', 'U', 'teste-uniq@example.com', 'teste-uniq-1');
+INSERT INTO "User" (id, name, email, username) VALUES ('teste-uniq-2', 'U', 'teste-uniq@example.com', 'teste-uniq-2');
 ROLLBACK;
 SQL
 )
 check "o banco recusa dois usuários com o mesmo e-mail" 'grep -q "User_email_key" <<<"$OUT"'
 OUT=$(sqlf <<'SQL'
 BEGIN;
-INSERT INTO "User" (id, name, email) VALUES ('teste-cascata', 'C', 'teste-cascata@example.com'), ('teste-outro', 'O', 'teste-outro@example.com');
+INSERT INTO "User" (id, name, email, username) VALUES ('teste-cascata', 'C', 'teste-cascata@example.com', 'teste-cascata'), ('teste-outro', 'O', 'teste-outro@example.com', 'teste-outro');
 INSERT INTO "Session" (id, "expiresAt", token, "userId", "updatedAt") VALUES ('teste-s', now() + interval '1 day', 'teste-token', 'teste-cascata', now());
 INSERT INTO "Account" (id, "accountId", "providerId", "userId", "updatedAt") VALUES ('teste-a', 'teste-cascata', 'credential', 'teste-cascata', now());
 INSERT INTO "Trail" (id, title, distance, "routeGeoJSON", "minLat", "minLon", "maxLat", "maxLon", "authorId") VALUES ('teste-t', 'T', 1, '{}', 0, 0, 0, 0, 'teste-cascata');
@@ -460,8 +469,9 @@ step "7. Páginas e HTTP"
 req GET /
 check "GET / → 200 em pt-BR" '[ "$STATUS" = 200 ] && grep -q "<html lang=\"pt-BR\"" <<<"$BODY"'
 req GET /login
-check "GET /login → 200 com campos de e-mail e senha obrigatórios" \
-	'[ "$STATUS" = 200 ] && grep -qE "<input type=\"email\" required=\"\" name=\"email\"" <<<"$BODY" && grep -qE "<input type=\"password\" required=\"\" name=\"password\"" <<<"$BODY"'
+# Sem required no HTML: o formulário valida com Zod no navegador e no servidor
+check "GET /login → 200 com os campos de e-mail e senha" \
+	'[ "$STATUS" = 200 ] && grep -qE "<input[^>]*type=\"email\"[^>]*name=\"email\"" <<<"$BODY" && grep -qE "<input[^>]*type=\"password\"[^>]*name=\"password\"" <<<"$BODY"'
 req GET /pagina-que-nao-existe
 check "página inexistente → 404" '[ "$STATUS" = 404 ]'
 check "favicon → 200 (sem 404 no console)" '[ "$(curl -sk -o /dev/null -w "%{http_code}" "$APP/favicon.ico")" = 200 ]'
@@ -482,7 +492,7 @@ pause_rate_limit
 step "9. Trilhas (tests/test-trails.sh) e rate limit do cadastro"
 run_suite "test-trails.sh" bash tests/test-trails.sh
 # test-trails.sh fez 2 cadastros neste minuto: o 3º passa (inválido) e o 4º estoura o limite de 3
-auth_post /sign-up/email '{"name":"X","email":"nao-e-email","password":"senha-forte-123"}'
+auth_post /sign-up/email '{"name":"Xavier","email":"nao-e-email","password":"senha-forte-123"}'
 check "cadastro com e-mail inválido → 400 VALIDATION_ERROR (veio $STATUS)" '[ "$STATUS" = 400 ] && grep -q VALIDATION_ERROR <<<"$BODY"'
 auth_post /sign-up/email "{\"name\":\"X\",\"email\":\"$TEST_EMAIL_PREFIX-limite@example.com\",\"password\":\"senha-forte-123\"}"
 check "4º cadastro no mesmo minuto → 429 (veio $STATUS)" '[ "$STATUS" = 429 ]'
@@ -527,6 +537,11 @@ OUT=$(socket_connect -b "$JAR")
 check "Socket.IO aceita a conexão com o cookie de sessão (veio: ${OUT:0:40})" 'grep -q "^40{\"sid\"" <<<"$OUT"'
 check_warn "get-session não devolve o token da sessão no corpo (um XSS conseguiria lê-lo, apesar do HttpOnly)" \
 	'! grep -q "\"token\":" <<<"$BODY"'
+req GET /api/me/export -b "$JAR"
+check "baixar meus dados → 200 com o JSON da pessoa, sem o hash da senha (veio $STATUS)" \
+	'[ "$STATUS" = 200 ] && grep -q "$EMAIL" <<<"$BODY" && ! grep -q "\"password\"" <<<"$BODY"'
+check "o aviso da exportação chega por e-mail no Mailpit" \
+	'curl -sk "$APP/mailpit/api/v1/messages" | grep -q "$EMAIL"'
 auth_post /sign-out '{}' -b "$JAR"
 check "logout legítimo → 200 (veio $STATUS)" '[ "$STATUS" = 200 ]'
 
@@ -583,7 +598,7 @@ PRIVACY=$(for p in privacy privacidade politica-de-privacidade; do curl -sk -o /
 TERMS=$(for p in terms termos termos-de-uso; do curl -sk -o /dev/null -w '%{http_code}\n' "$APP/$p"; done | grep -c 200)
 check_warn "página de Política de Privacidade (obrigatória)" '[ "$PRIVACY" -ge 1 ]'
 check_warn "página de Termos de Uso (obrigatória)" '[ "$TERMS" -ge 1 ]'
-check_warn "README com os logins da 42 na primeira linha (hoje: <login_...>)" '! head -1 README.md | grep -q "<login"'
+check_warn "README com os logins da 42 na primeira linha (sem <login_...>)" '! head -1 README.md | grep -q "<login"'
 warn "console do Chrome sem erros: não dá para verificar daqui (precisa de navegador; ex.: Playwright)"
 
 # ──────────────────────────────────────────────────────────────────────────────

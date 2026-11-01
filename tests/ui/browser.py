@@ -1,5 +1,5 @@
 """Controlador mínimo do Chrome (DevTools Protocol) sem dependências, para testes de tela."""
-import base64, json, os, shutil, socket, struct, subprocess, tempfile, time, urllib.request
+import base64, json, os, shutil, socket, ssl, struct, subprocess, tempfile, time, urllib.parse, urllib.request
 
 # Mesmo padrão dos testes em bash: o app pelo nginx; APP=http://localhost:3000 para o ambiente antigo
 BASE = os.environ.get("APP", "https://localhost:8443")
@@ -161,10 +161,13 @@ def sql(query):
     return subprocess.run(cmd, capture_output=True, text=True).stdout.strip()
 
 
-def app_logs(since="5m"):
-    """Log do container do app (onde vão os e-mails quando não há SMTP configurado)."""
-    cmd = ["docker", "compose", "-f", os.path.join(REPO, "docker/docker-compose.yml"), "logs", "--no-log-prefix", "--since", since, "nextjs"]
-    return subprocess.run(cmd, capture_output=True, text=True).stdout
+def mailbox(to):
+    """Assunto e texto de todos os e-mails que o app mandou para `to`, lidos no Mailpit (/mailpit/)."""
+    ctx = ssl._create_unverified_context()  # mesmo -k dos testes em bash
+    def get(path):
+        return json.load(urllib.request.urlopen(f"{BASE}/mailpit/api/v1/{path}", context=ctx, timeout=10))
+    found = get("search?query=" + urllib.parse.quote(f"to:{to}"))["messages"]
+    return "\n".join(f"{m['Subject']}\n{get('message/' + m['ID'])['Text']}" for m in found)
 
 
 class Checks:

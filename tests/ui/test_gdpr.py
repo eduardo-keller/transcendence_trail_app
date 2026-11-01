@@ -1,12 +1,12 @@
 # Testa o GDPR de ponta a ponta: baixar os dados (com e-mail de aviso) e excluir a conta
 # (senha + link por e-mail), conferindo no banco que nada da pessoa sobrou.
-# uso: python3 tests/ui/test_gdpr.py   (com o app rodando; sem SMTP_HOST os e-mails vão para o log do app)
+# uso: python3 tests/ui/test_gdpr.py   (com o app rodando; os e-mails são lidos no Mailpit)
 import sys
 
 sys.dont_write_bytecode = True  # não cria tests/ui/__pycache__
 
 import json, re, time
-from browser import Browser, Checks, app_logs, sql
+from browser import Browser, Checks, mailbox, sql
 
 b = Browser(9333)
 outsider = Browser(9334)
@@ -37,7 +37,7 @@ try:
     secret_words = [w for w in ("password", "token", "secret", "backupCodes") if w in res["body"]]
     c.check("não traz segredos (hash de senha, tokens, 2FA)", not secret_words, secret_words)
     time.sleep(1)
-    c.check("aviso da exportação enviado por e-mail", f"para {email}: Você baixou uma cópia dos seus dados" in app_logs("1m"))
+    c.check("aviso da exportação enviado por e-mail", "Você baixou uma cópia dos seus dados" in mailbox(email))
     outsider.goto("/api/me/export")
     c.check("sem login, a exportação responde 401", "UNAUTHORIZED" in outsider.text())
 
@@ -51,7 +51,7 @@ try:
     c.check("pede para abrir o link do e-mail", "Enviamos um link de confirmação" in b.text())
     c.check("ainda não apagou nada", sql(f"SELECT count(*) FROM \"User\" WHERE id = '{uid}'") == "1")
     time.sleep(1)
-    links = re.findall(r"https?://\S+/conta/excluir\?token=[a-z0-9]+", app_logs("2m"))
+    links = re.findall(r"https?://\S+/conta/excluir\?token=[a-z0-9]+", mailbox(email))
     link = links[-1] if links else ""
     c.check("o e-mail traz o link de confirmação", bool(link), link)
     path = link[link.index("/conta/"):] if link else "/"
@@ -75,7 +75,7 @@ try:
     leftovers["User"] = sql(f"SELECT count(*) FROM \"User\" WHERE id = '{uid}'")
     leftovers["Trail"] = sql(f"SELECT count(*) FROM \"Trail\" WHERE \"authorId\" = '{uid}'")
     c.check("nada da pessoa sobrou no banco", all(v == "0" for v in leftovers.values()), leftovers)
-    c.check("confirmação da exclusão por e-mail", f"para {email}: Sua conta foi excluída" in app_logs("1m"))
+    c.check("confirmação da exclusão por e-mail", "Sua conta foi excluída" in mailbox(email))
     b.goto("/conta")
     c.check("a sessão acabou", b.path() == "/login")
     b.fill({"email": email, "password": password})
