@@ -44,6 +44,7 @@ describe('exportUserData', () => {
 		expect(Object.keys(data)).toEqual([
 			'exportedAt',
 			'profile',
+			'avatar',
 			'accounts',
 			'sessions',
 			'trails',
@@ -61,6 +62,21 @@ describe('exportUserData', () => {
 		expect(data.activities).toEqual([expect.objectContaining({ title: 'Fiz a trilha', trail: expect.objectContaining({ title: 'Trilha da Ana' }) })]);
 		expect(data.communities).toEqual([expect.objectContaining({ name: 'Caminhantes', role: 'ADMIN' })]);
 		expect(data.notifications.map((n) => n.message)).toEqual(['Bem-vinda']);
+		expect(data.avatar).toBeNull();
+	});
+
+	it('traz username, bio, 2FA e o avatar, sem o segredo do 2FA', async () => {
+		await prisma.user.update({ where: { id: ana.id }, data: { username: 'ana', bio: 'Oi', twoFactorEnabled: true } });
+		await prisma.twoFactor.create({ data: { id: 'tf-ana', secret: 'SEGREDO-TOTP', backupCodes: 'CODIGOS', userId: ana.id } });
+		await prisma.avatar.create({ data: { userId: ana.id, mime: 'image/webp', data: new Uint8Array([1, 2, 3]) } });
+
+		const data = await exportUserData(ana.id);
+
+		expect(data.profile).toMatchObject({ username: 'ana', bio: 'Oi', twoFactorEnabled: true });
+		expect(data.avatar).toMatchObject({ mime: 'image/webp', base64: 'AQID' });
+		const json = JSON.stringify(data);
+		expect(json).not.toContain('SEGREDO-TOTP');
+		expect(json).not.toContain('CODIGOS');
 	});
 
 	it('não traz dados de outras pessoas', async () => {

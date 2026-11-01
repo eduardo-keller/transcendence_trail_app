@@ -3,7 +3,7 @@ import { notFound } from '@/server/api';
 
 // Todos os dados pessoais de um usuário, em JSON legível (GDPR: "export user data in a readable format").
 // Usado pela frente Identidade no "baixar meus dados" e reaproveitável pela exportação de dados (módulo 16).
-// Nunca inclui segredos: hash de senha, tokens de sessão ou de OAuth.
+// Nunca inclui segredos: hash de senha, tokens de sessão ou de OAuth, segredo do 2FA.
 // Ao criar um modelo novo ligado a User, acrescente-o aqui.
 export async function exportUserData(userId: string) {
 	const user = await prisma.$transaction((tx) => tx.user.findUnique({
@@ -11,11 +11,15 @@ export async function exportUserData(userId: string) {
 		select: {
 			id: true,
 			name: true,
+			username: true,
 			email: true,
 			emailVerified: true,
+			bio: true,
 			image: true,
+			twoFactorEnabled: true,
 			createdAt: true,
 			updatedAt: true,
+			avatar: { select: { mime: true, data: true, updatedAt: true } },
 			accounts: { select: { providerId: true, createdAt: true } },
 			sessions: { select: { createdAt: true, expiresAt: true, ipAddress: true, userAgent: true } },
 			trails: {
@@ -58,6 +62,7 @@ export async function exportUserData(userId: string) {
 	if (!user) throw notFound('Usuário não encontrado.');
 
 	const {
+		avatar,
 		accounts,
 		sessions,
 		trails,
@@ -68,11 +73,15 @@ export async function exportUserData(userId: string) {
 		posts,
 		notifications,
 		badges,
+		twoFactorEnabled,
 		...profile
 	} = user;
 	return {
 		exportedAt: new Date().toISOString(),
-		profile,
+		profile: { ...profile, twoFactorEnabled: !!twoFactorEnabled },
+		avatar: avatar
+			? { mime: avatar.mime, updatedAt: avatar.updatedAt, base64: Buffer.from(avatar.data).toString('base64') }
+			: null,
 		accounts,
 		sessions,
 		trails,
