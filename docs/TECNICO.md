@@ -31,7 +31,27 @@ Para evitar conflito, agrupe as rotas por área com *route groups* do Next.js: `
 
 ## Rodar o projeto e mexer no banco
 
-Comandos, pré-requisitos e o passo a passo para alterar o schema estão no [README](../README.md#instructions) (fonte única).
+Pré-requisitos e primeira execução: [README](../README.md#instructions). `make` é o modo produção (o da avaliação): o código é compilado na imagem, e editar um arquivo só muda o app depois de outro `make` (1–2 min). Para programar, use `make dev`, que recarrega a página ao salvar. Os dois modos usam o mesmo banco. A cada subida, o container `nextjs` aplica as migrations e, num banco vazio, importa as trilhas.
+
+| Comando | O que faz |
+|---|---|
+| `make` / `make dev` | Sobe em produção / em desenvolvimento (hot reload) |
+| `make stop` / `make down` / `make logs` / `make sh` | Para / remove os containers / segue os logs / shell no `nextjs` |
+| `make npm args="install zod"` | `npm` no container (só em `make dev`) |
+| `make migrate name=<descricao>` | Cria uma migration (só em `make dev`) |
+| `make import-trails` | Reimporta as trilhas do OSM (não duplica) |
+| `make test` | Vitest num banco separado, `<POSTGRES_DB>_test` |
+| `bash tests/test-all.sh` | Bateria do projeto inteiro com o app no ar (~5 min; `--rapido` pula o build) |
+| `python3 tests/ui/test_<nome>.py` | Testes de tela num Chrome sem janela (precisa de Python 3 e `google-chrome`) |
+| `make studio` | Prisma Studio em http://localhost:5555, só nesta máquina |
+| `make clean` / `make fclean` / `make re` | Remove containers e imagens / também **apaga o banco** / sobe do zero |
+
+- **Segredos:** não apague `docker/secrets/` com o banco já criado; a senha nova não abriria o banco existente. O `docker/.env` é copiado uma vez só; quando o `.env.example` muda, o `make` avisa o que falta ou sobra.
+- **Usuários de teste:** `docker compose -f docker/docker-compose.yml exec nextjs node scripts/seed-users.mts` cria `alice`, `bruno`, `carla`, `diego` e `eva` (`@example.com`), senha `trilhas-dev-123`.
+- **E-mails:** sem `SMTP_HOST` no container `nextjs`, o texto dos e-mails, com os links, aparece em `make logs`.
+- **OAuth:** os botões do GitHub e da 42 só aparecem com os Docker secrets `github_client_id`, `github_client_secret`, `ft_client_id` e `ft_client_secret`. URL de retorno: `https://localhost:8443/api/auth/callback/github` (ou `/42`).
+
+**Alterar o schema:** com `make dev` de pé, edite `apps/web/prisma/schema.prisma`, rode `make migrate name=<descricao>` e faça commit do schema junto com a pasta da migration. Quem baixar a mudança só precisa de `make`. Antes de commitar, `git status` não pode listar nada de `docker/secrets/`, `docker/.env` ou `data/postgres/`.
 
 Regras do banco:
 - **Uma migration por PR.** O Gabs revisa toda mudança no `schema.prisma`.

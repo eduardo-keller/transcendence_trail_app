@@ -23,7 +23,7 @@ Doc divergente do código: se a correção é óbvia, corrija o doc na mesma mud
 | Decisões técnicas (tomadas e pendentes) | [docs/decisoes/README.md](docs/decisoes/README.md) |
 | Dados de trilhas (origem, importação, pendências, licenças) | [docs/dados-trilhas.md](docs/dados-trilhas.md) |
 | Consultas ao OpenStreetMap (POIs e parques para o RAG) | [docs/agente/consultas-osm.md](docs/agente/consultas-osm.md) |
-| Comandos e setup | [README.md](README.md#instructions) e [Makefile](Makefile) |
+| Comandos e setup | [README.md](README.md#instructions) (primeira execução), [TECNICO.md](docs/TECNICO.md#rodar-o-projeto-e-mexer-no-banco) (comandos do dia a dia) e [Makefile](Makefile) |
 | Requisitos eliminatórios e roteiro da avaliação | [docs/AVALIACAO.md](docs/AVALIACAO.md) |
 | Estado da coordenação, dependências, pendências | [docs/agente/README.md](docs/agente/README.md) |
 | Planos de implementação | [docs/agente/planos/](docs/agente/planos/) |
