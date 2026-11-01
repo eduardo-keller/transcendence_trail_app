@@ -1,6 +1,6 @@
 # Decisões
 
-> Última atualização: 2026-10-25 — decisões de conta (Di): actions de login, avatar no banco, 2FA.
+> Última atualização: 2026-11-01 — Mailpit no compose, secrets do OAuth, origem do dataset de trilhas.
 
 Uma linha por decisão. A coluna "Por quê" alimenta a seção *Technical Stack* do README, que pede a justificativa das escolhas.
 Decidiu algo que afeta outra pessoa? Acrescente uma linha no mesmo PR. Se precisar de mais espaço, crie um arquivo nesta pasta e ponha o link.
@@ -24,6 +24,9 @@ Decidiu algo que afeta outra pessoa? Acrescente uma linha no mesmo PR. Se precis
 | **Avatar no banco** (tabela `Avatar`), redimensionado no navegador para 256×256 WebP | Fora da pasta pública sem mexer no Docker; entra no backup do banco; o canvas descarta o EXIF (GPS) |
 | **2FA só no login com e-mail e senha**; contas OAuth não ativam 2FA aqui | No OAuth quem autentica é o provedor (GitHub e 42 têm o próprio 2FA); o plugin do Better Auth só intercepta `/sign-in/email` |
 | **E-mail por um cliente SMTP próprio** (`src/server/email/`, sem dependência) para o Mailpit em dev e na avaliação; sem servidor, o e-mail vai para o log | GDPR exige e-mails de confirmação; o Mailpit mostra os e-mails numa página, o que serve para a demo |
+| **Mailpit sempre no compose, com imagem Alpine própria** (binário oficial com versão e checksum fixos) e interface em `https://localhost:8443/mailpit/`, pelo nginx | Não está nos repositórios do Alpine; passando pelo nginx, ele continua o único serviço com porta publicada |
+| **Secrets do OAuth sempre declarados no compose; o `make` cria os arquivos vazios** | O compose falha se o arquivo de um secret não existir; vazio = provedor desligado, sem mexer em nada |
+| **Dataset de trilhas gerado por um script externo**, fora do repo; o app só lê o SQLite versionado | Coleta feita uma vez; a avaliação não depende do OSM nem de internet ([dados-trilhas.md](../dados-trilhas.md)) |
 | **Exclusão da conta em 2 passos**: senha, depois link por e-mail que abre uma página com botão | O link é de uso único e só vale logado na conta; abrir o link (GET) nunca apaga nada |
 | **Excluir a conta apaga tudo do usuário em cascata** | Comunidades e eventos estão adiados; se voltarem, o evento passa a ficar sem organizador (`SetNull`) em vez de sumir para todos |
 

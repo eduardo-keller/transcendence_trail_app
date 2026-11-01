@@ -1,10 +1,12 @@
 # Dados de trilhas
 
-> Última atualização: 2026-10-17. Substitui a pesquisa de 2026-10-01 (versão completa na tag `docs-v1`).
+> Última atualização: 2026-11-01. Substitui a pesquisa de 2026-10-01 (versão completa na tag `docs-v1`).
 
 ## O que temos
 
 O catálogo vem do **OpenStreetMap**, no retângulo `-24.05, -47.10, -23.00, -46.20` (Grande SP, Cantareira, Jaraguá, Serra do Japi, Atibaia, Mairiporã, Paranapiacaba e parte da Serra do Mar). O OSM quase não tem rotas de caminhada prontas na região, então o catálogo foi **montado agrupando vias com nome** (`highway=path|footway|track`): 4.439 vias viraram 3.878 trilhas.
+
+**Origem do arquivo:** o SQLite foi gerado uma vez, em 2026-10-07, por um **script externo de coleta de dados de trilhas**, que não faz parte deste repositório. Ele puxou as vias do OpenStreetMap, montou as trilhas e gravou o resultado no SQLite e nos GPX. O app nunca chama esse script nem o OSM: só lê o arquivo versionado (ver [Regras](#regras)).
 
 | Arquivo | O que é |
 |---|---|
@@ -32,7 +34,7 @@ Hoje 94% das trilhas têm menos de 500 m e muitas são vielas ("Viela H", "Trave
 
 Do dono do catálogo, com o Gabs:
 - [ ] **Filtro:** aplicar na importação (ex.: 500 m ou mais e nome de trilha) e apagar do banco as trilhas do OSM que não passam. O upsert não apaga nada sozinho.
-- [ ] **Script gerador:** o que produziu o SQLite não está no repo. Sem ele, ninguém reproduz os dados nem explica na avaliação como eles foram obtidos.
+- [x] **Script gerador:** decidido que fica fora do repo; a origem está registrada em [O que temos](#o-que-temos). Consequência: para atualizar os dados, é preciso rodar o script externo de novo.
 - [ ] **Elevação:** 86% das trilhas têm desnível 0 (44 entre as de 500 m ou mais). Documentar a fonte, porque a licença e a atribuição dependem dela, e conferir 5 trilhas conhecidas (ex.: Pico do Jaraguá, Pedra Grande). Com modelo de elevação de 90 m, uma diferença de ±20% é normal.
 - [ ] **Dificuldade:** documentar a fórmula usada, porque a página da trilha precisa explicar o critério. A pesquisa propunha: `sac_scale` quando existe; senão, `esforço = km + desnível_m / 100` (até 6 fácil, até 14 moderada, acima difícil).
 - [ ] **GPX:** manter uns 5 como exemplo (testes, importação) e apagar o resto.

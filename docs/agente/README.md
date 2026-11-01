@@ -39,7 +39,7 @@ flowchart LR
 ## A cobrar
 
 - [ ] **Dono do catálogo de trilhas.** Não pode ficar para o fim: trava RAG, gamificação, dashboard, exportação e PWA offline.
-- [ ] **Dados de trilhas** ([pendências](../dados-trilhas.md#pendências)): filtro (sobram ~88 trilhas), script que gerou o SQLite (não está no repo; perguntar ao Gabs quem rodou e onde está), fonte da elevação (o README credita Copernicus/Open-Meteo sem confirmação), destino dos GPX.
+- [ ] **Dados de trilhas** ([pendências](../dados-trilhas.md#pendências)): filtro (sobram ~88 trilhas), fonte da elevação (sem confirmação), destino dos GPX.
 - [ ] Dono de Privacidade e Termos (pode ser no fim; é eliminatório).
 - [ ] Papéis PO, PM e Tech Lead.
 - [ ] Decisões pendentes em [decisoes/](../decisoes/README.md): WebSocket, certificado × PWA, e-mail, LLM.

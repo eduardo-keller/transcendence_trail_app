@@ -72,7 +72,7 @@ Também com o Gabs: **nginx + HTTPS** (obrigatório: só o nginx expõe porta; H
 - [ ] Todo acesso a dados via Prisma, exceto busca vetorial (`$queryRaw` com template tag, justificado)
 
 **Demonstrar:** o `schema.prisma`, uma migration e uma query com relações.
-**Já existe:** [`schema.prisma`](../apps/web/prisma/schema.prisma), 4 migrations, cliente em `src/lib/db.ts`, importação das trilhas do OSM, testes de integração com banco real (`make test`).
+**Já existe:** [`schema.prisma`](../apps/web/prisma/schema.prisma), 7 migrations, cliente em `src/lib/db.ts`, importação das trilhas do OSM, testes de integração com banco real (`make test`).
 
 ### 16. Exportação e importação de dados (Minor, opcional)
 - [ ] 📜 Exportar dados em vários formatos (JSON, CSV, XML…)
@@ -118,19 +118,19 @@ Também com a Di: cadastro e login com e-mail e senha (obrigatório), `getSessio
 **Já existe:** GitHub (nativo) e 42 (plugin genérico, perfil da intra mapeado à mão), com state e PKCE; botões em `/login` e `/cadastro` só quando há credenciais; "Contas conectadas" em `/conta`; erros voltam ao `/login` com mensagem ([tests/ui/test_oauth.py](../tests/ui/test_oauth.py), roda com credenciais falsas).
 **Falta para funcionar de verdade:**
 1. **Di:** registrar o app no GitHub (Settings → Developer settings → OAuth Apps) e na intra (Settings → API → Register a new app), com o retorno `https://localhost:8443/api/auth/callback/github` e `.../callback/42`.
-2. **Gabs:** passar as credenciais ao container `nextjs` como Docker secrets `github_client_id`, `github_client_secret`, `ft_client_id`, `ft_client_secret` (o código lê `/run/secrets/<nome>` ou a variável `NOME`). Em dev dá para testar com `apps/web/.env.local` (ignorado pelo git).
+2. Colar as credenciais em `docker/secrets/github_client_id.txt`, `github_client_secret.txt`, `ft_client_id.txt` e `ft_client_secret.txt` (o `make` cria os quatro vazios; já chegam ao `nextjs` como Docker secrets) e rodar `make`.
 
 ### 12. Conformidade com GDPR (Minor)
 - [x] 📜 O usuário pode pedir os próprios dados
 - [x] 📜 Exclusão de dados com confirmação
 - [x] 📜 Exportar os dados do usuário em formato legível
-- [ ] 📜 E-mails de confirmação para as operações com dados *(enviados; sem `SMTP_HOST` vão para o log do app. Falta o Mailpit para a demo)*
+- [ ] 📜 E-mails de confirmação para as operações com dados *(enviados ao Mailpit, em https://localhost:8443/mailpit/; falta conferir o fluxo completo na tela e marcar)*
 - [x] A exclusão apaga mesmo (o schema já apaga em cascata) e encerra as sessões
 
 **Como:** página "Privacidade e dados" nas configurações. Em dev, um servidor de e-mail falso como o Mailpit no compose mostra os e-mails numa página, o que também serve para a demo.
 **Demonstrar:** pedir os dados → e-mail de confirmação → baixar o arquivo legível; excluir a conta → confirmação → login não funciona mais.
 **Já existe:** página `/conta/dados`; download em `/api/me/export` (exportação do Gabs + perfil, avatar e 2FA, sem segredos) com aviso por e-mail; exclusão em 2 passos: senha → link por e-mail → página `/conta/excluir` com botão (abrir o link não apaga nada) → `/conta-excluida`. O link só vale uma vez e só para quem está logado na conta ([tests/ui/test_gdpr.py](../tests/ui/test_gdpr.py) confere no banco que nada sobrou).
-**Falta (Gabs):** serviço Mailpit no compose e `SMTP_HOST=mailpit`, `SMTP_PORT=1025` no `nextjs`. O cliente SMTP já existe (`src/server/email/`). Acrescentar `username`, `bio`, `twoFactorEnabled` e o avatar no `exportUserData` (hoje completados em `src/server/privacy/export.ts`).
+**E-mails na demo:** o compose sobe o Mailpit, e o `nextjs` envia para ele (`SMTP_HOST=mailpit`). A caixa fica em **https://localhost:8443/mailpit/**. O `exportUserData` já traz `username`, `bio`, `twoFactorEnabled` e o avatar: `src/server/privacy/export.ts` pode passar a só chamar ele (Di).
 
 ### 14. Autenticação de dois fatores (Minor)
 - [x] 📜 Sistema completo de 2FA
@@ -221,7 +221,7 @@ Nenhum módulo cobre o catálogo, mas ele é o produto: sem trilhas e atividades
 
 **Já existe:** [`import-trails.mts`](../apps/web/prisma/import-trails.mts) importa 3.878 trilhas de um SQLite no start do container (idempotente). Backend pronto (Gabs): busca com filtros (`GET /api/trails`), detalhe, server actions de criar, editar e excluir trilhas e atividades, estatísticas de atividades. Faltam as telas e as notificações.
 
-**Problema nos dados:** 94% das trilhas importadas têm menos de 500 m e muitas são vielas urbanas. Um filtro por comprimento e nome deixa cerca de 90 trilhas de verdade. O script que gerou o dataset não está no repo, e a fonte da elevação não está documentada. Números e pendências em [dados-trilhas.md](dados-trilhas.md).
+**Problema nos dados:** 94% das trilhas importadas têm menos de 500 m e muitas são vielas urbanas. Um filtro por comprimento e nome deixa cerca de 90 trilhas de verdade. O dataset veio de um script externo de coleta (fora do repo), e a fonte da elevação não está documentada. Números e pendências em [dados-trilhas.md](dados-trilhas.md).
 
 **Sugestão de divisão:** Gabs na API e nos dados (ele fez a importação), Juh nas telas.
 
