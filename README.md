@@ -22,7 +22,7 @@
 - GNU Make 4 e OpenSSL 3.0 ou mais novo.
 - Google Chrome, versão estável mais recente.
 
-**Configuração:** nenhuma é obrigatória. Na primeira execução, o `make` cria `docker/.env` a partir de [`docker/.env.example`](docker/.env.example) (usuário e nome do banco, portas), gera as senhas em `docker/secrets/` e o certificado HTTPS em `docker/nginx/certs/`. Nada disso vai para o git.
+**Configuração:** nenhuma é obrigatória. Na primeira execução, o `make` cria `docker/.env` a partir de [`docker/.env.example`](docker/.env.example) (usuário e nome do banco, portas), gera as senhas em `docker/secrets/` e o certificado HTTPS em `docker/nginx/certs/`. Nada disso vai para o git. Opcional: para ligar o assistente de IA, cole uma chave do Google Gemini em `docker/secrets/gemini_api_key.txt` antes do `make` (sem ela, o resto do app funciona).
 
 **Execução:**
 1. `make`
@@ -33,7 +33,7 @@ Para parar: `make down`. Para apagar tudo, inclusive o banco: `make fclean`.
 
 ## Resources
 
-- [Next.js](https://nextjs.org/docs), [Prisma](https://www.prisma.io/docs), [Better Auth](https://www.better-auth.com/docs), [Socket.IO](https://socket.io/docs/v4/), [Zod](https://zod.dev), [Tailwind CSS](https://tailwindcss.com/docs), [nginx](https://nginx.org/en/docs/), [Docker Compose](https://docs.docker.com/compose/), [pgvector](https://github.com/pgvector/pgvector)
+- [Next.js](https://nextjs.org/docs), [Prisma](https://www.prisma.io/docs), [Better Auth](https://www.better-auth.com/docs), [Socket.IO](https://socket.io/docs/v4/), [Zod](https://zod.dev), [Tailwind CSS](https://tailwindcss.com/docs), [nginx](https://nginx.org/en/docs/), [Docker Compose](https://docs.docker.com/compose/), [pgvector](https://github.com/pgvector/pgvector), [Vercel AI SDK](https://ai-sdk.dev/docs), [Gemini API](https://ai.google.dev/gemini-api/docs)
 - [OpenStreetMap: Map features](https://wiki.openstreetmap.org/wiki/Map_features), [API da intra 42](https://api.intra.42.fr/apidoc)
 - [PostgreSQL: isolamento de transações](https://www.postgresql.org/docs/current/transaction-iso.html), [TOTP (RFC 6238)](https://datatracker.ietf.org/doc/html/rfc6238), [OAuth com PKCE (RFC 7636)](https://datatracker.ietf.org/doc/html/rfc7636)
 
@@ -65,6 +65,7 @@ Para parar: `make down`. Para apagar tudo, inclusive o banco: `make fclean`.
 | Autenticação | Better Auth | Hash com salt pronto; sessão no banco; plugins de OAuth e 2FA |
 | Tempo real | Socket.IO | Salas por usuário e reconexão, no mesmo processo do Next |
 | Validação | Zod | O mesmo schema valida o formulário e o servidor |
+| IA | Vercel AI SDK 7 + Google Gemini | Camada gratuita; geração e embeddings na mesma API; streaming até o navegador e modelo falso para testes prontos no SDK |
 | Infra | Docker Compose, nginx | Um comando sobe tudo; HTTPS com um só ponto de entrada |
 
 ## Database Schema

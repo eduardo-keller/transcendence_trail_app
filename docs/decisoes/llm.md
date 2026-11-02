@@ -1,31 +1,30 @@
 # Provedor de LLM e embeddings
 
-> Última atualização: 2026-10-17 — a IA agora roda dentro do Next.js (não há serviço `ai`). Dono: Edu.
-> Status: **pendente** (provedor de geração).
+> Última atualização: 2026-11-02. Dono: Edu.
+> Status: **decidido** — Google Gemini pelo Vercel AI SDK 7.
 
 ## Contexto
 
 - Dois módulos Major dependem disso: **Interface de LLM** (streaming, erros, rate limit) e **RAG**.
 - O RAG precisa de embeddings para indexar o corpus e as perguntas.
-- Orçamento de estudante. A chave precisa funcionar **no dia da avaliação**. Desenvolvimento não deve gastar dinheiro.
+- Orçamento de estudante: o desenvolvimento não pode gastar dinheiro, e a chave precisa funcionar no dia da avaliação.
 
-## Proposta (parte fechada)
+## Decisão
 
-1. **Uma interface própria de provedor** (ex.: `streamText()`), implementada com o SDK oficial do provedor escolhido. Trocar de provedor fica restrito a um arquivo.
-2. **Provedor `mock`** (`LLM_PROVIDER=mock`): devolve texto fixo em streaming, com atraso simulado. Usado em dev e nos testes; custo zero, sem chave.
-3. **Embeddings locais:** modelo multilíngue pequeno (suporta português, ~384 dimensões) rodando no próprio Node. Sem custo, funciona offline. O modelo é baixado no build da imagem, não no start.
-4. **Vetores no banco principal** (pgvector já instalado), consultados com `$queryRaw`.
-5. **Rate limit por usuário** e um teto diário de chamadas, no próprio app.
-
-## Pendente: provedor de geração
-
-Confira preços e camadas gratuitas **na data da decisão**; eles mudam com frequência.
-
-| Opção | Prós | Contras |
+| O quê | Escolha | Por quê |
 |---|---|---|
-| Anthropic (Claude) | Boa qualidade em português; streaming simples no SDK oficial | Sem camada gratuita; sem endpoint de embeddings (por isso os embeddings locais) |
-| OpenAI | Ecossistema grande; também tem embeddings | Sem camada gratuita relevante |
-| Google Gemini | Camada gratuita, com limites | Limites e termos da camada gratuita mudam; os dados podem ser usados pelo provedor |
-| Modelo local (Ollama) | Grátis, offline | Pesado para as máquinas da 42; lento; qualidade menor |
+| Provedor | **Google Gemini** (`gemini-3.5-flash-lite` por padrão; trocável em `LLM_MODEL`) | Camada gratuita; geração e embeddings na mesma API |
+| Embeddings | `gemini-embedding-001`, 768 dimensões, pela API | Os embeddings locais não rodam na imagem Alpine (o `onnxruntime` exige glibc) e somariam ~700 MB |
+| Biblioteca | **Vercel AI SDK 7** (`ai`, `@ai-sdk/google`, `@ai-sdk/react`), versões fixas | Streaming até o navegador, botão de parar e modelo falso prontos; busca, prompts e rate limit continuam no nosso código |
+| Dev e testes | `LLM_PROVIDER=mock`: texto fixo em streaming, sem chave e sem cota | Desenvolver e testar sem gastar |
+| Vetores | No banco principal (pgvector), consultados com `$queryRaw` | Sem outro banco |
+| Rate limit | Por usuário (por minuto e por dia), no app | Protege a cota gratuita |
 
-**Para decidir:** quem do time tem conta ou crédito em qual provedor; orçamento máximo; se vale um modelo mais barato em dev e o principal na demo; chave reserva para a avaliação.
+O código fica em `apps/web/src/server/ai/`; `model.ts` é o único arquivo que conhece o provedor.
+
+## Consequências
+
+- **Chave:** `docker/secrets/gemini_api_key.txt` (o `make` cria vazio). Vazio = assistente desligado, com aviso; o resto do app funciona.
+- **Privacidade:** na camada gratuita, o Google usa o conteúdo enviado para melhorar os produtos dele. A Política de Privacidade precisa dizer isso, e o app não envia nome nem e-mail.
+- **Cota:** os limites são por projeto do Google, e o diário zera à meia-noite do Pacífico. Os números do seu projeto aparecem só no AI Studio. Para o dia da avaliação, ter uma chave reserva de **outro projeto**.
+- **Teste da ligação:** `docker compose -f docker/docker-compose.yml exec nextjs node scripts/ai-smoke.mts` (gasta 4 pedidos).
