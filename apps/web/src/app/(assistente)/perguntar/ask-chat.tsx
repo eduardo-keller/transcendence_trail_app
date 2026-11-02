@@ -5,7 +5,7 @@ import { DefaultChatTransport } from 'ai';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { type FormEvent, type KeyboardEvent, useMemo, useState } from 'react';
-import { ASK_QUESTION_MAX, askSchema } from '@/lib/validation/ai';
+import { ASK_ANSWER_MAX, ASK_QUESTION_MAX, type AskExchange, askSchema, MEMORY_RECENT_MAX } from '@/lib/validation/ai';
 import type { RagSourceRef } from '@/server/ai/rag/retrieve';
 import type { AskUIMessage } from '@/server/ai/rag/types';
 import type { AiQuota } from '@/server/ai/rate-limit';
@@ -31,6 +31,29 @@ const textOf = (message: AskUIMessage | undefined) =>
 const sourcesOf = (message: AskUIMessage) =>
 	message.parts.find((part) => part.type === 'data-sources')?.data ?? [];
 
+const memoryOf = (message: AskUIMessage) => message.parts.find((part) => part.type === 'data-memory')?.data;
+
+// Memória da conversa, tirada das próprias mensagens que estão na tela (não fica no servidor):
+// as trocas pergunta → resposta e o resumo mais recente que o servidor devolveu
+function exchangesOf(messages: AskUIMessage[]): AskExchange[] {
+	const exchanges: AskExchange[] = [];
+	for (let i = 0; i + 1 < messages.length; i += 1) {
+		const answer = textOf(messages[i + 1]);
+		if (messages[i].role === 'user' && messages[i + 1].role === 'assistant' && answer) {
+			exchanges.push({ question: textOf(messages[i]).slice(0, ASK_QUESTION_MAX), answer: answer.slice(0, ASK_ANSWER_MAX) });
+		}
+	}
+	return exchanges;
+}
+
+function latestSummary(messages: AskUIMessage[]) {
+	for (let i = messages.length - 1; i >= 0; i -= 1) {
+		const memory = memoryOf(messages[i]);
+		if (memory) return memory.summary;
+	}
+	return '';
+}
+
 const thousands = (value: number) => value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, '.');
 
 export function AskChat({ quota, configured, corpus }: Props) {
@@ -39,12 +62,22 @@ export function AskChat({ quota, configured, corpus }: Props) {
 	const [inputError, setInputError] = useState<string>();
 	const [stopped, setStopped] = useState(false);
 
-	// O navegador monta o corpo do pedido: só a pergunta nova, não o histórico inteiro
+	// O navegador monta o corpo do pedido: a pergunta nova, as últimas 3 trocas e o resumo da conversa.
+	// Nunca o histórico inteiro: o contexto tem tamanho limitado, por mais longa que seja a conversa.
 	const transport = useMemo(
 		() =>
 			new DefaultChatTransport<AskUIMessage>({
 				api: '/api/ai/ask',
-				prepareSendMessagesRequest: ({ messages }) => ({ body: { question: textOf(messages.at(-1)) } }),
+				prepareSendMessagesRequest: ({ messages }) => {
+					const previous = messages.slice(0, -1);
+					return {
+						body: {
+							question: textOf(messages.at(-1)),
+							recent: exchangesOf(previous).slice(-MEMORY_RECENT_MAX),
+							summary: latestSummary(previous) || undefined,
+						},
+					};
+				},
 			}),
 		[],
 	);
@@ -99,6 +132,7 @@ export function AskChat({ quota, configured, corpus }: Props) {
 	}
 
 	const last = messages.at(-1);
+	const summary = latestSummary(messages);
 
 	return (
 		<div className="flex flex-col gap-4">
@@ -138,6 +172,11 @@ export function AskChat({ quota, configured, corpus }: Props) {
 					) : (
 						<article key={message.id} className="flex flex-col gap-3 rounded-card bg-paper p-5" data-testid="answer">
 							{/* Texto puro: sem markdown nem dangerouslySetInnerHTML; o prompt pede listas com "- " */}
+							{memoryOf(message)?.rewritten && (
+								<p className="text-xs text-stone" data-testid="rewritten">
+									Pergunta completa usada na busca: {memoryOf(message)?.question}
+								</p>
+							)}
 							<div className="whitespace-pre-wrap" data-testid="answer-text">
 								{textOf(message)}
 							</div>
@@ -167,6 +206,19 @@ export function AskChat({ quota, configured, corpus }: Props) {
 					</div>
 				)}
 			</section>
+
+			{messages.length > 0 && (
+				<details className="rounded-card bg-paper px-5 py-3 text-sm" data-testid="memory">
+					<summary className="cursor-pointer font-semibold">O que o assistente lembra desta conversa</summary>
+					<p className="mt-2 whitespace-pre-wrap" data-testid="memory-summary">
+						{summary || 'Ainda nada: o resumo começa na segunda pergunta.'}
+					</p>
+					<p className="mt-1 text-xs text-stone">
+						Cada pergunta leva este resumo e as últimas {MEMORY_RECENT_MAX} trocas. Fica só nesta página: nada é
+						guardado no servidor.
+					</p>
+				</details>
+			)}
 
 			<form onSubmit={onSubmit} noValidate className="flex flex-col gap-3 rounded-card bg-paper p-5">
 				<label className="flex flex-col gap-1">
