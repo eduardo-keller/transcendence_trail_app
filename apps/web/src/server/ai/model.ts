@@ -1,8 +1,8 @@
 import { createGoogle } from '@ai-sdk/google';
-import type { LanguageModel } from 'ai';
+import type { EmbeddingModel, LanguageModel } from 'ai';
 import { readSecret } from '@/lib/secrets';
 import { AiNotConfiguredError } from './errors';
-import { mockLanguageModel } from './mock';
+import { mockEmbeddingModel, mockLanguageModel } from './mock';
 
 // Único arquivo que sabe qual provedor está em uso: o resto do código pede um modelo
 // e não sabe se é o Gemini ou o mock. Trocar de provedor = mudar este arquivo.
@@ -36,6 +36,7 @@ export function languageModel(): LanguageModel {
 	return google(process.env.LLM_MODEL || DEFAULT_LLM_MODEL);
 }
 
-export function embeddingModel() {
+export function embeddingModel(): EmbeddingModel {
+	if (isMockProvider()) return mockEmbeddingModel();
 	return google.embedding(EMBEDDING_MODEL);
 }

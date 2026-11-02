@@ -1,5 +1,6 @@
 import { simulateReadableStream } from 'ai';
-import { MockLanguageModelV4 } from 'ai/test';
+import { MockEmbeddingModelV4, MockLanguageModelV4 } from 'ai/test';
+import { prisma } from '@/lib/db';
 
 // Modelo falso (LLM_PROVIDER=mock), para desenvolver e testar sem chave e sem gastar cota.
 // Devolve um texto fixo palavra por palavra, com atraso, para o streaming ficar visível na tela.
@@ -50,5 +51,37 @@ export function mockLanguageModel({ chunkDelayInMs = 40 }: { chunkDelayInMs?: nu
 				}),
 			};
 		},
+	});
+}
+
+// ---------- embeddings ----------
+
+// Com "[fora]" na pergunta, a busca não encontra nada (para testar o "não encontrei")
+export const MOCK_NOT_FOUND_TRIGGER = '[fora]';
+
+const MOCK_DIMENSIONS = 768;
+// Vetor fixo que não se parece com nenhum trecho do corpus (similaridade perto de 0)
+const FAR_VECTOR = Array.from({ length: MOCK_DIMENSIONS }, (_, i) => Math.sin(i * 12.9898 + 78.233));
+
+// Sem a API não dá para calcular o embedding de verdade da pergunta. Então ela "pega emprestado" o vetor
+// do trecho do corpus com mais palavras em comum (busca textual do Postgres), e a busca por similaridade
+// (rag/retrieve.ts) roda igual à de verdade. Sem palavra em comum: FAR_VECTOR → "não encontrei".
+async function borrowEmbedding(text: string): Promise<number[]> {
+	if (text.includes(MOCK_NOT_FOUND_TRIGGER)) return FAR_VECTOR;
+	const words = [...new Set(text.toLowerCase().match(/\p{L}{4,}/gu) ?? [])];
+	if (words.length === 0) return FAR_VECTOR;
+	const query = words.join(' | ');
+	const rows = await prisma.$queryRaw<{ embedding: string }[]>`
+		SELECT embedding::text AS embedding FROM "RagChunk"
+		WHERE to_tsvector('portuguese', content) @@ to_tsquery('portuguese', ${query})
+		ORDER BY ts_rank(to_tsvector('portuguese', content), to_tsquery('portuguese', ${query})) DESC, id
+		LIMIT 1`;
+	return rows[0] ? (JSON.parse(rows[0].embedding) as number[]) : FAR_VECTOR;
+}
+
+export function mockEmbeddingModel() {
+	return new MockEmbeddingModelV4({
+		maxEmbeddingsPerCall: 100,
+		doEmbed: async ({ values }) => ({ embeddings: await Promise.all(values.map(borrowEmbedding)), warnings: [] }),
 	});
 }
