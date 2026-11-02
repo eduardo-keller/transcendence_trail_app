@@ -20,7 +20,14 @@ const apiError = (statusCode: number) =>
 // Junta o texto do stream e o erro que o streamText entregou ao onError
 async function run(model: ReturnType<typeof languageModel>, prompt: string) {
 	let error: unknown;
-	const result = streamText({ model, prompt, maxRetries: 0, onError: (event) => void (error = event.error) });
+	const result = streamText({
+		model,
+		prompt,
+		maxRetries: 0,
+		onError: (event) => {
+			error = event.error;
+		},
+	});
 	const pieces: string[] = [];
 	for await (const piece of result.textStream) pieces.push(piece);
 	return { pieces, text: pieces.join(''), error };

@@ -50,7 +50,9 @@ if (invalidKey) {
 		model: google(LLM_MODEL),
 		prompt: 'oi',
 		maxRetries: 0,
-		onError: (event) => void (error = event.error),
+		onError: (event) => {
+			error = event.error;
+		},
 	});
 	for await (const _ of result.textStream);
 	if (error) ok(`o Google recusou, como esperado → ${describeError(error)}`);
@@ -69,7 +71,9 @@ step(`1. Texto em streaming (${LLM_MODEL})`);
 		model: google(LLM_MODEL),
 		prompt: 'Em uma frase curta, em português: o que levar numa trilha de 2 km?',
 		maxRetries: 0,
-		onError: (event) => void (error = event.error),
+		onError: (event) => {
+			error = event.error;
+		},
 	});
 	for await (const piece of result.textStream) {
 		if (!firstAt) firstAt = Date.now() - started;
@@ -97,7 +101,9 @@ step('2. Parar no meio (abortSignal)');
 		onAbort: () => {
 			aborted = true;
 		},
-		onError: (event) => void (error = event.error),
+		onError: (event) => {
+			error = event.error;
+		},
 	});
 	try {
 		for await (const _ of result.textStream) {
@@ -139,7 +145,7 @@ try {
 
 	const scores = embeddings.map((vector) => cosineSimilarity(embedding, vector));
 	console.log(`    pergunta: "${question}"`);
-	documents.forEach((document, i) => console.log(`    ${scores[i].toFixed(3)}  ${document.slice(0, 60)}…`));
+	for (const [i, document] of documents.entries()) console.log(`    ${scores[i].toFixed(3)}  ${document.slice(0, 60)}…`);
 	const best = scores.indexOf(Math.max(...scores));
 	const worst = scores.indexOf(Math.min(...scores));
 	if (best === 0 && worst === 2) ok('a trilha certa ficou em 1º e o bolo em último');
