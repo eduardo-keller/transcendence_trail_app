@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
-# Testa de ponta a ponta o planejador de IA (POST /api/ai/plan) pelo nginx, com o app rodando (make dev):
-# login (401), validação (400), trilha inexistente (404), streaming de verdade (o texto chega aos poucos),
-# falha do provedor dentro do stream, cancelamento ao fechar a conexão e rate limit (429).
+# Testa de ponta a ponta o assistente de IA pelo nginx, com o app rodando (make dev):
+# - planejador (POST /api/ai/plan): login (401), validação (400), trilha inexistente (404), streaming de
+#   verdade (o texto chega aos poucos), falha do provedor dentro do stream, cancelamento e rate limit (429);
+# - perguntas (POST /api/ai/ask): 401, 400, fontes antes do texto e "não encontrei" com o índice carregado.
 # Cria um usuário e apaga no final.
 #
 # uso: bash tests/test-ai.sh (de qualquer pasta)
@@ -15,6 +16,7 @@ cd "$(dirname "$0")/.." || exit 1   # raiz do repositório (o compose é relativ
 # O app só responde pelo nginx; -k nos curl aceita o certificado autoassinado
 APP=${APP:-https://localhost:8443}
 API=$APP/api/ai/plan
+ASK=$APP/api/ai/ask
 AUTH=$APP/api/auth
 COMPOSE="docker compose -f docker/docker-compose.yml"
 EMAIL="ia-$(date +%s)@example.com"
@@ -128,6 +130,23 @@ check "$((LIMIT * 2)) pedidos ao mesmo tempo: $PASSED passaram e $LIMITED recebe
 	'[ "$PASSED" = "$LIMIT" ] && [ "$LIMITED" = "$LIMIT" ]'
 R429=$(grep -l AI_RATE_LIMITED "$TMP"/rl-*.body | head -1)
 check "o 429 traz o código AI_RATE_LIMITED e em quantos segundos tentar de novo" '[ -n "$R429" ] && grep -q "\"retryAfter\":[0-9]" "$R429"'
+
+step "6. Perguntas (RAG)"
+CHUNKS=$(sql "SELECT count(*) FROM \\\"RagChunk\\\"")
+check "índice do RAG carregado no banco ($CHUNKS trechos; vazio: make index-rag)" '[ "$CHUNKS" -ge 2000 ]'
+sql "DELETE FROM \\\"AiUsage\\\" WHERE \\\"userId\\\" = '$USER_ID'" >/dev/null
+CODE=$(curl -sk -o /dev/null -w '%{http_code}' -X POST "$ASK" -H 'Content-Type: application/json' -d '{"question":"Qual o ponto mais alto?"}')
+check "sem login → 401 (veio $CODE)" '[ "$CODE" = 401 ]'
+CODE=$(curl -sk -o "$TMP/ask400" -w '%{http_code}' -b "$JAR" -X POST "$ASK" -H 'Content-Type: application/json' -d '{"question":"oi"}')
+check "pergunta curta → 400 no campo question (veio $CODE)" '[ "$CODE" = 400 ] && grep -q "\"path\":\"question\"" "$TMP/ask400"'
+curl -skN -b "$JAR" -X POST "$ASK" -H 'Content-Type: application/json' -d '{"question":"O que levar numa trilha? Capa de chuva e lanterna?"}' >"$TMP/ask"
+SOURCES_LINE=$(grep -n '"type":"data-sources"' "$TMP/ask" | head -1 | cut -d: -f1)
+TEXT_LINE=$(grep -n '"type":"text-delta"' "$TMP/ask" | head -1 | cut -d: -f1)
+check "as fontes chegam antes do texto (linhas ${SOURCES_LINE:-?} e ${TEXT_LINE:-?} do stream)" '[ -n "$SOURCES_LINE" ] && [ -n "$TEXT_LINE" ] && [ "$SOURCES_LINE" -lt "$TEXT_LINE" ]'
+check "as fontes trazem número, título e score" 'grep -q "\"data-sources\",\"data\":\[{\"n\":1,\"title\":" "$TMP/ask" && grep -q "\"score\":" "$TMP/ask"'
+check "a resposta cita [1]" 'grep "\"type\":\"text-delta\"" "$TMP/ask" | grep -q "\[1\]"'
+curl -skN -b "$JAR" -X POST "$ASK" -H 'Content-Type: application/json' -d '{"question":"pergunta sem resposta [fora]"}' >"$TMP/ask-none"
+check "nada parecido na base → fontes vazias e \"não encontrei\"" 'grep -q "\"data-sources\",\"data\":\[\]" "$TMP/ask-none" && grep -q "Não encontrei essa informação" "$TMP/ask-none"'
 
 step "Limpeza"
 sql "DELETE FROM \\\"User\\\" WHERE email = '$EMAIL'" >/dev/null
