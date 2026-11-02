@@ -5,6 +5,7 @@ import { prisma } from '@/lib/db';
 import { AI_ERROR_MESSAGES } from '@/server/ai/errors';
 import { MOCK_FAILURE_TRIGGER, mockLanguageModel } from '@/server/ai/mock';
 import { consumeAiQuota, getAiQuota } from '@/server/ai/rate-limit';
+import { listPlannableTrails } from '@/server/ai/trails';
 import { createTrail, createUser, resetDatabase } from '../helpers/db';
 import { signInAs } from '../helpers/session';
 
@@ -166,5 +167,16 @@ describe('consumeAiQuota', () => {
 		await getAiQuota(ana.id, NOW);
 		expect(await usageCount()).toBe(0);
 		expect(await getAiQuota(ana.id, NOW)).toMatchObject({ limitPerMinute: 5, remainingMinute: 5, retryAt: null });
+	});
+});
+
+describe('listPlannableTrails', () => {
+	it('só as trilhas do OSM com 500 m ou mais e nome de trilha, em ordem alfabética', async () => {
+		await createTrail({ title: 'Pico do Jaraguá', source: 'OSM', distance: 3000 });
+		await createTrail({ title: 'Viela H', source: 'OSM', distance: 800 });
+		await createTrail({ title: 'Trilha Curta', source: 'OSM', distance: 300 });
+		await createTrail({ title: 'Trilha da Ana', source: 'USER', authorId: ana.id, distance: 2000 });
+		const titles = (await listPlannableTrails()).map((option) => option.title);
+		expect(titles).toEqual(['Pico do Jaraguá', 'Trilha Pedra Grande']);
 	});
 });

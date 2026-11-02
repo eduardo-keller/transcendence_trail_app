@@ -1,5 +1,5 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
-import { planSchema } from '@/lib/validation/ai';
+import { planDateRange, planSchema } from '@/lib/validation/ai';
 import { formatDatePtBr, type PlannerTrail, plannerPrompt } from '@/server/ai/planner';
 
 // "Hoje" fixo: as datas do formulário são relativas a ele
@@ -32,6 +32,14 @@ describe('planSchema', () => {
 		expect(issues({ date: '2026-11-08' })).toEqual(['date']);
 		expect(issues({ date: '2027-11-11' })).toEqual(['date']);
 		expect(issues({ date: '15/11/2026' })).toEqual(['date']);
+	});
+
+	it('o intervalo da tela (hoje em São Paulo até um ano) sempre passa no schema', () => {
+		// 01:00 UTC ainda é o dia anterior em São Paulo (UTC−3)
+		expect(planDateRange(Date.parse('2026-11-10T01:00:00Z'))).toEqual({ today: '2026-11-09', last: '2027-11-09' });
+		const { today, last } = planDateRange();
+		expect(issues({ date: today })).toEqual([]);
+		expect(issues({ date: last })).toEqual([]);
 	});
 
 	it('recusa horas fora de 1–12 ou quebradas, experiência desconhecida e observação longa', () => {
