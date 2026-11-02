@@ -225,6 +225,7 @@ check "mailpit não roda como root" '[ "$(docker exec "$MAILPIT" id -u)" != 0 ]'
 check "interface do Mailpit responde pelo HTTPS em /mailpit/" '[ "$(curl -sk -o /dev/null -w "%{http_code}" "$APP/mailpit/")" = 200 ]'
 check "secrets do OAuth montados no nextjs (vazios = provedor desligado)" \
 	'( for s in github_client_id github_client_secret ft_client_id ft_client_secret; do docker exec "$WEB" test -f "/run/secrets/$s" || exit 1; done )'
+check "secret do Gemini montado no nextjs (vazio = assistente desligado)" 'docker exec "$WEB" test -f /run/secrets/gemini_api_key'
 check "Prisma Studio fora do make padrão (profile tools)" '! $COMPOSE config --services | grep -qx prisma-studio'
 check "HTTPS válido para quem confia na CA local (curl sem -k)" 'curl -s --cacert docker/nginx/certs/ca.crt -o /dev/null "$APP/api/health"'
 LOCATION=$(curl -sk -o /dev/null -w '%{redirect_url}' "$HTTP_APP/trilhas?x=1")
