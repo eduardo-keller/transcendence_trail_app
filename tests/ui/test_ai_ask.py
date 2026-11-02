@@ -1,6 +1,6 @@
 # Testa a tela "Pergunte sobre as trilhas" (/perguntar) com o modelo falso e o índice do RAG carregado:
-# tamanho da base, exemplos, fontes antes do texto, Parar, "não encontrei", erro do provedor, validação,
-# Nova conversa e console limpo.
+# tamanho da base, exemplos, fontes antes do texto, memória (seguimento, resumo, corpo do pedido enxuto),
+# Parar, "não encontrei", erro do provedor, validação, Nova conversa e console limpo.
 # uso: python3 tests/ui/test_ai_ask.py   (com make dev, LLM_PROVIDER=mock e make index-rag; APP=... para outra URL)
 # O cadastro tem rate limit (3 por minuto por IP): se rodar logo depois de outro teste, espere 1 minuto.
 import sys
@@ -90,6 +90,21 @@ try:
     source_text = b.js("document.querySelector('[data-testid=sources]').innerText")
     c.check("cada fonte tem número, título e relevância", "[1]" in source_text and "relevância" in source_text, source_text)
 
+    c.step("Memória: pergunta de seguimento")
+    # Guarda o corpo de cada pedido ao /api/ai/ask (para conferir o que o navegador manda)
+    b.js("""(() => { window.__bodies = []; const original = window.fetch;
+        window.fetch = (url, options) => { if (String(url).includes('/api/ai/ask')) window.__bodies.push(JSON.parse(options.body)); return original(url, options); };
+    })()""")
+    c.check("antes do seguimento, o assistente ainda não tem resumo", "Ainda nada" in b.js("document.querySelector('[data-testid=memory-summary]').textContent"))
+    ask("E quanto peso dá para levar?", 4)
+    rewritten = b.js("[...document.querySelectorAll('[data-testid=rewritten]')].at(-1)?.innerText") or ""
+    c.check("a pergunta de seguimento é reescrita antes da busca", "(sobre: O que levar numa trilha de um dia?)" in rewritten, rewritten)
+    summary = b.js("document.querySelector('[data-testid=memory-summary]').textContent")
+    c.check("'O que o assistente lembra' mostra o resumo da conversa", "O que levar numa trilha de um dia?" in summary, summary)
+    body = (b.js("window.__bodies") or [{}])[-1]
+    c.check("o pedido leva só a pergunta, as trocas anteriores e o resumo (não o histórico)",
+            sorted(body) == ["question", "recent"] and len(body["recent"]) == 1, body)
+
     c.step("Parar no meio")
     ask("O que fazer se uma cobra me picar na trilha?", 1.0)
     b.click("Parar", 2)
@@ -102,6 +117,10 @@ try:
 
     c.step("Provedor fora do ar (simulado com [falha])")
     ask("O que levar numa trilha [falha]", 3)
+    body = (b.js("window.__bodies") or [{}])[-1]
+    c.check("depois de várias trocas, o pedido leva só as últimas 3 e o resumo (≤ 1.000 caracteres)",
+            len(body.get("recent", [])) == 3 and len(body.get("summary", "")) <= 1000 and "messages" not in body,
+            {k: (len(v) if isinstance(v, (list, str)) else v) for k, v in body.items()})
     t = b.text()
     c.check("mensagem amigável e 'Tentar de novo'; a conversa continua na tela",
             "O assistente está indisponível agora" in t and "Tentar de novo" in t and len(answers()) >= 3)
@@ -109,6 +128,12 @@ try:
     c.step("Nova conversa")
     b.click("Nova conversa", 1)
     c.check("a conversa some e os exemplos voltam", answers() == [] and "Experimente perguntar" in b.text())
+    ask("O que levar numa trilha de um dia?", 4)
+    body = (b.js("window.__bodies") or [{}])[-1]
+    c.check("a conversa nova começa sem memória (sem trocas nem resumo no pedido)", sorted(body) == ["question", "recent"] and body["recent"] == [], body)
+    c.check("e sem resumo na tela", "Ainda nada" in b.js("document.querySelector('[data-testid=memory-summary]').textContent"))
+    b.goto("/perguntar", 3)
+    c.check("recarregar a página também esquece a conversa", answers() == [] and "Experimente perguntar" in b.text())
     c.check("nada da conversa ficou no banco (só o contador do rate limit)",
             sql(f"SELECT count(*) FROM \"AiUsage\" WHERE \"userId\" = '{user_id}'") in ("0", "1", "2"))
 
