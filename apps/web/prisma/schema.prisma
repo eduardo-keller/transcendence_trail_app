@@ -54,6 +54,7 @@ model User {
   notifications   Notification[]
   posts           Post[]
   badges          UserBadge[]
+  aiUsage         AiUsage[]
 }
 
 // Foto de perfil, guardada no banco (fora de qualquer pasta pública) e servida por /api/avatar/<userId>
@@ -277,4 +278,17 @@ model UserBadge {
 
   @@unique([userId, badgeId])
   @@index([badgeId])
+}
+
+// ---------- assistente de IA ----------
+
+// Rate limit do assistente: um contador por usuário e janela fixa, em UTC
+// (period "2026-11-02T13:05" = um minuto, "2026-11-02" = um dia). Não guarda o que foi perguntado.
+model AiUsage {
+  userId String
+  period String
+  count  Int    @default(0)
+  user   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@id([userId, period])
 }
