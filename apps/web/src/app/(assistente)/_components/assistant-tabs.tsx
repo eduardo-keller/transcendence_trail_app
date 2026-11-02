@@ -5,6 +5,7 @@ import { usePathname } from 'next/navigation';
 
 const TABS = [
 	{ href: '/planejar', label: 'Planejar' },
+	{ href: '/perguntar', label: 'Perguntar' },
 ];
 
 export function AssistantTabs() {

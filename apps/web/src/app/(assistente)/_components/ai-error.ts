@@ -1,12 +1,13 @@
 // Erro do hook do AI SDK (useCompletion/useChat) → texto para a tela.
 // - Falha do provedor: chega dentro do stream (parte "error") já com a mensagem amigável do servidor.
+//   O useCompletion a entrega como AI_UIMessageStreamError; o useChat, como um Error simples.
 // - Erro HTTP antes do stream (400, 404, 429): o corpo é o JSON de ApiError, { error: { message } }.
 // - Sem rede: o fetch falha com TypeError.
 
 const GENERIC = 'Algo deu errado. Tente de novo.';
 
 export function describeAiError(error: Error): string {
-	if (error.name === 'AI_UIMessageStreamError') return error.message || GENERIC;
+	if (error.name === 'AI_UIMessageStreamError' || error.constructor === Error) return error.message || GENERIC;
 	if ('responseBody' in error && typeof error.responseBody === 'string') {
 		try {
 			const message = JSON.parse(error.responseBody)?.error?.message;
