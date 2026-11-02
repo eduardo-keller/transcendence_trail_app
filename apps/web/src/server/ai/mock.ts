@@ -22,14 +22,24 @@ Na trilha
 - Mantenha um ritmo em que dê para conversar e faça pausas curtas a cada hora.
 - Se o tempo fechar ou alguém cansar, volte: a trilha continua lá.`;
 
+// Resposta do "Pergunte sobre as trilhas" (o prompt do RAG traz os trechos entre <trechos>)
+const MOCK_RAG_TEXT = `Modo de teste (LLM_PROVIDER=mock): esta resposta não vem do Gemini.
+
+A busca encontrou trechos da base sobre a sua pergunta: as fontes estão logo abaixo [1]. Com o Gemini ligado, a resposta resumiria esses trechos e citaria cada fonte pelo número.
+- Para emergências na trilha, ligue para o 193 (Bombeiros) ou o 192 (SAMU).`;
+
 // Palavras com o espaço seguinte, para o texto remontado ficar igual ao original
-const PIECES = MOCK_TEXT.match(/\S+\s*/g) ?? [];
+const words = (text: string) => text.match(/\S+\s*/g) ?? [];
+const PIECES = words(MOCK_TEXT);
+const RAG_PIECES = words(MOCK_RAG_TEXT);
 
 export function mockLanguageModel({ chunkDelayInMs = 40 }: { chunkDelayInMs?: number | null } = {}) {
 	return new MockLanguageModelV4({
 		doStream: async ({ prompt }) => {
-			const fails = JSON.stringify(prompt).includes(MOCK_FAILURE_TRIGGER);
-			const pieces = fails ? PIECES.slice(0, 8) : PIECES;
+			const input = JSON.stringify(prompt);
+			const fails = input.includes(MOCK_FAILURE_TRIGGER);
+			const text = input.includes('<trechos>') ? RAG_PIECES : PIECES;
+			const pieces = fails ? text.slice(0, 8) : text;
 			const deltas = pieces.map((delta) => ({ type: 'text-delta' as const, id: 'mock', delta }));
 			const end = fails
 				? [{ type: 'error' as const, error: new Error('mock: provedor fora do ar') }]

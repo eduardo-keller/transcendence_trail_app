@@ -42,3 +42,18 @@ export const planSchema = z.object({
 });
 
 export type PlanInput = z.output<typeof planSchema>;
+
+// ---------- perguntas (RAG) ----------
+
+export const ASK_QUESTION_MIN = 3;
+export const ASK_QUESTION_MAX = 500;
+
+export const askSchema = z.object({
+	question: z
+		.string('Escreva uma pergunta')
+		.trim()
+		.min(ASK_QUESTION_MIN, `Escreva uma pergunta com pelo menos ${ASK_QUESTION_MIN} caracteres`)
+		.max(ASK_QUESTION_MAX, `Use no máximo ${ASK_QUESTION_MAX} caracteres`),
+});
+
+export type AskInput = z.output<typeof askSchema>;
