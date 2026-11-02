@@ -292,3 +292,35 @@ model AiUsage {
 
   @@id([userId, period])
 }
+
+// ---------- RAG ("Pergunte sobre as trilhas") ----------
+
+enum RagSource {
+  TRAIL
+  WIKIPEDIA
+  GUIDE
+}
+
+// Documento do corpus: artigo da Wikipedia, descrição de trilha ou guia. Carregado de
+// prisma/data/rag/index.jsonl por prisma/index-rag.mts; o app só lê. Não guarda nada do usuário.
+model RagDocument {
+  id              String     @id // "wiki:Pico do Jaraguá", "trail:TRL-462114253", "guide:o-que-levar"
+  source          RagSource
+  title           String
+  url             String?
+  license         String? // "CC BY-SA 4.0", "ODbL"
+  trailExternalId String? // liga ao Trail pelo externalId: o id do Trail muda de máquina para máquina
+  chunks          RagChunk[]
+}
+
+// Trecho de ~800 caracteres com o embedding (gemini-embedding-001, 768 dimensões).
+// Busca exata por distância de cosseno, sem índice: em ~2.000 linhas leva poucos ms.
+model RagChunk {
+  id         Int                        @id @default(autoincrement())
+  documentId String
+  document   RagDocument                @relation(fields: [documentId], references: [id], onDelete: Cascade)
+  content    String
+  embedding  Unsupported("vector(768)")
+
+  @@index([documentId])
+}
