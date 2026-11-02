@@ -1,7 +1,7 @@
 # Plano: Interface de LLM (7) e RAG (8) com o Gemini
 
 - **Área / módulo(s):** Edu / 7. Interface de LLM e 8. Sistema RAG ([MODULOS.md](../../MODULOS.md#edu--ia-e-complementos))
-- **Status:** Em execução (etapas 1 e 2 implementadas, em revisão)
+- **Status:** Em execução (etapas 1–3 implementadas, em revisão; módulo 7 completo)
 - **Última atualização:** 2026-11-02
 
 Substitui o rascunho de 2026-10-17, que previa embeddings locais (exigia trocar a imagem Alpine do Gabs por Debian, +744 MB). Com o Gemini, os embeddings vêm da mesma API: nada muda na imagem. A gamificação (módulo 11) fica num plano separado.
@@ -215,7 +215,7 @@ data: {"type":"error","errorText":"O assistente está indisponível agora…"}  
 
 ## 8. Etapas
 
-Uma etapa = uma revisão sua. Branch `feat/ia-planejador` (etapas 1–3, PR 1) e `feat/ia-rag` (4–7, PR 2). **(central)** = parte que o avaliador vai pedir para explicar ou mudar: vale você reescrever sem olhar depois de revisar.
+Uma etapa = uma revisão sua. Todas as etapas na branch `feat/ia-planejador`, sem PR por enquanto (pedido do Edu em 2026-11-02; antes: PR 1 com 1–3 e PR 2 com 4–7). **(central)** = parte que o avaliador vai pedir para explicar ou mudar: vale você reescrever sem olhar depois de revisar.
 
 **Etapa 1. Fundação e chave**
 - *Você antes:* criar a chave em aistudio.google.com e colar em `docker/secrets/gemini_api_key.txt`; anotar em AI Studio → Rate limit os limites de Flash, Flash-Lite e Embedding do seu projeto. ⚠️ Avisar o Gabs (Docker).
@@ -300,3 +300,4 @@ Acesso às telas: pela URL (`/planejar`, `/perguntar`), logado como `alice@examp
 | 2026-11-02 | Interface: só páginas, sem widget flutuante (D9). Memória dentro do chat: pergunta reescrita + resumo móvel + últimas 3 trocas, guardada no navegador; sem memória entre chats (D10). Memória vira a etapa 7 |
 | 2026-11-02 | Plano aprovado. Etapa 1 implementada na branch `feat/ia-planejador`. Smoke com a chave real: streaming ok (1º pedaço em ~1,4 s), parar ok, embeddings com 768 dimensões; similaridade pergunta × trecho certo 0,76, trecho vizinho 0,64, fora do tema 0,50 (primeira pista para o limiar). Chave inválida → HTTP 400, que `friendlyError` trata como "indisponível" (teste unitário). Achado: `npm run lint` já falha no projeto inteiro (o `biome.json` não configura o formatador, e o código usa aspas simples e linhas longas); os arquivos de IA passam nas regras do lint (`biome lint`). Avisar o Gabs. As 5 vulnerabilidades do `npm audit` vêm do Prisma, não do AI SDK |
 | 2026-11-02 | Etapa 2 implementada: migration `AiUsage` (coluna `period`, não `window`), `rate-limit.ts`, `planner.ts`, `POST /api/ai/plan`. A cota é consumida depois de validar a entrada e achar a trilha (400 e 404 não gastam); o rate limit apaga os contadores de dias anteriores. Testes: 24 de IA no Vitest (10 pedidos em paralelo com limite 5 → exatamente 5 passam, provando que o `upsert` é atômico) e `tests/test-ai.sh` pelo nginx, 21/21 (streaming ao longo de ~3,9 s, falha dentro do stream, cancelamento registrado no servidor ao fechar a conexão, 429). Uma chamada real ao Gemini pelo nginx: 16 pedaços entre 1,9 s e 3,8 s, nas seções pedidas, sem markdown; ele se apresentava, e o prompt ganhou "não se apresente". `docker/.env` local passou a `LLM_PROVIDER=mock`. Achados: (1) no Prisma 7 o `make migrate` não roda o `prisma generate`: o cliente só atualiza ao reiniciar o container ou com `generate` manual (avisar o Gabs); (2) o Node do Alpine não tem os dados de idioma pt-BR no `Intl` (`toLocaleString('pt-BR')` sai em inglês no servidor): datas do prompt formatadas à mão; vale avisar o time, porque data formatada no servidor e no navegador de jeitos diferentes causa erro de hidratação |
+| 2026-11-02 | Etapa 3 implementada: `/planejar` com `useCompletion` (Parar, Tentar de novo, erro amigável) e a cota na tela, que desabilita o botão com contagem antes do 429 (`router.refresh()` depois de cada pedido e quando a janela acaba). A lista mostra as 88 trilhas reais (`src/server/ai/trails.ts`, mesmo critério do corpus). `tests/ui/test_ai_planner.py`: 24/24, console limpo. Achado: esta máquina não tem Chrome (o WSL não tem a `libnss3`); os testes de tela rodaram num Chromium 157 em container (`chromedp/headless-shell`), com `localhost:8443` repassado ao nginx. Falta o manual com o Gemini real e Slow 4G (Edu) |

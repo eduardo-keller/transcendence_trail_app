@@ -124,6 +124,7 @@ Excluir um usuário apaga os dados dele em cascata; apagar uma trilha mantém as
 | OAuth | Login pelo GitHub e pela 42 | Diego |
 | Privacidade e dados | Baixar os dados, excluir a conta com confirmação por e-mail, páginas de Privacidade e Termos | Diego, Gabriel |
 | Tema e navegação | Cores, fontes e barra de navegação | Rafael |
+| Planejador de trilha com IA | `/planejar`: escolhe a trilha, a data, a experiência e as horas; o plano chega em streaming, com Parar, limite de uso e erro amigável | Eduardo |
 
 ## Modules
 
@@ -135,7 +136,7 @@ Excluir um usuário apaga os dados dele em cascata; apagar uma trilha mantém as
 | Gerenciamento de usuários | Major | 2 | Toda funcionalidade depende de contas | Perfil, página pública, avatar validado pelo conteúdo | Diego |
 | Interação entre usuários | Major | 2 | Fazer trilha é social | *A fazer.* | Rafael |
 | Tempo real | Major | 2 | Chat e notificações ao vivo | Socket.IO autenticado, sala por usuário; eventos a fazer | Rafael, Gabriel |
-| Interface de LLM | Major | 2 | Planejar uma trilha com ajuda | *A fazer.* | Eduardo |
+| Interface de LLM | Major | 2 | Planejar uma trilha com ajuda | Planejador em `/planejar`: Gemini pelo Vercel AI SDK, streaming (SSE) com Parar, rate limit por usuário no banco, erro do provedor como mensagem amigável | Eduardo |
 | Sistema RAG | Major | 2 | Perguntas sobre as trilhas, com fontes | *A fazer.* | Eduardo |
 | PWA | Minor | 1 | Usar o app na trilha, sem sinal | *A fazer.* | Juh |
 | OAuth 2.0 | Minor | 1 | Entrar com a conta da 42 ou do GitHub | GitHub e 42 pelo Better Auth, com state e PKCE | Diego |

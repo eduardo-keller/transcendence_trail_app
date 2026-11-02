@@ -1,6 +1,6 @@
 # Guia técnico
 
-> Última atualização: 2026-11-02 — chave do Gemini e variáveis do assistente de IA.
+> Última atualização: 2026-11-02 — tela do planejador de IA e link `/planejar?trilha=<id>`.
 > O código vence este documento. Se encontrar divergência, corrija o doc no seu PR ou avise o dono da parte.
 
 ## Como as peças se encaixam
@@ -95,6 +95,7 @@ Regras do banco:
 | Socket.IO no mesmo processo do Next: só conecta quem está logado; cada usuário entra na sala `user:<id>`; `getIO()` (vazio nos testes) para emitir de Server Actions e Route Handlers | Gabs | `apps/web/server.mjs`, `src/server/realtime/io.ts` | Existe | Rafa (notificações, presença, chat) |
 | `notify(userId, …)` (grava a `Notification` e emite `notification` para `user:<id>` via `getIO()?.`) | Rafa | `src/server/realtime/` | A fazer | Toda ação de criar, editar ou excluir |
 | Envio de evento em tempo real para um usuário | Rafa | a definir | A fazer | Notificações, dashboard |
+| Link para o planejador de IA: `/planejar?trilha=<id>` abre com a trilha escolhida (botão "Planejar com IA" na página da trilha) | Edu | `src/app/(assistente)/planejar/` | Existe | Catálogo (página da trilha) |
 | Concessão de XP e emblemas | Edu | a definir | A fazer | Quem tem ação que dá XP (atividades) |
 | Consultas de trilhas e atividades (`searchTrails`, `getTrail`, `listActivities`, `getActivityStats`) | Gabs | `src/server/trails/service.ts`, `src/server/activities/service.ts` | Existe | RAG, gamificação, dashboard, exportação |
 | `exportUserData(userId)`: todos os dados pessoais em JSON (perfil, avatar em base64, trilhas, atividades…), sem segredos | Gabs | `src/server/gdpr/export.ts` | Existe | GDPR (Di), exportação |

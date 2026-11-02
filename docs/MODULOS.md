@@ -180,14 +180,14 @@ Também com o Rafa: entregar cedo o `notify()`, que todo mundo chama. O WebSocke
 ## Edu — IA e complementos
 
 ### 7. Interface de LLM (Major)
-- [ ] 📜 Gerar texto e/ou imagens a partir da entrada do usuário
-- [ ] 📜 Tratar respostas em streaming
-- [ ] 📜 Tratamento de erros e rate limiting
-- [ ] Botão de parar; erro do provedor vira mensagem amigável sem quebrar a página; 429 com aviso na tela
+- [x] 📜 Gerar texto e/ou imagens a partir da entrada do usuário
+- [x] 📜 Tratar respostas em streaming
+- [x] 📜 Tratamento de erros e rate limiting
+- [x] Botão de parar; erro do provedor vira mensagem amigável sem quebrar a página; 429 com aviso na tela
 
 **Como:** **planejador de trilha**: o usuário escolhe a trilha, a data, a experiência do grupo e o tempo disponível; o LLM gera o plano (horários, ritmo, equipamentos, alertas) em streaming.
 **Demonstrar:** gerar um plano, parar no meio, estourar o rate limit, simular o provedor fora do ar.
-**Já existe:** o servidor. `POST /api/ai/plan` gera o plano em streaming com o Gemini (ou com o modelo falso, `LLM_PROVIDER=mock`), com rate limit por usuário no banco (`AiUsage`) e erro do provedor como mensagem amigável dentro do stream ([tests/test-ai.sh](../tests/test-ai.sh), `tests/integration/ai-plan.test.ts`). Falta a tela `/planejar`; as caixas são marcadas com ela.
+**Já existe:** tudo. Tela `/planejar` e `POST /api/ai/plan`, com o Gemini (ou o modelo falso, `LLM_PROVIDER=mock`). A tela desabilita o botão com contagem antes do 429. Para simular o provedor fora do ar com o mock, escreva `[falha]` nas observações. Testes: `tests/integration/ai-plan.test.ts`, [tests/test-ai.sh](../tests/test-ai.sh) e [tests/ui/test_ai_planner.py](../tests/ui/test_ai_planner.py).
 
 ### 8. Sistema RAG (Major)
 - [ ] 📜 Interagir com um grande conjunto de dados
