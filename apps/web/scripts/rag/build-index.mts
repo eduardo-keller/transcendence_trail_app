@@ -24,10 +24,12 @@ export const CHUNK_OVERLAP = 150;
 // Documento até 1,5 × o tamanho fica inteiro (uma trilha, um artigo curto): cortar só atrapalharia
 const SINGLE_CHUNK_MAX = CHUNK_SIZE * 1.5;
 
-// O Google aceita até 100 textos por pedido de lote. Entre lotes, uma pausa; num 429 (limite por minuto da
-// camada gratuita), espera um minuto e tenta o mesmo lote de novo
-const BATCH_SIZE = 100;
-const PAUSE_MS = 3000;
+// Na camada gratuita, cada texto do lote conta como um pedido: há limite por minuto (pedidos e tokens; um
+// lote de 100 trechos longos passa do de tokens sozinho) e 1.000 pedidos por dia por projeto, o que dá
+// ~3 dias para o corpus inteiro (ou uma chave de outro projeto por dia, ou a camada paga). Lotes de 50
+// com pausa de 35 s ficam abaixo do limite por minuto; num 429 por minuto, espera e tenta o mesmo lote
+const BATCH_SIZE = 50;
+const PAUSE_MS = 35_000;
 const RATE_LIMIT_WAIT_MS = 65_000;
 const MAX_RATE_LIMIT_WAITS = 10;
 
@@ -251,6 +253,14 @@ async function main() {
 				break;
 			} catch (error) {
 				const cause = RetryError.isInstance(error) ? error.lastError : error;
+				// Cota do dia: esperar não adianta (volta à meia-noite do Pacífico)
+				if (APICallError.isInstance(cause) && cause.statusCode === 429 && /per day/i.test(cause.message)) {
+					const saved = writeIndex(documents, known);
+					const retry = cause.message.match(/retry in ([\dhm.]+)s?/i)?.[1];
+					console.error(`A cota diária de embeddings acabou${retry ? ` (volta em ${retry.replace(/\.\d+$/, '')}s)` : ''}.`);
+					console.error(`${saved} documentos completos salvos. Rode de novo depois, ou com a chave de outro projeto.`);
+					process.exit(2);
+				}
 				if (APICallError.isInstance(cause) && cause.statusCode === 429 && waits < MAX_RATE_LIMIT_WAITS) {
 					console.log(`  429 (limite do Google): esperando ${RATE_LIMIT_WAIT_MS / 1000} s…`);
 					await new Promise((resolve) => setTimeout(resolve, RATE_LIMIT_WAIT_MS));
