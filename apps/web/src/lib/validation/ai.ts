@@ -47,6 +47,15 @@ export type PlanInput = z.output<typeof planSchema>;
 
 export const ASK_QUESTION_MIN = 3;
 export const ASK_QUESTION_MAX = 500;
+// Memória do chat: o navegador manda só o resumo e as últimas trocas, nunca o histórico inteiro
+export const MEMORY_RECENT_MAX = 3;
+export const MEMORY_SUMMARY_MAX = 1000;
+export const ASK_ANSWER_MAX = 2000;
+
+const exchangeSchema = z.object({
+	question: z.string().max(ASK_QUESTION_MAX),
+	answer: z.string().max(ASK_ANSWER_MAX),
+});
 
 export const askSchema = z.object({
 	question: z
@@ -54,6 +63,9 @@ export const askSchema = z.object({
 		.trim()
 		.min(ASK_QUESTION_MIN, `Escreva uma pergunta com pelo menos ${ASK_QUESTION_MIN} caracteres`)
 		.max(ASK_QUESTION_MAX, `Use no máximo ${ASK_QUESTION_MAX} caracteres`),
+	recent: z.array(exchangeSchema).max(MEMORY_RECENT_MAX, `No máximo ${MEMORY_RECENT_MAX} trocas`).default([]),
+	summary: z.string().max(MEMORY_SUMMARY_MAX, `Resumo com no máximo ${MEMORY_SUMMARY_MAX} caracteres`).optional(),
 });
 
 export type AskInput = z.output<typeof askSchema>;
+export type AskExchange = z.output<typeof exchangeSchema>;

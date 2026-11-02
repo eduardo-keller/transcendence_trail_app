@@ -33,8 +33,39 @@ const words = (text: string) => text.match(/\S+\s*/g) ?? [];
 const PIECES = words(MOCK_TEXT);
 const RAG_PIECES = words(MOCK_RAG_TEXT);
 
+// Memória do chat (rag/memory.ts, saída em JSON): sem modelo de verdade, a pergunta reescrita é a nova
+// "sobre" a anterior, e o resumo lista as perguntas da conversa. Dá para ver o fluxo e testar a busca.
+function mockMemory(prompt: string) {
+	const field = (tag: string) => prompt.match(new RegExp(`<${tag}>\\n([\\s\\S]*?)\\n</${tag}>`))?.[1]?.trim() ?? '';
+	const asked = [...prompt.matchAll(/Pergunta: (.*?)\nResposta:/g)].map((match) => match[1].trim());
+	const question = field('pergunta_nova');
+	const previous = asked.at(-1);
+	return {
+		question: previous ? `${question} (sobre: ${previous})` : question,
+		summary: `Modo de teste: a conversa falou de: ${[...asked, question].join('; ')}`.slice(0, 1000),
+	};
+}
+
+const MOCK_USAGE = {
+	inputTokens: { total: 0, noCache: 0, cacheRead: undefined, cacheWrite: undefined },
+	outputTokens: { total: 0, text: 0, reasoning: undefined },
+};
+
 export function mockLanguageModel({ chunkDelayInMs = 40 }: { chunkDelayInMs?: number | null } = {}) {
 	return new MockLanguageModelV4({
+		doGenerate: async ({ prompt }) => {
+			const input = prompt
+				.flatMap((message) => (message.role === 'user' ? message.content : []))
+				.flatMap((part) => (part.type === 'text' ? [part.text] : []))
+				.join('\n');
+			if (input.includes(MOCK_FAILURE_TRIGGER)) throw new Error('mock: provedor fora do ar');
+			return {
+				content: [{ type: 'text', text: JSON.stringify(mockMemory(input)) }],
+				finishReason: { unified: 'stop', raw: undefined },
+				usage: MOCK_USAGE,
+				warnings: [],
+			};
+		},
 		doStream: async ({ prompt }) => {
 			const input = JSON.stringify(prompt);
 			const fails = input.includes(MOCK_FAILURE_TRIGGER);
