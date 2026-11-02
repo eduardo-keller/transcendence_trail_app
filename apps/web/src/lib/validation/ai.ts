@@ -21,6 +21,13 @@ function isPlannable(date: string) {
 	return date >= isoDay(now - DAY_MS) && date <= isoDay(now + PLAN_DAYS_AHEAD * DAY_MS);
 }
 
+// Limites do campo de data na tela. São Paulo fica em UTC−3 o ano todo (sem horário de verão desde 2019).
+// A página calcula no servidor e passa ao formulário: calcular nos dois lados daria erro de hidratação.
+export function planDateRange(now = Date.now()) {
+	const today = isoDay(now - 3 * 60 * 60 * 1000);
+	return { today, last: isoDay(Date.parse(today) + PLAN_DAYS_AHEAD * DAY_MS) };
+}
+
 export const planSchema = z.object({
 	trailId: z.string('Escolha uma trilha').min(1, 'Escolha uma trilha').max(64),
 	date: z.iso.date('Informe uma data válida').refine(isPlannable, 'Escolha uma data entre hoje e daqui a um ano'),

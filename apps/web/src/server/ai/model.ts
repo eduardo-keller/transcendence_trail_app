@@ -14,7 +14,7 @@ export const DEFAULT_LLM_MODEL = 'gemini-3.5-flash-lite';
 export const EMBEDDING_MODEL = 'gemini-embedding-001';
 export const EMBEDDING_DIMENSIONS = 768;
 
-const isMockProvider = () => process.env.LLM_PROVIDER === 'mock';
+export const isMockProvider = () => process.env.LLM_PROVIDER === 'mock';
 
 // Lida a cada chamada: trocar o arquivo do secret vale na hora, sem reiniciar o app.
 // Sem chave, o erro acontece dentro do stream e vira mensagem amigável (errors.ts).
