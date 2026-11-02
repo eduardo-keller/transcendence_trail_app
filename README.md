@@ -90,6 +90,7 @@ erDiagram
   User ||--o{ Notification : "recebe"
   User ||--o{ UserBadge : "conquista"
   Badge ||--o{ UserBadge : "concedido"
+  User ||--o{ AiUsage : "consome"
 ```
 
 | Tabela | Campos principais (tipo) |
@@ -104,6 +105,7 @@ erDiagram
 | `Activity` | `title` (String), `distance` (Float, m), `duration` (Int, s), `startedAt` (DateTime), `userId` (FK), `trailId` (FK?) |
 | `Notification` | `message` (String), `isRead` (Boolean), `userId` (FK) |
 | `Badge` / `UserBadge` | `name` (String, único) / `earnedAt` (DateTime), par `userId`+`badgeId` único |
+| `AiUsage` | Rate limit do assistente de IA: `userId` (FK) + `period` (String: o minuto ou o dia, em UTC) como chave, `count` (Int). Não guarda o que foi perguntado |
 | `Community`, `CommunityMember`, `Event`, `EventParticipant`, `Post` | Comunidades, eventos e posts (adiados); `role` (enum) do membro; pares únicos por usuário |
 
 Excluir um usuário apaga os dados dele em cascata; apagar uma trilha mantém as atividades, com `trailId` nulo.

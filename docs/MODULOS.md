@@ -187,6 +187,7 @@ Também com o Rafa: entregar cedo o `notify()`, que todo mundo chama. O WebSocke
 
 **Como:** **planejador de trilha**: o usuário escolhe a trilha, a data, a experiência do grupo e o tempo disponível; o LLM gera o plano (horários, ritmo, equipamentos, alertas) em streaming.
 **Demonstrar:** gerar um plano, parar no meio, estourar o rate limit, simular o provedor fora do ar.
+**Já existe:** o servidor. `POST /api/ai/plan` gera o plano em streaming com o Gemini (ou com o modelo falso, `LLM_PROVIDER=mock`), com rate limit por usuário no banco (`AiUsage`) e erro do provedor como mensagem amigável dentro do stream ([tests/test-ai.sh](../tests/test-ai.sh), `tests/integration/ai-plan.test.ts`). Falta a tela `/planejar`; as caixas são marcadas com ela.
 
 ### 8. Sistema RAG (Major)
 - [ ] 📜 Interagir com um grande conjunto de dados
