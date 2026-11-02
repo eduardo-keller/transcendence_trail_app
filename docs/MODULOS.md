@@ -191,13 +191,14 @@ Também com o Rafa: entregar cedo o `notify()`, que todo mundo chama. O WebSocke
 
 ### 8. Sistema RAG (Major)
 - [ ] 📜 Interagir com um grande conjunto de dados
-- [ ] 📜 O usuário faz perguntas e recebe respostas relevantes
-- [ ] 📜 Recuperação de contexto e geração da resposta
-- [ ] Resposta cita as fontes; diz "não encontrei" quando o contexto não cobre a pergunta
+- [x] 📜 O usuário faz perguntas e recebe respostas relevantes
+- [x] 📜 Recuperação de contexto e geração da resposta
+- [x] Resposta cita as fontes; diz "não encontrei" quando o contexto não cobre a pergunta
 - [ ] Corpus com tamanho visível na tela (meta: 2.000 trechos ou mais)
 
 **Como:** "Pergunte sobre as trilhas". O corpus reúne as trilhas do catálogo, artigos da Wikipedia sobre parques e picos e guias de segurança escritos pelo time. Embeddings no pgvector (já instalado no banco). Tela e endpoint **separados** do planejador: são dois módulos.
-**Depende de:** catálogo de trilhas (dados com qualidade).
+**Não depende do catálogo:** o corpus aplica o próprio filtro (as 88 trilhas reais).
+**Já existe:** tela `/perguntar` e `POST /api/ai/ask`, com fontes numeradas (link, licença, relevância) e "não encontrei" sem chamar o modelo. Corpus pronto em `apps/web/prisma/data/rag/` (206 documentos, 2.212 trechos). **Falta:** completar o índice: hoje tem 928 trechos, porque a camada gratuita do Gemini calcula 1.000 embeddings por dia; e o teste da busca com 20 perguntas (`scripts/rag/eval.mts`). Testes: `tests/integration/ai-ask.test.ts`, `ai-retrieve.test.ts`, [tests/test-ai.sh](../tests/test-ai.sh) e [tests/ui/test_ai_ask.py](../tests/ui/test_ai_ask.py).
 
 ### 11. Sistema de gamificação (Minor)
 - [ ] 📜 Pelo menos 3 de: conquistas, emblemas, ranking, XP/nível, desafios diários, recompensas → **XP e nível, emblemas e ranking**

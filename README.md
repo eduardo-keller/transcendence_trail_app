@@ -91,6 +91,7 @@ erDiagram
   User ||--o{ UserBadge : "conquista"
   Badge ||--o{ UserBadge : "concedido"
   User ||--o{ AiUsage : "consome"
+  RagDocument ||--o{ RagChunk : "dividido em"
 ```
 
 | Tabela | Campos principais (tipo) |
@@ -106,6 +107,7 @@ erDiagram
 | `Notification` | `message` (String), `isRead` (Boolean), `userId` (FK) |
 | `Badge` / `UserBadge` | `name` (String, único) / `earnedAt` (DateTime), par `userId`+`badgeId` único |
 | `AiUsage` | Rate limit do assistente de IA: `userId` (FK) + `period` (String: o minuto ou o dia, em UTC) como chave, `count` (Int). Não guarda o que foi perguntado |
+| `RagDocument` / `RagChunk` | Base do assistente: documento (`source`: Wikipedia, trilha ou guia; `title`, `url`, `license`, `trailExternalId`) / trecho (`content`, `embedding` vector(768)). Carregada de um arquivo versionado; não guarda nada do usuário |
 | `Community`, `CommunityMember`, `Event`, `EventParticipant`, `Post` | Comunidades, eventos e posts (adiados); `role` (enum) do membro; pares únicos por usuário |
 
 Excluir um usuário apaga os dados dele em cascata; apagar uma trilha mantém as atividades, com `trailId` nulo.
@@ -124,6 +126,7 @@ Excluir um usuário apaga os dados dele em cascata; apagar uma trilha mantém as
 | OAuth | Login pelo GitHub e pela 42 | Diego |
 | Privacidade e dados | Baixar os dados, excluir a conta com confirmação por e-mail, páginas de Privacidade e Termos | Diego, Gabriel |
 | Tema e navegação | Cores, fontes e barra de navegação | Rafael |
+| Pergunte sobre as trilhas (IA) | `/perguntar`: perguntas respondidas a partir de uma base própria (Wikipedia, trilhas do OSM, guias), com as fontes de cada resposta | Eduardo |
 | Planejador de trilha com IA | `/planejar`: escolhe a trilha, a data, a experiência e as horas; o plano chega em streaming, com Parar, limite de uso e erro amigável | Eduardo |
 
 ## Modules
@@ -137,7 +140,7 @@ Excluir um usuário apaga os dados dele em cascata; apagar uma trilha mantém as
 | Interação entre usuários | Major | 2 | Fazer trilha é social | *A fazer.* | Rafael |
 | Tempo real | Major | 2 | Chat e notificações ao vivo | Socket.IO autenticado, sala por usuário; eventos a fazer | Rafael, Gabriel |
 | Interface de LLM | Major | 2 | Planejar uma trilha com ajuda | Planejador em `/planejar`: Gemini pelo Vercel AI SDK, streaming (SSE) com Parar, rate limit por usuário no banco, erro do provedor como mensagem amigável | Eduardo |
-| Sistema RAG | Major | 2 | Perguntas sobre as trilhas, com fontes | *A fazer.* | Eduardo |
+| Sistema RAG | Major | 2 | Perguntas sobre as trilhas, com fontes | `/perguntar`: embeddings do Gemini no pgvector, busca por distância de cosseno com limiar ("não encontrei"), resposta em streaming citando as fontes; índice versionado, carregado sem chamar a API | Eduardo |
 | PWA | Minor | 1 | Usar o app na trilha, sem sinal | *A fazer.* | Juh |
 | OAuth 2.0 | Minor | 1 | Entrar com a conta da 42 ou do GitHub | GitHub e 42 pelo Better Auth, com state e PKCE | Diego |
 | Gamificação | Minor | 1 | Incentivar a registrar atividades | *A fazer.* | Eduardo |
@@ -167,3 +170,5 @@ Excluir um usuário apaga os dados dele em cascata; apagar uma trilha mantém as
 ## Licença dos dados
 
 Dados de mapa e trilhas © [OpenStreetMap contributors](https://www.openstreetmap.org/copyright), sob a licença ODbL. O catálogo derivado incluído neste repositório (`apps/web/prisma/data/`) também está sob ODbL.
+
+Os artigos da Wikipedia usados pelo assistente (`apps/web/prisma/data/rag/wikipedia.json`) estão sob [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/); cada resposta cita o título e o link do artigo.

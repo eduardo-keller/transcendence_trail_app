@@ -1,6 +1,6 @@
 # Decisões
 
-> Última atualização: 2026-11-02 — provedor de IA (Gemini pelo Vercel AI SDK).
+> Última atualização: 2026-11-02 — provedor de IA e base do RAG.
 
 Uma linha por decisão. A coluna "Por quê" alimenta a seção *Technical Stack* do README, que pede a justificativa das escolhas.
 Decidiu algo que afeta outra pessoa? Acrescente uma linha no mesmo PR. Se precisar de mais espaço, crie um arquivo nesta pasta e ponha o link.
@@ -30,6 +30,8 @@ Decidiu algo que afeta outra pessoa? Acrescente uma linha no mesmo PR. Se precis
 | **Exclusão da conta em 2 passos**: senha, depois link por e-mail que abre uma página com botão | O link é de uso único e só vale logado na conta; abrir o link (GET) nunca apaga nada |
 | **Excluir a conta apaga tudo do usuário em cascata** | Comunidades e eventos estão adiados; se voltarem, o evento passa a ficar sem organizador (`SetNull`) em vez de sumir para todos |
 | **IA com o Google Gemini pelo Vercel AI SDK 7**: geração e embeddings na mesma API; `LLM_PROVIDER=mock` para desenvolver e testar | Camada gratuita; embeddings pela API, sem trocar a imagem Alpine; o SDK entrega o streaming até o navegador, o botão de parar e o mock. Busca, prompts e rate limit ficam no nosso código. Ver [llm.md](llm.md) |
+| **Base do RAG: Wikipedia + descrições das trilhas geradas só com os dados do OSM + guias do time.** Nenhuma trilha inventada; o `Trail.description` não muda | Informação falsa sobre lugar real é problema de segurança. A riqueza vem dos artigos sobre os parques |
+| **Embeddings calculados uma vez e versionados** (`prisma/data/rag/index.jsonl`); o container só carrega o arquivo | A avaliação não depende da API nem gasta cota para montar o índice |
 
 ## Propostas (aceitar ou trocar)
 

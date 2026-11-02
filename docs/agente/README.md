@@ -44,6 +44,8 @@ flowchart LR
 - [ ] Papéis PO, PM e Tech Lead.
 - [ ] Decisões pendentes em [decisoes/](../decisoes/README.md): WebSocket, certificado × PWA, e-mail, LLM.
 - [ ] Primeiro commit da Juh.
+- [ ] **Gabs (IA):** revisar os commits marcados ⚠️ do [plano de IA](planos/ia-llm-rag.md#7-impacto-em-outras-pessoas) (secret e variáveis no compose, `AiUsage`, `RagDocument`/`RagChunk`, linha do `index-rag` no entrypoint, `make index-rag`). Achados para ele: no Prisma 7 o `make migrate` não roda o `generate` (o dev server só vê a tabela nova depois de reiniciar o container); `npm run lint` falha no projeto inteiro (o `biome.json` não configura o formatador).
+- [ ] **Di (IA):** a Privacidade diz "não usamos os seus dados para treinar modelos de IA", mas na camada gratuita o Google usa o conteúdo enviado ao Gemini; e lista "as perguntas que você faz e as respostas geradas" como dados coletados, mas nada da conversa é guardado. Pedir para ela ajustar (nomear o Google Gemini).
 - [ ] `.gitignore` ainda lista caminhos do plano antigo (`services/trails/…`, `services/ai/…`, `infra/nginx/certs/`): limpar quando o Gabs mexer no nginx.
 
 ## Rotina semanal (cerca de 15 min)

@@ -19,6 +19,7 @@
 | Dev e testes | `LLM_PROVIDER=mock`: texto fixo em streaming, sem chave e sem cota | Desenvolver e testar sem gastar |
 | Vetores | No banco principal (pgvector), consultados com `$queryRaw` | Sem outro banco |
 | Rate limit | Por usuário (por minuto e por dia), no app | Protege a cota gratuita |
+| Índice do RAG | Embeddings do corpus calculados uma vez e versionados; o container só carrega o arquivo | A cota gratuita de embeddings é de 1.000 por dia por projeto: o índice inteiro (~2.200 trechos) leva 3 dias ou chaves de projetos diferentes |
 
 O código fica em `apps/web/src/server/ai/`; `model.ts` é o único arquivo que conhece o provedor.
 

@@ -1,6 +1,6 @@
 # Guia técnico
 
-> Última atualização: 2026-11-02 — tela do planejador de IA e link `/planejar?trilha=<id>`.
+> Última atualização: 2026-11-02 — índice do RAG (`make index-rag`) e comandos do corpus.
 > O código vence este documento. Se encontrar divergência, corrija o doc no seu PR ou avise o dono da parte.
 
 ## Como as peças se encaixam
@@ -49,7 +49,8 @@ Pré-requisitos e primeira execução: [README](../README.md#instructions). `mak
 - **Usuários de teste:** `docker compose -f docker/docker-compose.yml exec nextjs node scripts/seed-users.mts` cria `alice`, `bruno`, `carla`, `diego` e `eva` (`@example.com`), senha `trilhas-dev-123`.
 - **E-mails:** todos vão para o Mailpit, em https://localhost:8443/mailpit/ (nenhum sai para a internet). Com o Mailpit fora do ar, o app continua no ar (só `/mailpit/` dá 502), mas o e-mail se perde: o erro aparece em `make logs`, e o pedido de exclusão de conta demora uns 10 s e diz que mandou o link mesmo assim (o Better Auth envia em segundo plano).
 - **OAuth:** o `make` cria vazios `docker/secrets/github_client_id.txt`, `github_client_secret.txt`, `ft_client_id.txt` e `ft_client_secret.txt`. Vazio = provedor desligado (sem botão). Para ligar, cole as credenciais e rode `make`. URL de retorno a registrar: `https://localhost:8443/api/auth/callback/github` (ou `/42`).
-- **Assistente de IA:** o `make` cria vazio `docker/secrets/gemini_api_key.txt`. Vazio = assistente desligado (o resto funciona). Com a chave (aistudio.google.com), confira com `docker compose -f docker/docker-compose.yml exec nextjs node scripts/ai-smoke.mts`. Para programar sem gastar cota, use `LLM_PROVIDER=mock` no `docker/.env` e rode `make dev`; é assim que roda o teste de ponta a ponta do planejador, `bash tests/test-ai.sh`.
+- **Assistente de IA:** o `make` cria vazio `docker/secrets/gemini_api_key.txt`. Vazio = assistente desligado (o resto funciona). Com a chave (aistudio.google.com), confira com `docker compose -f docker/docker-compose.yml exec nextjs node scripts/ai-smoke.mts`. Para programar sem gastar cota, use `LLM_PROVIDER=mock` no `docker/.env` e rode `make dev`; é assim que roda o teste de ponta a ponta do assistente, `bash tests/test-ai.sh`.
+- **Base do RAG:** o índice (`apps/web/prisma/data/rag/index.jsonl`, com os embeddings) é carregado no start quando o banco está vazio, sem chamar a API; `make index-rag` recarrega. Mudou o corpus (`prisma/data/rag/`)? Recalcule com `docker compose -f docker/docker-compose.yml exec nextjs node scripts/rag/build-index.mts` (gasta cota só com os trechos novos), rode `make index-rag` e commite o `index.jsonl`. A busca é avaliada com `... exec nextjs node scripts/rag/eval.mts`.
 
 **Alterar o schema:** com `make dev` de pé, edite `apps/web/prisma/schema.prisma`, rode `make migrate name=<descricao>` e faça commit do schema junto com a pasta da migration. Quem baixar a mudança só precisa de `make`. Antes de commitar, `git status` não pode listar nada de `docker/secrets/`, `docker/.env` ou `data/postgres/`.
 
