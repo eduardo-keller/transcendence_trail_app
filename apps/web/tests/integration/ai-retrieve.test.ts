@@ -18,13 +18,13 @@ beforeEach(async () => {
 	await resetDatabase();
 	await clearRag();
 	questionVector = vector({ 0: 1 });
-	// Similaridade com a pergunta (eixo 0): 1, 0,8, 0,6 e 0
+	// Similaridade com a pergunta (eixo 0): 1, 0,8, 0,5 e 0 (longe do limiar: o pgvector guarda float4)
 	await addRagDocument({ id: 'wiki:Pico do Jaraguá', source: 'WIKIPEDIA', title: 'Pico do Jaraguá', url: 'https://pt.wikipedia.org/wiki/Pico_do_Jaragu%C3%A1', license: 'CC BY-SA 4.0' }, [
 		{ content: 'Pico do Jaraguá\n\nO ponto mais alto da cidade de São Paulo.', embedding: vector({ 0: 1 }) },
 		{ content: 'Pico do Jaraguá\n\nA Trilha do Pai Zé sobe até o topo.', embedding: vector({ 0: 0.8, 1: 0.6 }) },
 	]);
 	await addRagDocument({ id: 'trail:TRL-1', source: 'TRAIL', title: 'Trilha do Pai Zé', trailExternalId: 'TRL-1', license: 'ODbL' }, [
-		{ content: 'Trilha do Pai Zé\n\nSobe 245 m até o pico.', embedding: vector({ 0: 0.6, 1: 0.8 }) },
+		{ content: 'Trilha do Pai Zé\n\nSobe 245 m até o pico.', embedding: vector({ 0: 0.5, 1: 0.866 }) },
 	]);
 	await addRagDocument({ id: 'guide:o-que-levar', source: 'GUIDE', title: 'O que levar numa trilha' }, [
 		{ content: 'O que levar numa trilha\n\nÁgua, lanche e capa de chuva.', embedding: vector({ 1: 1 }) },
@@ -42,7 +42,7 @@ describe('searchChunks', () => {
 		expect(hits.map((hit) => [hit.documentId, Number(hit.score.toFixed(2))])).toEqual([
 			['wiki:Pico do Jaraguá', 1],
 			['wiki:Pico do Jaraguá', 0.8],
-			['trail:TRL-1', 0.6],
+			['trail:TRL-1', 0.5],
 			['guide:o-que-levar', 0],
 		]);
 		expect((await searchChunks(vector({ 0: 1 }), 2)).length).toBe(2);
@@ -58,7 +58,7 @@ describe('searchChunks', () => {
 describe('retrieve', () => {
 	it(`só os trechos com score ≥ ${RAG_MIN_SCORE}; fontes numeradas por documento`, async () => {
 		const { numbered, sources } = await retrieve('Qual o ponto mais alto de São Paulo?');
-		// 1 e 0,8 passam; 0,6 (abaixo do limiar) e 0 ficam de fora
+		// 1 e 0,8 passam; 0,5 e 0 (abaixo do limiar) ficam de fora
 		expect(numbered.map((hit) => hit.n)).toEqual([1, 1]);
 		expect(sources).toEqual([
 			expect.objectContaining({ n: 1, title: 'Pico do Jaraguá', license: 'CC BY-SA 4.0', score: 1 }),
@@ -73,7 +73,7 @@ describe('retrieve', () => {
 	});
 
 	it('limiar e k ajustáveis', async () => {
-		const { sources } = await retrieve('pico', { minScore: 0.5, k: 3 });
+		const { sources } = await retrieve('pico', { minScore: 0.4, k: 3 });
 		expect(sources.map((source) => [source.n, source.title])).toEqual([
 			[1, 'Pico do Jaraguá'],
 			[2, 'Trilha do Pai Zé'],

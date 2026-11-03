@@ -8,8 +8,10 @@ import { EMBEDDING_DIMENSIONS, embeddingModel } from '../model';
 // Quantos trechos vão para o prompt
 export const RAG_TOP_K = 5;
 // Similaridade de cosseno mínima de um trecho para ele entrar na resposta. Se nenhum passar, a resposta é
-// "não encontrei", sem chamar o modelo. Escolhido com scripts/rag/eval.mts (ver o comentário lá).
-export const RAG_MIN_SCORE = 0.62;
+// "não encontrei", sem chamar o modelo. Escolhido com scripts/rag/eval.mts (2026-11-02, índice com 928
+// trechos): o 1º trecho das perguntas do tema teve no mínimo 0,628; o das perguntas fora do tema
+// (capital da França, bolo, dólar…), no máximo 0,572. 0,60 fica no meio. Refazer o eval com o índice completo.
+export const RAG_MIN_SCORE = 0.6;
 
 export type RagHit = {
 	chunkId: number;
