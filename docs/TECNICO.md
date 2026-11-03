@@ -20,7 +20,8 @@ apps/web/                     Next.js (npm, package-lock próprio)
   src/lib/                    auth.ts, auth-client.ts, db.ts
   src/server/api/             helpers de API: erros, validação, paginação (Gabs)
   src/server/<área>/          lógica de cada área (sugestão: auth, social, trails, ai, gamification)
-  prisma/                     schema.prisma, migrations/, import-trails.mts, data/
+  prisma/                     schema.prisma, migrations/, import-trails.mts, index-rag.mts, data/ (data/rag/: corpus e índice do RAG)
+  scripts/rag/                corpus do RAG: baixar a Wikipedia, descrever as trilhas, montar e avaliar o índice
   scripts/                    scripts de teste e utilitários
 docker/                       compose, Dockerfiles, .env.example, secrets/, nginx/ (conf e certs/)
 docs/                         esta documentação

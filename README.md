@@ -38,6 +38,7 @@ Para parar: `make down`. Para apagar tudo, inclusive o banco: `make fclean`.
 - [PostgreSQL: isolamento de transações](https://www.postgresql.org/docs/current/transaction-iso.html), [TOTP (RFC 6238)](https://datatracker.ietf.org/doc/html/rfc6238), [OAuth com PKCE (RFC 7636)](https://datatracker.ietf.org/doc/html/rfc7636)
 
 **Uso de IA:** *(a completar)*
+- No corpus do assistente: as descrições das 88 trilhas foram geradas pelo Google Gemini só com os dados do OpenStreetMap (distância, desnível, piso, região), e os guias gerais foram rascunhados com IA, para revisão do time.
 
 ## Team Information
 

@@ -1,7 +1,7 @@
 # Plano: Interface de LLM (7) e RAG (8) com o Gemini
 
 - **Área / módulo(s):** Edu / 7. Interface de LLM e 8. Sistema RAG ([MODULOS.md](../../MODULOS.md#edu--ia-e-complementos))
-- **Status:** Em execução (etapas 1–7 implementadas, em revisão; módulo 7 completo; índice do RAG incompleto por causa da cota)
+- **Status:** Etapas 1–8 implementadas, em revisão. Módulo 7 completo; módulo 8 completo no código, com o índice em 928 de 2.212 trechos (cota diária de embeddings)
 - **Última atualização:** 2026-11-02
 
 Substitui o rascunho de 2026-10-17, que previa embeddings locais (exigia trocar a imagem Alpine do Gabs por Debian, +744 MB). Com o Gemini, os embeddings vêm da mesma API: nada muda na imagem. A gamificação (módulo 11) fica num plano separado.
@@ -87,20 +87,20 @@ Trechos de ~800 caracteres, cortados em parágrafo, com ~150 de sobreposição; 
 ## 5. Critérios de aceite
 
 As caixas dos módulos 7 e 8 em [MODULOS.md](../../MODULOS.md#edu--ia-e-complementos), mais:
-- [ ] Texto aparece aos poucos (visível com Network → Slow 4G)
-- [ ] Parar cancela também a geração no Gemini (log no servidor)
-- [ ] Rate limit por usuário (por minuto e por dia): o servidor responde 429 com `retryAfter`; a tela desabilita o botão com contagem **antes** de chegar ao 429
-- [ ] Provedor fora do ar (chave inválida, cota do Google esgotada, timeout) → mensagem amigável, página intacta
-- [ ] "Não encontrei" sem gerar resposta quando o melhor trecho fica abaixo do limiar
-- [ ] Seguimento funciona: "tem trilha com cachoeira?" → "e ela é difícil?" responde sobre a mesma trilha
-- [ ] Memória limitada: o servidor recebe só a pergunta, as últimas 3 trocas e o resumo (≤ 1.000 caracteres), nunca o histórico inteiro
-- [ ] "Nova conversa" e recarregar a página esquecem a conversa; nada da conversa fica no banco
-- [ ] Fontes com título, link e licença; resposta cita [1], [2]
-- [ ] Busca avaliada: 20 perguntas de teste, documento certo entre os 5 primeiros em ≥ 80%
-- [ ] Sem login → 401; entrada inválida → 400 (zod no front e no back)
-- [ ] Clone limpo → `make` → índice carregado sem chamar a API
-- [ ] Console limpo em **todos** os estados (gerando, parado, limite, erro do provedor), inclusive sem avisos do AI SDK
-- [ ] Nada na lista de notificações (nada é criado, editado ou excluído)
+- [x] Texto aparece aos poucos (testes de tela e `test-ai.sh`; falta ver com Slow 4G, manual)
+- [x] Parar cancela também a geração no Gemini (log no servidor)
+- [x] Rate limit por usuário (por minuto e por dia): o servidor responde 429 com `retryAfter`; a tela desabilita o botão com contagem **antes** de chegar ao 429
+- [x] Provedor fora do ar (chave inválida, cota do Google esgotada, timeout) → mensagem amigável, página intacta
+- [x] "Não encontrei" sem gerar resposta quando o melhor trecho fica abaixo do limiar
+- [ ] Seguimento funciona: "tem trilha com cachoeira?" → "e ela é difícil?" responde sobre a mesma trilha (o fluxo passa nos testes com o mock; falta a conversa manual com o Gemini)
+- [x] Memória limitada: o servidor recebe só a pergunta, as últimas 3 trocas e o resumo (≤ 1.000 caracteres), nunca o histórico inteiro
+- [x] "Nova conversa" e recarregar a página esquecem a conversa; nada da conversa fica no banco
+- [x] Fontes com título, link e licença; resposta cita [1], [2]
+- [x] Busca avaliada: 20 perguntas de teste, documento certo entre os 5 primeiros em ≥ 80% (80% com o índice parcial; refazer com o completo)
+- [x] Sem login → 401; entrada inválida → 400 (zod no front e no back)
+- [x] Clone limpo → `make` → índice carregado sem chamar a API
+- [x] Console limpo em **todos** os estados (gerando, parado, limite, erro do provedor), inclusive sem avisos do AI SDK (testes de tela em dev e em produção)
+- [x] Nada na lista de notificações (nada é criado, editado ou excluído)
 
 ## 6. Desenho
 
@@ -305,3 +305,4 @@ Acesso às telas: pela URL (`/planejar`, `/perguntar`), logado como `alice@examp
 | 2026-11-02 | Etapa 5 implementada: migration `RagDocument`/`RagChunk` (com `CREATE EXTENSION IF NOT EXISTS vector`, que o banco `_test` precisava), `build-index.mts` (206 documentos → 2.212 trechos; trechos curtos até 1,5 × 800 ficam inteiros, então cada trilha e cada guia é um trecho só), `index-rag.mts` (carrega em ~1,5 s numa transação), entrypoint + `make index-rag`, `retrieve.ts`, `eval.mts`. No modo mock, a pergunta usa o vetor do trecho com mais palavras em comum (busca textual do Postgres), e a busca por vetor roda igual à real. **Cota:** na camada gratuita, o `gemini-embedding-001` aceita 1.000 textos por dia por projeto, e cada item do lote conta (erro `EmbedContentRequestsPerDayPerUserPerProjectPerModel-FreeTier`); um lote de 100 trechos longos também estoura o limite de tokens por minuto. Hoje entraram 928 trechos (149 documentos completos: guias, trilhas e 33 artigos). **Para completar:** rodar o `build-index` de novo depois da meia-noite do Pacífico (05h em Brasília), em 2 dias, ou com a chave de outro projeto; depois `make index-rag`, o `eval.mts` (que também gasta cota: 1 lote de 25) e commitar o `index.jsonl`. O limiar 0,62 é provisório (vem do smoke: certo 0,76, vizinho 0,64, fora do tema 0,50). Achado: depois de reiniciar o container com o `build-index` rodando dentro dele, o dev server entrou em loop de "HMR hash mismatch" (a página recarregava 4 vezes por segundo); outro restart resolveu |
 | 2026-11-02 | Etapa 6 implementada: `POST /api/ai/ask` (fontes antes do texto; "não encontrei" fixo, sem chamar o modelo), prompt do RAG, `/perguntar` com `useChat`. No `useChat`, o erro do stream chega como `Error` simples (no `useCompletion`, como `AI_UIMessageStreamError`): o `describeAiError` trata os dois. Testes: Vitest (8 da rota, 7 da busca), `test-ai.sh` 27/28 e `test_ai_ask.py` 14/15 (o que falha nos dois é o tamanho do índice, ≥ 2.000). Achados para a Di: a Privacidade diz que não usamos dados para treinar IA (o Google usa, na camada gratuita) e lista as perguntas como dados coletados (nada é guardado) |
 | 2026-11-02 | Etapa 7 implementada: `rag/memory.ts` (uma chamada `generateText` + `Output.object` a partir da segunda pergunta), parte `data-memory` antes das fontes, corpo do pedido montado no `prepareSendMessagesRequest` a partir das mensagens na tela (sem estado extra: "Nova conversa" = `setMessages([])`), bloco "O que o assistente lembra" e "Pergunta completa usada na busca". No mock, a reescrita é "<pergunta> (sobre: <anterior>)", o que já faz a busca por palavras seguir o assunto. Testes: 13 da rota no Vitest, `test_ai_ask.py` 22/23 (falta só o tamanho do índice). Falta o manual com o Gemini (conversa de 6 perguntas) |
+| 2026-11-02 | Etapa 8. **Clone limpo** (num diretório à parte, com outro nome de projeto do Compose e portas 9443/9080, para não derrubar o dev): `make` em produção → `next build` ok, 9 migrations, 3.878 trilhas e `index-rag: 149 documentos e 928 trechos carregados`, sem chave do Gemini. Testes de tela no clone em produção: planejador 24/24, perguntas 22/23; `test-ai.sh` 27/28 (o que falta é o tamanho do índice). **Gemini real** (dev com `LLM_PROVIDER=gemini` só para o teste; voltou ao mock): plano em 15 pedaços, nas seções certas; a resposta do RAG vinha sem [n] e o prompt ganhou exemplo + lembrete depois da pergunta, e passou a citar. **Eval** (índice parcial): acerto@5 16/20; as 4 que erram dependem de artigos ainda não indexados (Pico do Jaraguá, Cantareira, Paranapiacaba, Terra Indígena); limiar 0,60 (tema ≥ 0,628, fora do tema ≤ 0,572). Achados: o `npm run lint` só olha `src/` (dois avisos em `ai-smoke.mts` e `ai.test.ts`, corrigidos); a Privacidade precisa de ajuste (ver [coordenação](../README.md#a-cobrar)). **Falta (Edu):** completar o índice (rodar o `build-index` depois das 05h de Brasília por 2 dias, ou com chaves de outros projetos), `make index-rag`, refazer o `eval.mts`, commitar o `index.jsonl`; conversa manual de 6 perguntas com o Gemini; Slow 4G; avisar o Gabs (⚠️) e a Di; revisar a lista de artigos, as regiões e os guias; chave reserva de outro projeto para o dia |
