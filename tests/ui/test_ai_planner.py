@@ -116,7 +116,10 @@ try:
     c.check("quando o minuto vira, o botão volta sozinho", button_disabled("Gerar plano") is False and "Restam" in b.text())
 
     c.step("Limite do dia")
-    sql(f"UPDATE \"AiUsage\" SET count = {LIMIT_DAY} WHERE \"userId\" = '{user_id}' AND period = '{today}'")
+    # A data na hora (o dia UTC pode ter virado durante o teste) e upsert (a linha do dia pode não existir)
+    day = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d")
+    sql(f"INSERT INTO \"AiUsage\" (\"userId\", period, count) VALUES ('{user_id}', '{day}', {LIMIT_DAY}) "
+        f"ON CONFLICT (\"userId\", period) DO UPDATE SET count = {LIMIT_DAY}")
     b.goto("/planejar")
     c.check("'Gerar plano' desabilitado e aviso de que a cota de hoje acabou",
             button_disabled("Gerar plano") and f"Você usou os {LIMIT_DAY} pedidos de hoje" in b.text())
