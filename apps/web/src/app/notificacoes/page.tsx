@@ -1,6 +1,6 @@
 import { prisma } from "@/lib/db";
 import { requirePageUser } from "@/server/auth/session";
-import { markAllAsRead } from "@/server/notification/action";
+import { markAllAsRead, sendTestNotification } from "@/server/notification/action";
 
 export default async function NotificationsPage() {
   const user = await requirePageUser();
@@ -14,7 +14,9 @@ export default async function NotificationsPage() {
   return (
     <main className="mx-auto max-w-2x1 p-4">
       <h1 className="text-xl font-bold">Notificacoes</h1>
-
+      <form action={sendTestNotification} className="my-4">
+        <button type="submit">Criar notificacao de teste</button>
+      </form>
       {notifications.some((n) => !n.isRead) && (
         <form action={markAllAsRead} className="my-4">
           <button type="submit">Marcar todas como lidas</button>
