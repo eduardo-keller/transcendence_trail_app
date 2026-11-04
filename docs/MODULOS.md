@@ -169,11 +169,11 @@ Também com o Rafa: entregar cedo o `notify()`, que todo mundo chama. O WebSocke
 
 ### 13. Sistema completo de notificações (Minor)
 - [ ] 📜 Notificações para **todas** as ações de criação, atualização e exclusão
-- [ ] Helper `notify()` que grava em `Notification` e entrega em tempo real
+- [x] Helper `notify()` que grava em `Notification` e entrega em tempo real
 - [ ] Sino com contador de não lidas, página de notificações, marcar como lida (uma e todas)
 - [ ] Todas as linhas da [lista de ações](#ações-que-geram-notificação) conferidas com dois usuários
 
-**Já existe:** a tabela `Notification` (só `message` e `isRead`; deve precisar de `type` e `link`) e a infraestrutura do Socket.IO (conexão autenticada pelo cookie, sala `user:<id>`, `getIO()`). Faltam `notify()`, presença, chat e o cliente no navegador.
+**Já existe:** `notify({ userId, message, type, targetId? })` em `src/server/realtime/notify.ts`; `Notification` com `type` (enum `NotificationType`) e `targetId`; link montado a partir do tipo em `src/server/notification/routes.ts`; página `/notificacoes` com "marcar todas como lidas"; cliente Socket.IO (`SocketProvider`) que atualiza a página ao receber `notification`. Faltam marcar uma como lida, os links na página, o contador em todas as páginas, presença e chat.
 
 ---
 
