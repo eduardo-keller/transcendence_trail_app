@@ -69,7 +69,7 @@ Também com o Gabs: **nginx + HTTPS** (obrigatório: só o nginx expõe porta; H
 - [x] 📜 Usar um ORM → Prisma 7 com PostgreSQL
 - [x] Schema com relações claras (também é exigência obrigatória) e diagrama no README
 - [x] Migrations versionadas, aplicadas no start do container
-- [ ] Todo acesso a dados via Prisma, exceto busca vetorial (`$queryRaw` com template tag, justificado)
+- [x] Todo acesso a dados via Prisma, exceto busca vetorial (`$queryRaw` com template tag, justificado) *(hoje o único SQL puro é o `SELECT 1` do `/api/health`)*
 
 **Demonstrar:** o `schema.prisma`, uma migration e uma query com relações.
 **Já existe:** [`schema.prisma`](../apps/web/prisma/schema.prisma), 7 migrations, cliente em `src/lib/db.ts`, importação das trilhas do OSM, testes de integração com banco real (`make test`).
