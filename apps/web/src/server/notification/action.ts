@@ -20,8 +20,8 @@ export async function sendTestNotification() {
 	await notify({
 		userId: user.id,
 		message: 'Teste',
-		type: 'FRIEND_REQUEST',
-		targetId: '993e199e-9746-4e08-948f-3a60b6c0e240',
+		type: 'GENERAL',
+		targetId: '',
 	});
 	revalidatePath('/', 'layout');
 }
