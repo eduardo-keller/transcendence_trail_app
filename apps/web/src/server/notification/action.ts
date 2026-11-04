@@ -6,17 +6,29 @@ import { requireUser } from '@/server/auth/session';
 import { notify } from '@/server/realtime/notify';
 
 export async function markAllAsRead() {
-  const user = await requireUser();
+	const user = await requireUser();
 
-  await prisma.notification.updateMany({
-    where: { userId: user.id, isRead: false },
-    data: {isRead: true},
-  });
-  revalidatePath('/', 'layout');
+	await prisma.notification.updateMany({
+		where: { userId: user.id, isRead: false },
+		data: { isRead: true },
+	});
+	revalidatePath('/', 'layout');
 }
 
 export async function sendTestNotification() {
-  const user = await requireUser();
-  await notify({ userId: user.id, message: 'Teste' });
-  revalidatePath('/', 'layout');
+	const user = await requireUser();
+	await notify({
+		userId: user.id,
+		message: 'Teste',
+		type: 'FRIEND_REQUEST',
+		targetId: '993e199e-9746-4e08-948f-3a60b6c0e240',
+	});
+	revalidatePath('/', 'layout');
 }
+
+/*
+userId: string,
+message: string,
+type: NotificationType,
+targetId?: string
+*/
