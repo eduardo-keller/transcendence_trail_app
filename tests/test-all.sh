@@ -152,8 +152,9 @@ for f in Makefile README.md docker/docker-compose.yml docker/.env.example docker
 done
 check "segredos fora do git (só o .gitkeep de docker/secrets está versionado)" \
 	'[ "$(git ls-files docker/.env docker/secrets)" = "docker/secrets/.gitkeep" ]'
+# Pastas com / no fim: num clone limpo elas ainda não existem, e sem a barra o git não sabe que são pastas
 check ".gitignore cobre .env, segredos, dados do Postgres, node_modules e .next" \
-	'( for p in docker/.env docker/secrets/db_password.txt data/postgres apps/web/node_modules apps/web/.next; do git check-ignore -q "$p" || exit 1; done )'
+	'( for p in docker/.env docker/secrets/db_password.txt data/postgres/ apps/web/node_modules/ apps/web/.next/; do git check-ignore -q "$p" || exit 1; done )'
 check "nenhum node_modules/ ou .next/ versionado" '! git ls-files | grep -qE "(^|/)(node_modules|\.next)/"'
 for s in db_password better_auth_secret; do
 	f=docker/secrets/$s.txt
