@@ -190,15 +190,15 @@ Também com o Rafa: entregar cedo o `notify()`, que todo mundo chama. O WebSocke
 **Já existe:** tudo. Tela `/planejar` e `POST /api/ai/plan`, com o Gemini (ou o modelo falso, `LLM_PROVIDER=mock`). A tela desabilita o botão com contagem antes do 429. Para simular o provedor fora do ar com o mock, escreva `[falha]` nas observações. Testes: `tests/integration/ai-plan.test.ts`, [tests/test-ai.sh](../tests/test-ai.sh) e [tests/ui/test_ai_planner.py](../tests/ui/test_ai_planner.py).
 
 ### 8. Sistema RAG (Major)
-- [ ] 📜 Interagir com um grande conjunto de dados
+- [x] 📜 Interagir com um grande conjunto de dados
 - [x] 📜 O usuário faz perguntas e recebe respostas relevantes
 - [x] 📜 Recuperação de contexto e geração da resposta
 - [x] Resposta cita as fontes; diz "não encontrei" quando o contexto não cobre a pergunta
-- [ ] Corpus com tamanho visível na tela (meta: 2.000 trechos ou mais)
+- [x] Corpus com tamanho visível na tela (meta: 2.000 trechos ou mais)
 
 **Como:** "Pergunte sobre as trilhas". O corpus reúne as trilhas do catálogo, artigos da Wikipedia sobre parques e picos e guias de segurança escritos pelo time. Embeddings no pgvector (já instalado no banco). Tela e endpoint **separados** do planejador: são dois módulos.
 **Não depende do catálogo:** o corpus aplica o próprio filtro (as 88 trilhas reais).
-**Já existe:** tela `/perguntar` e `POST /api/ai/ask`, com fontes numeradas (link, licença, relevância) e "não encontrei" sem chamar o modelo. O chat lembra a conversa atual (resumo + últimas 3 trocas, guardados só na página): a pergunta de seguimento é reescrita antes da busca. Corpus pronto em `apps/web/prisma/data/rag/` (206 documentos, 2.212 trechos). Busca avaliada com 20 perguntas (`scripts/rag/eval.mts`): acerto@5 de 80%, limiar de "não encontrei" em 0,60. **Falta:** completar o índice (hoje 928 de 2.212 trechos: a camada gratuita do Gemini calcula 1.000 embeddings por dia) e refazer a avaliação com ele. Testes: `tests/integration/ai-ask.test.ts`, `ai-retrieve.test.ts`, [tests/test-ai.sh](../tests/test-ai.sh) e [tests/ui/test_ai_ask.py](../tests/ui/test_ai_ask.py).
+**Já existe:** tudo. Tela `/perguntar` e `POST /api/ai/ask`, com fontes numeradas (link, licença, relevância) e "não encontrei" sem chamar o modelo. O chat lembra a conversa atual (resumo + últimas 3 trocas, guardados só na página): a pergunta de seguimento é reescrita antes da busca. Índice completo em `apps/web/prisma/data/rag/` (206 documentos, 2.212 trechos). Busca avaliada com 20 perguntas (`scripts/rag/eval.mts`): acerto@5 de 100% (o documento certo em 1º nas 20); limiar de "não encontrei" em 0,60 (perguntas do tema ≥ 0,72; fora do tema ≤ 0,58). Testes: `tests/integration/ai-ask.test.ts`, `ai-retrieve.test.ts`, [tests/test-ai.sh](../tests/test-ai.sh) e [tests/ui/test_ai_ask.py](../tests/ui/test_ai_ask.py).
 
 ### 11. Sistema de gamificação (Minor)
 - [ ] 📜 Pelo menos 3 de: conquistas, emblemas, ranking, XP/nível, desafios diários, recompensas → **XP e nível, emblemas e ranking**
