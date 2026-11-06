@@ -1,0 +1,1269 @@
+{
+	"source": "OpenStreetMap (dataset de 2026-10-07); descrições geradas por IA a partir só destes dados, revisadas pelo time",
+	"license": "ODbL (dados do OpenStreetMap)",
+	"model": "gemini-3.5-flash-lite",
+	"generatedAt": "2026-11-02",
+	"trails": [
+		{
+			"externalId": "TRL-1016995862",
+			"title": "Trilha Pedrado",
+			"region": "Juquitiba, São Lourenço da Serra e Embu-Guaçu, no sudoeste da Grande São Paulo",
+			"facts": [
+				"Distância medida: 2,8 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 38 m e desce 70 m",
+				"Tempo estimado do percurso medido: 41 min",
+				"Dificuldade estimada: fácil",
+				"Tipo de caminho: trilha estreita"
+			],
+			"description": "A Trilha Pedrado fica na região de Juquitiba, São Lourenço da Serra e Embu-Guaçu, no sudoeste da Grande São Paulo, pelo nome, traz uma referência a pedras. O caminho é do tipo trilha estreita e classificado como fácil. Distância, desnível e tempo são estimativas a partir do OpenStreetMap. O trecho medido tem 2,8 km, só ida, com desnível estimado na ida de subida de 38 m e descida de 70 m, e tempo estimado de 41 min. Como a trilha não é circular, a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida."
+		},
+		{
+			"externalId": "TRL-1016998251",
+			"title": "Trilha Cachoeira da Siderúrgica",
+			"region": "Juquitiba, São Lourenço da Serra e Embu-Guaçu, no sudoeste da Grande São Paulo",
+			"facts": [
+				"Distância medida: 8,0 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 95 m e desce 812 m",
+				"Tempo estimado do percurso medido: 2 h 58 min",
+				"Dificuldade estimada: difícil",
+				"Tipo de caminho: trilha estreita"
+			],
+			"description": "A Trilha Cachoeira da Siderúrgica fica na região de Juquitiba, São Lourenço da Serra e Embu-Guaçu, no sudoeste da Grande São Paulo, pelo nome, leva a uma cachoeira. O caminho é do tipo trilha estreita e classificado como difícil. Distância, desnível e tempo são estimativas a partir do OpenStreetMap. O trecho medido tem 8,0 km, só ida, com desnível estimado na ida de subida de 95 m e descida de 812 m, e tempo estimado de 2 h 58 min. Como a trilha não é circular, a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida."
+		},
+		{
+			"externalId": "TRL-1017250879",
+			"title": "Trilha do Túnel (difícil)",
+			"region": "Reserva Florestal do Morro Grande e Caucaia do Alto, em Cotia",
+			"facts": [
+				"Distância medida: 0,9 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 43 m e desce 56 m",
+				"Tempo estimado do percurso medido: 17 min",
+				"Dificuldade estimada: fácil",
+				"Tipo de caminho: trilha estreita"
+			],
+			"description": "A Trilha do Túnel (difícil) fica na região de Reserva Florestal do Morro Grande e Caucaia do Alto, em Cotia, pelo nome, traz uma referência a um túnel. O caminho é do tipo trilha estreita e classificado como fácil. Distância, desnível e tempo são estimativas a partir do OpenStreetMap. O trecho medido tem 0,9 km, só ida, com desnível estimado na ida de subida de 43 m e descida de 56 m, e tempo estimado de 17 min. Como a trilha não é circular, a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida."
+		},
+		{
+			"externalId": "TRL-1082983067",
+			"title": "Trilha Azul",
+			"region": "Cotia e Embu das Artes, a oeste de São Paulo",
+			"facts": [
+				"Distância medida: 4,9 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 51 m e desce 69 m",
+				"Tempo estimado do percurso medido: 1 h 05 min",
+				"Dificuldade estimada: fácil",
+				"Tipo de caminho: trilha estreita"
+			],
+			"description": "A Trilha Azul fica na região de Cotia e Embu das Artes, a oeste de São Paulo. O caminho é do tipo trilha estreita e classificado como fácil. Distância, desnível e tempo são estimativas a partir do OpenStreetMap. O trecho medido tem 4,9 km, só ida, com desnível estimado na ida de subida de 51 m e descida de 69 m, e tempo estimado de 1 h 05 min. Como a trilha não é circular, a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida."
+		},
+		{
+			"externalId": "TRL-1100706108",
+			"title": "Trilha do Padre Anchieta",
+			"region": "Serra do Mar no ABC paulista (São Bernardo do Campo e Santo André)",
+			"facts": [
+				"Distância medida: 1,3 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 0 m e desce 522 m",
+				"Tempo estimado do percurso medido: 1 h 07 min",
+				"Dificuldade estimada: moderada",
+				"Tipo de caminho: trilha estreita",
+				"Piso: sem pavimento"
+			],
+			"description": "A Trilha do Padre Anchieta fica na região de Serra do Mar no ABC paulista (São Bernardo do Campo e Santo André). O caminho é do tipo trilha estreita, com piso sem pavimento, e classificado como moderada. Distância, desnível e tempo são estimativas a partir do OpenStreetMap. O trecho medido tem 1,3 km, só ida, com desnível estimado na ida de subida de 0 m e descida de 522 m, e tempo estimado de 1 h 07 min. Como a trilha não é circular, a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida."
+		},
+		{
+			"externalId": "TRL-1114847844",
+			"title": "Trilha Azul",
+			"region": "Cotia e Embu das Artes, a oeste de São Paulo",
+			"facts": [
+				"Distância medida: 1,0 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 16 m e desce 52 m",
+				"Tempo estimado do percurso medido: 17 min",
+				"Dificuldade estimada: fácil",
+				"Tipo de caminho: trilha estreita"
+			],
+			"description": "A Trilha Azul fica na região de Cotia e Embu das Artes, a oeste de São Paulo. O caminho é do tipo trilha estreita e classificado como fácil. Distância, desnível e tempo são estimativas a partir do OpenStreetMap. O trecho medido tem 1,0 km, só ida, com desnível estimado na ida de subida de 16 m e descida de 52 m, e tempo estimado de 17 min. Como a trilha não é circular, a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida."
+		},
+		{
+			"externalId": "TRL-1115282772",
+			"title": "Trilha dos Ariquemes",
+			"region": "Serra da Cantareira (Parque Estadual da Cantareira e arredores), no norte da Grande São Paulo",
+			"facts": [
+				"Distância medida: 2,9 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 173 m e desce 46 m",
+				"Tempo estimado do percurso medido: 46 min",
+				"Dificuldade estimada: moderada",
+				"Tipo de caminho: estrada de terra ou trilha larga",
+				"Piso: terra",
+				"Escala SAC: T2 (caminhada de montanha)",
+				"Visibilidade da trilha: ruim",
+				"Largura (m, OSM): 0.3, 0.5"
+			],
+			"description": "A Trilha dos Ariquemes fica na região de Serra da Cantareira (Parque Estadual da Cantareira e arredores), no norte da Grande São Paulo. O caminho é do tipo estrada de terra ou trilha larga, com piso de terra, e classificado como moderada. Distância, desnível e tempo são estimativas a partir do OpenStreetMap. O trecho medido tem 2,9 km, só ida, com desnível estimado na ida de subida de 173 m e descida de 46 m, e tempo estimado de 46 min. Como a trilha não é circular, a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida."
+		},
+		{
+			"externalId": "TRL-1115282773",
+			"title": "Acesso à Trilha dos Ariquemes",
+			"region": "Serra da Cantareira (Parque Estadual da Cantareira e arredores), no norte da Grande São Paulo",
+			"facts": [
+				"Distância medida: 0,6 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 106 m e desce 0 m",
+				"Tempo estimado do percurso medido: 18 min",
+				"Dificuldade estimada: difícil",
+				"Tipo de caminho: trilha estreita",
+				"Piso: terra",
+				"Escala SAC: T3 (caminhada de montanha exigente)",
+				"Visibilidade da trilha: muito ruim",
+				"Largura (m, OSM): 0.5"
+			],
+			"description": "A Acesso à Trilha dos Ariquemes fica na região de Serra da Cantareira (Parque Estadual da Cantareira e arredores), no norte da Grande São Paulo, pelo nome, leva a uma trilha. O caminho é do tipo trilha estreita, com piso de terra, e classificado como difícil. Distância, desnível e tempo são estimativas a partir do OpenStreetMap. O trecho medido tem 0,6 km, só ida, com desnível estimado na ida de subida de 106 m e descida de 0 m, e tempo estimado de 18 min. Como a trilha não é circular, a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida."
+		},
+		{
+			"externalId": "TRL-1115286127",
+			"title": "Trilha Guto Carvalho",
+			"region": "Perus e Parque Anhanguera, no noroeste da cidade de São Paulo",
+			"facts": [
+				"Distância medida: 2,2 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 73 m e desce 75 m",
+				"Tempo estimado do percurso medido: 32 min",
+				"Dificuldade estimada: fácil",
+				"Tipo de caminho: estrada de terra ou trilha larga",
+				"Piso: terra",
+				"Largura (m, OSM): 1.5, 2, 3"
+			],
+			"description": "A Trilha Guto Carvalho fica na região de Perus e Parque Anhanguera, no noroeste da cidade de São Paulo. O caminho é do tipo estrada de terra ou trilha larga, com piso de terra, e classificado como fácil. Distância, desnível e tempo são estimativas a partir do OpenStreetMap. O trecho medido tem 2,2 km, só ida, com desnível estimado na ida de subida de 73 m e descida de 75 m, e tempo estimado de 32 min. Como a trilha não é circular, a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida."
+		},
+		{
+			"externalId": "TRL-1115286132",
+			"title": "Trilha dos Bernardineli",
+			"region": "Perus e Parque Anhanguera, no noroeste da cidade de São Paulo",
+			"facts": [
+				"Distância medida: 2,3 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 64 m e desce 38 m",
+				"Tempo estimado do percurso medido: 34 min",
+				"Dificuldade estimada: fácil",
+				"Tipo de caminho: trilha estreita",
+				"Piso: terra",
+				"Largura (m, OSM): 1"
+			],
+			"description": "A Trilha dos Bernardineli fica na região de Perus e Parque Anhanguera, no noroeste da cidade de São Paulo. O caminho é do tipo trilha estreita, com piso de terra, e classificado como fácil. Distância, desnível e tempo são estimativas a partir do OpenStreetMap. O trecho medido tem 2,3 km, só ida, com desnível estimado na ida de subida de 64 m e descida de 38 m, e tempo estimado de 34 min. Como a trilha não é circular, a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida."
+		},
+		{
+			"externalId": "TRL-1123445753",
+			"title": "Caminho da Crista",
+			"region": "Serra da Cantareira (Parque Estadual da Cantareira e arredores), no norte da Grande São Paulo",
+			"facts": [
+				"Distância medida: 2,2 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 42 m e desce 18 m",
+				"Tempo estimado do percurso medido: 31 min",
+				"Dificuldade estimada: fácil",
+				"Tipo de caminho: trilha estreita",
+				"Piso: terra",
+				"Visibilidade da trilha: muito ruim"
+			],
+			"description": "O Caminho da Crista fica na região da Serra da Cantareira (Parque Estadual da Cantareira e arredores), no norte da Grande São Paulo. Distância, desnível e tempo são estimativas a partir do OpenStreetMap. O trecho medido tem distância de 2,2 km, desnível estimado na ida de sobe 42 m e desce 18 m, e tempo estimado de 31 min. Como a trilha não é circular, a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida. O caminho é do tipo trilha estreita com piso de terra e visibilidade da trilha muito ruim."
+		},
+		{
+			"externalId": "TRL-1132332099",
+			"title": "Trilha Cachoeira da Lagoinha",
+			"region": "Juquitiba, São Lourenço da Serra e Embu-Guaçu, no sudoeste da Grande São Paulo",
+			"facts": [
+				"Distância medida: 0,7 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 13 m e desce 31 m",
+				"Tempo estimado do percurso medido: 11 min",
+				"Dificuldade estimada: fácil",
+				"Tipo de caminho: trilha estreita"
+			],
+			"description": "A Trilha Cachoeira da Lagoinha fica na região de Juquitiba, São Lourenço da Serra e Embu-Guaçu, no sudoeste da Grande São Paulo. Pelo nome, ela leva a uma cachoeira. Distância, desnível e tempo são estimativas a partir do OpenStreetMap. O trecho medido tem distância de 0,7 km, desnível estimado na ida de sobe 13 m e desce 31 m, e tempo estimado de 11 min. Como a trilha não é circular, a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida. O caminho é do tipo trilha estreita."
+		},
+		{
+			"externalId": "TRL-1171801820",
+			"title": "Trilha do Rio Cotia",
+			"region": "Reserva Florestal do Morro Grande e Caucaia do Alto, em Cotia",
+			"facts": [
+				"Distância medida: 2,1 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 0 m e desce 51 m",
+				"Tempo estimado do percurso medido: 31 min",
+				"Dificuldade estimada: fácil",
+				"Tipo de caminho: trilha estreita",
+				"Piso: sem pavimento"
+			],
+			"description": "A Trilha do Rio Cotia fica na região da Reserva Florestal do Morro Grande e Caucaia do Alto, em Cotia. Distância, desnível e tempo são estimativas a partir do OpenStreetMap. O trecho medido tem distância de 2,1 km, desnível estimado na ida de sobe 0 m e desce 51 m, e tempo estimado de 31 min. Como a trilha não é circular, a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida. O caminho é do tipo trilha estreita com piso sem pavimento."
+		},
+		{
+			"externalId": "TRL-118205191",
+			"title": "Trilha do bode",
+			"region": "Serra da Cantareira (Parque Estadual da Cantareira e arredores), no norte da Grande São Paulo",
+			"facts": [
+				"Distância medida: 0,8 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 18 m e desce 35 m",
+				"Tempo estimado do percurso medido: 14 min",
+				"Dificuldade estimada: fácil",
+				"Tipo de caminho: trilha estreita",
+				"Piso: terra",
+				"Largura (m, OSM): 1"
+			],
+			"description": "A Trilha do bode fica na região da Serra da Cantareira (Parque Estadual da Cantareira e arredores), no norte da Grande São Paulo. Distância, desnível e tempo são estimativas a partir do OpenStreetMap. O trecho medido tem distância de 0,8 km, desnível estimado na ida de sobe 18 m e desce 35 m, e tempo estimado de 14 min. Como a trilha não é circular, a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida. O caminho é do tipo trilha estreita com piso de terra."
+		},
+		{
+			"externalId": "TRL-1188994902",
+			"title": "trilha Antonina",
+			"region": "Mairiporã e Atibaia, ao norte da Serra da Cantareira",
+			"facts": [
+				"Distância medida: 0,5 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 5 m e desce 5 m",
+				"Tempo estimado do percurso medido: 7 min",
+				"Dificuldade estimada: fácil",
+				"Tipo de caminho: trilha estreita",
+				"Piso: grama",
+				"Largura (m, OSM): 1"
+			],
+			"description": "A trilha Antonina fica na região de Mairiporã e Atibaia, ao norte da Serra da Cantareira. Distância, desnível e tempo são estimativas a partir do OpenStreetMap. O trecho medido tem distância de 0,5 km, desnível estimado na ida de sobe 5 m e desce 5 m, e tempo estimado de 7 min. Como a trilha não é circular, a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida. O caminho é do tipo trilha estreita com piso de grama."
+		},
+		{
+			"externalId": "TRL-1199268957",
+			"title": "Trilha do Esquenta Braço",
+			"region": "Embu-Guaçu, Itapecerica da Serra e Cotia, a sudoeste de São Paulo",
+			"facts": [
+				"Distância medida: 1,7 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 70 m e desce 61 m",
+				"Tempo estimado do percurso medido: 27 min",
+				"Dificuldade estimada: fácil",
+				"Tipo de caminho: trilha estreita"
+			],
+			"description": "A Trilha do Esquenta Braço fica na região de Embu-Guaçu, Itapecerica da Serra e Cotia, a sudoeste de São Paulo. Distância, desnível e tempo são estimativas a partir do OpenStreetMap. O trecho medido tem distância de 1,7 km, desnível estimado na ida de sobe 70 m e desce 61 m, e tempo estimado de 27 min. Como a trilha não é circular, a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida. O caminho é do tipo trilha estreita."
+		},
+		{
+			"externalId": "TRL-1204520168",
+			"title": "Trilha da Crista",
+			"region": "Pico do Jaraguá (Parque Estadual do Jaraguá), na zona noroeste da cidade de São Paulo",
+			"facts": [
+				"Distância medida: 0,9 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 30 m e desce 20 m",
+				"Tempo estimado do percurso medido: 14 min",
+				"Dificuldade estimada: fácil",
+				"Tipo de caminho: trilha estreita",
+				"Piso: terra, sem pavimento"
+			],
+			"description": "A Trilha da Crista fica na região do Pico do Jaraguá (Parque Estadual do Jaraguá), na zona noroeste da cidade de São Paulo. Distância, desnível e tempo são estimativas a partir do OpenStreetMap. O trecho medido tem distância de 0,9 km, desnível estimado na ida de sobe 30 m e desce 20 m, e tempo estimado de 14 min. Como a trilha não é circular, a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida. O caminho é do tipo trilha estreita com piso de terra e sem pavimento."
+		},
+		{
+			"externalId": "TRL-1204536448",
+			"title": "Trilha do Morro Doce",
+			"region": "Pico do Jaraguá (Parque Estadual do Jaraguá), na zona noroeste da cidade de São Paulo",
+			"facts": [
+				"Distância medida: 3,0 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 102 m e desce 138 m",
+				"Tempo estimado do percurso medido: 50 min",
+				"Dificuldade estimada: fácil",
+				"Tipo de caminho: trilha estreita, estrada de terra ou trilha larga",
+				"Piso: sem pavimento"
+			],
+			"description": "A Trilha do Morro Doce fica na região do Pico do Jaraguá (Parque Estadual do Jaraguá), na zona noroeste da cidade de São Paulo. Distância, desnível e tempo são estimativas a partir do OpenStreetMap. O trecho medido tem distância de 3,0 km, desnível estimado na ida de sobe 102 m e desce 138 m, e tempo estimado de 50 min. Como a trilha não é circular, a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida. O caminho é do tipo trilha estreita, estrada de terra ou trilha larga com piso sem pavimento."
+		},
+		{
+			"externalId": "TRL-1206128189",
+			"title": "Trilha Jaraguá - Aldeia Itaendy",
+			"region": "Pico do Jaraguá (Parque Estadual do Jaraguá), na zona noroeste da cidade de São Paulo",
+			"facts": [
+				"Distância medida: 0,8 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 61 m e desce 0 m",
+				"Tempo estimado do percurso medido: 16 min",
+				"Dificuldade estimada: difícil",
+				"Tipo de caminho: estrada de terra ou trilha larga",
+				"Piso: terra",
+				"Escala SAC: T3 (caminhada de montanha exigente)"
+			],
+			"description": "A Trilha Jaraguá - Aldeia Itaendy fica na região do Pico do Jaraguá (Parque Estadual do Jaraguá), na zona noroeste da cidade de São Paulo. Distância, desnível e tempo são estimativas a partir do OpenStreetMap. O trecho medido tem distância de 0,8 km, desnível estimado na ida de sobe 61 m e desce 0 m, e tempo estimado de 16 min. Como a trilha não é circular, a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida. O caminho é do tipo estrada de terra ou trilha larga com piso de terra."
+		},
+		{
+			"externalId": "TRL-1227148282",
+			"title": "Trilha da Ferrovia",
+			"region": "Perus e Parque Anhanguera, no noroeste da cidade de São Paulo",
+			"facts": [
+				"Distância medida: 3,9 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 24 m e desce 25 m",
+				"Tempo estimado do percurso medido: 50 min",
+				"Dificuldade estimada: fácil",
+				"Tipo de caminho: trilha estreita",
+				"Piso: sem pavimento"
+			],
+			"description": "A Trilha da Ferrovia fica na região de Perus e Parque Anhanguera, no noroeste da cidade de São Paulo. Distância, desnível e tempo são estimativas a partir do OpenStreetMap. O trecho medido tem distância de 3,9 km, desnível estimado na ida de sobe 24 m e desce 25 m, e tempo estimado de 50 min. Como a trilha não é circular, a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida. O caminho é do tipo trilha estreita com piso sem pavimento."
+		},
+		{
+			"externalId": "TRL-1228119335",
+			"title": "Trilha Jaceguava Interparques",
+			"region": "parques naturais municipais de Parelheiros (Itaim, Varginha e Jaceguava), no extremo sul da cidade de São Paulo",
+			"facts": [
+				"Distância medida: 2,1 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 47 m e desce 53 m",
+				"Tempo estimado do percurso medido: 31 min",
+				"Dificuldade estimada: fácil",
+				"Tipo de caminho: trilha estreita",
+				"Piso: sem pavimento"
+			],
+			"description": "A Trilha Jaceguava Interparques fica na região de parques naturais municipais de Parelheiros (Itaim, Varginha e Jaceguava), no extremo sul da cidade de São Paulo. Como não é circular, a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida. Distância, desnível e tempo são estimativas a partir do OpenStreetMap. O trecho medido tem 2,1 km, sobe 47 m e desce 53 m, com tempo estimado de 31 min, dificuldade fácil, em trilha estreita com piso sem pavimento."
+		},
+		{
+			"externalId": "TRL-140702631",
+			"title": "Trilha da Pedra Rachada",
+			"region": "Serra da Cantareira (Parque Estadual da Cantareira e arredores), no norte da Grande São Paulo",
+			"facts": [
+				"Distância medida: 1,3 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 74 m e desce 96 m",
+				"Tempo estimado do percurso medido: 25 min",
+				"Dificuldade estimada: fácil",
+				"Tipo de caminho: estrada de terra ou trilha larga"
+			],
+			"description": "A Trilha da Pedra Rachada fica na região de Serra da Cantareira (Parque Estadual da Cantareira e arredores), no norte da Grande São Paulo, e pelo nome leva a uma formação de pedra. Como não é circular, a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida. Distância, desnível e tempo são estimativas a partir do OpenStreetMap. O trecho medido tem 1,3 km, sobe 74 m e desce 96 m, com tempo estimado de 25 min, dificuldade fácil, em estrada de terra ou trilha larga."
+		},
+		{
+			"externalId": "TRL-1432081002",
+			"title": "Trilha Itaim Interparques",
+			"region": "parques naturais municipais de Parelheiros (Itaim, Varginha e Jaceguava), no extremo sul da cidade de São Paulo",
+			"facts": [
+				"Distância medida: 1,1 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 23 m e desce 4 m",
+				"Tempo estimado do percurso medido: 15 min",
+				"Dificuldade estimada: fácil",
+				"Tipo de caminho: trilha estreita"
+			],
+			"description": "A Trilha Itaim Interparques fica na região de parques naturais municipais de Parelheiros (Itaim, Varginha e Jaceguava), no extremo sul da cidade de São Paulo. Como não é circular, a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida. Distância, desnível e tempo são estimativas a partir do OpenStreetMap. O trecho medido tem 1,1 km, sobe 23 m e desce 4 m, com tempo estimado de 15 min, dificuldade fácil, em trilha estreita."
+		},
+		{
+			"externalId": "TRL-1432081003",
+			"title": "Trilha Itaim Interparques",
+			"region": "parques naturais municipais de Parelheiros (Itaim, Varginha e Jaceguava), no extremo sul da cidade de São Paulo",
+			"facts": [
+				"Distância medida: 1,9 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 12 m e desce 68 m",
+				"Tempo estimado do percurso medido: 29 min",
+				"Dificuldade estimada: fácil",
+				"Tipo de caminho: trilha estreita"
+			],
+			"description": "A Trilha Itaim Interparques fica na região de parques naturais municipais de Parelheiros (Itaim, Varginha e Jaceguava), no extremo sul da cidade de São Paulo. Como não é circular, a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida. Distância, desnível e tempo são estimativas a partir do OpenStreetMap. O trecho medido tem 1,9 km, sobe 12 m e desce 68 m, com tempo estimado de 29 min, dificuldade fácil, em trilha estreita."
+		},
+		{
+			"externalId": "TRL-1432081004",
+			"title": "Trilha Varginha Interparques",
+			"region": "parques naturais municipais de Parelheiros (Itaim, Varginha e Jaceguava), no extremo sul da cidade de São Paulo",
+			"facts": [
+				"Distância medida: 1,6 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 34 m e desce 66 m",
+				"Tempo estimado do percurso medido: 25 min",
+				"Dificuldade estimada: fácil",
+				"Tipo de caminho: trilha estreita"
+			],
+			"description": "A Trilha Varginha Interparques fica na região de parques naturais municipais de Parelheiros (Itaim, Varginha e Jaceguava), no extremo sul da cidade de São Paulo. Como não é circular, a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida. Distância, desnível e tempo são estimativas a partir do OpenStreetMap. O trecho medido tem 1,6 km, sobe 34 m e desce 66 m, com tempo estimado de 25 min, dificuldade fácil, em trilha estreita."
+		},
+		{
+			"externalId": "TRL-143654437",
+			"title": "Trilha da Aranha",
+			"region": "Serra da Cantareira (Parque Estadual da Cantareira e arredores), no norte da Grande São Paulo",
+			"facts": [
+				"Distância medida: 1,6 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 146 m e desce 5 m",
+				"Tempo estimado do percurso medido: 34 min",
+				"Dificuldade estimada: fácil",
+				"Tipo de caminho: trilha estreita"
+			],
+			"description": "A Trilha da Aranha fica na região de Serra da Cantareira (Parque Estadual da Cantareira e arredores), no norte da Grande São Paulo. Como não é circular, a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida. Distância, desnível e tempo são estimativas a partir do OpenStreetMap. O trecho medido tem 1,6 km, sobe 146 m e desce 5 m, com tempo estimado de 34 min, dificuldade fácil, em trilha estreita."
+		},
+		{
+			"externalId": "TRL-1444831241",
+			"title": "Antigo Caminho do Zanzalá",
+			"region": "Serra do Mar no ABC paulista (São Bernardo do Campo e Santo André)",
+			"facts": [
+				"Distância medida: 2,3 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 10 m e desce 16 m",
+				"Tempo estimado do percurso medido: 29 min",
+				"Dificuldade estimada: fácil",
+				"Tipo de caminho: trilha estreita"
+			],
+			"description": "O Antigo Caminho do Zanzalá fica na região de Serra do Mar no ABC paulista (São Bernardo do Campo e Santo André). Como não é circular, a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida. Distância, desnível e tempo são estimativas a partir do OpenStreetMap. O trecho medido tem 2,3 km, sobe 10 m e desce 16 m, com tempo estimado de 29 min, dificuldade fácil, em trilha estreita."
+		},
+		{
+			"externalId": "TRL-1466027412",
+			"title": "Trilha do Pai Mathias",
+			"region": "Serra do Mar entre São Bernardo do Campo e Cubatão",
+			"facts": [
+				"Distância medida: 3,3 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 453 m e desce 82 m",
+				"Tempo estimado do percurso medido: 1 h 25 min",
+				"Dificuldade estimada: moderada",
+				"Tipo de caminho: trilha estreita"
+			],
+			"description": "A Trilha do Pai Mathias fica na região de Serra do Mar entre São Bernardo do Campo e Cubatão. Como não é circular, a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida. Distância, desnível e tempo são estimativas a partir do OpenStreetMap. O trecho medido tem 3,3 km, sobe 453 m e desce 82 m, com tempo estimado de 1 h 25 min, dificuldade moderada, em trilha estreita."
+		},
+		{
+			"externalId": "TRL-1548575512",
+			"title": "Trilha Itaim Interparques",
+			"region": "parques naturais municipais de Parelheiros (Itaim, Varginha e Jaceguava), no extremo sul da cidade de São Paulo",
+			"facts": [
+				"Distância medida: 2,5 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 68 m e desce 82 m",
+				"Tempo estimado do percurso medido: 39 min",
+				"Dificuldade estimada: fácil",
+				"Tipo de caminho: trilha estreita"
+			],
+			"description": "A Trilha Itaim Interparques fica na região de parques naturais municipais de Parelheiros (Itaim, Varginha e Jaceguava), no extremo sul da cidade de São Paulo. Como não é circular, a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida. Distância, desnível e tempo são estimativas a partir do OpenStreetMap. O trecho medido tem 2,5 km, sobe 68 m e desce 82 m, com tempo estimado de 39 min, dificuldade fácil, em trilha estreita."
+		},
+		{
+			"externalId": "TRL-233260096",
+			"title": "Trilha da Samambaiaçu",
+			"region": "Serra da Cantareira (Parque Estadual da Cantareira e arredores), no norte da Grande São Paulo",
+			"facts": [
+				"Distância medida: 1,4 km, circular (volta ao início)",
+				"Desnível estimado na ida: sobe 49 m e desce 51 m",
+				"Tempo estimado do percurso medido: 22 min",
+				"Dificuldade estimada: fácil",
+				"Tipo de caminho: trilha estreita"
+			],
+			"description": "A Trilha da Samambaiaçu fica na região de Serra da Cantareira (Parque Estadual da Cantareira e arredores), no norte da Grande São Paulo. Distância, desnível e tempo são estimativas a partir do OpenStreetMap. O trecho medido tem 1,4 km, circular, sobe 49 m e desce 51 m, com tempo estimado de 22 min, dificuldade fácil, em trilha estreita."
+		},
+		{
+			"externalId": "TRL-241989821",
+			"title": "Trilha do Pai Zé",
+			"region": "Pico do Jaraguá (Parque Estadual do Jaraguá), na zona noroeste da cidade de São Paulo",
+			"facts": [
+				"Distância medida: 1,5 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 245 m e desce 5 m",
+				"Tempo estimado do percurso medido: 42 min",
+				"Dificuldade estimada: fácil",
+				"Tipo de caminho: caminho de pedestres, trilha estreita",
+				"Piso: terra",
+				"Escala SAC: T1 (caminhada)",
+				"Visibilidade da trilha: excelente"
+			],
+			"description": "A Trilha do Pai Zé fica na região de Pico do Jaraguá (Parque Estadual do Jaraguá), na zona noroeste da cidade de São Paulo. Pelo nome, homenageia ou refere-se ao Pai Zé. Distância, desnível e tempo são estimativas a partir do OpenStreetMap. Como a trilha não é circular, a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida, resultando em um trecho medido de 1,5 km só de ida, com desnível de subida de 245 m e descida de 5 m, e tempo estimado de 42 min."
+		},
+		{
+			"externalId": "TRL-241989822",
+			"title": "Trilha do Bica",
+			"region": "Pico do Jaraguá (Parque Estadual do Jaraguá), na zona noroeste da cidade de São Paulo",
+			"facts": [
+				"Distância medida: 0,6 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 0 m e desce 27 m",
+				"Tempo estimado do percurso medido: 10 min",
+				"Dificuldade estimada: fácil",
+				"Tipo de caminho: trilha estreita",
+				"Piso: terra",
+				"Escala SAC: T1 (caminhada)",
+				"Visibilidade da trilha: boa"
+			],
+			"description": "A Trilha do Bica fica na região de Pico do Jaraguá (Parque Estadual do Jaraguá), na zona noroeste da cidade de São Paulo. Pelo nome, leva a uma bica. Distância, desnível e tempo são estimativas a partir do OpenStreetMap. Como a trilha não é circular, a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida, cobrindo uma distância medida de 0,6 km só de ida, com desnível de subida de 0 m e descida de 27 m, e tempo estimado de 10 min."
+		},
+		{
+			"externalId": "TRL-253623879",
+			"title": "Trilha da Pontinha",
+			"region": "Paranapiacaba, em Santo André, no alto da Serra do Mar",
+			"facts": [
+				"Distância medida: 1,0 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 37 m e desce 0 m",
+				"Tempo estimado do percurso medido: 16 min",
+				"Dificuldade estimada: fácil",
+				"Tipo de caminho: trilha estreita",
+				"Piso: terra"
+			],
+			"description": "A Trilha da Pontinha fica na região de Paranapiacaba, em Santo André, no alto da Serra do Mar. Pelo nome, leva a uma pontinha. Distância, desnível e tempo são estimativas a partir do OpenStreetMap. Como a trilha não é circular, a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida, abrangendo uma distância medida de 1,0 km só de ida, com desnível de subida de 37 m e descida de 0 m, e tempo estimado de 16 min."
+		},
+		{
+			"externalId": "TRL-256507175",
+			"title": "Trilha do Silencio",
+			"region": "Pico do Jaraguá (Parque Estadual do Jaraguá), na zona noroeste da cidade de São Paulo",
+			"facts": [
+				"Distância medida: 0,6 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 44 m e desce 8 m",
+				"Tempo estimado do percurso medido: 12 min",
+				"Dificuldade estimada: fácil",
+				"Tipo de caminho: trilha estreita",
+				"Piso: terra",
+				"Escala SAC: T1 (caminhada)",
+				"Visibilidade da trilha: boa"
+			],
+			"description": "A Trilha do Silencio fica na região de Pico do Jaraguá (Parque Estadual do Jaraguá), na zona noroeste da cidade de São Paulo. Pelo nome, remete ao silêncio. Distância, desnível e tempo são estimativas a partir do OpenStreetMap. Como a trilha não é circular, a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida, registrando uma distância medida de 0,6 km só de ida, com desnível de subida de 44 m e descida de 8 m, e tempo estimado de 12 min."
+		},
+		{
+			"externalId": "TRL-258582970",
+			"title": "Trilha da Bica",
+			"region": "Horto Florestal (Parque Estadual Alberto Löfgren), na zona norte de São Paulo, ao pé da Serra da Cantareira",
+			"facts": [
+				"Distância medida: 1,4 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 53 m e desce 70 m",
+				"Tempo estimado do percurso medido: 24 min",
+				"Dificuldade estimada: fácil",
+				"Tipo de caminho: trilha estreita"
+			],
+			"description": "A Trilha da Bica fica na região de Horto Florestal (Parque Estadual Alberto Löfgren), na zona norte de São Paulo, ao pé da Serra da Cantareira. Pelo nome, leva a uma bica. Distância, desnível e tempo são estimativas a partir do OpenStreetMap. Como a trilha não é circular, a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida, compreendendo uma distância medida de 1,4 km só de ida, com desnível de subida de 53 m e descida de 70 m, e tempo estimado de 24 min."
+		},
+		{
+			"externalId": "TRL-306773360",
+			"title": "Trilha 6 km",
+			"region": "Parque Ibirapuera, na zona sul da cidade de São Paulo",
+			"facts": [
+				"Distância medida: 2,3 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 17 m e desce 4 m",
+				"Tempo estimado do percurso medido: 24 min",
+				"Dificuldade estimada: fácil",
+				"Tipo de caminho: trilha estreita",
+				"Piso: asfalto, sem pavimento",
+				"Escala SAC: T1 (caminhada)",
+				"Visibilidade da trilha: excelente",
+				"Permitido no OSM: cavalo: não"
+			],
+			"description": "A Trilha 6 km fica na região de Parque Ibirapuera, na zona sul da cidade de São Paulo. Pelo nome, o trecho medido tem a distância medida de 2,3 km, só de ida. Distância, desnível e tempo são estimativas a partir do OpenStreetMap. Como a trilha não é circular, a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida, apresentando desnível de subida de 17 m e descida de 4 m, com tempo estimado de 24 min."
+		},
+		{
+			"externalId": "TRL-307657147",
+			"title": "Trilha do Cachoeira",
+			"region": "Serra da Cantareira (Parque Estadual da Cantareira e arredores), no norte da Grande São Paulo",
+			"facts": [
+				"Distância medida: 2,6 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 91 m e desce 83 m",
+				"Tempo estimado do percurso medido: 40 min",
+				"Dificuldade estimada: fácil",
+				"Tipo de caminho: trilha estreita",
+				"Piso: terra",
+				"Permitido no OSM: bicicleta: não"
+			],
+			"description": "A Trilha do Cachoeira fica na região de Serra da Cantareira (Parque Estadual da Cantareira e arredores), no norte da Grande São Paulo. Pelo nome, leva a uma cachoeira. Distância, desnível e tempo são estimativas a partir do OpenStreetMap. Como a trilha não é circular, a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida, perfazendo uma distância medida de 2,6 km só de ida, com desnível de subida de 91 m e descida de 83 m, e tempo estimado de 40 min."
+		},
+		{
+			"externalId": "TRL-307657149",
+			"title": "Trilha do Macaco",
+			"region": "Serra da Cantareira (Parque Estadual da Cantareira e arredores), no norte da Grande São Paulo",
+			"facts": [
+				"Distância medida: 0,9 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 22 m e desce 19 m",
+				"Tempo estimado do percurso medido: 13 min",
+				"Dificuldade estimada: fácil",
+				"Tipo de caminho: trilha estreita",
+				"Piso: terra",
+				"Permitido no OSM: bicicleta: não"
+			],
+			"description": "A Trilha do Macaco fica na região de Serra da Cantareira (Parque Estadual da Cantareira e arredores), no norte da Grande São Paulo. Pelo nome, faz referência a um macaco. Distância, desnível e tempo são estimativas a partir do OpenStreetMap. Como a trilha não é circular, a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida, cobrindo uma distância medida de 0,9 km só de ida, com desnível de subida de 22 m e descida de 19 m, e tempo estimado de 13 min."
+		},
+		{
+			"externalId": "TRL-311537923",
+			"title": "Trilha do Rio Branco",
+			"region": "extremo sul da cidade de São Paulo (Parelheiros e Marsilac), perto da Serra do Mar",
+			"facts": [
+				"Distância medida: 0,5 km, só ida (não é circular)",
+				"Desnível: sem dado",
+				"Tempo estimado do percurso medido: 6 min",
+				"Dificuldade estimada: fácil",
+				"Tipo de caminho: estrada de terra ou trilha larga"
+			],
+			"description": "A Trilha do Rio Branco fica na região de extremo sul da cidade de São Paulo (Parelheiros e Marsilac), perto da Serra do Mar. Pelo nome, leva a um rio branco. Distância, desnível e tempo são estimativas a partir do OpenStreetMap. Não há dado de desnível. Como a trilha não é circular, a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida, tendo uma distância medida de 0,5 km só de ida, e tempo estimado de 6 min."
+		},
+		{
+			"externalId": "TRL-386577780",
+			"title": "Trilha Itaim Interparques",
+			"region": "parques naturais municipais de Parelheiros (Itaim, Varginha e Jaceguava), no extremo sul da cidade de São Paulo",
+			"facts": [
+				"Distância medida: 3,6 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 127 m e desce 125 m",
+				"Tempo estimado do percurso medido: 56 min",
+				"Dificuldade estimada: fácil",
+				"Tipo de caminho: trilha estreita",
+				"Piso: sem pavimento"
+			],
+			"description": "A Trilha Itaim Interparques fica na região de parques naturais municipais de Parelheiros (Itaim, Varginha e Jaceguava), no extremo sul da cidade de São Paulo. Pelo nome, conecta os parques Itaim e interparques. Distância, desnível e tempo são estimativas a partir do OpenStreetMap. Como a trilha não é circular, a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida, computando uma distância medida de 3,6 km só de ida, com desnível de subida de 127 m e descida de 125 m, e tempo estimado de 56 min."
+		},
+		{
+			"externalId": "TRL-405920682",
+			"title": "Trilha da Cachoeira",
+			"region": "Serra da Cantareira (Parque Estadual da Cantareira e arredores), no norte da Grande São Paulo",
+			"facts": [
+				"Distância medida: 2,3 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 149 m e desce 108 m",
+				"Tempo estimado do percurso medido: 43 min",
+				"Dificuldade estimada: fácil",
+				"Tipo de caminho: trilha estreita",
+				"Piso: terra, madeira",
+				"Escala SAC: T1 (caminhada)",
+				"Visibilidade da trilha: excelente"
+			],
+			"description": "A Trilha da Cachoeira fica na região de Serra da Cantareira (Parque Estadual da Cantareira e arredores), no norte da Grande São Paulo. Pelo nome, leva a uma cachoeira. Distância, desnível e tempo são estimativas a partir do OpenStreetMap. O trecho medido tem distância de 2,3 km, só ida, com desnível estimado na ida subindo 149 m e descendo 108 m, e tempo estimado de 43 min. Como a trilha não é circular, a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida."
+		},
+		{
+			"externalId": "TRL-415171387",
+			"title": "Trilha da Macumba",
+			"region": "Grande São Paulo e arredores",
+			"facts": [
+				"Distância medida: 1,0 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 0 m e desce 86 m",
+				"Tempo estimado do percurso medido: 21 min",
+				"Dificuldade estimada: fácil",
+				"Tipo de caminho: estrada de terra ou trilha larga",
+				"Piso: sem pavimento"
+			],
+			"description": "A Trilha da Macumba fica na região de Grande São Paulo e arredores. Distância, desnível e tempo são estimativas a partir do OpenStreetMap. O trecho medido tem distância de 1,0 km, só ida, com desnível estimado na ida subindo 0 m e descendo 86 m, e tempo estimado de 21 min. Como a trilha não é circular, a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida."
+		},
+		{
+			"externalId": "TRL-461556239",
+			"title": "Trilha de caminhada",
+			"region": "zona oeste da cidade de São Paulo, na região do Butantã",
+			"facts": [
+				"Distância medida: 1,1 km, circular (volta ao início)",
+				"Desnível: sem dado",
+				"Tempo estimado do percurso medido: 13 min",
+				"Dificuldade estimada: fácil",
+				"Tipo de caminho: caminho de pedestres",
+				"Piso: bloquetes",
+				"Permitido no OSM: a pé: sim; bicicleta: não; cavalo: não"
+			],
+			"description": "A Trilha de caminhada fica na região de zona oeste da cidade de São Paulo, na região do Butantã. Distância, desnível e tempo são estimativas a partir do OpenStreetMap. O trecho medido tem distância de 1,1 km, sendo circular com volta ao início. Sobre o desnível, não há dado de desnível. O tempo estimado do percurso medido é de 13 min."
+		},
+		{
+			"externalId": "TRL-462114253",
+			"title": "Trilha Pedra Grande",
+			"region": "Pedra Grande de Atibaia (Monumento Natural Estadual da Pedra Grande)",
+			"facts": [
+				"Distância medida: 2,5 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 487 m e desce 18 m",
+				"Tempo estimado do percurso medido: 1 h 18 min",
+				"Dificuldade estimada: moderada",
+				"Tipo de caminho: trilha estreita",
+				"Piso: terra",
+				"Largura (m, OSM): 1"
+			],
+			"description": "A Trilha Pedra Grande fica na região de Pedra Grande de Atibaia (Monumento Natural Estadual da Pedra Grande). Pelo nome, leva a uma formação de pedra. Distância, desnível e tempo são estimativas a partir do OpenStreetMap. O trecho medido tem distância de 2,5 km, só ida, com desnível estimado na ida subindo 487 m e descendo 18 m, e tempo estimado de 1 h 18 min. Como a trilha não é circular, a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida."
+		},
+		{
+			"externalId": "TRL-541918258",
+			"title": "Trilha 6km",
+			"region": "Parque Ibirapuera, na zona sul da cidade de São Paulo",
+			"facts": [
+				"Distância medida: 0,9 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 8 m e desce 9 m",
+				"Tempo estimado do percurso medido: 12 min",
+				"Dificuldade estimada: fácil",
+				"Tipo de caminho: trilha estreita",
+				"Piso: sem pavimento",
+				"Escala SAC: T1 (caminhada)",
+				"Visibilidade da trilha: excelente",
+				"Permitido no OSM: cavalo: não"
+			],
+			"description": "A Trilha 6km fica na região de Parque Ibirapuera, na zona sul da cidade de São Paulo. Distância, desnível e tempo são estimativas a partir do OpenStreetMap. O trecho medido tem distância de 0,9 km, só ida, com desnível estimado na ida subindo 8 m e descendo 9 m, e tempo estimado de 12 min. Como a trilha não é circular, a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida. O nome cita 6 km, mas o trecho medido no OpenStreetMap é só uma parte desse percurso."
+		},
+		{
+			"externalId": "TRL-541927325",
+			"title": "Trilha 6km",
+			"region": "Parque Ibirapuera, na zona sul da cidade de São Paulo",
+			"facts": [
+				"Distância medida: 0,5 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 4 m e desce 5 m",
+				"Tempo estimado do percurso medido: 7 min",
+				"Dificuldade estimada: fácil",
+				"Tipo de caminho: trilha estreita",
+				"Piso: sem pavimento",
+				"Escala SAC: T1 (caminhada)",
+				"Visibilidade da trilha: excelente",
+				"Permitido no OSM: cavalo: não"
+			],
+			"description": "A Trilha 6km fica na região de Parque Ibirapuera, na zona sul da cidade de São Paulo. Distância, desnível e tempo são estimativas a partir do OpenStreetMap. O trecho medido tem distância de 0,5 km, só ida, com desnível estimado na ida subindo 4 m e descendo 5 m, e tempo estimado de 7 min. Como a trilha não é circular, a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida. O nome cita 6 km, mas o trecho medido no OpenStreetMap é só uma parte desse percurso."
+		},
+		{
+			"externalId": "TRL-541927326",
+			"title": "Trilha 6 km",
+			"region": "Parque Ibirapuera, na zona sul da cidade de São Paulo",
+			"facts": [
+				"Distância medida: 1,1 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 25 m e desce 28 m",
+				"Tempo estimado do percurso medido: 16 min",
+				"Dificuldade estimada: fácil",
+				"Tipo de caminho: trilha estreita",
+				"Piso: asfalto, pavimentado, sem pavimento",
+				"Escala SAC: T1 (caminhada)",
+				"Visibilidade da trilha: excelente",
+				"Permitido no OSM: cavalo: não"
+			],
+			"description": "A Trilha 6 km fica na região de Parque Ibirapuera, na zona sul da cidade de São Paulo. Distância, desnível e tempo são estimativas a partir do OpenStreetMap. O trecho medido tem distância de 1,1 km, só ida, com desnível estimado na ida subindo 25 m e descendo 28 m, e tempo estimado de 16 min. Como a trilha não é circular, a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida. O nome cita 6 km, mas o trecho medido no OpenStreetMap é só uma parte desse percurso."
+		},
+		{
+			"externalId": "TRL-542357553",
+			"title": "Trilha 6 km",
+			"region": "Parque Ibirapuera, na zona sul da cidade de São Paulo",
+			"facts": [
+				"Distância medida: 0,7 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 4 m e desce 8 m",
+				"Tempo estimado do percurso medido: 9 min",
+				"Dificuldade estimada: fácil",
+				"Tipo de caminho: trilha estreita",
+				"Piso: asfalto, pavimentado, sem pavimento",
+				"Escala SAC: T1 (caminhada)",
+				"Visibilidade da trilha: excelente",
+				"Permitido no OSM: cavalo: não"
+			],
+			"description": "A Trilha 6 km fica na região de Parque Ibirapuera, na zona sul da cidade de São Paulo. Distância, desnível e tempo são estimativas a partir do OpenStreetMap. O trecho medido tem distância de 0,7 km, só ida, com desnível estimado na ida subindo 4 m e descendo 8 m, e tempo estimado de 9 min. Como a trilha não é circular, a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida. O nome cita 6 km, mas o trecho medido no OpenStreetMap é só uma parte desse percurso."
+		},
+		{
+			"externalId": "TRL-561076435",
+			"title": "Trilha Cachoeira Véu da Noiva",
+			"region": "Serra do Mar no ABC paulista (São Bernardo do Campo e Santo André)",
+			"facts": [
+				"Distância medida: 1,6 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 111 m e desce 11 m",
+				"Tempo estimado do percurso medido: 31 min",
+				"Dificuldade estimada: fácil",
+				"Tipo de caminho: estrada de terra ou trilha larga"
+			],
+			"description": "A Trilha Cachoeira Véu da Noiva fica na região de Serra do Mar no ABC paulista (São Bernardo do Campo e Santo André). Pelo nome, leva a uma cachoeira. Distância, desnível e tempo são estimativas a partir do OpenStreetMap. O trecho medido tem distância de 1,6 km, só ida, com desnível estimado na ida subindo 111 m e descendo 11 m, e tempo estimado de 31 min. Como a trilha não é circular, a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida."
+		},
+		{
+			"externalId": "TRL-561545858",
+			"title": "Trilha do Pinheirinho",
+			"region": "Serra da Cantareira (Parque Estadual da Cantareira e arredores), no norte da Grande São Paulo",
+			"facts": [
+				"Distância medida: 4,5 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 45 m e desce 206 m",
+				"Tempo estimado do percurso medido: 1 h 15 min",
+				"Dificuldade estimada: moderada",
+				"Tipo de caminho: trilha estreita",
+				"Piso: terra",
+				"Escala SAC: T2 (caminhada de montanha)",
+				"Visibilidade da trilha: boa",
+				"Largura (m, OSM): 1.5"
+			],
+			"description": "A Trilha do Pinheirinho fica na região de Serra da Cantareira (Parque Estadual da Cantareira e arredores), no norte da Grande São Paulo. Distância, desnível e tempo são estimativas a partir do OpenStreetMap. O trecho medido tem distância de 4,5 km, só ida, com desnível estimado na ida subindo 45 m e descendo 206 m, e tempo estimado de 1 h 15 min. Como a trilha não é circular, a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida."
+		},
+		{
+			"externalId": "TRL-573342561",
+			"title": "Trilha para a Cachoeira da Fumaça",
+			"region": "Paranapiacaba, em Santo André, no alto da Serra do Mar",
+			"facts": [
+				"Distância medida: 3,2 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 17 m e desce 78 m",
+				"Tempo estimado do percurso medido: 46 min",
+				"Dificuldade estimada: moderada",
+				"Tipo de caminho: estrada de terra ou trilha larga",
+				"Piso: terra",
+				"Escala SAC: T2 (caminhada de montanha)",
+				"Visibilidade da trilha: intermediária",
+				"Permitido no OSM: bicicleta: não; cavalo: não"
+			],
+			"description": "A Trilha para a Cachoeira da Fumaça fica na região de Paranapiacaba, em Santo André, no alto da Serra do Mar. Pelo nome, ela leva a uma cachoeira. O trecho medido tem a distância medida de 3,2 km, só ida. Como a trilha não é circular, a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida. Distância, desnível e tempo são estimativas a partir do OpenStreetMap, indicando para este percurso um desnível na ida de subida de 17 m e descida de 78 m, e tempo estimado de 46 min."
+		},
+		{
+			"externalId": "TRL-616754951",
+			"title": "Trilha para a barragem Pedro Beicht",
+			"region": "Reserva Florestal do Morro Grande e Caucaia do Alto, em Cotia",
+			"facts": [
+				"Distância medida: 3,1 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 54 m e desce 61 m",
+				"Tempo estimado do percurso medido: 44 min",
+				"Dificuldade estimada: fácil",
+				"Tipo de caminho: trilha estreita",
+				"Piso: terra"
+			],
+			"description": "A Trilha para a barragem Pedro Beicht fica na região da Reserva Florestal do Morro Grande e Caucaia do Alto, em Cotia. O trecho medido tem a distância medida de 3,1 km, só ida. Como a trilha não é circular, a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida. Distância, desnível e tempo são estimativas a partir do OpenStreetMap, indicando para este percurso um desnível na ida de subida de 54 m e descida de 61 m, e tempo estimado de 44 min."
+		},
+		{
+			"externalId": "TRL-616774844",
+			"title": "Trilha Mata Dentro",
+			"region": "Reserva Florestal do Morro Grande e Caucaia do Alto, em Cotia",
+			"facts": [
+				"Distância medida: 0,8 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 30 m e desce 0 m",
+				"Tempo estimado do percurso medido: 13 min",
+				"Dificuldade estimada: fácil",
+				"Tipo de caminho: trilha estreita",
+				"Piso: terra"
+			],
+			"description": "A Trilha Mata Dentro fica na região da Reserva Florestal do Morro Grande e Caucaia do Alto, em Cotia. O trecho medido tem a distância medida de 0,8 km, só ida. Como a trilha não é circular, a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida. Distância, desnível e tempo são estimativas a partir do OpenStreetMap, indicando para este percurso um desnível na ida de subida de 30 m e descida de 0 m, e tempo estimado de 13 min."
+		},
+		{
+			"externalId": "TRL-616783978",
+			"title": "Trilha Buraco do Camel",
+			"region": "Reserva Florestal do Morro Grande e Caucaia do Alto, em Cotia",
+			"facts": [
+				"Distância medida: 7,2 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 175 m e desce 154 m",
+				"Tempo estimado do percurso medido: 1 h 44 min",
+				"Dificuldade estimada: moderada",
+				"Tipo de caminho: trilha estreita",
+				"Piso: terra"
+			],
+			"description": "A Trilha Buraco do Camel fica na região da Reserva Florestal do Morro Grande e Caucaia do Alto, em Cotia. O trecho medido tem a distância medida de 7,2 km, só ida. Como a trilha não é circular, a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida. Distância, desnível e tempo são estimativas a partir do OpenStreetMap, indicando para este percurso um desnível na ida de subida de 175 m e descida de 154 m, e tempo estimado de 1 h 44 min."
+		},
+		{
+			"externalId": "TRL-616790662",
+			"title": "Trilha do Índio",
+			"region": "Juquitiba, São Lourenço da Serra e Embu-Guaçu, no sudoeste da Grande São Paulo",
+			"facts": [
+				"Distância medida: 4,8 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 25 m e desce 726 m",
+				"Tempo estimado do percurso medido: 2 h 10 min",
+				"Dificuldade estimada: moderada",
+				"Tipo de caminho: trilha estreita",
+				"Piso: terra"
+			],
+			"description": "A Trilha do Índio fica na região de Juquitiba, São Lourenço da Serra e Embu-Guaçu, no sudoeste da Grande São Paulo. O trecho medido tem a distância medida de 4,8 km, só ida. Como a trilha não é circular, a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida. Distância, desnível e tempo são estimativas a partir do OpenStreetMap, indicando para este percurso um desnível na ida de subida de 25 m e descida de 726 m, e tempo estimado de 2 h 10 min."
+		},
+		{
+			"externalId": "TRL-616799021",
+			"title": "Trilha Rasga Banco",
+			"region": "Reserva Florestal do Morro Grande e Caucaia do Alto, em Cotia",
+			"facts": [
+				"Distância medida: 7,9 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 98 m e desce 131 m",
+				"Tempo estimado do percurso medido: 1 h 48 min",
+				"Dificuldade estimada: moderada",
+				"Tipo de caminho: trilha estreita",
+				"Piso: terra"
+			],
+			"description": "A Trilha Rasga Banco fica na região da Reserva Florestal do Morro Grande e Caucaia do Alto, em Cotia. O trecho medido tem a distância medida de 7,9 km, só ida. Como a trilha não é circular, a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida. Distância, desnível e tempo são estimativas a partir do OpenStreetMap, indicando para este percurso um desnível na ida de subida de 98 m e descida de 131 m, e tempo estimado de 1 h 48 min."
+		},
+		{
+			"externalId": "TRL-616806327",
+			"title": "Trilha Caucáia do Alto",
+			"region": "Reserva Florestal do Morro Grande e Caucaia do Alto, em Cotia",
+			"facts": [
+				"Distância medida: 8,4 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 224 m e desce 206 m",
+				"Tempo estimado do percurso medido: 2 h 03 min",
+				"Dificuldade estimada: moderada",
+				"Tipo de caminho: trilha estreita",
+				"Piso: terra"
+			],
+			"description": "A Trilha Caucáia do Alto fica na região da Reserva Florestal do Morro Grande e Caucaia do Alto, em Cotia. O trecho medido tem a distância medida de 8,4 km, só ida. Como a trilha não é circular, a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida. Distância, desnível e tempo são estimativas a partir do OpenStreetMap, indicando para este percurso um desnível na ida de subida de 224 m e descida de 206 m, e tempo estimado de 2 h 03 min."
+		},
+		{
+			"externalId": "TRL-616806768",
+			"title": "Trilha Corredeira",
+			"region": "Reserva Florestal do Morro Grande e Caucaia do Alto, em Cotia",
+			"facts": [
+				"Distância medida: 1,3 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 9 m e desce 44 m",
+				"Tempo estimado do percurso medido: 20 min",
+				"Dificuldade estimada: fácil",
+				"Tipo de caminho: trilha estreita",
+				"Piso: terra"
+			],
+			"description": "A Trilha Corredeira fica na região da Reserva Florestal do Morro Grande e Caucaia do Alto, em Cotia. O trecho medido tem a distância medida de 1,3 km, só ida. Como a trilha não é circular, a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida. Distância, desnível e tempo são estimativas a partir do OpenStreetMap, indicando para este percurso um desnível na ida de subida de 9 m e descida de 44 m, e tempo estimado de 20 min."
+		},
+		{
+			"externalId": "TRL-616807395",
+			"title": "Trilha Morro Grande",
+			"region": "Reserva Florestal do Morro Grande e Caucaia do Alto, em Cotia",
+			"facts": [
+				"Distância medida: 4,3 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 14 m e desce 40 m",
+				"Tempo estimado do percurso medido: 56 min",
+				"Dificuldade estimada: fácil",
+				"Tipo de caminho: trilha estreita",
+				"Piso: terra"
+			],
+			"description": "A Trilha Morro Grande fica na região da Reserva Florestal do Morro Grande e Caucaia do Alto, em Cotia. O trecho medido tem a distância medida de 4,3 km, só ida. Como a trilha não é circular, a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida. Distância, desnível e tempo são estimativas a partir do OpenStreetMap, indicando para este percurso um desnível na ida de subida de 14 m e descida de 40 m, e tempo estimado de 56 min."
+		},
+		{
+			"externalId": "TRL-616809293",
+			"title": "Trilha Cachoeira da Graça",
+			"region": "Reserva Florestal do Morro Grande e Caucaia do Alto, em Cotia",
+			"facts": [
+				"Distância medida: 1,1 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 88 m e desce 61 m",
+				"Tempo estimado do percurso medido: 22 min",
+				"Dificuldade estimada: fácil",
+				"Tipo de caminho: trilha estreita",
+				"Piso: terra"
+			],
+			"description": "A Trilha Cachoeira da Graça fica na região da Reserva Florestal do Morro Grande e Caucaia do Alto, em Cotia. Pelo nome, ela leva a uma cachoeira. O trecho medido tem a distância medida de 1,1 km, só ida. Como a trilha não é circular, a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida. Distância, desnível e tempo são estimativas a partir do OpenStreetMap, indicando para este percurso um desnível na ida de subida de 88 m e descida de 61 m, e tempo estimado de 22 min."
+		},
+		{
+			"externalId": "TRL-627067021",
+			"title": "Trilha da vaca louca",
+			"region": "Serra da Cantareira (Parque Estadual da Cantareira e arredores), no norte da Grande São Paulo",
+			"facts": [
+				"Distância medida: 1,8 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 14 m e desce 141 m",
+				"Tempo estimado do percurso medido: 35 min",
+				"Dificuldade estimada: fácil",
+				"Tipo de caminho: trilha estreita"
+			],
+			"description": "A Trilha da vaca louca fica na região da Serra da Cantareira (Parque Estadual da Cantareira e arredores), no norte da Grande São Paulo. Com trilha estreita, apresenta dificuldade estimada como fácil. Distância, desnível e tempo são estimativas a partir do OpenStreetMap, indicando para o trecho medido uma distância de 1,8 km, só ida, com desnível de sobe 14 m e desce 141 m, e tempo estimado de 35 min. Como a trilha não é circular, lembre que a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida."
+		},
+		{
+			"externalId": "TRL-653289622",
+			"title": "Estrada da Pedra do Elefante",
+			"region": "Ribeirão Pires e Rio Grande da Serra, no ABC paulista",
+			"facts": [
+				"Distância medida: 1,1 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 110 m e desce 14 m",
+				"Tempo estimado do percurso medido: 24 min",
+				"Dificuldade estimada: fácil",
+				"Tipo de caminho: trilha estreita",
+				"Piso: terra"
+			],
+			"description": "A Estrada da Pedra do Elefante fica na região de Ribeirão Pires e Rio Grande da Serra, no ABC paulista. Pelo nome, leva a uma formação de pedra. O caminho é do tipo trilha estreita com piso de terra, tendo dificuldade estimada como fácil. Distância, desnível e tempo são estimativas a partir do OpenStreetMap, registrando para o trecho medido 1,1 km só de ida, com desnível de sobe 110 m e desce 14 m, e tempo estimado de 24 min. Como a trilha não é circular, lembre que a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida."
+		},
+		{
+			"externalId": "TRL-685285093",
+			"title": "Estrada para o Mirante Pedra da Laje",
+			"region": "Mairiporã e Atibaia, ao norte da Serra da Cantareira",
+			"facts": [
+				"Distância medida: 0,6 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 28 m e desce 4 m",
+				"Tempo estimado do percurso medido: 10 min",
+				"Dificuldade estimada: fácil",
+				"Tipo de caminho: estrada de terra ou trilha larga",
+				"Piso: lama"
+			],
+			"description": "A Estrada para o Mirante Pedra da Laje fica na região de Mairiporã e Atibaia, ao norte da Serra da Cantareira. Pelo nome, leva a uma formação de pedra. Possui tipo de caminho estrada de terra ou trilha larga e piso de lama, com dificuldade estimada como fácil. Distância, desnível e tempo são estimativas a partir do OpenStreetMap, mostrando para o trecho medido uma distância de 0,6 km, só ida, com desnível de sobe 28 m e desce 4 m, e tempo estimado de 10 min. Como não é circular, a volta dobra a distância e inverte a subida e a descida."
+		},
+		{
+			"externalId": "TRL-697661021",
+			"title": "Trilha do Vale do Rio Mogi",
+			"region": "Paranapiacaba, em Santo André, no alto da Serra do Mar",
+			"facts": [
+				"Distância medida: 5,7 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 768 m e desce 16 m",
+				"Tempo estimado do percurso medido: 2 h 25 min",
+				"Dificuldade estimada: moderada",
+				"Tipo de caminho: estrada de terra ou trilha larga",
+				"Piso: sem pavimento"
+			],
+			"description": "A Trilha do Vale do Rio Mogi fica na região de Paranapiacaba, em Santo André, no alto da Serra do Mar. Apresenta caminho do tipo estrada de terra ou trilha larga com piso sem pavimento e dificuldade estimada como moderada. Distância, desnível e tempo são estimativas a partir do OpenStreetMap, indicando para o trecho medido uma distância de 5,7 km, só ida, com desnível de sobe 768 m e desce 16 m, e tempo estimado de 2 h 25 min. Como a trilha não é circular, lembre que a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida."
+		},
+		{
+			"externalId": "TRL-699109699",
+			"title": "Trilha da Interligação",
+			"region": "Serra do Mar entre São Bernardo do Campo e Cubatão",
+			"facts": [
+				"Distância medida: 3,9 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 23 m e desce 45 m",
+				"Tempo estimado do percurso medido: 52 min",
+				"Dificuldade estimada: fácil",
+				"Tipo de caminho: trilha estreita",
+				"Permitido no OSM: bicicleta: sim"
+			],
+			"description": "A Trilha da Interligação fica na região da Serra do Mar entre São Bernardo do Campo e Cubatão. O percurso é feito em trilha estreita com dificuldade estimada como fácil. Distância, desnível e tempo são estimativas a partir do OpenStreetMap, registrando para o trecho medido 3,9 km, só ida, com desnível de sobe 23 m e desce 45 m, e tempo estimado de 52 min. Como a trilha não é circular, lembre que a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida."
+		},
+		{
+			"externalId": "TRL-769099961",
+			"title": "Caminho Curto",
+			"region": "Ribeirão Pires e Rio Grande da Serra, no ABC paulista",
+			"facts": [
+				"Distância medida: 0,6 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 0 m e desce 6 m",
+				"Tempo estimado do percurso medido: 7 min",
+				"Dificuldade estimada: fácil",
+				"Tipo de caminho: trilha estreita",
+				"Piso: sem pavimento"
+			],
+			"description": "O Caminho Curto fica na região de Ribeirão Pires e Rio Grande da Serra, no ABC paulista. O trajeto é em trilha estreita com piso sem pavimento, sendo classificado com dificuldade fácil. Distância, desnível e tempo são estimativas a partir do OpenStreetMap, marcando para o trecho medido uma distância de 0,6 km, só ida, com desnível de sobe 0 m e desce 6 m, e tempo estimado de 7 min. Como a trilha não é circular, lembre que a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida."
+		},
+		{
+			"externalId": "TRL-77230830",
+			"title": "Trilha de Caminhada",
+			"region": "Parque Ecológico do Tietê, na zona leste da cidade de São Paulo",
+			"facts": [
+				"Distância medida: 4,8 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 26 m e desce 18 m",
+				"Tempo estimado do percurso medido: 57 min",
+				"Dificuldade estimada: fácil",
+				"Tipo de caminho: estrada de terra ou trilha larga",
+				"Piso: sem pavimento, sem pavimento, cascalho, pavimentado",
+				"Permitido no OSM: a pé: sim; bicicleta: sim"
+			],
+			"description": "A Trilha de Caminhada fica na região do Parque Ecológico do Tietê, na zona leste da cidade de São Paulo. O caminho é do tipo estrada de terra ou trilha larga com piso sem pavimento, cascalho e pavimentado, e dificuldade estimada como fácil. Distância, desnível e tempo são estimativas a partir do OpenStreetMap, apontando para o trecho medido uma distância de 4,8 km, só ida, com desnível de sobe 26 m e desce 18 m, e tempo estimado de 57 min. Como não é circular, a volta dobra a distância e inverte a subida e a descida."
+		},
+		{
+			"externalId": "TRL-815101634",
+			"title": "Trilha dos Lagos",
+			"region": "Parque Estadual do Juquery, em Franco da Rocha",
+			"facts": [
+				"Distância medida: 1,2 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 0 m e desce 50 m",
+				"Tempo estimado do percurso medido: 19 min",
+				"Dificuldade estimada: fácil",
+				"Tipo de caminho: trilha estreita",
+				"Piso: terra"
+			],
+			"description": "A Trilha dos Lagos fica na região do Parque Estadual do Juquery, em Franco da Rocha. O trajeto é em trilha estreita com piso de terra e dificuldade estimada como fácil. Distância, desnível e tempo são estimativas a partir do OpenStreetMap, assinalando para o trecho medido uma distância de 1,2 km, só ida, com desnível de sobe 0 m e desce 50 m, e tempo estimado de 19 min. Como a trilha não é circular, lembre que a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida."
+		},
+		{
+			"externalId": "TRL-817950460",
+			"title": "Trilha do Pocinho",
+			"region": "Juquitiba, São Lourenço da Serra e Embu-Guaçu, no sudoeste da Grande São Paulo",
+			"facts": [
+				"Distância medida: 1,4 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 59 m e desce 62 m",
+				"Tempo estimado do percurso medido: 23 min",
+				"Dificuldade estimada: fácil",
+				"Tipo de caminho: trilha estreita",
+				"Piso: sem pavimento"
+			],
+			"description": "A Trilha do Pocinho fica na região de Juquitiba, São Lourenço da Serra e Embu-Guaçu, no sudoeste da Grande São Paulo. Conta com trilha estreita e piso sem pavimento, com dificuldade estimada como fácil. Distância, desnível e tempo são estimativas a partir do OpenStreetMap, trazendo para o trecho medido uma distância de 1,4 km, só ida, com desnível de sobe 59 m e desce 62 m, e tempo estimado de 23 min. Como a trilha não é circular, lembre que a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida."
+		},
+		{
+			"externalId": "TRL-820506969",
+			"title": "Trilha do Carvalho",
+			"region": "Mairiporã e Atibaia, ao norte da Serra da Cantareira",
+			"facts": [
+				"Distância medida: 2,9 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 4 m e desce 247 m",
+				"Tempo estimado do percurso medido: 59 min",
+				"Dificuldade estimada: fácil",
+				"Tipo de caminho: trilha estreita",
+				"Piso: terra",
+				"Largura (m, OSM): 1"
+			],
+			"description": "A Trilha do Carvalho fica na região de Mairiporã e Atibaia, ao norte da Serra da Cantareira. O percurso possui trilha estreita com piso de terra e dificuldade estimada como fácil. Distância, desnível e tempo são estimativas a partir do OpenStreetMap, indicando para o trecho medido 2,9 km, só ida, com desnível de sobe 4 m e desce 247 m, e tempo estimado de 59 min. Como a trilha não é circular, lembre que a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida."
+		},
+		{
+			"externalId": "TRL-825886436",
+			"title": "Trilha da Cachoeira do Funil",
+			"region": "Juquitiba, São Lourenço da Serra e Embu-Guaçu, no sudoeste da Grande São Paulo",
+			"facts": [
+				"Distância medida: 9,7 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 250 m e desce 72 m",
+				"Tempo estimado do percurso medido: 1 h 20 min",
+				"Dificuldade estimada: moderada",
+				"Tipo de caminho: trilha estreita",
+				"Piso: sem pavimento",
+				"Permitido no OSM: bicicleta: não; cavalo: não"
+			],
+			"description": "A Trilha da Cachoeira do Funil fica na região de Juquitiba, São Lourenço da Serra e Embu-Guaçu, no sudoeste da Grande São Paulo, e pelo nome leva a uma cachoeira. O trecho medido tem a distância medida de 9,7 km, só ida. Como a trilha não é circular, a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida. Distância, desnível e tempo são estimativas a partir do OpenStreetMap, sendo o desnível estimado na ida a subida de 250 m e descida de 72 m, com tempo estimado de 1 h 20 min."
+		},
+		{
+			"externalId": "TRL-825931432",
+			"title": "Trilha da Cavernosa",
+			"region": "Embu-Guaçu, Itapecerica da Serra e Cotia, a sudoeste de São Paulo",
+			"facts": [
+				"Distância medida: 1,6 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 109 m e desce 9 m",
+				"Tempo estimado do percurso medido: 30 min",
+				"Dificuldade estimada: fácil",
+				"Tipo de caminho: trilha estreita",
+				"Piso: sem pavimento"
+			],
+			"description": "A Trilha da Cavernosa fica na região de Embu-Guaçu, Itapecerica da Serra e Cotia, a sudoeste de São Paulo, e pelo nome leva a uma cavernosa. O trecho medido tem a distância medida de 1,6 km, só ida. Como a trilha não é circular, a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida. Distância, desnível e tempo são estimativas a partir do OpenStreetMap, sendo o desnível estimado na ida a subida de 109 m e descida de 9 m, com tempo estimado de 30 min."
+		},
+		{
+			"externalId": "TRL-826622217",
+			"title": "Trilha para a represa Pedro Beicht",
+			"region": "Reserva Florestal do Morro Grande e Caucaia do Alto, em Cotia",
+			"facts": [
+				"Distância medida: 1,3 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 6 m e desce 25 m",
+				"Tempo estimado do percurso medido: 18 min",
+				"Dificuldade estimada: fácil",
+				"Tipo de caminho: trilha estreita"
+			],
+			"description": "A Trilha para a represa Pedro Beicht fica na região de Reserva Florestal do Morro Grande e Caucaia do Alto, em Cotia. O trecho medido tem a distância medida de 1,3 km, só ida. Como a trilha não é circular, a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida. Distância, desnível e tempo são estimativas a partir do OpenStreetMap, sendo o desnível estimado na ida a subida de 6 m e descida de 25 m, com tempo estimado de 18 min."
+		},
+		{
+			"externalId": "TRL-826626615",
+			"title": "Trilha para a Rota da Madeira",
+			"region": "Paranapiacaba, em Santo André, no alto da Serra do Mar",
+			"facts": [
+				"Distância medida: 3,2 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 102 m e desce 10 m",
+				"Tempo estimado do percurso medido: 48 min",
+				"Dificuldade estimada: fácil",
+				"Tipo de caminho: trilha estreita",
+				"Piso: sem pavimento"
+			],
+			"description": "A Trilha para a Rota da Madeira fica na região de Paranapiacaba, em Santo André, no alto da Serra do Mar. O trecho medido tem a distância medida de 3,2 km, só ida. Como a trilha não é circular, a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida. Distância, desnível e tempo são estimativas a partir do OpenStreetMap, sendo o desnível estimado na ida a subida de 102 m e descida de 10 m, com tempo estimado de 48 min."
+		},
+		{
+			"externalId": "TRL-826628787",
+			"title": "Trilha do Despézio",
+			"region": "Juquitiba, São Lourenço da Serra e Embu-Guaçu, no sudoeste da Grande São Paulo",
+			"facts": [
+				"Distância medida: 2,0 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 18 m e desce 18 m",
+				"Tempo estimado do percurso medido: 26 min",
+				"Dificuldade estimada: fácil",
+				"Tipo de caminho: trilha estreita"
+			],
+			"description": "A Trilha do Despézio fica na região de Juquitiba, São Lourenço da Serra e Embu-Guaçu, no sudoeste da Grande São Paulo. O trecho medido tem a distância medida de 2,0 km, só ida. Como a trilha não é circular, a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida. Distância, desnível e tempo são estimativas a partir do OpenStreetMap, sendo o desnível estimado na ida a subida de 18 m e descida de 18 m, com tempo estimado de 26 min."
+		},
+		{
+			"externalId": "TRL-839515139",
+			"title": "Trilha do Capivari",
+			"region": "extremo sul da cidade de São Paulo (Parelheiros e Marsilac), perto da Serra do Mar",
+			"facts": [
+				"Distância medida: 1,3 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 26 m e desce 36 m",
+				"Tempo estimado do percurso medido: 19 min",
+				"Dificuldade estimada: fácil",
+				"Tipo de caminho: trilha estreita"
+			],
+			"description": "A Trilha do Capivari fica na região de extremo sul da cidade de São Paulo (Parelheiros e Marsilac), perto da Serra do Mar. O trecho medido tem a distância medida de 1,3 km, só ida. Como a trilha não é circular, a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida. Distância, desnível e tempo são estimativas a partir do OpenStreetMap, sendo o desnível estimado na ida a subida de 26 m e descida de 36 m, com tempo estimado de 19 min."
+		},
+		{
+			"externalId": "TRL-845432945",
+			"title": "Trilha Caucáia do Alto",
+			"region": "Reserva Florestal do Morro Grande e Caucaia do Alto, em Cotia",
+			"facts": [
+				"Distância medida: 6,5 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 145 m e desce 85 m",
+				"Tempo estimado do percurso medido: 1 h 33 min",
+				"Dificuldade estimada: moderada",
+				"Tipo de caminho: trilha estreita",
+				"Piso: terra"
+			],
+			"description": "A Trilha Caucáia do Alto fica na região de Reserva Florestal do Morro Grande e Caucaia do Alto, em Cotia. O trecho medido tem a distância medida de 6,5 km, só ida. Como a trilha não é circular, a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida. Distância, desnível e tempo são estimativas a partir do OpenStreetMap, sendo o desnível estimado na ida a subida de 145 m e descida de 85 m, com tempo estimado de 1 h 33 min."
+		},
+		{
+			"externalId": "TRL-845432947",
+			"title": "Trilha Caucáia do Alto",
+			"region": "Reserva Florestal do Morro Grande e Caucaia do Alto, em Cotia",
+			"facts": [
+				"Distância medida: 0,8 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 41 m e desce 0 m",
+				"Tempo estimado do percurso medido: 13 min",
+				"Dificuldade estimada: fácil",
+				"Tipo de caminho: estrada de terra ou trilha larga",
+				"Piso: terra"
+			],
+			"description": "A Trilha Caucáia do Alto fica na região de Reserva Florestal do Morro Grande e Caucaia do Alto, em Cotia. O trecho medido tem a distância medida de 0,8 km, só ida. Como a trilha não é circular, a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida. Distância, desnível e tempo são estimativas a partir do OpenStreetMap, sendo o desnível estimado na ida a subida de 41 m e descida de 0 m, com tempo estimado de 13 min."
+		},
+		{
+			"externalId": "TRL-845432953",
+			"title": "Trilha do Túnel",
+			"region": "Reserva Florestal do Morro Grande e Caucaia do Alto, em Cotia",
+			"facts": [
+				"Distância medida: 2,2 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 29 m e desce 103 m",
+				"Tempo estimado do percurso medido: 37 min",
+				"Dificuldade estimada: fácil",
+				"Tipo de caminho: trilha estreita"
+			],
+			"description": "A Trilha do Túnel fica na região de Reserva Florestal do Morro Grande e Caucaia do Alto, em Cotia, e pelo nome leva a um túnel. O trecho medido tem a distância medida de 2,2 km, só ida. Como a trilha não é circular, a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida. Distância, desnível e tempo são estimativas a partir do OpenStreetMap, sendo o desnível estimado na ida a subida de 29 m e descida de 103 m, com tempo estimado de 37 min."
+		},
+		{
+			"externalId": "TRL-845432959",
+			"title": "Trilha Mata Dentro",
+			"region": "Reserva Florestal do Morro Grande e Caucaia do Alto, em Cotia",
+			"facts": [
+				"Distância medida: 8,3 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 59 m e desce 115 m",
+				"Tempo estimado do percurso medido: 1 h 51 min",
+				"Dificuldade estimada: moderada",
+				"Tipo de caminho: trilha estreita"
+			],
+			"description": "A Trilha Mata Dentro fica na região de Reserva Florestal do Morro Grande e Caucaia do Alto, em Cotia. O trecho medido tem a distância medida de 8,3 km, só ida. Como a trilha não é circular, a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida. Distância, desnível e tempo são estimativas a partir do OpenStreetMap, sendo o desnível estimado na ida a subida de 59 m e descida de 115 m, com tempo estimado de 1 h 51 min."
+		},
+		{
+			"externalId": "TRL-893422649",
+			"title": "Trilha da Jaguatirica",
+			"region": "Serra da Cantareira (Parque Estadual da Cantareira e arredores), no norte da Grande São Paulo",
+			"facts": [
+				"Distância medida: 1,1 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 51 m e desce 21 m",
+				"Tempo estimado do percurso medido: 18 min",
+				"Dificuldade estimada: fácil",
+				"Tipo de caminho: trilha estreita",
+				"Escala SAC: T1 (caminhada)",
+				"Visibilidade da trilha: excelente"
+			],
+			"description": "A Trilha da Jaguatirica fica na região da Serra da Cantareira (Parque Estadual da Cantareira e arredores), no norte da Grande São Paulo. Pelo nome, ela faz referência a uma jaguatirica. A distância, o desnível e o tempo são estimativas a partir do OpenStreetMap. O trecho medido tem a distância medida de 1,1 km, só ida. Como a trilha não é circular, a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida. O desnível estimado na ida sobe 51 m e desce 21 m, com tempo estimado de 18 min."
+		},
+		{
+			"externalId": "TRL-913885520",
+			"title": "Caminho do Sol",
+			"region": "Pirapora do Bom Jesus e Santana de Parnaíba, a oeste de São Paulo",
+			"facts": [
+				"Distância medida: 1,0 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 66 m e desce 0 m",
+				"Tempo estimado do percurso medido: 17 min",
+				"Dificuldade estimada: fácil",
+				"Tipo de caminho: trilha estreita"
+			],
+			"description": "O Caminho do Sol fica na região de Pirapora do Bom Jesus e Santana de Parnaíba, a oeste de São Paulo. Pelo nome, ele faz referência ao sol. A distância, o desnível e o tempo são estimativas a partir do OpenStreetMap. O trecho medido tem a distância medida de 1,0 km, só ida. Como a trilha não é circular, a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida. O desnível estimado na ida sobe 66 m e desce 0 m, com tempo estimado de 17 min."
+		},
+		{
+			"externalId": "TRL-920571508",
+			"title": "Trilha para Ruína da Comunidade",
+			"region": "Paranapiacaba, em Santo André, no alto da Serra do Mar",
+			"facts": [
+				"Distância medida: 2,1 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 238 m e desce 85 m",
+				"Tempo estimado do percurso medido: 49 min",
+				"Dificuldade estimada: fácil",
+				"Tipo de caminho: trilha estreita",
+				"Piso: sem pavimento",
+				"Permitido no OSM: a pé: sim; bicicleta: não"
+			],
+			"description": "A Trilha para Ruína da Comunidade fica na região de Paranapiacaba, em Santo André, no alto da Serra do Mar. Pelo nome, ela leva a uma ruína da comunidade. A distância, o desnível e o tempo são estimativas a partir do OpenStreetMap. O trecho medido tem a distância medida de 2,1 km, só ida. Como a trilha não é circular, a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida. O desnível estimado na ida sobe 238 m e desce 85 m, com tempo estimado de 49 min."
+		},
+		{
+			"externalId": "TRL-921164657",
+			"title": "Trilha das Mandalas",
+			"region": "Paranapiacaba, em Santo André, no alto da Serra do Mar",
+			"facts": [
+				"Distância medida: 1,7 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 84 m e desce 150 m",
+				"Tempo estimado do percurso medido: 35 min",
+				"Dificuldade estimada: fácil",
+				"Tipo de caminho: trilha estreita",
+				"Piso: sem pavimento"
+			],
+			"description": "A Trilha das Mandalas fica na região de Paranapiacaba, em Santo André, no alto da Serra do Mar. Pelo nome, ela faz referência a mandalas. A distância, o desnível e o tempo são estimativas a partir do OpenStreetMap. O trecho medido tem a distância medida de 1,7 km, só ida. Como a trilha não é circular, a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida. O desnível estimado na ida sobe 84 m e desce 150 m, com tempo estimado de 35 min."
+		},
+		{
+			"externalId": "TRL-923202212",
+			"title": "Trilha para represa Pedro Beicht",
+			"region": "Reserva Florestal do Morro Grande e Caucaia do Alto, em Cotia",
+			"facts": [
+				"Distância medida: 2,2 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 76 m e desce 44 m",
+				"Tempo estimado do percurso medido: 35 min",
+				"Dificuldade estimada: fácil",
+				"Tipo de caminho: trilha estreita"
+			],
+			"description": "A Trilha para represa Pedro Beicht fica na região da Reserva Florestal do Morro Grande e Caucaia do Alto, em Cotia. Pelo nome, ela leva à represa Pedro Beicht. A distância, o desnível e o tempo são estimativas a partir do OpenStreetMap. O trecho medido tem a distância medida de 2,2 km, só ida. Como a trilha não é circular, a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida. O desnível estimado na ida sobe 76 m e desce 44 m, com tempo estimado de 35 min."
+		},
+		{
+			"externalId": "TRL-923745182",
+			"title": "Caminho de casa",
+			"region": "entre Atibaia e Jarinu, no norte da região",
+			"facts": [
+				"Distância medida: 0,6 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 0 m e desce 76 m",
+				"Tempo estimado do percurso medido: 14 min",
+				"Dificuldade estimada: fácil",
+				"Tipo de caminho: estrada de terra ou trilha larga",
+				"Piso: terra"
+			],
+			"description": "O Caminho de casa fica na região entre Atibaia e Jarinu, no norte da região. Pelo nome, ele faz referência a casa. A distância, o desnível e o tempo são estimativas a partir do OpenStreetMap. O trecho medido tem a distância medida de 0,6 km, só ida. Como a trilha não é circular, a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida. O desnível estimado na ida sobe 0 m e desce 76 m, com tempo estimado de 14 min."
+		},
+		{
+			"externalId": "TRL-971492556",
+			"title": "Trilha da Cuca",
+			"region": "Serra da Cantareira (Parque Estadual da Cantareira e arredores), no norte da Grande São Paulo",
+			"facts": [
+				"Distância medida: 2,7 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 38 m e desce 277 m",
+				"Tempo estimado do percurso medido: 1 h 00 min",
+				"Dificuldade estimada: difícil",
+				"Tipo de caminho: estrada de terra ou trilha larga",
+				"Piso: lama",
+				"Escala SAC: T3 (caminhada de montanha exigente)",
+				"Visibilidade da trilha: intermediária",
+				"Permitido no OSM: cavalo: não",
+				"Largura (m, OSM): 0.5"
+			],
+			"description": "A Trilha da Cuca fica na região da Serra da Cantareira (Parque Estadual da Cantareira e arredores), no norte da Grande São Paulo. Pelo nome, ela faz referência à Cuca. A distância, o desnível e o tempo são estimativas a partir do OpenStreetMap. O trecho medido tem a distância medida de 2,7 km, só ida. Como a trilha não é circular, a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida. O desnível estimado na ida sobe 38 m e desce 277 m, com tempo estimado de 1 h 00 min."
+		},
+		{
+			"externalId": "TRL-971773106",
+			"title": "Trilha do Rancho",
+			"region": "Serra do Mar entre São Bernardo do Campo e Cubatão",
+			"facts": [
+				"Distância medida: 1,9 km, só ida (não é circular)",
+				"Desnível estimado na ida: sobe 5 m e desce 18 m",
+				"Tempo estimado do percurso medido: 24 min",
+				"Dificuldade estimada: fácil",
+				"Tipo de caminho: trilha estreita",
+				"Piso: sem pavimento",
+				"Acesso: exige autorização",
+				"Permitido no OSM: bicicleta: sim"
+			],
+			"description": "A Trilha do Rancho fica na região da Serra do Mar entre São Bernardo do Campo e Cubatão. Pelo nome, ela leva a um rancho. A distância, o desnível e o tempo são estimativas a partir do OpenStreetMap. O trecho medido tem a distância medida de 1,9 km, só ida. Como a trilha não é circular, a volta pelo mesmo caminho dobra a distância e inverte a subida e a descida. O desnível estimado na ida sobe 5 m e desce 18 m, com tempo estimado de 24 min."
+		}
+	]
+}

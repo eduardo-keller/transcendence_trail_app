@@ -22,7 +22,7 @@
 - GNU Make 4 e OpenSSL 3.0 ou mais novo.
 - Google Chrome, versão estável mais recente.
 
-**Configuração:** nenhuma é obrigatória. Na primeira execução, o `make` cria `docker/.env` a partir de [`docker/.env.example`](docker/.env.example) (usuário e nome do banco, portas), gera as senhas em `docker/secrets/` e o certificado HTTPS em `docker/nginx/certs/`. Nada disso vai para o git.
+**Configuração:** nenhuma é obrigatória. Na primeira execução, o `make` cria `docker/.env` a partir de [`docker/.env.example`](docker/.env.example) (usuário e nome do banco, portas), gera as senhas em `docker/secrets/` e o certificado HTTPS em `docker/nginx/certs/`. Nada disso vai para o git. Opcional: para ligar o assistente de IA, cole uma chave do Google Gemini em `docker/secrets/gemini_api_key.txt` antes do `make` (sem ela, o resto do app funciona).
 
 **Execução:**
 1. `make`
@@ -33,11 +33,12 @@ Para parar: `make down`. Para apagar tudo, inclusive o banco: `make fclean`.
 
 ## Resources
 
-- [Next.js](https://nextjs.org/docs), [Prisma](https://www.prisma.io/docs), [Better Auth](https://www.better-auth.com/docs), [Socket.IO](https://socket.io/docs/v4/), [Zod](https://zod.dev), [Tailwind CSS](https://tailwindcss.com/docs), [nginx](https://nginx.org/en/docs/), [Docker Compose](https://docs.docker.com/compose/), [pgvector](https://github.com/pgvector/pgvector)
+- [Next.js](https://nextjs.org/docs), [Prisma](https://www.prisma.io/docs), [Better Auth](https://www.better-auth.com/docs), [Socket.IO](https://socket.io/docs/v4/), [Zod](https://zod.dev), [Tailwind CSS](https://tailwindcss.com/docs), [nginx](https://nginx.org/en/docs/), [Docker Compose](https://docs.docker.com/compose/), [pgvector](https://github.com/pgvector/pgvector), [Vercel AI SDK](https://ai-sdk.dev/docs), [Gemini API](https://ai.google.dev/gemini-api/docs)
 - [OpenStreetMap: Map features](https://wiki.openstreetmap.org/wiki/Map_features), [API da intra 42](https://api.intra.42.fr/apidoc)
 - [PostgreSQL: isolamento de transações](https://www.postgresql.org/docs/current/transaction-iso.html), [TOTP (RFC 6238)](https://datatracker.ietf.org/doc/html/rfc6238), [OAuth com PKCE (RFC 7636)](https://datatracker.ietf.org/doc/html/rfc7636)
 
 **Uso de IA:** *(a completar)*
+- No corpus do assistente: as descrições das 88 trilhas foram geradas pelo Google Gemini só com os dados do OpenStreetMap (distância, desnível, piso, região), e os guias gerais foram rascunhados com IA, para revisão do time.
 
 ## Team Information
 
@@ -65,6 +66,7 @@ Para parar: `make down`. Para apagar tudo, inclusive o banco: `make fclean`.
 | Autenticação | Better Auth | Hash com salt pronto; sessão no banco; plugins de OAuth e 2FA |
 | Tempo real | Socket.IO | Salas por usuário e reconexão, no mesmo processo do Next |
 | Validação | Zod | O mesmo schema valida o formulário e o servidor |
+| IA | Vercel AI SDK 7 + Google Gemini | Camada gratuita; geração e embeddings na mesma API; streaming até o navegador e modelo falso para testes prontos no SDK |
 | Infra | Docker Compose, nginx | Um comando sobe tudo; HTTPS com um só ponto de entrada |
 
 ## Database Schema
@@ -90,6 +92,8 @@ erDiagram
   User ||--o{ Friendship : "faz amizade"
   User ||--o{ UserBadge : "conquista"
   Badge ||--o{ UserBadge : "concedido"
+  User ||--o{ AiUsage : "consome"
+  RagDocument ||--o{ RagChunk : "dividido em"
 ```
 
 | Tabela | Campos principais (tipo) |
@@ -105,6 +109,8 @@ erDiagram
 | `Notification` | `type` (enum `NotificationType`), `message` (String), `targetId` (String, opcional), `isRead` (Boolean), `userId` (FK) |
 | `Friendship` | `userAId` / `userBId` (FK, par ordenado e único), `requesterId` (String), `status` (enum `PENDING`/`ACCEPTED`) |
 | `Badge` / `UserBadge` | `name` (String, único) / `earnedAt` (DateTime), par `userId`+`badgeId` único |
+| `AiUsage` | Rate limit do assistente de IA: `userId` (FK) + `period` (String: o minuto ou o dia, em UTC) como chave, `count` (Int). Não guarda o que foi perguntado |
+| `RagDocument` / `RagChunk` | Base do assistente: documento (`source`: Wikipedia, trilha ou guia; `title`, `url`, `license`, `trailExternalId`) / trecho (`content`, `embedding` vector(768)). Carregada de um arquivo versionado; não guarda nada do usuário |
 | `Community`, `CommunityMember`, `Event`, `EventParticipant`, `Post` | Comunidades, eventos e posts (adiados); `role` (enum) do membro; pares únicos por usuário |
 
 Excluir um usuário apaga os dados dele em cascata; apagar uma trilha mantém as atividades, com `trailId` nulo.
@@ -125,6 +131,8 @@ Excluir um usuário apaga os dados dele em cascata; apagar uma trilha mantém as
 | Tema e navegação | Cores, fontes e barra de navegação | Rafael |
 | Amizades | Pedir, aceitar, recusar e desfazer; listas de amigos e pedidos, ao vivo | Rafael |
 | Notificações | Sino com contador, página de notificações, clicar marca como lida; sincroniza entre abas | Rafael |
+| Pergunte sobre as trilhas (IA) | `/perguntar`: perguntas respondidas a partir de uma base própria (Wikipedia, trilhas do OSM, guias), com as fontes de cada resposta | Eduardo |
+| Planejador de trilha com IA | `/planejar`: escolhe a trilha, a data, a experiência e as horas; o plano chega em streaming, com Parar, limite de uso e erro amigável | Eduardo |
 
 ## Modules
 
@@ -136,8 +144,8 @@ Excluir um usuário apaga os dados dele em cascata; apagar uma trilha mantém as
 | Gerenciamento de usuários | Major | 2 | Toda funcionalidade depende de contas | Perfil, página pública, avatar validado pelo conteúdo | Diego |
 | Interação entre usuários | Major | 2 | Fazer trilha é social | *A fazer.* | Rafael |
 | Tempo real | Major | 2 | Chat e notificações ao vivo | Socket.IO autenticado, sala por usuário; eventos a fazer | Rafael, Gabriel |
-| Interface de LLM | Major | 2 | Planejar uma trilha com ajuda | *A fazer.* | Eduardo |
-| Sistema RAG | Major | 2 | Perguntas sobre as trilhas, com fontes | *A fazer.* | Eduardo |
+| Interface de LLM | Major | 2 | Planejar uma trilha com ajuda | Planejador em `/planejar`: Gemini pelo Vercel AI SDK, streaming (SSE) com Parar, rate limit por usuário no banco, erro do provedor como mensagem amigável | Eduardo |
+| Sistema RAG | Major | 2 | Perguntas sobre as trilhas, com fontes | `/perguntar`: embeddings do Gemini no pgvector, busca por distância de cosseno com limiar ("não encontrei"), resposta em streaming citando as fontes; índice versionado, carregado sem chamar a API | Eduardo |
 | PWA | Minor | 1 | Usar o app na trilha, sem sinal | *A fazer.* | Juh |
 | OAuth 2.0 | Minor | 1 | Entrar com a conta da 42 ou do GitHub | GitHub e 42 pelo Better Auth, com state e PKCE | Diego |
 | Gamificação | Minor | 1 | Incentivar a registrar atividades | *A fazer.* | Eduardo |
@@ -167,3 +175,5 @@ Excluir um usuário apaga os dados dele em cascata; apagar uma trilha mantém as
 ## Licença dos dados
 
 Dados de mapa e trilhas © [OpenStreetMap contributors](https://www.openstreetmap.org/copyright), sob a licença ODbL. O catálogo derivado incluído neste repositório (`apps/web/prisma/data/`) também está sob ODbL.
+
+Os artigos da Wikipedia usados pelo assistente (`apps/web/prisma/data/rag/wikipedia.json`) estão sob [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/); cada resposta cita o título e o link do artigo.

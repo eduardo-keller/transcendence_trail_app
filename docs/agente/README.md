@@ -12,7 +12,7 @@ Nesta pasta: este arquivo (estado, dependências, o que cobrar), [prompts.md](pr
 | **Juh** | — | Tokens, componentes básicos, layout com rodapé | Nenhum commit ainda; o subject exige commits de todos |
 | **Gabs** | Correção do `package.json` + primeiro Makefile (`7242cdc`); schema do Better Auth + cliente Prisma (`7e2cb3f`); helpers de API + `/api/health` (`a13d497`); docs alinhados ao código (`85ff8ba`); importação do OSM (`1ccf712`) | nginx + HTTPS; testar o service worker com a Juh; decidir o WebSocket com o Rafa | Commits `wip` (`a13d497`, `1ccf712`, este com 3.886 arquivos); 16 MB de GPX sem uso; dados de trilhas sem filtro |
 | **Di** | Correção da `DATABASE_URL` (`ce14249`); rotas do Better Auth, rate limit, cliente de auth, script de teste (`2cd0e23`…`e1ba98a`) | `getSession()` / `requireUser()` + telas de login e cadastro | Commits com dois nomes (`Diego Teruya`, `Teruya`), mesmo e-mail; inofensivo |
-| **Rafa** | Docker inicial (`d0bdd82`); `/login` e auth WIP (`afef34b`); schema ampliado (`6dde86b`); reorganização em `apps/` + `docker/`, Docker secrets e Makefile (`3adf507`) | Decidir o WebSocket; `Friendship` no schema; `notify()` | Apagou `AGENTS.md`, `CLAUDE.md` e `CONTRIBUTING.md` em `3adf507` sem mencionar na mensagem; confirmar se foi intencional (o `CLAUDE.md` voltou na reestruturação). A infra que ele montou passa ao Gabs |
+| **Rafa** | Docker inicial (`d0bdd82`); `/login` e auth WIP (`afef34b`); schema ampliado (`6dde86b`); reorganização em `apps/` + `docker/`, Docker secrets e Makefile (`3adf507`); `notify()` e notificações com tipo (PR #1); amizade (PR #2) | Chat, presença e o sino em todas as páginas | Apagou `AGENTS.md`, `CLAUDE.md` e `CONTRIBUTING.md` em `3adf507` sem mencionar na mensagem; confirmar se foi intencional (o `CLAUDE.md` voltou na reestruturação). A infra que ele montou passa ao Gabs |
 | **Edu** | Docs iniciais (`7128445`); reestruturação dos docs | Provedor de LLM ([llm.md](../decisoes/llm.md)); `mock` com streaming; esqueleto do planejador | RAG e gamificação dependem do catálogo, que está sem dono |
 
 ## Dependências
@@ -44,6 +44,8 @@ flowchart LR
 - [ ] Papéis PO, PM e Tech Lead.
 - [ ] Decisões pendentes em [decisoes/](../decisoes/README.md): WebSocket, certificado × PWA, e-mail, LLM.
 - [ ] Primeiro commit da Juh.
+- [ ] **Gabs (IA):** revisar os commits marcados ⚠️ do [plano de IA](planos/ia-llm-rag.md#7-impacto-em-outras-pessoas) (secret e variáveis no compose, `AiUsage`, `RagDocument`/`RagChunk`, linha do `index-rag` no entrypoint, `make index-rag`). Achados para ele: no Prisma 7 o `make migrate` não roda o `generate` (o dev server só vê a tabela nova depois de reiniciar o container); `npm run lint` falha no projeto inteiro (o `biome.json` não configura o formatador).
+- [ ] **Di (IA):** a Privacidade diz "não usamos os seus dados para treinar modelos de IA", mas na camada gratuita o Google usa o conteúdo enviado ao Gemini; e lista "as perguntas que você faz e as respostas geradas" como dados coletados, mas nada da conversa é guardado. Pedir para ela ajustar (nomear o Google Gemini).
 - [ ] `.gitignore` ainda lista caminhos do plano antigo (`services/trails/…`, `services/ai/…`, `infra/nginx/certs/`): limpar quando o Gabs mexer no nginx.
 
 ## Rotina semanal (cerca de 15 min)

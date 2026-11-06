@@ -12,8 +12,11 @@
     "test": "vitest run"
   },
   "dependencies": {
+    "@ai-sdk/google": "4.0.109",
+    "@ai-sdk/react": "4.0.163",
     "@prisma/adapter-pg": "7.10",
     "@prisma/client": "7.10",
+    "ai": "7.0.159",
     "better-auth": "^1.7.10",
     "next": "16.4.2",
     "pg": "^8.23.1",

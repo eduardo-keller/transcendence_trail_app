@@ -2,6 +2,7 @@ COMPOSE = docker compose -f docker/docker-compose.yml
 COMPOSE_DEV = $(COMPOSE) -f docker/docker-compose.dev.yml
 SECRETS = docker/secrets/db_password.txt docker/secrets/better_auth_secret.txt
 OAUTH_SECRETS = $(foreach s,github_client_id github_client_secret ft_client_id ft_client_secret,docker/secrets/$(s).txt)
+AI_SECRET = docker/secrets/gemini_api_key.txt
 CERTS_DIR = docker/nginx/certs
 CA = $(CERTS_DIR)/ca.crt
 CERT = $(CERTS_DIR)/server.crt
@@ -9,18 +10,18 @@ CERT = $(CERTS_DIR)/server.crt
 # O DATABASE_URL só existe no processo do entrypoint; comandos via exec precisam montá-lo
 DB_ENV = export DATABASE_URL="postgresql://$$POSTGRES_USER:$$(cat /run/secrets/db_password)@postgres:5432/$$POSTGRES_DB?schema=public";
 
-.PHONY: all build up dev stop down logs sh npm migrate test import-trails studio check-env clean fclean re
+.PHONY: all build up dev stop down logs sh npm migrate test import-trails index-rag studio check-env clean fclean re
 
 all: up
 
 APP_URL = https://localhost:$$(sed -n 's/^HTTPS_PORT=//p' docker/.env | grep . || echo 8443)
 REQUIRE_DEV = $(COMPOSE) exec nextjs sh -c '[ "$$APP_MODE" = dev ]' 2>/dev/null || { echo "o app está em modo produção: rode make dev antes"; exit 1; }
 
-up: docker/.env check-env $(SECRETS) $(OAUTH_SECRETS) $(CERT) data/postgres
+up: docker/.env check-env $(SECRETS) $(OAUTH_SECRETS) $(AI_SECRET) $(CERT) data/postgres
 	$(COMPOSE) up -d --build
 	@echo "App (produção) em $(APP_URL) · e-mails em $(APP_URL)/mailpit/"
 
-dev: docker/.env check-env $(SECRETS) $(OAUTH_SECRETS) $(CERT) data/postgres
+dev: docker/.env check-env $(SECRETS) $(OAUTH_SECRETS) $(AI_SECRET) $(CERT) data/postgres
 	$(COMPOSE_DEV) up -d --build
 	@echo "App (desenvolvimento, com hot reload) em $(APP_URL) · e-mails em $(APP_URL)/mailpit/"
 
@@ -61,6 +62,10 @@ test:
 import-trails:
 	$(COMPOSE) exec nextjs sh -c '$(DB_ENV) node prisma/import-trails.mts'
 
+# Recarrega o índice do RAG a partir de apps/web/prisma/data/rag/index.jsonl (não chama a API do Gemini)
+index-rag:
+	$(COMPOSE) exec nextjs sh -c '$(DB_ENV) node prisma/index-rag.mts'
+
 studio:
 	$(COMPOSE) --profile tools up -d prisma-studio
 
@@ -76,6 +81,13 @@ $(OAUTH_SECRETS):
 	@touch $@
 	@chmod 600 $@
 	@echo "$@ criado vazio: preencha para ligar o login por esse provedor"
+
+# Chave do Gemini: vem do aistudio.google.com, não dá para gerar. Vazio = assistente de IA desligado
+$(AI_SECRET):
+	@mkdir -p docker/secrets
+	@touch $@
+	@chmod 600 $@
+	@echo "$@ criado vazio: cole uma chave do Gemini para ligar o assistente de IA"
 
 $(CA):
 	@mkdir -p $(CERTS_DIR)

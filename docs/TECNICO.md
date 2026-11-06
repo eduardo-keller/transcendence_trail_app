@@ -1,6 +1,6 @@
 # Guia técnico
 
-> Última atualização: 2026-11-01 — Mailpit para os e-mails e secrets do OAuth.
+> Última atualização: 2026-11-02 — índice do RAG (`make index-rag`) e comandos do corpus.
 > O código vence este documento. Se encontrar divergência, corrija o doc no seu PR ou avise o dono da parte.
 
 ## Como as peças se encaixam
@@ -8,8 +8,7 @@
 [![Como o Trilhas SP funciona](diagramas/arquitetura.png)](diagramas/arquitetura.png)
 
 - **Existe hoje:** `nginx` (único com porta: HTTPS em `https://localhost:8443`; a 8080 redireciona), `nextjs` (com o Socket.IO no mesmo processo, via `server.mjs`), `postgres` e `mailpit` (recebe os e-mails do app; interface em `https://localhost:8443/mailpit/`, pelo nginx). O `prisma-studio` sobe só com `make studio`, em `127.0.0.1:5555`. `make` roda o `nextjs` em produção; `make dev`, com hot reload.
-- **A fazer:** provedor de LLM (Edu). Ver [decisoes/](decisoes/README.md).
-- A IA roda dentro do Next.js (Route Handlers com streaming) e usa o pgvector do banco principal. Não há serviço separado.
+- A IA roda dentro do Next.js (Route Handlers com streaming), chama o Google Gemini pelo Vercel AI SDK e usa o pgvector do banco principal. Não há serviço separado ([llm.md](decisoes/llm.md)).
 - O navegador só fala com o nginx. Nenhuma outra porta fica exposta na versão de avaliação.
 
 ## Pastas
@@ -21,7 +20,8 @@ apps/web/                     Next.js (npm, package-lock próprio)
   src/lib/                    auth.ts, auth-client.ts, db.ts
   src/server/api/             helpers de API: erros, validação, paginação (Gabs)
   src/server/<área>/          lógica de cada área (sugestão: auth, social, trails, ai, gamification)
-  prisma/                     schema.prisma, migrations/, import-trails.mts, data/
+  prisma/                     schema.prisma, migrations/, import-trails.mts, index-rag.mts, data/ (data/rag/: corpus e índice do RAG)
+  scripts/rag/                corpus do RAG: baixar a Wikipedia, descrever as trilhas, montar e avaliar o índice
   scripts/                    scripts de teste e utilitários
 docker/                       compose, Dockerfiles, .env.example, secrets/, nginx/ (conf e certs/)
 docs/                         esta documentação
@@ -50,6 +50,8 @@ Pré-requisitos e primeira execução: [README](../README.md#instructions). `mak
 - **Usuários de teste:** `docker compose -f docker/docker-compose.yml exec nextjs node scripts/seed-users.mts` cria `alice`, `bruno`, `carla`, `diego` e `eva` (`@example.com`), senha `trilhas-dev-123`.
 - **E-mails:** todos vão para o Mailpit, em https://localhost:8443/mailpit/ (nenhum sai para a internet). Com o Mailpit fora do ar, o app continua no ar (só `/mailpit/` dá 502), mas o e-mail se perde: o erro aparece em `make logs`, e o pedido de exclusão de conta demora uns 10 s e diz que mandou o link mesmo assim (o Better Auth envia em segundo plano).
 - **OAuth:** o `make` cria vazios `docker/secrets/github_client_id.txt`, `github_client_secret.txt`, `ft_client_id.txt` e `ft_client_secret.txt`. Vazio = provedor desligado (sem botão). Para ligar, cole as credenciais e rode `make`. URL de retorno a registrar: `https://localhost:8443/api/auth/callback/github` (ou `/42`).
+- **Assistente de IA:** o `make` cria vazio `docker/secrets/gemini_api_key.txt`. Vazio = assistente desligado (o resto funciona). Com a chave (aistudio.google.com), confira com `docker compose -f docker/docker-compose.yml exec nextjs node scripts/ai-smoke.mts`. Para programar sem gastar cota, use `LLM_PROVIDER=mock` no `docker/.env` e rode `make dev`; é assim que roda o teste de ponta a ponta do assistente, `bash tests/test-ai.sh`.
+- **Base do RAG:** o índice (`apps/web/prisma/data/rag/index.jsonl`, com os embeddings) é carregado no start quando o banco está vazio, sem chamar a API; `make index-rag` recarrega. Mudou o corpus (`prisma/data/rag/`)? Recalcule com `docker compose -f docker/docker-compose.yml exec nextjs node scripts/rag/build-index.mts` (gasta cota só com os trechos novos), rode `make index-rag` e commite o `index.jsonl`. A busca é avaliada com `... exec nextjs node scripts/rag/eval.mts`.
 
 **Alterar o schema:** com `make dev` de pé, edite `apps/web/prisma/schema.prisma`, rode `make migrate name=<descricao>` e faça commit do schema junto com a pasta da migration. Quem baixar a mudança só precisa de `make`. Antes de commitar, `git status` não pode listar nada de `docker/secrets/`, `docker/.env` ou `data/postgres/`.
 
@@ -96,6 +98,7 @@ Regras do banco:
 | `notify({ userId, message, type, targetId? })` (grava a `Notification` e emite `notification` para `user:<id>` via `getIO()?.`). Tipo novo: o dono acrescenta o valor em `NotificationType` e a rota em `src/server/notification/routes.ts`, no mesmo PR; até lá, `GENERAL` | Rafa | `src/server/realtime/notify.ts` | Existe | Toda ação de criar, editar ou excluir |
 | Evento em tempo real para um usuário: `getIO()?.to(`user:<id>`).emit(<evento>)` depois de gravar no banco. Eventos: `notification`, `notification:read`, `friendship:changed`. O `RealtimeRefresh` ouve e chama `router.refresh()`; evento novo = uma linha nele | Rafa | `src/components/realtime-refresh.tsx` | Existe | Notificações, amizade, dashboard |
 | Amizade: `listFriends(userId)`, `friendshipStatus(meId, otherId)` (`none`, `sent`, `received`, `friends`) e o botão `<FriendButton userId status />` | Rafa | `src/server/social/friendship.ts`, `src/components/friend-button.tsx` | Existe | Perfil público (Di), ranking de amigos (Edu) |
+| Link para o planejador de IA: `/planejar?trilha=<id>` abre com a trilha escolhida (botão "Planejar com IA" na página da trilha) | Edu | `src/app/(assistente)/planejar/` | Existe | Catálogo (página da trilha) |
 | Concessão de XP e emblemas | Edu | a definir | A fazer | Quem tem ação que dá XP (atividades) |
 | Consultas de trilhas e atividades (`searchTrails`, `getTrail`, `listActivities`, `getActivityStats`) | Gabs | `src/server/trails/service.ts`, `src/server/activities/service.ts` | Existe | RAG, gamificação, dashboard, exportação |
 | `exportUserData(userId)`: todos os dados pessoais em JSON (perfil, avatar em base64, trilhas, atividades…), sem segredos | Gabs | `src/server/gdpr/export.ts` | Existe | GDPR (Di), exportação |

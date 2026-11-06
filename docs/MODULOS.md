@@ -72,7 +72,7 @@ Também com o Gabs: **nginx + HTTPS** (obrigatório: só o nginx expõe porta; H
 - [x] Todo acesso a dados via Prisma, exceto busca vetorial (`$queryRaw` com template tag, justificado) *(hoje o único SQL puro é o `SELECT 1` do `/api/health`)*
 
 **Demonstrar:** o `schema.prisma`, uma migration e uma query com relações.
-**Já existe:** [`schema.prisma`](../apps/web/prisma/schema.prisma), 7 migrations, cliente em `src/lib/db.ts`, importação das trilhas do OSM, testes de integração com banco real (`make test`).
+**Já existe:** [`schema.prisma`](../apps/web/prisma/schema.prisma), 11 migrations, cliente em `src/lib/db.ts`, importação das trilhas do OSM, testes de integração com banco real (`make test`).
 
 ### 16. Exportação e importação de dados (Minor, opcional)
 - [ ] 📜 Exportar dados em vários formatos (JSON, CSV, XML…)
@@ -176,34 +176,30 @@ Também com o Rafa: entregar cedo o `notify()`, que todo mundo chama. O WebSocke
 
 **Já existe:** `notify({ userId, message, type, targetId? })` em `src/server/realtime/notify.ts`; `Notification` com `type` (enum `NotificationType`) e `targetId`; link montado no servidor a partir do tipo (`src/server/notification/routes.ts`); página `/notificacoes`, onde clicar marca como lida e leva ao link (`openNotification`), e "marcar todas como lidas"; o evento `notification:read` limpa o contador em todas as abas. Faltam o sino em todas as páginas (hoje só em `/`, depende do layout da Juh), tirar o botão de teste e as ações das outras áreas.
 
-Na tabela "Ações que geram notificação", troque só as três linhas da amizade:
-
-| Enviar pedido de amizade | o destinatário | Rafa | [x] |
-| Aceitar ou recusar pedido | quem pediu | Rafa | [x] |
-| Desfazer amizade | o próprio | Rafa | [x] |
-
 ---
 
 ## Edu — IA e complementos
 
 ### 7. Interface de LLM (Major)
-- [ ] 📜 Gerar texto e/ou imagens a partir da entrada do usuário
-- [ ] 📜 Tratar respostas em streaming
-- [ ] 📜 Tratamento de erros e rate limiting
-- [ ] Botão de parar; erro do provedor vira mensagem amigável sem quebrar a página; 429 com aviso na tela
+- [x] 📜 Gerar texto e/ou imagens a partir da entrada do usuário
+- [x] 📜 Tratar respostas em streaming
+- [x] 📜 Tratamento de erros e rate limiting
+- [x] Botão de parar; erro do provedor vira mensagem amigável sem quebrar a página; 429 com aviso na tela
 
 **Como:** **planejador de trilha**: o usuário escolhe a trilha, a data, a experiência do grupo e o tempo disponível; o LLM gera o plano (horários, ritmo, equipamentos, alertas) em streaming.
 **Demonstrar:** gerar um plano, parar no meio, estourar o rate limit, simular o provedor fora do ar.
+**Já existe:** tudo. Tela `/planejar` e `POST /api/ai/plan`, com o Gemini (ou o modelo falso, `LLM_PROVIDER=mock`). A tela desabilita o botão com contagem antes do 429. Para simular o provedor fora do ar com o mock, escreva `[falha]` nas observações. Testes: `tests/integration/ai-plan.test.ts`, [tests/test-ai.sh](../tests/test-ai.sh) e [tests/ui/test_ai_planner.py](../tests/ui/test_ai_planner.py).
 
 ### 8. Sistema RAG (Major)
-- [ ] 📜 Interagir com um grande conjunto de dados
-- [ ] 📜 O usuário faz perguntas e recebe respostas relevantes
-- [ ] 📜 Recuperação de contexto e geração da resposta
-- [ ] Resposta cita as fontes; diz "não encontrei" quando o contexto não cobre a pergunta
-- [ ] Corpus com tamanho visível na tela (meta: 2.000 trechos ou mais)
+- [x] 📜 Interagir com um grande conjunto de dados
+- [x] 📜 O usuário faz perguntas e recebe respostas relevantes
+- [x] 📜 Recuperação de contexto e geração da resposta
+- [x] Resposta cita as fontes; diz "não encontrei" quando o contexto não cobre a pergunta
+- [x] Corpus com tamanho visível na tela (meta: 2.000 trechos ou mais)
 
 **Como:** "Pergunte sobre as trilhas". O corpus reúne as trilhas do catálogo, artigos da Wikipedia sobre parques e picos e guias de segurança escritos pelo time. Embeddings no pgvector (já instalado no banco). Tela e endpoint **separados** do planejador: são dois módulos.
-**Depende de:** catálogo de trilhas (dados com qualidade).
+**Não depende do catálogo:** o corpus aplica o próprio filtro (as 88 trilhas reais).
+**Já existe:** tudo. Tela `/perguntar` e `POST /api/ai/ask`, com fontes numeradas (link, licença, relevância) e "não encontrei" sem chamar o modelo. O chat lembra a conversa atual (resumo + últimas 3 trocas, guardados só na página): a pergunta de seguimento é reescrita antes da busca. Índice completo em `apps/web/prisma/data/rag/` (206 documentos, 2.212 trechos). Busca avaliada com 20 perguntas (`scripts/rag/eval.mts`): acerto@5 de 100% (o documento certo em 1º nas 20); limiar de "não encontrei" em 0,60 (perguntas do tema ≥ 0,72; fora do tema ≤ 0,58). Testes: `tests/integration/ai-ask.test.ts`, `ai-retrieve.test.ts`, [tests/test-ai.sh](../tests/test-ai.sh) e [tests/ui/test_ai_ask.py](../tests/ui/test_ai_ask.py).
 
 ### 11. Sistema de gamificação (Minor)
 - [ ] 📜 Pelo menos 3 de: conquistas, emblemas, ranking, XP/nível, desafios diários, recompensas → **XP e nível, emblemas e ranking**
@@ -246,9 +242,9 @@ Regra proposta: quem fez a ação vê um toast na hora; se ninguém mais é afet
 | Editar perfil, trocar avatar | o próprio | Di | [ ] |
 | Ativar ou desativar 2FA; vincular conta OAuth | o próprio | Di | [ ] |
 | Pedir os dados; excluir a conta (GDPR) | o próprio (e por e-mail) | Di | [ ] |
-| Enviar pedido de amizade | o destinatário | Rafa | [ ] |
-| Aceitar ou recusar pedido | quem pediu | Rafa | [ ] |
-| Desfazer amizade | o próprio | Rafa | [ ] |
+| Enviar pedido de amizade | o destinatário | Rafa | [x] |
+| Aceitar ou recusar pedido | quem pediu | Rafa | [x] |
+| Desfazer amizade | o próprio | Rafa | [x] |
 | Mensagem nova (com a conversa fechada) | o destinatário | Rafa | [ ] |
 | Registrar, editar ou excluir atividade | o próprio (registrar: também os amigos) | catálogo | [ ] |
 | Criar, editar ou excluir trilha | o próprio | catálogo | [ ] |

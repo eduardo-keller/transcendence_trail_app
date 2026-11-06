@@ -1,6 +1,6 @@
 # Dados de trilhas
 
-> Última atualização: 2026-11-01. Substitui a pesquisa de 2026-10-01 (versão completa na tag `docs-v1`).
+> Última atualização: 2026-11-02 (corpus do RAG em `prisma/data/rag/`). Substitui a pesquisa de 2026-10-01 (versão completa na tag `docs-v1`).
 
 ## O que temos
 
@@ -13,6 +13,7 @@ O catálogo vem do **OpenStreetMap**, no retângulo `-24.05, -47.10, -23.00, -46
 | [`trilhas_20261007.sqlite`](../apps/web/prisma/data/trilhas_20261007.sqlite) | O dataset: tabelas `trilhas` (3.878), `ways` (4.439) e `trilha_ways` (qual via pertence a qual trilha) |
 | [`import-trails.mts`](../apps/web/prisma/import-trails.mts) | Carrega a tabela `trilhas` em `Trail` |
 | `prisma/data/gpx/` | 3.878 GPX, um por trilha. Nenhum código usa |
+| `prisma/data/rag/` | Corpus do assistente de IA (Edu): artigos da Wikipedia, descrições das 88 trilhas reais (geradas por IA só com os dados do OSM; o `Trail.description` não muda) e guias gerais |
 
 **Importar:** acontece sozinho no start do container quando ainda não há trilhas do OSM. `make import-trails` atualiza (upsert por `externalId`; não duplica).
 

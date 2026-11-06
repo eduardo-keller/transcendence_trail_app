@@ -15,4 +15,6 @@ fi
 npx prisma migrate deploy
 # Banco novo: carrega o catálogo de trilhas do OSM (não bloqueia a subida se falhar)
 node prisma/import-trails.mts --if-empty || echo "aviso: importação das trilhas falhou (rode make import-trails)"
+# Índice do RAG: carrega os embeddings versionados, sem chamar a API (não bloqueia a subida se falhar)
+node prisma/index-rag.mts --if-empty || echo "aviso: carga do índice do RAG falhou (rode make index-rag)"
 exec "$@"

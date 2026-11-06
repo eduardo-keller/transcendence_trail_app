@@ -25,8 +25,13 @@ services:
       BETTER_AUTH_URL: https://localhost:${HTTPS_PORT:-8443}   # a URL que o navegador usa (nginx)
       SMTP_HOST: mailpit
       SMTP_PORT: "1025"
-    # Os do OAuth podem estar vazios (o make cria assim): o provedor sem credencial fica desligado
-    secrets: [db_password, better_auth_secret, github_client_id, github_client_secret, ft_client_id, ft_client_secret]
+      # Assistente de IA (ver docker/.env.example)
+      LLM_PROVIDER: ${LLM_PROVIDER:-gemini}
+      LLM_MODEL: ${LLM_MODEL:-gemini-3.5-flash-lite}
+      AI_LIMIT_PER_MINUTE: ${AI_LIMIT_PER_MINUTE:-5}
+      AI_LIMIT_PER_DAY: ${AI_LIMIT_PER_DAY:-50}
+    # Os do OAuth e o do Gemini podem estar vazios (o make cria assim): o que não tem credencial fica desligado
+    secrets: [db_password, better_auth_secret, github_client_id, github_client_secret, ft_client_id, ft_client_secret, gemini_api_key]
     depends_on:
       postgres: { condition: service_healthy }
 
@@ -86,6 +91,8 @@ secrets:
     file: ./secrets/ft_client_id.txt
   ft_client_secret:
     file: ./secrets/ft_client_secret.txt
+  gemini_api_key:
+    file: ./secrets/gemini_api_key.txt
 
 volumes:
   postgres_data:
