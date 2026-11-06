@@ -37,6 +37,11 @@ enum NotificationType {
   MESSAGE         // targetId = a conversa (a confirmar no plano do chat)
 }
 
+enum FriendshipStatus {
+  PENDING
+  ACCEPTED
+}
+
 // ---------- better-auth core ----------
 
 model User {
@@ -63,6 +68,8 @@ model User {
   notifications   Notification[]
   posts           Post[]
   badges          UserBadge[]
+  FriendshipsA    Friendship[]       @relation("FriendshipA")
+  FriendshipsB    Friendship[]       @relation("FriendshipB")
 }
 
 // Foto de perfil, guardada no banco (fora de qualquer pasta pública) e servida por /api/avatar/<userId>
@@ -266,6 +273,21 @@ model Notification {
   user      User              @relation(fields: [userId], references: [id], onDelete: Cascade)
 
   @@index([userId, isRead])
+}
+
+model Friendship {
+  id           String            @id @default(cuid())
+  userAId      String
+  userBId      String
+  requesterId  String
+  status       FriendshipStatus  @default(PENDING)
+  createdAt    DateTime          @default(now())
+  updatedAt    DateTime          @updatedAt
+  userA        User              @relation("FriendshipA", fields: [userAId], references: [id], onDelete: Cascade)
+  userB        User              @relation("FriendshipB", fields: [userBId], references: [id], onDelete:Cascade)
+  
+  @@unique([userAId, userBId])
+  @@index([userBId])
 }
 
 // ---------- gamification ----------
