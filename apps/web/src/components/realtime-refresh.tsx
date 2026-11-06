@@ -13,10 +13,12 @@ export function RealtimeRefresh() {
 		const onNotification = () => router.refresh();
 		socket.on('notification', onNotification);
 		socket.on('notification:read', onNotification);
+		socket.on('friendship:changed', onNotification);
 		socket.io.on('reconnect', onNotification);
 		return () => {
 			socket.off('notification', onNotification);
 			socket.off('notification:read', onNotification);
+			socket.off('friendship:changed', onNotification);
 			socket.io.off('reconnect', onNotification);
 		};
 	}, [socket, router]);
