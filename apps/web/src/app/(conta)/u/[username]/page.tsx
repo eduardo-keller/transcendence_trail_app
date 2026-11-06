@@ -1,36 +1,54 @@
-import { notFound } from 'next/navigation';
-import { getActivityStats } from '@/server/activities/service';
-import { getPublicProfile } from '@/server/profile/service';
-import { Avatar } from '../../_components/avatar';
-import { FriendButton } from '@/components/friend-button';
-import { getSession } from '@/server/auth/session';
-import { friendshipStatus } from '@/server/social/friendship';
+import { notFound } from "next/navigation";
+import { FriendButton } from "@/components/friend-button";
+import { getActivityStats } from "@/server/activities/service";
+import { getSession } from "@/server/auth/session";
+import { getPublicProfile } from "@/server/profile/service";
+import { friendshipStatus } from "@/server/social/friendship";
+import { Avatar } from "../../_components/avatar";
 
 type Props = { params: Promise<{ username: string }> };
 
 export async function generateMetadata({ params }: Props) {
 	const profile = await getPublicProfile((await params).username);
-	return { title: profile ? `${profile.name} (@${profile.username}) · Trilhas SP` : 'Perfil não encontrado' };
+	return {
+		title: profile
+			? `${profile.name} (@${profile.username}) · Trilhas SP`
+			: "Perfil não encontrado",
+	};
 }
 
-const since = new Intl.DateTimeFormat('pt-BR', { month: 'long', year: 'numeric', timeZone: 'America/Sao_Paulo' });
+const since = new Intl.DateTimeFormat("pt-BR", {
+	month: "long",
+	year: "numeric",
+	timeZone: "America/Sao_Paulo",
+});
 
 export default async function PublicProfilePage({ params }: Props) {
 	const profile = await getPublicProfile((await params).username);
 	if (!profile) notFound();
 	const stats = await getActivityStats(profile.id);
 	const session = await getSession();
-	const status = session &&
-		session.user.id !== profile.id ? await friendshipStatus(session.user.id, profile.id) : null;
+	const status =
+		session && session.user.id !== profile.id
+			? await friendshipStatus(session.user.id, profile.id)
+			: null;
 
 	return (
 		<main className="mx-auto flex max-w-2xl flex-col gap-6 px-4 py-10">
 			<header className="flex items-center gap-4">
-				<Avatar id={profile.id} name={profile.name} image={profile.image} size={112} />
+				<Avatar
+					id={profile.id}
+					name={profile.name}
+					image={profile.image}
+					size={112}
+				/>
 				<div>
-					<h1 className="font-display text-3xl font-bold text-forest">{profile.name}</h1>
+					<h1 className="font-display text-3xl font-bold text-forest">
+						{profile.name}
+					</h1>
 					<p className="text-stone">
-						@{profile.username} · na Trilhas SP desde {since.format(profile.createdAt)}
+						@{profile.username} · na Trilhas SP desde{" "}
+						{since.format(profile.createdAt)}
 					</p>
 				</div>
 				{status && <FriendButton userId={profile.id} status={status} />}
@@ -38,8 +56,14 @@ export default async function PublicProfilePage({ params }: Props) {
 			{profile.bio && <p className="whitespace-pre-line">{profile.bio}</p>}
 			<dl className="grid grid-cols-3 gap-3 text-center">
 				<Stat label="atividades" value={String(stats.activities)} />
-				<Stat label="km percorridos" value={(stats.distance / 1000).toFixed(1)} />
-				<Stat label="horas de trilha" value={(stats.duration / 3600).toFixed(1)} />
+				<Stat
+					label="km percorridos"
+					value={(stats.distance / 1000).toFixed(1)}
+				/>
+				<Stat
+					label="horas de trilha"
+					value={(stats.duration / 3600).toFixed(1)}
+				/>
 			</dl>
 		</main>
 	);
