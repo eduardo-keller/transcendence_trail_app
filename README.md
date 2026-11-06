@@ -87,6 +87,7 @@ erDiagram
   User ||--o{ Post : "escreve"
   Community |o--o{ Post : "contém"
   User ||--o{ Notification : "recebe"
+  User ||--o{ Friendship : "faz amizade"
   User ||--o{ UserBadge : "conquista"
   Badge ||--o{ UserBadge : "concedido"
 ```
@@ -102,6 +103,7 @@ erDiagram
 | `Trail` | `source` (enum `OSM`/`USER`), `title` (String), `distance` (Float, m), `elevationGain` (Float?, m), `difficulty` (enum), `visibility` (enum), `routeGeoJSON` (Json), `minLat`…`maxLon` (Float), `authorId` (FK?) |
 | `Activity` | `title` (String), `distance` (Float, m), `duration` (Int, s), `startedAt` (DateTime), `userId` (FK), `trailId` (FK?) |
 | `Notification` | `type` (enum `NotificationType`), `message` (String), `targetId` (String, opcional), `isRead` (Boolean), `userId` (FK) |
+| `Friendship` | `userAId` / `userBId` (FK, par ordenado e único), `requesterId` (String), `status` (enum `PENDING`/`ACCEPTED`) |
 | `Badge` / `UserBadge` | `name` (String, único) / `earnedAt` (DateTime), par `userId`+`badgeId` único |
 | `Community`, `CommunityMember`, `Event`, `EventParticipant`, `Post` | Comunidades, eventos e posts (adiados); `role` (enum) do membro; pares únicos por usuário |
 
@@ -121,6 +123,8 @@ Excluir um usuário apaga os dados dele em cascata; apagar uma trilha mantém as
 | OAuth | Login pelo GitHub e pela 42 | Diego |
 | Privacidade e dados | Baixar os dados, excluir a conta com confirmação por e-mail, páginas de Privacidade e Termos | Diego, Gabriel |
 | Tema e navegação | Cores, fontes e barra de navegação | Rafael |
+| Amizades | Pedir, aceitar, recusar e desfazer; listas de amigos e pedidos, ao vivo | Rafael |
+| Notificações | Sino com contador, página de notificações, clicar marca como lida; sincroniza entre abas | Rafael |
 
 ## Modules
 

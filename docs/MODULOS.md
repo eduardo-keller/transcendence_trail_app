@@ -150,22 +150,23 @@ Também com o Rafa: entregar cedo o `notify()`, que todo mundo chama. O WebSocke
 ### 5. Interação entre usuários (Major)
 - [ ] 📜 Chat básico: enviar e receber mensagens entre usuários
 - [ ] 📜 Sistema de perfil: ver as informações de um usuário → página da Di, aberta a partir do chat e da lista de amigos
-- [ ] 📜 Sistema de amigos: adicionar, remover, ver a lista de amigos
-- [ ] Pedido de amizade com aceitar e recusar; pedidos cruzados (A→B e B→A ao mesmo tempo) viram **uma** amizade
+- [x] 📜 Sistema de amigos: adicionar, remover, ver a lista de amigos
+- [x] Pedido de amizade com aceitar e recusar; pedidos cruzados (A→B e B→A ao mesmo tempo) viram **uma** amizade
 - [ ] Histórico do chat salvo no banco (recarregar a página não perde nada)
 
 **Demonstrar:** dois navegadores (normal e anônimo): pedido de amizade → aceitar → conversar → recarregar e o histórico continua.
-**Já existe:** nada. `Friendship` e as tabelas do chat ainda não estão no schema.
+**Já existe:** amizade. `Friendship` com par ordenado (`userAId` < `userBId`) e `@@unique`; regras e leituras em `src/server/social/friendship.ts`; actions em `friendship-actions.ts`, cada uma com `notify()`; `FriendButton` no perfil `/u/<username>` e nas listas; abas Amigos e Pedidos em `/profile`; telas atualizadas ao vivo pelo evento `friendship:changed` ([tests/integration/friendship.test.ts](../apps/web/tests/integration/friendship.test.ts)). Falta o chat.
 
 ### 6. Recursos em tempo real (Major)
 - [ ] 📜 Atualizações em tempo real entre clientes
 - [ ] 📜 Lidar bem com conexão e desconexão
-- [ ] 📜 Broadcast eficiente (salas por usuário, nunca enviar para todos)
+- [x] 📜 Broadcast eficiente (salas por usuário, nunca enviar para todos)
 - [ ] O socket só conecta depois do login (senão aparece erro no console)
 - [ ] Status online com várias abas: fechar uma aba não deixa o usuário offline
 - [ ] Ao reconectar, o cliente recupera o que perdeu
 
 **Demonstrar:** derrubar o processo do socket → aviso "reconectando…" → volta sozinho e sincroniza.
+**Já existe:** `SocketProvider` montado só com sessão (`layout.tsx`); `RealtimeRefresh` chama `router.refresh()` ao receber `notification`, `notification:read` e `friendship:changed` e ao reconectar. Notificações e amizade já atualizam ao vivo entre abas e usuários. Faltam presença, chat ao vivo e o aviso "reconectando…".
 
 ### 13. Sistema completo de notificações (Minor)
 - [ ] 📜 Notificações para **todas** as ações de criação, atualização e exclusão
@@ -173,7 +174,13 @@ Também com o Rafa: entregar cedo o `notify()`, que todo mundo chama. O WebSocke
 - [ ] Sino com contador de não lidas, página de notificações, marcar como lida (uma e todas)
 - [ ] Todas as linhas da [lista de ações](#ações-que-geram-notificação) conferidas com dois usuários
 
-**Já existe:** `notify({ userId, message, type, targetId? })` em `src/server/realtime/notify.ts`; `Notification` com `type` (enum `NotificationType`) e `targetId`; link montado a partir do tipo em `src/server/notification/routes.ts`; página `/notificacoes` com "marcar todas como lidas"; cliente Socket.IO (`SocketProvider`) que atualiza a página ao receber `notification`. Faltam marcar uma como lida, os links na página, o contador em todas as páginas, presença e chat.
+**Já existe:** `notify({ userId, message, type, targetId? })` em `src/server/realtime/notify.ts`; `Notification` com `type` (enum `NotificationType`) e `targetId`; link montado no servidor a partir do tipo (`src/server/notification/routes.ts`); página `/notificacoes`, onde clicar marca como lida e leva ao link (`openNotification`), e "marcar todas como lidas"; o evento `notification:read` limpa o contador em todas as abas. Faltam o sino em todas as páginas (hoje só em `/`, depende do layout da Juh), tirar o botão de teste e as ações das outras áreas.
+
+Na tabela "Ações que geram notificação", troque só as três linhas da amizade:
+
+| Enviar pedido de amizade | o destinatário | Rafa | [x] |
+| Aceitar ou recusar pedido | quem pediu | Rafa | [x] |
+| Desfazer amizade | o próprio | Rafa | [x] |
 
 ---
 
