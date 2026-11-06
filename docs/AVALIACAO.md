@@ -7,9 +7,9 @@
 
 | ✔ | Requisito do subject | Como verificar | Quem |
 |---|---|---|---|
-| [ ] | Web app com frontend, backend e banco | Diagrama em [TECNICO.md](TECNICO.md) | Gabs |
+| [x] | Web app com frontend, backend e banco | Diagrama em [TECNICO.md](TECNICO.md) | Gabs |
 | [ ] | Git com commits de **todos**, mensagens claras, trabalho distribuído | `git shortlog -sne`; histórico completo no repositório de entrega | Todos |
-| [ ] | Containerização com **um único comando** | Clone limpo → `make` | Gabs |
+| [x] | Containerização com **um único comando** | Clone limpo → `make` | Gabs |
 | [ ] | Compatível com a última versão estável do Chrome | Roteiro completo no Chrome atualizado | Todos |
 | [ ] | **Nenhum warning ou erro no console** | Navegar por todas as páginas, logado e deslogado, com o DevTools aberto | Todos |
 | [ ] | Privacidade e Termos **acessíveis** (rodapé) e com **conteúdo relevante** | `/privacidade` e `/termos` prontos, com o [conteúdo mínimo](#privacidade-e-termos) (`tests/ui/test_legal.py`); falta o link no rodapé | Di (páginas), Juh (rodapé) |
@@ -18,8 +18,8 @@
 | [x] | Sem corrupção de dados nem race conditions | `UNIQUE`, transações (saber explicar) | Gabs |
 | [ ] | Frontend claro, responsivo e acessível | Celular (DevTools), teclado, contraste | Juh |
 | [ ] | Framework CSS ou solução de estilo | Tailwind | Juh |
-| [ ] | Credenciais em `.env` fora do git + `.env.example` | `git ls-files \| grep -E "\.env\|secrets"` mostra só `docker/.env.example` e `docker/secrets/.gitkeep` | Gabs |
-| [ ] | Schema do banco claro, com relações bem definidas | `schema.prisma` + diagrama no README | Gabs |
+| [x] | Credenciais em `.env` fora do git + `.env.example` | `git ls-files \| grep -E "\.env\|docker/secrets/"` mostra só `docker/.env.example` e `docker/secrets/.gitkeep` | Gabs |
+| [x] | Schema do banco claro, com relações bem definidas | `schema.prisma` + diagrama no README | Gabs |
 | [ ] | Cadastro e login com e-mail e senha seguros (hash com salt) | Configuração do Better Auth; hash em `Account.password` | Di |
 | [ ] | **Todos** os formulários validados no front **e** no back | Enviar dado inválido por `curl`, sem passar pelo front | Todos |
 | [x] | **HTTPS em todo o backend** | Só o nginx expõe porta; HTTP redireciona | Gabs |

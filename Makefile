@@ -25,7 +25,7 @@ dev: docker/.env check-env $(SECRETS) $(OAUTH_SECRETS) $(AI_SECRET) $(CERT) data
 	$(COMPOSE_DEV) up -d --build
 	@echo "App (desenvolvimento, com hot reload) em $(APP_URL) · e-mails em $(APP_URL)/mailpit/"
 
-build:
+build: docker/.env
 	$(COMPOSE) build
 
 stop:

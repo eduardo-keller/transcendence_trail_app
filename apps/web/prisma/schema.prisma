@@ -28,6 +28,20 @@ enum TrailSource {
   USER // criada por um usuário
 }
 
+enum NotificationType {
+  GENERAL         // sem tipo próprio: linhas antigas e áreas que ainda não criaram o seu
+  FRIEND_REQUEST  // targetId = quem pediu
+  FRIEND_ACCEPTED // targetId = quem aceitou
+  FRIEND_DECLINED // targetId = quem recusou
+  FRIEND_REMOVED  // targetId = o ex-amigo
+  MESSAGE         // targetId = a conversa (a confirmar no plano do chat)
+}
+
+enum FriendshipStatus {
+  PENDING
+  ACCEPTED
+}
+
 // ---------- better-auth core ----------
 
 model User {
@@ -55,6 +69,8 @@ model User {
   posts           Post[]
   badges          UserBadge[]
   aiUsage         AiUsage[]
+  FriendshipsA    Friendship[]       @relation("FriendshipA")
+  FriendshipsB    Friendship[]       @relation("FriendshipB")
 }
 
 // Foto de perfil, guardada no banco (fora de qualquer pasta pública) e servida por /api/avatar/<userId>
@@ -248,14 +264,31 @@ model Post {
 }
 
 model Notification {
-  id        String   @id @default(cuid())
+  id        String            @id @default(cuid())
+  type      NotificationType  @default(GENERAL)
   message   String
-  isRead    Boolean  @default(false)
-  createdAt DateTime @default(now())
+  targetId  String?
+  isRead    Boolean           @default(false)
+  createdAt DateTime          @default(now())
   userId    String
-  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  user      User              @relation(fields: [userId], references: [id], onDelete: Cascade)
 
   @@index([userId, isRead])
+}
+
+model Friendship {
+  id           String            @id @default(cuid())
+  userAId      String
+  userBId      String
+  requesterId  String
+  status       FriendshipStatus  @default(PENDING)
+  createdAt    DateTime          @default(now())
+  updatedAt    DateTime          @updatedAt
+  userA        User              @relation("FriendshipA", fields: [userAId], references: [id], onDelete: Cascade)
+  userB        User              @relation("FriendshipB", fields: [userBId], references: [id], onDelete:Cascade)
+  
+  @@unique([userAId, userBId])
+  @@index([userBId])
 }
 
 // ---------- gamification ----------

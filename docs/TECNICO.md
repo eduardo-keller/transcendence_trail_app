@@ -90,13 +90,14 @@ Regras do banco:
 | `withHandler`, `withAction`, `ApiError`, `parseBody/Query/Params`, `paginate` | Gabs | `src/server/api/` | Existe | Todos |
 | `auth` (servidor) e `authClient` (navegador) | Di | `src/lib/auth.ts`, `src/lib/auth-client.ts` | Existe | Telas de conta |
 | `getSession()` (pode ser nulo), `requireUser()` (401, para APIs e actions) e `requirePageUser()` (redireciona para `/login`, para páginas) | Di | `src/server/auth/session.ts` | Existe | Todos (hoje: trilhas, atividades) |
-| Perfil público: `getPublicProfile(username)` e `publicProfileSelect` (nunca inclui o e-mail); link `/u/<username>` | Di | `src/server/profile/service.ts` | Existe | Amigos, chat, ranking |
+| Perfil público: `getPublicProfile(username)` e `publicProfileSelect` (nunca inclui o e-mail); link `/u/<username>` | Di | `src/server/profile/service.ts` | Existe | Amigos (`listFriends`), chat, ranking |
 | Envio de e-mail: `sendEmail({ to, subject, text })` (SMTP se houver `SMTP_HOST`; senão vai para o log) | Di | `src/server/email/send.ts` | Existe (entrega no Mailpit) | GDPR, contas |
 | Tokens de cor e tipografia + componentes | Juh | `src/components/ui/` | A fazer | Todas as telas |
 | Layout (cabeçalho, rodapé, navegação) | Juh | `src/app/layout.tsx` | A fazer | Todas as telas |
 | Socket.IO no mesmo processo do Next: só conecta quem está logado; cada usuário entra na sala `user:<id>`; `getIO()` (vazio nos testes) para emitir de Server Actions e Route Handlers | Gabs | `apps/web/server.mjs`, `src/server/realtime/io.ts` | Existe | Rafa (notificações, presença, chat) |
-| `notify(userId, …)` (grava a `Notification` e emite `notification` para `user:<id>` via `getIO()?.`) | Rafa | `src/server/realtime/` | A fazer | Toda ação de criar, editar ou excluir |
-| Envio de evento em tempo real para um usuário | Rafa | a definir | A fazer | Notificações, dashboard |
+| `notify({ userId, message, type, targetId? })` (grava a `Notification` e emite `notification` para `user:<id>` via `getIO()?.`). Tipo novo: o dono acrescenta o valor em `NotificationType` e a rota em `src/server/notification/routes.ts`, no mesmo PR; até lá, `GENERAL` | Rafa | `src/server/realtime/notify.ts` | Existe | Toda ação de criar, editar ou excluir |
+| Evento em tempo real para um usuário: `getIO()?.to(`user:<id>`).emit(<evento>)` depois de gravar no banco. Eventos: `notification`, `notification:read`, `friendship:changed`. O `RealtimeRefresh` ouve e chama `router.refresh()`; evento novo = uma linha nele | Rafa | `src/components/realtime-refresh.tsx` | Existe | Notificações, amizade, dashboard |
+| Amizade: `listFriends(userId)`, `friendshipStatus(meId, otherId)` (`none`, `sent`, `received`, `friends`) e o botão `<FriendButton userId status />` | Rafa | `src/server/social/friendship.ts`, `src/components/friend-button.tsx` | Existe | Perfil público (Di), ranking de amigos (Edu) |
 | Link para o planejador de IA: `/planejar?trilha=<id>` abre com a trilha escolhida (botão "Planejar com IA" na página da trilha) | Edu | `src/app/(assistente)/planejar/` | Existe | Catálogo (página da trilha) |
 | Concessão de XP e emblemas | Edu | a definir | A fazer | Quem tem ação que dá XP (atividades) |
 | Consultas de trilhas e atividades (`searchTrails`, `getTrail`, `listActivities`, `getActivityStats`) | Gabs | `src/server/trails/service.ts`, `src/server/activities/service.ts` | Existe | RAG, gamificação, dashboard, exportação |

@@ -89,6 +89,7 @@ erDiagram
   User ||--o{ Post : "escreve"
   Community |o--o{ Post : "contém"
   User ||--o{ Notification : "recebe"
+  User ||--o{ Friendship : "faz amizade"
   User ||--o{ UserBadge : "conquista"
   Badge ||--o{ UserBadge : "concedido"
   User ||--o{ AiUsage : "consome"
@@ -105,7 +106,8 @@ erDiagram
 | `Avatar` | `userId` (PK, FK), `mime` (String), `data` (Bytes) |
 | `Trail` | `source` (enum `OSM`/`USER`), `title` (String), `distance` (Float, m), `elevationGain` (Float?, m), `difficulty` (enum), `visibility` (enum), `routeGeoJSON` (Json), `minLat`…`maxLon` (Float), `authorId` (FK?) |
 | `Activity` | `title` (String), `distance` (Float, m), `duration` (Int, s), `startedAt` (DateTime), `userId` (FK), `trailId` (FK?) |
-| `Notification` | `message` (String), `isRead` (Boolean), `userId` (FK) |
+| `Notification` | `type` (enum `NotificationType`), `message` (String), `targetId` (String, opcional), `isRead` (Boolean), `userId` (FK) |
+| `Friendship` | `userAId` / `userBId` (FK, par ordenado e único), `requesterId` (String), `status` (enum `PENDING`/`ACCEPTED`) |
 | `Badge` / `UserBadge` | `name` (String, único) / `earnedAt` (DateTime), par `userId`+`badgeId` único |
 | `AiUsage` | Rate limit do assistente de IA: `userId` (FK) + `period` (String: o minuto ou o dia, em UTC) como chave, `count` (Int). Não guarda o que foi perguntado |
 | `RagDocument` / `RagChunk` | Base do assistente: documento (`source`: Wikipedia, trilha ou guia; `title`, `url`, `license`, `trailExternalId`) / trecho (`content`, `embedding` vector(768)). Carregada de um arquivo versionado; não guarda nada do usuário |
@@ -127,6 +129,8 @@ Excluir um usuário apaga os dados dele em cascata; apagar uma trilha mantém as
 | OAuth | Login pelo GitHub e pela 42 | Diego |
 | Privacidade e dados | Baixar os dados, excluir a conta com confirmação por e-mail, páginas de Privacidade e Termos | Diego, Gabriel |
 | Tema e navegação | Cores, fontes e barra de navegação | Rafael |
+| Amizades | Pedir, aceitar, recusar e desfazer; listas de amigos e pedidos, ao vivo | Rafael |
+| Notificações | Sino com contador, página de notificações, clicar marca como lida; sincroniza entre abas | Rafael |
 | Pergunte sobre as trilhas (IA) | `/perguntar`: perguntas respondidas a partir de uma base própria (Wikipedia, trilhas do OSM, guias), com as fontes de cada resposta | Eduardo |
 | Planejador de trilha com IA | `/planejar`: escolhe a trilha, a data, a experiência e as horas; o plano chega em streaming, com Parar, limite de uso e erro amigável | Eduardo |
 
@@ -146,7 +150,7 @@ Excluir um usuário apaga os dados dele em cascata; apagar uma trilha mantém as
 | OAuth 2.0 | Minor | 1 | Entrar com a conta da 42 ou do GitHub | GitHub e 42 pelo Better Auth, com state e PKCE | Diego |
 | Gamificação | Minor | 1 | Incentivar a registrar atividades | *A fazer.* | Eduardo |
 | GDPR | Minor | 1 | O app guarda dados pessoais | Exportação em JSON; exclusão com senha e link por e-mail | Diego, Gabriel |
-| Notificações | Minor | 1 | Avisar sobre cada ação | *A fazer.* | Rafael |
+| Notificações | Minor | 1 | Avisar sobre cada ação | `notify()` grava e entrega ao vivo; página `/notificacoes`; ações a ligar | Rafael |
 | 2FA | Minor | 1 | Proteger as contas | TOTP e códigos de recuperação | Diego |
 | Design system | Minor | 1 | Identidade visual própria | *A fazer.* | Juh |
 | **Total** | | **20** | | | |
