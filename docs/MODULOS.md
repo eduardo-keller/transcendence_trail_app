@@ -72,7 +72,7 @@ Também com o Gabs: **nginx + HTTPS** (obrigatório: só o nginx expõe porta; H
 - [x] Todo acesso a dados via Prisma, exceto busca vetorial (`$queryRaw` com template tag, justificado) *(hoje o único SQL puro é o `SELECT 1` do `/api/health`)*
 
 **Demonstrar:** o `schema.prisma`, uma migration e uma query com relações.
-**Já existe:** [`schema.prisma`](../apps/web/prisma/schema.prisma), 7 migrations, cliente em `src/lib/db.ts`, importação das trilhas do OSM, testes de integração com banco real (`make test`).
+**Já existe:** [`schema.prisma`](../apps/web/prisma/schema.prisma), 11 migrations, cliente em `src/lib/db.ts`, importação das trilhas do OSM, testes de integração com banco real (`make test`).
 
 ### 16. Exportação e importação de dados (Minor, opcional)
 - [ ] 📜 Exportar dados em vários formatos (JSON, CSV, XML…)
@@ -176,12 +176,6 @@ Também com o Rafa: entregar cedo o `notify()`, que todo mundo chama. O WebSocke
 
 **Já existe:** `notify({ userId, message, type, targetId? })` em `src/server/realtime/notify.ts`; `Notification` com `type` (enum `NotificationType`) e `targetId`; link montado no servidor a partir do tipo (`src/server/notification/routes.ts`); página `/notificacoes`, onde clicar marca como lida e leva ao link (`openNotification`), e "marcar todas como lidas"; o evento `notification:read` limpa o contador em todas as abas. Faltam o sino em todas as páginas (hoje só em `/`, depende do layout da Juh), tirar o botão de teste e as ações das outras áreas.
 
-Na tabela "Ações que geram notificação", troque só as três linhas da amizade:
-
-| Enviar pedido de amizade | o destinatário | Rafa | [x] |
-| Aceitar ou recusar pedido | quem pediu | Rafa | [x] |
-| Desfazer amizade | o próprio | Rafa | [x] |
-
 ---
 
 ## Edu — IA e complementos
@@ -248,9 +242,9 @@ Regra proposta: quem fez a ação vê um toast na hora; se ninguém mais é afet
 | Editar perfil, trocar avatar | o próprio | Di | [ ] |
 | Ativar ou desativar 2FA; vincular conta OAuth | o próprio | Di | [ ] |
 | Pedir os dados; excluir a conta (GDPR) | o próprio (e por e-mail) | Di | [ ] |
-| Enviar pedido de amizade | o destinatário | Rafa | [ ] |
-| Aceitar ou recusar pedido | quem pediu | Rafa | [ ] |
-| Desfazer amizade | o próprio | Rafa | [ ] |
+| Enviar pedido de amizade | o destinatário | Rafa | [x] |
+| Aceitar ou recusar pedido | quem pediu | Rafa | [x] |
+| Desfazer amizade | o próprio | Rafa | [x] |
 | Mensagem nova (com a conversa fechada) | o destinatário | Rafa | [ ] |
 | Registrar, editar ou excluir atividade | o próprio (registrar: também os amigos) | catálogo | [ ] |
 | Criar, editar ou excluir trilha | o próprio | catálogo | [ ] |
