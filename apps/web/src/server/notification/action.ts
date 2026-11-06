@@ -34,7 +34,7 @@ export async function sendTestNotification() {
 export async function openNotification(id: string) {
 	const user = await requireUser();
 	
-	if (typeof id != 'string') return ;
+	if (typeof id !== 'string') return ;
 	
 	const notification = await prisma.notification.findFirst({
 		where: {id, userId: user.id},
