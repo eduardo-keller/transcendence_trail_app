@@ -2,6 +2,9 @@ import { notFound } from 'next/navigation';
 import { getActivityStats } from '@/server/activities/service';
 import { getPublicProfile } from '@/server/profile/service';
 import { Avatar } from '../../_components/avatar';
+import { FriendButton } from '@/components/friend-button';
+import { getSession } from '@/server/auth/session';
+import { friendshipStatus } from '@/server/social/friendship';
 
 type Props = { params: Promise<{ username: string }> };
 
@@ -16,6 +19,9 @@ export default async function PublicProfilePage({ params }: Props) {
 	const profile = await getPublicProfile((await params).username);
 	if (!profile) notFound();
 	const stats = await getActivityStats(profile.id);
+	const session = await getSession();
+	const status = session &&
+		session.user.id !== profile.id ? await friendshipStatus(session.user.id, profile.id) : null;
 
 	return (
 		<main className="mx-auto flex max-w-2xl flex-col gap-6 px-4 py-10">
@@ -27,6 +33,7 @@ export default async function PublicProfilePage({ params }: Props) {
 						@{profile.username} · na Trilhas SP desde {since.format(profile.createdAt)}
 					</p>
 				</div>
+				{status && <FriendButton userId={profile.id} status={status} />}
 			</header>
 			{profile.bio && <p className="whitespace-pre-line">{profile.bio}</p>}
 			<dl className="grid grid-cols-3 gap-3 text-center">
